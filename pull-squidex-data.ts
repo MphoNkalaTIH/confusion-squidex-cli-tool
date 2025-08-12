@@ -49,21 +49,23 @@ async function getComponentsData(token: string): Promise<SquidexComponentItem[] 
   })
 }
 
-
-function buildFileName(data: DataFields): string {
+function buildFilePath(data: DataFields, id: string, outDir: string): string {
   const env = data.environmentId?.iv ?? '';
   const brand = data.brand?.iv ?? '';
   const route = data.route?.iv ?? '';
   const baseRoute = data.baseRoute?.iv ?? '';
-  return `${env}-${brand}-${route}-${baseRoute}.json`;
+  // folders: output/env/brand/
+  // file: route-baseRoute-id.json
+  const folderPath = path.join(outDir, env, brand);
+  const fileName = `${route}-${baseRoute}-${id}.json`;
+  return path.join(folderPath, fileName);
 }
 
 async function writeDataFiles(items: SquidexComponentItem[], outDir: string) {
-  await fs.mkdir(outDir, { recursive: true });
-
   for (const item of items) {
-    const filename = path.join(outDir, buildFileName(item.data));
-    await fs.writeFile(filename, JSON.stringify(item.data, null, 2), 'utf-8');
+    const filePath = buildFilePath(item.data, item.id, outDir);
+    await fs.mkdir(path.dirname(filePath), { recursive: true });
+    await fs.writeFile(filePath, JSON.stringify(item.data, null, 2), 'utf-8');
   }
 }
 
