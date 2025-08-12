@@ -23,6 +23,7 @@ interface SquidexListResponse<T> {
 interface DataFields {
   brand?: { iv: string };
   route?: { iv: string };
+  name?: {iv: string},
   baseRoute?: { iv: string };
   environmentId?: { iv: string };
   [key: string]: any;
@@ -43,16 +44,25 @@ async function getComponentsData(token: string): Promise<SquidexComponentItem[] 
   })
 }
 
+function getNameAsRoute(name: string){
+  return name.replace(" ", "-").toLocaleLowerCase();
+}
+
 function buildFilePath(data: DataFields, id: string, outDir: string): string {
   const env = data.environmentId?.iv ?? '';
   const brand = data.brand?.iv ?? '';
-  const route = data.route?.iv ?? '';
-  const baseRoute = data.baseRoute?.iv ?? '';
+  let route = data.route?.iv ?? '';
+  const baseRoute = data.baseRoute?.iv != "" ? data.baseRoute!.iv :  getNameAsRoute(data.name!.iv);
 
   //folders: output/env/brand/
   //file: route-baseRoute-id.json
-  const folderPath = path.join(outDir, env, brand);
-  const fileName = `${baseRoute}-${route}-${id}.json`;
+  const folderPath = path.join(outDir, env, brand, baseRoute);
+
+  let fileName = '';
+
+  if(route == "") fileName = `${baseRoute}-${id}.json`; 
+  else fileName = `${route}-${id}.json`;
+  
   return path.join(folderPath, fileName);
 }
 
