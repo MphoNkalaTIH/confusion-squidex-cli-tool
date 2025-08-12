@@ -5,12 +5,6 @@ import path from 'path';
 
 dotenv.config();
 
-interface TokenResponse {
-  access_token: string;
-  token_type: string;
-  expires_in: number;
-  scope: string;
-}
 
 interface SquidexComponentItem {
   id: string;
@@ -54,17 +48,31 @@ function buildFilePath(data: DataFields, id: string, outDir: string): string {
   const brand = data.brand?.iv ?? '';
   const route = data.route?.iv ?? '';
   const baseRoute = data.baseRoute?.iv ?? '';
-  // folders: output/env/brand/
-  // file: route-baseRoute-id.json
+
+  //folders: output/env/brand/
+  //file: route-baseRoute-id.json
   const folderPath = path.join(outDir, env, brand);
-  const fileName = `${route}-${baseRoute}-${id}.json`;
+  const fileName = `${baseRoute}-${route}-${id}.json`;
   return path.join(folderPath, fileName);
 }
+
 
 async function writeDataFiles(items: SquidexComponentItem[], outDir: string) {
   for (const item of items) {
     const filePath = buildFilePath(item.data, item.id, outDir);
     await fs.mkdir(path.dirname(filePath), { recursive: true });
+
+    try {
+      //file exists?
+      await fs.access(filePath);
+      //if no error, file exists
+      console.log(`Updating existing file: ${filePath}`);
+    } catch {
+      //if error, file does not exist
+      console.log(`Creating new file: ${filePath}`);
+    }
+
+    //create or update the file
     await fs.writeFile(filePath, JSON.stringify(item.data, null, 2), 'utf-8');
   }
 }
