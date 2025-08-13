@@ -29,8 +29,10 @@ interface DataFields {
 
 async function getComponentsData(token: string): Promise<SquidexComponentItem[] | null> {
   //get qoute sections from squidex
+  const QOUTE_SECTIONS_URL =  `${(process.env.ENVIRONMENT ?? 'DEV')}_QOUTE_SECTIONS_URL`;
+
   return await axios.get<SquidexListResponse<SquidexComponentItem>>(
-    process.env.QOUTE_SECTIONS_URL ?? '',
+    process.env[QOUTE_SECTIONS_URL] ?? '',
     {
       headers: { Authorization: `Bearer ${token}` }
     }
