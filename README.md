@@ -26,7 +26,6 @@ Follow these steps to set up and run the system:
       ENVIRONMENT="DEV" #examples: DEV, SIT, UAT
       CLIENT_ID="example_client_id"
       CLIENT_SECRET="example_client_secret"
-      ACCESS_TOKEN="example_token"
       DEV_QOUTE_SECTIONS_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion/quote-sections"
       SIT_QOUTE_SECTIONS_URL="m_i_a"
       UAT_QOUTE_SECTIONS_URL="m_i_a"
@@ -68,7 +67,7 @@ Here is an overview of the architecture flow:
 - **App Not running:** Ensure that you run npm install before runnng any app commands. And also ensure that you have a .env file with updated credentials.
 - **Don't have credentials:**
   ```  
-  1. getting access token
+  1. not having an access token
      -- log in to squidex and check application tab -> under user profile in session storage you should see access token
   2. getting client id and client secret
     -- log in to squidex >> navigate to profile >> generate secret >> copy client id and secret
