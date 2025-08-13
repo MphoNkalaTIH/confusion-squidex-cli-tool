@@ -1,7 +1,7 @@
 {
   "id": "e2cb8d73-de71-472f-ad2f-cc4a2c025b2e",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "budget"
@@ -1065,6 +1065,36 @@
                       "goToStart": false
                     },
                     "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "998a7960-ac97-4412-af5e-f3988724de94"
+                      ],
+                      "statePropertyPaths": [
+                        "homeContents.homeContents.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
                     "img": null,
                     "useImageAsButton": null,
                     "theme": "primary",
@@ -1456,7 +1486,7 @@
     }
   },
   "created": "2025-04-30T05:31:10Z",
-  "lastModified": "2025-08-11T11:36:07Z",
+  "lastModified": "2025-08-13T11:19:47Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlMmNiOGQ3My1kZTcxLTQ3MmYtYWQyZi1jYzRhMmMwMjViMmUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1536,14 +1566,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e/5",
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e/6",
       "method": "GET"
     },
     "draft/create": {

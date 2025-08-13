@@ -3,11 +3,6 @@ import  'dotenv/config';
 import fs from 'fs/promises';
 import path from 'path';
 
-interface SquidexListResponse<T> {
-  total: number;
-  items: T[];
-}
-
 interface DataFields {
   brand?: { iv: string };
   route?: { iv: string };
@@ -21,15 +16,16 @@ async function getUserAccessToken(): Promise<string | null>{
     return await axios.post(
         process.env.IDENTITY_SERVER_URL ?? '',
         {
-            grant_type: 'client_credentials',
-            client_id: process.env.CLIENT_ID ?? '',
-            client_secret: process.env.CLIENT_SECRET ?? '',
-            scope: process.env.SCOPE ?? '',
+          grant_type: 'client_credentials',
+          client_id: process.env.CLIENT_ID ?? '',
+          client_secret: process.env.CLIENT_SECRET ?? '',
+          scope: process.env.SCOPE ?? '',
         },
         {
-            headers: {
-                "Content-Type": 'application/x-www-form-urlencoded'
-            }
+          headers: 
+          {
+            "Content-Type": 'application/x-www-form-urlencoded'
+          }
         }
     )
     .then((resp) => resp.data.access_token)
@@ -38,22 +34,20 @@ async function getUserAccessToken(): Promise<string | null>{
 
 async function getComponentsData(token: string): Promise<any[] | null> {
   //get qoute sections from squidex
-  const QOUTE_SECTIONS_URL =  `${(process.env.ENVIRONMENT ?? 'DEV')}_QOUTE_SECTIONS_URL`;
+  const QOUTE_SECTIONS_URL = `${(process.env.ENVIRONMENT ?? 'DEV')}_QOUTE_SECTIONS_URL`;
 
-  return await axios.get<SquidexListResponse<any>>(
+  return await axios.get<any>(
     process.env[QOUTE_SECTIONS_URL] ?? '',
     {
       headers: 
       { 
         Authorization: `Bearer ${token}`,
-        "Content-Type": "application/json"
       }
     }
   ).then((resp) =>{
     console.log("[#] Done doing fetch components from squidex [#]");
     return resp.data.items;
   }).catch((err)=> {
-
     console.log({error_fetching: err})
     return null
   })
@@ -104,7 +98,7 @@ async function writeDataFiles(items: any[], outDir: string) {
 
 (async () => {
   try {
-    const ACCESS_TOKEN = await getUserAccessToken();
+    const ACCESS_TOKEN = process.env.TOKEN //await getUserAccessToken();
     if(!ACCESS_TOKEN) return;
 
     const items = await getComponentsData(ACCESS_TOKEN);
