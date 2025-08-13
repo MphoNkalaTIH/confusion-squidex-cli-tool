@@ -1,0 +1,551 @@
+{
+  "id": "924d7aac-e0bd-4064-9790-31fb4e94a522",
+  "createdBy": "client:con-fusion:owner",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "autogen"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": ""
+    },
+    "name": {
+      "iv": "Getting Started"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": null
+    },
+    "excludeFromTrackbar": {
+      "iv": true
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 1
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Static Index Page",
+          "route": "get-started",
+          "pageBase": null,
+          "pageDisabled": true,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "static-page",
+              "moduleName": "StaticModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "htmlHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"image-parent\">\n    <img width=\"531\" height=\"360\" fetchpriority=\"high\" loading=\"eager\" class=\"main-image\" src=\"{{assetsUrl}}/autogen-cover-image.png\" alt=\"100% of valid claims paid\">\n    <div class=\"left-side-text\">\n        <img width=\"119\" height=\"360\" fetchpriority=\"high\" loading=\"eager\" src=\"{{assetsUrl}}/autogen-text.png\" alt=\"A&G\" >\n    </div>\n    <div class=\"right-side-text\">\n        <h2>\n            <span class=\"font-georgia-normal\">100% of valid</span><br/>\n            <span class=\"bottom-text\">claims paid</span></h2>\n    </div>\n</div>"
+                  }
+                },
+                {
+                  "id": "htmlSubHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h3 class=\"text-center mb-5 font-georgia-normal\">Get your free car insurance quote in minutes</h3>"
+                  }
+                },
+                {
+                  "id": "btnGetStarted",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Start my quote",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "collapsibleSections",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": false,
+                    "formItems": [
+                      {
+                        "id": "section_00",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<p>\n    With Auto&General, you get more than just a policy. You get help, specific to your needs, and access to awesome benefits, like our Cash Back Plus.\n</p>\n\n<p>\n    Get your obligation-free online car insurance quote with us today!\n</p>"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_01",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h3 class=\"font-georgia font-bold\">What information is needed to get a car insurance quote?</h3>\n<p>\n    The quote process shouldn’t take you too long to complete. There are just five steps, and you will need to give us the following information:\n</p>\n<div class=\"flex flex-col gap-5 mb-4\">\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/82eef4ca-c5ba-4740-b7aa-6e012c6379a1/autogen-icon-id.svg\" alt=\"Identity card icon\">\n        <div class=\"ml-2 font-bold\">Your South African identity number or foreign passport number</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/ddd406ec-f6c7-4213-bd91-a540bc21c572/autogen-icon-personal.svg\" alt=\"Person icon\">\n        <div class=\"ml-2 font-bold\">Your personal information (full name, date of birth, address)</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/autogen-icon-car.png\" alt=\"Car insurance icon\">\n        <div class=\"ml-2 font-bold\">Car information (year, make, model, type and colour)</div>\n    </div>\n</div>\n<p class=\"mb-8\">\n    You will also be asked detailed questions about your car, like where it’s parked at night. This has to be done, so that we can give you the most accurate car insurance quote.\n</p>"
+                              }
+                            },
+                            {
+                              "id": "btnViewMore",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "Show more",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "btnViewLess",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "Show less",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "panelIcon",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                                "assets": [
+                                  "ddcf0963-e8f1-4934-9e34-dde61ae63583"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_02",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h3 class=\"font-georgia font-bold\">Reasons to get car insurance with Auto&General</h3>\n<p>\n    You need car insurance, so that you have help when there’s an unforeseen event, like theft, damage or a car accident.\n</p>\n<p>\n    Auto&General is your best choice for a personalised, affordable car insurance quote. Here’s why:\n</p>\n<div class=\"flex flex-col gap-6 mb-8\">\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/autogen-icon-car.png\" alt=\"Car insurance icon\">\n        <div class=\"ml-4 font-bold\">7 car insurance options to choose from</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/autogen-icon-premium.svg\" alt=\"Affordable premiums icon\">\n        <div class=\"ml-4 font-bold\">Affordable, value for money, monthly premiums</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/autogen-icon-cashback.svg\" alt=\"Cash back bonus icon\">\n        <div class=\"ml-4 font-bold\">Cash Back Plus rewards programme</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/autogen-icon-support.svg\" alt=\"Customer support icon\">\n        <div class=\"ml-4 font-bold\">Great customer support services</div>  \n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10 w-11\" src=\"{{assetsUrl}}/autogen-icon-assist.svg\" alt=\"Roadside assist benefit icon\">\n        <div class=\"ml-4 font-bold\">Roadside assistance for breakdown or accidents</div>\n    </div>\n</div>"
+                              }
+                            },
+                            {
+                              "id": "btnViewMore",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "Show more",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "btnViewLess",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "Show less",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "panelIcon",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                                "assets": [
+                                  "d036e2f4-c2d4-4c2e-bdb3-57c58fce5e2e"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_03",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h3 class=\"font-georgia font-bold\">How to do a car insurance quotes comparison?</h3>\n<p>\n    The type and amount of car insurance you choose will affect your monthly premiums. Before requesting a car insurance quote, we recommend having a look at our car insurance options, so you can get an idea of the car insurance cover that makes sense for your lifestyle. \n</p>\n<p>\n    Auto&General car insurance quotes are available on the following cover types, insured values and value added products:\n</p>\n<div class=\"flex flex-col gap-6 mb-4\">\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10\" src=\"{{assetsUrl}}/autogen-icon-comprehensive.svg\" alt=\"Comprehensive insurance\">\n    <div class=\"ml-4 font-bold\">Comprehensive</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10\" src=\"{{assetsUrl}}/autogen-icon-third-fire-theft.svg\" alt=\"Third-party, fire and theft icon\">\n        <div class=\"ml-4 font-bold\">Third-Party, Fire and Theft</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10\" src=\"{{assetsUrl}}/autogen-icon-lite.svg\" alt=\"Auto&General Express\">\n        <div class=\"ml-4 font-bold\">Auto&General Express</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10\" src=\"{{assetsUrl}}/autogen-icon-third-party-only.svg\" alt=\"Third-party only cover icon\">\n        <div class=\"ml-4 font-bold\">Third-Party only cover</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10\" src=\"{{assetsUrl}}/autogen-icon-better-car.svg\" alt=\"Better car icon\">\n        <div class=\"ml-4 font-bold\">BetterCar</div>  \n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10\" src=\"{{assetsUrl}}/autogen-icon-scratch-dent.svg\" alt=\"Scratch and dent icon\">\n        <div class=\"ml-4 font-bold\">Scratch & dent</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img class=\"h-10\" src=\"{{assetsUrl}}/autogen-icon-tire-rim.svg\" alt=\"Tyre and rim guard\">\n        <div class=\"ml-4 font-bold\">Tyre & rim guard</div>\n    </div>\n</div>\n<p>\n    Remember to consider the excess, limits and the cost of a car accident when you’re making your decision. An excess refers to the amount of money you will need to pay out-of-pocket toward a covered claim. When you’ve met your deductible, it means you have paid the amount of your car insurance’s deductible and your insurance will help cover the remaining costs of your claim, up to the cover limit.\n</p>\n<p class=\"mb-8\">   \n    The insurance limit refers to the maximum amount of money your insurer will contribute towards a covered claim. The higher your coverage limit, the higher premium you will pay. Once you’ve considered the bigger picture, you’re ready to request your car insurance quote.\n</p>\n\n"
+                              }
+                            },
+                            {
+                              "id": "btnViewMore",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "Show more",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "htmlBlockCollapsed",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<div class=\"flex flex-col gap-6 mb-2\">\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-motor-warranty-2.svg\" alt=\"Third-party, fire and theft icon\">\r\n        <div class=\"ml-4 font-medium\">Third-Party, Fire and Theft</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-comprehensive-2.svg\" alt=\"Comprehensive insurance\">\r\n        <div class=\"ml-4 font-medium\">Comprehensive</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-budget-lite-2.svg\" alt=\"Budget lite icon\">\r\n        <div class=\"ml-4 font-medium\">Budget Lite</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-same-car-2.svg\" alt=\"Better car icon\">\r\n        <div class=\"ml-4 font-medium\">BetterCar</div>  \r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-scratch-dent-2.svg\" alt=\"Scratch and dent icon\">\r\n        <div class=\"ml-4 font-medium\">Scratch & dent</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-thirdparty-only-2.svg\" alt=\"Third-party only cover icon\">\r\n        <div class=\"ml-4 font-medium\">Third-Party only cover</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-tyre-rim-2.svg\" alt=\"Tyre and rim guard\">\r\n        <div class=\"ml-4 font-medium\">Tyre & rim guard</div>\r\n    </div>\r\n</div>\r\n<p>\r\nRemember to consider the deductibles, limits and the cost of a \r\ncar accident when you’re making your decision. An excess refers \r\nto the amount of money you will need to pay out-of-pocket toward \r\na covered claim. When you’ve met your deductible, it means you \r\nhave paid the amount of your car insurance’s deductible and your \r\ninsurance will help cover the remaining costs of your claim, up \r\nto the cover limit.\r\n</p>\r\n<p>\r\nThe insurance limit refers to the maximum amount of money your \r\ninsurer will contribute towards a covered claim. The higher your \r\ncoverage limit, the higher premium you will pay. Once you’ve \r\nconsidered the bigger picture, you’re ready to request your car \r\ninsurance quote.\r\n</p>\r\n\r\n"
+                              }
+                            },
+                            {
+                              "id": "btnViewLess",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "Show less",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "panelIcon",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                                "assets": [
+                                  "c13fcd67-1f1b-41eb-9b38-84bdc8349805"
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_04",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h3 class=\"font-georgia-normal\">Switch to Auto&General</h3>\n<div class=\"flex items-center\">\n    <div class=\"w-72 mr-4\">\n        <img class=\"block m-auto\" src=\"{{assetsUrl}}/9f1c7ff5-0ba5-4918-8dc6-be0df7957308/autogen-icon-score.png\" alt=\"Auto&General insurance rewards rating\"/>\n    </div>\n    <p>\n        Our independent review rating comes out tops, according to customers who chose to get Auto&General car insurance.\n    </p>\n</div>\n\n"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Car Make Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": true,
+          "additionalData": {
+            "doFilterCall": true
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "car-make-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": "CarMakePageComponent",
+              "formItems": [
+                {
+                  "id": "btnMake",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Make",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "car-details",
+                      "pageRoute": "car-year"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal\">Get your car insurance quote in minutes.</h1>"
+                  }
+                },
+                {
+                  "id": "txtCollapseText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"font-normal\">\n    Auto&General is the insurer South Africans trust to be there when it matters.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select the make of the car</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPlaceHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Search for car make",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-07-16T12:13:38Z",
+  "lastModified": "2025-05-26T06:46:31Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5MjRkN2FhYy1lMGJkLTQwNjQtOTc5MC0zMWZiNGU5NGE1MjIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 8,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522/7",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522",
+      "method": "PUT"
+    }
+  }
+}

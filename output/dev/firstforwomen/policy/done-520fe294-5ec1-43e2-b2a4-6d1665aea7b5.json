@@ -1,0 +1,358 @@
+{
+  "id": "520fe294-5ec1-43e2-b2a4-6d1665aea7b5",
+  "createdBy": "client:con-fusion:owner",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "firstforwomen"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 1
+    },
+    "route": {
+      "iv": "done"
+    },
+    "name": {
+      "iv": "Done"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-circle-check"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 2
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Welcome Page",
+          "route": "welcome",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "welcome-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center\">\n    <img class=\"mb-3 md:mb-4 mt-4 md:mt-5\" src=\"{{assetsUrl}}/77052fbe-b631-4bcc-b33d-f0ca1a0ac25f/successtick.svg\">\n    <h2><span class=\"text-sub-8 font-medium leading-8\">Welcome to SA’s insurer dedicated to keeping women safe, {{name}}!</span></h2>\n    <p>\n        <br/>You will be covered as of {{coverStartDate}}\n        <br/>Your policy number is {{policyNumber}}\n    </p>\n</div>\n<div class=\"flex justify-center\">\n    <hr class=\"mb-5 mt-3 w-full mx-2\"/>\n</div>\n<p class=\"font-bold text-base\">Here's what you need to do next...</p>"
+                  }
+                },
+                {
+                  "id": "txtGroup",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "txtDownloadMobile",
+                        "conditionValue": "mobile",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cf4441fa-ba82-45fe-919f-dfacea8d7423/icon-download-app.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><a href=\"https://onelink.to/yhq3kv\" target=\"_blank\" class=\"font-medium\">Download our app</a> to access your dashboard and manage your policy.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtDownloadDesktop",
+                        "conditionValue": "desktop",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cf4441fa-ba82-45fe-919f-dfacea8d7423/icon-download-app.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"font-medium text-main-3\">Download our app</span> to access your dashboard and manage your policy.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtSubmit",
+                        "conditionValue": "isCollected",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/be011c81-ee7b-48f4-a6da-5d300287e6ec/icon-submit-photos.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-3 font-medium\">Submit photos</span> for your vehicle inspection from your phone (it's quick and easy) <span class=\"text-main-3 font-medium\">within 48 hours</span> of the cover start date, to ensure you are covered.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtNetstar",
+                        "conditionValue": "netstar",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/653bb25b-0544-4add-bbf6-e58dd0bc6a31/icon-netstar.svg\" />\n    <span class=\"text-sm pl-4 self-center\">Expect a call from an agent to book your car for a <span class=\"text-main-3 font-medium\">Netstar tracking device installation</span> appointment.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtOwnTracker",
+                        "conditionValue": "ownTracker",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/666f9f0c-f2b5-4b0a-a5c6-105c568d4f6e/icon-device-certificate.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-3 font-medium\">Upload</span> your car's tracking device certificate online <span class=\"text-main-3 font-medium\">within 7 working days.</span></span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtUserPh",
+                        "conditionValue": "A",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/1521ba91-aee7-47eb-a392-5d813767484a/affordable-premium.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-3 font-medium\">You</span> should <span class=\"text-main-3 font-medium\">expect a call</span> from us regarding your banking details.</span>\n</div>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "txtUserThirdParty",
+                        "conditionValue": "ThirdParty",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/1521ba91-aee7-47eb-a392-5d813767484a/affordable-premium.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-3 font-medium\">{{householdMember}}</span> should <span class=\"text-main-3 font-medium\">expect a call</span> from us regarding their banking details.</span>\n</div>",
+                          "htmlEvents": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "DOWNLOAD APP",
+                    "route": null,
+                    "url": "https://onelink.to/yhq3kv",
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "groupMobile",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "txtDownloadAppInfo",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p class=\"col-span-3 pb-2\">Download the 1st for Women app in these stores:</p>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "btnAppStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "App Store",
+                          "route": null,
+                          "url": "https://itunes.apple.com/us/app/1st-for-women/id920508554?ls=1&",
+                          "img": [
+                            "49c0dc96-0e5b-418f-bb28-f592569adef6"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnGoogleStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Google Store",
+                          "route": null,
+                          "url": "https://play.google.com/store/apps/details?id=za.co.ffw.prod",
+                          "img": [
+                            "ed387c7c-d1e6-4097-b276-c7b7d642862e"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnHuaweiStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Huawei Store",
+                          "route": null,
+                          "url": "https://appgallery.huawei.com/#/app/C102385215",
+                          "img": [
+                            "ae64f691-28b8-4bb2-8d94-b1ae729a7f31"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-07-16T12:13:36Z",
+  "lastModified": "2024-09-18T12:15:04Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI1MjBmZTI5NC01ZWMxLTQzZTItYjJhNC02ZDE2NjVhZWE3YjUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 8,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5/7",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/520fe294-5ec1-43e2-b2a4-6d1665aea7b5",
+      "method": "PUT"
+    }
+  }
+}
