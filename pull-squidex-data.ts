@@ -1,35 +1,13 @@
 import axios from 'axios';
-import dotenv from 'dotenv';
+import 'dotenv/config';
 import fs from 'fs/promises';
 import path from 'path';
-
-dotenv.config();
-
-
-interface SquidexComponentItem {
-  id: string;
-  created: string;
-  lastModified: string;
-  createdBy: string;
-  lastModifiedBy: string;
-  data: Record<string, any>;
-}
-
-interface SquidexListResponse<T> {
-  total: number;
-  items: T[];
-}
-
-interface DataFields {
-  brand?: { iv: string };
-  route?: { iv: string };
-  name?: {iv: string},
-  baseRoute?: { iv: string };
-  environmentId?: { iv: string };
-  [key: string]: any;
-}
+import { DataFields } from './models/DataFields';
+import { SquidexListResponse } from './models/SquidexListResponse';
+import { SquidexComponentItem } from './models/SquidexComponentItem';
 
 async function getComponentsData(token: string): Promise<SquidexComponentItem[] | null> {
+  //get qoute sections from squidex
   return await axios.get<SquidexListResponse<SquidexComponentItem>>(
     process.env.QOUTE_SECTIONS_URL ?? '',
     {
@@ -45,23 +23,22 @@ async function getComponentsData(token: string): Promise<SquidexComponentItem[] 
 }
 
 function getNameAsRoute(name: string){
+  //we using this for cases like "Choose Qoute" page that does not have both baseRoute and route
   return name.replace(" ", "-").toLocaleLowerCase();
 }
 
 function buildFilePath(data: DataFields, id: string, outDir: string): string {
-  const env = data.environmentId?.iv ?? '';
-  const brand = data.brand?.iv ?? '';
+  //these datafields help us build out this file-folder structure
+  let env = data.environmentId?.iv ?? '';
+  let brand = data.brand?.iv ?? '';
   let route = data.route?.iv ?? '';
-  const baseRoute = data.baseRoute?.iv != "" ? data.baseRoute!.iv :  getNameAsRoute(data.name!.iv);
+  let baseRoute = data.baseRoute?.iv != "" ? data.baseRoute!.iv :  getNameAsRoute(data.name!.iv);
 
-  //folders: output/env/brand/
-  //file: route-baseRoute-id.json
   const folderPath = path.join(outDir, env, brand, baseRoute);
 
   let fileName = '';
-
-  if(route == "") fileName = `${baseRoute}-${id}.json`; 
-  else fileName = `${route}-${id}.json`;
+  if(route == "") fileName = `${baseRoute}-${id}.json`; //baseRoute will never be an empty string but route can
+  else fileName = `${route}-${id}.json`; //otherwise just use the route
   
   return path.join(folderPath, fileName);
 }
@@ -75,10 +52,11 @@ async function writeDataFiles(items: SquidexComponentItem[], outDir: string) {
     try {
       //file exists?
       await fs.access(filePath);
-      //if no error, file exists
+
+      //if no error file exists
       console.log(`Updating existing file: ${filePath}`);
     } catch {
-      //if error, file does not exist
+      //if error file does not exist
       console.log(`Creating new file: ${filePath}`);
     }
 
