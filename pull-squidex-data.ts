@@ -1,10 +1,31 @@
 import axios from 'axios';
-import 'dotenv/config';
+import  'dotenv/config';
 import fs from 'fs/promises';
 import path from 'path';
-import { DataFields } from './models/DataFields';
-import { SquidexListResponse } from './models/SquidexListResponse';
-import { SquidexComponentItem } from './models/SquidexComponentItem';
+
+
+interface SquidexComponentItem {
+  id: string;
+  created: string;
+  lastModified: string;
+  createdBy: string;
+  lastModifiedBy: string;
+  data: Record<string, any>;
+}
+
+interface SquidexListResponse<T> {
+  total: number;
+  items: T[];
+}
+
+interface DataFields {
+  brand?: { iv: string };
+  route?: { iv: string };
+  name?: {iv: string},
+  baseRoute?: { iv: string };
+  environmentId?: { iv: string };
+  [key: string]: any;
+}
 
 async function getComponentsData(token: string): Promise<SquidexComponentItem[] | null> {
   //get qoute sections from squidex
@@ -15,6 +36,8 @@ async function getComponentsData(token: string): Promise<SquidexComponentItem[] 
     }
   ).then((resp) =>{
     console.log("[#] Done doing fetch components from squidex [#]");
+    console.log({resp: resp.data, items: resp.data.items.length});
+
     return resp.data.items;
   }).catch((err)=> {
     console.log({error_fetching: err})
@@ -61,7 +84,7 @@ async function writeDataFiles(items: SquidexComponentItem[], outDir: string) {
     }
 
     //create or update the file
-    await fs.writeFile(filePath, JSON.stringify(item.data, null, 2), 'utf-8');
+    await fs.writeFile(filePath, JSON.stringify(item, null, 2), 'utf-8');
   }
 }
 
