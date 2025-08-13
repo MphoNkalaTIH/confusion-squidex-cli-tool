@@ -1,0 +1,278 @@
+{
+  "id": "6f335c1f-9544-480a-87f7-252bedcfe878",
+  "createdBy": "subject:678f6baf2b512c27fd0ed077",
+  "lastModifiedBy": "subject:678f6baf2b512c27fd0ed077",
+  "data": {
+    "brand": {
+      "iv": "firstforwomen"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "car-make"
+    },
+    "name": {
+      "iv": "Car Make"
+    },
+    "environmentId": {
+      "iv": "armand-prefill-dev"
+    },
+    "abTestingId": {
+      "iv": "variant"
+    },
+    "icon": {
+      "iv": null
+    },
+    "excludeFromTrackbar": {
+      "iv": true
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": null
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Car Make Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": {
+            "doFilterCall": true
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "car-make-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": "CarMakePageComponent",
+              "formItems": [
+                {
+                  "id": "btnMake",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Make",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "car-details",
+                      "pageRoute": "car-year"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal\">Get your car insurance quote in minutes.</h1>"
+                  }
+                },
+                {
+                  "id": "txtCollapseText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"font-normal\">\n    1st for Women is dedicated to keeping you and your loved ones safe with access to our in-app Panic Button - a benefit of Guardian Angel on Call.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote today!\n</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select the make of the car</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPlaceHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Search for car make",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtAssistiveText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Can’t find the car make? Press the button below to proceed.",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnCallMeBack",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "CALL ME BACK",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2025-02-20T11:48:43Z",
+  "lastModified": "2025-07-01T10:12:55Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2ZjMzNWMxZi05NTQ0LTQ4MGEtODdmNy0yNTJiZWRjZmU4NzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 17,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878/16",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/6f335c1f-9544-480a-87f7-252bedcfe878",
+      "method": "PUT"
+    }
+  }
+}

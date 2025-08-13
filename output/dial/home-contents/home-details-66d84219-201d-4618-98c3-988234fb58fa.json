@@ -1,0 +1,164 @@
+{
+  "id": "66d84219-201d-4618-98c3-988234fb58fa",
+  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "dial"
+    },
+    "baseRoute": {
+      "iv": "home-contents"
+    },
+    "order": {
+      "iv": 1
+    },
+    "route": {
+      "iv": "home-details"
+    },
+    "name": {
+      "iv": "Home details"
+    },
+    "environmentId": {
+      "iv": null
+    },
+    "abTestingId": {
+      "iv": null
+    },
+    "icon": {
+      "iv": null
+    },
+    "excludeFromTrackbar": {
+      "iv": false
+    },
+    "sectionDisabled": {
+      "iv": false
+    },
+    "maxTrackItems": {
+      "iv": null
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": []
+    }
+  },
+  "created": "2025-04-29T06:48:40Z",
+  "lastModified": "2025-04-29T06:48:40Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NmQ4NDIxOS0yMDFkLTQ2MTgtOThjMy05ODgyMzRmYjU4ZmEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 1,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa/0",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/66d84219-201d-4618-98c3-988234fb58fa",
+      "method": "PUT"
+    }
+  }
+}

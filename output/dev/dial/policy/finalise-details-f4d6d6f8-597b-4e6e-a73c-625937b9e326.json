@@ -1,0 +1,2612 @@
+{
+  "id": "f4d6d6f8-597b-4e6e-a73c-625937b9e326",
+  "createdBy": "client:con-fusion:owner",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "dial"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "finalise-details"
+    },
+    "name": {
+      "iv": "Finalise details"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-finalise"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 2
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Risk address page",
+          "route": "risk-address",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "risk-address-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>You told us that the home where your car is normally parked, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
+                  }
+                },
+                {
+                  "id": "txtContentHomeContents",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4 class=\"mb-5 font-normal text-sm md:text-base\">You told us that the home where your home contents is kept, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtStreet",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Street address",
+                    "helperText": "eg. 1 Waltham Drive",
+                    "placeholderText": "Please complete",
+                    "formControlName": "address1",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Street address is required",
+                      "invalidErrorMessage": "Street address is invalid",
+                      "maxLength": 40,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtComplexOrBuilding",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Complex / building (optional)",
+                    "helperText": "Complex or building name, unit number or floor",
+                    "placeholderText": "Please complete",
+                    "formControlName": "address2",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Name of the Complex or building is required",
+                      "invalidErrorMessage": "Name of the Complex or building is invalid",
+                      "maxLength": 40,
+                      "minLength": null,
+                      "isRequired": null,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSuburb",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Suburb",
+                    "helperText": "Home area / suburb",
+                    "placeholderText": "Please complete",
+                    "formControlName": "suburbName",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtCityOrTown",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "City / Town",
+                    "helperText": "",
+                    "placeholderText": "Please complete",
+                    "formControlName": "city",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "City or town name is required",
+                      "invalidErrorMessage": "City or town name is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtPostalCode",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Postal code",
+                    "helperText": "",
+                    "placeholderText": "Please complete",
+                    "formControlName": "postCode",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Confirm",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Payment Method",
+          "route": "payment-method",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "payment-method-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>How would you like to pay your monthly premium?</h2>"
+                  }
+                },
+                {
+                  "id": "btnGroup",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "btnCreditCard",
+                        "conditionValue": "C",
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Credit/debit card",
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "account-holder-page",
+                            "sectionRoute": "finalise-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnDefault",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Next",
+                          "route": {
+                            "pageRoute": "bank",
+                            "sectionRoute": "finalise-details"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "data": [],
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnProceedExisting",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed with existing details",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtAVSLimitContentFailure",
+                  "conditionValue": "",
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": " <p class=\"pb-3\">We need to review the account information you provided. You can continue with your existing details or use your credit/debit card. <a id=\"lnkLearnMore\" class=\"font-bold\">Learn more</a></p>",
+                    "htmlEvents": [
+                      {
+                        "id": "lnkLearnMore",
+                        "eventName": "click",
+                        "callback": "onClickLearnMore",
+                        "callbackParams": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtAVSLimitContentSuccess",
+                  "conditionValue": "",
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"pb-3\">You have reached the limit for submitting banking details online. You can continue with your existing details or use your credit/debit card. <a id=\"lnkLearnMore\" class=\"font-bold\">Learn more</a></p>",
+                    "htmlEvents": [
+                      {
+                        "id": "lnkLearnMore",
+                        "eventName": "click",
+                        "callback": "onClickLearnMore",
+                        "callbackParams": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "learnMoreDialogFailure",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Bank account verification</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>\n    It has come to our attention that the account information provided may be\n    inaccurate or contain an error.\n</p>\n<p>\n    Once you have completed your policy activation, we will make an effort to get in touch with you to review this. Alternatively, you can contact us on 0861 555 580 after completing your activation to ensure that your account information is correct.\n</p>\n<p>\n    Please note that failure to correct the error may result in the cancellation\n    of your cover.\n</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "learnMoreDialogSuccess",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Bank account verification</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>You have reached the maximum number of attempts to provide your banking details online.</p>\n\n<p>We will process your policy with the details submitted during your final attempt.</p>\n\n<p>Once your policy is active, you can update your banking details through our call centre on 0861 555 580.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtNote",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p><strong class=\"font-bold text-zodiac-blue\">Please note:</strong> You will need to provide your banking details again if you continue this quote at a later stage.</p>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Credit Card Details Page",
+          "route": "credit-card-details",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "credit-card-details-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtCardHolderType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Card holder",
+                    "helperText": null,
+                    "placeholderText": "Please select ",
+                    "formControlName": "cardHolder",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtCardHolderName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Card holder's name",
+                    "helperText": null,
+                    "placeholderText": "Please complete ",
+                    "formControlName": "cardHolderName",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Card holder name is required",
+                      "invalidErrorMessage": "Card holder name is invalid",
+                      "maxLength": 30,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtCardNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Card number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "creditCardNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Card number is required",
+                      "invalidErrorMessage": "Card number is invalid",
+                      "maxLength": 19,
+                      "minLength": 19,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtCardExpiry",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Expiry date",
+                    "helperText": null,
+                    "placeholderText": "Month/Year",
+                    "formControlName": "cardExpiryDate",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Card expiry date is required",
+                      "invalidErrorMessage": "Card expiry date is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtBusinessRegistrationNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Business registration number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "businessRegistrationNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Business registration number is required",
+                      "invalidErrorMessage": "Business registration number is invalid",
+                      "maxLength": 14,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtBusinessRepresentativeName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Business representative name and surname",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "businessRepresentativeName",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Business representative name and surname is required",
+                      "invalidErrorMessage": "Business representative name and surname is invalid",
+                      "maxLength": 30,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtCardHolderCellNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Card holder's cellphone number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "cardHolderCellNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Cellphone number is required",
+                      "invalidErrorMessage": "Cellphone number is invalid",
+                      "maxLength": 10,
+                      "minLength": 10,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Complete the card details</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "thirdPartyConsentDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Third party banking details consent</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Just to let you know, we need the card holder's permission to process your payments through their account.</p>\n<p>If we are unable to secure their consent, your cover will be cancelled.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "ckbPermission",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": "cardHolderPermission",
+                    "text": "I have permission from the card holder to use their card for this deduction.",
+                    "errorMessage": null,
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": true,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "cellNumberHelperText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mr-2 w-4\" align=\"left\" src=\"https://squidex-dev.isservices.co.za/api/assets/con-fusion/cbb56bfa-0a0a-40d8-9315-524e14976084/phone.svg\"/><div>We will call this number to confirm consent.</div>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select Bank Page",
+          "route": "bank",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "select-bank-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select your bank</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "pageRoute": "account-holder-page",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "grpOther",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": null,
+                    "formItems": [
+                      {
+                        "id": "btnOther",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Other",
+                          "route": {
+                            "pageRoute": "other-banks",
+                            "sectionRoute": "finalise-details"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "imgOther",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                          "assets": [
+                            "e1af0ea9-ba2f-4b11-b9c9-1bfd702a021c"
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnProceedExisting",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed with existing details",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Other Bank Page",
+          "route": "other-banks",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "select-bank-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select your bank</h2>"
+                  }
+                },
+                {
+                  "id": "txtSearchLabel",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Search for bank",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "pageRoute": "account-holder-page",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnProceedExisting",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed with existing details",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Account Holder Page",
+          "route": "account-holder-page",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "account-holder-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Who does the bank account belong to?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnAccountHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Myself",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "bcaa0baa-97ab-404e-a05b-dc53596396a9",
+                      "code": [
+                        "7969bff1-3394-4b07-ba53-98986f2dd576"
+                      ],
+                      "statePropertyPaths": [
+                        "payment.paymentDetails.accountType.code"
+                      ],
+                      "values": [
+                        "C"
+                      ],
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "credit-card-details",
+                            "sectionRoute": "finalise-details",
+                            "baseRoute": "policy"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "account-details",
+                            "sectionRoute": "finalise-details",
+                            "baseRoute": "policy"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnProceedExisting",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed with existing details",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnAddHouseholdMember",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "pageRoute": "add-household-member",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtCreditCardContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Who does the card belong to?</h2>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add Household Member Page",
+          "route": "add-household-member",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "add-household-member-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>We need some household member information to continue</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Name",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "name",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Name is required",
+                      "invalidErrorMessage": "Name is invalid",
+                      "maxLength": 15,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Surname",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "surname",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Surname is required",
+                      "invalidErrorMessage": "Surname is invalid",
+                      "maxLength": 20,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtDateOfBirth",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Date of birth",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "dateOfBirth",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Date of birth is required",
+                      "invalidErrorMessage": "Date of birth is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtGender",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Gender",
+                    "helperText": null,
+                    "placeholderText": "Please select",
+                    "formControlName": "gender",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Gender is required",
+                      "invalidErrorMessage": "Gender is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtRelationshipWithPH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Relationship with policy holder",
+                    "helperText": null,
+                    "placeholderText": "Please select",
+                    "formControlName": "relationshipWithPH",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Relationship with policy holder is required",
+                      "invalidErrorMessage": "Relationship with policy holder is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "bcaa0baa-97ab-404e-a05b-dc53596396a9",
+                      "code": [
+                        "7969bff1-3394-4b07-ba53-98986f2dd576"
+                      ],
+                      "statePropertyPaths": [
+                        "payment.paymentDetails.accountType.code"
+                      ],
+                      "values": [
+                        "C"
+                      ],
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "credit-card-details",
+                            "sectionRoute": "finalise-details",
+                            "baseRoute": "policy"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "account-details",
+                            "sectionRoute": "finalise-details",
+                            "baseRoute": "policy"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnProceedExisting",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed with existing details",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "isAccountHolderPage",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
+                    "flag": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Account Details Page",
+          "route": "account-details",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "account-details-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtAccountHolderType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Account holder",
+                    "helperText": null,
+                    "placeholderText": null,
+                    "formControlName": "accountHolder",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtAccountHolderName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Account holder's name",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "accountHolderName",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Account holder name is required",
+                      "invalidErrorMessage": "Account holder name is invalid",
+                      "maxLength": 30,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtAccountHolderIDNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Account holder's ID number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "idNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "ID number is required",
+                      "invalidErrorMessage": "ID number is invalid",
+                      "maxLength": 13,
+                      "minLength": 13,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtAccountHolderPassportNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Account holder's passport number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "idNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Passport number is required",
+                      "invalidErrorMessage": "Passport number is invalid",
+                      "maxLength": 15,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtAccountNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Account number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "accountNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Account number is required",
+                      "invalidErrorMessage": "Account number is invalid",
+                      "maxLength": 16,
+                      "minLength": 8,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtBusinessRegistrationNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Business registration number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "businessRegistrationNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Business registration number is required",
+                      "invalidErrorMessage": "Business registration number is invalid",
+                      "maxLength": 14,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtBusinessRepresentativeName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Business representative name and surname",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "businessRepresentativeName",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Business representative name and surname is required",
+                      "invalidErrorMessage": "Business representative name and surname is invalid",
+                      "maxLength": 30,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtAccountHolderCellNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Account holder's cellphone number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "accountHolderCellNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Cellphone number is required",
+                      "invalidErrorMessage": "Cellphone number is invalid",
+                      "maxLength": 10,
+                      "minLength": 10,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Complete account details</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtSwitchID",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Switch to ID number",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtSwitchPassport",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Switch to passport number",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "accountVerificationDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Bank account verification</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>There is an issue with the bank account provided.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnRetry",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Retry",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "avsFinalFailureDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Bank account verification</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>\n    It has come to our attention that the account information provided may be\n    inaccurate or contain an error.\n</p>\n<p>\n    Once you have completed your policy activation, we will make an effort to get in touch with you to review this. Alternatively, you can contact us on 0861 555 580 after completing your activation to ensure that your account information is correct.\n</p>\n<p>\n    Please note that failure to correct the error may result in the cancellation\n    of your cover.\n</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnProceed",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Proceed",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "avsServiceUnavailableDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Bank account verification</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>We are currently unable to verify your banking information.<br/><br/>\nOnce you have completed your policy activation, we will make an effort to get in touch with you to review this. Alternatively, you can contact us on 0861 555 580 after completing your activation to ensure that your account information is correct.<br/><br/>\nPlease note that failure to review this information may result in the cancellation of your cover.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "avsThirdPartyConsentDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Third party banking details consent</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Just to let you know, we need the account holder's permission to process your payments through their account.<br/><br/>\nIf we are unable to secure their consent, your cover will be cancelled.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "ckbPermission",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": "accountHolderPermission",
+                    "text": "I have permission from the account holder to use their account for this deduction.",
+                    "errorMessage": null,
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": true,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnProceedExisting",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed with existing details",
+                    "route": {
+                      "pageRoute": "cover-start-date",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnEdit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit Icon",
+                    "route": {
+                      "pageRoute": "payment-method",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": [
+                      "3900cbc4-191c-4943-a1b3-9bda5fab9fd0"
+                    ],
+                    "useImageAsButton": true,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "cellNumberHelperText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mr-2 w-4\" align=\"left\" src=\"https://squidex-dev.isservices.co.za/api/assets/con-fusion/50208165-d870-44de-afcd-a77432d460d7/phone.svg\"/><div>We will call this number to confirm consent.</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtFinalAttemptContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p>\n    You have 1 more attempt to submit your banking details online. \n    <a id=\"lnkLearnMore\" class=\"font-bold\">Learn more</a>\n</p>",
+                    "htmlEvents": [
+                      {
+                        "id": "lnkLearnMore",
+                        "eventName": "click",
+                        "callback": "onClickLearnMore",
+                        "callbackParams": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "learnMoreDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Bank account details</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>\n    We allow you 3 attempts to provide banking details online.\n</p>\n<p>\n    Should you proceed, your policy will be processed with the details submitted during your final attempt.\n</p>\n<p>\n    You cannot submit new or update existing banking details online after this attempt, but you can continue to get cover.\n</p>\n<p>\n    Once your policy is active, you can update your banking details through our call centre on 0861 555 580.\n</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Cover Start Date",
+          "route": "cover-start-date",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "cover-start-date-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtCoverStartDate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Cover start date",
+                    "helperText": null,
+                    "placeholderText": "Day/Month/Year",
+                    "formControlName": null,
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>When would you like your cover to start?</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Confirm",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Deduction Day Page",
+          "route": "deduction-day",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "premium-deduction-day-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select salary payment date</h2>\n<p>This is the day of the month your monthly premium will be deducted</p>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtDeductionDay",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Salary payment date",
+                    "helperText": null,
+                    "placeholderText": "Please select",
+                    "formControlName": null,
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "stateAction",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "DEDUCTION_DAY",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Confirm",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Payment Details Summary",
+          "route": "payment-details-summary",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "payment-details-summary-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>We’ve got your details. Does everything look OK?</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Activate my policy",
+                    "route": {
+                      "baseRoute": "policy",
+                      "sectionRoute": "done",
+                      "pageRoute": "welcome"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "group",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "termsAndConditions",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                          "label": "Confirm that you agree with our <a>Terms and Conditions</a>",
+                          "helperText": null,
+                          "placeholderText": null,
+                          "formControlName": null,
+                          "validation": {
+                            "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                            "requiredErrorMessage": null,
+                            "invalidErrorMessage": null,
+                            "maxLength": null,
+                            "minLength": null,
+                            "isRequired": true,
+                            "isWhiteSpace": null,
+                            "isRequiredTrue": null,
+                            "validateSpecialCharacters": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "bankInfo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"flex mb-3 items-center\">\n    <div class=\"mr-2 {{noLogoClass}}\">\n        <img class=\"w-10 {{filterClass}}\"  alt=\"bankLogo\" src=\"{{logoUrl}}\" />\n    </div>\n    <div>\n        <div><strong>Bank: </strong>{{bankName}}</div>\n        <div><strong>Account: </strong>{{accountType}} | {{accountNumber}}</div>\n    </div>\n</div>"
+                  }
+                },
+                {
+                  "id": "coverStartDate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Cover start date",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "nextDeduction",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Next deduction",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "note",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"mt-2 md:mt-3 text-xs text-sub-8 leading-5\">\n    <strong class=\"text-zodiac-blue\">Please note:</strong> From the selected cover \n    start date <strong class=\"text-zodiac-blue\">{{coverStartDate}}</strong> until the \n    end of <strong class=\"text-zodiac-blue\">{{coverStartMonth}}</strong>, your pro-rata \n    amount is <strong class=\"text-zodiac-blue\">{{prorataAmount}}</strong>. This is to ensure you \n    have cover for the rest of this month.\n</div>"
+                  }
+                },
+                {
+                  "id": "learnMore",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Learn more",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "tnc",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": null,
+                    "formItems": [
+                      {
+                        "id": "checkbox",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                          "label": "Confirm that you agree with our",
+                          "helperText": null,
+                          "placeholderText": null,
+                          "formControlName": null,
+                          "validation": {
+                            "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                            "requiredErrorMessage": null,
+                            "invalidErrorMessage": null,
+                            "maxLength": null,
+                            "minLength": null,
+                            "isRequired": true,
+                            "isWhiteSpace": null,
+                            "isRequiredTrue": null,
+                            "validateSpecialCharacters": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "link",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terms and Conditions",
+                          "route": {
+                            "pageRoute": "terms-and-conditions",
+                            "sectionRoute": "finalise-details"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "dlgLearnMore",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h2 class=\"mb-0\">Pro-rata</h2>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>\r\n    Pro-rata refers to a portion of \r\n    something and, in insurance, it's \r\n    usually used in reference to premiums. \r\n    For example, if you took out an \r\n    insurance policy on 20 June, you \r\n    would only pay a portion of the \r\n    monthly premium (a pro-rata premium) \r\n    because you only had cover for\r\n    a portion of the month (10 days \r\n    instead of the full 30).\r\n</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Terms and Conditions Page",
+          "route": "terms-and-conditions",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "terms-and-conditions-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Please read and accept the terms and conditions</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Confirm",
+                    "route": {
+                      "baseRoute": "policy",
+                      "sectionRoute": "done",
+                      "pageRoute": "welcome"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtTerms",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Confirm that you agree with the above",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Terms & Conditions",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-07-16T12:13:43Z",
+  "lastModified": "2025-06-23T09:23:17Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNGQ2ZDZmOC01OTdiLTRlNmUtYTczYy02MjU5MzdiOWUzMjYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 54,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/53",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326",
+      "method": "PUT"
+    }
+  }
+}

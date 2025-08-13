@@ -1,0 +1,759 @@
+{
+  "id": "f43302b7-68bd-4866-9d54-7b2ffdaf3b4a",
+  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "virseker"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 2
+    },
+    "route": {
+      "iv": "resume-quote"
+    },
+    "name": {
+      "iv": "Resume quote"
+    },
+    "environmentId": {
+      "iv": "chevonne"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": null
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Confirm identity page",
+          "route": "confirm-identity",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "confirm-identity-page",
+              "moduleName": "ResumeQuoteModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-6 mb-0\">Hallo {{name}}!<br>Ons het jou kwotasie gekry</h2>\n<h4 class=\"mt-6 mb-3\">Vir sekuriteitsdoeleindes, vul jou Suid-Afrikaanse ID-nommer of paspoortnommer in</h4>"
+                  }
+                },
+                {
+                  "id": "txtIdNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "ID-/Passportnommer",
+                    "helperText": "Jou inligting is veilig",
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "idNumber",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "ID-/Passportnommer is verpligtend",
+                      "invalidErrorMessage": "ID-/Passportnommer is ongeldig",
+                      "maxLength": 15,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "premium",
+                      "sectionRoute": "resume-quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "bcaa0baa-97ab-404e-a05b-dc53596396a9",
+                      "code": [
+                        "328c22a8-f59a-4973-85dc-ecf24557c27f"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote.leadChecks.quoteRiskDetails.hasVehicle",
+                        "resumeQuote.leadChecks.quoteRiskDetails.hasHomeContents"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contens-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnExpired",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verval",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "quote-expired",
+                      "sectionRoute": "resume-quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "dialogIdInvalidAttempts",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Ongeldige ID-/paspoortnommer</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContentTwoPlusAttempt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jou ID-/paspoortnommer is nie geldig vir die kwotasie nie.</p>\n<p>Probeer asseblief weer.</p>\n<p><span class=\"font-bold\">Let daarop dat jou kwotasie geblok sal word na jou derde onsuksevolle poging.</span></p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContentOneAttempt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jou ID-/paspoortnommer is nie geldig vir die kwotasie nie.</p>\n<p>Probeer asseblief weer.</p>\n<p><span class=\"font-bold\">Jy het nog een poging voor jou kwotasie geblok sal wees.</span></p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContentBlocked",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jou ID-/paspoortnommer is nie geldig vir die kwotasie nie.</p>\n<p><span class=\"font-bold\">Jou kwotasie is geblok. Begin asseblief ‘n nuwe kwotasie.</span></p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnNewQuote",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Begin ‘n nuwe kwotasie",
+                          "route": {
+                            "pageRoute": "get-started",
+                            "sectionRoute": "landing",
+                            "goToStart": true
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnRetry",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Probeer weer",
+                          "route": {
+                            "pageRoute": "null",
+                            "sectionRoute": "null"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnLoading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Hou vas, ons soek jou gou...",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNextIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "icon-arrow-right",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "groupDropOffRoutes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "btnNotAuthorisedToAccessLead",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "NOACC",
+                          "route": {
+                            "baseRoute": "null",
+                            "pageRoute": "not-authorised-access-to-lead",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnSoftDelete",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "DLT",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "soft-delete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnHardDelete",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "NTEXS",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "hard-delete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnOperatorCodeUnavailable",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "OPR",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "operator-code-unavailabe",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnLeadBusy",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "BSY",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "lead-busy",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnWalkAwayPricingCampaign",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "WAP",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "walk-away-pricing-campaign",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "resume-quote-premium-page",
+          "route": "premium",
+          "pageBase": {
+            "baseRoute": "car-insurance",
+            "pageRoute": "premium",
+            "sectionRoute": "quote",
+            "goToStart": false
+          },
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": true,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "premium-page",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnNewQuote",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Begin nuwe kwotasie",
+                    "route": {
+                      "pageRoute": "get-started",
+                      "sectionRoute": "landing",
+                      "goToStart": true,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "resume-quote-home-contents-premium-page",
+          "route": "home-contents-premium",
+          "pageBase": {
+            "baseRoute": "home-contents",
+            "pageRoute": "premium",
+            "sectionRoute": "quote",
+            "goToStart": false
+          },
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": true,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "home-contents-premium-page",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnNewQuote",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Begin nuwe kwotasie",
+                    "route": {
+                      "pageRoute": "get-started",
+                      "sectionRoute": "landing",
+                      "goToStart": true,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Quote expired page",
+          "route": "quote-expired",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "quote-expired-page",
+              "moduleName": "ResumeQuoteModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-6 mb-0\">Hi {{name}}!<br>Jou kwotasie het verval</h2>"
+                  }
+                },
+                {
+                  "id": "btnNextVehicle",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Begin nuwe kwotasie",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "",
+                      "sectionRoute": "",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNextHomeContents",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Begin nuwe kwotasie",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "",
+                      "sectionRoute": "",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtSubContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4 class=\"mb-0 mt-6\">Druk op die onderstaande skakel om ‘n nuwe kwotasie te begin.</h4>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2025-07-15T12:31:44Z",
+  "lastModified": "2025-07-15T12:31:44Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNDMzMDJiNy02OGJkLTQ4NjYtOWQ1NC03YjJmZmRhZjNiNGEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 1,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a/0",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/f43302b7-68bd-4866-9d54-7b2ffdaf3b4a",
+      "method": "PUT"
+    }
+  }
+}

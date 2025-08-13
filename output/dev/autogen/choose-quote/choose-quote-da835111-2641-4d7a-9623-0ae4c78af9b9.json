@@ -1,0 +1,358 @@
+{
+  "id": "da835111-2641-4d7a-9623-0ae4c78af9b9",
+  "createdBy": "client:con-fusion:owner",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "autogen"
+    },
+    "baseRoute": {
+      "iv": ""
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": ""
+    },
+    "name": {
+      "iv": "Choose Quote"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": ""
+    },
+    "excludeFromTrackbar": {
+      "iv": true
+    },
+    "sectionDisabled": {
+      "iv": false
+    },
+    "maxTrackItems": {
+      "iv": null
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Quote Start Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": true,
+          "readonly": null,
+          "createLead": true,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": null,
+              "moduleName": null,
+              "standaloneComponent": "QuoteStartPageComponent",
+              "formItems": [
+                {
+                  "id": "imgBackground",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "5756ca23-acaf-44e1-9118-e6a19f99cad7"
+                    ]
+                  }
+                },
+                {
+                  "id": "imgBackgroundMobile",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "89934185-f389-4fbe-9804-b1fc83b9deaf"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtWelcome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"text-ag-white font-bold\">Welcome!</h1>\n\n<h1 class=\"mb-5 text-base text-ag-white sm:text-lg leading-5 sm:leading-6 font-medium\">Tailored insurance options in just a few clicks!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"text-ag-white font-medium\">Please select one of the options below:</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "imgVehicleIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "b288bb20-ddab-40ef-8077-1b22ab29cc3f"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtVehicleTitle",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h3 class=\"font-bold\">Insure my car</h3>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtVehicleFlowDescription",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"text-sm md:text-base\">Your car deserves award-winning protection</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnVehicleFlow",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Vehicle Flow",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "",
+                      "sectionRoute": "",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "imgHomeContentIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "e04bcda2-befc-4e81-bcc6-de899d5df8df"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtHomeContentTitle",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h3 class=\"font-bold\">Protect my home contents</h3>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHomeContentFlowDescription",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"text-sm md:text-base\">Cover for theft, loss, and powersurge damage.</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHomeContentFlow",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Home Content Flow",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "",
+                      "sectionRoute": "",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "imgBothIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "11b23054-1eb2-4bfb-a262-03bcbd6cc147"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtBothTitle",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h3 class=\"font-bold\">Cover both my car and home</h3>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtBothFlowDescription",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"text-sm md:text-base\">Get car and home contents cover</p>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-07-16T12:13:39Z",
+  "lastModified": "2025-06-08T11:02:16Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkYTgzNTExMS0yNjQxLTRkN2EtOTYyMy0wYWU0Yzc4YWY5YjkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 48,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9/47",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/da835111-2641-4d7a-9623-0ae4c78af9b9",
+      "method": "PUT"
+    }
+  }
+}

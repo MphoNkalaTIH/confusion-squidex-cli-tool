@@ -1,0 +1,1576 @@
+{
+  "id": "e2cb8d73-de71-472f-ad2f-cc4a2c025b2e",
+  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "data": {
+    "brand": {
+      "iv": "budget"
+    },
+    "baseRoute": {
+      "iv": "home-contents"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "quote"
+    },
+    "name": {
+      "iv": "Quote"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-circle-check-filled"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 1
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "premium-page",
+          "route": "premium",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": true,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": "",
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "home-contents-premium-page",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Get covered",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "cashback",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "bcaa0baa-97ab-404e-a05b-dc53596396a9",
+                      "code": [
+                        "8dfe9870-6f05-4b45-9ec5-3f3a925b26c5"
+                      ],
+                      "statePropertyPaths": [
+                        "personal.policyHolder.maritalStatus.code",
+                        "homeContents.homeContents.homeContentsClaimsData.lastIncidentDate",
+                        "homeContents.homeContents.homeContentsClaimsData.claims",
+                        "personal.spouseExists"
+                      ],
+                      "values": [
+                        "M",
+                        "P"
+                      ],
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "spouse-id-number",
+                            "sectionRoute": "spouse-details"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "incident-details",
+                            "sectionRoute": "incident-details"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "cashback",
+                            "sectionRoute": "cashback-details",
+                            "baseRoute": "policy"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "confirm-spouse-details",
+                            "sectionRoute": "spouse-details"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "incident-history",
+                            "sectionRoute": "incident-details"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "txtYourExcess",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs text-sub-11\">Your excess</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtExcessDescription",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div>This is the amount you will pay when you claim.</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtExcessAmount",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs pt-2 font-bold text-sub-11\">Home contents excess</div>"
+                  }
+                },
+                {
+                  "id": "txtMaxExcessDescription",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<span>Or 5% of the total value of the claim – whichever amount is higher. The maximum excess amount is</span>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtAdditionalExcess",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs text-sub-11 pt-2\">Additional excess</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtLightningExcess",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-sm font-bold text-sub-11\">Lightning and power surge excess:</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnCoverType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Change cover type",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "cover-types",
+                      "sectionRoute": "quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnChangeReplacementValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Change your replacement value",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "change-replacement-value",
+                      "sectionRoute": "quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "headingPerilsCovered",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">We cover your home contents for</h2>"
+                  }
+                },
+                {
+                  "id": "headingIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Included extra cover</h2>"
+                  }
+                },
+                {
+                  "id": "headingExtraCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Select your extra cover</h2>"
+                  }
+                },
+                {
+                  "id": "btnSave",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Save and send quote",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "select-communication-method",
+                      "sectionRoute": "quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "headingWhatYouToldUs",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">What you told us</h2>"
+                  }
+                },
+                {
+                  "id": "imgHomeDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "3becda8a-9985-4fe3-aa82-a0e01ee25373"
+                    ]
+                  }
+                },
+                {
+                  "id": "imgPersonalDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "01abf77b-1459-4bbf-bde0-e054907901d1"
+                    ]
+                  }
+                },
+                {
+                  "id": "groupHomeSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "area",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Area",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "quote.riskAddress.areaType.copy",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "suburb",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Suburb",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "quote.riskAddress.displayName",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": "",
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": "",
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "quote.riskAddress.suburbName",
+                              "quote.riskAddress.postCode"
+                            ],
+                            "values": [
+                              ", "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "type",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Type",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "homeContents.homeContents.residenceType.copy",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "moveInDate",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Move in date",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "homeContents.homeContents.moveInDate",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "dateOptions": {
+                            "schemaId": "8fa0ae5b-6fe1-44a1-8970-cd4d82ed92e1",
+                            "format": "MMMM yyyy",
+                            "localeOverride": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "accessControl",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Does the Residential area have access control?",
+                          "template": null,
+                          "valueFieldPath": "quote.riskAddress.accessControlType.copy",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": "quote.riskAddress.accessControlType.description"
+                        }
+                      },
+                      {
+                        "id": "thatchedRoof",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Does your home or any structure on the property have a thatched roof?",
+                          "template": null,
+                          "valueFieldPath": "homeContents.homeContents.roofType.copy",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": ""
+                        }
+                      },
+                      {
+                        "id": "neighbours",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Do you have neighbours on all the direct borders of the property?",
+                          "template": null,
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.neighboursInAllBorders"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "154a8f9b-1f20-4503-be0c-ab5668c1bdb8"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.neighboursInAllBorders"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "propertyBordered",
+                        "conditionValue": "",
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "What is your property bordered by?",
+                          "template": null,
+                          "valueFieldPath": "homeContents.homeContents.neighbours",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "2753d324-2bff-4064-b7a1-97d57c25c762"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.neighbours",
+                              "homeContents.homeContents.neighboursInAllBorders"
+                            ],
+                            "values": "",
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "burglaries",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Have you had any burglaries/losses at the insured address in the last 7 years?",
+                          "template": null,
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "mostRecentIncident",
+                        "conditionValue": "",
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "When did the most recent incident occur?",
+                          "template": null,
+                          "valueFieldPath": "homeContents.homeContents.homeContentsClaimsData.lastIncidentDate",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
+                            ],
+                            "values": [
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "8fa0ae5b-6fe1-44a1-8970-cd4d82ed92e1",
+                            "format": "MMMM yyyy",
+                            "localeOverride": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "didClaim",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Did you claim for this incident?",
+                          "template": null,
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.homeContentsClaimsData.lastIncidentClaimed"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
+                            ],
+                            "values": [
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "unoccupied60Days",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Will your home be unoccupied for more than 60 days in a year?",
+                          "template": null,
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": "",
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.unoccupied60days"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "burglarAlarm",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Does your home have a burglar alarm that is in working order?",
+                          "template": null,
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": "homeContents.burglarAlarm.description",
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "92d8b9e5-0047-4e9a-8e11-d58779ee993c"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.burglarAlarm.code"
+                            ],
+                            "values": [
+                              "Yes, Linked to armed reaction unit",
+                              "Yes, Not linked to armed reaction unit",
+                              "No, I don't have a burglar alarm"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "extraSecurityMeasures",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "What extra security measures do you have?",
+                          "template": null,
+                          "valueFieldPath": "homeContents.homeContents.additionalSecurityMeasures",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": ""
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "groupPersonalSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "idNumber",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.identification.idNumber",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "titleCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "74d77a3a-63e5-420b-845f-da13416e6d08"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.identification.idType"
+                            ],
+                            "values": [
+                              "Passport number",
+                              "South African ID number"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "dateOfBirth",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Date of birth",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.dateOfBirth",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "cd40b71f-eeec-44f8-b3f5-f02f6ac85df5"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.identification.idType"
+                            ],
+                            "values": [
+                              "2"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "8fa0ae5b-6fe1-44a1-8970-cd4d82ed92e1",
+                            "format": "dd MMMM yyyy",
+                            "localeOverride": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "gender",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Gender",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.gender.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "name",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Name and surname",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.firstName",
+                              "personal.policyHolder.lastName"
+                            ],
+                            "values": [
+                              " "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phone",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Cellphone number",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.phone",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "email",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Email address",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.emailAddress",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "maritalStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Marital status",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.maritalStatus.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "employmentStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Employment status",
+                          "template": "",
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "c423fd41-3794-4993-b9f5-e98339036773"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.employmentStatus.description",
+                              "personal.policyHolder.workdaysFromHome"
+                            ],
+                            "values": [
+                              ": Working from home 3 days or more a week.",
+                              ""
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtPersonalisePremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs text-sub-11\">Personalise your premium</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtMonthlyPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"mt-6 text-xs\">Your monthly premium</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "imgMonthlyPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "cfc011df-3ab9-4a80-8c77-b6b59a5ebfd6"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtGetCovered",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"font-medium text-sub-1 get-covered-container-text\">Get covered</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "fireStormDisclaimerDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Please note</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>While we cannot offer you cover against burglary and theft, or damage resulting from burglary and theft of your home contents, we can offer you cover for loss or damage caused by fires, natural disasters or overflowing water heating systems.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "headingAdditionalAddons",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-georgia font-bold\">Your selected add-ons</h2>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Edit Home Content Replacement Value",
+          "route": "change-replacement-value",
+          "pageBase": {
+            "baseRoute": "policy",
+            "pageRoute": "replacement-value",
+            "sectionRoute": "personal-details",
+            "goToStart": false
+          },
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "home-contents-replacement-value-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Done",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "premium",
+                      "sectionRoute": "quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cover-type-page",
+          "route": "cover-types",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "cover-type-page",
+              "moduleName": "HomeContentsDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Done",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "premium",
+                      "sectionRoute": "quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "998a7960-ac97-4412-af5e-f3988724de94"
+                      ],
+                      "statePropertyPaths": [
+                        "homeContents.homeContents.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Select your preferred cover type</h2>"
+                  }
+                },
+                {
+                  "id": "pageToggle",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
+                    "flag": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select Communication Method Page",
+          "route": "select-communication-method",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "select-communication-method",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContentComprehensive",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Save now and continue later!</h2>\n<h4 class=\"text-sub-9\">How would you like to receive your quote?</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContentNonComprehensive",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Save now and continue later!</h2>\n<h4 class=\"text-sub-9\">How would you like to receive your quote?</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Not Used",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "3e9bc5eb-f7a2-4243-a95e-117c3b21f140"
+                      ],
+                      "statePropertyPaths": [
+                        "quote.communicationMethod.code"
+                      ],
+                      "values": [
+                        "SMS"
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "communication-sent",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "capture-communication-details",
+                            "sectionRoute": "quote"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Capture Communication Details Page",
+          "route": "capture-communication-details",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "capture-communication-details",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContentEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">What's your email address?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContentWhatsapp",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">What's your WhatsApp number?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Email address",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "emailAddress",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Email address is required",
+                      "invalidErrorMessage": "Email address is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Send quote",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "communication-sent",
+                      "sectionRoute": "quote",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtWhatsapp",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "WhatsApp number",
+                    "helperText": null,
+                    "placeholderText": "Please Complete",
+                    "formControlName": "number",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Whatsapp number is required",
+                      "invalidErrorMessage": "Whatsapp number is invalid",
+                      "maxLength": 10,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Commumication Sent Page",
+          "route": "communication-sent",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "communication-sent",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 font-bold leading-tight\"><span class=\"text-main-1\">Thank You</span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">We have sent your quote.</p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Please note that it is valid for 30 days.</p>\n</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Take me to the homepage",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContentSms",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 leading-tight\"><span class=\"text-main-1\">Thank You</span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">We have sent your quote to <strong>{{smsNumber}}</strong></p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Please note that it is valid for 30 days.</p>\n</div>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2025-04-30T05:31:10Z",
+  "lastModified": "2025-08-11T11:36:07Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlMmNiOGQ3My1kZTcxLTQ3MmYtYWQyZi1jYzRhMmMwMjViMmUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 6,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e/5",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/e2cb8d73-de71-472f-ad2f-cc4a2c025b2e",
+      "method": "PUT"
+    }
+  }
+}

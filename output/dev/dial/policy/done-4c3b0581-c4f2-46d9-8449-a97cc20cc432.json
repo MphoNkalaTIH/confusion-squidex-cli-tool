@@ -1,0 +1,358 @@
+{
+  "id": "4c3b0581-c4f2-46d9-8449-a97cc20cc432",
+  "createdBy": "client:con-fusion:owner",
+  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "data": {
+    "brand": {
+      "iv": "dial"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 1
+    },
+    "route": {
+      "iv": "done"
+    },
+    "name": {
+      "iv": "Done"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-circle-check"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 2
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Welcome Page",
+          "route": "welcome",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "welcome-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center\">\n    <img class=\"mb-3 md:mb-4 mt-4 md:mt-5 w-20\" src=\"{{assetsUrl}}/5a18c6d4-29bf-42da-b0c4-ba34c953ebd4/successtick.png?version=1\">\n    <h2><span class=\"text-main-2 font-rounded text-2xl leading-7\">Welcome to insurance without the Yada Yada and just the cover you need, {{name}}!</span></h2>\n    <p class=\"text-base\">\n        <br/>You will be covered as of {{coverStartDate}}\n        <br/>Your policy number is {{policyNumber}}\n    </p>\n</div>\n<div class=\"flex justify-center\">\n    <hr class=\"mb-4 w-1/4 mx-2\"/>\n</div>\n<p class=\"font-bold text-base text-center mb-0\">Here's what you need to do next...</p>"
+                  }
+                },
+                {
+                  "id": "txtGroup",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "txtDownloadMobile",
+                        "conditionValue": "mobile",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row items-start py-3\">\n    <img class=\"w-14\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/b8e5facd-d278-497c-9abb-8a2c32acf8a2/icon-cellphone.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><a href=\"https://onelink.to/8ezvjw\" target=\"_blank\" class=\"text-zodiac-blue font-bold\">Download our app</a> to access your dashboard for self-servicing capabilities.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtDownloadDesktop",
+                        "conditionValue": "desktop",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row items-start py-3\">\n    <img class=\"w-14\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/b8e5facd-d278-497c-9abb-8a2c32acf8a2/icon-cellphone.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"font-bold text-zodiac-blue\">Download our app</span> to access your dashboard for self-servicing capabilities.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtSubmit",
+                        "conditionValue": "isCollected",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row items-start py-3\">\n    <img class=\"w-14\" alt=\"loginIcon\" \n        src=\"{{cmsUrl}}/api/assets/con-fusion/9835ea74-3bed-4e13-9b01-169f3753770d/icon-camera.svg\" />\n    <span class=\"text-sm pl-4 self-center\">\n        Complete your car inspection \n        <span class=\"text-zodiac-blue font-bold\">our app within 48 hours</span>\n        of the cover start date to ensure that you are covered.\n    </span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtNetstar",
+                        "conditionValue": "netstar",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row items-start py-3\">\n    <img class=\"w-14\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/40666974-f089-42b7-a698-8e71174f4573/icon-customer-support.svg\" />\n    <span class=\"text-sm pl-4 self-center\">Expect a call from an agent to book your car for a <span class=\"text-zodiac-blue font-bold\">Netstar tracking device installation</span> appointment.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtOwnTracker",
+                        "conditionValue": "ownTracker",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row items-start py-3\">\n    <img class=\"w-14\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cdd109b3-c201-4657-a9da-aa93793df3b1/certificate.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-zodiac-blue font-bold\">Upload</span> your car's tracking device certificate online.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtUserPh",
+                        "conditionValue": "A",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-14\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/da2fd14a-c137-4c86-afbe-eb1a117474c3/affordable-premium.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-zodiac-blue font-bold\">You</span> should <span class=\"text-zodiac-blue font-bold\">expect a call</span> from us regarding your banking details.</span>\n</div>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "txtUserThirdParty",
+                        "conditionValue": "ThirdParty",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-14\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/da2fd14a-c137-4c86-afbe-eb1a117474c3/affordable-premium.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-zodiac-blue font-bold\">{{householdMember}}</span> should <span class=\"text-zodiac-blue font-bold\">expect a call</span> from us regarding their banking details.</span>\n</div>",
+                          "htmlEvents": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Download app",
+                    "route": null,
+                    "url": "https://onelink.to/8ezvjw",
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "groupMobile",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "txtDownloadAppInfo",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p class=\"col-span-3 pb-2 text-center\">Our app is available here:</p>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "btnAppStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "App Store",
+                          "route": null,
+                          "url": "https://apps.apple.com/za/app/dialdirect-insurance/id1232151151",
+                          "img": [
+                            "49c0dc96-0e5b-418f-bb28-f592569adef6"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnGoogleStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Google Store",
+                          "route": null,
+                          "url": "https://play.google.com/store/apps/details?id=za.co.dialdirect.drivewithdial&hl=en_ZA&gl=US",
+                          "img": [
+                            "ed387c7c-d1e6-4097-b276-c7b7d642862e"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnHuaweiStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Huawei Store",
+                          "route": null,
+                          "url": "https://appgallery.huawei.com/#/app/C100446735",
+                          "img": [
+                            "ae64f691-28b8-4bb2-8d94-b1ae729a7f31"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-07-16T12:13:43Z",
+  "lastModified": "2024-12-18T10:59:18Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0YzNiMDU4MS1jNGYyLTQ2ZDktODQ0OS1hOTdjYzIwY2M0MzIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 10,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432/9",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/4c3b0581-c4f2-46d9-8449-a97cc20cc432",
+      "method": "PUT"
+    }
+  }
+}

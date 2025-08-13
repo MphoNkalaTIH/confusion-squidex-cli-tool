@@ -1,0 +1,2986 @@
+{
+  "id": "1da82c4c-4b84-47d1-a046-18150ef308e4",
+  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:678f6baf2b512c27fd0ed077",
+  "data": {
+    "brand": {
+      "iv": "virseker"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "quote"
+    },
+    "name": {
+      "iv": "Kwotasie"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-circle-check-filled"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 1
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "premium-page",
+          "route": "premium",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": true,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": "",
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "premium-page",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Kry dekking",
+                    "route": {
+                      "pageRoute": "fit-tracking-device",
+                      "sectionRoute": "build-cover",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "txtExcessAmount",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"font-bold text-xs pt-3\">Bybetalingsbedrag</div>"
+                  }
+                },
+                {
+                  "id": "btnCoverType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verander jou tipe dekking",
+                    "route": {
+                      "pageRoute": "cover-types",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnInsuredValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verander jou versekerde waarde",
+                    "route": {
+                      "pageRoute": "insured-value",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "headingIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">Ekstra dekking wat ingesluit is</h2>"
+                  }
+                },
+                {
+                  "id": "headingExtraCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">Voeg nog dekking by</h2>"
+                  }
+                },
+                {
+                  "id": "comprehensiveDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Neem kennis</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Omvattende versekering sal in jou beste belang wees omdat jou bank daarop mag aandring vir jou gefinansierde kar. Die dekking wat jy oorweeg bied beperkte dekking en jy sal verantwoordelik wees vir enige kostes of skade wat nie deur die dekkingstipe gedek word nie.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Gaan voort",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnChangeCoverType",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Verander dekkingstipe",
+                          "route": {
+                            "pageRoute": "cover-types",
+                            "sectionRoute": "quote"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnSave",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Stoor en stuur kwotasie",
+                    "route": {
+                      "pageRoute": "select-communication-method",
+                      "sectionRoute": "quote",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "headingWhatYouToldUs",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">Wat jy ons vertel het</h2>"
+                  }
+                },
+                {
+                  "id": "imgCarDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "9ba7c8c3-84dd-4161-9fb4-cfce82b2ab07"
+                    ]
+                  }
+                },
+                {
+                  "id": "imgPersonalDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "8a1e0cfe-7db8-4eb1-9826-f12e3df067df"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtUpsellCoverType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Switch to <b>Comprehensive</b> or <b>Trailsure</b> cover to get up to 20% discount.",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "groupVehicleSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "year",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Jaar",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.year",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "make",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Maak",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.make.copy",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": "vehicle.vehicle.make.image[0]",
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": "badge",
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "model",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Model",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.model.description",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "type",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Tipe",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.type.description",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "colour",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Kleur",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.colour.copy",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": "vehicle.vehicle.colour.image[0]",
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": "colour",
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "use",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Waarvoor word die kar gebruik?",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.use.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": "vehicle.vehicle.use.copy"
+                        }
+                      },
+                      {
+                        "id": "registeredInSa",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Is die kar geregistreer in Suid-Afrika?",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.registeredInSa"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "isFinanced",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Is die kar gefinansier?",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.isFinanced"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee, die kar is afbetaal"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "coverType",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Tipe dekking",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.coverType.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": "vehicle.vehicle.coverType.copy"
+                        }
+                      },
+                      {
+                        "id": "insuredValue",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Versekerde waarde",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.insuredValue.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": "vehicle.vehicle.insuredValue.copy"
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "parkedDetailHome",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Ligging van nagparkering",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "a2e0adb4-3490-4cc3-91d6-eeac7141704a"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailHome.method.code",
+                              "vehicle.vehicle.parkedDetailHome.address.suburbName",
+                              "vehicle.vehicle.parkedDetailHome.address.postCode"
+                            ],
+                            "values": [
+                              "Geen spesifieke gebied"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "parkedDetailHomeLocation",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Nagparkering",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.parkedDetailHome.method.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": ""
+                        }
+                      },
+                      {
+                        "id": "parkedDetailHomeSecurity",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Sekuriteit van nagparkering",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "8f78ec19-d5a1-44b5-a1a8-d0d594facc05"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailHome.method.code",
+                              "vehicle.vehicle.parkedDetailHome.security"
+                            ],
+                            "values": [
+                              "Geen spesifieke gebied"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "parkedDetailWork",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Ligging van dagparkering",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "a2e0adb4-3490-4cc3-91d6-eeac7141704a"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailWork.method.code",
+                              "vehicle.vehicle.parkedDetailWork.address.suburbName",
+                              "vehicle.vehicle.parkedDetailWork.address.postCode"
+                            ],
+                            "values": [
+                              "Geen spesifieke gebied"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "parkedDetailWorkLocation",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Dagparkering",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.parkedDetailWork.method.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": ""
+                        }
+                      },
+                      {
+                        "id": "parkedDetailWorkSecurity",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Sekuriteit van dagparkering",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "8f78ec19-d5a1-44b5-a1a8-d0d594facc05"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailWork.method.code",
+                              "vehicle.vehicle.parkedDetailWork.security"
+                            ],
+                            "values": [
+                              "Geen spesifieke gebied"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "hasTrackingDevice",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Het jy ŉ opsporings- en terugverkrygingstoestel in die kar geïnstalleer?",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.trackerDetails.hasTrackingDevice"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "groupPersonalSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "idNumber",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.identification.idNumber",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "titleCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "74d77a3a-63e5-420b-845f-da13416e6d08"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.identification.idType"
+                            ],
+                            "values": [
+                              "Paspoortnommer",
+                              "Suid-Afrikaanse ID-nommer"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "dateOfBirth",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Geboortedatum",
+                          "template": null,
+                          "valueFieldPath": "personal.policyHolder.dateOfBirth",
+                          "applyTitleCasePipeToValue": false,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": false,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "cd40b71f-eeec-44f8-b3f5-f02f6ac85df5"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.identification.idType"
+                            ],
+                            "values": [
+                              "2"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "8fa0ae5b-6fe1-44a1-8970-cd4d82ed92e1",
+                            "format": "dd MMMM yyyy",
+                            "localeOverride": "af"
+                          }
+                        }
+                      },
+                      {
+                        "id": "gender",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Geslag",
+                          "template": null,
+                          "valueFieldPath": "personal.policyHolder.gender.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "name",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Naam en van",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.firstName",
+                              "personal.policyHolder.lastName"
+                            ],
+                            "values": [
+                              " "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phone",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Selfoonnommer",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.phone",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "email",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "E-posadres",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.emailAddress",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "maritalStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Huwelikstatus",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.maritalStatus.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "employmentStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Werkstatus",
+                          "template": "",
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "c423fd41-3794-4993-b9f5-e98339036773"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.employmentStatus.description",
+                              "personal.policyHolder.workdaysFromHome"
+                            ],
+                            "values": [
+                              ": Working from home 3 days or more a week.",
+                              ""
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "regularDriver",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Gaan jy die gereelde bestuurder van die kar wees?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee, iemand anders gaan meer met die kar ry"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "driverRelationshipToPolicyHolder",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Wat is jou verwantskap met die gereelde bestuurder?",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.relationshipToPolicyHolder.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "groupRegularDriverSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "idNumber",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.identification.idNumber",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "titleCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "74d77a3a-63e5-420b-845f-da13416e6d08"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.identification.idType"
+                            ],
+                            "values": [
+                              "Paspoortnommer",
+                              "Suid-Afrikaanse ID nommer"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.identification.idNumber"
+                            ],
+                            "values": [
+                              null
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "dateOfBirth",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Geboortedatum",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.dateOfBirth",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "cd40b71f-eeec-44f8-b3f5-f02f6ac85df5"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.identification.idType"
+                            ],
+                            "values": [
+                              "2",
+                              null
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "8fa0ae5b-6fe1-44a1-8970-cd4d82ed92e1",
+                            "format": "dd MMMM yyyy",
+                            "localeOverride": "af"
+                          }
+                        }
+                      },
+                      {
+                        "id": "gender",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Geslag",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.gender.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "name",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Naam en van",
+                          "template": "",
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.firstName",
+                              "personal.regularDriver.lastName"
+                            ],
+                            "values": [
+                              " "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "maritalStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Huwelikstatus",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.maritalStatus.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "employmentStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Werkstatus",
+                          "template": "",
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "c423fd41-3794-4993-b9f5-e98339036773"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.employmentStatus.description",
+                              "personal.regularDriver.workdaysFromHome"
+                            ],
+                            "values": [
+                              ": Working from home 3 days or more a week.",
+                              ""
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "groupOtherDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "licenceType",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Tipe bestuurslisensie",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.identification.idNumber",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "0a31b81f-9260-4750-b8f4-4a0050c0777c"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.licenceType.description",
+                              "personal.regularDriver.licenceType.description"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "licenceDate",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Uitreikdatum van bestuurslisensie",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "0a31b81f-9260-4750-b8f4-4a0050c0777c"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.licenceIssueDate",
+                              "personal.regularDriver.licenceIssueDate"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "8fa0ae5b-6fe1-44a1-8970-cd4d82ed92e1",
+                            "format": "MMMM yyyy",
+                            "localeOverride": "af"
+                          }
+                        }
+                      },
+                      {
+                        "id": "licenceCode",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Bestuurslisensie kode",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "0a31b81f-9260-4750-b8f4-4a0050c0777c"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.licenceCode.code",
+                              "personal.regularDriver.licenceCode.code"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "phComprehensiveCarInsurance",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Het jy tans omvattende karversekering?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgComprehensiveCarInsurance",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Het {{householdMemberName}} tans omvattende karversekering?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phLastSixtyDaysComprehensive",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Was jy die gereelde bestuurder van 'n omvattend versekerde kar gedurende die afgelope 60 dae?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "d0c3f9df-d78a-4ee9-8e68-a82d62c19bd9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              false,
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgLastSixtyDaysComprehensive",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Was {{householdMemberName}} die gereelde bestuurder van 'n omvattend versekerde kar gedurende die afgelope 60 dae?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              "Ja",
+                              "Nee"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "d0c3f9df-d78a-4ee9-8e68-a82d62c19bd9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.regularDriver.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              true,
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phUninterruptedCover",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Hoeveel volle, ononderbroke jare het jy omvattende versekering gehad gedurende die laaste 7 jaar?",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.uninterruptedCover.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "b68a0984-5e35-4e1a-a4f5-14825e50e2a7"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.hasComprehensiveInsurance",
+                              "personal.policyHolder.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              false,
+                              false,
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgUninterruptedCover",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Hoeveel volle, ononderbroke jare het {{householdMemberName}} omvattende versekering gehad gedurende die laaste 7 jaar?",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.uninterruptedCover.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "b68a0984-5e35-4e1a-a4f5-14825e50e2a7"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.regularDriver.hasComprehensiveInsurance",
+                              "personal.regularDriver.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              true,
+                              false,
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phLastClaim",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Wanneer laas het jy geëis vir ‘n karongeluk of diefstal van ‘n kar?",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.lastClaimYears.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgLastClaim",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
+                          "title": "Wanneer laas het {{householdMemberName}} geëis vir ‘n karongeluk of diefstal van ‘n kar?",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.lastClaimYears.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtZeroExcess",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p>Jy kwalifiseer vir Jonk van Gees en kan jou bybetaling verminder na R0. <a id=\"lnkLearnMore\" class=\"font-bold cursor-pointer\">Vind meer uit</a></p>",
+                    "htmlEvents": [
+                      {
+                        "id": "lnkLearnMore",
+                        "eventName": "click",
+                        "callback": "onClickLearnMore",
+                        "callbackParams": "[]"
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "zeroExcessDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Jonk van Gees</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jonk van Gees is spesifiek ontwerp vir individue wat 50 jaar en ouer is. Hierdie aanbieding fokus daarop om ons bestaande motor- en huisinhoudpolisse te verryk deur jou die opsie te gee om jou basiese bybetaling te verlaag tot en met R0.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtWindscreenExcess",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Windskerm/glasbybetaling: "
+                  }
+                },
+                {
+                  "id": "txtTabHeaderCovertypeReplace",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Virseker ",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtChangeYourExcessHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs\">Verander jou bybetaling</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtChangeYourExcessDesc",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-sm leading-5\">Hierdie is die bedrag wat jy gaan betaal wanneer jy eis.</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtYourExcessHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs\">Jou bybetaling</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPersonalisePremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs\">Verpersoonlik jou premie</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtMonthlyPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"mt-6 text-xs\">Jou maandelikse premie</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "imgMonthlyPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "8cafdaee-6203-4d72-8d42-7d3b35bdf800"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtGetCovered",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"font-semibold text-base text-white underline\">Kry dekking</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtOnlineDiscountApplied",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Online discount applied",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtSummaryCarDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Karinligting",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtSummaryPersonalDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Persoonlike inligting",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtSummaryRegularDriverDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "GEREELDE BESTUURDER INLIGTING",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtSliderMin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Min",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtSliderMax",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Maks",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtIncludedInCoverType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Ingesluit by die tipe dekking",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtFixedExcessAmount",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Vaste bybetaling:",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtTabHeaderCovertypeReplace",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Virseker ",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "carHireDefaultReplaceText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "(Kia Picanto of soortgelyk)",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "headingAdditionalAddons",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">Jou byvoegings wat jy gekies het</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "trackingDeviceBulletDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtSafeAndSoundTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "Netstar Safe and Sound kenmerke",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtStarDriveTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "Netstar Star Drive kenmerke",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtNetStarSafeAndSoundFeatures",
+                        "type": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": true,
+                          "formItems": [
+                            {
+                              "id": "txtFeature1",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Gesteelde motor herwinningsdienste",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature2",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Installasiesertifikaat vir versekering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature3",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir seinblokkering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature4",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Impakopsporing vir veiligheid",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature5",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir battery ontkoppeling",
+                                "htmlEvents": []
+                              }
+                            }
+                          ]
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtNetStarStarDriveFeatures",
+                        "type": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": true,
+                          "formItems": [
+                            {
+                              "id": "txtFeature1",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Gesteelde motor herwinningsdienste",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature2",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Installasiesertifikaat vir versekering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature3",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir seinblokkering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature4",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Impakopsporing vir veiligheid",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature5",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir battery ontkoppeling",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature6",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Web en toep lewendige opsporing",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature7",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Logboek vir SARS",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature8",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Persoonlike bestuurdergedrag gradering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature9",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir seinblokkering in kar-parkeerarea",
+                                "htmlEvents": []
+                              }
+                            }
+                          ]
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnAllNetstarPlusFeatures",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<a id=\"allNetstarPlusOptions\">All Netstar Plus kenmerke</a>",
+                    "htmlEvents": [
+                      {
+                        "id": "allNetstarPlusOptions",
+                        "eventName": "click",
+                        "callback": "onClickNetstarPlusOptions",
+                        "callbackParams": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "allNetStarPlusOptionsDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0\">Netstar Plus kenmerke</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtNetStarPlusFeatures",
+                        "type": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": true,
+                          "formItems": [
+                            {
+                              "id": "txtFeature1",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Gesteelde motor herwinningsdienste",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature2",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Installasiesertifikaat vir versekering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature3",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Sein-versteuring opsporing (JammingResist™)",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature4",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Impakopsporing vir veiligheid",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature5",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir battery ontkoppeling",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature6",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Web en toep lewendige opsporingsfunksie",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature7",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Logboek vir SARS",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature8",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Persoonlike bestuurdergedrag gradering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature9",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir sein-versteuring in kar-parkeerarea",
+                                "htmlEvents": []
+                              }
+                            }
+                          ]
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "imgTrackingDeviceIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "cc8dc984-a1b2-4138-99bd-a068508b2435"
+                    ]
+                  }
+                },
+                {
+                  "id": "trackerNotValidDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let Asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Gebaseer op die opgedateerde risiko inligting is die toestel wat jy gekies het nie meer voldoende nie.</p>\n<p>Kies asseblief ŉ nuwe toestel op die volgende skerm.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Kies ŉ nuwe toestel",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "select-tracking-device",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Bel my terug",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cover-type-page",
+          "route": "cover-types",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "cover-type-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Kies dekking",
+                    "route": {
+                      "pageRoute": "premium",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "4b2c36b8-14df-4247-9cd8-8cace9d5c1e2"
+                      ],
+                      "statePropertyPaths": [
+                        "vehicle.vehicle.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "insured-value",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "premium",
+                            "sectionRoute": "resume-quote"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Kies jou dekking</h2>"
+                  }
+                },
+                {
+                  "id": "comprehensiveDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Neem kennis</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Omvattende versekering sal in jou beste belang wees omdat jou bank daarop mag aandring vir jou gefinansierde kar. Die dekking wat jy oorweeg bied beperkte dekking en jy sal verantwoordelik wees vir enige kostes of skade wat nie deur die dekkingstipe gedek word nie.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Gaan voort",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnChangeCoverType",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Verander dekkingstipe",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtFromPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Vanaf",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "insured-value-page",
+          "route": "insured-value",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "insured-value-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Kies versekerde waarde",
+                    "route": {
+                      "pageRoute": "premium",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "bcaa0baa-97ab-404e-a05b-dc53596396a9",
+                      "code": [
+                        "8548d8ff-3615-4880-ac96-2bad8d5b9ebf"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "premium",
+                            "sectionRoute": "resume-quote"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Kies die gepaste versekerde waarde</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select Communication Method Page",
+          "route": "select-communication-method",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "select-communication-method",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContentComprehensive",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Stoor jou kwotasie-inligting nou en gaan later aan</h2>\n<h4>Hoe wil jy jou kwotasie ontvang?</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContentNonComprehensive",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Stoor jou kwotasie-inligting nou en gaan later aan</h2>\n<h4>Hoe wil jy jou kwotasie ontvang?</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Not Used",
+                    "route": {
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "3e9bc5eb-f7a2-4243-a95e-117c3b21f140"
+                      ],
+                      "statePropertyPaths": [
+                        "quote.communicationMethod.code"
+                      ],
+                      "values": [
+                        "SMS"
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "communication-sent",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "capture-communication-details",
+                            "sectionRoute": "quote"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Capture Communication Details Page",
+          "route": "capture-communication-details",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "capture-communication-details",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContentEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Wat is jou e-posadres?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContentWhatsapp",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Wat is jou WhatsApp nommer?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "E-posadres",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "emailAddress",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "E-posadres is verpligtend",
+                      "invalidErrorMessage": "E-posadres is ongeldig",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Stuur kwotasie",
+                    "route": {
+                      "pageRoute": "communication-sent",
+                      "sectionRoute": "quote",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtWhatsapp",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "WhatsApp nommer",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "number",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Whatsapp nommer is verpligtend",
+                      "invalidErrorMessage": "Whatsapp nommer is ongeldig",
+                      "maxLength": 10,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Commumication Sent Page",
+          "route": "communication-sent",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "communication-sent",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"px-16 text-center flex flex-col items-center\">\r\n    <img class=\"mb-3 mt-8\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png\">\r\n    <h1 class=\"flex flex-col mb-0 text-6xl font-bold leading-none\"><span>Dankie</span> {{name}}!</h1>\r\n    <h2 class=\"mt-5 mb-0 font-medium text-base leading-5\">Jou kwotasie-opsomming is gestuur.</h2>\r\n    <h2 class=\"mt-5 mb-5 font-medium text-base leading-5\">Let asseblief dat dit geldig is vir 30 dae.</h2>\r\n</div>\r\n",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContentSms",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"px-16 text-center flex flex-col items-center\">\r\n    <img class=\"mb-3 mt-8\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png\">\r\n    <h2 class=\"flex flex-col mb-0 text-6xl font-bold leading-none\"><span>Dankie</span> {{name}}!</h2>\r\n    <h2 class=\"mt-5 mb-0 font-medium text-base leading-5\">Jou kwotasie-opsomming is gestuur na <span class=\"font-bold\">{{smsNumber}}</span></h2>\r\n    <h2 class=\"mt-5 mb-5 font-medium text-base leading-5\">Let asseblief dat dit geldig is vir 30 dae.</h2>\r\n</div>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-12-09T13:22:32Z",
+  "lastModified": "2025-05-22T13:12:53Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxZGE4MmM0Yy00Yjg0LTQ3ZDEtYTA0Ni0xODE1MGVmMzA4ZTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 28,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4/27",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/1da82c4c-4b84-47d1-a046-18150ef308e4",
+      "method": "PUT"
+    }
+  }
+}
