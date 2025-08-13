@@ -3,16 +3,6 @@ import  'dotenv/config';
 import fs from 'fs/promises';
 import path from 'path';
 
-
-interface SquidexComponentItem {
-  id: string;
-  created: string;
-  lastModified: string;
-  createdBy: string;
-  lastModifiedBy: string;
-  data: Record<string, any>;
-}
-
 interface SquidexListResponse<T> {
   total: number;
   items: T[];
@@ -46,21 +36,24 @@ async function getUserAccessToken(): Promise<string | null>{
     .catch((err) => console.log({ error_with: err.response.data }));
 }
 
-async function getComponentsData(token: string): Promise<SquidexComponentItem[] | null> {
+async function getComponentsData(token: string): Promise<any[] | null> {
   //get qoute sections from squidex
   const QOUTE_SECTIONS_URL =  `${(process.env.ENVIRONMENT ?? 'DEV')}_QOUTE_SECTIONS_URL`;
 
-  return await axios.get<SquidexListResponse<SquidexComponentItem>>(
+  return await axios.get<SquidexListResponse<any>>(
     process.env[QOUTE_SECTIONS_URL] ?? '',
     {
-      headers: { Authorization: `Bearer ${token}` }
+      headers: 
+      { 
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json"
+      }
     }
   ).then((resp) =>{
     console.log("[#] Done doing fetch components from squidex [#]");
-    console.log({resp: resp.data, items: resp.data.items.length});
-
     return resp.data.items;
   }).catch((err)=> {
+
     console.log({error_fetching: err})
     return null
   })
@@ -88,7 +81,7 @@ function buildFilePath(data: DataFields, id: string, outDir: string): string {
 }
 
 
-async function writeDataFiles(items: SquidexComponentItem[], outDir: string) {
+async function writeDataFiles(items: any[], outDir: string) {
   for (const item of items) {
     const filePath = buildFilePath(item.data, item.id, outDir);
     await fs.mkdir(path.dirname(filePath), { recursive: true });
