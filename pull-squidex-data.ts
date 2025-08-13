@@ -27,6 +27,25 @@ interface DataFields {
   [key: string]: any;
 }
 
+async function getUserAccessToken(): Promise<string | null>{
+    return await axios.post(
+        process.env.IDENTITY_SERVER_URL ?? '',
+        {
+            grant_type: 'client_credentials',
+            client_id: process.env.CLIENT_ID ?? '',
+            client_secret: process.env.CLIENT_SECRET ?? '',
+            scope: process.env.SCOPE ?? '',
+        },
+        {
+            headers: {
+                "Content-Type": 'application/x-www-form-urlencoded'
+            }
+        }
+    )
+    .then((resp) => resp.data.access_token)
+    .catch((err) => console.log({ error_with: err.response.data }));
+}
+
 async function getComponentsData(token: string): Promise<SquidexComponentItem[] | null> {
   //get qoute sections from squidex
   const QOUTE_SECTIONS_URL =  `${(process.env.ENVIRONMENT ?? 'DEV')}_QOUTE_SECTIONS_URL`;
@@ -92,11 +111,11 @@ async function writeDataFiles(items: SquidexComponentItem[], outDir: string) {
 
 (async () => {
   try {
-    const items = await getComponentsData(process.env.ACCESS_TOKEN ?? '');
-    
-    if(items){
-      await writeDataFiles(items, './output');
-    }
+    const ACCESS_TOKEN = await getUserAccessToken();
+    if(!ACCESS_TOKEN) return;
+
+    const items = await getComponentsData(ACCESS_TOKEN);
+    if(items) await writeDataFiles(items, './output');
     
     console.log('Data files written to ./output');
   } catch (err) {
