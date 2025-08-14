@@ -40,8 +40,8 @@ Follow these steps to set up and run the system:
    ```
 
    Commands:
-   - **pull latest models from squidex:** ```>>> node pull-squidex-data.ts```
-   - **push updated models to squidex:** ```>>> coming soon...```
+   - **pull latest models from squidex:** ```>>> npx ts-node pull-squidex-data.ts```
+   - **push updated models to squidex:** ```>>> npx ts-node push-squidex-data.ts output/thabang/budget/car-insurance/car-details-68a9b8df-f9c5-4af6-9207-363bb2a90a19.json 68a9b8df-f9c5-4af6-9207-363bb2a90a19```
 
 
 6. **Monitor the System:**
