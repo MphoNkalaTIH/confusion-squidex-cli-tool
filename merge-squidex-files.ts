@@ -1,8 +1,8 @@
 import fs from 'fs/promises';
-import { diffLines, applyPatch, createTwoFilesPatch } from 'diff';
+import {applyPatch, createTwoFilesPatch } from 'diff';
 
-const file1 = 'output/dev/dial/policy/resume-quote-152af75e-275a-4d78-be11-ee8f7f00abc2.json';
-const file2 = 'output/tokelo/dial/policy/resume-quote-f4ddd927-df19-4b19-9198-2c5ee72034b5.json';
+const file1 =  process.argv[2]
+const file2 = process.argv[3]
 
 //read both files as strings
 const content1 = await fs.readFile(file1, 'utf8');
@@ -18,4 +18,8 @@ const merged = applyPatch(content2, patch);
 if(merged){
     await fs.writeFile(file2, merged, 'utf8');
     console.log(`Merged diff from ${file1} into ${file2}, updating ${file2} to match ${file1}`);
+}
+else{
+    console.error(`Failed to merge ${file1} into ${file2}. The files may not be compatible.`);
+    process.exit(1);
 }

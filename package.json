@@ -8,5 +8,10 @@
   "devDependencies": {
     "@types/node": "^24.2.1",
     "typescript": "^5.9.2"
+  },
+  "scripts": {
+    "pull-latest": "npx ts-node pull-squidex-data.ts",
+    "push-updated": "npx ts-node push-squidex-data.ts",
+    "merge-files": "npx ts-node merge-squidex-files.ts"
   }
 }
