@@ -8,47 +8,41 @@ interface DataFields {
   route?: { iv: string };
   name?: {iv: string},
   baseRoute?: { iv: string };
-  environmentId?: { iv: string };
   [key: string]: any;
 }
 
-async function getUserAccessToken(): Promise<string | null>{
-    return await axios.post(
-        process.env.IDENTITY_SERVER_URL ?? '',
-        {
-          grant_type: 'client_credentials',
-          client_id: process.env.CLIENT_ID ?? '',
-          client_secret: process.env.CLIENT_SECRET ?? '',
-          scope: process.env.SCOPE ?? '',
-        },
-        {
-          headers: 
-          {
-            "Content-Type": 'application/x-www-form-urlencoded'
-          }
-        }
-    )
-    .then((resp) => resp.data.access_token)
-    .catch((err) => console.log({ error_with: err.response.data }));
-}
-
 async function getComponentsData(token: string): Promise<any[] | null> {
-  //get qoute sections from squidex
-  const QOUTE_SECTIONS_URL = `${(process.env.ENVIRONMENT ?? 'DEV')}_QOUTE_SECTIONS_URL`;
-
-  return await axios.get<any>(
-    process.env[QOUTE_SECTIONS_URL] ?? '',
+  return await axios.post<any>(
+    process.env.ENV_QOUTE_SECTIONS_URL?? '',
+    {
+      "q":{
+          "filter":{
+            "and":[
+                {
+                  "path":"data.environmentId.iv",
+                  "op":"eq",
+                  "value": process.env.ENVIRONMENT ?? 'dev'
+                }
+            ]
+          },
+          "sort":[
+            
+          ],
+          "take":10000
+      }
+    },
     {
       headers: 
       { 
         Authorization: `Bearer ${token}`,
+        "Content-Type": 'application/json'
       }
     }
   ).then((resp) =>{
     console.log("[#] Done doing fetch components from squidex [#]");
     return resp.data.items;
   }).catch((err)=> {
-    console.log({error_fetching: err})
+    console.log({error_fetching: err.response.data});
     return null
   })
 }
@@ -58,18 +52,17 @@ function getNameAsRoute(name: string){
   return name.replace(" ", "-").toLocaleLowerCase();
 }
 
-function buildFilePath(data: DataFields, id: string, outDir: string): string {
+function buildFilePath(data: DataFields, outDir: string): string {
   //these datafields help us build out this file-folder structure
-  let env = data.environmentId?.iv ?? '';
   let brand = data.brand?.iv ?? '';
   let route = data.route?.iv ?? '';
   let baseRoute = data.baseRoute?.iv != "" ? data.baseRoute!.iv :  getNameAsRoute(data.name!.iv);
 
-  const folderPath = path.join(outDir, env, brand, baseRoute);
+  const folderPath = path.join(outDir, brand, baseRoute);
 
   let fileName = '';
-  if(route == "") fileName = `${baseRoute}-${id}.json`; //baseRoute will never be an empty string but route can
-  else fileName = `${route}-${id}.json`; //otherwise just use the route
+  if(route == "") fileName = `${baseRoute}.json`; //baseRoute will never be an empty string but route can
+  else fileName = `${route}.json`; //otherwise just use the route
   
   return path.join(folderPath, fileName);
 }
@@ -77,7 +70,7 @@ function buildFilePath(data: DataFields, id: string, outDir: string): string {
 
 async function writeDataFiles(items: any[], outDir: string) {
   for (const item of items) {
-    const filePath = buildFilePath(item.data, item.id, outDir);
+    const filePath = buildFilePath(item.data, outDir);
     await fs.mkdir(path.dirname(filePath), { recursive: true });
 
     try {
@@ -98,11 +91,11 @@ async function writeDataFiles(items: any[], outDir: string) {
 
 (async () => {
   try {
-    const ACCESS_TOKEN = process.env.TOKEN //await getUserAccessToken();
+    const ACCESS_TOKEN = process.env.TOKEN;
     if(!ACCESS_TOKEN) return;
 
     const items = await getComponentsData(ACCESS_TOKEN);
-    if(items) await writeDataFiles(items, './output');
+    if(items) await writeDataFiles(items, process.env.SCHEMA_NAME ?? '');
     
     console.log('Data files written to ./output');
   } catch (err) {
