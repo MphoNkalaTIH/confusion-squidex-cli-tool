@@ -1,7 +1,7 @@
 {
   "id": "23edbbba-3636-45c8-84ad-e6d3b7d7cdc5",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "budget"
@@ -1290,65 +1290,6 @@
                     "widthClass": null,
                     "iconClass": null
                   }
-                },
-                {
-                  "id": "alarmDisclaimerDialog",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
-                    "formItems": [
-                      {
-                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "txtTitle",
-                        "type": null,
-                        "details": {
-                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Always arm your burglar alarm when you leave home</h3>",
-                          "htmlEvents": []
-                        },
-                        "conditionValue": null,
-                        "additionalData": null,
-                        "conditions": null
-                      },
-                      {
-                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "txtContent",
-                        "type": null,
-                        "details": {
-                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<ul class=\"mx-4 mb-3\">\n    <li>Your burglar alarm must be activated at all times while the home is unoccupied.</li>\n    <li>The alarm should always be linked to an armed reaction unit.</li>\n    <li>If the alarm is not activated at the time of the loss or linked to an armed reaction unit, loss and damages due to theft and burglary will be excluded.</li>\n</ul>",
-                          "htmlEvents": []
-                        },
-                        "conditionValue": null,
-                        "additionalData": null,
-                        "conditions": null
-                      },
-                      {
-                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "btnConfirm",
-                        "type": null,
-                        "details": {
-                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Got it",
-                          "route": {
-                            "baseRoute": "home-contents",
-                            "sectionRoute": "home-details",
-                            "pageRoute": "extra-security-measures"
-                          },
-                          "url": null,
-                          "img": null,
-                          "useImageAsButton": null,
-                          "theme": "primary",
-                          "class": null,
-                          "widthClass": null,
-                          "iconClass": null
-                        },
-                        "conditionValue": null,
-                        "additionalData": null,
-                        "conditions": null
-                      }
-                    ]
-                  }
                 }
               ]
             }
@@ -1425,7 +1366,7 @@
     }
   },
   "created": "2025-04-29T06:47:24Z",
-  "lastModified": "2025-07-02T11:25:20Z",
+  "lastModified": "2025-08-15T07:29:24Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyM2VkYmJiYS0zNjM2LTQ1YzgtODRhZC1lNmQzYjdkN2NkYzUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1505,14 +1446,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/2",
+      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/3",
       "method": "GET"
     },
     "draft/create": {
