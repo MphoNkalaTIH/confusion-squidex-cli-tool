@@ -1,0 +1,328 @@
+{
+  "id": "1c1db7cd-f4f0-4aba-a894-23306c0005d8",
+  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "virseker"
+    },
+    "baseRoute": {
+      "iv": "home-contents"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": ""
+    },
+    "name": {
+      "iv": "Home Contents Getting Started"
+    },
+    "environmentId": {
+      "iv": "juandre-contact-details"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": ""
+    },
+    "excludeFromTrackbar": {
+      "iv": true
+    },
+    "sectionDisabled": {
+      "iv": false
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 1
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Contact Details Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": true,
+          "readonly": null,
+          "createLead": true,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": null,
+              "moduleName": null,
+              "standaloneComponent": "ContactDetailsPageComponent",
+              "formItems": [
+                {
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Name",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "name",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Name is required",
+                      "invalidErrorMessage": "Name is invalid",
+                      "maxLength": 15,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Surname",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "surname",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Surname is required",
+                      "invalidErrorMessage": "Surname is invalid",
+                      "maxLength": 20,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtContactNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Contact Number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "number",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Contact number is required",
+                      "invalidErrorMessage": "Contact number is invalid",
+                      "maxLength": 10,
+                      "minLength": 10,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnProceed",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "pageRoute": "areas",
+                      "sectionRoute": "home-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "imgBackground",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "f8a121e0-29e4-471d-a2ee-a4cb67f0857f"
+                    ]
+                  }
+                },
+                {
+                  "id": "imgBackgroundMobile",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "f8a121e0-29e4-471d-a2ee-a4cb67f0857f"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-sub-1\">Voordat ons jou kwotasie doen, benodig ons inligting.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtSEOContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal text-sub-1\">Hallo!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal text-sub-1\">Kry jou kwotasie vir huisinhoud binne minute.</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtCollapseText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"font-normal text-sub-1\">\n    Met Virseker kry jy meer as net 'n polis. Ons bied jou dekking gemik op jou spesifieke behoeftes, trots in Afrikaans.\n</p>\n\n<p class=\"font-normal text-sub-1\">\n    Kry vandag nog jou verpligting-vrye huisinhoudversekering kwotasie aanlyn!\n</p>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2025-05-30T11:20:57Z",
+  "lastModified": "2025-06-04T15:12:29Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxYzFkYjdjZC1mNGYwLTRhYmEtYTg5NC0yMzMwNmMwMDA1ZDgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 7,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8/6",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/1c1db7cd-f4f0-4aba-a894-23306c0005d8",
+      "method": "PUT"
+    }
+  }
+}

@@ -1,0 +1,534 @@
+{
+  "id": "46c54878-3da0-4a28-8acb-2b32a46badcd",
+  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "brand": {
+      "iv": "autogen"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "policy-cancellation"
+    },
+    "name": {
+      "iv": "policy-cancellation"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-finalise"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": null
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Previous policy cancelled page",
+          "route": "previous-policy-cancelled",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "55dafea1-a094-41d0-92f1-1bc00fad4041"
+            ],
+            "statePropertyPaths": [
+              "resumeQuote.isCallCentreEdited.previousPolicyCancelled",
+              "resumeQuote.allowSaveAndResumeBack"
+            ],
+            "values": [
+              true,
+              false
+            ],
+            "route": null,
+            "routeArray": [],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "previous-policy-cancelled-page",
+              "moduleName": "PolicyCancellationModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "No",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "risk-address",
+                      "sectionRoute": "finalise-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Have you or a household member ever had a policy cancelled by an insurance company?</h2>"
+                  }
+                },
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Yes",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "previous-policy-cancelled-owner",
+                      "sectionRoute": "policy-cancellation",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Previous policy cancelled owner page",
+          "route": "previous-policy-cancelled-owner",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "3e090191-4610-46df-b16b-b932921909aa"
+            ],
+            "statePropertyPaths": [
+              "cms.featureFlags.displayPolicyCancellationFlow",
+              "resumeQuote.isCallCentreEdited.previousPolicyCancelled",
+              "resumeQuote.allowSaveAndResumeBack"
+            ],
+            "values": [
+              true,
+              false
+            ],
+            "route": null,
+            "routeArray": [],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "previous-policy-cancelled-owner-page",
+              "moduleName": "PolicyCancellationModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Who does this apply to?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnProceed",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "insurance-company",
+                      "sectionRoute": "policy-cancellation",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnAddHouseholdMember",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Add household Member",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "add-household-member-policy-cancellation",
+                      "sectionRoute": "policy-cancellation",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Add household Member Policy Cancellation Page",
+          "route": "add-household-member-policy-cancellation",
+          "pageBase": {
+            "baseRoute": "policy",
+            "pageRoute": "add-household-member",
+            "sectionRoute": "finalise-details",
+            "goToStart": false
+          },
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "55dafea1-a094-41d0-92f1-1bc00fad4041"
+            ],
+            "statePropertyPaths": [
+              "resumeQuote.isCallCentreEdited.previousPolicyCancelled",
+              "resumeQuote.allowSaveAndResumeBack"
+            ],
+            "values": [
+              true,
+              false
+            ],
+            "route": null,
+            "routeArray": [],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "add-household-member-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "isAccountHolderPage",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
+                    "flag": false
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "insurance-company",
+                      "sectionRoute": "policy-cancellation",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Insurance company page",
+          "route": "insurance-company",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "55dafea1-a094-41d0-92f1-1bc00fad4041"
+            ],
+            "statePropertyPaths": [
+              "resumeQuote.isCallCentreEdited.previousPolicyCancelled",
+              "resumeQuote.allowSaveAndResumeBack"
+            ],
+            "values": [
+              true,
+              false
+            ],
+            "route": null,
+            "routeArray": [
+              {
+                "route": {
+                  "baseRoute": "policy",
+                  "pageRoute": "risk-address",
+                  "sectionRoute": "finalise-details",
+                  "goToStart": false
+                }
+              }
+            ],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "insurance-company-page",
+              "moduleName": "PolicyCancellationModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What’s the name of the insurance company that cancelled the policy?</h2>"
+                  }
+                },
+                {
+                  "id": "txtCompany",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
+                    "label": "Insurance company name",
+                    "helperText": "",
+                    "placeholderText": "Search",
+                    "cannotFindItemText": "Can't find the company",
+                    "loadingText": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "pageRoute": "refer-to-manager",
+                      "sectionRoute": "callbackPages",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-11-22T12:42:42Z",
+  "lastModified": "2025-05-09T14:20:14Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0NmM1NDg3OC0zZGEwLTRhMjgtOGFjYi0yYjMyYTQ2YmFkY2QiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 24,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd/23",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/46c54878-3da0-4a28-8acb-2b32a46badcd",
+      "method": "PUT"
+    }
+  }
+}
