@@ -6,7 +6,7 @@ async function pushUpdatedContent(file: string, contentId: string): Promise<void
   const fileContent = await fs.readFile(file, 'utf8');
   const fileContentData = JSON.parse(fileContent).data;
 
-  const UPDATE_SECTION = `${process.env.UPDATE_QOUTE_SECTION_URL}/${contentId}`;
+  const UPDATE_SECTION = `${process.env.DEV_QOUTE_SECTIONS_URL}/${contentId}`;
 
   return await axios.put<any>(
     UPDATE_SECTION,
