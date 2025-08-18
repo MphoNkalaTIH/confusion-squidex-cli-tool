@@ -1,7 +1,7 @@
 {
   "id": "5b925bdf-7506-47e3-9ad7-067a466d69a7",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -111,7 +111,7 @@
                         },
                         {
                           "route": {
-                            "pageRoute": "casbhack",
+                            "pageRoute": "cashback",
                             "sectionRoute": "cashback-details",
                             "baseRoute": "policy"
                           }
@@ -153,7 +153,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-8\">Your excess</div>",
+                    "html": "<div class=\"text-xs text-sub-11\">Your excess</div>",
                     "htmlEvents": []
                   }
                 },
@@ -171,7 +171,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs pt-2 text-sub-8\">Excess amount</div>"
+                    "html": "<div class=\"text-xs pt-2 font-bold text-sub-11\">Home contents excess</div>"
                   }
                 },
                 {
@@ -188,7 +188,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-8 pt-2\">Additional excess</div>",
+                    "html": "<div class=\"text-xs text-sub-11 pt-2\">Additional excess</div>",
                     "htmlEvents": []
                   }
                 },
@@ -197,7 +197,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-sm font-bold text-sub-8\">Lightning and power surge excess:</div>",
+                    "html": "<div class=\"text-sm font-bold text-sub-11\">Lightning and power surge excess:</div>",
                     "htmlEvents": []
                   }
                 },
@@ -950,7 +950,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\" font-medium get-covered-container-text\">Get covered</div>",
+                    "html": "<div class=\"font-medium text-sub-1 get-covered-container-text\">Get covered</div>",
                     "htmlEvents": []
                   }
                 },
@@ -1065,6 +1065,36 @@
                       "goToStart": false
                     },
                     "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "998a7960-ac97-4412-af5e-f3988724de94"
+                      ],
+                      "statePropertyPaths": [
+                        "homeContents.homeContents.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
                     "img": null,
                     "useImageAsButton": null,
                     "theme": "primary",
@@ -1144,9 +1174,10 @@
                         },
                         {
                           "route": {
-                            "baseRoute": "home-contents",
-                            "pageRoute": "premium",
-                            "sectionRoute": "resume-quote"
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
                           }
                         }
                       ],
@@ -1455,7 +1486,7 @@
     }
   },
   "created": "2025-04-30T05:59:32Z",
-  "lastModified": "2025-06-20T07:28:13Z",
+  "lastModified": "2025-08-18T09:31:08Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI1YjkyNWJkZi03NTA2LTQ3ZTMtOWFkNy0wNjdhNDY2ZDY5YTciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1535,14 +1566,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 23,
+  "version": 24,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/5b925bdf-7506-47e3-9ad7-067a466d69a7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/5b925bdf-7506-47e3-9ad7-067a466d69a7/22",
+      "href": "/api/content/con-fusion/quote-sections/5b925bdf-7506-47e3-9ad7-067a466d69a7/23",
       "method": "GET"
     },
     "draft/create": {

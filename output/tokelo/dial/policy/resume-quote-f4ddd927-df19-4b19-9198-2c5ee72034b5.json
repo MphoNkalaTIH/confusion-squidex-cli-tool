@@ -1,7 +1,7 @@
 {
   "id": "f4ddd927-df19-4b19-9198-2c5ee72034b5",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -71,7 +71,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"mb-0\">Hi {{name}}!<br>We’ve found your quote.</h2>\n<h4 class=\"text-sub-5 mt-6\">For security purposes, enter your South African ID number or passport number.</h4>"
+                    "html": "<h2 class=\"mt-6 mb-0\">Hi {{name}}!<br>We’ve found your quote.</h2>\n<h4 class=\"mt-6 mb-3 text-sub-9\">For security purposes, enter your South African ID number or passport number.</h4>"
                   }
                 },
                 {
@@ -101,7 +101,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "premium",
@@ -109,6 +109,35 @@
                       "goToStart": false
                     },
                     "url": null,
+                    "condition": {
+                      "schemaId": "bcaa0baa-97ab-404e-a05b-dc53596396a9",
+                      "code": [
+                        "328c22a8-f59a-4973-85dc-ecf24557c27f"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote.leadChecks.quoteRiskDetails.hasVehicle",
+                        "resumeQuote.leadChecks.quoteRiskDetails.hasHomeContents"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ]
+                    },
                     "img": null,
                     "useImageAsButton": null,
                     "theme": null,
@@ -194,20 +223,46 @@
                       },
                       {
                         "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "btnNewQuote",
+                        "id": "btnNewQuoteVehicle",
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                           "label": "Start new quote",
                           "route": {
+                            "baseRoute": "car-insurance",
                             "pageRoute": "get-started",
                             "sectionRoute": "landing",
-                            "goToStart": true
+                            "goToStart": false
                           },
                           "url": null,
                           "img": null,
                           "useImageAsButton": null,
                           "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnNewQuoteHomeContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Start new quote",
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "",
+                            "sectionRoute": "",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
                           "class": null,
                           "widthClass": null,
                           "iconClass": null
@@ -374,6 +429,69 @@
                           "widthClass": null,
                           "iconClass": null
                         }
+                      },
+                      {
+                        "id": "btnPolicyExists",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Q",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "policy-exist",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnManagerReferral",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "M",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "refer-to-manager",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnUninsurableRisk",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "U",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "unacceptable-risk",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
                       }
                     ]
                   }
@@ -438,6 +556,61 @@
           ]
         },
         {
+          "name": "Resume Quote Home Contents Premium Page",
+          "route": "home-contents-premium",
+          "pageBase": {
+            "baseRoute": "home-contents",
+            "pageRoute": "premium",
+            "sectionRoute": "quote",
+            "goToStart": false
+          },
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": true,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "home-contents-premium-page",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnNewQuote",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Start new quote",
+                    "route": {
+                      "baseRoute": "",
+                      "pageRoute": "",
+                      "sectionRoute": "",
+                      "goToStart": true
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Quote expired page",
           "route": "quote-expired",
           "pageBase": null,
@@ -467,7 +640,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Hi {{name}}!<br>Your quote has expired.</h2>\n<h4 class=\"text-sub-5 mt-6\">Click on the link below to start a new quote.</h4>"
+                    "html": "<h2 class=\"mt-6 mb-0\">Hi {{name}}!<br>Your quote has expired.</h2>\n<h4 class=\"text-sub-9 mt-6 font-normal\">Click on the link below to start a new quote</h4>"
                   }
                 },
                 {
@@ -492,7 +665,7 @@
                   }
                 },
                 {
-                  "id": "btnNextHomeContents",
+                  "id": "btnNextHomeContent",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
@@ -520,7 +693,7 @@
     }
   },
   "created": "2025-07-15T12:32:54Z",
-  "lastModified": "2025-07-15T12:32:54Z",
+  "lastModified": "2025-08-18T09:32:48Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNGRkZDkyNy1kZjE5LTRiMTktOTE5OC0yYzVlZTcyMDM0YjUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -600,14 +773,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f4ddd927-df19-4b19-9198-2c5ee72034b5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f4ddd927-df19-4b19-9198-2c5ee72034b5/0",
+      "href": "/api/content/con-fusion/quote-sections/f4ddd927-df19-4b19-9198-2c5ee72034b5/1",
       "method": "GET"
     },
     "draft/create": {

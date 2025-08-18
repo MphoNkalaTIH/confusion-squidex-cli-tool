@@ -1,7 +1,7 @@
 {
   "id": "8ca22215-b959-4515-96b5-c22f8d8da494",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -806,7 +806,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p>Select up to 4</p>",
+                    "html": "<p>Select up to 4:</p>",
                     "htmlEvents": []
                   }
                 },
@@ -1425,7 +1425,7 @@
     }
   },
   "created": "2025-04-29T06:55:38Z",
-  "lastModified": "2025-06-18T11:36:56Z",
+  "lastModified": "2025-08-18T09:29:39Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI4Y2EyMjIxNS1iOTU5LTQ1MTUtOTZiNS1jMjJmOGQ4ZGE0OTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1505,14 +1505,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 16,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/8ca22215-b959-4515-96b5-c22f8d8da494",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/8ca22215-b959-4515-96b5-c22f8d8da494/14",
+      "href": "/api/content/con-fusion/quote-sections/8ca22215-b959-4515-96b5-c22f8d8da494/15",
       "method": "GET"
     },
     "draft/create": {
