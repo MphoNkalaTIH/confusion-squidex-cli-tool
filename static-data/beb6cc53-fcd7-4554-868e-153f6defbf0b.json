@@ -1,0 +1,129 @@
+{
+  "id": "beb6cc53-fcd7-4554-868e-153f6defbf0b",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "data": {
+    "name": {
+      "iv": "Common Banks"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": true
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "UNI",
+          "copy": "Absa",
+          "description": "Absa",
+          "image": [
+            "fc805afd-b776-48d6-9ff4-45597370353c"
+          ]
+        },
+        {
+          "code": "CAP",
+          "copy": "Capitec",
+          "description": "Capitec",
+          "image": [
+            "87c95d21-58fc-4e27-9ca8-ca966d5a6cab"
+          ]
+        },
+        {
+          "code": "FIR",
+          "copy": "FNB",
+          "description": "FNB",
+          "image": [
+            "f3e07c57-084b-419e-b76e-5d4a049a7880"
+          ]
+        },
+        {
+          "code": "NED",
+          "copy": "Nedbank",
+          "description": "Nedbank",
+          "image": [
+            "13a62159-9d2d-4b36-933d-5665dbf3e48b"
+          ]
+        },
+        {
+          "code": "STA",
+          "copy": "Standard Bank",
+          "description": "Standard Bank",
+          "image": [
+            "f14fa159-81ff-4646-bf27-c195b70e2141"
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:45:44Z",
+  "lastModified": "2022-11-30T13:37:47Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiZWI2Y2M1My1mY2Q3LTQ1NTQtODY4ZS0xNTNmNmRlZmJmMGIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 5,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b/4",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/beb6cc53-fcd7-4554-868e-153f6defbf0b",
+      "method": "PUT"
+    }
+  }
+}

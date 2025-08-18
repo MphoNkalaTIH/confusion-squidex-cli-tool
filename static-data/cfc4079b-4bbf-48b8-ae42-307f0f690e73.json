@@ -1,0 +1,152 @@
+{
+  "id": "cfc4079b-4bbf-48b8-ae42-307f0f690e73",
+  "createdBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:67ee549e834f3e41309d3c23",
+  "data": {
+    "name": {
+      "iv": "Roof Types"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "1",
+          "index": 1,
+          "copy": "No",
+          "description": "<ul></ul>",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Nee",
+              "description": "<ul></ul>",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "index": 2,
+          "copy": "Yes",
+          "description": "<ul>\n    <li>\n        With an SABS approved lightning conductor\n    </li>\n</ul>",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Ja",
+              "description": "<ul>\n    <li>\n        Met 'n SABS-goedgekeurde weerligafleier\n    </li>\n</ul>",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "index": 3,
+          "copy": "Yes",
+          "description": "<ul>\n    <li>\n        Without an SABS approved lightning conductor\n    </li>\n</ul>",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": "Ja",
+              "description": "<ul>\n    <li>\n        Sonder 'n SABS-goedgekeurde weerligafleier\n    </li>\n</ul>",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-07-17T05:02:40Z",
+  "lastModified": "2025-05-13T11:33:37Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjZmM0MDc5Yi00YmJmLTQ4YjgtYWU0Mi0zMDdmMGY2OTBlNzMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 6,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73/5",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/cfc4079b-4bbf-48b8-ae42-307f0f690e73",
+      "method": "PUT"
+    }
+  }
+}

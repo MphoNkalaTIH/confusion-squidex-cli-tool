@@ -1,0 +1,135 @@
+{
+  "id": "54220f79-7de2-4f51-8e1b-551e9567cea1",
+  "createdBy": "subject:63d3c3cdc16968f87b36989f",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "name": {
+      "iv": "Messages"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "SMS_RESUME_QUOTE",
+          "index": null,
+          "copy": "",
+          "description": "Hi {{firstName}}, you're moments away from joining the fearless. To resume your 1st for Women quote, click here: {{link}} INS&FSP. Ts&Cs online.",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Haai daar {{firstName}}! Dankie dat jy by ons kwoteer het. As jy reg is om aan te sluit by 'n versekeringsnaam wat geken word vir goeie diens, gebruik hierdie skakel binne die volgende 30 dae om jou kwotasie te finaliseer: {{link}}. A&G Versekeraar en FDV, Bs en Vs aanlyn.",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": null,
+              "copy": null,
+              "description": "Hi {{firstName}}! Thanks for checking out Budget! We’re holding onto your car quote and your discount. Checkout now to start saving! {{link}} INS & FSP Ts & Cs online",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": "Hi {{firstName}}, to get insurance from one of SA’s leading insurers, complete your Auto&General quote here: {{link}}. Lic. Ins & FSP. Ts&Cs online.",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": "Hi {{firstName}}, don't get YADA YADA, get just what you need. To resume your Dialdirect quote, click here: {{link}}. Lic. Ins & FSP. Ts&Cs online.",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2023-01-31T12:33:11Z",
+  "lastModified": "2024-04-19T08:48:45Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI1NDIyMGY3OS03ZGUyLTRmNTEtOGUxYi01NTFlOTU2N2NlYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 22,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1/21",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1",
+      "method": "PUT"
+    }
+  }
+}

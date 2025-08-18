@@ -1,0 +1,411 @@
+{
+  "id": "b3e22e75-858e-499f-8caf-fbd0f7433496",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "name": {
+      "iv": "Cover type"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "A",
+          "index": 0,
+          "copy": "Covers the loss of, or damage to your car due to accident – regardless of who’s at fault – theft, weather, malicious damage, fire and accidental damage your car causes to other people’s property.",
+          "description": "Comprehensive",
+          "image": [],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "Covers damage to your car due to an accident – regardless of who’s at fault – theft, weather, malicious damage, fire and accidental damage your car causes to someone else’s car or property.",
+              "description": "Comprehensive",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "Covers the loss of, or damage to your car due to ​an accident – regardless of who’s at fault – theft, weather, malicious damage, fire and accidental damage your car causes to someone else’s car or property.",
+              "description": "Comprehensive",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Dekking vir wanneer jou kar gesteel word, as jou kar en/of iemand anders se kar of besittings in ‘n ongeluk beskadig word, of as natuurrampe soos vuur of vallende bome jou tref.",
+              "description": "Omvattend",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Covers damage to your car due to an accident – regardless of who’s at fault – theft, weather, malicious damage, fire and accidental damage your car causes to someone else’s car or property.",
+              "description": "Comprehensive",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "D",
+          "index": 1,
+          "copy": "Comprehensive cover with some added benefits for your 4x4 or SUV cars.",
+          "description": "Trailsure",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "Comprehensive cover with some added benefits for your 4x4 or SUV cars.",
+              "description": "Off-Road Vehicle Comprehensive",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "Comprehensive cover with some added benefits for your 4x4 or SUV cars.",
+              "description": "Advensure",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Omvattende dekking met die toegevoegde voordele vir jou 4x4 of sportnutsvoertuig (SUV).",
+              "description": "Veldbakkie",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Comprehensive cover with some added benefits for your 4x4 or SUV cars.",
+              "description": "Advensure",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "B",
+          "index": 2,
+          "copy": "Cover for damages to your car as a direct result of fire, explosions, lightning or theft, including damages you may cause to someone else’s car, for which you are legally liable.",
+          "description": "Third-party fire and theft",
+          "image": [],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "Cover for damages to your car as a direct result of fire, explosions, lightning or theft, including damages you may cause to someone else’s car or property, for which you are legally liable.",
+              "description": "Third Party, Fire and Theft",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "Cover for damages to your car as a direct result of fire, explosions, lightning or theft, including damages your car may cause to someone else’s car or property, for which you are legally liable.",
+              "description": "Third Party, Fire and Theft",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Dekking as jou kar gesteel word of beskadig word deur ‘n brand, en vir skade wat dit aan iemand anders se kar of besittings aanrig waarvoor jy wetlik aanspreeklik is.",
+              "description": "Derdeparty, brand en diefstal",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Cover for damages to your car as a direct result of fire, explosions, lightning or theft, including damages your car may cause to someone else’s car or property, for which you are legally liable.",
+              "description": "Third Party, Fire and Theft",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "C",
+          "index": 3,
+          "copy": "You are covered for damages that your car caused to someone’s car or property, for which you are legally liable.",
+          "description": "Third-party only",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "You are only covered for damages that your car caused to someone else’s car or property, for which you are legally liable.",
+              "description": "Third-party only",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "You are only covered for damages that your car caused to someone else’s car or property, for which you are legally liable.",
+              "description": "Third-party only",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "As jy gemaklik is om die kostes self te dra as jou kar gesteel of beskadig word, maar nog steeds gedek wil wees teen die skade wat jou kar aan iemand anders se kar of besittings aanrig waarvoor jy wetlik aanspreeklik is, is hierdie die opsie vir jou.",
+              "description": "Slegs derdeparty",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "You are only covered for damages that your car caused to someone else’s car or property, for which you are legally liable.",
+              "description": "Third-party only",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "J",
+          "index": 4,
+          "copy": "You are covered for damages caused by someone else or if stolen.",
+          "description": "Budget Lite 1",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "You are only covered for damages your car caused to someone else’s car or property for which you are legally liable, and if your car is stolen.",
+              "description": "1st for Women Essential 1",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "You are only covered for damages your car caused to someone else’s car or property for which you are legally liable, and if your car is stolen.",
+              "description": "Auto&General Express 1",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Jy is slegs gedek vir skade wat jou kar aan iemand anders se kar of besittings aanrig waarvoor jy wetlik aanspreeklik is of as jou kar gesteel is.",
+              "description": "Virseker Kompak 1",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "You are only covered for damages your car caused to someone else’s car or property for which you are legally liable, and if your car is stolen.",
+              "description": "Dialdirect Bundle 1",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "K",
+          "index": 5,
+          "copy": "You are covered for hail damages, damages your car caused to other cars/property for which you are legally liable and if your car was written off.",
+          "description": "Budget Lite 2",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "You are covered for hail damages, damages your car caused to someone else’s car or property for which you are legally liable, and if your car is written off or stolen.",
+              "description": "1st for Women Essential 2",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "You are covered for hail damages, damages your car caused to someone else’s car or property for which you are legally liable, and if your car is written off or stolen.",
+              "description": "Auto&General Express 2",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Jy is gedek vir haelskade, skade wat jou kar aan iemand anders se kar of  besittings aanrig waarvoor jy wetlik aanspreeklik is of as jou kar gesteel of afgeskryf is.",
+              "description": "Virseker Kompak 2",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "You are covered for hail damages, damages your car caused to someone else’s car or property for which you are legally liable, and if your car is written off or stolen.",
+              "description": "Dialdirect Bundle  2",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "L",
+          "index": 6,
+          "copy": "You are covered for limited accident damage, hail damages, damages your car caused to other cars/property for which you are legally liable and if your car was written off.",
+          "description": "Budget Lite 3",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "You are covered for limited accident damage, hail damages, damages your car caused to someone else’s car or property for which you are legally liable and if your car is written off or stolen.",
+              "description": "1st for Women Essential 3",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "You are covered for limited accident damage, hail damages, damages your car caused to someone else’s car or property for which you are legally liable and if your car is written off or stolen.",
+              "description": "Auto&General Express 3",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Jy is gedek vir beperkte ongelukskade, haelskade, skade wat jou kar aan iemand anders se kar of  besittings aanrig waarvoor jy wetlik aanspreeklik is of indien jou kar gesteel of afgeskryf is.",
+              "description": "Virseker Kompak 3",
+              "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "You are covered for limited accident damage, hail damages, damages your car caused to someone else’s car or property for which you are legally liable and if your car is written off or stolen.",
+              "description": "Dialdirect Bundle  3",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "Z",
+          "index": 7,
+          "copy": "All round cover for any accidental damage, theft, fire and natural disaster for your car.",
+          "description": "Comprehensive Plus",
+          "image": []
+        },
+        {
+          "code": "E",
+          "index": 8,
+          "copy": "Cover that only pays out when your car has been stolen",
+          "description": "Theft Only Cover",
+          "image": []
+        },
+        {
+          "code": "G",
+          "index": 9,
+          "copy": "Cover that saves you money",
+          "description": "Saver cover",
+          "image": []
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:05Z",
+  "lastModified": "2025-02-20T06:39:47Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiM2UyMmU3NS04NThlLTQ5OWYtOGNhZi1mYmQwZjc0MzM0OTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 29,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496/28",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/b3e22e75-858e-499f-8caf-fbd0f7433496",
+      "method": "PUT"
+    }
+  }
+}

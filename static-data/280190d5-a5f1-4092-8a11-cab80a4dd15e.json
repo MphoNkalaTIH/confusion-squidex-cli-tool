@@ -1,0 +1,195 @@
+{
+  "id": "280190d5-a5f1-4092-8a11-cab80a4dd15e",
+  "createdBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "data": {
+    "name": {
+      "iv": "Insured value bullet variant"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "M",
+          "index": null,
+          "copy": null,
+          "description": "Your car will be covered for the average amount it would sell for today",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "R",
+          "index": null,
+          "copy": null,
+          "description": "We will pay you the price you would expect to pay for your car if buying it from a motor dealer",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "R",
+          "index": null,
+          "copy": null,
+          "description": "This attracts a higher premium",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "R",
+          "index": null,
+          "copy": null,
+          "description": "You will receive a higher payout when you claim",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": null,
+          "description": "We will pay out for or replace your car with the same model that is one year newer than your insured car",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": null,
+          "description": "Applies only in the event of a write-off (excludes theft-related claims)",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": null,
+          "description": "If no newer model is available, we will pay out 15% more than your car’s retail value",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "T",
+          "index": null,
+          "copy": null,
+          "description": "We will pay you the estimated amount a dealership would offer after inspecting your car (trade-in value)",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "T",
+          "index": null,
+          "copy": null,
+          "description": "This provides the lowest possible premium",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "T",
+          "index": null,
+          "copy": null,
+          "description": "You will receive the lowest payout when you claim",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        }
+      ]
+    }
+  },
+  "created": "2025-08-04T07:10:50Z",
+  "lastModified": "2025-08-04T07:22:37Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIyODAxOTBkNS1hNWYxLTQwOTItOGExMS1jYWI4MGE0ZGQxNWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 5,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/4",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
+      "method": "PUT"
+    }
+  }
+}

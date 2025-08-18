@@ -1,0 +1,746 @@
+{
+  "id": "c331f841-6dbe-4459-82cc-91028ccaa44e",
+  "createdBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "data": {
+    "name": {
+      "iv": "Home Contents Cover"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "ExtendedCover",
+          "index": 1,
+          "copy": "Extended cover",
+          "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include \r\n    the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Theft</b>\r\n<ul class=\"mx-4\">\r\n    <li>Your guests' belongings</li>\r\n    <li>Your domestic employee's belongings</li>\r\n    <li>Stolen washing and garden furniture</li>\r\n    <li>Money stolen from your home</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Accidental mirror and glass breakage</li>\r\n    <li>Loss and damage of locks and keys</li>\r\n    <li>Accidental breakage of television</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire or break-in at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
+          "class": null,
+          "image": [
+            "f67bc2a0-0058-4640-ab3a-587289742632"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "46db1bcc-8cc2-4795-94df-cb166cbc464f"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Uitgebreide dekking",
+              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit:</p>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Skade of verlies van wasgoed en tuinmeubels</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand of inbraak tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
+              "image": [
+                "f5b16981-5613-4c6e-9ede-3340de95ff9a"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "ExtendedCoverFireAndStorm",
+          "index": 1,
+          "copy": "Extended cover",
+          "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Damage or loss of washing and garden furniture.</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire or break-in at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
+          "class": null,
+          "image": [
+            "f67bc2a0-0058-4640-ab3a-587289742632"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "46db1bcc-8cc2-4795-94df-cb166cbc464f"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SecureFire",
+          "index": 2,
+          "copy": "Fire assist services",
+          "description": "<p>\n    Fidelity ADT SecureFire fire brigade will be dispatched to your home when \n    alerted of a fire incident. Responders will arrive in efficient time to \n    attempt to contain the blaze and minimize potential losses. With our \n    partnership, you can rest assured that your home is in safe hands, and any \n    fire-related damages will be swiftly mitigated.\n</p>",
+          "class": null,
+          "image": [
+            "3fa3e505-cc56-4b2b-8c32-9ee175dd1dd9"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Brandbystanddienste",
+              "description": "<p>\n    Fidelity ADT SecureFire-brandweer sal na jou huis gestuur word wanneer hulle \n    van ŉ brandvoorval gewaarsku word. Brandbestryders sal betyds opdaag en poog \n    om die brand te bestry en potensiële verliese te minimaliseer. Met ons \n    vennootskap kan jy gerus wees dat jou huis in goeie hande is en dat enige \n    brandverwante skade vinnig verlig sal word.\n</p>",
+              "image": [
+                "423a0877-084f-4760-a059-5d519600eccb"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "EmergencyAssistServices",
+          "index": 3,
+          "copy": "Emergency assist services",
+          "description": "<p>\n    Home emergencies shouldn’t cost a fortune. We’ll pay for the call-out fee plus \n    one hour’s labour if you have an emergency that requires an electrician, \n    locksmith, glazier, or plumber.\n</p>\n\n<p>\n   We also offer legal, medical, trauma and entertainment assist services. \n</p>\n",
+          "class": null,
+          "image": [
+            "f9e6e697-1080-41b0-ac34-45f1df36ca6d"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 4,
+              "copy": null,
+              "description": null,
+              "image": [
+                "41ba7ef0-b2d5-4dfa-832e-5480440314ee"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "486cae64-eede-416e-9dc1-5cae0cb17e2a"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "839da73b-1218-4319-a032-f90fd6824bf0"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Noodbystanddienste",
+              "description": "<p>\n    Noodgevalle tuis behoort nie 'n fortuin te kos nie. Ons sal vir die uitroepfooi\n    plus een uur se arbeid betaal as jy 'n noodgeval het wat 'n elektrisiën, slotmaker,\n    glashersteller of loodgieter benodig.\n</p>\n\n<p>\n   Ons bied ook regs-, mediese, trauma en vermaaklikheidsbystanddienste. \n</p>\n",
+              "image": [
+                "953d27d8-5dc8-48b5-b955-4ce8c6481f65"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SecurityGuardProtection",
+          "index": 4,
+          "copy": "Security guard protection",
+          "description": "<p>\n    Security will be dispatched to guard your building following an incident of \n    loss or damage in the event that security measures cannot be corrected \n    immediately.\n</p>",
+          "class": null,
+          "image": [
+            "5c262743-b7dc-4b80-8c02-7e6ed6ccd58e"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 5,
+              "copy": null,
+              "description": null,
+              "image": [
+                "0a840c71-cd57-4b63-b7e6-cb544dc61bfc"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "098c06c7-04c0-4b35-8579-edb4c223448e"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "2125fc86-b3e2-400f-93e7-15233b04c43a"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": "Veiligheidswag-beskerming",
+              "description": "<p>\n    Veiligheidswagte sal gestuur word om jou gebou na 'n insident van verlies of \n    skade te bewaak, in die geval dat veiligheidsmaatreëls nie onmiddelik \n    geïmplementeer kan word nie.\n</p>",
+              "image": [
+                "1d79900c-3105-4432-8c99-f11039b4f282"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "UnspecifiedPortablePossessions",
+          "index": 5,
+          "copy": "R{{indemnityMinimum}} unspecified portable possessions cover",
+          "description": "<p>\n    R{{indemnityMinimum}} cover for unspecified items you take out of your home worth less\n    than R{{itemMax}} per item. This excludes cellphones, bicycles and prescription\n    glasses/contact lenses.\n</p>",
+          "class": null,
+          "image": [
+            "ffe5868f-ff6d-4858-ac1b-2d4e01ce1ae3"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 6,
+              "copy": null,
+              "description": null,
+              "image": [
+                "c1ea9ac8-b58e-4e04-a1d2-fd6049017220"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 4,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f92c8405-ecd1-4ab8-8d25-282eaf038e05"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "R{{indemnityMinimum}} ongespesifiseerde draagbare besittings dekking",
+              "description": "<p>\n    R{{indemnityMinimum}} se dekking vir ongespesifiseerde items wat jy uit jou\n    woning neem, met 'n waarde van minder as R{{itemMax}} per item. Dit sluit\n    selfone, fietse en voorskrif brille/kontaklense uit.\n</p>",
+              "image": [
+                "fd679ede-a909-491a-905f-76283ecb7e12"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 4,
+              "copy": null,
+              "description": null,
+              "image": [
+                "7743c263-b699-454b-8857-6949d1101e8e"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "LiabilityCover2M",
+          "index": 5,
+          "copy": "R2 million householder liability cover",
+          "description": "<p>\n\tThis covers accidental death, loss, or injury to any person except you, your \n\temployees or family members living with you, for incidents at the insured \n\taddress for which you are legally liable.\n</p>",
+          "class": null,
+          "image": [
+            "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 7,
+              "copy": null,
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 5,
+              "copy": null,
+              "description": null,
+              "image": [
+                "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 5,
+              "copy": "R2 miljoen se huisbewoner aanspreeklikheidsdekking",
+              "description": "<p>\n\tDit dek toevallige dood, verlies of besering van enige persoon behalwe jy, \n\tjou werknemer of enige familielid wat saam met jou woon vir insidente by die\n\tversekerde adres waarvoor jy wetlik aanspreeklik is.\n</p>",
+              "image": [
+                "4b9d4bde-04f4-478f-a19f-80419ea49036"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 5,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "Sasria",
+          "index": 6,
+          "copy": "SASRIA",
+          "description": "<p>\n    Cover against risks such as civil commotion, public disorder, strikes, riots \n    and terrorism in South Africa.\n</p>",
+          "class": null,
+          "image": [
+            "ce7d484f-3ce8-4fd2-ab2d-acb32af8168c"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 8,
+              "copy": null,
+              "description": null,
+              "image": [
+                "314a4c9d-012c-4f3d-a8e7-c84cbe82e1c8"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 6,
+              "copy": null,
+              "description": null,
+              "image": [
+                "e550a4a5-dade-4fcb-b3ea-6e9a04bff14e"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 6,
+              "copy": "SASRIA",
+              "description": "<p>\n    Dekking teen risiko's soos burgerlike oproer, openbare wanorde, stakings, \n    betogings en terrorisme in Suid-Afrika.\n</p>",
+              "image": [
+                "aaf84b0e-a0d9-46c3-bbee-3350060da74d"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 6,
+              "copy": null,
+              "description": null,
+              "image": [
+                "fdadf098-19db-4a82-8ddd-29910a99bd9e"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "LiabilityCover5M",
+          "index": 7,
+          "copy": "Increase householder liability cover to R5 million",
+          "description": "<p>\n\tSelect this option to increase your householder liability cover amount from \n\tR2 million to R5 million. This covers accidental death, loss, or injury to any \n\tperson except you, your employees or family members living with you, for incidents \n\tat the insured address for which you are legally liable.\n</p>\n<p>\n    Once your policy is active, higher liability cover is available through our \n    call centre.\n</p>",
+          "class": null,
+          "image": [
+            "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 9,
+              "copy": null,
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 7,
+              "copy": null,
+              "description": null,
+              "image": [
+                "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 7,
+              "copy": "Verhoog huisbewoner aanspreeklikheidsdekking na R5 miljoen",
+              "description": "<p>\n\tKies hierdie opsie om jou huisbewoner aanspreeklikheidsdekking se bedrag van \n\tR2 miljoen tot R5 miljoen te verhoog. Dit dek toevallige dood, verlies of \n\tbesering van enige persoon behalwe jy, jou werknemer of enige familielid \n\twat saam met jou woon, vir insidente by die versekerde adres waarvoor jy \n\twetlik aanspreeklik is.\n</p>\n<p>\n    Sodra jou polis aktief is, is hoër aanspreeklikheidsdekking beskikbaar \n    deur ons kontaksentrum.\n</p>",
+              "image": [
+                "c404716e-6bd2-4928-82b0-6d1110c44882"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 7,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "LiabilityCover10M",
+          "index": 8,
+          "copy": "Increase householder liability cover to R10 million",
+          "description": "<p>\n    You selected to increase your householder liability cover amount to a maximum \n    of R10 million, instead of the default of R2 million. This covers accidental \n    death, loss, or injury to any person except you, your employees or family \n    members living with you, for incidents at the insured address for which you \n    are legally liable.\n</p>\n<p>\n    Once your policy is active, higher liability cover is available through our \n    call centre.\n</p>",
+          "class": null,
+          "image": [
+            "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 10,
+              "copy": null,
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 8,
+              "copy": null,
+              "description": null,
+              "image": [
+                "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 8,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "LiabilityCover20M",
+          "index": 9,
+          "copy": "Increase householder liability cover to R20 million",
+          "description": "<p>\n    You selected to increase your householder liability cover amount to a maximum \n    of R20 million, instead of the default of R2 million. This covers accidental \n    death, loss, or injury to any person except you, your employees or family \n    members living with you, for incidents at the insured address for which you \n    are legally liable.\n</p>\n<p>\n    Once your policy is active, you can amend your cover limit through our call centre.\n</p>",
+          "class": null,
+          "image": [
+            "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 11,
+              "copy": null,
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 9,
+              "copy": null,
+              "description": null,
+              "image": [
+                "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 9,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "UnspecifiedPortablePossessionsBuyUp",
+          "index": 10,
+          "copy": "Unspecified portable possessions cover",
+          "description": "<p>\n    You have selected <span class=\"font-bold\">R{{insuredValue}}</span> cover for unspecified portable \n    possessions you take out of your home, worth less than R{{itemMax}} per item. \n    This cover excludes cellphones, bicycles, and prescription glasses/contact \n    lenses. Included in this amount is the R{{indemnityMinimum}} unspecified portable \n    possessions cover that is a standard feature of all home contents policies.\n</p>\n<p>\n    Once your policy is active, you can amend your cover amount through our call \n    centre.\n</p>",
+          "class": null,
+          "image": [
+            "ffe5868f-ff6d-4858-ac1b-2d4e01ce1ae3"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 11,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f92c8405-ecd1-4ab8-8d25-282eaf038e05"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 11,
+              "copy": null,
+              "description": null,
+              "image": [
+                "7743c263-b699-454b-8857-6949d1101e8e"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 10,
+              "copy": null,
+              "description": null,
+              "image": [
+                "c1ea9ac8-b58e-4e04-a1d2-fd6049017220"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HandbagCover",
+          "index": 11,
+          "copy": "R25 000 handbag cover",
+          "description": "<p>\n    R25 000 cover for loss, damage, and theft of your handbag and for all the goodies you keep in there, because our Home Contents Insurance is specifically designed for women.\n</p>",
+          "class": null,
+          "image": [
+            "455a32af-f96d-4d2e-82ff-55dc60ba6f3d"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "GuardianAngelOnCall",
+          "index": 12,
+          "copy": "Guardian Angel on Call: Panic button",
+          "description": "<p>\r\n\tA Guardian Angel on Call benefit, available through the 1st for Women app. \r\n\tThe panic button alerts external help during emergencies or whenever you \r\n\tfeel unsafe. You can share the benefit with up to five family and household \r\n\tmembers.\r\n</p>\r\n\r\n<p>\r\n\tOther benefits include:\r\n</p>\r\n\r\n<p>\r\n\t<b>Stand by Me</b><br>\r\n\tA service that enables the call centre to provide tips and send \r\n\tassistance when you feel unsafe to wait with you until help arrives.\r\n</p>\r\n\r\n<p>\r\n\t<b>Lift</b><br>\r\n\tOne lift per event will be arranged to take you from the place you're \r\n\tbeing assisted to a place of safety in the event of an accident or vehicle \r\n\tbreakdown.\r\n</p>\r\n\r\n<p>\r\n\t<b>Medical Assist</b><br>\r\n\tA trained and qualified emergency medical agent will answer your call in \r\n\tthe event of an emergency and assist you.\r\n</p>\r\n\r\n<p>\r\n\t<b>Trip Assist</b><br>\r\n\tA service that allows your trip to be monitored by our call centre so \r\n\tyou can reach your destination safely.\r\n</p>",
+          "class": null,
+          "image": [
+            "291c09b7-852c-41bc-98de-930f479cefc3"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-26T13:17:25Z",
+  "lastModified": "2025-08-05T08:43:37Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjMzMxZjg0MS02ZGJlLTQ0NTktODJjYy05MTAyOGNjYWE0NGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 54,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/53",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
+      "method": "PUT"
+    }
+  }
+}

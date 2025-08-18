@@ -1,0 +1,161 @@
+{
+  "id": "2c05e45f-755c-4ebe-99f8-8a90d789b2a8",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Account Types"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "C",
+          "index": 1,
+          "copy": "Credit/debit card",
+          "description": "Credit/Debit Card",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Krediet/debietkaart",
+              "description": "Krediet/debietkaart",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "1",
+          "index": 2,
+          "copy": "Cheque account",
+          "description": "Cheque",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Tjekrekening",
+              "description": "Tjek",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "index": 3,
+          "copy": "Savings account",
+          "description": "Savings",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Spaarrekening",
+              "description": "Spaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "index": 4,
+          "copy": "Transmission account",
+          "description": "Transmission",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Oordragrekening",
+              "description": "Oordrag",
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:06Z",
+  "lastModified": "2024-05-30T13:33:18Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIyYzA1ZTQ1Zi03NTVjLTRlYmUtOTlmOC04YTkwZDc4OWIyYTgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 10,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8/9",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/2c05e45f-755c-4ebe-99f8-8a90d789b2a8",
+      "method": "PUT"
+    }
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "id": "1a50a99b-8701-4e38-b36f-739a5a3ec642",
+  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:669df913f6500a63dd5e0607",
+  "data": {
+    "name": {
+      "iv": "Account Holders"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "A",
+          "index": 1,
+          "copy": "Myself",
+          "description": "",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Myself",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "B",
+          "index": 2,
+          "copy": "Household member",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "E",
+          "index": 3,
+          "copy": "Household member",
+          "description": "Household member",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "'n Lid van my huishouding",
+              "description": "'n Lid van my huishouding",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "C",
+          "index": 4,
+          "copy": "Another individual",
+          "description": "Another individual",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "ŉ Ander individu",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "D",
+          "index": 5,
+          "copy": "A Business or organisation",
+          "description": "A Business or organisation",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "ŉ Besigheid of organisasie",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-05-31T06:55:09Z",
+  "lastModified": "2025-03-14T06:30:12Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIxYTUwYTk5Yi04NzAxLTRlMzgtYjM2Zi03MzlhNWEzZWM2NDIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 18,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642/17",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/1a50a99b-8701-4e38-b36f-739a5a3ec642",
+      "method": "PUT"
+    }
+  }
+}

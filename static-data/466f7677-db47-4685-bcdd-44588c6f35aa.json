@@ -1,0 +1,229 @@
+{
+  "id": "466f7677-db47-4685-bcdd-44588c6f35aa",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "subject:65d83696f6500a63dd3828f1",
+  "data": {
+    "name": {
+      "iv": "Uninterrupted Car Insurance Years"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "0",
+          "index": 0,
+          "copy": null,
+          "description": "None",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Geen",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "1",
+          "index": 1,
+          "copy": null,
+          "description": "1 year",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "1 jaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "index": 2,
+          "copy": null,
+          "description": "2 years",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "2 jaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "index": 3,
+          "copy": null,
+          "description": "3 years",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "3 jaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "index": 4,
+          "copy": null,
+          "description": "4 years",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "4 jaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "index": 5,
+          "copy": null,
+          "description": "5 years",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "5 jaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "index": 6,
+          "copy": null,
+          "description": "6 years",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "6 jaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "7",
+          "index": 7,
+          "copy": null,
+          "description": "7+ years",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "7+ jaar",
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:45:00Z",
+  "lastModified": "2024-04-16T10:53:39Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI0NjZmNzY3Ny1kYjQ3LTQ2ODUtYmNkZC00NDU4OGM2ZjM1YWEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 8,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa/7",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/466f7677-db47-4685-bcdd-44588c6f35aa",
+      "method": "PUT"
+    }
+  }
+}

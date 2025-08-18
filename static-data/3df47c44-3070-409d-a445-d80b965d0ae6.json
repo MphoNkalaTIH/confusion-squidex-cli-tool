@@ -1,0 +1,248 @@
+{
+  "id": "3df47c44-3070-409d-a445-d80b965d0ae6",
+  "createdBy": "subject:63d3c3cdc16968f87b36989e",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "data": {
+    "name": {
+      "iv": "Cashback Benefits"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "01",
+          "index": null,
+          "copy": null,
+          "description": "",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<p>This benefit offers a provision for the unexpected but inevitable costs associated with death for the policy holder.</p>\n<p class=\"mb-0\">This includes:</p>\n<ul>\n    <li>R5 000 funeral cover for the policy holder.</li>\n    <li>Claims settlement within two working days.</li>\n</ul>",
+              "description": "Funeral Plan",
+              "image": [
+                "c3656e76-cfaf-4265-b2f3-8732adb1e3f9"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<p>Hierdie voordeel bied voorsiening vir die onvoorsiene maar onvermydelike kostes van die dood van die korttermynpolishouer.</p>\n<p class=\"mb-0\">Dit sluit in:</p>\n<ul>\n    <li>R5 000 begrafnisversekering vir die korttermynpolishouer.</li>\n    <li>Eiseskikkings binne twee werksdae.</li>\n</ul>",
+              "description": "Begrafnisplan",
+              "image": [
+                "57ac067d-b0c6-4d39-ba3e-260e69771479"
+              ]
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "index": null,
+          "copy": "This benefit will protect your loved ones financially in the event of the \npolicyholder’s death. It will cover your short-term insurance premiums for up to \nsix months, protect your Cash Back Plus and give you peace of mind that your \npersonal possessions remain insured.",
+          "description": "Death Premium Waiver Benefit",
+          "image": [
+            "a798ed87-b3a5-44de-a95a-8adec3571602"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<p>Provides your family with additional protection in the event of your death during this difficult period.</p>\n<p>Your motor and household premiums will be paid for a total of up to six months (over the lifetime of the policy).</p>",
+              "description": "Death Premium Waiver Benefit",
+              "image": [
+                "6d244a4b-9708-4916-b1df-b5244960fe2a"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<p>In die geval van jou dood sal hierdie produk vir jou gesin ekstra versekering/beskerming in hierdie moeilike tyd bied.</p>\n<p>Jou Virseker kar- en huispolispremies sal betaal word vir tot ses maande (oor die leeftyd van die polis).</p>",
+              "description": "Premie-kwytskelding Dood",
+              "image": [
+                "8c4ea814-3d64-4a4f-9323-842be6ba74bb"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<p>Provides your family with additional protection in the event of your death.</p>\n<p>Your policy premiums will be paid for a total of up to six months (over the lifetime of the policy).</p>",
+              "description": "Death Premium Waiver Benefit",
+              "image": [
+                "df625472-07ca-486a-b7b8-c019b77f7fc4"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "index": null,
+          "copy": "This benefit has a six-month waiting period and will cover payment of your \nshort-term insurance premiums for up to six months, protect your Cash Back Plus \nand give you peace of mind that your personal possessions remain insured.",
+          "description": "Retrenchment Premium Waiver Benefit",
+          "image": [
+            "09a56fb5-6b27-48ab-88d7-73bf21033451"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<p>This product provides peace of mind for policyholders who get retrenched during these trying times.</p>\n<p>Payment for your motor and household premiums will be guaranteed for a total of up to six months (over the lifetime of the policy).</p>",
+              "description": "Retrenchment Premium Waiver Benefit",
+              "image": [
+                "1990a2d0-0499-4195-8913-49fc1746999b"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<p>Ons wil seker maak jy raak nie jou besittings kwyt as jy jou werk verloor nie. Daarom gee ons jou kwytskelding op jou maandelikse korttermynversekeringspremies as jy as polishouer afgelê word.</p>\n<p>Ons waarborg die betaling van jou kar- en huispremie vir tot ses maande (oor die leeftyd van die polis).</p>",
+              "description": "Premie-kwytskelding Aflegging",
+              "image": [
+                "d6ef5204-cb19-44eb-aea1-f9ce248daec8"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<p>This product provides peace of mind for policyholders who get retrenched.</p>\n<p>Your policy premiums will be paid for a total of up to six months (over the lifetime of the policy). This benefit has a six-month waiting period.</p>",
+              "description": "Retrenchment Premium Waiver Benefit",
+              "image": [
+                "19b228d3-2bad-44a3-bc7d-217073194bde"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "index": null,
+          "copy": "In the event of death, this benefit will cover you, the policyholder, for an \namount of R5 000.00. It has a six-month waiting period unless death is due to \naccidental causes - then cover is immediate. The benefit also covers death as a \nresult of HIV/AIDS and claims are settled in two working days.",
+          "description": "Protection Plan Cover",
+          "image": [
+            "59039f33-cb6c-4001-9924-29ef2ee5d8dc"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<p>(Available exclusively to clients over the age of 50)</p>\n<p>In the event of a critical illness, as the policy holder, your cover will remain intact for up to six months.</p>\n<p class=\"mb-0\">We cover you for:</p>\n\n<div class=\"gap-2 columns-2 flex flex-row\">\n    <ul class=\"mb-0 w-full\">\n          \n        <li>Heart attack</li>\n        <li>Blindness</li>\n        <li>Cancer</li>\n        <li>Stroke</li>\n    </ul>\n    <ul class=\"mb-0 w-full\">\n          \n        <li>Kidney failure</li>\n        <li>Paraplegia</li>\n        <li>Major burns</li>\n        <li>Coma</li>\n    </ul>\n</div>\n<ul><li>Multiple sclerosis or motor neurone disease.</li></ul>\n<p class=\"mt-3\">This benefit will also be payable should you become the recipient of a heart, lung, liver, pancreas, kidney, or bone marrow by undergoing a major organ transplant procedure.</p>\n",
+              "description": "Dreaded Disease Premium Waiver",
+              "image": [
+                "34c82abd-b348-46ca-9eac-2d9ed3ddaf27"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<p>(Net beskikbaar aan kliënte oor 50)</p>\n<p>Indien jy, as Virseker-polishouer, ’n kritiese siekte opdoen wat jou onbevoeg laat, sal jou korttermyn-premie vir tot ses maande (oor die leeftyd van die polis) betaal word.</p>\n<p class=\"mb-0\">Ons dek jou vir:</p>\n\n<div class=\"gap-2 columns-2 flex flex-row\">\n    <ul class=\"mb-0 w-full\">\n          \n        <li>’n hartaanval</li>\n        <li>blindheid</li>\n        <li>kanker</li>\n        <li>ernstige brandwonde</li>\n    </ul>\n    <ul class=\"mb-0 w-full\">\n          \n        <li>nierversaking</li>\n        <li>verlamming</li>\n        <li>koma</li>\n        <li>’n beroerte</li>\n    </ul>\n</div>\n<ul><li>veelvuldige sklerose of motorneuronsiekte</li></ul>\n<p>Hierdie voordeel sal ook geld indien jy deur middel van ‘n groot orgaan-oorplantingsprosedure ’n hart, long, lewer, pankreas, nier of beenmurg ontvang het.</p>\n",
+              "description": "Gevreesde siekte Premie-kwytskelding",
+              "image": [
+                "415a0657-19b9-488f-b23c-f612fa0a8bb8"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<p>If you are totally and permanently disabled, as the result of an accident, you may be at risk of losing your job and your income.</p>\n<p>To assist you and your family at this difficult time, we will continue to pay your policy premiums for a total of up to six months (over the lifetime of the policy). This benefit has a six-month waiting period.</p>",
+              "description": "Total Permanent Disability Premium Waiver",
+              "image": [
+                "5aad6896-1142-4a23-b8b7-2fb0053eb6fc"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2023-07-11T16:55:50Z",
+  "lastModified": "2025-04-14T08:09:00Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIzZGY0N2M0NC0zMDcwLTQwOWQtYTQ0NS1kODBiOTY1ZDBhZTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 39,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6/38",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6",
+      "method": "PUT"
+    }
+  }
+}
