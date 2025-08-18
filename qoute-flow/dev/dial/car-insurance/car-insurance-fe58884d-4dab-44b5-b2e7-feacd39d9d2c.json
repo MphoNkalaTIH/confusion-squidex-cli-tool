@@ -1,7 +1,7 @@
 {
   "id": "fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
   "createdBy": "subject:63d3c3cdc16968f87b36989e",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -343,6 +343,25 @@
                     "text": "offer you cover",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "insure your home contents",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "imgDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/aa105b8c-916b-4802-8e01-dcf17403ca65/icon_state_error.png\">",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -587,7 +606,84 @@
         },
         {
           "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
-          "name": "Page not found 404 error",
+          "name": "Unacceptable Risk Page - Home Contents",
+          "route": "unacceptable-risk-home-contents",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Take me to the homepage",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"my-3 text-sub-8 text-base font-normal leading-5\">\n    Based on the information you have provided, we unfortunately cannot insure \n    your home contents.\n</h2>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-5 text-5xl text-sub-8 font-georgia font-bold leading-tight\">Thank you<br/>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-5 text-5xl text-sub-8 font-georgia font-bold leading-tight\">Thank you!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "imgDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/aa105b8c-916b-4802-8e01-dcf17403ca65/icon_state_error.png\">",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Not Found Page",
           "route": "not-found-page",
           "defaultReferToManager": null,
           "defaultUnacceptableRisk": null,
@@ -1174,9 +1270,7 @@
                   "index": 2,
                   "name": "Quote",
                   "quoteFlowType": "home-contents",
-                  "routes": [
-                    "quote"
-                  ]
+                  "routes": []
                 },
                 {
                   "baseRoutes": [
@@ -1201,6 +1295,7 @@
                   "icon": "icon-build-cover",
                   "index": 1,
                   "name": "Build cover",
+                  "quoteFlowType": "car-insurance",
                   "routes": []
                 },
                 {
@@ -1211,6 +1306,44 @@
                   "icon": "icon-finalise",
                   "index": 2,
                   "name": "Finalise details",
+                  "quoteFlowType": "car-insurance",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents",
+                    "policy"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-circle-check-filled",
+                  "index": 0,
+                  "name": "Quote",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "quote",
+                    "resume-quote"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-build-cover",
+                  "index": 1,
+                  "name": "Build cover",
+                  "quoteFlowType": "home-contents",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-finalise",
+                  "index": 2,
+                  "name": "Finalise details",
+                  "quoteFlowType": "home-contents",
                   "routes": []
                 },
                 {
@@ -1221,6 +1354,7 @@
                   "icon": "icon-build-cover",
                   "index": 0,
                   "name": "Build cover",
+                  "quoteFlowType": "car-insurance",
                   "routes": [
                     "build-cover"
                   ]
@@ -1233,6 +1367,7 @@
                   "icon": "icon-finalise",
                   "index": 1,
                   "name": "Finalise details",
+                  "quoteFlowType": "car-insurance",
                   "routes": [
                     "finalise-details",
                     "cashback-details",
@@ -1247,6 +1382,50 @@
                   "icon": "icon-circle-check",
                   "index": 2,
                   "name": "Done",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "done"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy",
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-build-cover",
+                  "index": 0,
+                  "name": "Build cover",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "spouse-details",
+                    "incident-details"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-finalise",
+                  "index": 1,
+                  "name": "Finalise details",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "finalise-details",
+                    "cashback-details",
+                    "policy-cancellation"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-circle-check",
+                  "index": 2,
+                  "name": "Done",
+                  "quoteFlowType": "home-contents",
                   "routes": [
                     "done"
                   ]
@@ -1354,7 +1533,7 @@
                       "htmlEvents": []
                     },
                     "conditionValue": null,
-                    "additionalData": null,
+                    "additionalData": "",
                     "conditions": null
                   },
                   {
@@ -1468,14 +1647,14 @@
         "youngAtHeart": false,
         "saveAndResume": true,
         "displayTyreAndRimPromotion": null,
-        "hasHomeContents": null,
+        "hasHomeContents": true,
         "showDisclosurePopup": true,
         "displayPolicyCancellationFlow": true
       }
     }
   },
   "created": "2024-01-31T15:43:25Z",
-  "lastModified": "2025-05-26T08:46:25Z",
+  "lastModified": "2025-08-18T12:20:38Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImZlNTg4ODRkLTRkYWItNDRiNS1iMmU3LWZlYWNkMzlkOWQyYyIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1513,14 +1692,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 177,
+  "version": 178,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/176",
+      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/177",
       "method": "GET"
     },
     "draft/create": {
