@@ -15,7 +15,7 @@ interface DataFields {
 
 async function getComponentsData(token: string): Promise<any[] | null> {
   //get qoute sections from squidex
-  const QOUTE_SECTIONS_URL = `${(process.env.ENVIRONMENT ?? 'DEV')}_STATIC_DATA_URL`;
+  const QOUTE_SECTIONS_URL = `${(process.env.ENVIRONMENT ?? 'DEV')}_ENUMS_URL`;
 
   return await axios.get<any>(
     process.env[QOUTE_SECTIONS_URL] ?? '',
@@ -66,7 +66,7 @@ async function writeDataFiles(items: any[], outDir: string) {
     if(!ACCESS_TOKEN) return;
 
     const items = await getComponentsData(ACCESS_TOKEN);
-    if(items) await writeDataFiles(items, './static-data');
+    if(items) await writeDataFiles(items, './static-enums');
     
     console.log('Data files written to ./output');
   } catch (err) {
