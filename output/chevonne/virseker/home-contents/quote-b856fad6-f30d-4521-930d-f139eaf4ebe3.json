@@ -1,7 +1,7 @@
 {
   "id": "b856fad6-f30d-4521-930d-f139eaf4ebe3",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -1095,6 +1095,36 @@
                       "goToStart": false
                     },
                     "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "998a7960-ac97-4412-af5e-f3988724de94"
+                      ],
+                      "statePropertyPaths": [
+                        "homeContents.homeContents.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
                     "img": null,
                     "useImageAsButton": null,
                     "theme": "primary",
@@ -1486,7 +1516,7 @@
     }
   },
   "created": "2025-04-30T05:59:48Z",
-  "lastModified": "2025-07-15T12:32:05Z",
+  "lastModified": "2025-08-18T05:33:02Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiODU2ZmFkNi1mMzBkLTQ1MjEtOTMwZC1mMTM5ZWFmNGViZTMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1566,14 +1596,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 23,
+  "version": 24,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b856fad6-f30d-4521-930d-f139eaf4ebe3",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b856fad6-f30d-4521-930d-f139eaf4ebe3/22",
+      "href": "/api/content/con-fusion/quote-sections/b856fad6-f30d-4521-930d-f139eaf4ebe3/23",
       "method": "GET"
     },
     "draft/create": {

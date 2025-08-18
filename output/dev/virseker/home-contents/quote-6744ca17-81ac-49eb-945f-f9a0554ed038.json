@@ -1,7 +1,7 @@
 {
   "id": "6744ca17-81ac-49eb-945f-f9a0554ed038",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -71,7 +71,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Get covered",
+                    "label": "Kry dekking",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "cashback",
@@ -153,7 +153,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-8\">Your excess</div>",
+                    "html": "<div class=\"text-xs text-virseker-dark-blue\">Jou bybetaling</div>",
                     "htmlEvents": []
                   }
                 },
@@ -162,7 +162,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div>This is the amount you will pay when you claim.</div>",
+                    "html": "<div>Hierdie is die bedrag wat jy gaan betaal wanneer jy eis.</div>",
                     "htmlEvents": []
                   }
                 },
@@ -171,7 +171,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs pt-2 text-sub-8\">Excess amount</div>"
+                    "html": "<div class=\"text-sm text-virseker-dark-blue font-bold\">Huisinhoud bybetalingsbedrag</div>"
                   }
                 },
                 {
@@ -179,7 +179,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<span>Or 5% of the total value of the claim – whichever amount is higher. The maximum excess amount is</span>",
+                    "html": "<span>Of 5% van die totale waarde van die eis - watter bedrag ook al hoër is. Die maksimum bybetalingsbedrag is</span>",
                     "htmlEvents": []
                   }
                 },
@@ -188,7 +188,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-8 pt-2\">Additional excess</div>",
+                    "html": "<div class=\"text-xs text-virseker-dark-blue pt-2\">Addisionele bybetaling</div>",
                     "htmlEvents": []
                   }
                 },
@@ -197,7 +197,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-sm font-bold text-sub-8\">Lightning and power surge excess:</div>",
+                    "html": "<div class=\"text-sm font-bold text-virseker-dark-blue\">Weerlig en kragstuwing bybetaling:</div>",
                     "htmlEvents": []
                   }
                 },
@@ -206,7 +206,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Change cover type",
+                    "label": "Verander jou tipe dekking:",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "cover-types",
@@ -227,7 +227,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Change your replacement value",
+                    "label": "Verander jou vervangingswaarde",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "change-replacement-value",
@@ -248,7 +248,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">We cover your home contents for</h2>"
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Ons dek jou huisinhoud vir</h2>"
                   }
                 },
                 {
@@ -256,7 +256,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Included extra cover</h2>"
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Ekstra dekking wat ingesluit is</h2>"
                   }
                 },
                 {
@@ -264,7 +264,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Select your extra cover</h2>"
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Voeg nog dekking by</h2>"
                   }
                 },
                 {
@@ -272,7 +272,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Save and send quote",
+                    "label": "Stoor en stuur kwotasie",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "select-communication-method",
@@ -293,7 +293,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">What you told us</h2>"
+                    "html": "<h2 class=\"cover-text mb-5 font-georgia-bold\">Wat jy ons vertel het</h2>"
                   }
                 },
                 {
@@ -302,8 +302,18 @@
                   "details": {
                     "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
                     "assets": [
-                      "7a0489cb-e8f7-401c-9335-8820c0b245a6"
+                      "d4b2c5b7-ea44-474f-8b0e-510d1becefb8"
                     ]
+                  }
+                },
+                {
+                  "id": "txtSummaryHomeDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": "txtSummaryHomeDetails",
+                    "text": "Huisingligting",
+                    "errorMessage": null
                   }
                 },
                 {
@@ -312,8 +322,18 @@
                   "details": {
                     "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
                     "assets": [
-                      "e43f0536-b5a9-4222-bd86-92ad61f8f712"
+                      "dffb3f73-a32b-4e4d-8051-a90e3c885377"
                     ]
+                  }
+                },
+                {
+                  "id": "txtSummaryPersonalDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": "txtSummaryPersonalDetails",
+                    "text": "Persoonlike inligting",
+                    "errorMessage": null
                   }
                 },
                 {
@@ -343,14 +363,30 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Suburb",
+                          "title": "Voorstad",
                           "template": "vehicleDetailsTemplate",
                           "valueFieldPath": "quote.riskAddress.displayName",
-                          "applyTitleCasePipeToValue": null,
+                          "applyTitleCasePipeToValue": true,
                           "imageFieldPath": "",
                           "ignoreSentenceCaseForValue": null,
                           "imageClass": "",
-                          "copyFieldPath": null
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "quote.riskAddress.suburbName",
+                              "quote.riskAddress.postCode"
+                            ],
+                            "values": [
+                              ", "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
                         }
                       },
                       {
@@ -358,7 +394,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Type",
+                          "title": "Tipe",
                           "template": "vehicleDetailsTemplate",
                           "valueFieldPath": "homeContents.homeContents.residenceType.copy",
                           "applyTitleCasePipeToValue": true,
@@ -373,7 +409,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Move in date",
+                          "title": "Intrek datum",
                           "template": "vehicleDetailsTemplate",
                           "valueFieldPath": "homeContents.homeContents.moveInDate",
                           "applyTitleCasePipeToValue": true,
@@ -402,7 +438,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Does the Residential area have access control?",
+                          "title": "Het die residensiële gebied toegangsbeheer?",
                           "template": null,
                           "valueFieldPath": "quote.riskAddress.accessControlType.copy",
                           "applyTitleCasePipeToValue": null,
@@ -417,7 +453,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Does your home or any structure on the property have a thatched roof?",
+                          "title": "Het jou huis of enige struktuur op die perseel grasdak(ke)?",
                           "template": null,
                           "valueFieldPath": "homeContents.homeContents.roofType.copy",
                           "applyTitleCasePipeToValue": null,
@@ -432,7 +468,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Do you have neighbours on all the direct borders of the property?",
+                          "title": "Het jy bure langs elke direkte grens van die eiendom?",
                           "template": null,
                           "valueFieldPath": "",
                           "applyTitleCasePipeToValue": null,
@@ -449,9 +485,22 @@
                               "homeContents.homeContents.neighboursInAllBorders"
                             ],
                             "values": [
-                              "Yes",
-                              "No"
+                              "Ja",
+                              "Nee"
                             ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "154a8f9b-1f20-4503-be0c-ab5668c1bdb8"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.neighboursInAllBorders"
+                            ],
+                            "values": null,
                             "route": null,
                             "routeArray": [],
                             "conditionalRouteCode": null
@@ -463,7 +512,7 @@
                         "conditionValue": "",
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "What is your property bordered by?",
+                          "title": "Wat grens aan jou eiendom?",
                           "template": null,
                           "valueFieldPath": "homeContents.homeContents.neighbours",
                           "applyTitleCasePipeToValue": true,
@@ -477,11 +526,10 @@
                               "3173011f-0c17-4428-8822-e68aa6ff5676"
                             ],
                             "statePropertyPaths": [
+                              "homeContents.homeContents.neighbours",
                               "homeContents.homeContents.neighboursInAllBorders"
                             ],
-                            "values": [
-                              "false"
-                            ],
+                            "values": "",
                             "route": null,
                             "routeArray": [],
                             "conditionalRouteCode": null
@@ -493,7 +541,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Have you had any burglaries/losses at the insured address in the last 7 years?",
+                          "title": "Het jy enige inbrake/diefstalle of verliese by die versekerde adres gedurende die afgelope 7 jaar gehad?",
                           "template": null,
                           "valueFieldPath": "",
                           "applyTitleCasePipeToValue": null,
@@ -510,8 +558,8 @@
                               "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
                             ],
                             "values": [
-                              "Yes",
-                              "No"
+                              "Ja",
+                              "Nee"
                             ],
                             "route": null,
                             "routeArray": [],
@@ -524,7 +572,7 @@
                         "conditionValue": "",
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "When did the most recent incident occur?",
+                          "title": "Wanneer het die mees onlangse insident gebeur?",
                           "template": null,
                           "valueFieldPath": "homeContents.homeContents.homeContentsClaimsData.lastIncidentDate",
                           "applyTitleCasePipeToValue": null,
@@ -541,7 +589,7 @@
                               "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
                             ],
                             "values": [
-                              "true"
+                              false
                             ],
                             "route": null,
                             "routeArray": [],
@@ -559,7 +607,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Did you claim for this incident?",
+                          "title": "Het jy vir hierdie insident geëis?",
                           "template": null,
                           "valueFieldPath": "",
                           "applyTitleCasePipeToValue": null,
@@ -576,8 +624,23 @@
                               "homeContents.homeContents.homeContentsClaimsData.lastIncidentClaimed"
                             ],
                             "values": [
-                              "Yes",
-                              "No"
+                              "Ja",
+                              "Nee"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
+                            ],
+                            "values": [
+                              false
                             ],
                             "route": null,
                             "routeArray": [],
@@ -599,7 +662,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Will your home be unoccupied for more than 60 days in a year?",
+                          "title": "Sal jou woning vir meer as 60 dae per jaar onbewoon wees?",
                           "template": null,
                           "valueFieldPath": "",
                           "applyTitleCasePipeToValue": null,
@@ -616,8 +679,8 @@
                               "homeContents.homeContents.unoccupied60days"
                             ],
                             "values": [
-                              "Yes",
-                              "No"
+                              "Ja",
+                              "Nee"
                             ],
                             "route": null,
                             "routeArray": [],
@@ -630,14 +693,31 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Does your home have a burglar alarm that is in working order?",
+                          "title": "Het jou woning 'n diefalarmstelsel wat in 'n werkende toestand is?",
                           "template": null,
                           "valueFieldPath": "homeContents.homeContents.burglarAlarm.copy",
                           "applyTitleCasePipeToValue": null,
                           "imageFieldPath": null,
                           "ignoreSentenceCaseForValue": true,
                           "imageClass": null,
-                          "copyFieldPath": "homeContents.burglarAlarm.description"
+                          "copyFieldPath": "homeContents.burglarAlarm.description",
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "92d8b9e5-0047-4e9a-8e11-d58779ee993c"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.burglarAlarm.code"
+                            ],
+                            "values": [
+                              "Ja, Gekoppel aan ŉ gewapende reaksie-eenheid",
+                              "Ja, Nie aan ŉ gewapende reaksie-eenheid gekoppel nie",
+                              "Nee, Ek het nie ŉ diefalarmstelsel nie"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
                         }
                       },
                       {
@@ -645,7 +725,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "What extra security measures do you have?",
+                          "title": "Watter ekstra veiligheidsmaatreëls het jy?",
                           "template": null,
                           "valueFieldPath": "homeContents.homeContents.additionalSecurityMeasures",
                           "applyTitleCasePipeToValue": null,
@@ -687,8 +767,8 @@
                               "personal.policyHolder.identification.idType"
                             ],
                             "values": [
-                              "Passport number",
-                              "South African ID number"
+                              "Paspoort nommer",
+                              "Suid-Afrikaanse ID-nommer"
                             ],
                             "route": null,
                             "routeArray": [],
@@ -701,7 +781,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Date of birth",
+                          "title": "Geboortedatum",
                           "template": "",
                           "valueFieldPath": "personal.policyHolder.dateOfBirth",
                           "applyTitleCasePipeToValue": null,
@@ -736,7 +816,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Gender",
+                          "title": "Geslag",
                           "template": "",
                           "valueFieldPath": "personal.policyHolder.gender.description",
                           "applyTitleCasePipeToValue": null,
@@ -751,7 +831,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Name and surname",
+                          "title": "Naam en van",
                           "template": "",
                           "valueFieldPath": null,
                           "applyTitleCasePipeToValue": true,
@@ -782,7 +862,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Cellphone number",
+                          "title": "Selfoonnommer",
                           "template": "",
                           "valueFieldPath": "personal.policyHolder.phone",
                           "applyTitleCasePipeToValue": null,
@@ -797,7 +877,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Email address",
+                          "title": "E-posadres",
                           "template": "",
                           "valueFieldPath": "personal.policyHolder.emailAddress",
                           "applyTitleCasePipeToValue": null,
@@ -812,7 +892,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Marital status",
+                          "title": "Huwelikstatus",
                           "template": "",
                           "valueFieldPath": "personal.policyHolder.maritalStatus.description",
                           "applyTitleCasePipeToValue": null,
@@ -827,7 +907,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "Employment status",
+                          "title": "Werkstatus",
                           "template": "",
                           "valueFieldPath": "",
                           "applyTitleCasePipeToValue": null,
@@ -845,7 +925,7 @@
                               "personal.policyHolder.workdaysFromHome"
                             ],
                             "values": [
-                              ": Working from home 3 days or more a week.",
+                              ": In diens geneem en werk van die huis af (3 of meer dae per week.",
                               ""
                             ],
                             "route": null,
@@ -862,7 +942,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-1\">Personalise your premuim</div>",
+                    "html": "<div class=\"text-xs text-virseker-dark-blue\">Verpersoonlik jou premie</div>",
                     "htmlEvents": []
                   }
                 },
@@ -871,7 +951,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"mt-6 text-xs\">Your monthly premium</div>",
+                    "html": "<div class=\"mt-6 text-xs\">Jou maandelikse premie</div>",
                     "htmlEvents": []
                   }
                 },
@@ -881,7 +961,7 @@
                   "details": {
                     "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
                     "assets": [
-                      "5c620812-4bac-43bf-8244-6e998f76743d"
+                      "8c543339-56b9-4d8b-9991-086e57f7a805"
                     ]
                   }
                 },
@@ -890,7 +970,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"font-medium text-sub-1\">Get covered</div>",
+                    "html": "<div class=\"font-medium text-sub-1\">Kry dekking</div>",
                     "htmlEvents": []
                   }
                 },
@@ -906,7 +986,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Please note</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -919,7 +999,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>While we cannot offer you cover against burglary and theft, or damage resulting from burglary and theft of your home contents, we can offer you cover for loss or damage caused by fires, natural disasters or overflowing water heating systems.</p>",
+                          "html": "<p>Terwyl ons nie vir jou dekking kan bied teen inbraak en diefstal, of skade wat deur \ninbrake en diefstal van jou huisinhoud veroorsaak word nie, kan ons vir jou dekking bied \nvir verlies of skade wat deur brande, natuurrampe of oorloop van waterverhittingstoestelle \nveroorsaak word.</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -932,7 +1012,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Got it",
+                          "label": "Reg so",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -954,8 +1034,18 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"font-georgia font-bold\">Your selected add-ons</h2>",
+                    "html": "<h2 class=\"font-georgia font-bold\">Jou bygevoegde dekkings</h2>",
                     "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtIncludedInCoverType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Ingesluit by die tipe dekking",
+                    "errorMessage": null
                   }
                 }
               ]
@@ -963,7 +1053,7 @@
           ]
         },
         {
-          "name": "Home Content Replacement Value",
+          "name": "Edit Home Content Replacement Value",
           "route": "change-replacement-value",
           "pageBase": {
             "baseRoute": "policy",
@@ -997,7 +1087,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Done",
+                    "label": "Verander bedrag",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "premium",
@@ -1005,6 +1095,36 @@
                       "goToStart": false
                     },
                     "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "998a7960-ac97-4412-af5e-f3988724de94"
+                      ],
+                      "statePropertyPaths": [
+                        "homeContents.homeContents.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
                     "img": null,
                     "useImageAsButton": null,
                     "theme": "primary",
@@ -1055,7 +1175,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Done",
+                    "label": "Kies dekking",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "premium",
@@ -1084,9 +1204,10 @@
                         },
                         {
                           "route": {
-                            "baseRoute": "home-contents",
-                            "pageRoute": "premium",
-                            "sectionRoute": "resume-quote"
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
                           }
                         }
                       ],
@@ -1105,7 +1226,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"pt-5\">Select your preferred cover type</h2>"
+                    "html": "<h2 class=\"pt-5\">Kies jou dekking</h2>"
                   }
                 },
                 {
@@ -1150,7 +1271,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"pt-5\">Save now and continue later!</h2>\n<h4 class=\"text-sub-9\">How would you like to receive your quote?</h4>",
+                    "html": "<h2 class=\"pt-5\">Stoor nou en gaan later voort!</h2>\n<h4 class=\"text-sub-9\">Hoe wil jy jou kwotasie ontvang?</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -1159,7 +1280,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"pt-5\">Save now and continue later!</h2>\n<h4 class=\"text-sub-9\">How would you like to receive your quote?</h4>",
+                    "html": "<h2 class=\"pt-5\">Stoor nou en gaan later voort!</h2>\n<h4 class=\"text-sub-9\">Hoe wil jy jou kwotasie ontvang?</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -1246,7 +1367,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"pt-5\">What's your email address?</h2>",
+                    "html": "<h2 class=\"pt-5\">Wat is jou e-posadres?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1255,7 +1376,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"pt-5\">What's your WhatsApp number?</h2>",
+                    "html": "<h2 class=\"pt-5\">Wat is jou WhatsApp nommer?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1264,14 +1385,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Email address",
+                    "label": "E-posadres",
                     "helperText": null,
-                    "placeholderText": "Please complete",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "emailAddress",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Email address is required",
-                      "invalidErrorMessage": "Email address is invalid",
+                      "requiredErrorMessage": "E-posadres word vereis",
+                      "invalidErrorMessage": "E-posadres is ongeldig",
                       "maxLength": null,
                       "minLength": null,
                       "isRequired": true,
@@ -1286,7 +1407,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Send quote",
+                    "label": "Stuur kwotasie",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "communication-sent",
@@ -1309,12 +1430,12 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "WhatsApp number",
                     "helperText": null,
-                    "placeholderText": "Please Complete",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "number",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Whatsapp number is required",
-                      "invalidErrorMessage": "Whatsapp number is invalid",
+                      "requiredErrorMessage": "Whatsapp nommer word vereis",
+                      "invalidErrorMessage": "Whatsapp nommer is ongeldig",
                       "maxLength": 10,
                       "minLength": null,
                       "isRequired": true,
@@ -1354,20 +1475,11 @@
               "standaloneComponent": null,
               "formItems": [
                 {
-                  "id": "txtContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 font-bold leading-tight\"><span class=\"text-main-1\">Thank You</span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">We have sent your quote.</p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Please note that it is valid for 30 days.</p>\n</div>",
-                    "htmlEvents": []
-                  }
-                },
-                {
                   "id": "btnHome",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Take me to the homepage",
+                    "label": "Neem my na die tuisblad",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1383,7 +1495,16 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 leading-tight\"><span class=\"text-main-1\">Thank You</span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">We have sent your quote to <strong>{{smsNumber}}</strong></p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Please note that it is valid for 30 days.</p>\n</div>",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 leading-tight\"><span class=\"text-main-1\">Dankie, </span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Ons het jou kwotasie gestuur na <strong>{{smsNumber}}</strong></p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Neem asseblief kennis dat dit vir 30 dae geldig is.</p>\n</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 font-bold leading-tight\"><span class=\"text-main-1\">Dankie, </span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Ons het jou kwotasie gestuur.</p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Neem asseblief kennis dat dit vir 30 dae geldig is.</p>\n</div>",
                     "htmlEvents": []
                   }
                 }
@@ -1395,7 +1516,7 @@
     }
   },
   "created": "2025-04-30T05:50:07Z",
-  "lastModified": "2025-04-30T05:50:19Z",
+  "lastModified": "2025-08-17T19:00:28Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NzQ0Y2ExNy04MWFjLTQ5ZWItOTQ1Zi1mOWEwNTU0ZWQwMzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1475,14 +1596,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/1",
+      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/2",
       "method": "GET"
     },
     "draft/create": {

@@ -1,7 +1,7 @@
 {
   "id": "a8bde704-953c-4d13-8812-256a27ca50f5",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -71,7 +71,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h3 class=\"mb-5\">You told us that you had a burglary/theft or loss incident at your insured address in {{incidentDate}}.</h3>\n<h2>Please tell us about this incident</h2>",
+                    "html": "<h3 class=\"mb-5\">Jy het vir ons vertel dat jy 'n inbraak/diefstal of verlies insident by jou versekerde risiko adres in {{incidentDate}} gehad het.</h3>\n<h2>Vertel ons asseblief van hierdie insident</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -80,13 +80,13 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Incident type",
+                    "label": "Tipe insident",
                     "helperText": null,
-                    "placeholderText": "Please select",
+                    "placeholderText": "Kies asseblief",
                     "formControlName": "incidentType",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Please select an incident type",
+                      "requiredErrorMessage": "Kies asseblief 'n tipe insident",
                       "invalidErrorMessage": null,
                       "maxLength": null,
                       "minLength": null,
@@ -102,13 +102,13 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Incident detail",
+                    "label": "Insident detail",
                     "helperText": null,
-                    "placeholderText": "Please select",
+                    "placeholderText": "Kies asseblief",
                     "formControlName": "incidentDetail",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Please select an incident detail",
+                      "requiredErrorMessage": "Kies asseblief 'n insident detail",
                       "invalidErrorMessage": null,
                       "maxLength": null,
                       "minLength": null,
@@ -124,14 +124,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Incident value",
+                    "label": "Waarde van insident",
                     "helperText": null,
                     "placeholderText": "0",
                     "formControlName": "incidentValue",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Please fill in an incident value",
-                      "invalidErrorMessage": "Incident value must be above R0",
+                      "requiredErrorMessage": "Vul asseblief 'n insident waarde in",
+                      "invalidErrorMessage": "Insident waarde moet meer as R0 wees",
                       "maxLength": 9,
                       "minLength": null,
                       "isRequired": true,
@@ -146,7 +146,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "other-incidents",
@@ -159,7 +159,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 }
               ]
@@ -291,7 +291,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Did you have any other incident(s) in the last 2 years?</h2>"
+                    "html": "<h2>Het jy enige ander insident(e) in die afgelope 2 jaar gehad?</h2>"
                   }
                 },
                 {
@@ -299,7 +299,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Yes",
+                    "label": "Ja",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "incident-history",
@@ -320,7 +320,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "No",
+                    "label": "Nee",
                     "route": {
                       "pageRoute": "casbhack",
                       "sectionRoute": "cashback-details",
@@ -370,7 +370,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Please tell us about the incident(s)</h2>"
+                    "html": "<h2>Vertel ons asseblief van die insident(e)?</h2>"
                   }
                 },
                 {
@@ -378,7 +378,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Please confirm your incident history</h2>",
+                    "html": "<h2>Bevestig asseblief jou insidentgeskiedenis</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -387,7 +387,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Add more",
+                    "label": "Voeg meer by",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -403,7 +403,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Klaar",
                     "route": {
                       "pageRoute": "casbhack",
                       "sectionRoute": "cashback-details",
@@ -431,13 +431,13 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                          "label": "Incident type",
+                          "label": "Tipe insident",
                           "helperText": null,
-                          "placeholderText": "Please select",
+                          "placeholderText": "Kies asseblief",
                           "formControlName": "incidentType",
                           "validation": {
                             "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                            "requiredErrorMessage": "Please select an incident type",
+                            "requiredErrorMessage": "Kies asseblief 'n tipe insident",
                             "invalidErrorMessage": null,
                             "maxLength": null,
                             "minLength": null,
@@ -453,13 +453,13 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                          "label": "Incident detail",
+                          "label": "Insident detail",
                           "helperText": null,
-                          "placeholderText": "Please select",
+                          "placeholderText": "Kies asseblief",
                           "formControlName": "incidentDetail",
                           "validation": {
                             "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                            "requiredErrorMessage": "Please select an incident detail",
+                            "requiredErrorMessage": "Kies asseblief 'n insident detail",
                             "invalidErrorMessage": null,
                             "maxLength": null,
                             "minLength": null,
@@ -475,13 +475,13 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                          "label": "Incident date",
-                          "helperText": "Day/Month/Year",
-                          "placeholderText": "Day/Month/Year",
+                          "label": "Insident datum",
+                          "helperText": "Dag/Maand/Jaar",
+                          "placeholderText": "Dag/Maand/Jaar",
                           "formControlName": "inputIncidentDate",
                           "validation": {
                             "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                            "requiredErrorMessage": "Please fill in an incident date",
+                            "requiredErrorMessage": "Vul assebliief 'n insident datum in",
                             "invalidErrorMessage": null,
                             "maxLength": null,
                             "minLength": null,
@@ -497,14 +497,14 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                          "label": "Incident value",
+                          "label": "Insident waarde",
                           "helperText": null,
                           "placeholderText": "0",
                           "formControlName": "incidentValue",
                           "validation": {
                             "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                            "requiredErrorMessage": "Please fill in an incident value",
-                            "invalidErrorMessage": "Incident value must be above R0",
+                            "requiredErrorMessage": "Vul asseblief 'n insident waarde in",
+                            "invalidErrorMessage": "Insident waarde moet bo R0 wees",
                             "maxLength": 9,
                             "minLength": null,
                             "isRequired": true,
@@ -519,7 +519,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Did you claim from insurance for this incident?</p>",
+                          "html": "<p>Het jy van die versekering vir hierdie insident geëis</p>",
                           "htmlEvents": []
                         }
                       },
@@ -528,7 +528,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Yes",
+                          "label": "Ja",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -544,7 +544,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "No",
+                          "label": "Nee",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -560,11 +560,11 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Remove",
+                          "label": "Verwyder",
                           "route": null,
                           "url": null,
                           "img": [
-                            "2db3cad0-07fc-4126-920c-d6e5325e2efb"
+                            "f44ef7b2-39d9-41da-a1d5-d8947bf76d3e"
                           ],
                           "useImageAsButton": true,
                           "theme": "primary",
@@ -581,7 +581,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Confirm",
+                    "label": "Klaar",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "cashback",
@@ -605,7 +605,7 @@
     }
   },
   "created": "2025-04-30T06:41:23Z",
-  "lastModified": "2025-04-30T06:41:33Z",
+  "lastModified": "2025-08-18T05:13:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhOGJkZTcwNC05NTNjLTRkMTMtODgxMi0yNTZhMjdjYTUwZjUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -685,14 +685,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/1",
+      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/2",
       "method": "GET"
     },
     "draft/create": {

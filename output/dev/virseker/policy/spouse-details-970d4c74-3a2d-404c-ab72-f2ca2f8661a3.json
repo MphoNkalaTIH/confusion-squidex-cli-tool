@@ -1,7 +1,7 @@
 {
   "id": "970d4c74-3a2d-404c-ab72-f2ca2f8661a3",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -78,14 +78,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Spouse/Partner ID number",
-                    "helperText": "All reasonable safeguards have been taken to secure and protect your personal information.",
-                    "placeholderText": "Please complete",
+                    "label": "Eggenoot/Lewensmaat se ID-nommer",
+                    "helperText": "Alle redelike veiligheidsmaatreëls is geneem vir die beveiliging en beskerming van jou persoonlike inligting.",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "ID number is required",
-                      "invalidErrorMessage": "ID number is invalid",
+                      "requiredErrorMessage": "ID-nommer word vereis",
+                      "invalidErrorMessage": "ID-nommer is ongeldig",
                       "maxLength": 13,
                       "minLength": 13,
                       "isRequired": true,
@@ -100,7 +100,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h3 class=\"mb-5\">You told us that you are married or cohabiting/partnered.</h3>\n<h2>Please enter your spouse/partner’s South African ID number</h2>",
+                    "html": "<h3 class=\"font-normal\">Jy het vir ons vertel dat jy getroud is of saamwoon/in 'n verhouding is.</h3>\n<h2>Voer jou eggenoot/lewensmaat se Suid-Afrikaanse ID-nommer in</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -109,7 +109,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What’s your spouse/partner’s passport number?</h2>"
+                    "html": "<h2>Wat is jou eggenoot/lewensmaat se paspoortnommer?</h2>"
                   }
                 },
                 {
@@ -117,14 +117,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Spouse/Partner passport number",
-                    "helperText": "All reasonable safeguards have been taken to secure and protect your personal information.",
-                    "placeholderText": "Please complete",
+                    "label": "Eggenoot/Lewensmaat paspoortnommer",
+                    "helperText": "Alle redelike veiligheidsmaatreëls is geneem vir die beveiliging en beskerming van jou persoonlike inligting.",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Passport number is required",
-                      "invalidErrorMessage": "Passport number is invalid",
+                      "requiredErrorMessage": "Paspoort nommer word vereis",
+                      "invalidErrorMessage": "Paspoort nommer is ongeldig",
                       "maxLength": 15,
                       "minLength": null,
                       "isRequired": true,
@@ -139,7 +139,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-gender",
@@ -152,7 +152,17 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "txtOr",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": "txtOr",
+                    "text": "OF",
+                    "errorMessage": null
                   }
                 },
                 {
@@ -160,7 +170,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Update",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "confirm-spouse-details",
@@ -173,7 +183,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 },
                 {
@@ -181,7 +191,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "They are not a South African citizen",
+                    "label": "Nie 'n Suid-Afrikaanse burger nie",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-gender",
@@ -202,7 +212,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "They are a South African citizen",
+                    "label": "Hulle is 'n Suid-Afrikaanse burger",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-gender",
@@ -223,7 +233,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "I don’t know it",
+                    "label": "Ek ken dit nie",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-gender",
@@ -280,7 +290,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Yes",
+                    "label": "Ja",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-birthday",
@@ -301,7 +311,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What's your spouse/partner's gender?</h2>"
+                    "html": "<h2>Wat is jou eggenoot/lewensmaat se geslag?</h2>"
                   }
                 },
                 {
@@ -330,7 +340,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Update",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "confirm-spouse-details",
@@ -343,7 +353,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 }
               ]
@@ -387,7 +397,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>When were they born?</h2>"
+                    "html": "<h2>Wanneer is hul gebore?</h2>"
                   }
                 },
                 {
@@ -395,9 +405,9 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Date of birth",
+                    "label": "Geboortedatum",
                     "helperText": null,
-                    "placeholderText": "Day/Month/Year",
+                    "placeholderText": "Dag/Maand/Jaar",
                     "formControlName": null,
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -417,7 +427,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-names",
@@ -430,7 +440,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 },
                 {
@@ -438,7 +448,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Update",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "confirm-spouse-details",
@@ -451,7 +461,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 }
               ]
@@ -495,14 +505,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Name",
+                    "label": "Naam",
                     "helperText": null,
-                    "placeholderText": "Please complete",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "name",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Name is required",
-                      "invalidErrorMessage": "Name is invalid",
+                      "requiredErrorMessage": "Naam word vereis",
+                      "invalidErrorMessage": "Naam is ongeldig",
                       "maxLength": 15,
                       "minLength": 2,
                       "isRequired": true,
@@ -517,14 +527,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Surname",
+                    "label": "Van",
                     "helperText": null,
-                    "placeholderText": "Please complete",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "surname",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Surname is required",
-                      "invalidErrorMessage": "Surname is invalid",
+                      "requiredErrorMessage": "Van word vereis",
+                      "invalidErrorMessage": "Van is ongeldig",
                       "maxLength": 20,
                       "minLength": 2,
                       "isRequired": true,
@@ -539,7 +549,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What’s your spouse/partner’s name and surname?</h2>"
+                    "html": "<h2>Wat is jou eggenoot/lewensmaat se naam en van?</h2>"
                   }
                 },
                 {
@@ -547,7 +557,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "incident-details",
@@ -594,7 +604,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 },
                 {
@@ -602,7 +612,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Update",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "confirm-spouse-details",
@@ -615,7 +625,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 }
               ]
@@ -659,7 +669,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Please confirm your spouse/partner’s details</h2>"
+                    "html": "<h2>Bevestig asseblief jou eggenoot/lewensmaat se besonderhede</h2>"
                   }
                 },
                 {
@@ -668,7 +678,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Name",
+                    "text": "Naam",
                     "errorMessage": null
                   }
                 },
@@ -677,7 +687,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Edit",
+                    "label": "Verander",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-names",
@@ -699,7 +709,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Surname",
+                    "text": "Van",
                     "errorMessage": null
                   }
                 },
@@ -708,7 +718,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Edit",
+                    "label": "Verander",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-names",
@@ -730,7 +740,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Gender",
+                    "text": "Geslag",
                     "errorMessage": null
                   }
                 },
@@ -739,7 +749,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Edit",
+                    "label": "Verander",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-gender",
@@ -761,7 +771,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "ID number",
+                    "text": "ID-nommer",
                     "errorMessage": null
                   }
                 },
@@ -771,7 +781,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Passport number",
+                    "text": "Paspoort nommer",
                     "errorMessage": null
                   }
                 },
@@ -781,7 +791,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "ID/Passport number",
+                    "text": "ID/Paspoort nommer",
                     "errorMessage": null
                   }
                 },
@@ -791,7 +801,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Optional",
+                    "text": "Opsioneel",
                     "errorMessage": null
                   }
                 },
@@ -800,7 +810,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Edit",
+                    "label": "Verander",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-id-number",
@@ -822,7 +832,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Date of birth",
+                    "text": "Geboortedatum",
                     "errorMessage": null
                   }
                 },
@@ -831,7 +841,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Edit",
+                    "label": "Verander",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "spouse-birthday",
@@ -852,7 +862,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Confirm",
+                    "label": "Bevestig",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "incident-history",
@@ -910,7 +920,7 @@
     }
   },
   "created": "2025-04-29T07:00:12Z",
-  "lastModified": "2025-04-29T07:00:33Z",
+  "lastModified": "2025-08-18T05:15:34Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5NzBkNGM3NC0zYTJkLTQwNGMtYWI3Mi1mMmNhMmY4NjYxYTMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -990,14 +1000,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/970d4c74-3a2d-404c-ab72-f2ca2f8661a3",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/970d4c74-3a2d-404c-ab72-f2ca2f8661a3/1",
+      "href": "/api/content/con-fusion/quote-sections/970d4c74-3a2d-404c-ab72-f2ca2f8661a3/2",
       "method": "GET"
     },
     "draft/create": {

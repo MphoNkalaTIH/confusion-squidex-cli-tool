@@ -1,7 +1,7 @@
 {
   "id": "98f81edb-2140-4a85-9809-2320f9a6ec9b",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:67ee549e834f3e41309d3c23",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -420,36 +420,6 @@
                   }
                 },
                 {
-                  "id": "btnConfirm",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Klaar",
-                    "route": {
-                      "baseRoute": "policy",
-                      "pageRoute": "cashback",
-                      "sectionRoute": "cashback-details",
-                      "goToStart": false
-                    },
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
-                },
-                {
-                  "id": "txtIncidentHeader",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "Insident",
-                    "htmlEvents": []
-                  }
-                },
-                {
                   "id": "incidentsArrayGroup",
                   "conditionValue": null,
                   "details": {
@@ -605,6 +575,27 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Klaar",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "cashback",
+                      "sectionRoute": "cashback-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -614,7 +605,7 @@
     }
   },
   "created": "2025-04-30T06:41:45Z",
-  "lastModified": "2025-05-27T10:43:17Z",
+  "lastModified": "2025-08-18T05:30:53Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5OGY4MWVkYi0yMTQwLTRhODUtOTgwOS0yMzIwZjlhNmVjOWIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -694,14 +685,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 14,
+  "version": 15,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/98f81edb-2140-4a85-9809-2320f9a6ec9b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/98f81edb-2140-4a85-9809-2320f9a6ec9b/13",
+      "href": "/api/content/con-fusion/quote-sections/98f81edb-2140-4a85-9809-2320f9a6ec9b/14",
       "method": "GET"
     },
     "draft/create": {

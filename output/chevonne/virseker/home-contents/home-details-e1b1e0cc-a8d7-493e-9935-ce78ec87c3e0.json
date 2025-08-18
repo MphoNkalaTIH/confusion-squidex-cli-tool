@@ -1,7 +1,7 @@
 {
   "id": "e1b1e0cc-a8d7-493e-9935-ce78ec87c3e0",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -1290,65 +1290,6 @@
                     "widthClass": null,
                     "iconClass": null
                   }
-                },
-                {
-                  "id": "alarmDisclaimerDialog",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
-                    "formItems": [
-                      {
-                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "txtTitle",
-                        "type": null,
-                        "details": {
-                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Aktiveer altyd jou diefalarmstelsel wanneer jy jou woning verlaat</h3>",
-                          "htmlEvents": []
-                        },
-                        "conditionValue": null,
-                        "additionalData": null,
-                        "conditions": null
-                      },
-                      {
-                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "txtContent",
-                        "type": null,
-                        "details": {
-                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<ul class=\"mx-4 mb-3 font-normal\">\n    <li class=\"mb-1\">Jou diefalarmstelsel moet ten alle tye geaktiveer word terwyl die woning onbewoon is.</li>\n    <li class=\"mb-1\">Die alarm moet altyd aan 'n gewapende reaksie-eenheid gekoppel wees.</li>\n    <li class=\"mb-1\">As die alarm nie ten tye van die verlies geaktiveer of gekoppel aan 'n gewapende reaksie-eenheid is nie, sal verlies en skade as gevolg van diefstal en inbraak uitgesluit word.</li>\n</ul>",
-                          "htmlEvents": []
-                        },
-                        "conditionValue": null,
-                        "additionalData": null,
-                        "conditions": null
-                      },
-                      {
-                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "btnConfirm",
-                        "type": null,
-                        "details": {
-                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Reg so",
-                          "route": {
-                            "baseRoute": "home-contents",
-                            "sectionRoute": "home-details",
-                            "pageRoute": "extra-security-measures"
-                          },
-                          "url": null,
-                          "img": null,
-                          "useImageAsButton": null,
-                          "theme": "primary",
-                          "class": null,
-                          "widthClass": null,
-                          "iconClass": null
-                        },
-                        "conditionValue": null,
-                        "additionalData": null,
-                        "conditions": null
-                      }
-                    ]
-                  }
                 }
               ]
             }
@@ -1425,7 +1366,7 @@
     }
   },
   "created": "2025-04-29T07:00:54Z",
-  "lastModified": "2025-06-06T10:07:20Z",
+  "lastModified": "2025-08-18T05:29:54Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlMWIxZTBjYy1hOGQ3LTQ5M2UtOTkzNS1jZTc4ZWM4N2MzZTAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1505,14 +1446,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 69,
+  "version": 70,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/e1b1e0cc-a8d7-493e-9935-ce78ec87c3e0",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/e1b1e0cc-a8d7-493e-9935-ce78ec87c3e0/68",
+      "href": "/api/content/con-fusion/quote-sections/e1b1e0cc-a8d7-493e-9935-ce78ec87c3e0/69",
       "method": "GET"
     },
     "draft/create": {
