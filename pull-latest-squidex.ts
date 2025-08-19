@@ -23,7 +23,7 @@ function getOutputDir(schema: string): string {
     case "static-data":
       return 'static-data';
 
-    case "enum":
+    case "enums":
       return 'static-enums';
     
     default:
@@ -45,7 +45,7 @@ function getEnvironmentUrl(app: string, schema: string): string {
     case "con-fusion-static static-data":
       return 'DEV_STATIC_DATA_URL';
 
-    case "con-fusion-static enum":
+    case "con-fusion-static enums":
       return 'DEV_ENUMS_URL';
     default:
       return '';

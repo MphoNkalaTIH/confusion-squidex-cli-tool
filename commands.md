@@ -5,7 +5,7 @@
 
 ### fetch latest from con-fusion-static
 ```npm run pull-latest con-fusion-static static-data``` --- fetch static data
-```npm run pull-latest con-fusion-static static-enums``` --- fetch static enums
+```npm run pull-latest con-fusion-static enums``` --- fetch static enums
 
 
 ### NPM PUSH
