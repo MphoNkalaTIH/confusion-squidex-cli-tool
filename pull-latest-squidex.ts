@@ -52,7 +52,7 @@ function getEnvironmentUrl(app: string, schema: string): string {
   }
 }
 
-async function getComponentsData(token: string, app: string, schema): Promise<any[] | null> {
+async function getComponentsData(token: string, app: string, schema: string): Promise<any[] | null> {
   const ENVIRONMENT_URL = getEnvironmentUrl(app, schema);
 
   return await axios.get<any>(
@@ -76,28 +76,33 @@ function getNameAsRoute(name: string){
   return name.replace(" ", "-").toLocaleLowerCase();
 }
 
-function buildFilePath(data: DataFields, id: string, outDir: string): string {
-  let env = data.environmentId?.iv ?? '';
-  let brand = data.brand?.iv ?? '';
-  let route = data.route?.iv ?? '';
-  let baseRoute = data.baseRoute?.iv != "" ? data.baseRoute!.iv :  getNameAsRoute(data.name!.iv);
+function buildFilePath(app: string, data: DataFields, id: string, outDir: string): string {
 
-  if(!env) {
+  if(app === "con-fusion-static") {
     return path.join(outDir, `${id}.json`);
   }
 
-  const folderPath = path.join(outDir, env, brand, baseRoute);
+  else if(app === "con-fusion") {
+    let env = data.environmentId?.iv ?? '';
+    let brand = data.brand?.iv ?? '';
+    let route = data.route?.iv ?? '';
+    let baseRoute = data.baseRoute?.iv != "" ? data.baseRoute!.iv :  getNameAsRoute(data.name!.iv);
 
-  let fileName = '';
-  if(route == "") fileName = `${baseRoute}-${id}.json`;
-  else fileName = `${route}-${id}.json`;
-  
-  return path.join(folderPath, fileName);
+    const folderPath = path.join(outDir, env, brand, baseRoute);
+
+    let fileName = '';
+    if(route == "") fileName = `${baseRoute}-${id}.json`;
+    else fileName = `${route}-${id}.json`;
+    
+    return path.join(folderPath, fileName);
+  }
+
+  else return '';
 }
 
-async function writeDataFiles(items: any[], outDir: string) {
+async function writeDataFiles(app: string, items: any[], outDir: string) {
   for (const item of items) {
-    const filePath = buildFilePath(item.data, item.id, outDir);
+    const filePath = buildFilePath(app, item.data, item.id, outDir);
     await fs.mkdir(path.dirname(filePath), { recursive: true });
 
     try {
@@ -121,6 +126,9 @@ async function writeDataFiles(items: any[], outDir: string) {
 
     const PULL_FROM_APP = process.argv[2];
     const PULL_FROM_SCHEMA = process.argv[3];
+
+    console.log({pull_from_app: PULL_FROM_APP, pull_from_schema: PULL_FROM_SCHEMA});
+
     if(!PULL_FROM_APP || !PULL_FROM_SCHEMA) {
       console.error('[#] Usage: node pull-latest-squidex.js <pull-from-app> <pull-from-schema> [#]');
       return;
@@ -135,7 +143,7 @@ async function writeDataFiles(items: any[], outDir: string) {
     }
     
     const outputDir = getOutputDir(PULL_FROM_SCHEMA);
-    if(items) await writeDataFiles(items, `./${outputDir}`);
+    if(items) await writeDataFiles(PULL_FROM_APP, items, `./${outputDir}`);
 
     console.log(`Data files written to ./${outputDir}`);
   } catch (err) {
