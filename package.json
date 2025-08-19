@@ -10,26 +10,8 @@
     "typescript": "^5.9.2"
   },
   "scripts": {
-    "|| ----------------- confusion-squidex qoute-sections": "",
-    "pull-latest-qoute-sections": "npx ts-node pull-squidex-data.ts",
+    "pull-latest": "npx ts-node pull-latest-squidex.ts",
     "push-updated-qoute-section": "npx ts-node push-squidex-data.ts",
-
-    "|| ----------------- confusion-squidex qoute-flows": "",
-    "pull-latest-qoute-flows": "npx ts-node pull-squidex-data.ts",
-    "push-updated-qoute-flow": "npx ts-node push-squidex-data.ts",
-    
-
-    "|| ----------------- confusion-squidex static-data": "",
-    "pull-latest-static-data": "npx ts-node pull-squidex-data.ts",
-    "push-updated-static-data": "npx ts-node push-squidex-data.ts",
-    
-
-    "|| ----------------- confusion-squidex static-enums": "",
-    "pull-latest-static-enums": "npx ts-node pull-squidex-data.ts",
-    "push-updated-static-enum": "npx ts-node push-squidex-data.ts",
-    
-
-    "|| ----------------- generics": "",
     "merge-files": "npx ts-node merge-squidex-files.ts"
   }
 }
