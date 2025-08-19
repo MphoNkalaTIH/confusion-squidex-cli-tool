@@ -1,7 +1,7 @@
 {
   "id": "6c232046-63ba-4793-8c59-048b325213f6",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:67ee54ee834f3e41309d3c9a",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -362,6 +362,25 @@
                     "text": "vir jou karversekering",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "verseker my huisinhoud",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "imgDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/aa105b8c-916b-4802-8e01-dcf17403ca65/icon_state_error.png\">",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -480,8 +499,12 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Teken in op toep",
-                    "route": null,
-                    "url": null,
+                    "route": {
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": "login",
                     "img": null,
                     "useImageAsButton": null,
                     "theme": "primary",
@@ -661,6 +684,15 @@
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h1 class=\"flex flex-col my-5 text-5xl virseker-dark-blue font-georgia-bold leading-tight\">Dankie!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "imgDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/aa105b8c-916b-4802-8e01-dcf17403ca65/icon_state_error.png\">",
                     "htmlEvents": []
                   }
                 }
@@ -1640,7 +1672,7 @@
     }
   },
   "created": "2025-05-15T07:28:19Z",
-  "lastModified": "2025-06-12T14:13:10Z",
+  "lastModified": "2025-08-19T12:51:47Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6IjZjMjMyMDQ2LTYzYmEtNDc5My04YzU5LTA0OGIzMjUyMTNmNiIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1678,14 +1710,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 9,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/6c232046-63ba-4793-8c59-048b325213f6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/6c232046-63ba-4793-8c59-048b325213f6/8",
+      "href": "/api/content/con-fusion/quote-flow/6c232046-63ba-4793-8c59-048b325213f6/9",
       "method": "GET"
     },
     "draft/create": {
