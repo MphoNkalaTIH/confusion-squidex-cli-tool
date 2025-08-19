@@ -18,7 +18,7 @@ function getOutputDir(schema: string): string {
       return 'output';
 
     case "qoute-flow":
-      return 'quote-flow';
+      return 'qoute-flow';
 
     case "static-data":
       return 'static-data';
