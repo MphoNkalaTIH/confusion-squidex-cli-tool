@@ -1,7 +1,7 @@
 {
   "id": "7207a0aa-e18f-4b80-ad81-1070442d2be6",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -278,7 +278,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    <b>Boarding house or commune or residential hotel</b>\n    <br/>\n    A group of 3 or more unrelated people who live together, share \n    responsibilities and possessions.\n</p>\n<p>\n    <b>Barracks</b>\n    <br/>\n    A group of unrelated people who live in the same building and have communal \n    spaces like a lounge area or bathroom.\n</p>\n<p> \n    <b>Shack</b>\n    <br/>\n    Shelter or dwelling made from pieces of wood, metal or other materials.\n</p>",
+                          "html": "<p class=\"text-group\">\n    <b>Boarding house or commune or residential hotel</b>\n    <br/>\n    A group of 3 or more unrelated people who live together, share \n    responsibilities and possessions.\n</p>\n<p class=\"text-group\">\n    <b>Barracks</b>\n    <br/>\n    A group of unrelated people who live in the same building and have communal \n    spaces like a lounge area or bathroom.\n</p>\n<p class=\"text-group\"> \n    <b>Shack</b>\n    <br/>\n    Shelter or dwelling made from pieces of wood, metal or other materials.\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -430,7 +430,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "Not sure? <a id=\"lnkReviewTypes\">Review residence types</a>",
+                    "html": "<span class=\"text-zodiac-blue\">Not sure? </span><a id=\"lnkReviewTypes\">Review residence types</a>",
                     "htmlEvents": [
                       {
                         "id": "lnkReviewTypes",
@@ -1425,7 +1425,7 @@
     }
   },
   "created": "2024-07-16T12:13:44Z",
-  "lastModified": "2025-04-29T06:52:01Z",
+  "lastModified": "2025-08-19T14:10:44Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI3MjA3YTBhYS1lMThmLTRiODAtYWQ4MS0xMDcwNDQyZDJiZTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1505,14 +1505,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/7207a0aa-e18f-4b80-ad81-1070442d2be6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/7207a0aa-e18f-4b80-ad81-1070442d2be6/2",
+      "href": "/api/content/con-fusion/quote-sections/7207a0aa-e18f-4b80-ad81-1070442d2be6/3",
       "method": "GET"
     },
     "draft/create": {

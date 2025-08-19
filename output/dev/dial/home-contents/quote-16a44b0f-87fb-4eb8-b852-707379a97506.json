@@ -1,7 +1,7 @@
 {
   "id": "16a44b0f-87fb-4eb8-b852-707379a97506",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -111,7 +111,7 @@
                         },
                         {
                           "route": {
-                            "pageRoute": "casbhack",
+                            "pageRoute": "cashback",
                             "sectionRoute": "cashback-details",
                             "baseRoute": "policy"
                           }
@@ -153,7 +153,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-8\">Your excess</div>",
+                    "html": "<div class=\"text-xs text-sub-11\">Your excess</div>",
                     "htmlEvents": []
                   }
                 },
@@ -162,7 +162,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div>This is the amount you will pay when you claim.</div>",
+                    "html": "<div class=\"text-sub-8 text-sm\">This is the amount you will pay when you claim.</div>",
                     "htmlEvents": []
                   }
                 },
@@ -171,7 +171,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs pt-2 text-sub-8\">Excess amount</div>"
+                    "html": "<div class=\"text-xs pt-2 font-bold text-sub-11\">Home contents excess</div>"
                   }
                 },
                 {
@@ -179,7 +179,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<span>Or 5% of the total value of the claim – whichever amount is higher. The maximum excess amount is</span>",
+                    "html": "<span class=\"text-sub-8\">Or 5% of the total value of the claim – whichever amount is higher. The maximum excess amount is</span>",
                     "htmlEvents": []
                   }
                 },
@@ -188,7 +188,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-8 pt-2\">Additional excess</div>",
+                    "html": "<div class=\"text-xs text-sub-11 pt-2\">Additional excess</div>",
                     "htmlEvents": []
                   }
                 },
@@ -197,7 +197,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-sm font-bold text-sub-8\">Lightning and power surge excess:</div>",
+                    "html": "<div class=\"text-sm font-bold text-sub-11\">Lightning and power surge excess:</div>",
                     "htmlEvents": []
                   }
                 },
@@ -302,7 +302,7 @@
                   "details": {
                     "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
                     "assets": [
-                      "7a0489cb-e8f7-401c-9335-8820c0b245a6"
+                      "44b32f7d-25d9-485e-9a6b-b0b53b35ea36"
                     ]
                   }
                 },
@@ -312,7 +312,7 @@
                   "details": {
                     "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
                     "assets": [
-                      "e43f0536-b5a9-4222-bd86-92ad61f8f712"
+                      "270ca9d7-cbcb-4c1a-a6db-8da1a7cb3278"
                     ]
                   }
                 },
@@ -346,11 +346,27 @@
                           "title": "Suburb",
                           "template": "vehicleDetailsTemplate",
                           "valueFieldPath": "quote.riskAddress.displayName",
-                          "applyTitleCasePipeToValue": null,
+                          "applyTitleCasePipeToValue": true,
                           "imageFieldPath": "",
                           "ignoreSentenceCaseForValue": null,
                           "imageClass": "",
-                          "copyFieldPath": null
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "quote.riskAddress.suburbName",
+                              "quote.riskAddress.postCode"
+                            ],
+                            "values": [
+                              ", "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
                         }
                       },
                       {
@@ -455,6 +471,19 @@
                             "route": null,
                             "routeArray": [],
                             "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "154a8f9b-1f20-4503-be0c-ab5668c1bdb8"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.neighboursInAllBorders"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
                           }
                         }
                       },
@@ -474,14 +503,13 @@
                           "hiddenCondition": {
                             "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
                             "code": [
-                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                              "2753d324-2bff-4064-b7a1-97d57c25c762"
                             ],
                             "statePropertyPaths": [
+                              "homeContents.homeContents.neighbours",
                               "homeContents.homeContents.neighboursInAllBorders"
                             ],
-                            "values": [
-                              "false"
-                            ],
+                            "values": "",
                             "route": null,
                             "routeArray": [],
                             "conditionalRouteCode": null
@@ -541,7 +569,7 @@
                               "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
                             ],
                             "values": [
-                              "true"
+                              false
                             ],
                             "route": null,
                             "routeArray": [],
@@ -578,6 +606,21 @@
                             "values": [
                               "Yes",
                               "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.homeContentsClaimsData.hadBurglariesLosses"
+                            ],
+                            "values": [
+                              false
                             ],
                             "route": null,
                             "routeArray": [],
@@ -632,12 +675,29 @@
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
                           "title": "Does your home have a burglar alarm that is in working order?",
                           "template": null,
-                          "valueFieldPath": "homeContents.homeContents.burglarAlarm.copy",
+                          "valueFieldPath": "",
                           "applyTitleCasePipeToValue": null,
                           "imageFieldPath": null,
                           "ignoreSentenceCaseForValue": true,
                           "imageClass": null,
-                          "copyFieldPath": "homeContents.burglarAlarm.description"
+                          "copyFieldPath": "homeContents.burglarAlarm.description",
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "92d8b9e5-0047-4e9a-8e11-d58779ee993c"
+                            ],
+                            "statePropertyPaths": [
+                              "homeContents.homeContents.burglarAlarm.code"
+                            ],
+                            "values": [
+                              "Yes, Linked to armed reaction unit",
+                              "Yes, Not linked to armed reaction unit",
+                              "No, I don't have a burglar alarm"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
                         }
                       },
                       {
@@ -862,7 +922,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-xs text-sub-1\">Personalise your premuim</div>",
+                    "html": "<div class=\"text-xs text-zodiac-blue\">Personalise your premuim</div>",
                     "htmlEvents": []
                   }
                 },
@@ -881,7 +941,7 @@
                   "details": {
                     "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
                     "assets": [
-                      "5c620812-4bac-43bf-8244-6e998f76743d"
+                      "941cab5a-b877-4148-9503-5d0e07d41999"
                     ]
                   }
                 },
@@ -890,7 +950,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"font-medium text-sub-1\">Get covered</div>",
+                    "html": "<div class=\"font-medium text-sub-1 get-covered-container-text\">Get covered</div>",
                     "htmlEvents": []
                   }
                 },
@@ -963,7 +1023,7 @@
           ]
         },
         {
-          "name": "Home Content Replacement Value",
+          "name": "Edit Home Content Replacement Value",
           "route": "change-replacement-value",
           "pageBase": {
             "baseRoute": "policy",
@@ -1005,6 +1065,36 @@
                       "goToStart": false
                     },
                     "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "998a7960-ac97-4412-af5e-f3988724de94"
+                      ],
+                      "statePropertyPaths": [
+                        "homeContents.homeContents.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "home-contents",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
                     "img": null,
                     "useImageAsButton": null,
                     "theme": "primary",
@@ -1084,9 +1174,10 @@
                         },
                         {
                           "route": {
-                            "baseRoute": "home-contents",
-                            "pageRoute": "premium",
-                            "sectionRoute": "resume-quote"
+                            "baseRoute": "policy",
+                            "pageRoute": "home-contents-premium",
+                            "sectionRoute": "resume-quote",
+                            "goToStart": false
                           }
                         }
                       ],
@@ -1395,7 +1486,7 @@
     }
   },
   "created": "2025-04-30T05:48:10Z",
-  "lastModified": "2025-04-30T05:48:23Z",
+  "lastModified": "2025-08-19T14:11:57Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxNmE0NGIwZi04N2ZiLTRlYjgtYjg1Mi03MDczNzlhOTc1MDYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1475,14 +1566,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/1",
+      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/2",
       "method": "GET"
     },
     "draft/create": {

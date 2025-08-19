@@ -1,7 +1,7 @@
 {
   "id": "c820fc0c-c002-455f-a39b-b359b0e3689d",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -100,7 +100,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h3 class=\"mb-5\">You told us that you are married or cohabiting/partnered.</h3>\n<h2>Please enter your spouse/partner’s South African ID number</h2>",
+                    "html": "<h3 class=\"mb-5 font-normal text-sm md:text-base\">You told us that you are married or cohabiting/partnered.</h3>\n<h2>Please enter your spouse/partner’s South African ID number</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -910,7 +910,7 @@
     }
   },
   "created": "2025-04-29T06:49:27Z",
-  "lastModified": "2025-04-29T06:52:34Z",
+  "lastModified": "2025-08-19T14:13:26Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODIwZmMwYy1jMDAyLTQ1NWYtYTM5Yi1iMzU5YjBlMzY4OWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -990,14 +990,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c820fc0c-c002-455f-a39b-b359b0e3689d",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c820fc0c-c002-455f-a39b-b359b0e3689d/1",
+      "href": "/api/content/con-fusion/quote-sections/c820fc0c-c002-455f-a39b-b359b0e3689d/2",
       "method": "GET"
     },
     "draft/create": {
