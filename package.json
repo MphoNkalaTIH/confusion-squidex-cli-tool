@@ -1,17 +1,53 @@
 {
+  "name": "confusion-squidex",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
   "dependencies": {
+    "@angular/common": "^20.1.0",
+    "@angular/compiler": "^20.1.0",
+    "@angular/core": "^20.1.0",
+    "@angular/forms": "^20.1.0",
+    "@angular/platform-browser": "^20.1.0",
+    "@angular/router": "^20.1.0",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0",
     "axios": "^1.11.0",
     "diff": "^8.0.2",
     "dotenv": "^17.2.1",
     "prettier": "^3.6.2"
   },
   "devDependencies": {
-    "@types/node": "^24.2.1",
-    "typescript": "^5.9.2"
-  },
-  "scripts": {
-    "pull-latest": "npx ts-node pull-latest-squidex.ts",
-    "push-squidex-content": "npx ts-node push-squidex-content.ts",
-    "merge-files": "npx ts-node merge-squidex-files.ts"
+    "@angular/build": "^20.1.6",
+    "@angular/cli": "^20.1.6",
+    "@angular/compiler-cli": "^20.1.0",
+    "@types/jasmine": "~5.1.0",
+    "jasmine-core": "~5.8.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.8.2",
+    "@types/node": "^24.2.1"
   }
 }
