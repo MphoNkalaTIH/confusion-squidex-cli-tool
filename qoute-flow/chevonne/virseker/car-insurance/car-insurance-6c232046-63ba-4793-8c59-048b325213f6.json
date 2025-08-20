@@ -378,7 +378,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/aa105b8c-916b-4802-8e01-dcf17403ca65/icon_state_error.png\">",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon_state_error.png\">",
                     "htmlEvents": []
                   }
                 }
@@ -692,7 +692,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/aa105b8c-916b-4802-8e01-dcf17403ca65/icon_state_error.png\">",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon_state_error.png\">",
                     "htmlEvents": []
                   }
                 }
@@ -1672,7 +1672,7 @@
     }
   },
   "created": "2025-05-15T07:28:19Z",
-  "lastModified": "2025-08-19T12:51:47Z",
+  "lastModified": "2025-08-19T13:39:51Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6IjZjMjMyMDQ2LTYzYmEtNDc5My04YzU5LTA0OGIzMjUyMTNmNiIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1710,14 +1710,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 11,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/6c232046-63ba-4793-8c59-048b325213f6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/6c232046-63ba-4793-8c59-048b325213f6/9",
+      "href": "/api/content/con-fusion/quote-flow/6c232046-63ba-4793-8c59-048b325213f6/10",
       "method": "GET"
     },
     "draft/create": {

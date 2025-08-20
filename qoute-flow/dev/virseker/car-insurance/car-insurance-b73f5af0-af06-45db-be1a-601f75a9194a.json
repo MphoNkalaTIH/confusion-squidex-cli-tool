@@ -1,7 +1,7 @@
 {
   "id": "b73f5af0-af06-45db-be1a-601f75a9194a",
   "createdBy": "subject:63d3c3cdc16968f87b36989f",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -362,6 +362,25 @@
                     "text": "vir jou karversekering",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "verseker my huisinhoud",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "imgDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon_state_error.png\">",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -628,7 +647,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Take me to the homepage",
+                    "label": "Gaan na die tuisblad",
                     "route": {
                       "pageRoute": "car-make",
                       "sectionRoute": "car-details"
@@ -647,7 +666,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"my-3 text-sub-8 text-base font-normal leading-5\">\n    Based on the information you have provided, we unfortunately cannot insure \n    your home contents.\n</h2>"
+                    "html": "<h2 class=\"my-3 text-virseker-dark-blue text-base font-normal leading-5\">\n    Gebaseer op die inligting wat jy gegee het, kan ons ongelukkig nie \n    huisinhoud verseker nie.\n</h2>"
                   }
                 },
                 {
@@ -655,7 +674,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col my-5 text-5xl text-sub-8 font-georgia-bold leading-tight\">Thank you<br/>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col my-5 text-5xl virseker-dark-blue font-georgia-bold leading-tight\">Dankie<br/>{{name}}!</h1>",
                     "htmlEvents": []
                   }
                 },
@@ -664,7 +683,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col my-5 text-5xl text-sub-8 font-georgia-bold leading-tight\">Thank you!</h1>",
+                    "html": "<h1 class=\"flex flex-col my-5 text-5xl virseker-dark-blue font-georgia-bold leading-tight\">Dankie!</h1>",
                     "htmlEvents": []
                   }
                 },
@@ -673,7 +692,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/aa105b8c-916b-4802-8e01-dcf17403ca65/icon_state_error.png\">",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon_state_error.png\">",
                     "htmlEvents": []
                   }
                 }
@@ -1241,7 +1260,7 @@
                   "group": "Home Contents Quote",
                   "icon": "icon-home",
                   "index": 0,
-                  "name": "Home details",
+                  "name": "Huisinligting",
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "",
@@ -1255,7 +1274,7 @@
                   "group": "Home Contents Quote",
                   "icon": "icon-user-details",
                   "index": 1,
-                  "name": "Personal details",
+                  "name": "Persoonlike inligting",
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "personal-details"
@@ -1268,11 +1287,9 @@
                   "group": "Home Contents Quote",
                   "icon": "icon-circle-check-filled",
                   "index": 2,
-                  "name": "Quote",
+                  "name": "Kwotasie",
                   "quoteFlowType": "home-contents",
-                  "routes": [
-                    "quote"
-                  ]
+                  "routes": []
                 },
                 {
                   "baseRoutes": [
@@ -1297,6 +1314,7 @@
                   "icon": "icon-build-cover",
                   "index": 1,
                   "name": "Bou dekking",
+                  "quoteFlowType": "car-insurance",
                   "routes": []
                 },
                 {
@@ -1307,6 +1325,44 @@
                   "icon": "icon-finalise",
                   "index": 2,
                   "name": "Finaliseer inligting",
+                  "quoteFlowType": "car-insurance",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents",
+                    "policy"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-circle-check-filled",
+                  "index": 0,
+                  "name": "Kwotasie",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "quote",
+                    "resume-quote"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-build-cover",
+                  "index": 1,
+                  "name": "Bou dekking",
+                  "quoteFlowType": "home-contents",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-finalise",
+                  "index": 2,
+                  "name": "Finaliseer inligting",
+                  "quoteFlowType": "home-contents",
                   "routes": []
                 },
                 {
@@ -1317,6 +1373,7 @@
                   "icon": "icon-build-cover",
                   "index": 0,
                   "name": "Bou dekking",
+                  "quoteFlowType": "car-insurance",
                   "routes": [
                     "build-cover"
                   ]
@@ -1329,6 +1386,7 @@
                   "icon": "icon-finalise",
                   "index": 1,
                   "name": "Finaliseer inligting",
+                  "quoteFlowType": "car-insurance",
                   "routes": [
                     "finalise-details",
                     "cashback-details",
@@ -1343,6 +1401,50 @@
                   "icon": "icon-circle-check",
                   "index": 2,
                   "name": "Amper daar",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "done"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy",
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-build-cover",
+                  "index": 0,
+                  "name": "Bou dekking",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "spouse-details",
+                    "incident-details"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-finalise",
+                  "index": 1,
+                  "name": "Finaliseer inligting",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "finalise-details",
+                    "cashback-details",
+                    "policy-cancellation"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-circle-check",
+                  "index": 2,
+                  "name": "Amper daar",
+                  "quoteFlowType": "home-contents",
                   "routes": [
                     "done"
                   ]
@@ -1416,10 +1518,9 @@
                 "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                 "label": "link",
                 "route": {
-                  "baseRoute": "policy",
-                  "pageRoute": "credit-card-details",
-                  "sectionRoute": "finalise-details",
-                  "goToStart": false
+                  "goToStart": false,
+                  "pageRoute": "credit-card-number",
+                  "sectionRoute": "finalise-details"
                 },
                 "url": null,
                 "img": null,
@@ -1571,7 +1672,7 @@
     }
   },
   "created": "2023-08-29T08:20:55Z",
-  "lastModified": "2025-05-26T08:46:06Z",
+  "lastModified": "2025-08-20T08:10:49Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImI3M2Y1YWYwLWFmMDYtNDVkYi1iZTFhLTYwMWY3NWE5MTk0YSIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1609,14 +1710,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 752,
+  "version": 753,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/751",
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/752",
       "method": "GET"
     },
     "draft/create": {
