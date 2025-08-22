@@ -21,6 +21,8 @@ import {
 })
 export class HomePageComponent {
   protected readonly title = signal('confusion-squidex');
+  protected deleteFileModal = signal(false);
+
   pathItems: any[] = [];
 
   faSync = faSync;
@@ -145,10 +147,24 @@ export class HomePageComponent {
   }
 
   deleteFile() {
-    console.log('Delete File Clicked');
+    console.log({ hello_world: true });
+    this.deleteFileModal.set(true);
   }
 
   previewFile() {
     console.log('Preview File Clicked');
+  }
+
+  handleActionModalEvent($event: any) {
+    switch ($event) {
+      case 'cancel':
+        this.deleteFileModal.set(false);
+        break;
+      case 'submit':
+        this.deleteFileModal.set(false);
+        break;
+      default:
+        alert('Invalid action there');
+    }
   }
 }

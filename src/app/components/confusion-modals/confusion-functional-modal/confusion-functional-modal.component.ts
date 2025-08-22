@@ -1,4 +1,4 @@
-import { Component, EventEmitter, input, OnInit } from '@angular/core';
+import { Component, input, OnInit, output } from '@angular/core';
 import {
   faBan,
   faBug,
@@ -21,7 +21,7 @@ export class ConfusionFunctionModalComponent implements OnInit {
   dismissText = input<string>('Cancel');
   submitText = input<string>('Confirm');
 
-  functionalModalEvent = new EventEmitter<string>(); //returns cancel or submit
+  functionalModalEvent = output<string>(); //returns cancel or submit
 
   ngOnInit(): void {}
 

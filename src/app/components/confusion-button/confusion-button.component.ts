@@ -1,4 +1,4 @@
-import { Component, EventEmitter, input, OnInit, signal } from '@angular/core';
+import { Component, input, OnInit, output, signal } from '@angular/core';
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { ButtonType } from '../../models/button-type.model';
 
@@ -15,7 +15,7 @@ export class ConfusionButtonComponent implements OnInit {
   buttonLabel = input<string>('Click Me');
 
   //outputs
-  buttonClick = new EventEmitter<void>();
+  buttonClick = output<void>();
 
   //vars
   buttonTypes: ButtonType[] = [
