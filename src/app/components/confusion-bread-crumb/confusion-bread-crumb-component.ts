@@ -1,4 +1,5 @@
 import { Component, OnInit, signal } from '@angular/core';
+import { faArrowRight, faHome } from '@fortawesome/free-solid-svg-icons';
 import { BreadCumb } from '../../models/breadcrumb.model';
 
 @Component({
@@ -9,6 +10,9 @@ import { BreadCumb } from '../../models/breadcrumb.model';
 })
 export class ConfusionBreadCrumbComponent implements OnInit {
   items = signal<BreadCumb[] | undefined>([]);
+
+  faHome = faHome;
+  faArrowRight = faArrowRight;
 
   ngOnInit(): void {
     this.items.set([

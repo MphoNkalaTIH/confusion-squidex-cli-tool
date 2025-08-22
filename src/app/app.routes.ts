@@ -3,7 +3,7 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 
 export const routes: Routes = [
   {
-    path: '/',
+    path: 'home',
     component: HomePageComponent,
     data: {
       breadcrumb: 'home',

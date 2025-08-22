@@ -4,14 +4,14 @@
 
     <div class="squidex-actions-container">
       <confusion-button
-        [buttonType]="'primary'"
+        [buttonType]="'info'"
         [buttonIcon]="faSync"
         [buttonLabel]="'Pull Latest'"
         (buttonClick)="pullLatestSquidexContent()"
       ></confusion-button>
 
       <confusion-button
-        [buttonType]="'primary'"
+        [buttonType]="'warn'"
         [buttonIcon]="faUpload"
         [buttonLabel]="'Push Changes'"
         (buttonClick)="pushUpdatedSquidexContent()"
@@ -20,41 +20,40 @@
   </div>
 
   <div class="breadcrumb-container">
-    <fa-icon [icon]="faHome"></fa-icon>
     <confusion-bread-crumb />
   </div>
 
   <div class="file-actions-container">
     <confusion-button
-      [buttonType]="'primary'"
+      [buttonType]="'info'"
       [buttonIcon]="faEdit"
       [buttonLabel]="'Edit'"
       (buttonClick)="editFileContents()"
     ></confusion-button>
 
     <confusion-button
-      [buttonType]="'primary'"
+      [buttonType]="'neutral'"
       [buttonIcon]="faClone"
       [buttonLabel]="'Clone'"
       (buttonClick)="cloneFile()"
     ></confusion-button>
 
     <confusion-button
-      [buttonType]="'primary'"
+      [buttonType]="'success'"
       [buttonIcon]="faCodeMerge"
       [buttonLabel]="'Merge'"
       (buttonClick)="mergeFiles()"
     ></confusion-button>
 
     <confusion-button
-      [buttonType]="'primary'"
+      [buttonType]="'danger'"
       [buttonIcon]="faTrash"
       [buttonLabel]="'Delete'"
       (buttonClick)="deleteFile()"
     ></confusion-button>
 
     <confusion-button
-      [buttonType]="'primary'"
+      [buttonType]="'simple'"
       [buttonIcon]="faBookOpenReader"
       [buttonLabel]="'Preview'"
       (buttonClick)="previewFile()"

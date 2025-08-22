@@ -1,9 +1,19 @@
 .breadcrumb-container {
-  padding: 2px 8px;
+  padding: 8px;
+  gap: 5px;
   display: flex;
   align-items: center;
-  border: 1px solid #c5c5c5;
+  background-color: #f1f1f1;
+  transition: all 0.4s ease-in;
 }
 
 .breadcrumb-item {
+  display: flex;
+  gap: 3px;
+  font-size: small;
+}
+
+.item-label:hover {
+  font-size: medium;
+  cursor: pointer;
 }

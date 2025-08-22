@@ -10,7 +10,7 @@ import { ButtonType } from '../../models/button-type.model';
 })
 export class ConfusionButtonComponent implements OnInit {
   //props
-  buttonType = input<string>('success');
+  buttonType = input<'success' | 'danger' | 'info' | 'warn' | 'neutral' | 'simple'>('success');
   buttonIcon = input<IconDefinition | undefined>();
   buttonLabel = input<string>('Click Me');
 
