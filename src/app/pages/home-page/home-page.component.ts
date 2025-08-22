@@ -14,9 +14,10 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
-  selector: 'app-home-page',
+  selector: 'confusion-home-page',
   templateUrl: './home-page.component.html',
   styleUrls: ['./home-page.component.scss'],
+  standalone: false,
 })
 export class HomePageComponent {
   protected readonly title = signal('confusion-squidex');
@@ -36,6 +37,8 @@ export class HomePageComponent {
   faBookOpenReader = faBookOpenReader;
 
   ngOnInit() {
+    console.log({ launched_home_page: true });
+
     this.pathItems = [
       {
         label: 'src',

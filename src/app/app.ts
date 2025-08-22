@@ -1,10 +1,14 @@
-import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, OnInit } from '@angular/core';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
-  imports: [RouterOutlet],
   styleUrl: './app.scss',
+  imports: [RouterModule],
 })
-export class ConfusionApp {}
+export class ConfusionApp implements OnInit {
+  ngOnInit(): void {
+    console.log({ launched_app: true });
+  }
+}
