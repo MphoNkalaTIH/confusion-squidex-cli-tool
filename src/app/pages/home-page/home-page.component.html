@@ -67,12 +67,14 @@
           <input type="checkbox" class="file-checkbox" />
 
           <span class="file-item-content">
-            <span class="file-label">{{ item.label }}</span>
+            <span class="file-label">
+              <fa-icon [icon]="item.type == 'folder' ? faFolder : faFile"></fa-icon>
+              {{ item.label }}</span
+            >
 
             <div class="file-information">
               <span class="file-type">{{ item.size }}</span
-              >•
-              <span class="file-modified">{{ fetchSimplifiedDate(item.dateModified) }}</span>
+              >•<span class="file-modified">{{ fetchSimplifiedDate(item.dateModified) }}</span>
             </div>
           </span>
         </div>

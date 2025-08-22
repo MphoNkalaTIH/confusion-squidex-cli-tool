@@ -10,4 +10,10 @@ button {
 button:hover {
   background: #f1f5f7;
   opacity: 0.8;
+  padding: 8px 18px;
+}
+
+button:hover,
+label:hover {
+  cursor: pointer;
 }
