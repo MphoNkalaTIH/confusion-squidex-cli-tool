@@ -64,7 +64,7 @@
     <div class="file-list-container">
       @for (item of pathItems; track item) {
         <div class="file-item" (click)="markFileItem(item)">
-          <input type="checkbox" class="file-checkbox" [value]="item.marked" />
+          <input type="checkbox" class="file-checkbox" [checked]="item.marked" />
 
           <span class="file-item-content">
             <span class="file-label">
