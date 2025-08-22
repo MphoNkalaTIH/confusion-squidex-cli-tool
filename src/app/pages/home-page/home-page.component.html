@@ -87,12 +87,23 @@
     </div>
   </div>
 
+  <!----action modals-->
+  @if (cloneFileModal() == true) {
+    <confusion-action-modal
+      actionType="Information"
+      actionHeaderText="Clone File"
+      actionBodyText="Are you sure you want to clone this file?"
+      (actionModalEvent)="handleCloneFileEvent($event)"
+    >
+    </confusion-action-modal>
+  }
+
   @if (deleteFileModal() == true) {
     <confusion-action-modal
       actionType="Delete"
       actionHeaderText="Delete File"
       actionBodyText="Are you sure you want to delete this file?"
-      (actionModalEvent)="handleActionModalEvent($event)"
+      (actionModalEvent)="handleDeleteFileEvent($event)"
     >
     </confusion-action-modal>
   }

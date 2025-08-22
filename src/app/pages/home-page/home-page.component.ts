@@ -23,6 +23,7 @@ import { FileItem } from '../../models/file-item.model';
 export class HomePageComponent {
   protected readonly title = signal('confusion-squidex');
   protected deleteFileModal = signal(false);
+  protected cloneFileModal = signal(false);
   protected selectedItems = signal<FileItem[]>([]);
   protected pathItems = signal<FileItem[]>([]);
 
@@ -142,7 +143,7 @@ export class HomePageComponent {
   }
 
   cloneFile() {
-    console.log('Clone File Clicked');
+    this.cloneFileModal.set(true);
   }
 
   mergeFiles() {
@@ -150,7 +151,6 @@ export class HomePageComponent {
   }
 
   deleteFile() {
-    console.log({ hello_world: true });
     this.deleteFileModal.set(true);
   }
 
@@ -158,13 +158,26 @@ export class HomePageComponent {
     console.log('Preview File Clicked');
   }
 
-  handleActionModalEvent($event: any) {
+  handleDeleteFileEvent($event: any) {
     switch ($event) {
       case 'cancel':
         this.deleteFileModal.set(false);
         break;
       case 'submit':
         this.deleteFileModal.set(false);
+        break;
+      default:
+        alert('Invalid action there');
+    }
+  }
+
+  handleCloneFileEvent($event: any) {
+    switch ($event) {
+      case 'cancel':
+        this.cloneFileModal.set(false);
+        break;
+      case 'submit':
+        this.cloneFileModal.set(false);
         break;
       default:
         alert('Invalid action there');
