@@ -28,6 +28,7 @@
       [buttonType]="'info'"
       [buttonIcon]="faEdit"
       [buttonLabel]="'Edit'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
       (buttonClick)="editFileContents()"
     ></confusion-button>
 
@@ -35,6 +36,7 @@
       [buttonType]="'neutral'"
       [buttonIcon]="faClone"
       [buttonLabel]="'Clone'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
       (buttonClick)="cloneFile()"
     ></confusion-button>
 
@@ -42,6 +44,7 @@
       [buttonType]="'success'"
       [buttonIcon]="faCodeMerge"
       [buttonLabel]="'Merge'"
+      [disabled]="selectedItems().length != 2"
       (buttonClick)="mergeFiles()"
     ></confusion-button>
 
@@ -49,6 +52,7 @@
       [buttonType]="'danger'"
       [buttonIcon]="faTrash"
       [buttonLabel]="'Delete'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
       (buttonClick)="deleteFile()"
     ></confusion-button>
 
@@ -56,13 +60,14 @@
       [buttonType]="'simple'"
       [buttonIcon]="faBookOpenReader"
       [buttonLabel]="'Preview'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
       (buttonClick)="previewFile()"
     ></confusion-button>
   </div>
 
   <div class="card">
     <div class="file-list-container">
-      @for (item of pathItems; track item) {
+      @for (item of pathItems(); track item) {
         <div class="file-item" (click)="markFileItem(item)">
           <input type="checkbox" class="file-checkbox" [checked]="item.marked" />
 

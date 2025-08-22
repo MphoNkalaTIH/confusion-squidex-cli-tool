@@ -13,6 +13,7 @@ export class ConfusionButtonComponent implements OnInit {
   buttonType = input<'success' | 'danger' | 'info' | 'warn' | 'neutral' | 'simple'>('success');
   buttonIcon = input<IconDefinition | undefined>();
   buttonLabel = input<string>('Click Me');
+  disabled = input<boolean>(false);
 
   //outputs
   buttonClick = output<void>();

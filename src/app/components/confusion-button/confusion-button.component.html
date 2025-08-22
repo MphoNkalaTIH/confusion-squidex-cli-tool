@@ -8,9 +8,11 @@
     borderColor: buttonTypeStyle.borderColor,
   }"
   (click)="buttonClick.emit()"
+  [disabled]="disabled()"
+  [class.disabled]="disabled()"
 >
   @if (buttonIcon()) {
     <fa-icon [icon]="buttonIcon()"></fa-icon>
   }
-  <label>{{ buttonLabel() }}</label>
+  <label [class.disabled]="disabled()">{{ buttonLabel() }}</label>
 </button>

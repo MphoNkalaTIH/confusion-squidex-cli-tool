@@ -12,6 +12,7 @@ import {
   faTrash,
   faUpload,
 } from '@fortawesome/free-solid-svg-icons';
+import { FileItem } from '../../models/file-item.model';
 
 @Component({
   selector: 'confusion-home-page',
@@ -22,8 +23,8 @@ import {
 export class HomePageComponent {
   protected readonly title = signal('confusion-squidex');
   protected deleteFileModal = signal(false);
-
-  pathItems: any[] = [];
+  protected selectedItems = signal<FileItem[]>([]);
+  protected pathItems = signal<FileItem[]>([]);
 
   faSync = faSync;
   faFolder = faFolder;
@@ -40,11 +41,10 @@ export class HomePageComponent {
   ngOnInit() {
     console.log({ launched_home_page: true });
 
-    this.pathItems = [
+    this.pathItems.set([
       {
         id: '6c232046-63ba-4793-8c59-048b325213f6',
         label: 'src',
-        icon: 'pi pi-home',
         path: 'path/to/source',
         type: 'folder',
         size: '1.2 MB',
@@ -55,7 +55,6 @@ export class HomePageComponent {
       {
         id: '6c232046-4793-63ba-8c59-048b325213f6',
         label: 'components',
-        icon: 'pi pi-home',
         path: 'path/to/source',
         type: 'folder',
         size: '1.2 MB',
@@ -66,7 +65,6 @@ export class HomePageComponent {
       {
         id: '2c294846-4793-63ba-8c59-048b325213f6',
         label: 'app.tsx',
-        icon: 'pi pi-home',
         path: 'path/to/source',
         type: 'file',
         size: '1.2 MB',
@@ -77,7 +75,6 @@ export class HomePageComponent {
       {
         id: '6c232046-4793-63ba-8c59-048b3250983f6',
         label: 'package.json',
-        icon: 'pi pi-home',
         path: 'path/to/source',
         type: 'file',
         size: '1.2 MB',
@@ -88,7 +85,6 @@ export class HomePageComponent {
       {
         id: '1c234046-4793-63ba-3e34-048b329286323f6',
         label: 'index.css',
-        icon: 'pi pi-home',
         path: 'path/to/source',
         type: 'file',
         size: '211.2 MB',
@@ -99,7 +95,6 @@ export class HomePageComponent {
       {
         id: '3d2342346-4793-34ba-3e34-048b323223f6',
         label: 'utils.css',
-        icon: 'pi pi-home',
         path: 'path/to/source',
         type: 'file',
         size: '111.2 Kbs',
@@ -107,7 +102,7 @@ export class HomePageComponent {
         dateModified: '2024-02-13',
         marked: false,
       },
-    ];
+    ]);
   }
 
   fetchSimplifiedDate(date: string): string {
@@ -121,9 +116,17 @@ export class HomePageComponent {
   }
 
   markFileItem(item: any) {
-    console.log({ item });
-
     item.marked = !item.marked;
+
+    if (item.marked) {
+      this.selectedItems().push(item);
+    } else if (this.selectedItems().includes(item) && !item.marked) {
+      const findIndex = this.selectedItems().findIndex((v) => v.id == item.id);
+
+      const filteredArray = this.selectedItems().filter((v) => !(v.id == item.id));
+
+      this.selectedItems.set([...filteredArray]);
+    }
   }
 
   pullLatestSquidexContent() {
