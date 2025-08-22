@@ -1,0 +1,7 @@
+<span class="breadcrumb-container">
+  @for (breadCrumbItem of items(); track breadCrumbItem) {
+    <div class="breadcrumb-item" onclick="navigateToBreadCrumbPath(breadCrumbItem.navigation)">
+      {{ breadCrumbItem.label }}
+    </div>
+  }
+</span>

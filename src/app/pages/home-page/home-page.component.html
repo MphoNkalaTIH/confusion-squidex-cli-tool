@@ -1,0 +1,83 @@
+<main class="main">
+  <div class="main-wrapper">
+    <span class="main-title">Confusion Squidex File Manager</span>
+
+    <div class="squidex-actions-container">
+      <confusion-button
+        [buttonType]="'primary'"
+        [buttonIcon]="faSync"
+        [buttonLabel]="'Pull Latest'"
+        (buttonClick)="pullLatestSquidexContent()"
+      ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'primary'"
+        [buttonIcon]="faUpload"
+        [buttonLabel]="'Push Changes'"
+        (buttonClick)="pushUpdatedSquidexContent()"
+      ></confusion-button>
+    </div>
+  </div>
+
+  <div class="breadcrumb-container">
+    <fa-icon [icon]="faHome"></fa-icon>
+    <confusion-bread-crumb />
+  </div>
+
+  <div class="file-actions-container">
+    <confusion-button
+      [buttonType]="'primary'"
+      [buttonIcon]="faEdit"
+      [buttonLabel]="'Edit'"
+      (buttonClick)="editFileContents()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'primary'"
+      [buttonIcon]="faClone"
+      [buttonLabel]="'Clone'"
+      (buttonClick)="cloneFile()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'primary'"
+      [buttonIcon]="faCodeMerge"
+      [buttonLabel]="'Merge'"
+      (buttonClick)="mergeFiles()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'primary'"
+      [buttonIcon]="faTrash"
+      [buttonLabel]="'Delete'"
+      (buttonClick)="deleteFile()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'primary'"
+      [buttonIcon]="faBookOpenReader"
+      [buttonLabel]="'Preview'"
+      (buttonClick)="previewFile()"
+    ></confusion-button>
+  </div>
+
+  <div class="card">
+    <div class="file-list-container">
+      @for (item of pathItems; track item) {
+        <div class="file-item">
+          <input type="checkbox" class="file-checkbox" />
+
+          <span class="file-item-content">
+            <span class="file-label">{{ item.label }}</span>
+
+            <div class="file-information">
+              <span class="file-type">{{ item.size }}</span
+              >•
+              <span class="file-modified">{{ fetchSimplifiedDate(item.dateModified) }}</span>
+            </div>
+          </span>
+        </div>
+      }
+    </div>
+  </div>
+</main>

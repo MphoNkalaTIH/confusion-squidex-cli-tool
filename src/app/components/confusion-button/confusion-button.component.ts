@@ -1,5 +1,4 @@
 import { Component, EventEmitter, input, OnInit, signal } from '@angular/core';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { IconDefinition } from '@fortawesome/free-solid-svg-icons';
 import { ButtonType } from '../../models/button-type.model';
 
@@ -7,7 +6,7 @@ import { ButtonType } from '../../models/button-type.model';
   selector: 'confusion-button',
   templateUrl: './confusion-button.component.html',
   styleUrl: './confusion-button.component.scss',
-  imports: [FontAwesomeModule],
+  standalone: false,
 })
 export class ConfusionButtonComponent implements OnInit {
   //props
