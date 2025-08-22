@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { Router, RouterModule } from '@angular/router';
 import { ConfusionModule } from './app.module';
 
 @Component({
@@ -9,7 +9,9 @@ import { ConfusionModule } from './app.module';
   imports: [RouterModule, ConfusionModule],
 })
 export class ConfusionApp implements OnInit {
+  constructor(readonly router: Router) {}
+
   ngOnInit(): void {
-    console.log({ launched_app: true });
+    this.router.navigateByUrl('/home'); //rerouting here
   }
 }

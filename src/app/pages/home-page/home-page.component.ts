@@ -21,8 +21,7 @@ import {
 })
 export class HomePageComponent {
   protected readonly title = signal('confusion-squidex');
-
-  pathItems: any[] | undefined;
+  pathItems: any[] = [];
 
   faSync = faSync;
   faFolder = faFolder;
@@ -41,6 +40,7 @@ export class HomePageComponent {
 
     this.pathItems = [
       {
+        id: '6c232046-63ba-4793-8c59-048b325213f6',
         label: 'src',
         icon: 'pi pi-home',
         path: 'path/to/source',
@@ -48,8 +48,10 @@ export class HomePageComponent {
         size: '1.2 MB',
         dateCreated: '2023-10-01',
         dateModified: '2023-10-01',
+        marked: false,
       },
       {
+        id: '6c232046-4793-63ba-8c59-048b325213f6',
         label: 'components',
         icon: 'pi pi-home',
         path: 'path/to/source',
@@ -57,8 +59,10 @@ export class HomePageComponent {
         size: '1.2 MB',
         dateCreated: '2023-10-01',
         dateModified: '2023-10-01',
+        marked: false,
       },
       {
+        id: '2c294846-4793-63ba-8c59-048b325213f6',
         label: 'app.tsx',
         icon: 'pi pi-home',
         path: 'path/to/source',
@@ -66,8 +70,10 @@ export class HomePageComponent {
         size: '1.2 MB',
         dateCreated: '2023-10-01',
         dateModified: '2023-10-01',
+        marked: false,
       },
       {
+        id: '6c232046-4793-63ba-8c59-048b3250983f6',
         label: 'package.json',
         icon: 'pi pi-home',
         path: 'path/to/source',
@@ -75,8 +81,10 @@ export class HomePageComponent {
         size: '1.2 MB',
         dateCreated: '2023-10-01',
         dateModified: '2024-02-13',
+        marked: false,
       },
       {
+        id: '1c234046-4793-63ba-3e34-048b329286323f6',
         label: 'index.css',
         icon: 'pi pi-home',
         path: 'path/to/source',
@@ -84,8 +92,10 @@ export class HomePageComponent {
         size: '211.2 MB',
         dateCreated: '2023-10-01',
         dateModified: '2024-02-13',
+        marked: false,
       },
       {
+        id: '3d2342346-4793-34ba-3e34-048b323223f6',
         label: 'utils.css',
         icon: 'pi pi-home',
         path: 'path/to/source',
@@ -93,6 +103,7 @@ export class HomePageComponent {
         size: '111.2 Kbs',
         dateCreated: '2023-10-01',
         dateModified: '2024-02-13',
+        marked: false,
       },
     ];
   }
@@ -105,6 +116,12 @@ export class HomePageComponent {
       day: '2-digit',
     };
     return dateObj.toLocaleDateString('en-US', options);
+  }
+
+  markFileItem(item: any) {
+    console.log({ item });
+
+    item.marked = !item.marked;
   }
 
   pullLatestSquidexContent() {
