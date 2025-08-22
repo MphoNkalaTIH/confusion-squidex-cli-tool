@@ -8,6 +8,8 @@ import { ConfusionActionModalComponent } from './components/confusion-modals/con
 import { ConfusionFunctionModalComponent } from './components/confusion-modals/confusion-functional-modal/confusion-functional-modal.component';
 import { HomePageComponent } from './pages/home-page/home-page.component';
 
+import { NgSelectModule } from '@ng-select/ng-select';
+
 @NgModule({
   declarations: [
     HomePageComponent,
@@ -16,6 +18,6 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     ConfusionFunctionModalComponent,
     ConfusionActionModalComponent,
   ],
-  imports: [CommonModule, FontAwesomeModule, RouterOutlet],
+  imports: [CommonModule, FontAwesomeModule, RouterOutlet, NgSelectModule],
 })
 export class ConfusionModule {}

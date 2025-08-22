@@ -1,3 +1,5 @@
+@import '../node_modules/@ng-select/ng-select/themes/ant.design.theme.css';
+
 :host {
   --bright-blue: oklch(51.01% 0.274 263.83);
   --electric-violet: oklch(53.18% 0.28 296.97);
@@ -41,4 +43,10 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.form-group {
+  display: grid;
+  gap: 8px;
+  width: 100%;
 }

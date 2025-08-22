@@ -2,10 +2,6 @@
   <div class="functional-modal">
     <span class="modal-header sticky-modal sticky-top-modal">
       <h5>{{ addOrEditModalHeaderText() }}</h5>
-
-      <span (click)="functionalModalEvent.emit('cancel')" role="button">
-        <fa-icon [ngStyle]="{ cursor: 'pointer' }" [icon]="faCircleXmark"></fa-icon>
-      </span>
     </span>
 
     <div class="modal-body">

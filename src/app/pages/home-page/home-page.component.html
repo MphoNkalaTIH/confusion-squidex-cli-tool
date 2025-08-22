@@ -107,4 +107,60 @@
     >
     </confusion-action-modal>
   }
+
+  <!----functional modals-->
+  <confusion-functional-modal
+    addOrEditModalHeaderText="Pull Latest Squidex Content"
+    (functionalModalEvent)="handleDeleteFileEvent($event)"
+  >
+    <form class="pull-latest-content-container">
+      <div class="form-group">
+        <label>Squidex App</label>
+        <ng-select
+          class="multiselect"
+          [items]="squidexApps()"
+          bindValue="label"
+          bindLabel="label"
+          formControlName="app"
+          placeholder="-- Select Squidex App --"
+          [multiple]="false"
+          [searchable]="true"
+          [virtualScroll]="true"
+          [clearable]="true"
+        >
+        </ng-select>
+
+        @if (
+          pullLatestContentForm()?.get('app')?.touched ||
+          pullLatestContentForm()?.get('app')?.invalid
+        ) {
+          <small class="text-danger">App is required.</small>
+        }
+      </div>
+
+      <div class="form-group">
+        <label>Squidex App</label>
+        <ng-select
+          class="multiselect"
+          [items]="squidexSchemas()"
+          bindValue="label"
+          bindLabel="label"
+          formControlName="schema"
+          placeholder="-- Select Squidex App --"
+          [multiple]="false"
+          [searchable]="true"
+          [virtualScroll]="true"
+          [clearable]="true"
+        >
+        </ng-select>
+
+        @if (
+          pullLatestContentForm()?.get('schema')?.touched ||
+          pullLatestContentForm()?.get('schema')?.invalid
+        ) {
+          <small class="text-danger">Schema is required.</small>
+        }
+      </div>
+    </form>
+  </confusion-functional-modal>
 </main>

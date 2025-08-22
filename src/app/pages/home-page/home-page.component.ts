@@ -1,4 +1,5 @@
 import { Component, signal } from '@angular/core';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {
   faBookOpenReader,
   faClone,
@@ -13,6 +14,7 @@ import {
   faUpload,
 } from '@fortawesome/free-solid-svg-icons';
 import { FileItem } from '../../models/file-item.model';
+import { SquidexApp, SquidexSchema } from '../../models/squidex-app.model';
 
 @Component({
   selector: 'confusion-home-page',
@@ -26,6 +28,11 @@ export class HomePageComponent {
   protected cloneFileModal = signal(false);
   protected selectedItems = signal<FileItem[]>([]);
   protected pathItems = signal<FileItem[]>([]);
+  protected squidexApps = signal<SquidexApp[]>([]);
+  protected squidexSchemas = signal<SquidexSchema[]>([]);
+  protected pullLatestContentForm = signal<FormGroup | null>(null);
+
+  constructor(private formBuilder: FormBuilder) {}
 
   faSync = faSync;
   faFolder = faFolder;
@@ -104,6 +111,45 @@ export class HomePageComponent {
         marked: false,
       },
     ]);
+
+    this.squidexApps.set([
+      {
+        id: '101-219-1203-12',
+        label: 'con-fusion',
+      },
+      {
+        id: '203-193-1034-32',
+        label: 'con-fusion-static',
+      },
+    ]);
+
+    this.squidexSchemas.set([
+      {
+        id: '001-219-1203-12',
+        label: 'qoute-sections',
+      },
+      {
+        id: '203-193-1034-32',
+        label: 'qoute-flow',
+      },
+      {
+        id: '002-193-1034-32',
+        label: 'static-data',
+      },
+      {
+        id: '301-193-1034-32',
+        label: 'enums',
+      },
+    ]);
+  }
+
+  initPullLatestContentForm() {
+    const form = this.formBuilder.group({
+      app: [null, Validators.required],
+      schema: [null, Validators.required],
+    });
+
+    this.pullLatestContentForm.set(form);
   }
 
   fetchSimplifiedDate(date: string): string {
