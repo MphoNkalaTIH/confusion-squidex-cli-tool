@@ -24,12 +24,16 @@ import { SquidexApp, SquidexSchema } from '../../models/squidex-app.model';
 })
 export class HomePageComponent {
   protected readonly title = signal('confusion-squidex');
+
   protected deleteFileModal = signal(false);
   protected cloneFileModal = signal(false);
+  protected pullLatestContentModal = signal(false);
+
   protected selectedItems = signal<FileItem[]>([]);
   protected pathItems = signal<FileItem[]>([]);
   protected squidexApps = signal<SquidexApp[]>([]);
   protected squidexSchemas = signal<SquidexSchema[]>([]);
+
   protected pullLatestContentForm = signal<FormGroup | null>(null);
 
   constructor(private formBuilder: FormBuilder) {}
@@ -177,7 +181,19 @@ export class HomePageComponent {
   }
 
   pullLatestSquidexContent() {
-    console.log('Pull Latest Squidex Content Clicked');
+    this.pullLatestContentModal.set(true);
+  }
+  pullLatestSquidexContentEvent($event: any) {
+    switch ($event) {
+      case 'cancel':
+        this.pullLatestContentModal.set(false);
+        break;
+      case 'submit':
+        this.pullLatestContentModal.set(false);
+        break;
+      default:
+        alert('Invalid action there');
+    }
   }
 
   pushUpdatedSquidexContent() {

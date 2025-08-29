@@ -17,11 +17,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
-  min-width: 60%;
+  min-width: 50%;
   height: fit-content;
   max-width: 500px;
   max-height: 80%;
-  overflow-y: scroll;
+  overflow-y: visible;
   background-color: #f1f1f1;
   padding: 0px 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -82,4 +82,8 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background: #98c4cd;
+}
+
+.modal-body {
+  position: relative;
 }
