@@ -1495,7 +1495,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 leading-tight\"><span class=\"text-main-1\">Dankie, </span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Ons het jou kwotasie gestuur na <strong>{{smsNumber}}</strong></p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Neem asseblief kennis dat dit vir 30 dae geldig is.</p>\n</div>",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 leading-tight\"><span class=\"text-main-1\">Dankie, </span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Ons het jou kwotasie gestuur na <strong>{{smsNumber}}</strong></p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Neem asseblief kennis dat dit vir 30 dae geldig is.</p>\n</div>",
                     "htmlEvents": []
                   }
                 },
@@ -1504,7 +1504,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/successtick.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 font-bold leading-tight\"><span class=\"text-main-1\">Dankie, </span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Ons het jou kwotasie gestuur.</p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Neem asseblief kennis dat dit vir 30 dae geldig is.</p>\n</div>",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 font-bold leading-tight\"><span class=\"text-main-1\">Dankie, </span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Ons het jou kwotasie gestuur.</p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Neem asseblief kennis dat dit vir 30 dae geldig is.</p>\n</div>",
                     "htmlEvents": []
                   }
                 }
@@ -1516,7 +1516,7 @@
     }
   },
   "created": "2025-04-30T05:50:07Z",
-  "lastModified": "2025-08-17T19:00:28Z",
+  "lastModified": "2025-08-20T12:19:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NzQ0Y2ExNy04MWFjLTQ5ZWItOTQ1Zi1mOWEwNTU0ZWQwMzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1596,14 +1596,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/2",
+      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/3",
       "method": "GET"
     },
     "draft/create": {

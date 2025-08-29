@@ -130,7 +130,7 @@
                         {
                           "route": {
                             "baseRoute": "policy",
-                            "pageRoute": "home-contens-premium",
+                            "pageRoute": "home-contents-premium",
                             "sectionRoute": "resume-quote"
                           }
                         }
@@ -296,15 +296,6 @@
                   }
                 },
                 {
-                  "id": "txtSubContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Vir sekuriteitsdoeleindes, vul jou Suid-Afrikaanse ID-nommer of paspoortnommer in.</h4>",
-                    "htmlEvents": []
-                  }
-                },
-                {
                   "id": "groupDropOffRoutes",
                   "conditionValue": null,
                   "details": {
@@ -439,6 +430,22 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "btnLoading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Besig om te laai...",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -536,10 +543,10 @@
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Begin nuwe kwotasie",
                     "route": {
-                      "pageRoute": "get-started",
-                      "sectionRoute": "landing",
+                      "pageRoute": "",
+                      "sectionRoute": "",
                       "goToStart": true,
-                      "baseRoute": "policy"
+                      "baseRoute": ""
                     },
                     "url": null,
                     "img": null,
@@ -646,7 +653,7 @@
     }
   },
   "created": "2024-07-16T12:13:47Z",
-  "lastModified": "2025-08-18T07:05:27Z",
+  "lastModified": "2025-08-21T18:22:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NWQzOWQzYi0wYWIzLTQ4NjgtYmRhMy1hOWM4NjFhM2NkODUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -726,14 +733,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 23,
+  "version": 24,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/65d39d3b-0ab3-4868-bda3-a9c861a3cd85",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/65d39d3b-0ab3-4868-bda3-a9c861a3cd85/22",
+      "href": "/api/content/con-fusion/quote-sections/65d39d3b-0ab3-4868-bda3-a9c861a3cd85/23",
       "method": "GET"
     },
     "draft/create": {

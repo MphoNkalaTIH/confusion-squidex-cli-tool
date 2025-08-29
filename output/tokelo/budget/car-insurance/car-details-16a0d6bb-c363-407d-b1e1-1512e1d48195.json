@@ -363,11 +363,11 @@
                   }
                 },
                 {
-                  "id": "btnProceed",
+                  "id": "btnNext",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -717,11 +717,11 @@
                   }
                 },
                 {
-                  "id": "btnProceed",
+                  "id": "btnNext",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "insured-value",
@@ -823,11 +823,11 @@
                   }
                 },
                 {
-                  "id": "btnProceed",
+                  "id": "btnNext",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "null",
                       "pageRoute": "null",
@@ -1428,7 +1428,7 @@
     }
   },
   "created": "2025-07-18T06:20:27Z",
-  "lastModified": "2025-08-08T09:19:10Z",
+  "lastModified": "2025-08-26T11:49:32Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxNmEwZDZiYi1jMzYzLTQwN2QtYjFlMS0xNTEyZTFkNDgxOTUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1508,14 +1508,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 12,
+  "version": 13,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/16a0d6bb-c363-407d-b1e1-1512e1d48195",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/16a0d6bb-c363-407d-b1e1-1512e1d48195/11",
+      "href": "/api/content/con-fusion/quote-sections/16a0d6bb-c363-407d-b1e1-1512e1d48195/12",
       "method": "GET"
     },
     "draft/create": {
