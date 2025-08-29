@@ -1,7 +1,7 @@
 {
   "id": "b5be0eb1-a162-405a-afc0-c8927ed23cc8",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "subject:68b14af6aa66f080f2e7012b",
   "data": {
     "brand": {
       "iv": "budget"
@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": {
@@ -127,6 +128,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -189,6 +191,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -251,6 +254,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -307,6 +311,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -340,6 +345,38 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>What's the car used for?</h2>"
                   }
+                },
+                {
+                  "id": "btnCarUse",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "carUse",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -359,6 +396,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -484,6 +522,7 @@
           "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -552,6 +591,7 @@
           "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -650,6 +690,61 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "btnCoverTypes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "coverTypes",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Included in this cover type: </h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "insured-value",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtScrollOption",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h6>Scroll for more options</h6>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -669,6 +764,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -709,6 +805,61 @@
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
                     "flag": true
                   }
+                },
+                {
+                  "id": "btnInsuredValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "btnInsuredValue",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "null",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtEventClaim",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>In the event of a claim:</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtScrollOption",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h6>Scroll for more options</h6>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -728,6 +879,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": true,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -834,6 +986,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -900,6 +1053,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -966,6 +1120,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": true,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -1072,6 +1227,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -1138,6 +1294,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -1204,6 +1361,7 @@
           "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -1270,7 +1428,7 @@
     }
   },
   "created": "2024-08-05T07:19:44Z",
-  "lastModified": "2025-04-01T15:22:44Z",
+  "lastModified": "2025-08-29T07:26:23Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNWJlMGViMS1hMTYyLTQwNWEtYWZjMC1jODkyN2VkMjNjYzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1350,14 +1508,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 6,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8/4",
+      "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8/5",
       "method": "GET"
     },
     "draft/create": {
