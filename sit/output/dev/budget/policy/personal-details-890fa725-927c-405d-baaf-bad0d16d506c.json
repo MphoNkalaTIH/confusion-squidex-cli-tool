@@ -1,0 +1,2123 @@
+{
+  "id": "890fa725-927c-405d-baaf-bad0d16d506c",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "budget"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "personal-details"
+    },
+    "name": {
+      "iv": "Personal details"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-user-details"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 1
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "ID Number Page",
+          "route": "id-number",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "id-number-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtIdNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "ID number",
+                    "helperText": "All reasonable safeguards have been taken to secure and protect your personal information.",
+                    "placeholderText": "Please complete",
+                    "formControlName": "idNumber",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "ID number is required",
+                      "invalidErrorMessage": "ID number is invalid",
+                      "maxLength": 13,
+                      "minLength": 13,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "ckbProcessInformation",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": "canProcessInfo",
+                    "text": "By pressing proceed, you consent to Budget processing your personal information for insurance and risk management purposes.",
+                    "errorMessage": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": true,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "dlgReadMore",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": "text",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0\">Use of personal information</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": "text",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>\n    In order to provide you with the services we are required to process your \n    personal information and will do so lawfully in accordance with our business \n    requirements and legal obligations.\n</p>\n<p>   \n    You acknowledge that the personal \n    information may be verified and / or processed for insurance, financial \n    services and risk management purposes by Budget and it’s associates against \n    any other reasonable and legitimate sources or databases to ensure the \n    accuracy and completeness of any personal information.\n</p>\n<p>\n    Pre-populated information displayed is retrieved from legitimate sources as \n    well as our internal database.\n</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": "button",
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got It",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtIdContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What’s your South African ID number?</h2>\r\n<h4 class=\"text-sub-9 leading-4\">Your ID number enables us to give you a personalised, accurate quote.</h4>"
+                  }
+                },
+                {
+                  "id": "txtPassportContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What’s your passport number?</h2>"
+                  }
+                },
+                {
+                  "id": "txtPassport",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Passport number",
+                    "helperText": "Your information is secure.",
+                    "placeholderText": "Please complete",
+                    "formControlName": "idNumber",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Passport number is required",
+                      "invalidErrorMessage": "Passport number is invalid",
+                      "maxLength": 15,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNotCitizen",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "I am not a South African citizen",
+                    "route": {
+                      "pageRoute": "gender",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnCitizen",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "I am a South African citizen",
+                    "route": {
+                      "pageRoute": "gender",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnExistingPolicy",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "hidden btn",
+                    "route": {
+                      "pageRoute": "existing-policy",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Existing Policy Page",
+          "route": "existing-policy",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "existing-policy-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Log in to your dashboard",
+                    "route": null,
+                    "url": "https://www.budgetinsurance.co.za/login",
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"my-3 font-normal text-base\">According to our system, you already have a policy with Budget.</h2>\n<h2 class=\"my-3 font-normal text-base\">You can add a new item to your existing policy on your dashboard.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-12\"><span class=\"text-main-1\">Hi</span><span>{{name}}!</span></h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-12 text-main-1\">Hi!</h1>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Confirm Personal Details",
+          "route": "confirm-details",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "confirm-personal-details-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Please confirm if the details below are correct</h2>"
+                  }
+                },
+                {
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Name",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "names",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Surname",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "names",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtGender",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Gender",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditGender",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "gender",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtPhone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Phone number",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditPhone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "phone-number",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtMaritalStatus",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Marital status",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditMaritalStatus",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "marital-status",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtEmploymentStatus",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Employment status",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditEmploymentStatus",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "employment-status",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Confirm",
+                    "route": {
+                      "pageRoute": "workdays-from-home",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "ckbMarketingConsent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "I consent to receive information, including direct marketing from Budget and its associated entities regarding Insurance and related financial products via electronic means.",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Email Address",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "email-address",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtMarketingConsent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Marketing consent",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "disclosureDocumentDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">We will send you a disclosure document</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Please note that we are required by law to provide you with important disclosures. The one page document does not require your signature.</p>\n<p>Please confirm that you will review this document.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gender",
+          "route": "gender",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "gender-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Yes",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What’s your gender?</h2>"
+                  }
+                },
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnIdSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "IdSelect",
+                    "route": {
+                      "pageRoute": "names",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Birthday",
+          "route": "birthday",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "birthday-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>When were you born?</h2>"
+                  }
+                },
+                {
+                  "id": "txtDate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Date of birth",
+                    "helperText": null,
+                    "placeholderText": "Day/Month/Year",
+                    "formControlName": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Names",
+          "route": "names",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "names-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Name",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "name",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Name is required",
+                      "invalidErrorMessage": "Name is invalid",
+                      "maxLength": 15,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Surname",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "surname",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Surname is required",
+                      "invalidErrorMessage": "Surname is invalid",
+                      "maxLength": 20,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h3 class=\"mb-5\">Policyholder's details</h3>\n<h2>What's your name and surname?</h2>"
+                  }
+                },
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Phone Number",
+          "route": "phone-number",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "phone-number-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtPhone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Cellphone number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "phone",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Phone number is required",
+                      "invalidErrorMessage": "Phone number is invalid",
+                      "maxLength": 10,
+                      "minLength": 10,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Hi {{name}}! Nice to meet you! What’s your cellphone number?</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContentUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What’s your cellphone number?</h2>"
+                  }
+                },
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Email Address",
+          "route": "email-address",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "email-address-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What's your email address?</2>"
+                  }
+                },
+                {
+                  "id": "txtEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Email Address",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "emailAddress",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Email address is required",
+                      "invalidErrorMessage": "Email address is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "ckbMarketingConsent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": "marketingConsent",
+                    "text": "I consent to receive information, including direct marketing from Budget and its associated entities regarding Insurance and related financial products via electronic means.",
+                    "errorMessage": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": null,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "disclosureDocumentDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">We will send you a disclosure document</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Please note that we are required by law to provide you with important disclosures. The one page document does not require your signature.</p>\n<p>Please confirm that you will review this document.</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Marital Status",
+          "route": "marital-status",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "marital-status-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What’s your marital status?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Employment Status",
+          "route": "employment-status",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "employment-status-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "971c5ce1-9ec0-41f4-a3cb-a4dbb9569ff0"
+                      ],
+                      "statePropertyPaths": [
+                        "personal.policyHolder.employmentStatus.code"
+                      ],
+                      "values": [
+                        "UU"
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "unemployed-status",
+                            "sectionRoute": "personal-details"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "confirm-details",
+                            "sectionRoute": "personal-details"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "pageRoute": "workdays-from-home",
+                      "sectionRoute": "personal-details"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "971c5ce1-9ec0-41f4-a3cb-a4dbb9569ff0"
+                      ],
+                      "statePropertyPaths": [
+                        "personal.policyHolder.employmentStatus.code"
+                      ],
+                      "values": [
+                        "UU"
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "unemployed-status",
+                            "sectionRoute": "personal-details"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "workdays-from-home",
+                            "sectionRoute": "personal-details"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What’s your employment status?</h2>"
+                  }
+                },
+                {
+                  "id": "btnSkipWorkFromHome",
+                  "conditionValue": "C, X, E",
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Skip",
+                    "route": {
+                      "pageRoute": "is-regular-driver",
+                      "sectionRoute": "personal-details"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "113898ca-bc78-4b85-8bd9-8e25b2da1bcc",
+                      "code": [
+                        "9e06c814-e76d-4b3f-8a98-2ea1ab1903c3"
+                      ],
+                      "statePropertyPaths": [
+                        "quote.quoteFlowType"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "is-regular-driver",
+                            "sectionRoute": "regular-driver",
+                            "baseRoute": "car-insurance"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "useUnemploymentStatuses",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
+                    "flag": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "UnemployedStatus",
+          "route": "unemployed-status",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "employment-status-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "pageRoute": "workdays-from-home",
+                      "sectionRoute": "personal-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Please select one that is relevant to you?</h2>"
+                  }
+                },
+                {
+                  "id": "btnSkipWorkFromHome",
+                  "conditionValue": "C, X, E",
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Skip",
+                    "route": {
+                      "pageRoute": "is-regular-driver",
+                      "sectionRoute": "personal-details"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "113898ca-bc78-4b85-8bd9-8e25b2da1bcc",
+                      "code": [
+                        "9e06c814-e76d-4b3f-8a98-2ea1ab1903c3"
+                      ],
+                      "statePropertyPaths": [
+                        "quote.quoteFlowType"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "is-regular-driver",
+                            "sectionRoute": "regular-driver",
+                            "baseRoute": "car-insurance"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "useUnemploymentStatuses",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
+                    "flag": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Workdays From Home ",
+          "route": "workdays-from-home",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "61e49875-e022-4c48-8213-da242658d432"
+            ],
+            "statePropertyPaths": [
+              "quote.quoteFlowType"
+            ],
+            "values": null,
+            "route": null,
+            "routeArray": [
+              {
+                "route": {
+                  "baseRoute": "policy",
+                  "pageRoute": "replacement-value",
+                  "sectionRoute": "personal-details",
+                  "goToStart": false
+                }
+              },
+              {
+                "route": {
+                  "pageRoute": "is-regular-driver",
+                  "sectionRoute": "regular-driver",
+                  "baseRoute": "car-insurance"
+                }
+              }
+            ],
+            "conditionalRouteCode": [
+              "9e06c814-e76d-4b3f-8a98-2ea1ab1903c3"
+            ]
+          },
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "workdays-from-home-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Yes",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "113898ca-bc78-4b85-8bd9-8e25b2da1bcc",
+                      "code": [
+                        "9e06c814-e76d-4b3f-8a98-2ea1ab1903c3"
+                      ],
+                      "statePropertyPaths": [
+                        "quote.quoteFlowType"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "is-regular-driver",
+                            "sectionRoute": "regular-driver",
+                            "baseRoute": "car-insurance"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "No",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "113898ca-bc78-4b85-8bd9-8e25b2da1bcc",
+                      "code": [
+                        "9e06c814-e76d-4b3f-8a98-2ea1ab1903c3"
+                      ],
+                      "statePropertyPaths": [
+                        "quote.quoteFlowType"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "is-regular-driver",
+                            "sectionRoute": "regular-driver",
+                            "baseRoute": "car-insurance"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Do you work from home 3 days or more a week?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Home Content Replacement Value",
+          "route": "replacement-value",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "home-contents-replacement-value-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What is the replacement value of your home contents?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtDescription",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4 class=\"font-normal\">\n    The replacement value is what it will cost you to replace all your belongings \n    with new items. If the exact new item cannot be found we will replace it with \n    a similar new item.<br><br>If you claim, we will calculate the replacement \n    value for which you should have insured your home contents. If you insured \n    them for less than that, we will only pay a part of your claim.\n</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "replacementAmount",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4 class=\"sm:text-xl text-main-1 font-bold mb-0\">{{amount}}</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "inputReplacementValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Replacement value",
+                    "helperText": null,
+                    "placeholderText": "0",
+                    "formControlName": "insuredValue",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Replacement value is required",
+                      "invalidErrorMessage": "Replacement value must be within the specified minimum and maximum limits",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "minValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<span class=\"text-sub-7 sm:text-xs\">Min {{minAmount}}</span>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "maxValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<span class=\"text-sub-7 sm:text-xs mb-0\">Max {{maxAmount}}</span>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "home-contents",
+                      "sectionRoute": "quote",
+                      "pageRoute": "premium"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-23T10:52:15Z",
+  "lastModified": "2025-08-22T13:37:47Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI4OTBmYTcyNS05MjdjLTQwNWQtYmFhZi1iYWQwZDE2ZDUwNmMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 11,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c/10",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/890fa725-927c-405d-baaf-bad0d16d506c",
+      "method": "PUT"
+    }
+  }
+}

@@ -1,0 +1,708 @@
+{
+  "id": "9491db2b-68d2-4f15-888e-d7ad61bc3a6b",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Car Makes"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": true
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "PS",
+          "index": null,
+          "copy": "Porsche",
+          "description": "PORSCHE",
+          "image": [
+            "6093bb3e-be50-4e5c-82ad-732dec3a5ecd"
+          ]
+        },
+        {
+          "code": "IN",
+          "index": null,
+          "copy": "Infiniti",
+          "description": "INFINITI",
+          "image": [
+            "6437dad0-ef1c-47bf-b992-a69b2e9d86b1"
+          ]
+        },
+        {
+          "code": "26",
+          "index": null,
+          "copy": "Volkswagen",
+          "description": "VOLKSWAGEN",
+          "image": [
+            "b534b0a3-a0a3-4073-af4c-f0defcb7a167"
+          ]
+        },
+        {
+          "code": "35",
+          "index": null,
+          "copy": "GWM",
+          "description": "GWM",
+          "image": [
+            "927ae10e-7d61-451f-a60e-01cfd5fb2269"
+          ]
+        },
+        {
+          "code": "MA",
+          "index": null,
+          "copy": "Mahindra",
+          "description": "MAHINDRA",
+          "image": [
+            "5de7b169-3540-48e8-8213-dfff08551bb1"
+          ]
+        },
+        {
+          "code": "27",
+          "index": null,
+          "copy": "Volvo",
+          "description": "VOLVO",
+          "image": [
+            "9f9c5d59-c5d8-4db7-8efe-57b8b2d9ee1c"
+          ]
+        },
+        {
+          "code": "FU",
+          "index": null,
+          "copy": "Fuso",
+          "description": "FUSO",
+          "image": [
+            "07502309-cf85-471b-917e-f224986acc70"
+          ]
+        },
+        {
+          "code": "JC",
+          "index": null,
+          "copy": "JAC",
+          "description": "JAC",
+          "image": [
+            "f17b6b46-e067-4bba-9a84-01c454a5a2a3"
+          ]
+        },
+        {
+          "code": "JM",
+          "index": null,
+          "copy": "JMC",
+          "description": "JMC",
+          "image": []
+        },
+        {
+          "code": "17",
+          "index": null,
+          "copy": "Mazda",
+          "description": "MAZDA",
+          "image": [
+            "8f252138-134d-4314-9836-e78d5f03b637"
+          ]
+        },
+        {
+          "code": "06",
+          "index": null,
+          "copy": "Citroen",
+          "description": "CITROEN",
+          "image": [
+            "77f5734b-7e11-4630-9437-b45a65ddba69"
+          ]
+        },
+        {
+          "code": "13",
+          "index": null,
+          "copy": "Jaguar",
+          "description": "JAGUAR",
+          "image": [
+            "7eadfb75-3b20-4dbf-9d6c-004e7532a5c4"
+          ]
+        },
+        {
+          "code": "A2",
+          "index": null,
+          "copy": "Ashok Leyland",
+          "description": "ASHOK LEYLAND",
+          "image": [
+            "ece2bfe2-48b2-46af-9df2-9059826f372e"
+          ]
+        },
+        {
+          "code": "UD",
+          "index": null,
+          "copy": "UD Trucks",
+          "description": "UD TRUCKS",
+          "image": [
+            "78964289-cd62-4741-b69e-d233fecffc77"
+          ]
+        },
+        {
+          "code": "15",
+          "index": null,
+          "copy": "Land Rover",
+          "description": "LAND ROVER",
+          "image": [
+            "45b990d8-2c44-44bc-94f9-0dd39ec2731f"
+          ]
+        },
+        {
+          "code": "10",
+          "index": null,
+          "copy": "Fiat",
+          "description": "FIAT",
+          "image": [
+            "445c237b-65b7-4749-993f-b04f9ce1369d"
+          ]
+        },
+        {
+          "code": "54",
+          "index": null,
+          "copy": "Mitsubishi",
+          "description": "MITSUBISHI",
+          "image": [
+            "07502309-cf85-471b-917e-f224986acc70"
+          ]
+        },
+        {
+          "code": "50",
+          "index": null,
+          "copy": "Chery",
+          "description": "CHERY",
+          "image": [
+            "8d1d030e-cbe4-4a35-9978-967d7590375c"
+          ]
+        },
+        {
+          "code": "LE",
+          "index": null,
+          "copy": "Lexus",
+          "description": "LEXUS",
+          "image": [
+            "e1f83981-e7ed-4950-ad94-2355b185286b"
+          ]
+        },
+        {
+          "code": "11",
+          "index": null,
+          "copy": "Ford",
+          "description": "FORD",
+          "image": [
+            "92130187-30ff-467b-b6f7-394720609462"
+          ]
+        },
+        {
+          "code": "HV",
+          "index": null,
+          "copy": "Haval",
+          "description": "HAVAL",
+          "image": [
+            "feedfe4c-7e8c-47c9-9180-c436bf92604e"
+          ]
+        },
+        {
+          "code": "F1",
+          "index": null,
+          "copy": "FAW",
+          "description": "FAW",
+          "image": [
+            "1b4bca28-d1ef-49f4-93db-5b9bf4ecb038"
+          ]
+        },
+        {
+          "code": "20",
+          "index": null,
+          "copy": "Peugeot",
+          "description": "PEUGEOT",
+          "image": [
+            "f02cfeb3-fa1b-49dc-9b44-11fd878924bd"
+          ]
+        },
+        {
+          "code": "MK",
+          "index": null,
+          "copy": "Mack",
+          "description": "MACK",
+          "image": [
+            "05950545-0283-4285-abda-105815072c71"
+          ]
+        },
+        {
+          "code": "18",
+          "index": null,
+          "copy": "Mercedes Benz",
+          "description": "MERCEDES BENZ",
+          "image": [
+            "4adab2f5-e7d1-4b63-a783-745f44df0c63"
+          ]
+        },
+        {
+          "code": "55",
+          "index": null,
+          "copy": "Tata",
+          "description": "TATA",
+          "image": [
+            "17fd7348-2f8a-4188-a101-b1f942fbc8f3"
+          ]
+        },
+        {
+          "code": "24",
+          "index": null,
+          "copy": "Toyota",
+          "description": "TOYOTA",
+          "image": [
+            "cac921e2-4e83-40aa-977a-b39ab0e66f42"
+          ]
+        },
+        {
+          "code": "SR",
+          "index": null,
+          "copy": "Subaru",
+          "description": "SUBARU",
+          "image": [
+            "ec18f169-dba1-4b5e-88a2-7efa2f8b5fa6"
+          ]
+        },
+        {
+          "code": "47",
+          "index": null,
+          "copy": "Jeep",
+          "description": "JEEP",
+          "image": [
+            "0bbc93ec-25b5-4c46-9f76-f1d884ef3136"
+          ]
+        },
+        {
+          "code": "43",
+          "index": null,
+          "copy": "Isuzu",
+          "description": "ISUZU",
+          "image": [
+            "638d2166-2756-41ac-9c95-cb08855b1911"
+          ]
+        },
+        {
+          "code": "SY",
+          "index": null,
+          "copy": "SsangYong",
+          "description": "SSANGYONG",
+          "image": [
+            "6d7c9cf9-33bd-4ed5-99d6-b9c8404f91a1"
+          ]
+        },
+        {
+          "code": "19",
+          "index": null,
+          "copy": "Opel",
+          "description": "OPEL",
+          "image": [
+            "a4de11bc-4abd-4dda-8457-10306d0bc4ee"
+          ]
+        },
+        {
+          "code": "MN",
+          "index": null,
+          "copy": "M A N",
+          "description": "M A N",
+          "image": [
+            "ab2bf56f-a9cd-4e48-85e2-31cbfd83b121"
+          ]
+        },
+        {
+          "code": "DT",
+          "index": null,
+          "copy": "Datsun",
+          "description": "DATSUN",
+          "image": [
+            "abd6b4fe-6276-4d30-b430-d04ef28ef012"
+          ]
+        },
+        {
+          "code": "KI",
+          "index": null,
+          "copy": "Kia",
+          "description": "KIA",
+          "image": [
+            "90cab9a0-aae8-4b9a-8e7b-a0e40b01be3c"
+          ]
+        },
+        {
+          "code": "49",
+          "index": null,
+          "copy": "Daihatsu",
+          "description": "DAIHATSU",
+          "image": [
+            "a092f97a-f050-4985-8d39-4797b8979664"
+          ]
+        },
+        {
+          "code": "02",
+          "index": null,
+          "copy": "Audi",
+          "description": "AUDI",
+          "image": [
+            "f942be8f-4a01-4f09-bc94-c6421d528b56"
+          ]
+        },
+        {
+          "code": "PR",
+          "index": null,
+          "copy": "Powerstar",
+          "description": "POWERSTAR",
+          "image": []
+        },
+        {
+          "code": "MI",
+          "index": null,
+          "copy": "Mini",
+          "description": "MINI",
+          "image": [
+            "4897d4c3-6b73-4ffa-8882-dcb2aad90654"
+          ]
+        },
+        {
+          "code": "01",
+          "index": null,
+          "copy": "Alfa Romeo",
+          "description": "ALFA ROMEO",
+          "image": [
+            "8cbeaf4a-0745-4fa4-9402-bc9a1cccd1d0"
+          ]
+        },
+        {
+          "code": "IV",
+          "index": null,
+          "copy": "Iveco",
+          "description": "IVECO",
+          "image": [
+            "fefb79c4-ec46-42a1-846e-28b10ba37c64"
+          ]
+        },
+        {
+          "code": "32",
+          "index": null,
+          "copy": "Suzuki",
+          "description": "SUZUKI",
+          "image": [
+            "3ba5cbd1-0714-4d98-b229-eb7574aad944"
+          ]
+        },
+        {
+          "code": "FO",
+          "index": null,
+          "copy": "Foton",
+          "description": "FOTON",
+          "image": [
+            "99486134-3183-4495-8f87-50293a2fb5b2"
+          ]
+        },
+        {
+          "code": "S1",
+          "index": null,
+          "copy": "Smart",
+          "description": "SMART",
+          "image": [
+            "d2e04231-12a8-468c-83f2-6849a3858913"
+          ]
+        },
+        {
+          "code": "46",
+          "index": null,
+          "copy": "Honda",
+          "description": "HONDA",
+          "image": [
+            "80106856-cdb6-4d34-9374-90c95e7da15a"
+          ]
+        },
+        {
+          "code": "SC",
+          "index": null,
+          "copy": "Scania",
+          "description": "SCANIA",
+          "image": [
+            "45a80864-7641-4184-a765-a9ebfebfcaa8"
+          ]
+        },
+        {
+          "code": "HY",
+          "index": null,
+          "copy": "Hyundai",
+          "description": "HYUNDAI",
+          "image": [
+            "1f6849f8-3a7c-487f-8b76-99c673231389"
+          ]
+        },
+        {
+          "code": "03",
+          "index": null,
+          "copy": "BMW",
+          "description": "BMW",
+          "image": [
+            "35b3ef50-2a23-48c7-932c-99dd7bd8c5f3"
+          ]
+        },
+        {
+          "code": "08",
+          "index": null,
+          "copy": "Nissan",
+          "description": "NISSAN",
+          "image": [
+            "7f5b225b-67b2-4788-93b3-b8e1f29530d9"
+          ]
+        },
+        {
+          "code": "22",
+          "index": null,
+          "copy": "Renault",
+          "description": "RENAULT",
+          "image": [
+            "558fbf1e-7886-495a-9ea6-b73115c4e07d"
+          ]
+        },
+        {
+          "code": "AB",
+          "index": null,
+          "copy": "Abarth",
+          "description": "ABARTH",
+          "image": [
+            "2dee00fc-d6f6-412c-a790-d47584f8777e"
+          ]
+        },
+        {
+          "code": "A5",
+          "index": null,
+          "copy": "Hino",
+          "description": "HINO",
+          "image": [
+            "2f4a494f-c278-4a5d-8db7-fc44588ec468"
+          ]
+        },
+        {
+          "code": "56",
+          "index": null,
+          "copy": "Cadillac",
+          "description": "CADILLAC",
+          "image": [
+            "c17c3bd3-840a-4b21-a4a0-53d1c4bd6b51"
+          ]
+        },
+        {
+          "code": "04",
+          "index": null,
+          "copy": "Chevrolet",
+          "description": "CHEVROLET",
+          "image": [
+            "e025920a-7544-426a-9a70-dccb94064b22"
+          ]
+        },
+        {
+          "code": "05",
+          "index": null,
+          "copy": "Chrysler",
+          "description": "CHRYSLER",
+          "image": [
+            "82532b85-78b0-42c7-8b17-26e757f62cd9"
+          ]
+        },
+        {
+          "code": "DW",
+          "index": null,
+          "copy": "Daewoo",
+          "description": "DAEWOO",
+          "image": [
+            "0eb972ed-3af6-40fe-bc90-1c157eee6954"
+          ]
+        },
+        {
+          "code": "09",
+          "index": null,
+          "copy": "Dodge",
+          "description": "DODGE",
+          "image": [
+            "92d80b22-ce49-4389-9fd9-f081ce26d675"
+          ]
+        },
+        {
+          "code": "FE",
+          "index": null,
+          "copy": "Ferrari",
+          "description": "FERRARI",
+          "image": [
+            "386ad83a-19b4-45fa-aea6-9ec6b08742b5"
+          ]
+        },
+        {
+          "code": "HU",
+          "index": null,
+          "copy": "Hummer",
+          "description": "HUMMER",
+          "image": [
+            "ecafb852-ddd3-44ce-980e-d1121a34cb87"
+          ]
+        },
+        {
+          "code": "BA",
+          "index": null,
+          "copy": "BAIC",
+          "description": null,
+          "image": [
+            "a5efc8ec-b853-4982-82f0-c254651c2be9"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "07",
+          "index": null,
+          "copy": "Colt",
+          "description": null,
+          "image": [
+            "fbdd3b62-43ef-49e8-839c-1517106dd333"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "BM",
+          "index": null,
+          "copy": "Motorcycle",
+          "description": null,
+          "image": [
+            "03e94fe2-582c-4470-939f-3502ee941672"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "WC",
+          "index": null,
+          "copy": "Watercraft",
+          "description": null,
+          "image": [
+            "f5448e78-9784-432c-8f83-ed11f885fe2b"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "CV",
+          "index": null,
+          "copy": "Caravan",
+          "description": null,
+          "image": [
+            "9f75990a-3660-453d-9644-6d4d832ec479"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "TR",
+          "index": null,
+          "copy": "Trailer",
+          "description": null,
+          "image": [
+            "71985bd9-b681-49ab-b3e8-f83f7870c73a"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "Gl",
+          "index": null,
+          "copy": "GolfCart",
+          "description": null,
+          "image": [
+            "1e4555bd-1f62-4079-84bb-e3ab637b7609"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "DF",
+          "index": null,
+          "copy": "Default",
+          "description": null,
+          "image": [
+            "0ff96258-f9db-4299-bfb3-1777a1d42ab4"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": []
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:45:36Z",
+  "lastModified": "2024-10-08T08:58:22Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI5NDkxZGIyYi02OGQyLTRmMTUtODg4ZS1kN2FkNjFiYzNhNmIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 11,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b/10",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b",
+      "method": "PUT"
+    }
+  }
+}

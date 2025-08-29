@@ -1,0 +1,932 @@
+{
+  "id": "a02d7e07-4192-49c0-9c66-5516c5988d63",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Tracking Devices"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "H",
+          "index": null,
+          "copy": null,
+          "description": "Stolen vehicle recovery services",
+          "class": null,
+          "image": [
+            "12c69b25-eedf-46c1-9f7f-fc8e92b4e04d"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Gesteelde motor herwinningsdienste",
+              "image": [
+                "37e34b54-929d-4f4b-b07c-1e48f1b4e216"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "91ae122d-959c-4cf5-9f56-f64a5cfe1af8"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "1aa7b479-e19c-4c62-9d69-dc0a62642182"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "86d51b2a-f849-487c-828d-79b1d7ab2e48"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "H",
+          "index": null,
+          "copy": null,
+          "description": "Fitment certificate for insurance",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Installasiesertifikaat vir versekering",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "H",
+          "index": null,
+          "copy": null,
+          "description": "Signal jamming detection alert",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Waarskuwing vir seinblokkering",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "H",
+          "index": null,
+          "copy": null,
+          "description": "Impact detection for safety",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Impakopsporing vir veiligheid",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "H",
+          "index": null,
+          "copy": null,
+          "description": "Battery disconnect alert",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Waarskuwing vir battery ontkoppeling",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "G",
+          "index": null,
+          "copy": null,
+          "description": "All Netstar Safe and Sound features",
+          "class": null,
+          "image": [
+            "12c69b25-eedf-46c1-9f7f-fc8e92b4e04d"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Alle Netstar Safe and Sound kenmerke",
+              "image": [
+                "37e34b54-929d-4f4b-b07c-1e48f1b4e216"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "91ae122d-959c-4cf5-9f56-f64a5cfe1af8"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "1aa7b479-e19c-4c62-9d69-dc0a62642182"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "86d51b2a-f849-487c-828d-79b1d7ab2e48"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "G",
+          "index": null,
+          "copy": null,
+          "description": "Web and app live tracking",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Web en toep lewendige opsporing",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "G",
+          "index": null,
+          "copy": null,
+          "description": "Logbook for SARS",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Logboek vir SARS",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "G",
+          "index": null,
+          "copy": null,
+          "description": "Personal driver behaviour rating",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Persoonlike bestuurdergedrag gradering",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "G",
+          "index": null,
+          "copy": null,
+          "description": "Car park jamming alert",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Waarskuwing vir seinblokkering in kar-parkeerarea",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": null,
+          "description": "All Netstar Star Drive features",
+          "class": null,
+          "image": [
+            "12c69b25-eedf-46c1-9f7f-fc8e92b4e04d"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Alle Netstar Star Drive kenmerke",
+              "image": [
+                "37e34b54-929d-4f4b-b07c-1e48f1b4e216"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "91ae122d-959c-4cf5-9f56-f64a5cfe1af8"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "1aa7b479-e19c-4c62-9d69-dc0a62642182"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "86d51b2a-f849-487c-828d-79b1d7ab2e48"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": null,
+          "description": "Auto-arm proximity tag for security",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Outomatiese-aktivering nabyheidstoestel vir veiligheid",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": null,
+          "description": "Wireless panic button",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Koordlose paniekknoppie",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": null,
+          "description": "Early warning theft alert",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Vroeë diefstal waarskuwing",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": null,
+          "description": "Tow-away alert",
+          "class": null,
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Insleep waarskuwing",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "index": null,
+          "copy": null,
+          "description": "Stolen vehicle recovery services",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Gesteelde motor herwinningsdienste",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "index": null,
+          "copy": null,
+          "description": "Fitment certificate for insurance",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Installasiesertifikaat vir versekering",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "index": null,
+          "copy": null,
+          "description": "2 Wireless units each with a 3-year battery life",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "2 Koordlose eenhede met 'n 3-jaar batterylewe elk",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Stolen vehicle recovery services",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Gesteelde motor herwinningsdienste",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Fitment certificate for insurance",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Installasiesertifikaat vir versekering",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Signal jamming detection (JammingResist™)",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Sein-versteuring opsporing (JammingResist™)",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Impact detection for safety",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Impakopsporing vir veiligheid",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Battery disconnect alert",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Waarskuwing vir battery ontkoppeling  ",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Web and app live tracking",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Web en toep lewendige opsporingsfunksie",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Logbook for SARS",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Logboek vir SARS",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Personal driver behaviour rating",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Persoonlike bestuurdergedrag gradering",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Car park jamming alert",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Waarskuwing vir sein-versteuring in kar-parkeerarea",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": null,
+          "description": "Wireless panic button (Optional once your policy is active)",
+          "class": "optional",
+          "image": [
+            "473b0503-5e44-4db2-807d-61190a0ec046"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Koordlose paniekknoppie (Opsioneel sodra jou polis aktief is)",
+              "image": [
+                "c3e3555d-f4c9-430b-99c0-5cdeefdb3881"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "b14fdf40-a642-4dd9-ab6a-0a8b0fdaa502"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "4b8e72c8-d8b9-4fa4-917d-8a9cfdcce18c"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "4d7d3e9e-850b-4789-9461-2d782212da19"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "index": null,
+          "copy": null,
+          "description": "Wireless panic button",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Koordlose paniekknoppie",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "index": null,
+          "copy": null,
+          "description": "Early warning theft alert",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Vroeë diefstal waarskuwing",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "index": null,
+          "copy": null,
+          "description": "Tow-away alert",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Insleep waarskuwing",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "index": null,
+          "copy": null,
+          "description": "Auto-arm proximity tag for security",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Outomatiese-aktivering nabyheidstoestel vir veiligheid",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:05Z",
+  "lastModified": "2025-07-03T10:09:03Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJhMDJkN2UwNy00MTkyLTQ5YzAtOWM2Ni01NTE2YzU5ODhkNjMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 13,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63/12",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/a02d7e07-4192-49c0-9c66-5516c5988d63",
+      "method": "PUT"
+    }
+  }
+}

@@ -1,0 +1,1750 @@
+{
+  "id": "b73f5af0-af06-45db-be1a-601f75a9194a",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "virseker"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "callbackPages": {
+      "iv": [
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Callback Form Page",
+          "route": "callback-form",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": false,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnCallback",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Bel my terug",
+                    "route": {
+                      "pageRoute": "callback-complete",
+                      "sectionRoute": "callbackPages"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Naam",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "firstName",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Naam is verpligtend",
+                      "invalidErrorMessage": "Naam is ongeldig",
+                      "maxLength": 15,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Van",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "surname",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Van is verpligtend",
+                      "invalidErrorMessage": "Van is ongeldig",
+                      "maxLength": 20,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Foonnommer",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "contactNumber",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Foonnommer is verpligtend",
+                      "invalidErrorMessage": "Foonnommer is ongeldig",
+                      "maxLength": 10,
+                      "minLength": 10,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-2\">Vul asseblief jou inligting in en ons sal jou kontak om die kwotasie te voltooi</h2>"
+                  }
+                },
+                {
+                  "id": "btnCallbackLoading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Hou vas, ons bel jou nou...",
+                    "route": {
+                      "pageRoute": "null",
+                      "sectionRoute": "null"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Callback Complete Page",
+          "route": "callback-complete",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": false,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n<img class=\"mt-10\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png\">\n<h1 class=\"flex flex-col my-5 text-5xl text-virseker-dark-blue leading-tight\">Dankie, <br/>{{name}}!</h1>\n<h2 class=\"my-3 text-virseker-dark-blue text-base font-medium leading-5\">‘n Virseker konsultant sal jou binnekort kontak.</h2>\n</div>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Refer To Manager Page - Generic",
+          "route": "refer-to-manager",
+          "defaultReferToManager": true,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n<h2 class=\"text-virseker-dark-blue text-base font-medium leading-5\">Ons moet van die inligting wat jy gedeel het hersien.</h2>\n<h2 class=\"my-8 text-virseker-dark-blue text-base font-medium leading-5\">‘n Virseker konsultant sal jou binnekort kontak.</h2>\n</div>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span><span>Dankie</span>,</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Unacceptable Risk Page - Generic",
+          "route": "unacceptable-risk",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": true,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Gebaseer op die inligting wat jy verskaf het, kan ons ongelukkig nie {{contentText}} bied nie.</h2>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie<br/>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtReplaceContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "dekking aan jou",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceSaveAndResumeContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "vir jou karversekering",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "verseker my huisinhoud",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "imgDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon_state_error.png\">",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Multiple Risk Items Page - Generic",
+          "route": "multi-risk-items",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": true,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-virseker-dark-blue text-base font-medium leading-5\">Ons sien dat jy een of meer ander items by jou kwotasie gevoeg het. Ons kan jou nie op die oomblik met veelvuldige versekerbare items aanlyn help nie. </h2>\n\n<h2 class=\"my-8 text-virseker-dark-blue text-base font-medium leading-5\">Om met die kwotasie voort te gaan, bel ons by <br><span class=\"font-bold\">0861 477 911.</span></h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnCallMeBackOrLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Call me back to continue the quote",
+                    "route": {
+                      "pageRoute": "callback-form",
+                      "sectionRoute": "callbackPages",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Policy Exist Page - Generic",
+          "route": "policy-exist",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": true,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Jy is reeds deel van die Virseker-familie. Teken in op die toep om na jou polis te kyk.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnCallMeBackOrLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Teken in op toep",
+                    "route": {
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": "login",
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Unacceptable Risk Page - No License - PolicyHolder",
+          "route": "unacceptable-risk-no-license-policyholder",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\r\n<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon-state-error.png\">\r\n<h1 class=\"flex flex-col my-5 text-5xl text-virseker-dark-blue leading-tight\">Dankie<br/>{{name}}!</h1>\r\n<h2 class=\"my-3 text-virseker-dark-blue text-base font-medium leading-5\">Ons kan ongelukkig nie vir jou versekering bied sonder ‘n geldige bestuurslisensie nie.</h2>\r\n</div>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Unacceptable Risk Page - No License - HouseholdMember",
+          "route": "unacceptable-risk-no-license-householdmember",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\r\n<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon-state-error.png\">\r\n<h1 class=\"flex flex-col my-5 text-5xl text-virseker-dark-blue leading-tight\">Dankie<br/>{{name}}!</h1>\r\n<h2 class=\"my-3 text-virseker-dark-blue text-base font-medium leading-5\">Ons kan ongelukkig nie vir {{householdMemberName}} versekering bied sonder ‘n geldige bestuurslisensie nie.</h2>\r\n</div>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Unacceptable Risk Page - Home Contents",
+          "route": "unacceptable-risk-home-contents",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"my-3 text-virseker-dark-blue text-base font-normal leading-5\">\n    Gebaseer op die inligting wat jy gegee het, kan ons ongelukkig nie \n    huisinhoud verseker nie.\n</h2>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-5 text-5xl virseker-dark-blue font-georgia-bold leading-tight\">Dankie<br/>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-5 text-5xl virseker-dark-blue font-georgia-bold leading-tight\">Dankie!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "imgDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon_state_error.png\">",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Not Found Page",
+          "route": "not-found-page",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": null,
+          "hideTrackbar": null,
+          "showPremiumBanner": null,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "not-found-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": []
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Not Authorised Access To Lead Page",
+          "route": "not-authorised-access-to-lead",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Jou kwotasie is ongelukkig nie meer beskikbaar nie.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Soft Delete",
+          "route": "soft-delete",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-virseker-dark-blue text-base font-medium leading-5\">Jou kwotasie is ongelukkig nie meer aanlyn beskikbaar nie.</h2>\n\n<h2 class=\"my-8 text-virseker-dark-blue text-base font-medium leading-5\">Om voort te gaan, begin asseblief ŉ nuwe kwotasie.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnStartNewQuote",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Begin ŉ nuwe kwotasie aanlyn",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Hard Delete",
+          "route": "hard-delete",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-virseker-dark-blue text-base font-medium leading-5\">Jou kwotasie is ongelukkig nie meer aanlyn beskikbaar nie.</h2>\n\n<h2 class=\"my-8 text-virseker-dark-blue text-base font-medium leading-5\">Om voort te gaan, begin asseblief ŉ nuwe kwotasie.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnStartNewQuote",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Begin ŉ nuwe kwotasie aanlyn",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "",
+                      "sectionRoute": "",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Operator Code Unavailabe",
+          "route": "operator-code-unavailabe",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-virseker-dark-blue text-base font-medium leading-5\">Jou kwotasie is nie op die oomblik aanlyn beskikbaar nie, maar moenie bekommer nie.</h2>\n\n<h2 class=\"my-8 text-virseker-dark-blue text-base font-medium leading-5\">Druk hieronder en ŉ Virseker-konsultant kan jou bel om jou te help om met jou kwotasie voort te gaan.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnCallMeBackOrLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Bel my terug oor die kwotasie",
+                    "route": {
+                      "baseRoute": "",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Lead Busy",
+          "route": "lead-busy",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-virseker-dark-blue text-base font-medium leading-5\">Jou kwotasie is nie op die oomblik aanlyn beskikbaar nie, maar moenie bekommer nie.</h2>\n\n<h2 class=\"my-8 text-virseker-dark-blue text-base font-medium leading-5\">Druk hieronder en ŉ Virseker-konsultant kan jou bel om jou te help om met jou kwotasie voort te gaan.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnCallMeBackOrLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Bel my terug oor die kwotasie",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Walk Away Pricing Campaign",
+          "route": "walk-away-pricing-campaign",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-virseker-dark-blue text-base font-medium leading-5\">Fantastiese nuus! Jy is gekies vir ŉ ekstra afslag.</h2>\n\n<h2 class=\"my-8 text-virseker-dark-blue text-base font-medium leading-5\">ŉ Virseker-konsultant sal jou bel om jou te help om jou kwotasie te finaliseer.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnCallMeBackOrLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "baseRoute": "null",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "widgets": {
+      "iv": [
+        {
+          "schemaId": "94d21108-2f27-46b7-9baf-a00e066bc1bb",
+          "name": "premium-view-widget",
+          "components": []
+        },
+        {
+          "schemaId": "94d21108-2f27-46b7-9baf-a00e066bc1bb",
+          "name": "progress-bar-widget",
+          "components": [
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "txtLoaderTitle",
+              "type": null,
+              "details": {
+                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                "html": "<h2 class=\"text-2xl text-center text-main-2 font-bold\">Net ŉ oomblik terwyl ons berekenings maak<span>.</span><span>.</span><span>.</span></h2>",
+                "htmlEvents": []
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "groupLoadersText",
+              "type": null,
+              "details": {
+                "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                "isArray": true,
+                "formItems": [
+                  {
+                    "id": "txtLoaderOne",
+                    "conditionValue": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<p class=\"text-main-2 font-normal\">\r\nHou jou hoed terwyl ons optel\r\n</p>",
+                      "htmlEvents": []
+                    }
+                  },
+                  {
+                    "id": "txtLoaderTwo",
+                    "conditionValue": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<p class=\"text-main-2 font-normal\">\r\nOnblusbare versekering is op pad\r\n</p>",
+                      "htmlEvents": []
+                    }
+                  },
+                  {
+                    "id": "txtLoaderThree",
+                    "conditionValue": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<p class=\"text-main-2 font-normal\">\r\nJou staatmaker-kwotasie is amper hier\r\n</p>",
+                      "htmlEvents": []
+                    }
+                  },
+                  {
+                    "id": "txtLoaderFour",
+                    "conditionValue": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<p class=\"text-main-2 font-normal\">\r\nEersteklas dekking is om die draai\r\n</p>",
+                      "htmlEvents": []
+                    }
+                  }
+                ]
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "txtFinalText",
+              "type": null,
+              "details": {
+                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                "html": "<p class=\"text-base font-normal text-center text-main-2\">Amper daar, ons laai jou kwotasie<span>.</span><span>.</span><span>.</span></p>",
+                "htmlEvents": []
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "imgSuccessCheck",
+              "type": null,
+              "details": {
+                "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                "assets": [
+                  "cc8dc984-a1b2-4138-99bd-a068508b2435"
+                ]
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "progressBarsColour",
+              "type": null,
+              "details": {
+                "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                "formControlName": null,
+                "text": "bg-main-1",
+                "errorMessage": null
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            }
+          ]
+        },
+        {
+          "schemaId": "94d21108-2f27-46b7-9baf-a00e066bc1bb",
+          "name": "track-bar-widget",
+          "components": [
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "data",
+              "type": null,
+              "conditionValue": null,
+              "additionalData": [
+                {
+                  "baseRoutes": [
+                    "car-insurance"
+                  ],
+                  "group": "Vehicle Quote",
+                  "icon": "icon-vehicle-details",
+                  "index": 0,
+                  "name": "Karinligting",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "",
+                    "car-details"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy",
+                    "car-insurance"
+                  ],
+                  "group": "Vehicle Quote",
+                  "icon": "icon-user-details",
+                  "index": 1,
+                  "name": "Persoonlike inligting",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "personal-details",
+                    "regular-driver"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "car-insurance"
+                  ],
+                  "group": "Vehicle Quote",
+                  "icon": "icon-circle-check-filled",
+                  "index": 2,
+                  "name": "Kwotasie",
+                  "quoteFlowType": "car-insurance",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Quote",
+                  "icon": "icon-home",
+                  "index": 0,
+                  "name": "Huisinligting",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "",
+                    "home-details"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Quote",
+                  "icon": "icon-user-details",
+                  "index": 1,
+                  "name": "Persoonlike inligting",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "personal-details"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Quote",
+                  "icon": "icon-circle-check-filled",
+                  "index": 2,
+                  "name": "Kwotasie",
+                  "quoteFlowType": "home-contents",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "car-insurance",
+                    "policy"
+                  ],
+                  "group": "Complete Quote",
+                  "icon": "icon-circle-check-filled",
+                  "index": 0,
+                  "name": "Kwotasie",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "quote",
+                    "resume-quote"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "car-insurance"
+                  ],
+                  "group": "Complete Quote",
+                  "icon": "icon-build-cover",
+                  "index": 1,
+                  "name": "Bou dekking",
+                  "quoteFlowType": "car-insurance",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Complete Quote",
+                  "icon": "icon-finalise",
+                  "index": 2,
+                  "name": "Finaliseer inligting",
+                  "quoteFlowType": "car-insurance",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents",
+                    "policy"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-circle-check-filled",
+                  "index": 0,
+                  "name": "Kwotasie",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "quote",
+                    "resume-quote"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-build-cover",
+                  "index": 1,
+                  "name": "Bou dekking",
+                  "quoteFlowType": "home-contents",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Complete Quote",
+                  "icon": "icon-finalise",
+                  "index": 2,
+                  "name": "Finaliseer inligting",
+                  "quoteFlowType": "home-contents",
+                  "routes": []
+                },
+                {
+                  "baseRoutes": [
+                    "car-insurance"
+                  ],
+                  "group": "Done",
+                  "icon": "icon-build-cover",
+                  "index": 0,
+                  "name": "Bou dekking",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "build-cover"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Done",
+                  "icon": "icon-finalise",
+                  "index": 1,
+                  "name": "Finaliseer inligting",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "finalise-details",
+                    "cashback-details",
+                    "policy-cancellation"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Done",
+                  "icon": "icon-circle-check",
+                  "index": 2,
+                  "name": "Amper daar",
+                  "quoteFlowType": "car-insurance",
+                  "routes": [
+                    "done"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy",
+                    "home-contents"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-build-cover",
+                  "index": 0,
+                  "name": "Bou dekking",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "spouse-details",
+                    "incident-details"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-finalise",
+                  "index": 1,
+                  "name": "Finaliseer inligting",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "finalise-details",
+                    "cashback-details",
+                    "policy-cancellation"
+                  ]
+                },
+                {
+                  "baseRoutes": [
+                    "policy"
+                  ],
+                  "group": "Home Contents Done",
+                  "icon": "icon-circle-check",
+                  "index": 2,
+                  "name": "Amper daar",
+                  "quoteFlowType": "home-contents",
+                  "routes": [
+                    "done"
+                  ]
+                }
+              ],
+              "conditions": null
+            }
+          ]
+        },
+        {
+          "schemaId": "94d21108-2f27-46b7-9baf-a00e066bc1bb",
+          "name": "avs-failed-widget",
+          "components": [
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "txtContentThirdAttemptFailed",
+              "type": null,
+              "details": {
+                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                "html": "<p>\n    Ons moet jou gegewe rekeninginligting hersien. \n    <a id=\"lnkLearnMore\" class=\"font-bold\">Lees meer</a>\n</p>\n<p>\n    Jy kan met jou huidige inligting voortgaan of jou \n    <a id=\"lnkCreditCard\" class=\"font-bold\">krediet-/debietkaart</a> gebruik. \n</p>",
+                "htmlEvents": [
+                  {
+                    "id": "lnkLearnMore",
+                    "eventName": "click",
+                    "callback": "onClickLearnMore",
+                    "callbackParams": ""
+                  },
+                  {
+                    "id": "lnkCreditCard",
+                    "eventName": "click",
+                    "callback": "onClickCreditCard",
+                    "callbackParams": ""
+                  }
+                ]
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "txtContentThirdAttemptSuccess",
+              "type": null,
+              "details": {
+                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                "html": "<p>\n    Jy het die limiet bereik vir die indiening van bankinligting aanlyn.\n    <a id=\"lnkLearnMore\" class=\"font-bold\">Lees meer</a>\n</p>\n<p>\n    Jy kan met jou huidige inligting voortgaan of jou \n    <a id=\"lnkCreditCard\" class=\"font-bold\">krediet-/debietkaart</a> gebruik.\n</p>",
+                "htmlEvents": [
+                  {
+                    "id": "lnkLearnMore",
+                    "eventName": "click",
+                    "callback": "onClickLearnMore",
+                    "callbackParams": ""
+                  },
+                  {
+                    "id": "lnkCreditCard",
+                    "eventName": "click",
+                    "callback": "onClickCreditCard",
+                    "callbackParams": ""
+                  }
+                ]
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "btnCreditCard",
+              "type": null,
+              "details": {
+                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                "label": "link",
+                "route": {
+                  "goToStart": false,
+                  "pageRoute": "credit-card-number",
+                  "sectionRoute": "finalise-details"
+                },
+                "url": null,
+                "img": null,
+                "useImageAsButton": null,
+                "theme": "primary",
+                "class": null,
+                "widthClass": null,
+                "iconClass": null
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "learnMoreDialog",
+              "type": null,
+              "details": {
+                "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                "formItems": [
+                  {
+                    "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                    "id": "txtTitle",
+                    "type": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<h3 class=\"m-0 font-bold\">Bankrekening verifikasie</h3>",
+                      "htmlEvents": []
+                    },
+                    "conditionValue": null,
+                    "additionalData": null,
+                    "conditions": null
+                  },
+                  {
+                    "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                    "id": "txtContent",
+                    "type": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<p>Dit het onder ons aandag gekom dat die rekeninginligting wat verskaf is, onakkuraat mag wees of ŉ fout mag hê.</p>\n<p>Sodra jy jou polisaktivering voltooi het, sal ons ons beste doen om jou te bereik om dit reg te stel. As alternatief kan jy ons by 0861 477 911 bel om seker te maak dat jou rekeninginligting korrek is.</p>\n<p>Let asseblief dat nalating om die fout reg te stel tot die kansellasie van jou dekking mag lei.</p>",
+                      "htmlEvents": []
+                    },
+                    "conditionValue": null,
+                    "additionalData": null,
+                    "conditions": null
+                  },
+                  {
+                    "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                    "id": "btnGotIt",
+                    "type": null,
+                    "details": {
+                      "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                      "label": "Reg so",
+                      "route": null,
+                      "url": null,
+                      "img": null,
+                      "useImageAsButton": null,
+                      "theme": "primary",
+                      "class": null,
+                      "widthClass": null,
+                      "iconClass": null
+                    },
+                    "conditionValue": null,
+                    "additionalData": null,
+                    "conditions": null
+                  }
+                ]
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            },
+            {
+              "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+              "id": "learnMoreDialogSuccess",
+              "type": null,
+              "details": {
+                "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                "formItems": [
+                  {
+                    "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                    "id": "txtTitle",
+                    "type": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<h3 class=\"m-0 font-bold\">Bankrekeninginligting</h3>",
+                      "htmlEvents": []
+                    },
+                    "conditionValue": null,
+                    "additionalData": null,
+                    "conditions": null
+                  },
+                  {
+                    "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                    "id": "txtContent",
+                    "type": null,
+                    "details": {
+                      "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                      "html": "<p>\n    Jy het die maksimum aantal pogings bereik om jou bankinligting aanlyn te verskaf.\n</p>\n<p>\n    Ons sal jou polis verwerk met die inligting wat tydens jou finale poging ingedien is.\n</p>\n<p>\n    Sodra jou polis aktief is, kan jy jou bankinligting opdateer deur ons kontaksentrum by 0861 477 911 te bel.\n</p>",
+                      "htmlEvents": []
+                    },
+                    "conditionValue": null,
+                    "additionalData": null,
+                    "conditions": null
+                  },
+                  {
+                    "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                    "id": "btnGotIt",
+                    "type": null,
+                    "details": {
+                      "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                      "label": "Reg so",
+                      "route": null,
+                      "url": null,
+                      "img": null,
+                      "useImageAsButton": null,
+                      "theme": "primary",
+                      "class": null,
+                      "widthClass": null,
+                      "iconClass": null
+                    },
+                    "conditionValue": null,
+                    "additionalData": null,
+                    "conditions": null
+                  }
+                ]
+              },
+              "conditionValue": null,
+              "additionalData": null,
+              "conditions": null
+            }
+          ]
+        }
+      ]
+    },
+    "featureFlags": {
+      "iv": {
+        "schemaId": "f479e172-b7a2-40b8-80d6-5969c951515f",
+        "displayCallCenterPremium": false,
+        "onlineDiscount": false,
+        "variableDiscount": false,
+        "youngAtHeart": true,
+        "saveAndResume": true,
+        "displayTyreAndRimPromotion": null,
+        "hasHomeContents": null,
+        "showDisclosurePopup": true,
+        "displayPolicyCancellationFlow": true
+      }
+    }
+  },
+  "created": "2023-11-23T13:30:52Z",
+  "lastModified": "2025-08-22T13:37:46Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImI3M2Y1YWYwLWFmMDYtNDVkYi1iZTFhLTYwMWY3NWE5MTk0YSIsInUiOiJodHRwczovL3NxdWlkZXgtc2l0Lmlzc2VydmljZXMuY28uemEvIn0=",
+  "schemaId": "1ac0e269-459f-4ced-93bb-e8fb3ca9f951",
+  "schemaName": "quote-flow",
+  "schemaDisplayName": "quote-flow",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "virseker",
+          "dial",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": true,
+        "isRequiredOnPublish": true,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 17,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/16",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
+      "method": "PUT"
+    }
+  }
+}

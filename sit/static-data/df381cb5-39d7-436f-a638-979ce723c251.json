@@ -1,0 +1,216 @@
+{
+  "id": "df381cb5-39d7-436f-a638-979ce723c251",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Variant Insured Value"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "R",
+          "index": 0,
+          "copy": "We will pay you the price you would expect to pay for your car if you bought it from a motor dealer.",
+          "description": "Retail value",
+          "image": [],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ons betaal die bedrag uit wat jy sou betaal by ‘n karhandelaar vir jou kar.",
+              "description": "Herverkoopwaarde",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "This is the value that a dealership would sell your car for and is typically the highest value. This attracts a higher premium, but also means you will get a higher payout when you claim.",
+              "description": "Retail value",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "M",
+          "index": 1,
+          "copy": "In the event of a claim, your car will be covered for the average amount your car would sell for today.",
+          "description": "Market value",
+          "image": [],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Indien jy eis, sal jou kar gedek word vir die algemene bedrag waarvoor jou kar verkoop sou word tot op hede.",
+              "description": "Markwaarde",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "Usually lower than retail value, but higher than trade. It considers factors like mileage, condition, service history, and accident reports.",
+              "description": "Market value",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "B",
+          "index": 2,
+          "copy": "We will pay out for, or replace, your car with the same model that is one year newer than your insured car, in the event of a write off (this excludes theft related claims). If there’s no newer model of the car, we will pay out 15% more than your car’s retail value.",
+          "description": "BetterCar",
+          "image": [],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ons betaal uit of vervang jou kar met dieselfde model wat ‘n jaar nuwer is as jou versekerde kar, indien jou kar afgeskryf word. As daar geen nuwer model beskikbaar is nie, dan betaal ons 15% meer uit as jou kar se herverkoopwaarde.",
+              "description": "BeterKar",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "We will pay out for, or replace, your car with the same model that is one year newer than your insured car, in the event of a write off (this excludes theft related claims). If there’s no newer model of the car, we will pay out 15% more than your car’s retail value.",
+              "description": "BetterCar",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "In the event of a write-off, we will either pay you for your car or replace it with a one-year newer model, excluding theft-related claims, or pay 15% more than its retail value if no newer model is available.",
+              "description": "BetterCar",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "T",
+          "index": 3,
+          "copy": "We will pay you the estimated amount the dealership would offer you for your car after inspecting it.",
+          "description": "Trade value",
+          "image": [],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<p>Ons betaal die bedrag uit wat karhandelaars sou aandui jou kar se waarde is na inspeksie.",
+              "description": "Inruilwaarde",
+              "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "Represents the average price a dealership would pay you when you trade your car in. This will provide you with the lowest possible premium, but also the lowest payout when you claim.",
+              "description": "Trade value",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-20T11:16:16Z",
+  "lastModified": "2024-11-14T08:28:52Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJkZjM4MWNiNS0zOWQ3LTQzNmYtYTYzOC05NzljZTcyM2MyNTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 4,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251/3",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/df381cb5-39d7-436f-a638-979ce723c251",
+      "method": "PUT"
+    }
+  }
+}

@@ -1,0 +1,544 @@
+{
+  "id": "62344f83-92f8-4224-86cf-70929e19889d",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "budget"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": ""
+    },
+    "name": {
+      "iv": "Getting Started"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": null
+    },
+    "excludeFromTrackbar": {
+      "iv": true
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 1
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Static Index Page",
+          "route": "get-started",
+          "pageBase": null,
+          "pageDisabled": true,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "static-page",
+              "moduleName": "StaticModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "htmlHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center -mx-8 xs:mx-0\">\n    <img fetchpriority=\"high\" loading=\"eager\" \n        class=\"mb-4 mt-1\" height=\"331\" width=\"380\"\n        src=\"https://stdigzadigitalbrandsites.digitalcdn.co.za/cdn-cgi/image/width=500,fit=scale-down,format=auto,metadata=keep,sharpen=0.5/budget-blobs/dc950a532c984318b473c17dc81a3f48/9e86ee67229044fea3820a74c016c3f6.png\" alt=\"Save up to 20% on Car insurance\">\n    <p class=\"font-normal -mt-9 xs:-mt-14 mb-12 mx-9\">\n        <a href=\"https://www.budgetinsurance.co.za/terms-and-conditions/the-budget-insurance-buy-online-discount/\" target=\"_blank\">Terms and conditions</a> apply.\n    </p>\n</div>"
+                  }
+                },
+                {
+                  "id": "htmlSubHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-center mb-5 font-bold\">Get your free car insurance quote in minutes</h2>"
+                  }
+                },
+                {
+                  "id": "btnGetStarted",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Get started",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "collapsibleSections",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": false,
+                    "formItems": [
+                      {
+                        "id": "section_00",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<p>\n    With Budget, you get more than just a policy. You get help, specific to your needs, \n    from one of our consultants and access to awesome benefits, like our Cash Back Bonus. \n</p>\n\n<p>\n    Get your obligations-free online car insurance quote with us today!\n</p>"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_01",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h2 class=\"font-bold\">What information is needed to get a car insurance quote?</h2>\n<p>\n    The quote process shouldn’t take you too long to complete. There are just five steps, and you will need to give us the following information:\n</p>"
+                              }
+                            },
+                            {
+                              "id": "btnViewMore",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "View more",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "htmlBlockCollapsed",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<div class=\"flex flex-col gap-5 mb-2\">\n    <div class=\"flex flex-row items-center\">\n        <img loading=\"lazy\" class=\"h-10\" src=\"{{assetsUrl}}/icon-id-card.svg\" alt=\"Identity card icon\">\n        <div class=\"ml-2 font-medium\">Your South African identity number or foreign passport number</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img loading=\"lazy\" class=\"h-10\" src=\"{{assetsUrl}}/icon-login-2.svg\" alt=\"Person icon\">\n        <div class=\"ml-2 font-medium\">Your personal information (full name, date of birth, address)</div>\n    </div>\n    <div class=\"flex flex-row items-center\">\n        <img loading=\"lazy\" class=\"h-10\" src=\"{{assetsUrl}}/icon-car-insurance-2.svg\" alt=\"Car insurance icon\">\n        <div class=\"ml-2 font-medium\">Car information (registration number, year, make, model, type and colour)</div>\n    </div>\n</div>\n<p>\n    You will also be asked detailed questions about your car, like where \n    it’s parked at night. This has to be done, so that we can give you \n    the most accurate quote. \n</p>"
+                              }
+                            },
+                            {
+                              "id": "btnViewLess",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "View less",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_02",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h2 class=\"font-bold\">Reasons to get car insurance with Budget</h2>\n<p>\n    You need insurance, so that you have help when there’s \n    an unforeseen event, like theft, damage or an accident. \n    Budget is your best choice for a personalised, affordable car \n    insurance quote. Here’s why:\n</p>"
+                              }
+                            },
+                            {
+                              "id": "btnViewMore",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "View more",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "htmlBlockCollapsed",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<div class=\"flex flex-col gap-6 mb-2\">\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-car-insurance-2.svg\" alt=\"Car insurance icon\">\r\n        <div class=\"ml-4 font-medium\">7 car insurance options to choose from</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-affordable-premium-2.svg\" alt=\"Affordable premiums icon\">\r\n        <div class=\"ml-4 font-medium\">Affordable, value for money, monthly premiums</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-cash-back-2.svg\" alt=\"Cash back bonus icon\">\r\n        <div class=\"ml-4 font-medium\">Cash Back Bonus rewards programme</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-call-agent-2.svg\" alt=\"Customer support icon\">\r\n        <div class=\"ml-4 font-medium\">Great customer support services</div>  \r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-roadisde-assist-2.svg\" alt=\"Roadside assist benefit icon\">\r\n        <div class=\"ml-4 font-medium\">Roadside assistance for breakdowns or accidents</div>\r\n    </div>\r\n</div>"
+                              }
+                            },
+                            {
+                              "id": "btnViewLess",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "View less",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_03",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h2 class=\"font-bold\">How to do a car insurance quotes comparison</h2>\n<p>\n    The type and amount of car insurance you need will affect your monthly premiums. Before requesting a \n    car insurance quote, we recommend having a look at \n    our car insurance options, so you can get an idea of \n    the insurance cover that makes sense for your lifestyle. \n</p>\n<p>    \n    Budget car insurance quotes are available on the following \n    plans:\n</p>"
+                              }
+                            },
+                            {
+                              "id": "btnViewMore",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "View more",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            },
+                            {
+                              "id": "htmlBlockCollapsed",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<div class=\"flex flex-col gap-6 mb-2\">\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-motor-warranty-2.svg\" alt=\"Third-party, fire and theft icon\">\r\n        <div class=\"ml-4 font-medium\">Third-Party, Fire and Theft</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-comprehensive-2.svg\" alt=\"Comprehensive insurance\">\r\n        <div class=\"ml-4 font-medium\">Comprehensive</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-budget-lite-2.svg\" alt=\"Budget lite icon\">\r\n        <div class=\"ml-4 font-medium\">Budget Lite</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-same-car-2.svg\" alt=\"Better car icon\">\r\n        <div class=\"ml-4 font-medium\">BetterCar</div>  \r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-scratch-dent-2.svg\" alt=\"Scratch and dent icon\">\r\n        <div class=\"ml-4 font-medium\">Scratch & dent</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-thirdparty-only-2.svg\" alt=\"Third-party only cover icon\">\r\n        <div class=\"ml-4 font-medium\">Third-Party only cover</div>\r\n    </div>\r\n    <div class=\"flex flex-row items-center\">\r\n        <img class=\"h-10\" src=\"{{assetsUrl}}/icon-tyre-rim-2.svg\" alt=\"Tyre and rim guard\">\r\n        <div class=\"ml-4 font-medium\">Tyre & rim guard</div>\r\n    </div>\r\n</div>\r\n<p>\r\nRemember to consider the deductibles, limits and the cost of a \r\ncar accident when you’re making your decision. An excess refers \r\nto the amount of money you will need to pay out-of-pocket toward \r\na covered claim. When you’ve met your deductible, it means you \r\nhave paid the amount of your car insurance’s deductible and your \r\ninsurance will help cover the remaining costs of your claim, up \r\nto the cover limit.\r\n</p>\r\n<p>\r\nThe insurance limit refers to the maximum amount of money your \r\ninsurer will contribute towards a covered claim. The higher your \r\ncoverage limit, the higher premium you will pay. Once you’ve \r\nconsidered the bigger picture, you’re ready to request your car \r\ninsurance quote.\r\n</p>\r\n\r\n"
+                              }
+                            },
+                            {
+                              "id": "btnViewLess",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                                "label": "View less",
+                                "route": null,
+                                "url": null,
+                                "img": null,
+                                "useImageAsButton": null,
+                                "theme": null,
+                                "class": null,
+                                "widthClass": null,
+                                "iconClass": null
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "id": "section_04",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": null,
+                          "formItems": [
+                            {
+                              "id": "htmlBlock",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "<h2 class=\"font-bold\">Switch to Budget</h2>\n<p>\n    Our independent review rating comes out tops, according to \n    customers who chose to get Budget car insurance. \n</p>\n<div>\n    <img loading=\"lazy\" class=\"block md:hidden m-auto\" width=\"328\" height=\"80\" src=\"{{assetsUrl}}/ratings.png\" alt=\"Budget insurance rewards rating\"/>\n    <img loading=\"lazy\" class=\"hidden md:block m-auto\" width=\"480\" height=\"117\" src=\"{{assetsUrl}}/ratings-2x.png\" alt=\"Budget insurance rewards rating\"/>\n</div>"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Car Make Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "readonly": null,
+          "createLead": true,
+          "additionalData": {
+            "doFilterCall": true
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "car-make-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": "CarMakePageComponent",
+              "formItems": [
+                {
+                  "id": "btnMake",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Make",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "car-details",
+                      "pageRoute": "car-year"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal\">Get your car insurance quote in minutes.</h1>"
+                  }
+                },
+                {
+                  "id": "txtCollapseText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"font-normal\">\n    With Budget you get more than just a policy, you also get access to awesome benefits like Cash Back Bonus.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select the make of the car</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPlaceHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Search for car make",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtPromotionDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p>The June Madness R10 p/m Tyre & Rim cover is only available through our <a href=\"/callback\">call centre</a>. Promotion ends 30 June 2024.</p>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-05T07:19:43Z",
+  "lastModified": "2024-10-14T12:23:35Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2MjM0NGY4My05MmY4LTQyMjQtODZjZi03MDkyOWUxOTg4OWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 2,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d/1",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d",
+      "method": "PUT"
+    }
+  }
+}

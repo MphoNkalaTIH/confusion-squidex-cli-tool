@@ -1,0 +1,1324 @@
+{
+  "id": "c5a721d4-94c6-452c-8837-6226940112be",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Extra cover"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "04",
+          "index": null,
+          "copy": "Cover up to R10 000 for the non-standard accessories fitted in your car, excluding its sound system. Once your policy is active, you can increase your cover amount through your online dashboard.",
+          "description": "Accessories cover",
+          "image": [
+            "5daba90d-57f4-48f8-a44d-2c61927957cf"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "Cover up to R10 000 for the non-standard accessories fitted in your car, excluding its sound system. Once your policy is active, you can increase your cover amount through our call centre on 0861 33 93 39.",
+              "description": null,
+              "image": [
+                "500de4f4-8754-48d4-a4a6-1829d474d259"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "Cover up to R10 000 for the non-standard accessories fitted in your car, excluding its sound system. Once your policy is active, you can increase your cover amount through our call centre on 0861 60 01 24.",
+              "description": null,
+              "image": [
+                "c6eef6c7-1beb-4adb-9422-f6501eae09a0"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Dekking tot R10 000 vir die nie-standaard toebehore wat in jou kar aangebring is, uitsluitend die klankstelsel. Sodra jou polis aktief is, kan jy jou dekking deur ons kontaksentrum by 0861 477 911 verhoog.",
+              "description": "Toebehore dekking",
+              "image": [
+                "764ab602-b790-4b16-9814-9b03467417ee"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Cover up to R10 000 for the non-standard accessories fitted in your car, excluding its sound system. Once your policy is active, you can increase your cover amount through our call centre on 0861 555 580.",
+              "description": "Accessories cover",
+              "image": [
+                "dcfa212e-6594-431a-aeb5-210b7bdb2b40"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "05",
+          "index": null,
+          "copy": "Cover for damages caused to your car due to a hailstorm.",
+          "description": "Hail cover",
+          "image": [
+            "6e6714b7-e861-4c68-9c03-a5b02cbdcde0"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "8b6302b8-4d6d-471a-af86-59e92f461398"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "c4a500e9-5f38-461c-bfe3-e8381f8eea29"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Dekking vir skade aan jou kar wat deur haelstorms veroorsaak word.",
+              "description": "Haelskade dekking",
+              "image": [
+                "1e968259-5826-4ceb-8472-800c9a8282f4"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "e9da4185-d33e-4505-8530-3777ea2891a3"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "06",
+          "index": null,
+          "copy": "Cover against risks such as civil commotion, public disorder, strikes, riots and terrorism in South Africa.",
+          "description": "SASRIA",
+          "image": [
+            "d9ad2593-e9a6-4e04-bd9e-848b0853d8cc"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "314a4c9d-012c-4f3d-a8e7-c84cbe82e1c8"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "ce7d484f-3ce8-4fd2-ab2d-acb32af8168c"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Dekking teen risiko’s soos burgerlike oproer, openbare wanorde, stakings, betogings en terrorisme in Suid-Afrika.",
+              "description": "SASRIA",
+              "image": [
+                "68100b40-824e-4f56-a9d0-56c0d27c594c"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "fdadf098-19db-4a82-8ddd-29910a99bd9e"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "index": null,
+          "copy": "The use of a rental car should your car be undrivable or stolen, and is dependent on your cover type.\n<br/><br/>\nQuote is based on manual transmission car hire option (Kia Picanto or similar).\nOnce your policy is active, option can be upgraded through your online dashboard.",
+          "description": "Car hire",
+          "image": [
+            "aaae4859-4eb4-48bc-8b1c-ab338730af0e"
+          ],
+          "copyOverrides": [
+            {
+              "schemaId": "7f19be01-db7d-4cf3-a131-1598ff998746",
+              "key": "IsResumeQuoteCarHire",
+              "value": "The use of a rental car should your car be undrivable or stolen, and is dependent on your cover type.\n<br/><br/>\nQuote is based on your selection: <span class=\"font-bold\">{{carHireType}}</span>. \nOnce your policy is active, option can be upgraded through your online dashboard."
+            }
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "The use of a rental car should your car be undrivable or stolen, and is dependent \non your cover type.\n<br/><br/>\nQuote is based on manual transmission car hire option (Kia Picanto or similar). \nOnce your policy is active, option can be upgraded through our call centre on 0861 33 93 39.",
+              "description": null,
+              "image": [
+                "122ca0a7-9ee8-4081-975c-58c8d36b9bbc"
+              ],
+              "copyOverrides": [
+                {
+                  "schemaId": "7f19be01-db7d-4cf3-a131-1598ff998746",
+                  "key": "IsResumeQuoteCarHire",
+                  "value": "The use of a rental car should your car be undrivable or stolen, and is dependent on your cover type.\n<br/><br/>\nQuote is based on your selection: <span class=\"font-bold\">{{carHireType}}</span>. \nOnce your policy is active, option can be upgraded through our call centre on 0861 33 93 39."
+                }
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "The use of a rental car should your car be undrivable or stolen, and is dependent \non your cover type.\n<br/><br/>\nQuote is based on manual transmission car hire option (Kia Picanto or similar). \nOnce your policy is active, option can be upgraded through your online dashboard.",
+              "description": null,
+              "image": [
+                "95a56cfa-3ac4-4675-80f5-817774e077fd"
+              ],
+              "copyOverrides": [
+                {
+                  "schemaId": "7f19be01-db7d-4cf3-a131-1598ff998746",
+                  "key": "IsResumeQuoteCarHire",
+                  "value": "The use of a rental car should your car be undrivable or stolen, and is dependent \non your cover type.\n<br/><br/>\nQuote is based on your selection: <span class=\"font-bold\">{{carHireType}}</span>. \nOnce your policy is active, option can be upgraded through your online dashboard."
+                }
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "The use of a rental car should your car be undrivable or stolen, and is dependent \non your cover type.\n<br/><br/>\nQuote is based on manual transmission car hire option (Kia Picanto or similar). \nOnce your policy is active, option can be upgraded through your online dashboard.",
+              "description": null,
+              "image": [
+                "c98cc53b-ba80-4fbc-be39-39bb28a05bc9"
+              ],
+              "copyOverrides": [
+                {
+                  "schemaId": "7f19be01-db7d-4cf3-a131-1598ff998746",
+                  "key": "IsResumeQuoteCarHire",
+                  "value": "The use of a rental car should your car be undrivable or stolen, and is dependent \non your cover type.\n<br/><br/>\nQuote is based on your selection: <span class=\"font-bold\">{{carHireType}}</span>. \nOnce your policy is active, option can be upgraded through your online dashboard."
+                }
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die gebruik van ŉ gehuurde motor as jou kar nie rybaar is nie of gesteel word, en dit hang af van jou tipe dekking.\n<br/><br/>\nDie kwotasie is gebaseer op handrat motoropsies (Kia Picanto of soortgelyk).\nSodra jou polis aktief is, kan die opsie deur ons kontaksentrum by 0861 477 911 opgegradeer word.",
+              "description": "Motorhuur",
+              "image": [
+                "a8b11b2f-9726-4512-a6f0-3e9c6cce4621"
+              ],
+              "copyOverrides": [
+                {
+                  "schemaId": "7f19be01-db7d-4cf3-a131-1598ff998746",
+                  "key": "IsResumeQuoteCarHire",
+                  "value": "Die gebruik van ŉ gehuurde motor as jou kar nie rybaar is nie of gesteel word, en dit hang af van jou tipe dekking.\n<br/><br/>\nKwotasie is gebaseer op jou keuse: <span class=\"font-bold\">{{carHireType}}</span>. \nSodra jou polis aktief is, kan die opsie deur ons kantaksentrum by 0861 477 911 opgegradeer word."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "code": "08",
+          "index": null,
+          "copy": "Offers benefits such as towing in case of a mechanical or electrical breakdown, jump starting your flat battery, or changing your flat tyre.",
+          "description": "Breakdown assist",
+          "image": [
+            "34b80157-51ba-4fa5-978b-48a6ce58322e"
+          ]
+        },
+        {
+          "code": "09",
+          "index": null,
+          "copy": "In the event of a claim, your car's canopy will be covered for the average amount that it would sell for today.",
+          "description": "Canopy cover",
+          "image": [
+            "b8eb5d5f-94c6-42e2-995d-dd6bb9af7b64"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "92e611e6-734f-4ac3-91ff-51140ecdd5a1"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "06214636-caac-48da-8b6b-2437d46613f3"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Indien jy eis, sal jou bakkie se kappie gedek word vir die algemene prys waarvoor die kappie gekoop sal word vandag.",
+              "description": "Kappie dekking",
+              "image": [
+                "4dcbcc0a-b0a8-478b-88b0-ae48776e2fa5"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "6371f502-7111-40be-ad3d-f908da3c0b64"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "index": null,
+          "copy": "Select this option to increase your liability cover to a maximum of R5 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.\n<br/><br/>\nOnce your policy is active, higher liability cover is available through your online dashboard.",
+          "description": "Increase Third-Party Liability cover to R5 million",
+          "image": [
+            "6823b3f5-fe08-4b36-a88c-09d245b09244"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "Select this option to increase your liability cover to a maximum of R5 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.\n<br/><br/>\nOnce your policy is active, higher liability cover is available through your online dashboard.",
+              "description": "Increase Third-Party Liability cover to R5 million",
+              "image": [
+                "f7e44318-bd1c-40ba-b73a-b49b06dbcffc"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "Select this option to increase your liability cover to a maximum of R5 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.\n<br/><br/>\nOnce your policy is active, higher liability cover is available through your online dashboard.",
+              "description": "Increase Third-Party Liability cover to R5 million",
+              "image": [
+                "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Kies hierdie opsie om jou aanspreeklikheid vir skade wat aan iemand anders se kar of eiendom veroorsaak is, tot ŉ maksimum van R5 miljoen te verhoog, in plaas van die aanvanklike R2.5 miljoen.\n<br/><br/>\nSodra jou polis aktief is, sal hoër aanspreeklikheidsdekking deur ons kontaksentrum beskikbaar wees.",
+              "description": "Verhoog Derdeparty aanspreeklikheidsdekking tot R5 miljoen",
+              "image": [
+                "c1996243-adff-4e43-a87a-ef546cbe3a0a"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Select this option to increase your liability cover to a maximum of R5 million, instead of the default maximum of R2.5 million, for damages caused to someone else’s car or property.\n<br/><br/>\nOnce your policy is active, higher liability cover is available through our call centre.",
+              "description": "Increase Third-Party Liability cover to R5 million",
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "index": null,
+          "copy": "Provides you with cover for loss or damage to another party's property, during the period of insurance, for which you are legally liable.",
+          "description": "R2.5 million Third-Party Liability cover",
+          "image": [
+            "4f895b40-55e6-4349-9167-1d81b8c011c7"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": "R2.5 million Third-Party Liability cover",
+              "image": [
+                "ed06748c-c170-4e28-a808-4363176ac891"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": "R2.5 million Third-Party Liability cover",
+              "image": [
+                "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Bied jou dekking vir skade aan ‘n ander party se besittings, tydens die versekerde tydperk, waarvoor jy wetlik aanspreeklik is.",
+              "description": "R2.5 miljoen Derdeparty aanspreeklikheidsdekking",
+              "image": [
+                "c1996243-adff-4e43-a87a-ef546cbe3a0a"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Provides you with cover for loss or damage to another party's property, during the period of insurance, for which you are legally liable.",
+              "description": "R2.5 million Third-Party Liability cover",
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "11",
+          "index": null,
+          "copy": "Provides you with cover for loss or damage to another party's property, during the period of insurance, for which you are legally liable.",
+          "description": "R1 million Third-Party Liability cover",
+          "image": [
+            "4f895b40-55e6-4349-9167-1d81b8c011c7"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": "R1 million Third-Party Liability cover",
+              "image": [
+                "ed06748c-c170-4e28-a808-4363176ac891"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": "R1 million Third-Party Liability cover",
+              "image": [
+                "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Bied jou dekking vir skade aan ‘n ander party se besittings, tydens die versekerde tydperk, waarvoor jy wetlik aanspreeklik is.",
+              "description": "R1 miljoen Derdeparty aanspreeklikheidsdekking",
+              "image": [
+                "c1996243-adff-4e43-a87a-ef546cbe3a0a"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Provides you with cover for loss or damage to another party's property, during the period of insurance, for which you are legally liable.",
+              "description": "R1 million Third-Party Liability cover",
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "12",
+          "index": null,
+          "copy": "A Guardian Angel on Call benefit, available through the 1st for Women app. \nThe panic button assists with alerting external help during emergencies, for example, \na hijacking and any other emergency where you feel unsafe. \nYou can share the benefit with the regular driver of the car and up to five family \nand household members.",
+          "description": "Guardian Angel on Call: Panic button",
+          "image": [
+            "291c09b7-852c-41bc-98de-930f479cefc3"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "13",
+          "index": null,
+          "copy": "Benefits\r\n<ul class=\"list-disc list-outside ml-4\">\r\n    <li>Access to a mobile crash detector.</li>\r\n    <li>Emergency medical assistance.</li>\r\n    <li>An authorised tow truck that you can track to your exact location after an accident.</li>\r\n    <li>Roadside assistance (Flat tyre, battery, or if you run out of fuel).</li>\r\n    <li>A lift when your vehicle is towed. Limited to the metro area where the incident occurred.</li>\r\n    <li>A Guardian Angel to wait with you until help arrives.</li>\r\n    <li>Trip monitoring service that allows your trip to be monitored by our call centre so you can reach your destination safely.</li>\r\n    <li>Our claims team will immediately be notified of your accident.</li>\r\n    <li>Share the benefit with the regular driver of the car and up to five family and household members.</li>\r\n</ul>",
+          "description": "Guardian Angel on Call: 24/7 Accident and Roadside Assistance",
+          "image": [
+            "266896af-32cb-486d-94df-0a0dfa208c6a"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "14",
+          "index": null,
+          "copy": "Benefits\r\n<ul class=\"list-disc list-outside ml-4\">\r\n    <li>Access to an ambulance if you need emergency medical assistance.</li>\r\n    <li>An authorised tow truck that you can track to your exact location.</li>\r\n    <li>Roadside assistance (flat battery, if you run out of fuel out, or flat tyre).</li>\r\n    <li>A lift to wherever you need to go if your car is towed. Limited to the metro area where the incident occurred.</li>\r\n    <li>A Guardian Angel to wait with you until help arrives.</li>\r\n    <li>Trip monitoring service that allows your trip to be monitored by our call centre so you can reach your destination safely.</li>\r\n</ul>\r\n<a href=\"https://www.firstforwomen.co.za/app-tcs/\" target=\"_blank\">Terms and conditions online</a>",
+          "description": "Guardian Angel on Call: 24/7 Accident and Roadside Assistance",
+          "image": [
+            "266896af-32cb-486d-94df-0a0dfa208c6a"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "15",
+          "index": null,
+          "copy": "Benefits\r\n<ul class=\"list-disc list-outside ml-4\">\r\n    <li>Access to an ambulance if you need emergency medical assistance.</li>\r\n    <li>A lift to wherever you need to go if your car is towed. Limited to the metro area where the incident occurred.</li>\r\n    <li>Trip monitoring service that allows your trip to be monitored by our call centre so you can reach your destination safely.</li>\r\n</ul>\r\n<a href=\"https://www.firstforwomen.co.za/app-tcs/\" target=\"_blank\">Terms and conditions online</a>",
+          "description": "Guardian Angel on Call",
+          "image": [
+            "266896af-32cb-486d-94df-0a0dfa208c6a"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "16",
+          "index": null,
+          "copy": "Benefits\r\n<ul class=\"list-disc list-outside ml-4\">\r\n    <li>Access to an ambulance if you need emergency medical assistance.</li>\r\n    <li>A lift to wherever you need to go if your car is towed. Limited to the metro area where the incident occurred.</li>\r\n    <li>A Guardian Angel to wait with you until help arrives.</li>\r\n    <li>Trip monitoring service that allows your trip to be monitored by our call centre so you can reach your destination safely.</li>\r\n</ul>\r\n<a href=\"https://www.firstforwomen.co.za/app-tcs/\" target=\"_blank\">Terms and conditions online</a>",
+          "description": "Guardian Angel on Call",
+          "image": [
+            "266896af-32cb-486d-94df-0a0dfa208c6a"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "17",
+          "index": null,
+          "copy": "Benefits\r\n<ul class=\"list-disc list-outside ml-4\">\r\n    <li>Access to an ambulance if you need emergency medical assistance.</li>\r\n    <li>An authorised tow truck that you can track to your exact location after an accident.</li>\r\n    <li>A lift to wherever you need to go if your car is towed. Limited to the metro area where the incident occurred.</li>\r\n    <li>A Guardian Angel to wait with you until help arrives.</li>\r\n    <li>Trip monitoring service that allows your trip to be monitored by our call centre so you can reach your destination safely.</li>\r\n</ul>\r\n<a href=\"https://www.firstforwomen.co.za/app-tcs/\" target=\"_blank\">Terms and conditions online</a>",
+          "description": "Guardian Angel on Call: 24/7 Accident Assistance",
+          "image": [
+            "266896af-32cb-486d-94df-0a0dfa208c6a"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "18",
+          "index": null,
+          "copy": "Benefits\r\n<ul class=\"list-disc list-outside ml-4\">\r\n    <li>Access to an ambulance if you need emergency medical assistance.</li>\r\n    <li>An authorised tow-truck that you can track to your exact location after an accident.</li>\r\n    <li>A lift to wherever you need to go if your car is towed. Limited to the metro area where the incident occurred.</li>\r\n    <li>A Guardian Angel to wait with you until help arrives.</li>\r\n    <li>Trip monitoring service that allows your trip to be monitored by our call centre so you can reach your destination safely.</li>\r\n</ul>\r\n<a href=\"https://www.firstforwomen.co.za/app-tcs/\" target=\"_blank\">Terms and conditions online</a>",
+          "description": "Guardian Angel on Call: 24/7 Accident Assistance",
+          "image": [
+            "266896af-32cb-486d-94df-0a0dfa208c6a"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "19",
+          "index": null,
+          "copy": "When we receive an impact alert, a call will be made to the regular driver. Should there be no response, emergency medical responders will be dispatched to the GPS location where the signal or notification originated. If the regular driver confirms that no help is needed, we will not send emergency assistance.",
+          "description": "Crash Detection on our app",
+          "image": [
+            "9a719eff-b18e-4503-8f6c-f4c420bf098f"
+          ],
+          "brandOverrides": []
+        },
+        {
+          "code": "20",
+          "index": null,
+          "copy": "Gives you access to towing services after an accident or breakdown to the nearest approved panel beater/yard and advice on the collision procedure. Also included is assistance with a flat battery or tyre and if you run out of fuel.",
+          "description": "Road Assist",
+          "image": [
+            "6849a91f-5415-41c1-a6e5-3182bda6da65"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "As jy jouself in 'n padpenarie bevind, kan jy op ons knoppie druk. Hierdie bystand is tot jou redding sou jou kar onklaar raak langs die pad of na 'n ongeluk. Hulp sal ook kom as jy gestrand is met 'n pap wiel of 'n battery wat sukkel en selfs as jy sonder petrol gaan staan.",
+              "description": "Padbystand",
+              "image": [
+                "f802f5ca-91b9-4907-8fd8-340230205275"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Gives you access to authorised towing services, which you can track to your exact location (after an accident or breakdown), to transport your car to the nearest approved panelbeater/yard. Also included is assistance with a flat battery or tyre and if you run out of fuel.",
+              "description": null,
+              "image": [
+                "2533eed4-8200-462c-8f57-6701faf41340"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "index": null,
+          "copy": "Gives you access to towing services after an accident that includes towing to the nearest approved panel beater/yard and collision procedure advice.",
+          "description": "Accident assist",
+          "image": [
+            "601bcf45-c4a7-4154-902a-4095f658dfda"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "Gives you access to towing services after an accident to the nearest approved panel beater/yard and advice on the collision procedure.",
+              "description": null,
+              "image": [
+                "6849a91f-5415-41c1-a6e5-3182bda6da65"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Bied jou toegang tot wegsleepdienste na ‘n ongeluk wat insluit die insleep van jou kar na die naaste goedgekeurde paneelklopper/werf en ons sal jou bystaan met ongeluksadvies.",
+              "description": "Ongelukbystand",
+              "image": [
+                "f802f5ca-91b9-4907-8fd8-340230205275"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "Gives you access to authorised towing services, which you can track to your exact location after an accident, to transport your car to the nearest approved panelbeater/yard.",
+              "description": "",
+              "image": [
+                "2533eed4-8200-462c-8f57-6701faf41340"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "index": null,
+          "copy": "Cover for chipped, cracked or damaged window/glass on your car.",
+          "description": "Windscreen/glass cover",
+          "image": [
+            "2c2eb218-586f-42dd-8bf7-0c2f6b50ea61"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "9a7d8c1e-a9de-48b0-8531-a7b5462e2701"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "8bdcef29-1f54-43fa-8175-0100d6c6a5a9"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Dekking vir skade aan die venster/glas van jou kar.",
+              "description": "Windskerm-/glasdekking",
+              "image": [
+                "89ccbd7a-ca61-4d7a-a6c9-84d092e67698"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "3271f833-efba-4dca-bc65-0b4537398c66"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "Y",
+          "index": null,
+          "copy": "You have either opted to install your own device or you already have one installed.",
+          "description": "Tracking device",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Jy het gekies om jou eie toestel te installeer of jy het reeds een geïnstalleer.",
+              "description": "Opsoringstoestel",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "G",
+          "index": null,
+          "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <span class=\"font-bold text-main-1\">Please note:</span> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <span class=\"font-bold text-main-1\">3-year Netstar contract</span>.\n</h5>",
+          "description": "Star Drive Telematics Bronze",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <strong class=\"font-bold text-main-3\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-3\">3-year contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-4\">\n    <strong class=\"font-bold text-main-1\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-1\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-zodiac-blue\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-zodiac-blue\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-main-1\">Let asseblief:</strong> Ons sal jou opsporingstoestel installeer en die maandelikse fooi, vir solank as wat jou kar by ons gedek is, betaal. Hierdie opsie is aan 'n <strong class=\"font-bold text-main-1\">3-jaar Netstarkontrak</strong> onderworpe.\n</h5>",
+              "description": "Star Drive Telematics Bronze",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <span class=\"font-bold text-main-1\">Please note:</span> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <span class=\"font-bold text-main-1\">3-year Netstar contract</span>.\n</h5>",
+          "description": "Star Drive Early Warning Telematics Bronze",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <strong class=\"font-bold text-main-3\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-3\">3-year contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-4\">\n    <strong class=\"font-bold text-main-1\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-1\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-zodiac-blue\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-zodiac-blue\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-main-1\">Let asseblief:</strong> Ons sal jou opsporingstoestel installeer en die maandelikse fooi, vir solank as wat jou kar by ons gedek is, betaal. Hierdie opsie is aan 'n <strong class=\"font-bold text-main-1\">3-jaar Netstarkontrak</strong> onderworpe.\n</h5>",
+              "description": "Star Drive Early Warning Telematics Bronze",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "H",
+          "index": null,
+          "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <span class=\"font-bold text-main-1\">Please note:</span> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <span class=\"font-bold text-main-1\">3-year Netstar contract</span>.\n</h5>",
+          "description": "Safe and Sound Stolen Vehicle Recovery Netstar tracking device",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <strong class=\"font-bold text-main-3\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-3\">3-year contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": [
+                {
+                  "schemaId": "7f19be01-db7d-4cf3-a131-1598ff998746",
+                  "key": null,
+                  "value": null
+                }
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-4\">\n    <strong class=\"font-bold text-main-1\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-1\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-zodiac-blue\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-zodiac-blue\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-main-1\">Let asseblief:</strong> Ons sal jou opsporingstoestel installeer en die maandelikse fooi, vir solank as wat jou kar by ons gedek is, betaal. Hierdie opsie is aan 'n <strong class=\"font-bold text-main-1\">3-jaar Netstarkontrak</strong> onderworpe.\n</h5>",
+              "description": "Safe and Sound Stolen Vehicle Recovery Netstar opsporingstoestel",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "D",
+          "index": null,
+          "copy": "We have partnered with Netstar to offer you special rates on an approved tracking device.",
+          "description": "Tracking device",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ons het met Netstar saamgespan om jou spesiale tariewe op 'n goedgekeurde opsporingstoestel aan te bied.",
+              "description": "Opsoringstoestel",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "N",
+          "index": null,
+          "copy": "We have partnered with Netstar to offer you special rates on an approved tracking device.",
+          "description": "Tracking device",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ons het met Netstar saamgespan om jou spesiale tariewe op 'n goedgekeurde opsporingstoestel aan te bied.",
+              "description": "Opsoringstoestel",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "CB",
+          "index": null,
+          "copy": "<div>\n    <p>Remain claim-free for up to 2 years and receive up to:<br/><span class=\"font-bold\">{{amount}}</span></p>\n    <p class=\"text-xs m-0\"><span class=\"text-main-1 font-bold\">Please note:</span> To learn more about the Cash Back Bonus, simply download the <a href=\"https://www.budgetinsurance.co.za/brochures/budget-cash-back-bonus-toolkit/\" target=\"_blank\" class=\"text-main-1 font-bold underline\">terms and conditions</a>.</p>\n</div>",
+          "description": "Cash Back Bonus",
+          "image": [
+            "0765a42c-1a2b-45ad-a4c7-0fec8f6b7710"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<p>Remain claim-free for up to 4 years and receive up to: <br></vr><span class=\"font-bold\">{{amount}}</span></p>\n<p class=\"text-xs m-0\" ><span class=\"text-main-3 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To learn more about the Cash Back Plus, simply download the </span><a href=\"https://www.firstforwomen.co.za/products/personal-insurance/cash-back-plus/\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>",
+              "description": "Cash Back Plus",
+              "image": [
+                "ed06748c-c170-4e28-a808-4363176ac891"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<p>Remain claim-free for up to 4 years and receive up to: <br></vr><span class=\"font-bold\">{{amount}}</span></p>\n<p class=\"text-xs m-0\"><span class=\"text-main-1 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To find out more about Cash Back Plus simply download the </span><a href=\"https://documentation.telesure.co.za/Auto&General/0012/Eng/Cash_Back_Plus_C_TsCs_PL_Eng_A&G.pdf\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>",
+              "description": "Cash Back Plus",
+              "image": [
+                "ab64864f-6e09-44a1-8933-fd9dce4971c4"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<p>Remain claim-free for up to 4 years and receive up to: <br></vr><span class=\"font-bold\">{{amount}}</span></p>\n<p class=\"text-xs m-0\"><span class=\"text-zodiac-blue font-bold\">Please note: </span><span class=\"font-normal text-sub-5\">To find out more about Payback Bonus, simply download the </span><a href=\"https://www.dialdirect.co.za/globalassets/brochure/dialdirect-sti-cash-back-premium-relief-b2.pdf/\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>",
+              "description": "Payback Bonus",
+              "image": [
+                "5f0edbb7-e313-4eb3-8825-ec6aa296e0a4"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<p>Bly eisvry vir tot 4 jaar en ontvang tot: <br></vr><span class=\"font-bold\">{{amount}}</span></p>\n<p class=\"text-xs m-0\"><span class=\"text-main-1 font-bold\">Let asseblief: </span><span class=\"font-normal text-main-2\">Om meer uit te vind oor Gatsakbonus laai eenvoudig die </span><a href=\"https://stdigzadigitalbrandsites.digitalcdn.co.za/new-images-pdfs-files/cc3aec41fc1740eea44e0a6809bc8b26/4cd43c6b96b94d00a00894b7875c0d30.pdf\" target=\"_blank\" class=\"font-bold underline\">bepalings en voorwaardes</a> af.</p>",
+              "description": "Gatsakbonus",
+              "image": [
+                "f9c4eb0d-9511-44aa-b739-fc848b68ec11"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "5",
+          "index": null,
+          "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <span class=\"font-bold text-main-1\">Please note:</span> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <span class=\"font-bold text-main-1\">3-year Netstar contract</span>.\n</h5>",
+          "description": "Netstar STARtag tracking device",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <strong class=\"font-bold text-main-3\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-3\">3-year contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-4\">\n    <strong class=\"font-bold text-main-1\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-1\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-zodiac-blue\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-zodiac-blue\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-main-1\">Let asseblief:</strong> Ons sal jou opsporingstoestel installeer en die maandelikse fooi, vir solank as wat jou kar by ons gedek is, betaal. Hierdie opsie is aan 'n <strong class=\"font-bold text-main-1\">3-jaar Netstarkontrak</strong> onderworpe.\n</h5>",
+              "description": "Netstar STARtag opsporingstoestel",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "8",
+          "index": null,
+          "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <span class=\"font-bold text-main-1\">Please note:</span> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <span class=\"font-bold text-main-1\">3-year Netstar contract</span>.\n</h5>",
+          "description": "Netstar Plus tracking device",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <strong class=\"font-bold text-main-3\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-3\">3-year contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-4\">\n    <strong class=\"font-bold text-main-1\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-1\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-zodiac-blue\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-zodiac-blue\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-main-1\">Let asseblief:</strong> Ons sal jou opsporingstoestel installeer en die maandelikse fooi, vir solank as wat jou kar by ons gedek is, betaal. Hierdie opsie is aan 'n <strong class=\"font-bold text-main-1\">3-jaar Netstarkontrak</strong> onderworpe.\n</h5>",
+              "description": "Netstar Plus opsporingstoestel",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "9",
+          "index": null,
+          "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <span class=\"font-bold text-main-1\">Please note:</span> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <span class=\"font-bold text-main-1\">3-year Netstar contract</span>.\n</h5>",
+          "description": "Netstar Early Warning tracking device",
+          "image": [
+            "6d74b7a1-9fed-4d1b-970d-499b9834280f"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-5\">\n    <strong class=\"font-bold text-main-3\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-3\">3-year contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<h5 class=\"font-normal text-xs leading-4\">\n    <strong class=\"font-bold text-main-1\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-main-1\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-zodiac-blue\">Please note:</strong> We will install your tracking device and pay the full monthly fee for as long as your car is insured with us. This option is subject to a <strong class=\"font-bold text-zodiac-blue\">3-year Netstar contract</strong>.\n</h5>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-main-1\">Let asseblief:</strong> Ons sal jou opsporingstoestel installeer en die maandelikse fooi, vir solank as wat jou kar by ons gedek is, betaal. Hierdie opsie is aan 'n <strong class=\"font-bold text-main-1\">3-jaar Netstarkontrak</strong> onderworpe.\n</h5>",
+              "description": "Netstar Early Warning opsporingstoestel",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:45:43Z",
+  "lastModified": "2025-05-21T10:07:27Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjNWE3MjFkNC05NGM2LTQ1MmMtODgzNy02MjI2OTQwMTEyYmUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 35,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be/34",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be",
+      "method": "PUT"
+    }
+  }
+}

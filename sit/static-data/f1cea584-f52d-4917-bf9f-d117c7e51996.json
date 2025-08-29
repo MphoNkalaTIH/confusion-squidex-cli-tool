@@ -1,0 +1,228 @@
+{
+  "id": "f1cea584-f52d-4917-bf9f-d117c7e51996",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Home Content Areas"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "R",
+          "index": null,
+          "copy": "Residential area",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Residensiële gebied",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "H",
+          "index": null,
+          "copy": "Estate/security complex",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Behuisingslandgoed/Sekuriteitskompleks",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "T",
+          "index": null,
+          "copy": "Township",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Informele nedersetting",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "A",
+          "index": null,
+          "copy": "Farm/small holding",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Plaas/kleinhoewe",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": "Business area",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Besigheidsgebied",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "I",
+          "index": null,
+          "copy": "Industrial area",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Industriële gebied",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "C",
+          "index": null,
+          "copy": "Leisure/sports park",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ontspannings-/Sportpark",
+              "description": "",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-06-08T07:02:51Z",
+  "lastModified": "2025-05-15T12:50:13Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJmMWNlYTU4NC1mNTJkLTQ5MTctYmY5Zi1kMTE3YzdlNTE5OTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 4,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996/3",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/f1cea584-f52d-4917-bf9f-d117c7e51996",
+      "method": "PUT"
+    }
+  }
+}

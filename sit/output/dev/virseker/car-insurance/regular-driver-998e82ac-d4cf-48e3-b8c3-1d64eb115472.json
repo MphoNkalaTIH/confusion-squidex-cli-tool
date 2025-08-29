@@ -1,0 +1,2729 @@
+{
+  "id": "998e82ac-d4cf-48e3-b8c3-1d64eb115472",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "virseker"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "regular-driver"
+    },
+    "name": {
+      "iv": "Gereelde bestuurder"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-user-details"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Is Regular Driver ",
+          "route": "is-regular-driver",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "is-regular-driver-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja, ek gaan die meeste met die kar ry",
+                    "route": {
+                      "pageRoute": "licence-type",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee, iemand anders gaan meer met die kar ry",
+                    "route": {
+                      "pageRoute": "household-member-relation",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Gaan jy die gereelde bestuurder van die kar wees?</h2>"
+                  }
+                },
+                {
+                  "id": "dialogEmploymentStatusDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Werkstatus is teenstrydig</h3>"
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy het gekies dat die kar vir ‘<span class=\"font-bold\">{{vehicleUse}}</span>’ gebruik gaan word.</p>\n<p>Jou werkstatus van ‘<span class=\"font-bold\">{{employmentStatus}}</span>’ kan nie onderskryf word deur die tipe gebruik nie.</p>\n<p>Kan ons die tipe gebruik verander na “<span class=\"font-bold\">{{vehicleUsePrivate}}</span>” om voort te gaan?</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnYes",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Ja, gaan voort",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCallback",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Bel my terug",
+                          "route": {
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "txtSubContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Hierdie verwys na die persoon wat die meeste met die kar rondry. Slegs een persoon kan die gereelde bestuurder wees.<br><br>Laat ons asseblief onmiddellik weet as die gereelde bestuurder se inligting verander om enige probleme te vermy wanneer jy eis.</h4>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Licence Type",
+          "route": "licence-type",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "licence-type-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Watter tipe bestuurslisensie het jy?</h2>"
+                  }
+                },
+                {
+                  "id": "btnDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Drop Off",
+                    "route": {
+                      "pageRoute": "unacceptable-risk-no-license-policyholder",
+                      "sectionRoute": "callbackPages",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Licence Code",
+          "route": "licence-code",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "0441b4ab-7f6a-4f4e-907b-451c5f220640"
+            ],
+            "statePropertyPaths": [
+              "personal.policyHolder.licenceType.code"
+            ],
+            "values": [
+              "1"
+            ],
+            "route": null,
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "licence-code-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is jou Suid-Afrikaanse bestuurslisensiekode?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "data": [],
+                    "refData": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Licence Date",
+          "route": "licence-date",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "licence-date-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wanneer is jou eerste Suid-Afrikaanse bestuurslisensie uitgereik?</h2>"
+                  }
+                },
+                {
+                  "id": "txtDate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Uitreikdatum",
+                    "helperText": null,
+                    "placeholderText": "Maand/Jaar",
+                    "formControlName": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": {
+                      "pageRoute": "has-insurance",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnNextIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "icon-arrow-right",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Has Comprehensive Insurance Page",
+          "route": "has-insurance",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "has-comprehensive-insurance-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja",
+                    "route": {
+                      "pageRoute": "uninterrupted-cover",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee",
+                    "route": {
+                      "pageRoute": "last-sixty-days-insurance",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Het jy tans omvattende karversekering?</h2>"
+                  }
+                },
+                {
+                  "id": "txtSubContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Dek die kar ingeval dit afgeskryf, gesteel of beskadig word as gevolg van ‘n ongeluk, diefstal, brande, asook ongelukskade wat jou kar aan iemand anders se kar of besittings veroorsaak.</h4>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Last Sixty Days Comprehensive Page",
+          "route": "last-sixty-days-insurance",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "last-sixty-days-comprehensive-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja",
+                    "route": {
+                      "pageRoute": "uninterrupted-cover",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee",
+                    "route": {
+                      "pageRoute": "last-claim",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Was jy gedurende die afgelope 60 dae die gereelde bestuurder van ŉ omvattend-versekerde kar?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Uninterrupted Cover Page",
+          "route": "uninterrupted-cover",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "uninterrupted-cover-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Vir hoeveel volle ononderbroke jare het jy gedurende die afgelope 7 jaar omvattende versekering gehad?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "txtSubContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Dit maak nie saak as daar van versekeraars verander is nie.</h4>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Last Claim Page",
+          "route": "last-claim",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "PolicyHolder"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "last-claim-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "quote",
+                      "pageRoute": "premium"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wanneer laas het jy geëis vir ‘n karongeluk of diefstal van ‘n kar?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Relation",
+          "route": "household-member-relation",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-relation-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is jou verwantskap met die gereelde bestuurder?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member ID Number Page",
+          "route": "household-member-id-number",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-id-number-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtIdNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "ID-nommer",
+                    "helperText": "Jou inligting is veilig.",
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "idNumber",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "ID-nommer is verpligtend",
+                      "invalidErrorMessage": "ID-nommer is ongeldig",
+                      "maxLength": 13,
+                      "minLength": 13,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtIdContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Gee asseblief die gereelde bestuurder se Suid-Afrikaanse ID-nommer</h2>"
+                  }
+                },
+                {
+                  "id": "txtPassportContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Gee asseblief die gereelde bestuurder se paspoortnommer</h2>"
+                  }
+                },
+                {
+                  "id": "txtPassport",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Paspoortnommer",
+                    "helperText": "Jou inligting is veilig.",
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "idNumber",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Paspoortnommer is verpligtend",
+                      "invalidErrorMessage": "Paspoortnommer is ongeldig",
+                      "maxLength": 15,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "btnNotCitizen",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Die persoon is nie ‘n Suid-Afrikaanse burger nie",
+                    "route": {
+                      "pageRoute": "household-member-gender",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnCitizen",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Die persoon  is ‘n Suid-Afrikaanse burger",
+                    "route": {
+                      "pageRoute": "household-member-gender",
+                      "sectionRoute": "regular-driver",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnDoNotKnow",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek ken nie die ID nommer nie",
+                    "route": {
+                      "pageRoute": "household-member-gender",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtOr",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "OF",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnNextIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "icon-arrow-right",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Gender",
+          "route": "household-member-gender",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-gender-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Yes",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is die geslag van die gereelde bestuurder?</h2>"
+                  }
+                },
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnIdSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "IdSelect",
+                    "route": {
+                      "pageRoute": "household-member-names",
+                      "sectionRoute": "regular-driver",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Housedhold Member Birthday",
+          "route": "household-member-birthday",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-birthday-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is die gereelde bestuurder se geboortedatum?</h2>"
+                  }
+                },
+                {
+                  "id": "txtDate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Geboortedatum",
+                    "helperText": null,
+                    "placeholderText": "Dag/Maand/Jaar",
+                    "formControlName": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "btnNextIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "icon-arrow-right",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Names",
+          "route": "household-member-names",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-names-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Naam",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "name",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Naam is verpligtend",
+                      "invalidErrorMessage": "Naam is ongeldig",
+                      "maxLength": 15,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Van",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "surname",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Van is verpligtend",
+                      "invalidErrorMessage": "Van is ongeldig",
+                      "maxLength": 20,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is die gereelde bestuurder se naam en van?</h2>"
+                  }
+                },
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verander",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "btnNextIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "icon-arrow-right",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Marital Status",
+          "route": "household-member-marital-status",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-marital-status-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verander",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is {{name}} se huwelikstatus?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Employment Status",
+          "route": "household-member-employment-status",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-employment-status-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verander",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "971c5ce1-9ec0-41f4-a3cb-a4dbb9569ff0"
+                      ],
+                      "statePropertyPaths": [
+                        "personal.regularDriver.employmentStatus.code"
+                      ],
+                      "values": [
+                        "UU"
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "unemployed-status",
+                            "sectionRoute": "regular-driver"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "household-member-workdays-from-home",
+                            "sectionRoute": "regular-driver"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "971c5ce1-9ec0-41f4-a3cb-a4dbb9569ff0"
+                      ],
+                      "statePropertyPaths": [
+                        "personal.regularDriver.employmentStatus.code"
+                      ],
+                      "values": [
+                        "UU"
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "household-member-unemployed-status",
+                            "sectionRoute": "regular-driver"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "household-member-workdays-from-home",
+                            "sectionRoute": "regular-driver"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is {{name}} se werkstatus?</h2>"
+                  }
+                },
+                {
+                  "id": "dialogEmploymentStatusDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Werkstatus is teenstrydig</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy het gekies dat die kar vir ‘<span class=\"font-bold\">{{vehicleUse}}</span>’ gebruik gaan word.</p>\n<p>{{name}} se werkstatus van ‘<span class=\"font-bold\">{{employmentStatus}}</span>’ kan nie onderskryf word deur die tipe gebruik nie.</p>\n<p>Kan ons die tipe gebruik verander na “<span class=\"font-bold\">{{vehicleUsePrivate}}</span>” om voort te gaan?</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnYes",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Ja, gaan voort",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCallback",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Bel my terug",
+                          "route": {
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "useUnemploymentStatuses",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
+                    "flag": false
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Unemployed Status",
+          "route": "household-member-unemployed-status",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-employment-status-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verander",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Kies die een wat die meeste gepas is vir {{name}}</h2>"
+                  }
+                },
+                {
+                  "id": "btnSkipWorkFromHome",
+                  "conditionValue": "C, X, E",
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Skip",
+                    "route": {
+                      "pageRoute": "is-regular-driver",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "dialogEmploymentStatusDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Werkstatus is teenstrydig</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy het gekies dat die kar vir ‘<span class=\"font-bold\">{{vehicleUse}}</span>’ gebruik gaan word.</p>\n<p>{{name}} se werkstatus van ‘<span class=\"font-bold\">{{employmentStatus}}</span>’ kan nie onderskryf word deur die tipe gebruik nie.</p>\n<p>Kan ons die tipe gebruik verander na “<span class=\"font-bold\">{{vehicleUsePrivate}}</span>” om voort te gaan?</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnYes",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Ja, gaan voort",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCallback",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Bel my terug",
+                          "route": {
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "data": [],
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "useUnemploymentStatuses",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
+                    "flag": true
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Workdays From Home ",
+          "route": "household-member-workdays-from-home",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "61e49875-e022-4c48-8213-da242658d432"
+            ],
+            "statePropertyPaths": [
+              "personal.regularDriver.employmentStatus.code"
+            ],
+            "values": [
+              "C",
+              "X",
+              "E"
+            ],
+            "route": null,
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-workdays-from-home-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Yes",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "No",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Does {{name}} work from home 3 days or more a week?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Licence Type",
+          "route": "household-member-licence-type",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-licence-type-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Verander",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Watter tipe bestuurslisensie het {{name}}?</h2>"
+                  }
+                },
+                {
+                  "id": "btnDropOff",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Drop Off",
+                    "route": {
+                      "pageRoute": "unacceptable-risk-no-license-householdmember",
+                      "sectionRoute": "callbackPages",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Licence Code",
+          "route": "household-member-licence-code",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "0441b4ab-7f6a-4f4e-907b-451c5f220640"
+            ],
+            "statePropertyPaths": [
+              "personal.regularDriver.licenceType.code"
+            ],
+            "values": [
+              "1"
+            ],
+            "route": null,
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-licence-code-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wat is {{name}} se Suid-Afrikaanse bestuurslisensiekode?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "data": [],
+                    "refData": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Housedhold Member Licence Date",
+          "route": "household-member-licence-date",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-licence-date-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wanneer is {{name}} se eerste Suid-Afrikaanse bestuurslisensie uitgereik?</h2>"
+                  }
+                },
+                {
+                  "id": "txtDate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Uitreikdatum",
+                    "helperText": null,
+                    "placeholderText": "Maand/Jaar",
+                    "formControlName": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnNextIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "icon-arrow-right",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Has Comprehensive Insurance Page",
+          "route": "household-member-has-insurance",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-has-comprehensive-insurance-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja",
+                    "route": {
+                      "pageRoute": "household-member-uninterrupted-cover",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee",
+                    "route": {
+                      "pageRoute": "household-member-last-sixty-days-insurance",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Het {{name}} tans omvattende karversekering?</h2>"
+                  }
+                },
+                {
+                  "id": "txtSubContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Dek die kar ingeval dit afgeskryf, gesteel of beskadig word as gevolg van ‘n ongeluk, diefstal, brande, asook ongelukskade wat jou kar aan iemand anders se kar of besittings veroorsaak.</h4>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Household Member Last Sixty Days Comprehensive Page",
+          "route": "household-member-last-sixty-days-insurance",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-last-sixty-days-comprehensive-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja",
+                    "route": {
+                      "pageRoute": "household-member-uninterrupted-cover",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee",
+                    "route": {
+                      "pageRoute": "household-last-claim",
+                      "sectionRoute": "regular-driver",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Was {{name}} gedurende die afgelope 60 dae die gereelde bestuurder van ŉ omvattend-versekerde kar?</h2>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Housedhold Member Uninterrupted Cover Page",
+          "route": "household-member-uninterrupted-cover",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-uninterrupted-cover-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": "",
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Vir hoeveel volle ononderbroke jare het {{name}} gedurende die afgelope 7 jaar omvattende versekering gehad?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "txtSubContent",
+                  "conditionValue": "",
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Dit maak nie saak as daar van versekeraars verander is nie.</h4>"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Housedhold Member Last Claim",
+          "route": "household-last-claim",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "pageType": {
+            "schemaId": "6e28a314-244c-43fb-bb2c-e561e9c21262",
+            "enum": {
+              "enumType": "PageType",
+              "enumValue": "HouseholdMember"
+            }
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "household-member-last-claims-page",
+              "moduleName": "PersonalDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnSelect",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "quote",
+                      "pageRoute": "premium"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wanneer laas het {{name}} geëis vir ‘n karongeluk of diefstal van ‘n kar?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-10-14T12:23:35Z",
+  "lastModified": "2025-04-01T15:22:39Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5OThlODJhYy1kNGNmLTQ4ZTMtYjhjMy0xZDY0ZWIxMTU0NzIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 4,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472/3",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/998e82ac-d4cf-48e3-b8c3-1d64eb115472",
+      "method": "PUT"
+    }
+  }
+}

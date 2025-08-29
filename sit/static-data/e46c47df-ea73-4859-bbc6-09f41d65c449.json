@@ -1,0 +1,235 @@
+{
+  "id": "e46c47df-ea73-4859-bbc6-09f41d65c449",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Security Measures"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "BB",
+          "index": 1,
+          "copy": "Burglar bars on all opening windows",
+          "description": "Burglar bars on all opening windows",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Diefwering aan alle oopmaak vensters",
+              "description": "Diefwering aan alle oopmaak vensters",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HOFT",
+          "index": 2,
+          "copy": "Home is occupied full time during working hours",
+          "description": "Home is occupied full time during working hours",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Die woning word voltyds gedurende werksure bewoon",
+              "description": "Die woning word voltyds gedurende werksure bewoon",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SGAC",
+          "index": 3,
+          "copy": "Security guarded access control",
+          "description": "Security guarded access control",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": "Sekuriteitbewaakte toegangsbeheer",
+              "description": "Sekuriteitbewaakte toegangsbeheer",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "EF",
+          "index": 4,
+          "copy": "Electric fencing in working order linked to armed reaction unit",
+          "description": "Electric fencing in working order linked to armed reaction unit",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid",
+              "description": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "EFE",
+          "index": 4,
+          "copy": "Electric fencing in working order linked to armed reaction unit/guard house",
+          "description": "Electric fencing in working order linked to armed reaction unit/guard house",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
+              "description": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "P",
+          "index": 5,
+          "copy": "24/7 Patrolling Security",
+          "description": "24/7 Patrolling Security",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 5,
+              "copy": "24/7 Sekuriteitswagte wat patroller",
+              "description": "24/7 Sekuriteitswagte wat patroller",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "N",
+          "index": 6,
+          "copy": "None of the above",
+          "description": "None of the above",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 6,
+              "copy": "Geen van die bogenoemde",
+              "description": "Geen van die bogenoemde",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-20T11:16:16Z",
+  "lastModified": "2025-08-22T13:38:19Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJlNDZjNDdkZi1lYTczLTQ4NTktYmJjNi0wOWY0MWQ2NWM0NDkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 5,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/4",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449",
+      "method": "PUT"
+    }
+  }
+}

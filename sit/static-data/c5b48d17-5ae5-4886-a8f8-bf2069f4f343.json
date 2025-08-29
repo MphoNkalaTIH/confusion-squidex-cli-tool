@@ -1,0 +1,246 @@
+{
+  "id": "c5b48d17-5ae5-4886-a8f8-bf2069f4f343",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Employment Statuses"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "F",
+          "index": 4,
+          "copy": null,
+          "description": "Student",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Vol-/Deeltydse opleiding",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "X",
+          "index": 2,
+          "copy": null,
+          "description": "Employed and working from home (3 or more days a week)",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "In diens geneem en werk van die huis af (3 of meer dae per week)",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "UU",
+          "index": 3,
+          "copy": null,
+          "description": "Unemployed",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Werkloos",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "E",
+          "index": 1,
+          "copy": null,
+          "description": "Employed",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "In diens geneem",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "R",
+          "index": 5,
+          "copy": null,
+          "description": "Retired",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Afgetree",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "C",
+          "index": 6,
+          "copy": null,
+          "description": "Civil Servant",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Staatsdiens amptenaar",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "H",
+          "index": 12,
+          "copy": null,
+          "description": "Housewife/husband",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Huisvrou/man",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "U",
+          "index": 11,
+          "copy": null,
+          "description": "Unemployed",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Werkloos",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "N",
+          "index": 13,
+          "copy": null,
+          "description": "Not employed due to disability/illness",
+          "image": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Werkloos as gevolg van ‘n gestremdheid/siekte",
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:05Z",
+  "lastModified": "2023-10-26T11:11:54Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjNWI0OGQxNy01YWU1LTQ4ODYtYThmOC1iZjIwNjlmNGYzNDMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 2,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343/1",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/c5b48d17-5ae5-4886-a8f8-bf2069f4f343",
+      "method": "PUT"
+    }
+  }
+}

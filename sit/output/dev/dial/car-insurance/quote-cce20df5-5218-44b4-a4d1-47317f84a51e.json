@@ -1,0 +1,2856 @@
+{
+  "id": "cce20df5-5218-44b4-a4d1-47317f84a51e",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "dial"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "quote"
+    },
+    "name": {
+      "iv": "Quote"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-circle-check-filled"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 1
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "premium-page",
+          "route": "premium",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": true,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": "",
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "premium-page",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Get covered",
+                    "route": {
+                      "pageRoute": "fit-tracking-device",
+                      "sectionRoute": "build-cover",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "txtExcessAmount",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"font-bold text-xs pt-3\">Excess amount</div>"
+                  }
+                },
+                {
+                  "id": "btnCoverType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Change your cover type",
+                    "route": {
+                      "pageRoute": "cover-types",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnInsuredValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Change your insured value",
+                    "route": {
+                      "pageRoute": "insured-value",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "headingIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">Included extra cover</h2>"
+                  }
+                },
+                {
+                  "id": "headingExtraCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">Select your extra cover</h2>"
+                  }
+                },
+                {
+                  "id": "comprehensiveDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Please note</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Opting for Comprehensive cover will be in your best interest, as the bank might require this for financed cars. The cover you are considering offers limited cover, and you will be responsible for any costs and damages that are not covered under this cover type.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Continue",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnChangeCoverType",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Change Cover Type",
+                          "route": {
+                            "pageRoute": "cover-types",
+                            "sectionRoute": "quote"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnSave",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Save and send quote",
+                    "route": {
+                      "pageRoute": "select-communication-method",
+                      "sectionRoute": "quote",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "headingWhatYouToldUs",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">What you told us</h2>"
+                  }
+                },
+                {
+                  "id": "imgCarDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "0d9ac3ff-2bf7-462e-a9db-75922e4c70c4"
+                    ]
+                  }
+                },
+                {
+                  "id": "imgPersonalDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "270ca9d7-cbcb-4c1a-a6db-8da1a7cb3278"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtUpsellCoverType",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Switch to <b>Comprehensive</b> or <b>Trailsure</b> cover to get up to 20% discount.",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "groupVehicleSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "year",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Year",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.year",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "make",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Make",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.make.copy",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": "vehicle.vehicle.make.image[0]",
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": "badge",
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "model",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Model",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.model.description",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "type",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Type",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.type.description",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "colour",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Colour",
+                          "template": "vehicleDetailsTemplate",
+                          "valueFieldPath": "vehicle.vehicle.colour.copy",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": "vehicle.vehicle.colour.image[0]",
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": "colour",
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "use",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "What's the car used for?",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.use.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": "vehicle.vehicle.use.copy"
+                        }
+                      },
+                      {
+                        "id": "registeredInSa",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Is your car registered in South Africa?",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.registeredInSa"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "isFinanced",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Is the car financed?",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.isFinanced"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No, the car is fully paid off"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "coverType",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Cover type",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.coverType.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": "vehicle.vehicle.coverType.copy"
+                        }
+                      },
+                      {
+                        "id": "insuredValue",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Insured value",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.insuredValue.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": "vehicle.vehicle.insuredValue.copy"
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "parkedDetailHome",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Nighttime parking area/suburb",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "a2e0adb4-3490-4cc3-91d6-eeac7141704a"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailHome.method.code",
+                              "vehicle.vehicle.parkedDetailHome.address.suburbName",
+                              "vehicle.vehicle.parkedDetailHome.address.postCode"
+                            ],
+                            "values": [
+                              "No specific location"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "parkedDetailHomeLocation",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Nighttime parking location",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.parkedDetailHome.method.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": ""
+                        }
+                      },
+                      {
+                        "id": "parkedDetailHomeSecurity",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Nighttime parking security",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "8f78ec19-d5a1-44b5-a1a8-d0d594facc05"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailHome.method.code",
+                              "vehicle.vehicle.parkedDetailHome.security"
+                            ],
+                            "values": [
+                              "No specific location"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "parkedDetailWork",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Daytime parking area/suburb",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "a2e0adb4-3490-4cc3-91d6-eeac7141704a"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailWork.method.code",
+                              "vehicle.vehicle.parkedDetailWork.address.suburbName",
+                              "vehicle.vehicle.parkedDetailWork.address.postCode"
+                            ],
+                            "values": [
+                              "No specific location"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "parkedDetailWorkLocation",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Daytime parking location",
+                          "template": null,
+                          "valueFieldPath": "vehicle.vehicle.parkedDetailWork.method.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": ""
+                        }
+                      },
+                      {
+                        "id": "parkedDetailWorkSecurity",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Daytime parking security",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "8f78ec19-d5a1-44b5-a1a8-d0d594facc05"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailWork.method.code",
+                              "vehicle.vehicle.parkedDetailWork.security"
+                            ],
+                            "values": [
+                              "No specific location"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "hasTrackingDevice",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Do you have a vehicle tracking and recovery device installed in the car?",
+                          "template": null,
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.trackerDetails.hasTrackingDevice"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "groupPersonalSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "idNumber",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.identification.idNumber",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "titleCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "74d77a3a-63e5-420b-845f-da13416e6d08"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.identification.idType"
+                            ],
+                            "values": [
+                              "Passport number",
+                              "South African ID number"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "dateOfBirth",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Date of birth",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.dateOfBirth",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "cd40b71f-eeec-44f8-b3f5-f02f6ac85df5"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.identification.idType"
+                            ],
+                            "values": [
+                              "2"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "da66c138-42ed-4807-ba5b-03fd80335405",
+                            "format": "dd MMMM yyyy",
+                            "localeOverride": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "gender",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Gender",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.gender.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "name",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Name and surname",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.firstName",
+                              "personal.policyHolder.lastName"
+                            ],
+                            "values": [
+                              " "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phone",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Cellphone number",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.phone",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "email",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Email address",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.emailAddress",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "maritalStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Marital status",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.maritalStatus.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "employmentStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Employment status",
+                          "template": "",
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "c423fd41-3794-4993-b9f5-e98339036773"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.employmentStatus.description",
+                              "personal.policyHolder.workdaysFromHome"
+                            ],
+                            "values": [
+                              ": Working from home 3 days or more a week.",
+                              ""
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "regularDriver",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Will you be the regular driver of this car?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No, someone else will drive the car more than me"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "driverRelationshipToPolicyHolder",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "How are you related to the regular driver?",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.relationshipToPolicyHolder.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "groupRegularDriverSummary",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "idNumber",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.identification.idNumber",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "titleCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "74d77a3a-63e5-420b-845f-da13416e6d08"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.identification.idType"
+                            ],
+                            "values": [
+                              "Passport number",
+                              "South African ID number"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.identification.idNumber"
+                            ],
+                            "values": [
+                              null
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "dateOfBirth",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Date of birth",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.dateOfBirth",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "cd40b71f-eeec-44f8-b3f5-f02f6ac85df5"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.identification.idType"
+                            ],
+                            "values": [
+                              "2",
+                              null
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "da66c138-42ed-4807-ba5b-03fd80335405",
+                            "format": "dd MMMM yyyy",
+                            "localeOverride": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "gender",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Gender",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.gender.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "name",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Name and surname",
+                          "template": "",
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": true,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "25e3e014-d851-445e-bb69-3f4e3baf92d2"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.firstName",
+                              "personal.regularDriver.lastName"
+                            ],
+                            "values": [
+                              " "
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "maritalStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Marital status",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.maritalStatus.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null
+                        }
+                      },
+                      {
+                        "id": "employmentStatus",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Employment status",
+                          "template": "",
+                          "valueFieldPath": "",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "c423fd41-3794-4993-b9f5-e98339036773"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.employmentStatus.description",
+                              "personal.regularDriver.workdaysFromHome"
+                            ],
+                            "values": [
+                              ": Working from home 3 days or more a week.",
+                              ""
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "groupOtherDetails",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "licenceType",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Driver's licence type",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.identification.idNumber",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "0a31b81f-9260-4750-b8f4-4a0050c0777c"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.licenceType.description",
+                              "personal.regularDriver.licenceType.description"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "licenceDate",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Driver's licence first issue date",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "0a31b81f-9260-4750-b8f4-4a0050c0777c"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.licenceIssueDate",
+                              "personal.regularDriver.licenceIssueDate"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "dateOptions": {
+                            "schemaId": "da66c138-42ed-4807-ba5b-03fd80335405",
+                            "format": "MMMM yyyy",
+                            "localeOverride": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "licenceCode",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Driver's licence code",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": true,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "0a31b81f-9260-4750-b8f4-4a0050c0777c"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.licenceCode.code",
+                              "personal.regularDriver.licenceCode.code"
+                            ],
+                            "values": null,
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "hr",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<hr class=\"my-2\"/>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "phComprehensiveCarInsurance",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Do you currently have comprehensive car insurance?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgComprehensiveCarInsurance",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Does {{householdMemberName}} currently have comprehensive car insurance?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phLastSixtyDaysComprehensive",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Have you been the regular driver of a comprehensively insured car during the last 60 days?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "d0c3f9df-d78a-4ee9-8e68-a82d62c19bd9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              false,
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgLastSixtyDaysComprehensive",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "Has {{householdMemberName}} been the regular driver of a comprehensively insured car during the last 60 days?",
+                          "template": "",
+                          "valueFieldPath": null,
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "1ad19bee-6734-4c96-882d-d29772ea57e9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.regularDriver.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              "Yes",
+                              "No"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          },
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "d0c3f9df-d78a-4ee9-8e68-a82d62c19bd9"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.regularDriver.hasComprehensiveInsurance"
+                            ],
+                            "values": [
+                              true,
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phUninterruptedCover",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "How many full years of uninterrupted comprehensive car insurance have you had over the last 7 years?",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.uninterruptedCover.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "b68a0984-5e35-4e1a-a4f5-14825e50e2a7"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.policyHolder.hasComprehensiveInsurance",
+                              "personal.policyHolder.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              false,
+                              false,
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgUninterruptedCover",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "How many full years of uninterrupted comprehensive car insurance has  {{householdMemberName}} had over the last 7 years",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.uninterruptedCover.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "b68a0984-5e35-4e1a-a4f5-14825e50e2a7"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver",
+                              "personal.regularDriver.hasComprehensiveInsurance",
+                              "personal.regularDriver.lastSixtyDaysComprehensive"
+                            ],
+                            "values": [
+                              true,
+                              false,
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "phLastClaim",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "When was your last car accident or car theft claim?",
+                          "template": "",
+                          "valueFieldPath": "personal.policyHolder.lastClaimYears.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              false
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      },
+                      {
+                        "id": "rgLastClaim",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
+                          "title": "When was  {{householdMemberName}}'s last car accident or car theft claim?",
+                          "template": "",
+                          "valueFieldPath": "personal.regularDriver.lastClaimYears.description",
+                          "applyTitleCasePipeToValue": null,
+                          "imageFieldPath": null,
+                          "ignoreSentenceCaseForValue": null,
+                          "imageClass": null,
+                          "copyFieldPath": null,
+                          "hiddenCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "3173011f-0c17-4428-8822-e68aa6ff5676"
+                            ],
+                            "statePropertyPaths": [
+                              "personal.policyHolder.isRegularDriver"
+                            ],
+                            "values": [
+                              true
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtWindscreenExcess",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Windscreen/glass excess:"
+                  }
+                },
+                {
+                  "id": "txtTabHeaderCovertypeReplace",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "1st for Women ",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtChangeYourExcessHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs text-sub-5\">Change your excess</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtChangeYourExcessDesc",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-sm leading-4\">This is the amount you will pay when you claim.</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtYourExcessHeading",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs text-sub-5\">Your excess</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPersonalisePremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-xs\">Personalise your premium</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtMonthlyPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"mt-6 text-xs\">Your monthly premium</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "imgMonthlyPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "afe97747-5deb-4020-b99d-f4f6862ee3fb"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtGetCovered",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"font-bold text-main-2 underline\">Get covered</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "carHireDefaultReplaceText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Kia Picanto or similar",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "headingAdditionalAddons",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-bold\">Your selected add-ons</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "trackingDeviceBulletDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtSafeAndSoundTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "Netstar Safe and Sound features",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtStarDriveTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "Netstar Star Drive features",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": "",
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtNetStarSafeAndSoundFeatures",
+                        "type": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": true,
+                          "formItems": [
+                            {
+                              "id": "txtFeature1",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Stolen vehicle recovery services",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature2",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Fitment certificate for insurance",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature3",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Signal jamming detection alert",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature4",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Impact detection for safety",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature5",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Battery disconnect alert",
+                                "htmlEvents": []
+                              }
+                            }
+                          ]
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtNetStarStarDriveFeatures",
+                        "type": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": true,
+                          "formItems": [
+                            {
+                              "id": "txtFeature1",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Stolen vehicle recovery services",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature2",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Fitment certificate for insurance",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature3",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Signal jamming detection alert",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature4",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Impact detection for safety",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature5",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Battery disconnect alert",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature6",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Web and app live tracking",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature7",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Logbook for SARS",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature8",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Personal driver behaviour rating",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature9",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Car park jamming alert",
+                                "htmlEvents": []
+                              }
+                            }
+                          ]
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnAllNetstarPlusFeatures",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<a id=\"allNetstarPlusOptions\">All Netstar Plus features</a>",
+                    "htmlEvents": [
+                      {
+                        "id": "allNetstarPlusOptions",
+                        "eventName": "click",
+                        "callback": "onClickNetstarPlusOptions",
+                        "callbackParams": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "allNetStarPlusOptionsDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0\">Netstar Plus features</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtNetStarPlusFeatures",
+                        "type": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": true,
+                          "formItems": [
+                            {
+                              "id": "txtFeature1",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Stolen vehicle recovery services",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature2",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Fitment certificate for insurance",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature3",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Signal jamming detection (JammingResist™)",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature4",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Impact detection for safety",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature5",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Battery disconnect alert",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature6",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Web and app live tracking",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature7",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Logbook for SARS",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature8",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Personal driver behaviour rating",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature9",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Car park jamming alert",
+                                "htmlEvents": []
+                              }
+                            }
+                          ]
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got it",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "imgTrackingDeviceIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": []
+                  }
+                },
+                {
+                  "id": "trackerNotValidDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Please note</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Based on your updated risk details, the selected device is no longer adequate.</p>\n<p>Please choose a new device on the next screen.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Select a new device",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "select-tracking-device",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Request a call back",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "cover-type-page",
+          "route": "cover-types",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "cover-type-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Done",
+                    "route": {
+                      "pageRoute": "premium",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "4b2c36b8-14df-4247-9cd8-8cace9d5c1e2"
+                      ],
+                      "statePropertyPaths": [
+                        "vehicle.vehicle.coverType",
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "insured-value",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "premium",
+                            "sectionRoute": "resume-quote"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Select your preferred cover type</h2>"
+                  }
+                },
+                {
+                  "id": "comprehensiveDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Please note</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>\n    Opting for Comprehensive cover will be in your best interest, as the bank \n    might require this for financed cars. The cover you are considering offers \n    limited cover, and you will be responsible for any costs and damages that \n    are not covered under this cover type.\n</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Continue",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnChangeCoverType",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Change Cover Type",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "txtFromPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "From",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "insured-value-page",
+          "route": "insured-value",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": true,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "insured-value-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
+                  "id": "btnDone",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Done",
+                    "route": {
+                      "pageRoute": "premium",
+                      "sectionRoute": "quote",
+                      "goToStart": false,
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "113898ca-bc78-4b85-8bd9-8e25b2da1bcc",
+                      "code": [
+                        "8548d8ff-3615-4880-ac96-2bad8d5b9ebf"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote"
+                      ],
+                      "values": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "policy",
+                            "pageRoute": "premium",
+                            "sectionRoute": "resume-quote"
+                          }
+                        }
+                      ]
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"pt-5\">Select your preferred insured value</h2>"
+                  }
+                },
+                {
+                  "id": "variantTagGroup",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "B",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                          "formControlName": null,
+                          "text": "Enhanced value",
+                          "errorMessage": null
+                        }
+                      },
+                      {
+                        "id": "M",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                          "formControlName": null,
+                          "text": "Most popular",
+                          "errorMessage": null
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select Communication Method Page",
+          "route": "select-communication-method",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "select-communication-method",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContentComprehensive",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Save now and continue later!</h2>\n<h4>How would you like to receive your quote?</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContentNonComprehensive",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Save now and continue later!</h2>\n<h4>How would you like to receive your quote?</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Not Used",
+                    "route": {
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "3e9bc5eb-f7a2-4243-a95e-117c3b21f140"
+                      ],
+                      "statePropertyPaths": [
+                        "quote.communicationMethod.code"
+                      ],
+                      "values": [
+                        "SMS"
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "pageRoute": "communication-sent",
+                            "sectionRoute": "quote"
+                          }
+                        },
+                        {
+                          "route": {
+                            "pageRoute": "capture-communication-details",
+                            "sectionRoute": "quote"
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Capture Communication Details Page",
+          "route": "capture-communication-details",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": null,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "capture-communication-details",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContentEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What's your email address?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContentWhatsapp",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>What's your WhatsApp number?</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtEmail",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Email address",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "emailAddress",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Email address is required",
+                      "invalidErrorMessage": "Email address is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Send quote",
+                    "route": {
+                      "pageRoute": "communication-sent",
+                      "sectionRoute": "quote",
+                      "baseRoute": "car-insurance"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtWhatsapp",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "WhatsApp number",
+                    "helperText": null,
+                    "placeholderText": "Please Complete",
+                    "formControlName": "number",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Whatsapp number is required",
+                      "invalidErrorMessage": "Whatsapp number is invalid",
+                      "maxLength": 10,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Commumication Sent Page",
+          "route": "communication-sent",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": true,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "communication-sent",
+              "moduleName": "QuoteDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-16\">\r\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/5a18c6d4-29bf-42da-b0c4-ba34c953ebd4/successtick.svg\">\r\n    <h1 class=\"flex flex-col mb-3 mt-6 text-[33px] text-blue-zodaic font-rounded leading-tight\"><span>Thank You</span> {{name}}!</h1>\r\n    <hr class=\"border-sub-4 w-full my-3\">\r\n    <p class=\"my-3 font-normal text-base text-sub-5 leading-5\">We have sent your quote.</p>\r\n    <p class=\"my-3 font-normal text-base text-sub-5 leading-5\">Please note that it is valid for 30 days.</p>\r\n</div>\r\n",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Take me to the homepage",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": "fu-btn-secondary inverse",
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContentSms",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center px-16\">\r\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/5a18c6d4-29bf-42da-b0c4-ba34c953ebd4/successtick.svg\">\r\n    <h1 class=\"flex flex-col mb-3 mt-6 text-[33px] text-zodaic-blue font-rounded leading-tight\"><span>Thank You</span> {{name}}!</h1>\r\n    <hr class=\"border-sub-4 w-full my-3\">\r\n    <p class=\"my-3 mb-0 font-normal text-base text-sub-5 leading-5\">We have sent your quote to <span class=\"font-bold\">{{smsNumber}}</span></p>\r\n    <p class=\"my-3 mb-5 font-normal text-base text-sub-5 leading-5\">Please note that it is valid for 30 days.</p>\r\n</div>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-05T07:19:46Z",
+  "lastModified": "2025-06-06T08:19:57Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjY2UyMGRmNS01MjE4LTQ0YjQtYTRkMS00NzMxN2Y4NGE1MWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 10,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/9",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e",
+      "method": "PUT"
+    }
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "id": "e3c950c9-8f39-4410-a556-2530c0c93da4",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Cover Type Bullets Variant"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "A",
+          "index": null,
+          "copy": null,
+          "description": "Theft & hijacking",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "A",
+          "index": null,
+          "copy": null,
+          "description": "Malicious damage",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "A",
+          "index": null,
+          "copy": "",
+          "description": "Fire, flood, storm, earthquakes & snow",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "A",
+          "index": null,
+          "copy": null,
+          "description": "Damage to your car due to an accident – regardless of who’s at fault",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "A",
+          "index": null,
+          "copy": null,
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "D",
+          "index": null,
+          "copy": null,
+          "description": "All Comprehensive cover benefits",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "D",
+          "index": null,
+          "copy": null,
+          "description": "Off - road accessories fitted to the vehicle & spare wheel",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": null,
+          "description": "Theft & hijacking",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": null,
+          "description": "Fire, explosions & lightning",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": null,
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "C",
+          "index": null,
+          "copy": null,
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": null,
+          "description": "Theft",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "J",
+          "index": null,
+          "copy": null,
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "K",
+          "index": 1,
+          "copy": null,
+          "description": "Hail damage",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "K",
+          "index": 2,
+          "copy": null,
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "L",
+          "index": 0,
+          "copy": null,
+          "description": "Write-off",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "L",
+          "index": 2,
+          "copy": null,
+          "description": "Limited accident damage",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "L",
+          "index": 1,
+          "copy": null,
+          "description": "Hail damage",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "L",
+          "index": 3,
+          "copy": null,
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "K",
+          "index": 0,
+          "copy": null,
+          "description": "Write-off",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        }
+      ]
+    }
+  },
+  "created": "2025-07-24T15:17:38Z",
+  "lastModified": "2025-08-28T20:22:30Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJlM2M5NTBjOS04ZjM5LTQ0MTAtYTU1Ni0yNTMwYzBjOTNkYTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 3,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/2",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4",
+      "method": "PUT"
+    }
+  }
+}
