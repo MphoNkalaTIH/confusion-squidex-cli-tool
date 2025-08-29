@@ -43,16 +43,6 @@
         {
           "code": "A",
           "index": null,
-          "copy": null,
-          "description": "Hail damage - optional",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "A",
-          "index": null,
           "copy": "",
           "description": "Fire, flood, storm, earthquakes & snow",
           "class": null,
@@ -84,7 +74,7 @@
           "code": "D",
           "index": null,
           "copy": null,
-          "description": "All Comprehensive cover",
+          "description": "All Comprehensive cover benefits",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -144,7 +134,7 @@
           "code": "J",
           "index": null,
           "copy": null,
-          "description": "Theft & hijacking",
+          "description": "Theft",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -154,15 +144,15 @@
           "code": "J",
           "index": null,
           "copy": null,
-          "description": "Write-off",
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
           "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "J",
-          "index": null,
+          "code": "K",
+          "index": 1,
           "copy": null,
           "description": "Hail damage",
           "class": null,
@@ -171,28 +161,8 @@
           "brandOverrides": []
         },
         {
-          "code": "J",
-          "index": null,
-          "copy": null,
-          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
           "code": "K",
-          "index": null,
-          "copy": null,
-          "description": "Theft & hijacking",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "K",
-          "index": null,
+          "index": 2,
           "copy": null,
           "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
           "class": null,
@@ -202,17 +172,7 @@
         },
         {
           "code": "L",
-          "index": null,
-          "copy": null,
-          "description": "Theft & hijacking",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "L",
-          "index": null,
+          "index": 0,
           "copy": null,
           "description": "Write-off",
           "class": null,
@@ -222,7 +182,7 @@
         },
         {
           "code": "L",
-          "index": null,
+          "index": 2,
           "copy": null,
           "description": "Limited accident damage",
           "class": null,
@@ -232,7 +192,7 @@
         },
         {
           "code": "L",
-          "index": null,
+          "index": 1,
           "copy": null,
           "description": "Hail damage",
           "class": null,
@@ -242,9 +202,19 @@
         },
         {
           "code": "L",
-          "index": null,
+          "index": 3,
           "copy": null,
           "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": []
+        },
+        {
+          "code": "K",
+          "index": 0,
+          "copy": null,
+          "description": "Write-off",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -254,7 +224,7 @@
     }
   },
   "created": "2025-07-23T13:49:50Z",
-  "lastModified": "2025-07-27T20:45:33Z",
+  "lastModified": "2025-08-25T19:08:16Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJlM2M5NTBjOS04ZjM5LTQ0MTAtYTU1Ni0yNTMwYzBjOTNkYTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -285,14 +255,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 12,
+  "version": 16,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/11",
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/15",
       "method": "GET"
     },
     "draft/create": {

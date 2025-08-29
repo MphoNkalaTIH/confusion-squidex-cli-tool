@@ -1,7 +1,7 @@
 {
   "id": "e46c47df-ea73-4859-bbc6-09f41d65c449",
   "createdBy": "subject:63d3c2fdcd781721d0853640",
-  "lastModifiedBy": "subject:67ee549e834f3e41309d3c23",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "name": {
       "iv": "Security Measures"
@@ -25,6 +25,7 @@
           "index": 1,
           "copy": "Burglar bars on all opening windows",
           "description": "Burglar bars on all opening windows",
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -44,6 +45,7 @@
           "index": 2,
           "copy": "Home is occupied full time during working hours",
           "description": "Home is occupied full time during working hours",
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -63,6 +65,7 @@
           "index": 3,
           "copy": "Security guarded access control",
           "description": "Security guarded access control",
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -82,6 +85,7 @@
           "index": 4,
           "copy": "Electric fencing in working order linked to armed reaction unit",
           "description": "Electric fencing in working order linked to armed reaction unit",
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -101,24 +105,47 @@
           "index": 4,
           "copy": "Electric fencing in working order linked to armed reaction unit/guard house",
           "description": "Electric fencing in working order linked to armed reaction unit/guard house",
+          "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
+              "description": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "P",
           "index": 5,
           "copy": "24/7 Patrolling Security",
           "description": "24/7 Patrolling Security",
+          "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 5,
+              "copy": "24/7 Sekuriteitswagte wat patroller",
+              "description": "24/7 Sekuriteitswagte wat patroller",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "N",
           "index": 6,
           "copy": "None of the above",
           "description": "None of the above",
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -137,7 +164,7 @@
     }
   },
   "created": "2024-08-02T12:13:17Z",
-  "lastModified": "2025-05-22T14:44:27Z",
+  "lastModified": "2025-08-20T11:30:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJlNDZjNDdkZi1lYTczLTQ4NTktYmJjNi0wOWY0MWQ2NWM0NDkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -168,14 +195,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 11,
+  "version": 14,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/10",
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/13",
       "method": "GET"
     },
     "draft/create": {

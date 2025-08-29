@@ -71,7 +71,7 @@
           "code": "D",
           "index": 1,
           "copy": "Comprehensive cover with some added benefits for your 4x4 or SUV cars.",
-          "description": "Off-Road Vehicle Comprehensive",
+          "description": "Trailsure",
           "class": null,
           "image": [
             "51a7a65e-5080-4da4-96ed-8d9ed473845e"
@@ -208,10 +208,10 @@
           "code": "J",
           "index": 4,
           "copy": "You are covered for damages caused by someone else or if stolen.",
-          "description": "Essential 1",
+          "description": "Budget Lite 1",
           "class": null,
           "image": [
-            "6bc6c258-028f-4f87-afb0-c825cb9a9f83"
+            "95f19a0e-778c-404a-9e06-6713ed9a4058"
           ],
           "brandOverrides": [
             {
@@ -253,10 +253,10 @@
           "code": "K",
           "index": 5,
           "copy": "You are covered for hail damages, damages your car caused to other cars/property for which you are legally liable and if your car was written off.",
-          "description": "Essential 2",
+          "description": "Budget Lite 2",
           "class": null,
           "image": [
-            "95f19a0e-778c-404a-9e06-6713ed9a4058"
+            "6bc6c258-028f-4f87-afb0-c825cb9a9f83"
           ],
           "brandOverrides": [
             {
@@ -298,7 +298,7 @@
           "code": "L",
           "index": 6,
           "copy": "You are covered for limited accident damage, hail damages, damages your car caused to other cars/property for which you are legally liable and if your car was written off.",
-          "description": "Essential 3",
+          "description": "Budget Lite 3",
           "class": null,
           "image": [
             "34497842-edf2-4846-81c3-85c1c39a60df"
@@ -367,7 +367,7 @@
     }
   },
   "created": "2025-07-21T16:21:27Z",
-  "lastModified": "2025-07-28T11:00:17Z",
+  "lastModified": "2025-08-26T06:28:01Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI2ODgyZDc0Yy1mNjUwLTRhNDItYTg4NC05ZmVlMTIxM2U0ZTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -398,14 +398,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 19,
+  "version": 22,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1/18",
+      "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1/21",
       "method": "GET"
     },
     "draft/create": {
