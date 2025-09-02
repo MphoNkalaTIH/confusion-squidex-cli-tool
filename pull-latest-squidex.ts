@@ -13,19 +13,21 @@ interface DataFields {
 }
 
 function getOutputDir(schema: string): string {
+  const environment = (process.env.ENVIRONMENT)?.toLocaleLowerCase();
+
   switch(schema) {
     case "qoute-sections":
-      return 'output';
+      return `${environment}/output`;
 
     case "qoute-flow":
-      return 'qoute-flow';
+      return `${environment}/qoute-flow`;
 
     case "static-data":
-      return 'static-data';
+      return `${environment}/static-data`;
 
     case "enums":
-      return 'static-enums';
-    
+      return `${environment}/static-enums`;
+
     default:
       console.error(`[#] Unknown schema: ${schema} [#]`);
       return '';
@@ -34,19 +36,20 @@ function getOutputDir(schema: string): string {
 
 function getEnvironmentUrl(app: string, schema: string): string {
   const key = `${app} ${schema}`;
+  const environment = (process.env.ENVIRONMENT);
 
   switch(key) {
     case "con-fusion qoute-sections":
-      return 'DEV_QOUTE_SECTIONS_URL';
+      return `${environment}_QOUTE_SECTIONS_URL`;
 
     case "con-fusion qoute-flow":
-      return 'DEV_QOUTE_FLOW_URL';
+      return `${environment}_QOUTE_FLOW_URL`;
 
     case "con-fusion-static static-data":
-      return 'DEV_STATIC_DATA_URL';
+      return `${environment}_STATIC_DATA_URL`;
 
     case "con-fusion-static enums":
-      return 'DEV_ENUMS_URL';
+      return `${environment}_ENUMS_URL`;
     default:
       return '';
   }
