@@ -121,7 +121,9 @@ async function writeDataFiles(app: string, items: any[], outDir: string) {
 
 (async () => {
   try {
-    const ACCESS_TOKEN = process.env.TOKEN
+    const environment = (process.env.ENVIRONMENT);
+    const ACCESS_TOKEN = process.env[`${environment}_TOKEN`];
+
     if(!ACCESS_TOKEN){
       console.error('[#] No access token found. Please set the TOKEN environment variable [#]');
       return
