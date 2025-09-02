@@ -1,10 +1,14 @@
 
 ENVIRONMENT="DEV"
 
-CLIENT_ID = '6893342d9468c1aba43eda7d'
-CLIENT_SECRET = '8ug3pdyaxan1ywny4bxp6ty2jfmxuzgozr0jjfelsbex'
+DEV_CLIENT_ID = '$$'
+DEV_CLIENT_SECRET = '$$'
 
-BASE_URL="https://squidex-dev.isservices.co.za"
+SIT_CLIENT_ID = '$$'
+SIT_CLIENT_SECRET = '##'
+
+DEV_BASE_URL="https://squidex-dev.isservices.co.za"
+SIT_BASE_URL="https://squidex-sit.isservices.co.za"
 
 # DEV CONTENT URLS
 DEV_QOUTE_SECTIONS_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion/quote-sections"
@@ -12,8 +16,16 @@ DEV_QOUTE_FLOW_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion/
 DEV_STATIC_DATA_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion-static-data/static-data"
 DEV_ENUMS_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion-static-data/enums"
 
+# DEV CONTENT URLS
+SIT_QOUTE_SECTIONS_URL="https://squidex-sit.isservices.co.za/api/content/con-fusion/quote-sections"
+SIT_QOUTE_FLOW_URL="https://squidex-sit.isservices.co.za/api/content/con-fusion/quote-flow"
+SIT_STATIC_DATA_URL="https://squidex-sit.isservices.co.za/api/content/con-fusion-static-data/static-data"
+SIT_ENUMS_URL="https://squidex-sit.isservices.co.za/api/content/con-fusion-static-data/enums"
+
 ## Identity Server URLn
-IDENTITY_SERVER_URL="https://squidex-dev.isservices.co.za/identity-server/connect/token"
+IDENTITY_SERVER_URL="https://squidex-sit.isservices.co.za/identity-server/connect/token"
 
 # Token for authentication
-TOKEN="eyJhbGciOiJSUzI1NiIsImtpZCI6IlBoMXdQalR3WURTYUxEOXZJMEVjMVEiLCJ0eXAiOiJhdCtqd3QifQ.eyJzdWIiOiI2ODkzMzQyZDk0NjhjMWFiYTQzZWRhN2QiLCJuYW1lIjoiTXBob25AdGloc2EuY28uemEiLCJlbWFpbCI6Ik1waG9uQHRpaHNhLmNvLnphIiwib2lfcHJzdCI6InNxdWlkZXgtZnJvbnRlbmQiLCJvaV9hdV9pZCI6IjU1MGQ4NWM0LTJlMGEtNDk5Ny05YWYxLWIxZGU2MmJhMDk3MyIsImNsaWVudF9pZCI6InNxdWlkZXgtZnJvbnRlbmQiLCJvaV90a25faWQiOiI1ZGUxNDlhZC0yMzhiLTQ4YjUtYWQ2MC1jNGVmNGE5MDY3NWUiLCJhdWQiOiJzY3A6c3F1aWRleC1hcGkiLCJzY29wZSI6InNxdWlkZXgtYXBpIG9wZW5pZCBwcm9maWxlIGVtYWlsIHBlcm1pc3Npb25zIiwiZXhwIjoxNzU3MDY5NjgxLCJpc3MiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvaWRlbnRpdHktc2VydmVyIiwiaWF0IjoxNzU0NDc3NjgxfQ.hcdJqUFFgWxyleGeTYhrfcEVy06KCgz1ao9es3IydYRy4WqUjh84mfcHhitEepft5mMi6MQjnVBwKLJRSacP4FB4jNOxQjkOqVGC-R9A2KnaJ7jB5GaaqDpzQ0PlK2ezbIVlG9chUVtU7Zf1L7wfqJbvL14R0H32yd-RSZWgZSvfbhjWvT310aEF83uhHASH9-T0ERTvZtjPUqAMF6iCoe_4uLshevkfXXayS_jYD4xkjePtqwCyycs6eLwEKR5yO1Sau0o4xDdjgEB5EtpOgFocVSWvTSwT7XkY7rmhwqrd6nk8XQJ5pZz55_31uDseG1aiGC7HTZAqDJncyzTRNg"
+
+DEV_TOKEN="###"
+SIT_TOKEN="###"
