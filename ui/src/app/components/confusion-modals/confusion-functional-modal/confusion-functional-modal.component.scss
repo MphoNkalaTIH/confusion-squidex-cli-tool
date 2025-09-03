@@ -12,18 +12,20 @@
 
 .functional-modal {
   display: grid;
+  gap: 10px;
   position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: fit-content;
+  align-items: center;
   min-width: 50%;
   height: fit-content;
   max-width: 500px;
-  max-height: 80%;
+  min-height: 200px;
   overflow-y: visible;
   background-color: #f1f1f1;
-  padding: 0px 20px;
+  padding: 20px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
   z-index: 1000;
   border-radius: 5px;
@@ -37,6 +39,14 @@
   font-size: medium;
   position: relative;
   padding: 0px 0px 20px 0px;
+}
+
+.modal-header {
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+  border-bottom: 1px solid #c7c7c7;
+  padding-bottom: 15px;
 }
 
 .sticky-modal {
@@ -58,7 +68,6 @@
   justify-content: space-between;
   align-items: center;
   background-color: #f1f1f1;
-  padding: 20px 10px;
   width: 100%;
   border-top: 1px solid #e9ecef;
 }

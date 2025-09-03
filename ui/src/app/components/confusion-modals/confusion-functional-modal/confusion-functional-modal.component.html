@@ -1,14 +1,14 @@
 <div class="functional-modal-overlay">
   <div class="functional-modal">
     <span class="modal-header sticky-modal sticky-top-modal">
-      <h5>{{ addOrEditModalHeaderText() }}</h5>
+      <span>{{ addOrEditModalHeaderText() }}</span>
     </span>
 
     <div class="modal-body">
       <ng-content></ng-content>
     </div>
 
-    <span class="modal-buttons-container sticky-modal sticky-bottom-modal">
+    <span class="modal-buttons-container">
       <confusion-button
         [buttonType]="'danger'"
         [buttonIcon]="faBan"

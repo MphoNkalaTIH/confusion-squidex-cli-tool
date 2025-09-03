@@ -68,8 +68,14 @@
   <div class="card">
     <div class="file-list-container">
       @for (item of pathItems(); track item) {
-        <div class="file-item" (click)="markFileItem(item)">
-          <input type="checkbox" class="file-checkbox" [checked]="item.marked" />
+        <div class="file-item" (click)="item.type != 'folder' && markFileItem(item)">
+          <input
+            type="checkbox"
+            class="file-checkbox"
+            [checked]="item.marked"
+            [disabled]="item.type == 'folder'"
+            [class.disabled]="item.type == 'folder'"
+          />
 
           <span class="file-item-content">
             <span class="file-label">
