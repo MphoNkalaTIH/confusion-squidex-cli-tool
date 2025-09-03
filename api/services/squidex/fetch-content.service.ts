@@ -3,7 +3,7 @@ import 'dotenv/config';
 import fs from 'fs/promises';
 import path from 'path';
 
-function getOutputDir(schema) {
+function getOutputDir(schema: string) {
   const environment = (process.env.ENVIRONMENT)?.toLocaleLowerCase();
 
   switch(schema) {
@@ -25,7 +25,7 @@ function getOutputDir(schema) {
   }
 }
 
-function getEnvironmentUrl(app, schema) {
+function getEnvironmentUrl(app: string, schema: string) {
   const key = `${app} ${schema}`;
   const environment = (process.env.ENVIRONMENT);
 
@@ -46,7 +46,7 @@ function getEnvironmentUrl(app, schema) {
   }
 }
 
-async function getComponentsData(token, app, schema) {
+async function getComponentsData(token: string, app: string, schema: string) {
   const ENVIRONMENT_URL = getEnvironmentUrl(app, schema);
 
   return await axios.get(
@@ -70,7 +70,7 @@ function getNameAsRoute(name) {
   return name.replace(' ', '-').toLocaleLowerCase();
 }
 
-function buildFilePath(app, data, id, outDir) {
+function buildFilePath(app: string, data: { environmentId: { iv: string; }; brand: { iv: string; }; route: { iv: string; }; baseRoute: { iv: string; }; name: { iv: any; }; }, id: any, outDir: string) {
   if (app === 'con-fusion-static') {
     return path.join(outDir, `${id}.json`);
   } else if (app === 'con-fusion') {
@@ -89,7 +89,7 @@ function buildFilePath(app, data, id, outDir) {
   } else return '';
 }
 
-async function writeDataFiles(app, items, outDir) {
+async function writeDataFiles(app: string, items: any, outDir: string) {
   for (const item of items) {
     const filePath = buildFilePath(app, item.data, item.id, outDir);
     await fs.mkdir(path.dirname(filePath), { recursive: true });
