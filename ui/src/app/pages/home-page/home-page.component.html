@@ -16,89 +16,118 @@
         [buttonLabel]="'Push Changes'"
         (buttonClick)="pushUpdatedSquidexContent()"
       ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'info'"
+        [buttonIcon]="faEdit"
+        [buttonLabel]="'Edit'"
+        [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+        (buttonClick)="editFileContents()"
+      ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'neutral'"
+        [buttonIcon]="faClone"
+        [buttonLabel]="'Clone'"
+        [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+        (buttonClick)="cloneFile()"
+      ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'success'"
+        [buttonIcon]="faCodeMerge"
+        [buttonLabel]="'Merge'"
+        [disabled]="selectedItems().length != 2"
+        (buttonClick)="mergeFiles()"
+      ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'danger'"
+        [buttonIcon]="faTrash"
+        [buttonLabel]="'Delete'"
+        [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+        (buttonClick)="deleteFile()"
+      ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'simple'"
+        [buttonIcon]="faBookOpenReader"
+        [buttonLabel]="'Preview'"
+        [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+        (buttonClick)="previewFile()"
+      ></confusion-button>
     </div>
   </div>
 
   <div class="breadcrumb-container">
+    <span class="card-header">File System</span>
+
     <confusion-bread-crumb
       [items]="breadCrumbItems()"
       (breadCrumbEvent)="onBreadCrumbNavigate($event)"
     >
     </confusion-bread-crumb>
-  </div>
 
-  <div class="file-actions-container">
-    <confusion-button
-      [buttonType]="'info'"
-      [buttonIcon]="faEdit"
-      [buttonLabel]="'Edit'"
-      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
-      (buttonClick)="editFileContents()"
-    ></confusion-button>
+    <div id="file-system" class="card">
+      <div class="file-list-container">
+        @for (item of pathItems(); track item) {
+          <div
+            class="file-item"
+            (click)="item.type == 'directory' ? openFile(item) : markFileItem(item)"
+          >
+            <input
+              type="checkbox"
+              class="file-checkbox"
+              [checked]="item.marked"
+              [disabled]="item.type == 'directory'"
+              [class.disabled]="item.type == 'directory'"
+            />
 
-    <confusion-button
-      [buttonType]="'neutral'"
-      [buttonIcon]="faClone"
-      [buttonLabel]="'Clone'"
-      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
-      (buttonClick)="cloneFile()"
-    ></confusion-button>
+            <span class="file-item-content">
+              <span class="file-label">
+                <fa-icon [icon]="item.type == 'directory' ? faFolder : faFile"></fa-icon>
+                {{ item.label }}</span
+              >
 
-    <confusion-button
-      [buttonType]="'success'"
-      [buttonIcon]="faCodeMerge"
-      [buttonLabel]="'Merge'"
-      [disabled]="selectedItems().length != 2"
-      (buttonClick)="mergeFiles()"
-    ></confusion-button>
-
-    <confusion-button
-      [buttonType]="'danger'"
-      [buttonIcon]="faTrash"
-      [buttonLabel]="'Delete'"
-      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
-      (buttonClick)="deleteFile()"
-    ></confusion-button>
-
-    <confusion-button
-      [buttonType]="'simple'"
-      [buttonIcon]="faBookOpenReader"
-      [buttonLabel]="'Preview'"
-      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
-      (buttonClick)="previewFile()"
-    ></confusion-button>
-  </div>
-
-  <div class="card">
-    <div class="file-list-container">
-      @for (item of pathItems(); track item) {
-        <div
-          class="file-item"
-          (click)="item.type == 'directory' ? openFile(item) : markFileItem(item)"
-        >
-          <input
-            type="checkbox"
-            class="file-checkbox"
-            [checked]="item.marked"
-            [disabled]="item.type == 'directory'"
-            [class.disabled]="item.type == 'directory'"
-          />
-
-          <span class="file-item-content">
-            <span class="file-label">
-              <fa-icon [icon]="item.type == 'directory' ? faFolder : faFile"></fa-icon>
-              {{ item.label }}</span
-            >
-
-            <div class="file-information">
-              <span class="file-type">{{ item.size }}</span
-              >•<span class="file-modified">{{ fetchSimplifiedDate(item.modified) }}</span>
-            </div>
-          </span>
-        </div>
-      }
+              <div class="file-information">
+                <span class="file-type">{{ item.size }}</span
+                >•<span class="file-modified">{{ fetchSimplifiedDate(item.modified) }}</span>
+              </div>
+            </span>
+          </div>
+        }
+      </div>
     </div>
   </div>
+
+  @if (selectedItems().length > 0) {
+    <span class="card-header">Selected Items</span>
+
+    <div id="selected-items" class="card">
+      <div class="file-list-container">
+        @for (item of selectedItems(); track item) {
+          <div class="file-item" (click)="item.type != 'directory' && markFileItem(item)">
+            <input type="checkbox" class="file-checkbox" [checked]="item.marked" />
+
+            <span class="file-item-content">
+              <span class="file-label">
+                <fa-icon [icon]="item.type == 'directory' ? faFolder : faFile"></fa-icon>
+                {{ item.label }}</span
+              >
+
+              <div class="file-information">
+                <span class="file-type">{{ item.size }}</span
+                >•<span class="file-modified">{{ fetchSimplifiedDate(item.modified) }}</span> •<span
+                  class="file-marked"
+                  >{{ item.parent }}</span
+                >
+              </div>
+            </span>
+          </div>
+        }
+      </div>
+    </div>
+  }
 
   <!----action modals-->
   @if (cloneFileModal()) {

@@ -27,12 +27,19 @@ main {
   padding: 4px 8px;
 }
 
+.card-header {
+  font-weight: bold;
+  font-size: small;
+}
+
 .card {
   display: flex;
   background: #ffff;
   color: #47575e;
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px;
+  max-height: 500px;
+  overflow-y: scroll;
 }
 
 .file-actions-container {
