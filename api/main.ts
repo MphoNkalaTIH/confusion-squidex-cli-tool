@@ -13,9 +13,7 @@ app.put("/files/merge-files", (req: Request, res: Response) => {res.status(200).
 app.delete("/squidex/delete-content", (req: Request, res: Response) => {res.status(200).send("OK")});
 app.get("/squidex/fetch-content", async (req: Request, res: Response) => {
   const params = req.query;
-  
   await fetchSquidexContent(params.app, params.schema);
-  
   res.status(200).send("OK");
 });
 app.put("/squidex/update-content", (req: Request, res: Response) => {res.status (200).send("OK")});

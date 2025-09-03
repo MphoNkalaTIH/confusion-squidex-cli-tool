@@ -8,16 +8,16 @@ function getOutputDir(schema) {
 
   switch(schema) {
     case "qoute-sections":
-      return `${environment}/output`;
+      return `squidex/${environment}/output`;
 
     case "qoute-flow":
-      return `${environment}/qoute-flow`;
+      return `squidex/${environment}/qoute-flow`;
 
     case "static-data":
-      return `${environment}/static-data`;
+      return `squidex/${environment}/static-data`;
 
     case "enums":
-      return `${environment}/static-enums`;
+      return `squidex/${environment}/static-enums`;
 
     default:
       console.error(`[#] Unknown schema: ${schema} [#]`);
