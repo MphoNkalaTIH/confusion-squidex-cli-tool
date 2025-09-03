@@ -1,21 +1,22 @@
 import axios from 'axios';
-import 'dotenv/config';
 import fs from 'fs/promises';
 import path from 'path';
 
 function getOutputDir(schema) {
-  switch (schema) {
-    case 'qoute-sections':
-      return 'output';
+  const environment = (process.env.ENVIRONMENT)?.toLocaleLowerCase();
 
-    case 'qoute-flow':
-      return 'qoute-flow';
+  switch(schema) {
+    case "qoute-sections":
+      return `${environment}/output`;
 
-    case 'static-data':
-      return 'static-data';
+    case "qoute-flow":
+      return `${environment}/qoute-flow`;
 
-    case 'enums':
-      return 'static-enums';
+    case "static-data":
+      return `${environment}/static-data`;
+
+    case "enums":
+      return `${environment}/static-enums`;
 
     default:
       console.error(`[#] Unknown schema: ${schema} [#]`);
@@ -25,19 +26,20 @@ function getOutputDir(schema) {
 
 function getEnvironmentUrl(app, schema) {
   const key = `${app} ${schema}`;
+  const environment = (process.env.ENVIRONMENT);
 
-  switch (key) {
-    case 'con-fusion qoute-sections':
-      return 'DEV_QOUTE_SECTIONS_URL';
+  switch(key) {
+    case "con-fusion qoute-sections":
+      return `${environment}_QOUTE_SECTIONS_URL`;
 
-    case 'con-fusion qoute-flow':
-      return 'DEV_QOUTE_FLOW_URL';
+    case "con-fusion qoute-flow":
+      return `${environment}_QOUTE_FLOW_URL`;
 
-    case 'con-fusion-static static-data':
-      return 'DEV_STATIC_DATA_URL';
+    case "con-fusion-static static-data":
+      return `${environment}_STATIC_DATA_URL`;
 
-    case 'con-fusion-static enums':
-      return 'DEV_ENUMS_URL';
+    case "con-fusion-static enums":
+      return `${environment}_ENUMS_URL`;
     default:
       return '';
   }
@@ -46,24 +48,21 @@ function getEnvironmentUrl(app, schema) {
 async function getComponentsData(token, app, schema) {
   const ENVIRONMENT_URL = getEnvironmentUrl(app, schema);
 
-  return (
-    (await axios.get) <
-    any >
-    (process.env[ENVIRONMENT_URL] ?? '',
+  return await axios.get(
+    process.env[ENVIRONMENT_URL] ?? '',
     {
-      headers: {
+      headers: 
+      { 
         Authorization: `Bearer ${token}`,
-      },
-    })
-      .then((resp) => {
-        console.log('[#] Done doing fetch components from squidex [#]');
-        return resp.data.items;
-      })
-      .catch((err) => {
-        console.log({ error_fetching: err });
-        return null;
-      })
-  );
+      }
+    }
+  ).then((resp) =>{
+    console.log("[#] Done doing fetch components from squidex [#]");
+    return resp.data.items;
+  }).catch((err)=> {
+    console.log({error_fetching: err})
+    return null
+  })
 }
 
 function getNameAsRoute(name) {
@@ -107,7 +106,9 @@ async function writeDataFiles(app, items, outDir) {
 
 export async function fetchSquidexContent(PULL_FROM_APP, PULL_FROM_SCHEMA) {
   try {
-    const ACCESS_TOKEN = process.env.TOKEN;
+    const environment = (process.env.ENVIRONMENT);
+    const ACCESS_TOKEN = process.env[`${environment}_TOKEN`];
+
     if (!ACCESS_TOKEN) {
       console.error('[#] No access token found. Please set the TOKEN environment variable [#]');
       return;
