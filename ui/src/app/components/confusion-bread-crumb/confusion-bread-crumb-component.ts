@@ -1,4 +1,4 @@
-import { Component, OnInit, signal } from '@angular/core';
+import { Component, input } from '@angular/core';
 import { faArrowRight, faHome } from '@fortawesome/free-solid-svg-icons';
 import { BreadCumb } from '../../models/breadcrumb.model';
 
@@ -8,21 +8,11 @@ import { BreadCumb } from '../../models/breadcrumb.model';
   styleUrl: './confusion-bread-crumb-component.scss',
   standalone: false,
 })
-export class ConfusionBreadCrumbComponent implements OnInit {
-  items = signal<BreadCumb[] | undefined>([]);
+export class ConfusionBreadCrumbComponent {
+  items = input<BreadCumb[] | undefined>([]);
 
   faHome = faHome;
   faArrowRight = faArrowRight;
-
-  ngOnInit(): void {
-    this.items.set([
-      { label: 'Electronics', navigation: 'folder/Electronics' },
-      { label: 'Computer', navigation: 'folder/Computer' },
-      { label: 'Accessories', navigation: 'folder/Accessories' },
-      { label: 'Keyboard', navigation: 'folder/Keyboard' },
-      { label: 'Wireless', navigation: 'folder/Wireless' },
-    ]);
-  }
 
   navigateToBreadCrumbPath(navigateToBreadCrumbPath: string) {
     console.log({ navigating_to: navigateToBreadCrumbPath });

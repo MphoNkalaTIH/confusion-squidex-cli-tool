@@ -1,9 +1,19 @@
+import cors from 'cors';
 import express, { type Request, type Response } from 'express';
 import { getFolderContent, getRoot } from './services/files/get-all-files.service.ts';
 import { fetchSquidexContent } from './services/squidex/fetch-content.service.ts';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Enable CORS for all origins (customize as needed)
+app.use(
+  cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+  })
+);
 
 // files and folders routes
 app.get('/files/get-root', async (req: Request, res: Response) => {

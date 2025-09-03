@@ -36,6 +36,7 @@ function getFileOrFolderDetails(files: { parent: string; self: string }[]) {
       return {
         id: identifier,
         label: file.self,
+        parent: file.parent,
         type,
         size,
         modified,
