@@ -4,19 +4,19 @@ import fs from 'fs/promises';
 import path from 'path';
 
 function getOutputDir(schema: string) {
-  const environment = (process.env.ENVIRONMENT)?.toLocaleLowerCase();
+  const environment = process.env.ENVIRONMENT?.toLocaleLowerCase();
 
-  switch(schema) {
-    case "qoute-sections":
-      return `squidex/${environment}/output`;
+  switch (schema) {
+    case 'qoute-sections':
+      return `squidex/${environment}/qoute-sections`;
 
-    case "qoute-flow":
+    case 'qoute-flow':
       return `squidex/${environment}/qoute-flow`;
 
-    case "static-data":
+    case 'static-data':
       return `squidex/${environment}/static-data`;
 
-    case "enums":
+    case 'enums':
       return `squidex/${environment}/static-enums`;
 
     default:
@@ -27,19 +27,19 @@ function getOutputDir(schema: string) {
 
 function getEnvironmentUrl(app: string, schema: string) {
   const key = `${app} ${schema}`;
-  const environment = (process.env.ENVIRONMENT);
+  const environment = process.env.ENVIRONMENT;
 
-  switch(key) {
-    case "con-fusion qoute-sections":
+  switch (key) {
+    case 'con-fusion qoute-sections':
       return `${environment}_QOUTE_SECTIONS_URL`;
 
-    case "con-fusion qoute-flow":
+    case 'con-fusion qoute-flow':
       return `${environment}_QOUTE_FLOW_URL`;
 
-    case "con-fusion-static static-data":
+    case 'con-fusion-static static-data':
       return `${environment}_STATIC_DATA_URL`;
 
-    case "con-fusion-static enums":
+    case 'con-fusion-static enums':
       return `${environment}_ENUMS_URL`;
     default:
       return '';
@@ -49,28 +49,38 @@ function getEnvironmentUrl(app: string, schema: string) {
 async function getComponentsData(token: string, app: string, schema: string) {
   const ENVIRONMENT_URL = getEnvironmentUrl(app, schema);
 
-  return await axios.get(
-    process.env[ENVIRONMENT_URL] ?? '',
-    {
-      headers: 
-      { 
+  return await axios
+    .get(process.env[ENVIRONMENT_URL] ?? '', {
+      headers: {
         Authorization: `Bearer ${token}`,
-      }
-    }
-  ).then((resp) =>{
-    console.log("[#] Done doing fetch components from squidex [#]");
-    return resp.data.items;
-  }).catch((err)=> {
-    console.log({error_fetching: err})
-    return null
-  })
+      },
+    })
+    .then((resp) => {
+      console.log('[#] Done doing fetch components from squidex [#]');
+      return resp.data.items;
+    })
+    .catch((err) => {
+      console.log({ error_fetching: err });
+      return null;
+    });
 }
 
 function getNameAsRoute(name) {
   return name.replace(' ', '-').toLocaleLowerCase();
 }
 
-function buildFilePath(app: string, data: { environmentId: { iv: string; }; brand: { iv: string; }; route: { iv: string; }; baseRoute: { iv: string; }; name: { iv: any; }; }, id: any, outDir: string) {
+function buildFilePath(
+  app: string,
+  data: {
+    environmentId: { iv: string };
+    brand: { iv: string };
+    route: { iv: string };
+    baseRoute: { iv: string };
+    name: { iv: any };
+  },
+  id: any,
+  outDir: string
+) {
   if (app === 'con-fusion-static') {
     return path.join(outDir, `${id}.json`);
   } else if (app === 'con-fusion') {
@@ -107,7 +117,7 @@ async function writeDataFiles(app: string, items: any, outDir: string) {
 
 export async function fetchSquidexContent(PULL_FROM_APP, PULL_FROM_SCHEMA) {
   try {
-    const environment = (process.env.ENVIRONMENT);
+    const environment = process.env.ENVIRONMENT;
     const ACCESS_TOKEN = process.env[`${environment}_TOKEN`];
 
     if (!ACCESS_TOKEN) {
@@ -117,13 +127,13 @@ export async function fetchSquidexContent(PULL_FROM_APP, PULL_FROM_SCHEMA) {
 
     if (!PULL_FROM_APP || !PULL_FROM_SCHEMA) {
       console.error(
-        '[#] Usage: node pull-latest-squidex.js <pull-from-app> <pull-from-schema> [#]',
+        '[#] Usage: node pull-latest-squidex.js <pull-from-app> <pull-from-schema> [#]'
       );
       return;
     }
 
     console.log(
-      `Pulling latest data from Squidex app: ${PULL_FROM_APP}, schema: ${PULL_FROM_SCHEMA}`,
+      `Pulling latest data from Squidex app: ${PULL_FROM_APP}, schema: ${PULL_FROM_SCHEMA}`
     );
 
     const items = await getComponentsData(ACCESS_TOKEN, PULL_FROM_APP, PULL_FROM_SCHEMA);
