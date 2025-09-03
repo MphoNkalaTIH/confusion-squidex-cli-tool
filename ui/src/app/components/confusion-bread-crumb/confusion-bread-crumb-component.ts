@@ -1,4 +1,4 @@
-import { Component, input } from '@angular/core';
+import { Component, EventEmitter, input, Output } from '@angular/core';
 import { faArrowRight, faHome } from '@fortawesome/free-solid-svg-icons';
 import { BreadCumb } from '../../models/breadcrumb.model';
 
@@ -11,10 +11,8 @@ import { BreadCumb } from '../../models/breadcrumb.model';
 export class ConfusionBreadCrumbComponent {
   items = input<BreadCumb[] | undefined>([]);
 
+  @Output() breadCrumbEvent = new EventEmitter<BreadCumb>();
+
   faHome = faHome;
   faArrowRight = faArrowRight;
-
-  navigateToBreadCrumbPath(navigateToBreadCrumbPath: string) {
-    console.log({ navigating_to: navigateToBreadCrumbPath });
-  }
 }

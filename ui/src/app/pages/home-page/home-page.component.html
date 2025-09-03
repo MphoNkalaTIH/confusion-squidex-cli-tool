@@ -20,7 +20,11 @@
   </div>
 
   <div class="breadcrumb-container">
-    <confusion-bread-crumb [items]="breadCrumbItems()" />
+    <confusion-bread-crumb
+      [items]="breadCrumbItems()"
+      (breadCrumbEvent)="onBreadCrumbNavigate($event)"
+    >
+    </confusion-bread-crumb>
   </div>
 
   <div class="file-actions-container">

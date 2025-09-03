@@ -95,6 +95,20 @@ export class HomePageComponent {
     });
   }
 
+  onBreadCrumbNavigate(breadCrumb: BreadCumb) {
+    this.fileSystemService.getFolderItems(breadCrumb.navigation, breadCrumb.label).then((items) => {
+      this.pathItems.set(items);
+
+      // Remove everything after the clicked breadcrumb
+      this.breadCrumbItems.update((crumbs) => {
+        const index = (crumbs ?? []).findIndex(
+          (c) => c.label === breadCrumb.label && c.navigation === breadCrumb.navigation,
+        );
+        return index !== -1 ? (crumbs ?? []).slice(0, index + 1) : (crumbs ?? []);
+      });
+    });
+  }
+
   initPullLatestContentForm() {
     const form = this.formBuilder.group({
       app: [null, Validators.required],
@@ -132,8 +146,6 @@ export class HomePageComponent {
   }
 
   openFile(item: FileItem) {
-    console.log({ parent: item.parent, label: item.label });
-
     this.fileSystemService.getFolderItems(item.parent, item.label).then((child_root) => {
       this.pathItems.set(child_root);
 
@@ -141,8 +153,6 @@ export class HomePageComponent {
         ...(items ?? []),
         { label: item.label, navigation: item.parent },
       ]);
-
-      console.log({ breadcrumb: this.breadCrumbItems() });
     });
   }
 

@@ -3,12 +3,18 @@ import fs from 'fs/promises';
 export async function getRoot() {
   const files = await fs.readdir('squidex');
   const mappedFiles = files?.map((file) => ({ parent: 'squidex', self: file }));
+
+  console.log({ mappedFiles });
   const formattedFiles = await getFileOrFolderDetails(mappedFiles);
 
   return formattedFiles;
 }
 
 export async function getFolderContent(parent?: string, self?: string) {
+  if (!parent || !self || self == 'squidex') {
+    return await getRoot();
+  }
+
   const files = await fs.readdir(`${parent}/${self}`);
   const mappedFiles = files?.map((file) => ({ parent: `${parent}/${self}`, self: file }));
   const formattedFiles = await getFileOrFolderDetails(mappedFiles);
