@@ -1,0 +1,87 @@
+main {
+  display: grid;
+  gap: 13px;
+  padding: 10px;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-title {
+  font-weight: bold;
+  color: #535c61;
+}
+
+.squidex-actions-container {
+  display: flex;
+  gap: 8px;
+}
+
+.file-action-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 4px 8px;
+}
+
+.card {
+  display: flex;
+  background: #ffff;
+  color: #47575e;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.file-actions-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  background-color: #f1f5f7;
+  padding: 8px;
+}
+
+.file-list-container {
+  display: grid;
+  gap: 2px;
+  width: 100%;
+}
+
+.file-item {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+}
+
+.file-item:hover {
+  background-color: #e7e7e7;
+  cursor: pointer;
+}
+
+.file-item-content {
+  display: grid;
+  gap: 8px;
+}
+
+.file-label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.file-information {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: x-small;
+}
+
+.pull-latest-content-container {
+  display: flex;
+  gap: 30px;
+}

@@ -1,0 +1,18 @@
+<button
+  class="action-button"
+  [style]="{
+    backgroundColor: buttonTypeStyle.backgroundColor,
+    color: buttonTypeStyle.textColor,
+    borderWidth: '1px',
+    borderStyle: 'solid',
+    borderColor: buttonTypeStyle.borderColor,
+  }"
+  (click)="buttonClick.emit()"
+  [disabled]="disabled()"
+  [class.disabled]="disabled()"
+>
+  @if (buttonIcon()) {
+    <fa-icon [icon]="buttonIcon()"></fa-icon>
+  }
+  <label [class.disabled]="disabled()">{{ buttonLabel() }}</label>
+</button>

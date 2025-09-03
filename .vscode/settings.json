@@ -1,0 +1,27 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true,
+
+  // Tailwind CSS IntelliSense settings (optional but useful)
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.emmetCompletions": true,
+  "tailwindCSS.experimental.classRegex": [
+    "clsx\\(([^)]*)\\)", // support for clsx(...)
+    "classNames\\(([^)]*)\\)", // support for classNames(...)
+    "tw`([^`]*)`", // support for tw`...` (twin.macro)
+    "styled\\([^)]*\\)\\s*`([^`]*)`" // styled-components
+  ],
+
+  // Optional: prevent CSS conflict with Prettier formatting on Tailwind classes
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+
+  "editor.quickSuggestions": {
+    "strings": "on"
+  }
+}

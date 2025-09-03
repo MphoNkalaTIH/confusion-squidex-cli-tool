@@ -1,0 +1,10 @@
+<span class="breadcrumb-container">
+  <fa-icon [icon]="faHome"></fa-icon>
+
+  @for (breadCrumbItem of items(); track breadCrumbItem) {
+    <div class="breadcrumb-item" onclick="navigateToBreadCrumbPath(breadCrumbItem.navigation)">
+      <fa-icon [icon]="faArrowRight"></fa-icon>
+      <span class="item-label">{{ breadCrumbItem.label }}</span>
+    </div>
+  }
+</span>

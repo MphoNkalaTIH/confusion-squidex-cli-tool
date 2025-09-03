@@ -1,0 +1,168 @@
+<main class="main">
+  <div class="main-wrapper">
+    <span class="main-title">Confusion Squidex File Manager</span>
+
+    <div class="squidex-actions-container">
+      <confusion-button
+        [buttonType]="'info'"
+        [buttonIcon]="faSync"
+        [buttonLabel]="'Pull Latest'"
+        (buttonClick)="pullLatestSquidexContent()"
+      ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'warn'"
+        [buttonIcon]="faUpload"
+        [buttonLabel]="'Push Changes'"
+        (buttonClick)="pushUpdatedSquidexContent()"
+      ></confusion-button>
+    </div>
+  </div>
+
+  <div class="breadcrumb-container">
+    <confusion-bread-crumb />
+  </div>
+
+  <div class="file-actions-container">
+    <confusion-button
+      [buttonType]="'info'"
+      [buttonIcon]="faEdit"
+      [buttonLabel]="'Edit'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+      (buttonClick)="editFileContents()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'neutral'"
+      [buttonIcon]="faClone"
+      [buttonLabel]="'Clone'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+      (buttonClick)="cloneFile()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'success'"
+      [buttonIcon]="faCodeMerge"
+      [buttonLabel]="'Merge'"
+      [disabled]="selectedItems().length != 2"
+      (buttonClick)="mergeFiles()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'danger'"
+      [buttonIcon]="faTrash"
+      [buttonLabel]="'Delete'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+      (buttonClick)="deleteFile()"
+    ></confusion-button>
+
+    <confusion-button
+      [buttonType]="'simple'"
+      [buttonIcon]="faBookOpenReader"
+      [buttonLabel]="'Preview'"
+      [disabled]="selectedItems().length == 0 || selectedItems().length > 1"
+      (buttonClick)="previewFile()"
+    ></confusion-button>
+  </div>
+
+  <div class="card">
+    <div class="file-list-container">
+      @for (item of pathItems(); track item) {
+        <div class="file-item" (click)="markFileItem(item)">
+          <input type="checkbox" class="file-checkbox" [checked]="item.marked" />
+
+          <span class="file-item-content">
+            <span class="file-label">
+              <fa-icon [icon]="item.type == 'folder' ? faFolder : faFile"></fa-icon>
+              {{ item.label }}</span
+            >
+
+            <div class="file-information">
+              <span class="file-type">{{ item.size }}</span
+              >•<span class="file-modified">{{ fetchSimplifiedDate(item.dateModified) }}</span>
+            </div>
+          </span>
+        </div>
+      }
+    </div>
+  </div>
+
+  <!----action modals-->
+  @if (cloneFileModal()) {
+    <confusion-action-modal
+      actionType="Information"
+      actionHeaderText="Clone File"
+      actionBodyText="Are you sure you want to clone this file?"
+      (actionModalEvent)="handleCloneFileEvent($event)"
+    >
+    </confusion-action-modal>
+  }
+
+  @if (deleteFileModal()) {
+    <confusion-action-modal
+      actionType="Delete"
+      actionHeaderText="Delete File"
+      actionBodyText="Are you sure you want to delete this file?"
+      (actionModalEvent)="handleDeleteFileEvent($event)"
+    >
+    </confusion-action-modal>
+  }
+
+  <!----functional modals-->
+  @if (pullLatestContentModal()) {
+    <confusion-functional-modal
+      addOrEditModalHeaderText="Pull Latest Squidex Content"
+      (functionalModalEvent)="handleDeleteFileEvent($event)"
+    >
+      <form class="pull-latest-content-container">
+        <div class="form-group">
+          <label>Squidex App</label>
+          <ng-select
+            class="multiselect"
+            [items]="squidexApps()"
+            bindValue="label"
+            bindLabel="label"
+            formControlName="app"
+            placeholder="-- Select Squidex App --"
+            [multiple]="false"
+            [searchable]="true"
+            [virtualScroll]="true"
+            [clearable]="true"
+          >
+          </ng-select>
+
+          @if (
+            pullLatestContentForm()?.get('app')?.touched ||
+            pullLatestContentForm()?.get('app')?.invalid
+          ) {
+            <small class="text-danger">App is required.</small>
+          }
+        </div>
+
+        <div class="form-group">
+          <label>Squidex App</label>
+          <ng-select
+            class="multiselect"
+            [items]="squidexSchemas()"
+            bindValue="label"
+            bindLabel="label"
+            formControlName="schema"
+            placeholder="-- Select Squidex App --"
+            [multiple]="false"
+            [searchable]="true"
+            [virtualScroll]="true"
+            [clearable]="true"
+          >
+          </ng-select>
+
+          @if (
+            pullLatestContentForm()?.get('schema')?.touched ||
+            pullLatestContentForm()?.get('schema')?.invalid
+          ) {
+            <small class="text-danger">Schema is required.</small>
+          }
+        </div>
+      </form>
+    </confusion-functional-modal>
+  }
+</main>

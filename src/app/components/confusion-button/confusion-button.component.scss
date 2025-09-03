@@ -1,0 +1,19 @@
+button {
+  display: flex;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #d6d6d6;
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f1f5f7;
+  opacity: 0.5;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,39 @@
+<div class="action-modal-overlay">
+  <div class="action-modal">
+    <span class="close-modal-icon-container">
+      <span (click)="actionModalEvent.emit('cancel')">
+        <fa-icon [ngStyle]="{ cursor: 'pointer' }" [icon]="icons['faCircleXmark']"></fa-icon>
+      </span>
+    </span>
+
+    <span class="action-icon-container">
+      <fa-icon
+        class="action-icon"
+        [ngStyle]="{
+          color: colors[actionType()],
+          'background-color': backgroundColors[actionType()],
+        }"
+        [icon]="icons[actionType()]"
+      ></fa-icon>
+    </span>
+
+    <span class="action-text header-text">{{ actionHeaderText() }}</span>
+    <span class="action-text body-text">{{ actionBodyText() }}</span>
+
+    <span class="modal-buttons-container">
+      <confusion-button
+        [buttonType]="'danger'"
+        [buttonIcon]="faBan"
+        [buttonLabel]="dismissText()"
+        (buttonClick)="actionModalEvent.emit('cancel')"
+      ></confusion-button>
+
+      <confusion-button
+        [buttonType]="'danger'"
+        [buttonIcon]="faSave"
+        [buttonLabel]="submitText()"
+        (buttonClick)="actionModalEvent.emit('submit')"
+      ></confusion-button>
+    </span>
+  </div>
+</div>
