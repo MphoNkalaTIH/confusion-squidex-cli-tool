@@ -1,7 +1,7 @@
 export interface FileItem {
   id: string;
   label: string;
-  path: string;
+  relativeFilePath: string;
   parent: string;
   type: string;
   size: string;

@@ -140,6 +140,16 @@
     </confusion-action-modal>
   }
 
+  @if (mergeFilesModal()) {
+    <confusion-action-modal
+      actionType="Information"
+      actionHeaderText="Merge Files"
+      [actionBodyText]="getMergeFilesBodyText()"
+      (actionModalEvent)="handleMergeFilesEvent($event)"
+    >
+    </confusion-action-modal>
+  }
+
   @if (deleteFileModal()) {
     <confusion-action-modal
       actionType="Delete"

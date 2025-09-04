@@ -26,9 +26,12 @@ import { FileSystemService } from '../../services/file-system.service';
 })
 export class HomePageComponent {
   protected readonly title = signal('confusion-squidex');
+
   protected deleteFileModal = signal(false);
   protected cloneFileModal = signal(false);
   protected pullLatestContentModal = signal(false);
+  protected mergeFilesModal = signal(false);
+
   protected selectedItems = signal<FileItem[]>([]);
   protected pathItems = signal<FileItem[]>([]);
   protected squidexApps = signal<SquidexApp[]>([]);
@@ -185,7 +188,7 @@ export class HomePageComponent {
   }
 
   mergeFiles() {
-    console.log('Merge Files Clicked');
+    this.mergeFilesModal.set(true);
   }
 
   deleteFile() {
@@ -220,5 +223,26 @@ export class HomePageComponent {
       default:
         alert('Invalid action there');
     }
+  }
+
+  handleMergeFilesEvent($event: any) {
+    switch ($event) {
+      case 'cancel':
+        this.mergeFilesModal.set(false);
+        break;
+      case 'submit':
+        this.mergeFilesModal.set(false);
+        break;
+      default:
+        alert('Invalid action there');
+    }
+  }
+  getMergeFilesBodyText() {
+    const filesToMerge = this.selectedItems().map((item) => ({
+      label: item.label,
+      path: item.relativeFilePath,
+    }));
+
+    return `Are you sure you want to merge\n${filesToMerge[0].label}\n ${filesToMerge[0].path}\n into file\n ${filesToMerge[1].label}\n${filesToMerge[1].path}`;
   }
 }
