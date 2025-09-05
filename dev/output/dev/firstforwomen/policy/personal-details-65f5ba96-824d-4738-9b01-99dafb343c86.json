@@ -1,7 +1,7 @@
 {
   "id": "65f5ba96-824d-4738-9b01-99dafb343c86",
   "createdBy": "client:con-fusion:api",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -1928,7 +1928,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"font-roman\">The replacement value is what it will cost you to replace all your belongings with new items. If the exact new item cannot be found we will replace with a similar new item.<br><br>If you claim, we will calculate the replacement value for which you should have insured your home contents. If you insured them for less than that, we will only pay a part of your claim.</h4>",
+                    "html": "<h4 class=\"font-roman\">The replacement value is what it will cost you to replace all your belongings with new items. If the exact new item cannot be found we will replace it with a similar new item.<br><br>If you claim, we will calculate the replacement value for which you should have insured your home contents. If you insured them for less than that, we will only pay a part of your claim.</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -2009,7 +2009,7 @@
     }
   },
   "created": "2024-08-06T12:22:07Z",
-  "lastModified": "2025-08-05T13:26:58Z",
+  "lastModified": "2025-09-05T06:45:30Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NWY1YmE5Ni04MjRkLTQ3MzgtOWIwMS05OWRhZmIzNDNjODYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2089,14 +2089,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 20,
+  "version": 21,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/19",
+      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/20",
       "method": "GET"
     },
     "draft/create": {
