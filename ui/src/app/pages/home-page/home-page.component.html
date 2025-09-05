@@ -59,56 +59,30 @@
     </div>
   </div>
 
-  <div class="breadcrumb-container">
-    <span class="card-header">File System</span>
+  <div class="homepage-separator {{ selectedItems().length > 0 ? 'enabled' : '' }}">
+    <div class="file-system-container">
+      <span class="card-header">File System</span>
 
-    <confusion-bread-crumb
-      [items]="breadCrumbItems()"
-      (breadCrumbEvent)="onBreadCrumbNavigate($event)"
-    >
-    </confusion-bread-crumb>
+      <confusion-bread-crumb
+        [items]="breadCrumbItems()"
+        (breadCrumbEvent)="onBreadCrumbNavigate($event)"
+      >
+      </confusion-bread-crumb>
 
-    <div id="file-system" class="card">
-      <div class="file-list-container">
-        @for (item of pathItems(); track item) {
-          <div
-            class="file-item"
-            (click)="item.type == 'directory' ? openFile(item) : markFileItem(item)"
-          >
-            <input
-              type="checkbox"
-              class="file-checkbox"
-              [checked]="item.marked"
-              [disabled]="item.type == 'directory'"
-              [class.disabled]="item.type == 'directory'"
-            />
-
-            <span class="file-item-content">
-              <span class="file-label">
-                <fa-icon [icon]="item.type == 'directory' ? faFolder : faFile"></fa-icon>
-                {{ item.label }}</span
-              >
-
-              <div class="file-information">
-                <span class="file-type">{{ item.size }}</span
-                >•<span class="file-modified">{{ fetchSimplifiedDate(item.modified) }}</span>
-              </div>
-            </span>
-          </div>
-        }
-      </div>
-    </div>
-  </div>
-
-  @if (selectedItems().length > 0) {
-    <div class="breadcrumb-container">
-      <span class="card-header">Selected Items</span>
-
-      <div id="selected-items" class="card">
+      <div id="file-system" class="card">
         <div class="file-list-container">
-          @for (item of selectedItems(); track item) {
-            <div class="file-item" (click)="item.type != 'directory' && markFileItem(item)">
-              <input type="checkbox" class="file-checkbox" [checked]="item.marked" />
+          @for (item of pathItems(); track item) {
+            <div
+              class="file-item"
+              (click)="item.type == 'directory' ? openFile(item) : markFileItem(item)"
+            >
+              <input
+                type="checkbox"
+                class="file-checkbox"
+                [checked]="item.marked"
+                [disabled]="item.type == 'directory'"
+                [class.disabled]="item.type == 'directory'"
+              />
 
               <span class="file-item-content">
                 <span class="file-label">
@@ -119,7 +93,6 @@
                 <div class="file-information">
                   <span class="file-type">{{ item.size }}</span
                   >•<span class="file-modified">{{ fetchSimplifiedDate(item.modified) }}</span>
-                  •<span class="file-marked">{{ item.parent }}</span>
                 </div>
               </span>
             </div>
@@ -127,7 +100,36 @@
         </div>
       </div>
     </div>
-  }
+
+    @if (selectedItems().length > 0) {
+      <div class="file-system-container">
+        <span class="card-header">Selected Items</span>
+
+        <div id="selected-items" class="card">
+          <div class="file-list-container">
+            @for (item of selectedItems(); track item) {
+              <div class="file-item" (click)="item.type != 'directory' && markFileItem(item)">
+                <input type="checkbox" class="file-checkbox" [checked]="item.marked" />
+
+                <span class="file-item-content">
+                  <span class="file-label">
+                    <fa-icon [icon]="item.type == 'directory' ? faFolder : faFile"></fa-icon>
+                    {{ item.label }}</span
+                  >
+
+                  <div class="file-information">
+                    <span class="file-type">{{ item.size }}</span
+                    >•<span class="file-modified">{{ fetchSimplifiedDate(item.modified) }}</span>
+                    •<span class="file-marked">{{ item.parent }}</span>
+                  </div>
+                </span>
+              </div>
+            }
+          </div>
+        </div>
+      </div>
+    }
+  </div>
 
   <!----action modals-->
   @if (cloneFileModal()) {

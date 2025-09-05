@@ -42,7 +42,7 @@ main {
   overflow-y: scroll;
 }
 
-.breadcrumb-container {
+.file-system-container {
   display: grid;
   gap: 10px;
   border: 1px solid rgba(0, 0, 0, 0.1);
@@ -98,4 +98,15 @@ main {
 .pull-latest-content-container {
   display: flex;
   gap: 30px;
+}
+
+.homepage-separator {
+  display: block;
+}
+
+.homepage-separator.enabled {
+  display: grid;
+  grid-template-columns: 8fr 6fr;
+  gap: 13px;
+  align-items: flex-start;
 }
