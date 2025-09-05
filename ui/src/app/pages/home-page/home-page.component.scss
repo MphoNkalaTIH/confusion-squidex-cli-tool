@@ -30,6 +30,9 @@ main {
 .card-header {
   font-weight: bold;
   font-size: small;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card {
@@ -109,4 +112,10 @@ main {
   grid-template-columns: 8fr 6fr;
   gap: 13px;
   align-items: flex-start;
+}
+
+.clear-selected-items {
+  cursor: pointer;
+  font-size: smaller;
+  color: #535c61;
 }

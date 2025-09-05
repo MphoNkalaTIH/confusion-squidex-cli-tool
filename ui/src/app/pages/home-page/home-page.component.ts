@@ -2,6 +2,7 @@ import { Component, signal } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import {
   faBookOpenReader,
+  faCheckDouble,
   faClone,
   faCodeMerge,
   faCoffee,
@@ -55,6 +56,7 @@ export class HomePageComponent {
   faClone = faClone;
   faCodeMerge = faCodeMerge;
   faBookOpenReader = faBookOpenReader;
+  faCheckDouble = faCheckDouble;
 
   ngOnInit() {
     this.initRoot();
@@ -132,6 +134,11 @@ export class HomePageComponent {
     const result = dateObj.toLocaleDateString('en-US', options);
 
     return result;
+  }
+
+  clearAllSelectedItems() {
+    this.selectedItems().forEach((item) => (item.marked = false));
+    this.selectedItems.set([]);
   }
 
   markFileItem(item: FileItem) {

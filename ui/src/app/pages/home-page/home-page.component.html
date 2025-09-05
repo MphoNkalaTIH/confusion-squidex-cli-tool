@@ -103,7 +103,20 @@
 
     @if (selectedItems().length > 0) {
       <div class="file-system-container">
-        <span class="card-header">Selected Items</span>
+        <span class="card-header">
+          <span>Selected Items</span>
+
+          <div class="selected-items-count">
+            <span class="file-item-content">
+              <span class="file">
+                <fa-icon [icon]="faCheckDouble"></fa-icon>
+                {{ selectedItems().length }} item(s) selected
+              </span>
+            </span>
+          </div>
+        </span>
+
+        <span class="clear-selected-items" (click)="clearAllSelectedItems()">Clear All</span>
 
         <div id="selected-items" class="card">
           <div class="file-list-container">
