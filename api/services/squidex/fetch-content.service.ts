@@ -4,7 +4,7 @@ import fs from 'fs/promises';
 import path from 'path';
 
 function getOutputDir(schema: string) {
-  const environment = process.env.ENVIRONMENT?.toLocaleLowerCase();
+  const environment = process.env['ENVIRONMENT']?.toLocaleLowerCase();
 
   switch (schema) {
     case 'qoute-sections':
@@ -27,7 +27,7 @@ function getOutputDir(schema: string) {
 
 function getEnvironmentUrl(app: string, schema: string) {
   const key = `${app} ${schema}`;
-  const environment = process.env.ENVIRONMENT;
+  const environment = process.env['ENVIRONMENT'];
 
   switch (key) {
     case 'con-fusion qoute-sections':
@@ -65,7 +65,7 @@ async function getComponentsData(token: string, app: string, schema: string) {
     });
 }
 
-function getNameAsRoute(name) {
+function getNameAsRoute(name: string) {
   return name.replace(' ', '-').toLocaleLowerCase();
 }
 
@@ -115,9 +115,9 @@ async function writeDataFiles(app: string, items: any, outDir: string) {
   }
 }
 
-export async function fetchSquidexContent(PULL_FROM_APP, PULL_FROM_SCHEMA) {
+export async function fetchSquidexContent(PULL_FROM_APP: any, PULL_FROM_SCHEMA: any) {
   try {
-    const environment = process.env.ENVIRONMENT;
+    const environment = process.env['ENVIRONMENT'];
     const ACCESS_TOKEN = process.env[`${environment}_TOKEN`];
 
     if (!ACCESS_TOKEN) {
