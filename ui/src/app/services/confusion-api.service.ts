@@ -27,11 +27,7 @@ export class ConfusionApiService {
       ...extraParams,
     };
 
-    if (method === 'GET') {
-      config.params = params;
-    } else {
-      config.data = params;
-    }
+    config.params = params;
 
     try {
       const response = await axios(config);
@@ -41,4 +37,3 @@ export class ConfusionApiService {
     }
   }
 }
-//example: this.confusionApiService.request('GET', '/api/some-endpoint', { id: 1 })

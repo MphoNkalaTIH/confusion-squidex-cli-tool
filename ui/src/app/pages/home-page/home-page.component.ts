@@ -232,13 +232,19 @@ export class HomePageComponent {
     }
   }
 
-  handleMergeFilesEvent($event: any) {
+  async handleMergeFilesEvent($event: any) {
     switch ($event) {
       case 'cancel':
         this.mergeFilesModal.set(false);
         break;
       case 'submit':
+        await this.fileSystemService.mergeFiles(
+          this.selectedItems()[0].relativeFilePath,
+          this.selectedItems()[1].relativeFilePath,
+        );
+
         this.mergeFilesModal.set(false);
+
         break;
       default:
         alert('Invalid action there');
@@ -250,6 +256,6 @@ export class HomePageComponent {
       path: item.relativeFilePath,
     }));
 
-    return `Are you sure you want to merge\n${filesToMerge[0].label}\n ${filesToMerge[0].path}\n into file\n ${filesToMerge[1].label}\n${filesToMerge[1].path}`;
+    return `Are you sure you want to merge\n ${filesToMerge[0].path}\n into file \n${filesToMerge[1].path}`;
   }
 }

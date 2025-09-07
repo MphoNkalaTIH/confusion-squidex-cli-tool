@@ -19,9 +19,14 @@ export class FileSystemService {
     });
   }
 
-  getFileDetails(fileId: string) {
-    // GET /files/:id
-    return this.confusionApiService.request('GET', `/files/${fileId}`);
+  mergeFiles(mergeFromFilePath: string, mergeIntoFilePath: string) {
+    // POST /files/merge
+    console.log({ mergeFromFilePath, mergeIntoFilePath });
+
+    return this.confusionApiService.request('POST', `/files/merge-files`, {
+      mergeFromFilePath,
+      mergeIntoFilePath,
+    });
   }
 
   createFile(path: string, data: any) {
