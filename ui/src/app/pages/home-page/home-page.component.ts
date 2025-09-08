@@ -169,6 +169,7 @@ export class HomePageComponent {
   pullLatestSquidexContent() {
     this.pullLatestContentModal.set(true);
   }
+
   pullLatestSquidexContentEvent($event: any) {
     switch ($event) {
       case 'cancel':
@@ -243,19 +244,12 @@ export class HomePageComponent {
           this.selectedItems()[1].relativeFilePath,
         );
 
+        this.clearAllSelectedItems();
         this.mergeFilesModal.set(false);
 
         break;
       default:
         alert('Invalid action there');
     }
-  }
-  getMergeFilesBodyText() {
-    const filesToMerge = this.selectedItems().map((item) => ({
-      label: item.label,
-      path: item.relativeFilePath,
-    }));
-
-    return `Are you sure you want to merge\n ${filesToMerge[0].path}\n into file \n${filesToMerge[1].path}`;
   }
 }
