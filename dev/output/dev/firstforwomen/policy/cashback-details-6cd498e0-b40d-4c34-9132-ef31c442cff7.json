@@ -1,7 +1,7 @@
 {
   "id": "6cd498e0-b40d-4c34-9132-ef31c442cff7",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:669df913f6500a63dd5e0607",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -177,7 +177,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p><span class=\"text-main-3 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To find out more about Cash Back Plus simply download the </span><a href=\"https://www.firstforwomen.co.za/products/personal-insurance/cash-back-plus/\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>"
+                    "html": "<p><span class=\"text-main-3 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To find out more about Cash Back Plus, simply download the </span><a href=\"https://www.firstforwomen.co.za/products/personal-insurance/cash-back-plus/\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>"
                   }
                 },
                 {
@@ -223,7 +223,7 @@
     }
   },
   "created": "2024-11-29T12:52:38Z",
-  "lastModified": "2025-01-29T09:09:05Z",
+  "lastModified": "2025-09-08T09:04:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2Y2Q0OThlMC1iNDBkLTRjMzQtOTEzMi1lZjMxYzQ0MmNmZjciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -303,14 +303,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 6,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6cd498e0-b40d-4c34-9132-ef31c442cff7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6cd498e0-b40d-4c34-9132-ef31c442cff7/4",
+      "href": "/api/content/con-fusion/quote-sections/6cd498e0-b40d-4c34-9132-ef31c442cff7/5",
       "method": "GET"
     },
     "draft/create": {

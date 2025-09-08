@@ -1,7 +1,7 @@
 {
   "id": "e5fcca0d-59a9-4e9a-9fa5-557b644255c6",
   "createdBy": "client:con-fusion:api",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "budget"
@@ -118,7 +118,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Will you be the regular driver of this car?</h2>\n<h4 class=\"text-sub-9 leading-4\">This is the person who drives the car most of the time. Only one person can be the regular driver.<br><br>If there is a change in the regular driver details, please inform us immediately to avoid any problems when you claim.</h4>"
+                    "html": "<h2>Will you be the regular driver of this car?</h2>\n<h4 class=\"text-sub-9 leading-4 text-sm sm:text-sm font-normal\">This is the person who drives the car most of the time. Only one person can be the regular driver.<br><br>If there is a change in the regular driver details, please inform us immediately to avoid any problems when you claim.</h4>"
                   }
                 },
                 {
@@ -551,7 +551,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Do you currently have comprehensive car insurance?</h2>\n<h4>Covers loss or damage to your car due to accident, theft, fire, and accidental damage your car causes to someone else’s property.</h4>"
+                    "html": "<h2>Do you currently have comprehensive car insurance?</h2>\n<h4 class=\"text-sub-9 leading-4 text-sm sm:text-sm font-normal\">Covers loss or damage to your car due to accident, theft, fire, and accidental damage your car causes to someone else’s property.</h4>"
                   }
                 }
               ]
@@ -695,7 +695,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>How many full years of uninterrupted comprehensive car insurance have you had over the last 7 years?</h2>\n<h4>Switching between insurers doesn't matter</h4>"
+                    "html": "<h2>How many full years of uninterrupted comprehensive car insurance have you had over the last 7 years?</h2>\n<h4 class=\"text-sub-9 leading-4 text-sm sm:text-sm font-normal\">Switching between insurers doesn't matter</h4>"
                   }
                 }
               ]
@@ -2217,7 +2217,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Does {{name}} currently have comprehensive car insurance?</h2>\n<h4>Covers loss or damage to your car due to accident, theft, fire, and accidental damage your car causes to someone else’s property.</h4>"
+                    "html": "<h2>Does {{name}} currently have comprehensive car insurance?</h2>\n<h4 class=\"text-sub-9 leading-4 text-sm sm:text-sm font-normal\">Covers loss or damage to your car due to accident, theft, fire, and accidental damage your car causes to someone else’s property.</h4>"
                   }
                 }
               ]
@@ -2361,7 +2361,7 @@
                   "conditionValue": "",
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>How many full years of uninterrupted comprehensive car insurance has {{name}} had over the last 7 years?</h2>\n<h4>Switching between insurers doesn't matter</h4>"
+                    "html": "<h2>How many full years of uninterrupted comprehensive car insurance has {{name}} had over the last 7 years?</h2>\n<h4 class=\"text-sub-9 leading-4 text-sm sm:text-sm font-normal\">Switching between insurers doesn't matter</h4>"
                   }
                 }
               ]
@@ -2436,7 +2436,7 @@
     }
   },
   "created": "2024-08-22T08:43:11Z",
-  "lastModified": "2025-07-10T06:51:21Z",
+  "lastModified": "2025-09-08T08:04:15Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlNWZjY2EwZC01OWE5LTRlOWEtOWZhNS01NTdiNjQ0MjU1YzYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2516,14 +2516,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 12,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/e5fcca0d-59a9-4e9a-9fa5-557b644255c6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/e5fcca0d-59a9-4e9a-9fa5-557b644255c6/9",
+      "href": "/api/content/con-fusion/quote-sections/e5fcca0d-59a9-4e9a-9fa5-557b644255c6/11",
       "method": "GET"
     },
     "draft/create": {

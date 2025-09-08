@@ -1,7 +1,7 @@
 {
   "id": "9812a5ad-b741-4877-8680-9e35c88570a2",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:669df913f6500a63dd5e0607",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -177,7 +177,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p><span class=\"text-main-1 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To find out more about Cash Back Plus simply download the </span><a href=\"https://documentation.telesure.co.za/Auto&General/0012/Eng/Cash_Back_Plus_C_TsCs_PL_Eng_A&G.pdf\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>"
+                    "html": "<p><span class=\"text-main-1 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To find out more about Cash Back Plus, simply download the </span><a href=\"https://documentation.telesure.co.za/Auto&General/0012/Eng/Cash_Back_Plus_C_TsCs_PL_Eng_A&G.pdf\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>"
                   }
                 },
                 {
@@ -232,7 +232,7 @@
     }
   },
   "created": "2024-11-25T13:25:40Z",
-  "lastModified": "2025-01-29T09:07:38Z",
+  "lastModified": "2025-09-08T09:03:45Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5ODEyYTVhZC1iNzQxLTQ4NzctODY4MC05ZTM1Yzg4NTcwYTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -312,14 +312,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 22,
+  "version": 23,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/9812a5ad-b741-4877-8680-9e35c88570a2",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/9812a5ad-b741-4877-8680-9e35c88570a2/21",
+      "href": "/api/content/con-fusion/quote-sections/9812a5ad-b741-4877-8680-9e35c88570a2/22",
       "method": "GET"
     },
     "draft/create": {
