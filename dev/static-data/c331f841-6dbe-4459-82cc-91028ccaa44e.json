@@ -1,7 +1,7 @@
 {
   "id": "c331f841-6dbe-4459-82cc-91028ccaa44e",
   "createdBy": "subject:63d3c2fdcd781721d0853640",
-  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
+  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
   "data": {
     "name": {
       "iv": "Home Contents Cover"
@@ -81,7 +81,7 @@
           "code": "ExtendedCoverFireAndStorm",
           "index": 1,
           "copy": "Extended cover",
-          "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Damage or loss of washing and garden furniture.</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire or break-in at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
+          "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Damage or loss of washing and garden furniture</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire or break-in at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
           "class": null,
           "image": [
             "f67bc2a0-0058-4640-ab3a-587289742632"
@@ -686,7 +686,7 @@
     }
   },
   "created": "2024-08-26T13:17:25Z",
-  "lastModified": "2025-08-18T17:56:21Z",
+  "lastModified": "2025-09-05T09:27:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjMzMxZjg0MS02ZGJlLTQ0NTktODJjYy05MTAyOGNjYWE0NGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -717,14 +717,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 57,
+  "version": 58,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/56",
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/57",
       "method": "GET"
     },
     "draft/create": {
