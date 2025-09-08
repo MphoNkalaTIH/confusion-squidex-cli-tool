@@ -243,7 +243,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col my-8 text-sub-8 leading-tight\"><span><span>Thank you</span>,</span>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col my-8 text-sub-8 leading-tight\"><span class=\"text-main-1\">Thank you</span>{{name}}!</h1>",
                     "htmlEvents": []
                   }
                 }
@@ -294,7 +294,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"mt-0 mb-8 text-sub-8 text-base font-medium\">Based on the information you've provided, we unfortunately cannot {{contentText}}.</h2>"
+                    "html": "<h2 class=\"mt-0 mb-8 text-sub-8 text-base font-medium\">Based on the information you have provided, we unfortunately cannot {{contentText}}.</h2>"
                   }
                 },
                 {
@@ -1713,7 +1713,7 @@
     }
   },
   "created": "2023-07-31T09:41:24Z",
-  "lastModified": "2025-08-28T20:21:52Z",
+  "lastModified": "2025-09-08T07:58:14Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6IjBkMjJmY2ZjLTQ0ZDYtNDEyOC05OTEzLTNhZWZiNDlhZTI3ZSIsInUiOiJodHRwczovL3NxdWlkZXgtc2l0Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1751,14 +1751,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 32,
+  "version": 33,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e/31",
+      "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e/32",
       "method": "GET"
     },
     "draft/create": {
