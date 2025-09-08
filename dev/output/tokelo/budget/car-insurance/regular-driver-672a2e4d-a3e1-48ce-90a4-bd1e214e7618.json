@@ -1,7 +1,7 @@
 {
   "id": "672a2e4d-a3e1-48ce-90a4-bd1e214e7618",
   "createdBy": "subject:67f379df834f3e41309e6bc3",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "budget"
@@ -118,7 +118,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Will you be the regular driver of this car?</h2>\n<h4 class=\"text-sub-9 leading-4\">This is the person who drives the car most of the time. Only one person can be the regular driver.<br><br>If there is a change in the regular driver details, please inform us immediately to avoid any problems when you claim.</h4>"
+                    "html": "<h2>Will you be the regular driver of this car?</h2>\n<h4 class=\"text-sub-9 leading-4 font-normal\">This is the person who drives the car most of the time. Only one person can be the regular driver.<br><br>If there is a change in the regular driver details, please inform us immediately to avoid any problems when you claim.</h4>"
                   }
                 },
                 {
@@ -2436,7 +2436,7 @@
     }
   },
   "created": "2025-09-03T12:33:00Z",
-  "lastModified": "2025-09-03T13:55:16Z",
+  "lastModified": "2025-09-08T05:30:58Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NzJhMmU0ZC1hM2UxLTQ4Y2UtOTBhNC1iZDFlMjE0ZTc2MTgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2516,14 +2516,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/672a2e4d-a3e1-48ce-90a4-bd1e214e7618",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/672a2e4d-a3e1-48ce-90a4-bd1e214e7618/4",
+      "href": "/api/content/con-fusion/quote-sections/672a2e4d-a3e1-48ce-90a4-bd1e214e7618/6",
       "method": "GET"
     },
     "draft/create": {
