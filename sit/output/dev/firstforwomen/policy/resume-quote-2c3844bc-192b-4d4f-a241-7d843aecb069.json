@@ -131,7 +131,7 @@
                           "route": {
                             "baseRoute": "policy",
                             "sectionRoute": "resume-quote",
-                            "pageRoute": "home-contens-premium"
+                            "pageRoute": "home-contents-premium"
                           }
                         }
                       ]
@@ -628,7 +628,7 @@
     }
   },
   "created": "2024-08-05T07:19:53Z",
-  "lastModified": "2025-08-22T13:37:47Z",
+  "lastModified": "2025-09-08T07:58:15Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyYzM4NDRiYy0xOTJiLTRkNGYtYTI0MS03ZDg0M2FlY2IwNjkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -708,14 +708,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/2c3844bc-192b-4d4f-a241-7d843aecb069",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/2c3844bc-192b-4d4f-a241-7d843aecb069/6",
+      "href": "/api/content/con-fusion/quote-sections/2c3844bc-192b-4d4f-a241-7d843aecb069/7",
       "method": "GET"
     },
     "draft/create": {

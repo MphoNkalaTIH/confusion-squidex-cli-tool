@@ -1929,7 +1929,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"font-roman\">The replacement value is what it will cost you to replace all your belongings with new items. If the exact new item cannot be found we will replace with a similar new item.<br><br>If you claim, we will calculate the replacement value for which you should have insured your home contents. If you insured them for less than that, we will only pay a part of your claim.</h4>",
+                    "html": "<h4 class=\"font-roman\">The replacement value is what it will cost you to replace all your belongings with new items. If the exact new item cannot be found we will replace it with a similar new item.<br><br>If you claim, we will calculate the replacement value for which you should have insured your home contents. If you insured them for less than that, we will only pay a part of your claim.</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -2010,7 +2010,7 @@
     }
   },
   "created": "2025-07-25T06:23:59Z",
-  "lastModified": "2025-08-22T13:37:47Z",
+  "lastModified": "2025-09-08T07:58:15Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0MjM1ZmVhNi0yMjc2LTQ3N2MtYmJiYi05OTRjNmMzMzZjYTciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2090,14 +2090,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/2",
+      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/3",
       "method": "GET"
     },
     "draft/create": {
