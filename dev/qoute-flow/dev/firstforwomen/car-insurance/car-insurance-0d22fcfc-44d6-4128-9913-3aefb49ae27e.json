@@ -243,7 +243,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col my-8 text-sub-8 leading-tight\"><span><span>Thank you</span></span>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col my-8 text-sub-8 leading-tight\"><span class=\"text-main-1\">Thank you</span>{{name}}!</h1>",
                     "htmlEvents": []
                   }
                 }
@@ -1713,7 +1713,7 @@
     }
   },
   "created": "2023-05-10T10:56:52Z",
-  "lastModified": "2025-09-08T05:51:52Z",
+  "lastModified": "2025-09-08T06:00:57Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6IjBkMjJmY2ZjLTQ0ZDYtNDEyOC05OTEzLTNhZWZiNDlhZTI3ZSIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1751,14 +1751,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 480,
+  "version": 481,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e/479",
+      "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e/480",
       "method": "GET"
     },
     "draft/create": {
