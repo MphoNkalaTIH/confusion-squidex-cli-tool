@@ -1,7 +1,7 @@
 {
   "id": "aad4a092-fb32-462d-bc49-c8b7ccc41103",
   "createdBy": "subject:63d3c3cdc16968f87b36989f",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "budget"
@@ -243,7 +243,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col mt-9 mb-0\"><span><span class=\"text-main-1\">Thank you</span>,</span>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col mt-9 mb-0\"><span><span class=\"text-main-1\">Thank you</span></span>{{name}}!</h1>",
                     "htmlEvents": []
                   }
                 }
@@ -302,7 +302,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col mt-9 mb-0\"><span><span class=\"text-main-1\">Thank you</span>,</span>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col mt-9 mb-0\"><span><span class=\"text-main-1\">Thank you</span></span>{{name}}!</h1>",
                     "htmlEvents": []
                   }
                 },
@@ -1679,7 +1679,7 @@
     }
   },
   "created": "2022-03-28T12:16:08Z",
-  "lastModified": "2025-07-01T14:40:28Z",
+  "lastModified": "2025-09-08T05:49:49Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImFhZDRhMDkyLWZiMzItNDYyZC1iYzQ5LWM4YjdjY2M0MTEwMyIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1717,14 +1717,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1482,
+  "version": 1483,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/aad4a092-fb32-462d-bc49-c8b7ccc41103",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/aad4a092-fb32-462d-bc49-c8b7ccc41103/1481",
+      "href": "/api/content/con-fusion/quote-flow/aad4a092-fb32-462d-bc49-c8b7ccc41103/1482",
       "method": "GET"
     },
     "draft/create": {

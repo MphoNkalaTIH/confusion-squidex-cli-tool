@@ -1,7 +1,7 @@
 {
   "id": "0d22fcfc-44d6-4128-9913-3aefb49ae27e",
   "createdBy": "subject:63dcc1f539451d4e1d9eaa3e",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -243,7 +243,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col my-8 text-sub-8 leading-tight\"><span><span>Thank you</span>,</span>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col my-8 text-sub-8 leading-tight\"><span><span>Thank you</span></span>{{name}}!</h1>",
                     "htmlEvents": []
                   }
                 }
@@ -1713,7 +1713,7 @@
     }
   },
   "created": "2023-05-10T10:56:52Z",
-  "lastModified": "2025-09-05T09:38:31Z",
+  "lastModified": "2025-09-08T05:51:52Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6IjBkMjJmY2ZjLTQ0ZDYtNDEyOC05OTEzLTNhZWZiNDlhZTI3ZSIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1751,14 +1751,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 479,
+  "version": 480,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e/478",
+      "href": "/api/content/con-fusion/quote-flow/0d22fcfc-44d6-4128-9913-3aefb49ae27e/479",
       "method": "GET"
     },
     "draft/create": {
