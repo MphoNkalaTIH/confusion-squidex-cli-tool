@@ -1,7 +1,7 @@
 {
   "id": "b2f0d713-5adf-42ea-8b44-831362342629",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -671,7 +671,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Complete the card details</h2>"
+                    "html": "<h2>Complete your card details</h2>"
                   }
                 },
                 {
@@ -2107,7 +2107,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Salary payment date",
+                    "label": "Premium payment date",
                     "helperText": null,
                     "placeholderText": "Please select",
                     "formControlName": null,
@@ -2139,7 +2139,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>This is the day of the month your monthly premium will be deducted</h4>"
+                    "html": "<h4>This is the day of the month your monthly premium will be deducted.</h4>"
                   }
                 },
                 {
@@ -2561,7 +2561,7 @@
     }
   },
   "created": "2024-07-16T12:13:39Z",
-  "lastModified": "2025-06-18T07:18:32Z",
+  "lastModified": "2025-09-10T11:21:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiMmYwZDcxMy01YWRmLTQyZWEtOGI0NC04MzEzNjIzNDI2MjkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2641,14 +2641,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 87,
+  "version": 92,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629/86",
+      "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629/91",
       "method": "GET"
     },
     "draft/create": {

@@ -1,7 +1,7 @@
 {
   "id": "dae6cb91-4d7d-4385-a99c-4aa157a3079a",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "budget"
@@ -1278,7 +1278,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "condition": {
@@ -2089,7 +2089,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Select salary payment date</h2>\n<p>This is the day of the month your monthly premium will be deducted</p>"
+                    "html": "<h2>Select salary payment date</h2>\n<p>This is the day of the month your monthly premium will be deducted.</p>"
                   }
                 },
                 {
@@ -2113,7 +2113,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Salary payment date",
+                    "label": "Premium payment date",
                     "helperText": null,
                     "placeholderText": "Please complete",
                     "formControlName": null,
@@ -2559,7 +2559,7 @@
     }
   },
   "created": "2024-07-16T12:13:40Z",
-  "lastModified": "2025-07-17T07:22:08Z",
+  "lastModified": "2025-09-10T11:20:16Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkYWU2Y2I5MS00ZDdkLTQzODUtYTk5Yy00YWExNTdhMzA3OWEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2639,14 +2639,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 46,
+  "version": 50,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/dae6cb91-4d7d-4385-a99c-4aa157a3079a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/dae6cb91-4d7d-4385-a99c-4aa157a3079a/45",
+      "href": "/api/content/con-fusion/quote-sections/dae6cb91-4d7d-4385-a99c-4aa157a3079a/49",
       "method": "GET"
     },
     "draft/create": {

@@ -1,7 +1,7 @@
 {
   "id": "f0679bd2-a1c6-4e7c-b45d-6a78407a8a21",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -681,7 +681,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Complete the card details</h2>"
+                    "html": "<h2>Complete your card details</h2>"
                   }
                 },
                 {
@@ -2101,7 +2101,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Select salary payment date</h2>\n<p>This is the day of the month your monthly premium will be deducted</p>"
+                    "html": "<h2>Select salary payment date</h2>\n<p>This is the day of the month your monthly premium will be deducted.</p>"
                   }
                 },
                 {
@@ -2125,7 +2125,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Salary payment date",
+                    "label": "Premium payment date",
                     "helperText": null,
                     "placeholderText": "Please select",
                     "formControlName": null,
@@ -2528,7 +2528,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Confirm",
+                    "label": "CONFIRM ",
                     "route": {
                       "baseRoute": "policy",
                       "sectionRoute": "done",
@@ -2571,7 +2571,7 @@
     }
   },
   "created": "2024-07-16T12:13:36Z",
-  "lastModified": "2025-08-05T13:13:53Z",
+  "lastModified": "2025-09-10T11:22:50Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmMDY3OWJkMi1hMWM2LTRlN2MtYjQ1ZC02YTc4NDA3YThhMjEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2651,14 +2651,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 52,
+  "version": 56,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f0679bd2-a1c6-4e7c-b45d-6a78407a8a21",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f0679bd2-a1c6-4e7c-b45d-6a78407a8a21/51",
+      "href": "/api/content/con-fusion/quote-sections/f0679bd2-a1c6-4e7c-b45d-6a78407a8a21/55",
       "method": "GET"
     },
     "draft/create": {
