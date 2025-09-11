@@ -1050,7 +1050,7 @@
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "autogen",
               "index": null,
-              "copy": "<p>Remain claim-free for up to 4 years and receive up to: <br></vr><span class=\"font-bold\">{{amount}}</span></p>\n<p class=\"text-xs m-0\"><span class=\"text-main-1 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To find out more about Cash Back Plus simply download the </span><a href=\"https://documentation.telesure.co.za/Auto&General/0012/Eng/Cash_Back_Plus_C_TsCs_PL_Eng_A&G.pdf\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>",
+              "copy": "<p>Remain claim-free for up to 4 years and receive up to: <br></vr><span class=\"font-bold\">{{amount}}</span></p>\n<p class=\"text-xs m-0\"><span class=\"text-main-1 font-bold\">Please note: </span><span class=\"font-roman text-sub-8\">To find out more about Cash Back Plus, simply download the </span><a href=\"https://documentation.telesure.co.za/Auto&General/0012/Eng/Cash_Back_Plus_C_TsCs_PL_Eng_A&G.pdf\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>",
               "description": "Cash Back Plus",
               "image": [
                 "ab64864f-6e09-44a1-8933-fd9dce4971c4"
@@ -1253,7 +1253,7 @@
     }
   },
   "created": "2022-11-15T08:45:43Z",
-  "lastModified": "2025-05-21T10:07:27Z",
+  "lastModified": "2025-09-09T13:01:16Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjNWE3MjFkNC05NGM2LTQ1MmMtODgzNy02MjI2OTQwMTEyYmUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1284,14 +1284,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 35,
+  "version": 36,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be/34",
+      "href": "/api/content/con-fusion-static-data/static-data/c5a721d4-94c6-452c-8837-6226940112be/35",
       "method": "GET"
     },
     "draft/create": {

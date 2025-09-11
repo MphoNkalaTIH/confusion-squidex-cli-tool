@@ -551,7 +551,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Do you currently have comprehensive car insurance?</h2>\n<h4>Covers loss or damage to your car due to accident, theft, fire, and accidental damage your car causes to someone else’s property.</h4>"
+                    "html": "<h2>Do you currently have comprehensive car insurance?</h2>\n<h4 class=\"text-sub-9 leading-4 text-sm sm:text-sm font-normal\">Covers loss or damage to your car due to accident, theft, fire, and accidental damage your car causes to someone else’s property.</h4>"
                   }
                 }
               ]
@@ -2436,7 +2436,7 @@
     }
   },
   "created": "2024-10-14T12:23:35Z",
-  "lastModified": "2025-09-08T07:58:15Z",
+  "lastModified": "2025-09-09T13:00:43Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlNWZjY2EwZC01OWE5LTRlOWEtOWZhNS01NTdiNjQ0MjU1YzYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2516,14 +2516,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/e5fcca0d-59a9-4e9a-9fa5-557b644255c6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/e5fcca0d-59a9-4e9a-9fa5-557b644255c6/5",
+      "href": "/api/content/con-fusion/quote-sections/e5fcca0d-59a9-4e9a-9fa5-557b644255c6/6",
       "method": "GET"
     },
     "draft/create": {
