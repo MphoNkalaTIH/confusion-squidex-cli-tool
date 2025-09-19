@@ -1,7 +1,7 @@
 {
   "id": "0191fc27-5534-458d-8982-9684109c70ff",
   "createdBy": "client:con-fusion-static-data:owner",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
   "data": {
     "name": {
       "iv": "Vehicle Uses"
@@ -21,10 +21,65 @@
     "data": {
       "iv": [
         {
+          "code": "01",
+          "index": 1,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+          "description": "Private and/or travelling to work",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
+              "description": "Privaat en/of reis na werk",
+              "image": null
+            }
+          ]
+        },
+        {
           "code": "02",
           "index": 1,
           "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
           "description": "Private and/or travelling to work",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
+              "description": "Privaat en/of reis na werk",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "index": 1,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+          "description": "Private and/or travelling to work",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
+              "description": "Privaat en/of reis na werk",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "12",
+          "index": 1,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+          "description": "Private and/or travelling to work",
+          "class": null,
           "image": [],
           "brandOverrides": [
             {
@@ -42,6 +97,7 @@
           "index": 2,
           "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is used for up to 10 business/professional trips a month. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use.",
           "description": "Private and occasional business",
+          "class": null,
           "image": [],
           "brandOverrides": [
             {
@@ -59,6 +115,7 @@
           "index": 3,
           "copy": "The car is used to visit clients or to attend work related commitments away from your regular workplace. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use. The car may also be used for social, domestic or pleasure purposes including travel to and from work.",
           "description": "Private and full business",
+          "class": null,
           "image": [],
           "brandOverrides": [
             {
@@ -75,7 +132,7 @@
     }
   },
   "created": "2022-11-15T08:46:05Z",
-  "lastModified": "2025-02-20T06:29:48Z",
+  "lastModified": "2025-09-18T06:53:41Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIwMTkxZmMyNy01NTM0LTQ1OGQtODk4Mi05Njg0MTA5YzcwZmYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -106,14 +163,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 34,
+  "version": 35,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff/33",
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff/34",
       "method": "GET"
     },
     "draft/create": {
