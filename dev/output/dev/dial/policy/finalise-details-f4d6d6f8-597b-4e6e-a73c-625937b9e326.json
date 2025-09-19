@@ -2406,6 +2406,85 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "dlgNoClaimsPeriod",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h2 class=\"mb-0\">No-claims period</h2>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>A two-week no-claim period will apply to any <span class=\"font-bold\">{{naturalDisasterAndArea}}</span>.</p>\n<p>No claims related to these incident/s will be considered within two weeks of policy commencement.</p>\n<p>Would you like to proceed?</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Yes, proceed",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnNo",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "No, do not proceed",
+                          "route": {
+                            "baseRoute": "",
+                            "sectionRoute": "callback-pages",
+                            "pageRoute": "unacceptable-risk-home-contents"
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -2492,7 +2571,7 @@
     }
   },
   "created": "2024-07-16T12:13:43Z",
-  "lastModified": "2025-06-23T09:23:17Z",
+  "lastModified": "2025-09-17T09:39:08Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNGQ2ZDZmOC01OTdiLTRlNmUtYTczYy02MjU5MzdiOWUzMjYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2572,14 +2651,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 54,
+  "version": 57,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/53",
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/56",
       "method": "GET"
     },
     "draft/create": {

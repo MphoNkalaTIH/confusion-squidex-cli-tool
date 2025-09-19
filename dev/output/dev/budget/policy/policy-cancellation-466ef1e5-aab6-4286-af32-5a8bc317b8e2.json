@@ -1,7 +1,7 @@
 {
   "id": "466ef1e5-aab6-4286-af32-5a8bc317b8e2",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:678f6baf2b512c27fd0ed077",
   "data": {
     "brand": {
       "iv": "budget"
@@ -193,7 +193,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "insurance-company",
@@ -294,7 +294,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "policy",
                       "pageRoute": "insurance-company",
@@ -413,7 +413,7 @@
     }
   },
   "created": "2024-11-26T13:15:40Z",
-  "lastModified": "2025-06-18T07:11:33Z",
+  "lastModified": "2025-09-11T13:07:03Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0NjZlZjFlNS1hYWI2LTQyODYtYWYzMi01YThiYzMxN2I4ZTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -493,14 +493,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 16,
+  "version": 17,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/466ef1e5-aab6-4286-af32-5a8bc317b8e2",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/466ef1e5-aab6-4286-af32-5a8bc317b8e2/15",
+      "href": "/api/content/con-fusion/quote-sections/466ef1e5-aab6-4286-af32-5a8bc317b8e2/16",
       "method": "GET"
     },
     "draft/create": {

@@ -1,7 +1,7 @@
 {
   "id": "64d2922a-a788-4ce8-aaf4-e60882659ea1",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -1154,7 +1154,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Get covered",
+                    "label": "Done",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "premium",
@@ -1495,7 +1495,7 @@
     }
   },
   "created": "2025-04-30T05:50:42Z",
-  "lastModified": "2025-09-05T08:27:06Z",
+  "lastModified": "2025-09-12T11:28:47Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NGQyOTIyYS1hNzg4LTRjZTgtYWFmNC1lNjA4ODI2NTllYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1575,14 +1575,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1/6",
+      "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1/7",
       "method": "GET"
     },
     "draft/create": {

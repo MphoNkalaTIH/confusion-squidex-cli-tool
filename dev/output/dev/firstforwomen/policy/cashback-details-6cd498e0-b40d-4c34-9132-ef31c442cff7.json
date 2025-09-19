@@ -1,7 +1,7 @@
 {
   "id": "6cd498e0-b40d-4c34-9132-ef31c442cff7",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -160,7 +161,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<span class=\"text-xs text-sub-8\"><span class=\"font-normal\">in cash back by </span><span class=\"font-black\">{{payoutDate}}</span></span>"
+                    "html": "<span class=\"text-xs text-sub-8\"><span class=\"font-normal\">back in cash by </span><span class=\"font-black\">{{payoutDate}}</span></span>"
                   }
                 },
                 {
@@ -223,7 +224,7 @@
     }
   },
   "created": "2024-11-29T12:52:38Z",
-  "lastModified": "2025-09-08T09:04:18Z",
+  "lastModified": "2025-09-15T06:23:49Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2Y2Q0OThlMC1iNDBkLTRjMzQtOTEzMi1lZjMxYzQ0MmNmZjciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -303,14 +304,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6cd498e0-b40d-4c34-9132-ef31c442cff7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6cd498e0-b40d-4c34-9132-ef31c442cff7/5",
+      "href": "/api/content/con-fusion/quote-sections/6cd498e0-b40d-4c34-9132-ef31c442cff7/6",
       "method": "GET"
     },
     "draft/create": {
