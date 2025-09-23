@@ -129,8 +129,8 @@
         {
           "code": "10",
           "index": 10,
-          "copy": "Roaming",
-          "description": "Roaming",
+          "copy": "No specific location",
+          "description": "No specific location",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -150,7 +150,7 @@
     }
   },
   "created": "2022-11-15T08:46:05Z",
-  "lastModified": "2025-09-18T14:54:29Z",
+  "lastModified": "2025-09-19T09:21:01Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI3MGZhM2Q5MS00MjA5LTRiNmYtYTgwYS1kMWFhMDkzYjNiYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -181,14 +181,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 26,
+  "version": 28,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1/25",
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1/27",
       "method": "GET"
     },
     "draft/create": {
