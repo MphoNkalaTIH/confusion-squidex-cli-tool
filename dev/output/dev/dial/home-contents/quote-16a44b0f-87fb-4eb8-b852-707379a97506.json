@@ -950,7 +950,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"font-medium text-sub-1 get-covered-container-text\">Get covered</div>",
+                    "html": "<div class=\"font-medium text-sub-1 get-covered-container-text underline\">Get covered</div>",
                     "htmlEvents": []
                   }
                 },
@@ -1486,7 +1486,7 @@
     }
   },
   "created": "2025-04-30T05:48:10Z",
-  "lastModified": "2025-08-19T14:11:57Z",
+  "lastModified": "2025-09-23T06:54:23Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxNmE0NGIwZi04N2ZiLTRlYjgtYjg1Mi03MDczNzlhOTc1MDYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1566,14 +1566,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/2",
+      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/3",
       "method": "GET"
     },
     "draft/create": {

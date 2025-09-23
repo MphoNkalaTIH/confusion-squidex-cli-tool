@@ -1,7 +1,7 @@
 {
   "id": "cdae2db3-bdaf-494f-b332-62228e249cca",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:669df913f6500a63dd5e0607",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "dial"
@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -177,7 +178,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"text-xs\"><span class=\"text-zodiac-blue font-bold\">Please note: </span><span class=\"font-normal text-sub-5\">To find out more about Payback Bonus, simply download the </span><a href=\"https://www.dialdirect.co.za/globalassets/brochure/dialdirect-sti-cash-back-premium-relief-b2.pdf/\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>"
+                    "html": "<p class=\"text-xs\"><span class=\"text-zodiac-blue font-bold\">Please note: </span><span class=\"font-normal text-sub-5\">To find out more about Payback Bonus, simply download the </span><a href=\"https://stdigzadigitalbrandsites.digitalcdn.co.za/dial-blobs/04c2e4c837c246988e8aa33a9c97cd81/fdd0947cec2c49bcb9cfacb88538488b.pdf\" target=\"_blank\" class=\"font-bold underline\">terms and conditions</a>.</p>"
                   }
                 },
                 {
@@ -232,7 +233,7 @@
     }
   },
   "created": "2024-11-27T10:14:53Z",
-  "lastModified": "2025-01-29T09:08:38Z",
+  "lastModified": "2025-09-23T06:54:22Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjZGFlMmRiMy1iZGFmLTQ5NGYtYjMzMi02MjIyOGUyNDljY2EiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -312,14 +313,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 11,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/cdae2db3-bdaf-494f-b332-62228e249cca",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/cdae2db3-bdaf-494f-b332-62228e249cca/9",
+      "href": "/api/content/con-fusion/quote-sections/cdae2db3-bdaf-494f-b332-62228e249cca/10",
       "method": "GET"
     },
     "draft/create": {

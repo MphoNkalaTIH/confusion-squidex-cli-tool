@@ -1,7 +1,7 @@
 {
   "id": "3977d9fd-f327-413d-835d-a34bad2bc374",
   "createdBy": "subject:669df913f6500a63dd5e0607",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -950,7 +950,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"font-medium text-sub-1\">Get covered</div>",
+                    "html": "<div class=\"font-medium text-sub-1 underline\">Get covered</div>",
                     "htmlEvents": []
                   }
                 },
@@ -1486,7 +1486,7 @@
     }
   },
   "created": "2024-12-11T12:00:26Z",
-  "lastModified": "2025-06-20T07:28:02Z",
+  "lastModified": "2025-09-23T06:55:27Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIzOTc3ZDlmZC1mMzI3LTQxM2QtODM1ZC1hMzRiYWQyYmMzNzQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1566,14 +1566,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 47,
+  "version": 48,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374/46",
+      "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374/47",
       "method": "GET"
     },
     "draft/create": {
