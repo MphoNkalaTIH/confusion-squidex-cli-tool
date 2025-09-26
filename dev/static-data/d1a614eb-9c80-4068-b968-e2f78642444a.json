@@ -13,7 +13,7 @@
       "iv": true
     },
     "sortIndexically": {
-      "iv": null
+      "iv": true
     },
     "brandOverrides": {
       "iv": []
@@ -341,26 +341,6 @@
           ]
         },
         {
-          "code": "OT",
-          "index": 17,
-          "copy": "Other",
-          "description": null,
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": [
-            {
-              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
-              "brand": "virseker",
-              "index": 17,
-              "copy": "Ander",
-              "description": null,
-              "image": null,
-              "copyOverrides": []
-            }
-          ]
-        },
-        {
           "code": "HH",
           "index": 18,
           "copy": "Damage To House",
@@ -659,12 +639,32 @@
               "copyOverrides": []
             }
           ]
+        },
+        {
+          "code": "OT",
+          "index": 33,
+          "copy": "Other",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 33,
+              "copy": "Ander",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         }
       ]
     }
   },
   "created": "2024-10-09T06:41:34Z",
-  "lastModified": "2025-09-23T01:08:08Z",
+  "lastModified": "2025-09-23T07:15:34Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJkMWE2MTRlYi05YzgwLTQwNjgtYjk2OC1lMmY3ODY0MjQ0NGEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -695,14 +695,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 17,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/14",
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/16",
       "method": "GET"
     },
     "draft/create": {

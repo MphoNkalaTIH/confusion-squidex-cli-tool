@@ -1,7 +1,7 @@
 {
   "id": "c331f841-6dbe-4459-82cc-91028ccaa44e",
   "createdBy": "subject:63d3c2fdcd781721d0853640",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "name": {
       "iv": "Home Contents Cover"
@@ -36,7 +36,6 @@
               "brand": "firstforwomen",
               "index": 3,
               "copy": null,
-              "description": null,
               "image": [
                 "3cc7730d-1d85-4fad-aef5-703267a44bbf"
               ],
@@ -93,7 +92,7 @@
               "brand": "firstforwomen",
               "index": 3,
               "copy": null,
-              "description": null,
+              "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Damage or loss of washing and garden furniture</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
               "image": [
                 "3cc7730d-1d85-4fad-aef5-703267a44bbf"
               ],
@@ -664,7 +663,7 @@
           "code": "GuardianAngelOnCall",
           "index": 12,
           "copy": "Guardian Angel on Call: Panic button",
-          "description": "<p>\r\n\tA Guardian Angel on Call benefit, available through the 1st for Women app. \r\n\tThe panic button alerts external help during emergencies or whenever you \r\n\tfeel unsafe. You can share the benefit with up to five family and household \r\n\tmembers.\r\n</p>\r\n\r\n<p>\r\n\tOther benefits include:\r\n</p>\r\n\r\n<p>\r\n\t<b>Stand by Me</b><br>\r\n\tA service that enables the call centre to provide tips and send \r\n\tassistance when you feel unsafe to wait with you until help arrives.\r\n</p>\r\n\r\n<p>\r\n\t<b>Lift</b><br>\r\n\tOne lift per event will be arranged to take you from the place you're \r\n\tbeing assisted to a place of safety in the event of an accident or vehicle \r\n\tbreakdown.\r\n</p>\r\n\r\n<p>\r\n\t<b>Medical Assist</b><br>\r\n\tA trained and qualified emergency medical agent will answer your call in \r\n\tthe event of an emergency and assist you.\r\n</p>\r\n\r\n<p>\r\n\t<b>Trip Assist</b><br>\r\n\tA service that allows your trip to be monitored by our call centre so \r\n\tyou can reach your destination safely.\r\n</p>",
+          "description": "<p>\r\n\tA Guardian Angel on Call benefit, available through the 1st for Women app. \r\n\tThe panic button alerts external help during emergencies or whenever you \r\n\tfeel unsafe. You can share the benefit with up to five family and household \r\n\tmembers.\r\n</p>\r\n\r\n<p>\r\n\tOther benefits include:\r\n</p>\r\n\r\n<p>\r\n\t<b>Stand by Me</b><br>\r\n\tA service that enables the call centre to provide tips and send \r\n\tassistance when you feel unsafe to wait with you until help arrives.\r\n</p>\r\n\r\n<p>\r\n\t<b>Lift</b><br>\r\n\tOne lift per event will be arranged to take you from the place you're \r\n\tbeing assisted to a place of safety in the event of an accident or vehicle \r\n\tbreakdown.\r\n</p>\r\n\r\n<p>\r\n\t<b>Medical Assist</b><br>\r\n\tA trained and qualified emergency medical agent will answer your call in \r\n\tthe event of an emergency and assist you.\r\n</p>\r\n\r\n<p>\r\n\t<b>Trip Monitoring</b><br>\r\n\tA service that allows your trip to be monitored by our call centre so \r\n\tyou can reach your destination safely.\r\n</p>",
           "class": null,
           "image": [
             "291c09b7-852c-41bc-98de-930f479cefc3"
@@ -686,7 +685,7 @@
     }
   },
   "created": "2024-08-26T13:17:25Z",
-  "lastModified": "2025-09-05T09:27:18Z",
+  "lastModified": "2025-09-26T06:46:51Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjMzMxZjg0MS02ZGJlLTQ0NTktODJjYy05MTAyOGNjYWE0NGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -717,14 +716,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 58,
+  "version": 62,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/57",
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/61",
       "method": "GET"
     },
     "draft/create": {

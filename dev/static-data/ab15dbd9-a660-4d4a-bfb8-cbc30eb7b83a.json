@@ -1,7 +1,7 @@
 {
   "id": "ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
   "createdBy": "subject:63d3c2fdcd781721d0853640",
-  "lastModifiedBy": "subject:67ee549e834f3e41309d3c23",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "name": {
       "iv": "Home Contents Cover Types"
@@ -25,6 +25,7 @@
           "index": 1,
           "copy": "Comprehensive",
           "description": "Cover for theft, loss or damage to home contents caused by fires, natural disasters and/or overflowing water heating systems.",
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -44,6 +45,7 @@
           "index": 2,
           "copy": "Fire and Storm Only",
           "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resulting damage, and malicious damage are excluded.",
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -55,6 +57,15 @@
               "description": "Dekking vir verlies of skade aan huisinhoud wat deur brande, natuurrampe en/of oorloop van waterverhittingstoestelle veroorsaak is. Diefstal, inbraak, en gevolglike skade, sowel as kwaadwillige skade word uitgesluit.",
               "image": null,
               "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resultant damage, and malicious damage are excluded.",
+              "image": null,
+              "copyOverrides": []
             }
           ]
         }
@@ -62,7 +73,7 @@
     }
   },
   "created": "2024-08-20T10:09:10Z",
-  "lastModified": "2025-05-20T07:03:06Z",
+  "lastModified": "2025-09-25T11:24:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJhYjE1ZGJkOS1hNjYwLTRkNGEtYmZiOC1jYmMzMGViN2I4M2EiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -93,14 +104,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/2",
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/3",
       "method": "GET"
     },
     "draft/create": {
