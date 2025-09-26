@@ -1,7 +1,7 @@
 {
   "id": "cce20df5-5218-44b4-a4d1-47317f84a51e",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:67ee5801834f3e41309d3efb",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "dial"
@@ -533,7 +533,7 @@
                               "vehicle.vehicle.parkedDetailHome.address.postCode"
                             ],
                             "values": [
-                              "No specific location"
+                              "Roaming"
                             ],
                             "route": null,
                             "routeArray": [],
@@ -553,7 +553,23 @@
                           "imageFieldPath": null,
                           "ignoreSentenceCaseForValue": null,
                           "imageClass": null,
-                          "copyFieldPath": ""
+                          "copyFieldPath": "",
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "87e01ee0-f834-48df-9c88-4de6fa00ed28"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailHome.method.code",
+                              "vehicle.vehicle.parkedDetailHome.method.description"
+                            ],
+                            "values": [
+                              "Roaming"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
                         }
                       },
                       {
@@ -579,7 +595,7 @@
                               "vehicle.vehicle.parkedDetailHome.security"
                             ],
                             "values": [
-                              "No specific location"
+                              "Roaming"
                             ],
                             "route": null,
                             "routeArray": [],
@@ -620,7 +636,7 @@
                               "vehicle.vehicle.parkedDetailWork.address.postCode"
                             ],
                             "values": [
-                              "No specific location"
+                              "Roaming"
                             ],
                             "route": null,
                             "routeArray": [],
@@ -640,7 +656,23 @@
                           "imageFieldPath": null,
                           "ignoreSentenceCaseForValue": null,
                           "imageClass": null,
-                          "copyFieldPath": ""
+                          "copyFieldPath": "",
+                          "valueCondition": {
+                            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                            "code": [
+                              "f83bb224-2c7a-4b82-beb0-f095a63a7fb9"
+                            ],
+                            "statePropertyPaths": [
+                              "vehicle.vehicle.parkedDetailWork.method.code",
+                              "vehicle.vehicle.parkedDetailWork.method.description"
+                            ],
+                            "values": [
+                              "Roaming"
+                            ],
+                            "route": null,
+                            "routeArray": [],
+                            "conditionalRouteCode": null
+                          }
                         }
                       },
                       {
@@ -666,7 +698,7 @@
                               "vehicle.vehicle.parkedDetailWork.security"
                             ],
                             "values": [
-                              "No specific location"
+                              "Roaming"
                             ],
                             "route": null,
                             "routeArray": [],
@@ -2736,7 +2768,7 @@
     }
   },
   "created": "2024-07-16T12:13:42Z",
-  "lastModified": "2025-05-27T12:41:41Z",
+  "lastModified": "2025-09-25T19:17:38Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjY2UyMGRmNS01MjE4LTQ0YjQtYTRkMS00NzMxN2Y4NGE1MWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2816,14 +2848,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 30,
+  "version": 35,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/29",
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/34",
       "method": "GET"
     },
     "draft/create": {

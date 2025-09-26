@@ -461,7 +461,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\"><span>Hi</span>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\">Hi<span>{{name}}!</span></h1>",
                     "htmlEvents": []
                   }
                 },
@@ -499,7 +499,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\"><span>Hi</span>{{name}}!</h1>",
+                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\">Hi<span>{{name}}!</span></h1>",
                     "htmlEvents": []
                   }
                 }
@@ -1645,7 +1645,7 @@
     }
   },
   "created": "2024-01-31T15:43:25Z",
-  "lastModified": "2025-09-18T14:09:43Z",
+  "lastModified": "2025-09-25T13:32:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImZlNTg4ODRkLTRkYWItNDRiNS1iMmU3LWZlYWNkMzlkOWQyYyIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1683,14 +1683,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 187,
+  "version": 188,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/186",
+      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/187",
       "method": "GET"
     },
     "draft/create": {
