@@ -489,7 +489,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Jy is reeds deel van die Virseker-familie. Teken in op die toep om na jou polis te kyk.</h2>",
+                    "html": "<p class=\"mt-0 mb-8 text-virseker-dark-blue text-base leading-5\">Volgens ons stelsel het jy reeds ‘n Virseker-polis.</p>\r\n<p class=\"text-virseker-dark-blue text-base\">Om ‘n nuwe item by jou bestaande polis te voeg, bel ons by <strong>0861 477 911.</strong></p>",
                     "htmlEvents": []
                   }
                 },
@@ -1663,7 +1663,7 @@
     }
   },
   "created": "2023-08-29T08:20:55Z",
-  "lastModified": "2025-09-23T14:53:08Z",
+  "lastModified": "2025-09-26T12:06:37Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImI3M2Y1YWYwLWFmMDYtNDVkYi1iZTFhLTYwMWY3NWE5MTk0YSIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1701,14 +1701,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 755,
+  "version": 758,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/754",
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/757",
       "method": "GET"
     },
     "draft/create": {
