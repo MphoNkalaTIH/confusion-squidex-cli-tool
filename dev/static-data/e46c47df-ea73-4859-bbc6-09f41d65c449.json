@@ -1,7 +1,7 @@
 {
   "id": "e46c47df-ea73-4859-bbc6-09f41d65c449",
   "createdBy": "subject:63d3c2fdcd781721d0853640",
-  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "name": {
       "iv": "Security Measures"
@@ -93,8 +93,8 @@
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
               "index": 4,
-              "copy": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid",
-              "description": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid",
+              "copy": "Elektriese omheining in werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid",
+              "description": "Elektriese omheining in werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid",
               "image": null,
               "copyOverrides": []
             }
@@ -113,8 +113,8 @@
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
               "index": 4,
-              "copy": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
-              "description": "Elektriese omheining in 'n werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
+              "copy": "Elektriese omheining in werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
+              "description": "Elektriese omheining in werkende toestand, gekoppel aan 'n gewapende reaksie-eenheid/waghuise",
               "image": null,
               "copyOverrides": []
             }
@@ -164,7 +164,7 @@
     }
   },
   "created": "2024-08-02T12:13:17Z",
-  "lastModified": "2025-08-20T11:30:17Z",
+  "lastModified": "2025-09-29T07:41:01Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJlNDZjNDdkZi1lYTczLTQ4NTktYmJjNi0wOWY0MWQ2NWM0NDkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -195,14 +195,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 14,
+  "version": 15,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/13",
+      "href": "/api/content/con-fusion-static-data/static-data/e46c47df-ea73-4859-bbc6-09f41d65c449/14",
       "method": "GET"
     },
     "draft/create": {
