@@ -1,7 +1,7 @@
 {
   "id": "6744ca17-81ac-49eb-945f-f9a0554ed038",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -970,7 +970,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"font-medium text-sub-1\">Kry dekking</div>",
+                    "html": "<div class=\"font-medium text-sub-1 underline\">Kry dekking</div>",
                     "htmlEvents": []
                   }
                 },
@@ -1516,7 +1516,7 @@
     }
   },
   "created": "2025-04-30T05:50:07Z",
-  "lastModified": "2025-09-26T16:22:28Z",
+  "lastModified": "2025-09-30T06:58:56Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NzQ0Y2ExNy04MWFjLTQ5ZWItOTQ1Zi1mOWEwNTU0ZWQwMzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1596,14 +1596,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/5",
+      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/6",
       "method": "GET"
     },
     "draft/create": {
