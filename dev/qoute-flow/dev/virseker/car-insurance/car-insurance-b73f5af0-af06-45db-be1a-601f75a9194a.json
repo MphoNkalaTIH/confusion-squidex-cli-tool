@@ -1,7 +1,7 @@
 {
   "id": "b73f5af0-af06-45db-be1a-601f75a9194a",
   "createdBy": "subject:63d3c3cdc16968f87b36989f",
-  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
+  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -371,15 +371,6 @@
                     "formControlName": null,
                     "text": "verseker my huisinhoud",
                     "errorMessage": null
-                  }
-                },
-                {
-                  "id": "imgDropOff",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<img class=\"mt-10\" src=\"{{assetsUrl}}/bad5d83f-98df-46dc-a2e7-c3ddaf471993/icon_state_error.png\">",
-                    "htmlEvents": []
                   }
                 }
               ]
@@ -1663,7 +1654,7 @@
     }
   },
   "created": "2023-08-29T08:20:55Z",
-  "lastModified": "2025-09-30T12:11:39Z",
+  "lastModified": "2025-09-30T21:59:35Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImI3M2Y1YWYwLWFmMDYtNDVkYi1iZTFhLTYwMWY3NWE5MTk0YSIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1701,14 +1692,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 759,
+  "version": 760,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/758",
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/759",
       "method": "GET"
     },
     "draft/create": {

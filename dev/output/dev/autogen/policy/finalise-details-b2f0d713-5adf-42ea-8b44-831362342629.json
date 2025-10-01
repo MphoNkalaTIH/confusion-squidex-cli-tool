@@ -1,7 +1,7 @@
 {
   "id": "b2f0d713-5adf-42ea-8b44-831362342629",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -1673,7 +1673,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    It has come to our attention that the account information provided may be\n    inaccurate or contain an error.\n</p>\n<p>\n    Once you have completed your policy activation, we will make an effort to get in touch with you to review this. Alternatively, you can contact us on 0861 60 01 24 after completing your activation to ensure that your account information is correct.\n</p>\n<p>\n    Please note that failure to correct the error may result in the cancellation\n    of your cover.\n</p>",
+                          "html": "<p>\n    It has come to our attention that the account information provided may be inaccurate or contain an error.\n</p>\n<p>\n    An agent can call you to confirm your account details or you can drop off.\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1682,11 +1682,31 @@
                       },
                       {
                         "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "btnProceed",
+                        "id": "btnCallMeBack",
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Proceed",
+                          "label": "Call me back",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnDropOff",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "No thanks not right now",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -2561,7 +2581,7 @@
     }
   },
   "created": "2024-07-16T12:13:39Z",
-  "lastModified": "2025-09-10T11:21:42Z",
+  "lastModified": "2025-10-01T06:04:20Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiMmYwZDcxMy01YWRmLTQyZWEtOGI0NC04MzEzNjIzNDI2MjkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2641,14 +2661,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 92,
+  "version": 94,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629/91",
+      "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629/93",
       "method": "GET"
     },
     "draft/create": {
