@@ -1,7 +1,7 @@
 {
   "id": "708c7008-fc8b-4383-b7a6-80e979f2c9a2",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -1759,7 +1759,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Dit het onder ons aandag gekom dat die rekeninginligting wat verskaf is, onakkuraat mag wees of ŉ fout mag hê.</p>\n<p>Sodra jy jou polisaktivering voltooi het, sal ons ons beste doen om jou te bereik om dit reg te stel. As alternatief kan jy ons by 0861 477 911 bel om seker te maak dat jou rekeninginligting korrek is.</p>\n<p>Let asseblief dat nalating om die fout reg te stel tot die kansellasie van jou dekking mag lei.</p>",
+                          "html": "<p>Ons kan nie jou bankinligting verifieer nie. Wil jy graag hê dat ons jou vinnig bel om jou te help om jou polis klaar op te stel?</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1768,12 +1768,42 @@
                       },
                       {
                         "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "btnProceed",
+                        "id": "btnCallMeBack",
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Gaan voort",
-                          "route": null,
+                          "label": "Bel my terug",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnDropOff",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Nee dankie, nie nou nie",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "unacceptable-risk-all-risk-items",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
                           "url": null,
                           "img": null,
                           "useImageAsButton": null,
@@ -2688,7 +2718,7 @@
     }
   },
   "created": "2024-07-16T12:13:47Z",
-  "lastModified": "2025-10-01T06:12:54Z",
+  "lastModified": "2025-10-02T14:16:01Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI3MDhjNzAwOC1mYzhiLTQzODMtYjdhNi04MGU5NzlmMmM5YTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2768,14 +2798,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 72,
+  "version": 76,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/71",
+      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/75",
       "method": "GET"
     },
     "draft/create": {

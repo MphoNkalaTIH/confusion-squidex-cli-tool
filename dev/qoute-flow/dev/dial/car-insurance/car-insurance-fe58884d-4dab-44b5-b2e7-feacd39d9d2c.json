@@ -1,7 +1,7 @@
 {
   "id": "fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
   "createdBy": "subject:63d3c3cdc16968f87b36989e",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "dial"
@@ -1046,6 +1046,77 @@
               ]
             }
           ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Unacceptable Risk Page - All Risk Items",
+          "route": "unacceptable-risk-all-risk-items",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\"><span>Thank you</span><span>{{name}}!</span></h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<hr class=\"border-sub-4 w-full my-6\">\n<p class=\"mt-0 mb-6 text-sub-5 text-base font-normal leading-5\">Based on the information you have provided, we unfortunately cannot offer you cover.</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Take me to the homepage",
+                    "route": {
+                      "baseRoute": "null",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\"><span>Hi</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1636,7 +1707,7 @@
     }
   },
   "created": "2024-01-31T15:43:25Z",
-  "lastModified": "2025-09-26T11:56:35Z",
+  "lastModified": "2025-10-02T12:36:09Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImZlNTg4ODRkLTRkYWItNDRiNS1iMmU3LWZlYWNkMzlkOWQyYyIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1674,14 +1745,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 190,
+  "version": 193,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/189",
+      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/192",
       "method": "GET"
     },
     "draft/create": {

@@ -36,6 +36,7 @@
               "brand": "firstforwomen",
               "index": 3,
               "copy": null,
+              "description": null,
               "image": [
                 "3cc7730d-1d85-4fad-aef5-703267a44bbf"
               ],
@@ -68,7 +69,7 @@
               "brand": "virseker",
               "index": 1,
               "copy": "Uitgebreide dekking",
-              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit.</p>\r\n\r\n<b>Diefstal</b>\r\n<ul class=\"mx-4\">\r\n    <li>Jou gaste se besittings</li>\r\n    <li>Jou huishoudelike werknemers se besittings</li>\r\n    <li>Gesteelde wasgoed en tuinmeubels</li>\r\n    <li>Geld wat vanuit jou woning gesteel word</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Toevallige breek van spieëls en glas</li>\r\n    <li>Verlies en skade aan sleutels en slotte</li>\r\n    <li>Toevallige breek van televisiestel</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand of inbraak tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
+              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit:</p>\r\n\r\n<b>Diefstal</b>\r\n<ul class=\"mx-4\">\r\n    <li>Jou gaste se besittings</li>\r\n    <li>Jou huishoudelike werknemers se besittings</li>\r\n    <li>Gesteelde wasgoed en tuinmeubels</li>\r\n    <li>Geld wat vanuit jou woning gesteel word</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Toevallige breek van spieëls en glas</li>\r\n    <li>Verlies en skade aan sleutels en slotte</li>\r\n    <li>Toevallige breek van televisiestel</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand of inbraak tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
               "image": [
                 "f5b16981-5613-4c6e-9ede-3340de95ff9a"
               ],
@@ -125,7 +126,7 @@
               "brand": "virseker",
               "index": 1,
               "copy": "Uitgebreide dekking",
-              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit.</p>\r\n\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Skade of verlies van wasgoed en tuinmeubels</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand of inbraak tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
+              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit:</p>\r\n\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Skade of verlies van wasgoed en tuinmeubels</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand of inbraak tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
               "image": [
                 "f5b16981-5613-4c6e-9ede-3340de95ff9a"
               ],
@@ -147,7 +148,7 @@
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
-              "index": null,
+              "index": 6,
               "copy": "Brandbystanddienste",
               "description": "<p>\n   Fidelity SecureFire, ‘n privaat-brandweerdiens sal na jou huis uitkom wanneer hulle van ‘n brandvoorval in kennis gestel word. Brandbestryders sal so gou moontlik opdaag en poog om die brand te bestry en potensiële verliese te minimaliseer. Met ons vennootskap kan jy gerus wees dat jou huis in goeie hande is en dat enige brandverwante skade vinnig verlig sal word.\n</p>",
               "image": [
@@ -685,7 +686,7 @@
     }
   },
   "created": "2024-08-26T13:17:25Z",
-  "lastModified": "2025-09-30T13:10:16Z",
+  "lastModified": "2025-10-01T13:30:07Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjMzMxZjg0MS02ZGJlLTQ0NTktODJjYy05MTAyOGNjYWE0NGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -716,14 +717,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 63,
+  "version": 67,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/62",
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/66",
       "method": "GET"
     },
     "draft/create": {

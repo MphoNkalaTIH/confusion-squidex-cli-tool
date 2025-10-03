@@ -1,7 +1,7 @@
 {
   "id": "b73f5af0-af06-45db-be1a-601f75a9194a",
   "createdBy": "subject:63d3c3cdc16968f87b36989f",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -1065,6 +1065,77 @@
               ]
             }
           ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Unacceptable Risk Page - All Risk Items",
+          "route": "unacceptable-risk-all-risk-items",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie<br/>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Gebaseer op die inligting wat jy verskaf het, kan ons ongelukkig nie dekking aan jou bied nie.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "baseRoute": "null",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1654,7 +1725,7 @@
     }
   },
   "created": "2023-08-29T08:20:55Z",
-  "lastModified": "2025-09-30T21:59:35Z",
+  "lastModified": "2025-10-02T12:33:35Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImI3M2Y1YWYwLWFmMDYtNDVkYi1iZTFhLTYwMWY3NWE5MTk0YSIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1692,14 +1763,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 760,
+  "version": 762,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/759",
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/761",
       "method": "GET"
     },
     "draft/create": {

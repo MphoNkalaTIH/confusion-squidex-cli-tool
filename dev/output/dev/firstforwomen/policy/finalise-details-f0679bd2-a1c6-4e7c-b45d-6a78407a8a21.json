@@ -1,7 +1,7 @@
 {
   "id": "f0679bd2-a1c6-4e7c-b45d-6a78407a8a21",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -1691,7 +1691,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    It has come to our attention that the account information provided may be\n    inaccurate or contain an error.\n</p>\n<p>\n    Once you have completed your policy activation, we will make an effort to get in touch with you to review this. Alternatively, you can contact us on 0861 33 93 39 after completing your activation to ensure that your account information is correct. \n</p>\n    \n<p>\n    Please note that failure to correct the error may result in the cancellation\n    of your cover.\n</p>",
+                          "html": "<p>\n    We couldn’t verify your banking details. Would you like us to give you a quick call to help you finish setting up your policy?\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1700,12 +1700,42 @@
                       },
                       {
                         "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "btnProceed",
+                        "id": "btnCallMeBack",
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Proceed",
-                          "route": null,
+                          "label": "Call me back",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnDropOff",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "No thanks, not right now",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "unacceptable-risk-all-risk-items",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
                           "url": null,
                           "img": null,
                           "useImageAsButton": null,
@@ -2571,7 +2601,7 @@
     }
   },
   "created": "2024-07-16T12:13:36Z",
-  "lastModified": "2025-09-10T11:22:50Z",
+  "lastModified": "2025-10-02T14:15:30Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmMDY3OWJkMi1hMWM2LTRlN2MtYjQ1ZC02YTc4NDA3YThhMjEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2651,14 +2681,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 56,
+  "version": 60,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f0679bd2-a1c6-4e7c-b45d-6a78407a8a21",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f0679bd2-a1c6-4e7c-b45d-6a78407a8a21/55",
+      "href": "/api/content/con-fusion/quote-sections/f0679bd2-a1c6-4e7c-b45d-6a78407a8a21/59",
       "method": "GET"
     },
     "draft/create": {

@@ -1673,7 +1673,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    It has come to our attention that the account information provided may be inaccurate or contain an error.\n</p>\n<p>\n    An agent can call you to confirm your account details or you can drop off.\n</p>",
+                          "html": "<p>\n    We couldn’t verify your banking details. Would you like us to give you a quick call to help you finish setting up your policy?\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1687,7 +1687,12 @@
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                           "label": "Call me back",
-                          "route": null,
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
                           "url": null,
                           "img": null,
                           "useImageAsButton": null,
@@ -1706,8 +1711,13 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "No thanks not right now",
-                          "route": null,
+                          "label": "No thanks, not right now",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "unacceptable-risk-all-risk-items",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
                           "url": null,
                           "img": null,
                           "useImageAsButton": null,
@@ -2581,7 +2591,7 @@
     }
   },
   "created": "2024-07-16T12:13:39Z",
-  "lastModified": "2025-10-01T06:04:20Z",
+  "lastModified": "2025-10-02T14:13:50Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiMmYwZDcxMy01YWRmLTQyZWEtOGI0NC04MzEzNjIzNDI2MjkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2661,14 +2671,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 94,
+  "version": 99,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629/93",
+      "href": "/api/content/con-fusion/quote-sections/b2f0d713-5adf-42ea-8b44-831362342629/98",
       "method": "GET"
     },
     "draft/create": {

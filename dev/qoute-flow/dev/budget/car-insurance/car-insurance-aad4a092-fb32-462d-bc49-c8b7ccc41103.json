@@ -1,7 +1,7 @@
 {
   "id": "aad4a092-fb32-462d-bc49-c8b7ccc41103",
   "createdBy": "subject:63d3c3cdc16968f87b36989f",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "brand": {
       "iv": "budget"
@@ -1047,6 +1047,77 @@
               ]
             }
           ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Unacceptable Risk Page - All Risk Items",
+          "route": "unacceptable-risk-all-risk-items",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-9 mb-0\"><span><span class=\"text-main-1\">Thank you</span></span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"text-xl font-normal my-9\">Based on the information you have provided, we unfortunately cannot offer you cover.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Take me to the homepage",
+                    "route": {
+                      "baseRoute": "null",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-9 mb-0\"><span class=\"text-main-1\">Hi</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -1679,7 +1750,7 @@
     }
   },
   "created": "2022-03-28T12:16:08Z",
-  "lastModified": "2025-09-08T05:49:49Z",
+  "lastModified": "2025-10-02T12:31:45Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImFhZDRhMDkyLWZiMzItNDYyZC1iYzQ5LWM4YjdjY2M0MTEwMyIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1717,14 +1788,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1483,
+  "version": 1485,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/aad4a092-fb32-462d-bc49-c8b7ccc41103",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/aad4a092-fb32-462d-bc49-c8b7ccc41103/1482",
+      "href": "/api/content/con-fusion/quote-flow/aad4a092-fb32-462d-bc49-c8b7ccc41103/1484",
       "method": "GET"
     },
     "draft/create": {
