@@ -1,6 +1,6 @@
 {
-  "id": "16a44b0f-87fb-4eb8-b852-707379a97506",
-  "createdBy": "subject:643d0a2b50643ff97e2d4f06",
+  "id": "9476fc65-a893-48a6-ac34-120ad82801a6",
+  "createdBy": "subject:689330dc9468c1aba43ed5c7",
   "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
@@ -19,7 +19,7 @@
       "iv": "Quote"
     },
     "environmentId": {
-      "iv": "dev"
+      "iv": "thabang"
     },
     "abTestingId": {
       "iv": ""
@@ -206,7 +206,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Your cover type",
+                    "label": "Change your cover type",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "cover-types",
@@ -1017,6 +1017,22 @@
                     "html": "<h2 class=\"font-georgia font-bold\">Your selected add-ons</h2>",
                     "htmlEvents": []
                   }
+                },
+                {
+                  "id": "btnCoverTypeUneditable",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Your cover type",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -1485,11 +1501,11 @@
       ]
     }
   },
-  "created": "2025-04-30T05:48:10Z",
-  "lastModified": "2025-10-03T13:14:55Z",
+  "created": "2025-10-06T06:58:10Z",
+  "lastModified": "2025-10-06T07:05:34Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxNmE0NGIwZi04N2ZiLTRlYjgtYjg1Mi03MDczNzlhOTc1MDYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5NDc2ZmM2NS1hODkzLTQ4YTYtYWMzNC0xMjBhZDgyODAxYTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -1566,40 +1582,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 2,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/4",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6/1",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/draft",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/status",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506/status",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/16a44b0f-87fb-4eb8-b852-707379a97506",
+      "href": "/api/content/con-fusion/quote-sections/9476fc65-a893-48a6-ac34-120ad82801a6",
       "method": "PUT"
     }
   }

@@ -10,7 +10,7 @@
       "iv": null
     },
     "sortAlphabetically": {
-      "iv": true
+      "iv": null
     },
     "sortIndexically": {
       "iv": true
@@ -664,7 +664,7 @@
     }
   },
   "created": "2024-10-09T06:41:34Z",
-  "lastModified": "2025-09-23T07:15:34Z",
+  "lastModified": "2025-10-06T06:00:30Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJkMWE2MTRlYi05YzgwLTQwNjgtYjk2OC1lMmY3ODY0MjQ0NGEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -695,14 +695,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 17,
+  "version": 20,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/16",
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/19",
       "method": "GET"
     },
     "draft/create": {
