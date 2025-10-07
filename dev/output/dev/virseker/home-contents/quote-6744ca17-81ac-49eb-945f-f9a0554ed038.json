@@ -206,7 +206,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Jou tipe dekking",
+                    "label": "Verander jou tipe dekking",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "cover-types",
@@ -1047,6 +1047,22 @@
                     "text": "Ingesluit by die tipe dekking",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "btnCoverTypeUneditable",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Jou tipe dekking",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -1516,7 +1532,7 @@
     }
   },
   "created": "2025-04-30T05:50:07Z",
-  "lastModified": "2025-10-01T12:54:16Z",
+  "lastModified": "2025-10-06T14:11:39Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NzQ0Y2ExNy04MWFjLTQ5ZWItOTQ1Zi1mOWEwNTU0ZWQwMzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1596,14 +1612,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 8,
+  "version": 9,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/7",
+      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/8",
       "method": "GET"
     },
     "draft/create": {

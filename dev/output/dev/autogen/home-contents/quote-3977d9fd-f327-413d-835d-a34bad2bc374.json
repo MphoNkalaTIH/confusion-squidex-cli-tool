@@ -1,7 +1,7 @@
 {
   "id": "3977d9fd-f327-413d-835d-a34bad2bc374",
   "createdBy": "subject:669df913f6500a63dd5e0607",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -206,7 +206,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Change cover type",
+                    "label": "Change your cover type",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "cover-types",
@@ -1017,6 +1017,22 @@
                     "html": "<h2 class=\"font-georgia font-bold\">Your selected add-ons</h2>",
                     "htmlEvents": []
                   }
+                },
+                {
+                  "id": "btnCoverTypeUneditable",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Your cover type",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -1486,7 +1502,7 @@
     }
   },
   "created": "2024-12-11T12:00:26Z",
-  "lastModified": "2025-09-23T06:55:27Z",
+  "lastModified": "2025-10-06T14:07:43Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIzOTc3ZDlmZC1mMzI3LTQxM2QtODM1ZC1hMzRiYWQyYmMzNzQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1566,14 +1582,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 48,
+  "version": 49,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374/47",
+      "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374/48",
       "method": "GET"
     },
     "draft/create": {

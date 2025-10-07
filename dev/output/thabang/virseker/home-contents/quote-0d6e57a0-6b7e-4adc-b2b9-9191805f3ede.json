@@ -1053,7 +1053,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Jou tupe dekking",
+                    "label": "Jou tipe dekking",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1532,7 +1532,7 @@
     }
   },
   "created": "2025-10-06T06:58:49Z",
-  "lastModified": "2025-10-06T08:53:43Z",
+  "lastModified": "2025-10-06T09:33:44Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIwZDZlNTdhMC02YjdlLTRhZGMtYjJiOS05MTkxODA1ZjNlZGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1612,14 +1612,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/0d6e57a0-6b7e-4adc-b2b9-9191805f3ede",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/0d6e57a0-6b7e-4adc-b2b9-9191805f3ede/2",
+      "href": "/api/content/con-fusion/quote-sections/0d6e57a0-6b7e-4adc-b2b9-9191805f3ede/3",
       "method": "GET"
     },
     "draft/create": {

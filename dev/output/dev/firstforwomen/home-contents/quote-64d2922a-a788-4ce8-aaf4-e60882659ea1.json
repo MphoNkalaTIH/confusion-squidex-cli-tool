@@ -1017,6 +1017,22 @@
                     "html": "<h2 class=\"font-georgia font-bold\">Your selected add-ons</h2>",
                     "htmlEvents": []
                   }
+                },
+                {
+                  "id": "btnCoverTypeUneditable",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Your cover type",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -1495,7 +1511,7 @@
     }
   },
   "created": "2025-04-30T05:50:42Z",
-  "lastModified": "2025-09-12T11:28:47Z",
+  "lastModified": "2025-10-06T14:08:55Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NGQyOTIyYS1hNzg4LTRjZTgtYWFmNC1lNjA4ODI2NTllYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1575,14 +1591,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 8,
+  "version": 9,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1/7",
+      "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1/8",
       "method": "GET"
     },
     "draft/create": {

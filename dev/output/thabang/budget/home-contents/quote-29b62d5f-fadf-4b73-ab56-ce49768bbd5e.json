@@ -206,7 +206,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Change cover type",
+                    "label": "Change your cover type",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "cover-types",
@@ -1502,7 +1502,7 @@
     }
   },
   "created": "2025-10-06T08:28:06Z",
-  "lastModified": "2025-10-06T08:28:20Z",
+  "lastModified": "2025-10-06T09:48:41Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyOWI2MmQ1Zi1mYWRmLTRiNzMtYWI1Ni1jZTQ5NzY4YmJkNWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1582,14 +1582,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/29b62d5f-fadf-4b73-ab56-ce49768bbd5e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/29b62d5f-fadf-4b73-ab56-ce49768bbd5e/0",
+      "href": "/api/content/con-fusion/quote-sections/29b62d5f-fadf-4b73-ab56-ce49768bbd5e/1",
       "method": "GET"
     },
     "draft/create": {
