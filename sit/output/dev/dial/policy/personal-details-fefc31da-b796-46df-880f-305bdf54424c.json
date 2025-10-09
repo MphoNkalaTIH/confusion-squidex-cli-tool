@@ -339,7 +339,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col mt-12 mb-6 font-rounded text-zodiac-blue text-[32px]\">Hi<span>{{name}}!</span></h1>",
+                    "html": "<h1 class=\"flex flex-col mt-12 mb-6 font-rounded text-zodiac-blue text-[32px]\">Hi <span>{{name}}!</span></h1>",
                     "htmlEvents": []
                   }
                 },
@@ -1924,7 +1924,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>The replacement value is what it will cost you to replace all your belongings with new items. If the exact new item cannot be found we will replace with a similar new item.<br><br>If you claim, we will calculate the replacement value for which you should have insured your home contents. If you insured them for less than that, we will only pay a part of your claim.</h4>",
+                    "html": "<h4>The replacement value is what it will cost you to replace all your belongings with new items. If the exact new item cannot be found we will replace it with a similar new item.<br><br>If you claim, we will calculate the replacement value for which you should have insured your home contents. If you insured them for less than that, we will only pay a part of your claim.</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -2005,7 +2005,7 @@
     }
   },
   "created": "2024-08-23T10:52:15Z",
-  "lastModified": "2025-05-05T13:38:16Z",
+  "lastModified": "2025-09-29T14:49:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmZWZjMzFkYS1iNzk2LTQ2ZGYtODgwZi0zMDViZGY1NDQyNGMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2085,14 +2085,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c/5",
+      "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c/7",
       "method": "GET"
     },
     "draft/create": {

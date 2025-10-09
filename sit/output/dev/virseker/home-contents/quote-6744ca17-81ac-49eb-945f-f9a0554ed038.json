@@ -206,7 +206,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Verander jou tipe dekking:",
+                    "label": "Verander jou tipe dekking",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "cover-types",
@@ -970,7 +970,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"font-medium text-sub-1\">Kry dekking</div>",
+                    "html": "<div class=\"font-medium text-sub-1 underline\">Kry dekking</div>",
                     "htmlEvents": []
                   }
                 },
@@ -1046,6 +1046,22 @@
                     "formControlName": null,
                     "text": "Ingesluit by die tipe dekking",
                     "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnCoverTypeUneditable",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Jou tipe dekking",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 }
               ]
@@ -1504,7 +1520,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 font-bold leading-tight\"><span class=\"text-main-1\">Dankie, </span> {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Ons het jou kwotasie gestuur.</p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Neem asseblief kennis dat dit vir 30 dae geldig is.</p>\n</div>",
+                    "html": "<div class=\"text-center flex flex-col items-center px-6\">\n    <img class=\"mt-10\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png\">\n    <h1 class=\"flex flex-col mb-3 mt-6 font-bold leading-tight\">Dankie, {{name}}!</h1>\n    <p class=\"my-3 text-base font-normal\">Jou kwotasie-opsomming is gestuur.</p>\n    <p class=\"my-3 mb-5 text-base font-normal\">Let asseblief dat dit geldig is vir 30 dae.</p>\n</div>",
                     "htmlEvents": []
                   }
                 }
@@ -1516,7 +1532,7 @@
     }
   },
   "created": "2025-05-05T13:38:16Z",
-  "lastModified": "2025-08-22T13:37:47Z",
+  "lastModified": "2025-10-07T11:11:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NzQ0Y2ExNy04MWFjLTQ5ZWItOTQ1Zi1mOWEwNTU0ZWQwMzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1596,14 +1612,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 6,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/1",
+      "href": "/api/content/con-fusion/quote-sections/6744ca17-81ac-49eb-945f-f9a0554ed038/5",
       "method": "GET"
     },
     "draft/create": {

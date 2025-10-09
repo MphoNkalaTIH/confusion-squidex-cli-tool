@@ -1045,7 +1045,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h3 class=\"mb-5\">Polishouer se inligting</h3>\n<h2>Wat is jou naam en van?</h2>"
+                    "html": "<h4 class=\"mb-5 text-base\">Polishouer se inligting</h4>\n<h2>Wat is jou naam en van?</h2>"
                   }
                 },
                 {
@@ -1142,7 +1142,7 @@
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Selfoonnommer is verpligtend",
-                      "invalidErrorMessage": "Selfoonnommer is ongeldig",
+                      "invalidErrorMessage": "Ongeldige selfoonnommer",
                       "maxLength": 10,
                       "minLength": 10,
                       "isRequired": true,
@@ -1157,7 +1157,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h3>Hallo {{name}}! Lekker om jou te ontmoet!</h3>\n<h2>Wat is jou selfoonnommer?</h2>"
+                    "html": "<h4 class=\"text-base\">Hallo {{name}}! Lekker om jou te ontmoet!</h4>\n<h2>Wat is jou selfoonnommer?</h2>"
                   }
                 },
                 {
@@ -1286,7 +1286,7 @@
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "E-posadres is verpligtend",
-                      "invalidErrorMessage": "E-posadres is ongeldig",
+                      "invalidErrorMessage": "Ongeldige e-posadres",
                       "maxLength": null,
                       "minLength": null,
                       "isRequired": true,
@@ -2028,7 +2028,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Die vervangingswaarde is wat dit jou sal kos om al jou besittings met nuwe items te vervang. As die presiese nuwe item nie gevind kan word nie, sal ons dit met 'n soortgelyke nuwe item vervang.<br><br>\nAs jy eis, sal ons die vervangingswaarde bereken waarvoor jy jou huisinhoud moes verseker het. As jy dit vir minder as dit verseker, sal ons slegs 'n gedeelte van jou eis betaal.</h4>",
+                    "html": "<h4>Die vervangingswaarde is wat dit jou sal kos om al jou besittings met nuwe items te vervang. As die presiese nuwe item nie gevind kan word nie, sal ons dit met 'n soortgelyke nuwe item vervang.<br><br>\nAs jy eis, sal ons die vervangingswaarde bereken waarvoor jy jou huisinhoud moes verseker het. As jy dit vir minder as dit verseker het, sal ons slegs 'n gedeelte van jou eis betaal.</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -2109,7 +2109,7 @@
     }
   },
   "created": "2024-08-23T10:52:15Z",
-  "lastModified": "2025-06-06T08:19:58Z",
+  "lastModified": "2025-10-09T08:19:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmYWZlOTFjNS1jMWMxLTQ5ODUtODgyOC0zZTJjMmQ3M2UzNzEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2189,14 +2189,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 9,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/fafe91c5-c1c1-4985-8828-3e2c2d73e371",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/fafe91c5-c1c1-4985-8828-3e2c2d73e371/6",
+      "href": "/api/content/con-fusion/quote-sections/fafe91c5-c1c1-4985-8828-3e2c2d73e371/8",
       "method": "GET"
     },
     "draft/create": {

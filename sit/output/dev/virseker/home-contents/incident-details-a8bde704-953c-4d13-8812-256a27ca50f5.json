@@ -475,7 +475,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                          "label": "Insident datum",
+                          "label": "Datum van insident",
                           "helperText": "Dag/Maand/Jaar",
                           "placeholderText": "Dag/Maand/Jaar",
                           "formControlName": "inputIncidentDate",
@@ -497,7 +497,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                          "label": "Insident waarde",
+                          "label": "Waarde van insident",
                           "helperText": null,
                           "placeholderText": "0",
                           "formControlName": "incidentValue",
@@ -605,7 +605,7 @@
     }
   },
   "created": "2025-05-05T13:38:16Z",
-  "lastModified": "2025-08-22T13:37:47Z",
+  "lastModified": "2025-10-07T11:11:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhOGJkZTcwNC05NTNjLTRkMTMtODgxMi0yNTZhMjdjYTUwZjUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -685,14 +685,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/1",
+      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/2",
       "method": "GET"
     },
     "draft/create": {

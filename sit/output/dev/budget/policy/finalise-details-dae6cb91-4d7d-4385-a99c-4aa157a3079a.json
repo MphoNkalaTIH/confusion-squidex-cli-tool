@@ -1,7 +1,7 @@
 {
   "id": "dae6cb91-4d7d-4385-a99c-4aa157a3079a",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "subject:68c1713cde0f8548f96273ac",
+  "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
       "iv": "budget"
@@ -112,7 +112,7 @@
                     "label": "Street address",
                     "helperText": "eg. 1 Waltham Drive",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "address1",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Street address is required",
@@ -123,8 +123,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "address1"
+                    }
                   }
                 },
                 {
@@ -135,7 +134,7 @@
                     "label": "Complex / building (optional)",
                     "helperText": "Complex or building name, unit number or floor",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "address2",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Name of the Complex or building is required",
@@ -146,8 +145,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "address2"
+                    }
                   }
                 },
                 {
@@ -158,7 +156,7 @@
                     "label": "Suburb",
                     "helperText": "Home area / suburb",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "suburbName",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -169,8 +167,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "suburbName"
+                    }
                   }
                 },
                 {
@@ -181,7 +178,7 @@
                     "label": "City / Town",
                     "helperText": "",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "city",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "City or town name is required",
@@ -192,8 +189,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "city"
+                    }
                   }
                 },
                 {
@@ -204,7 +200,7 @@
                     "label": "Postal code",
                     "helperText": "",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "postCode",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -215,8 +211,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "postCode"
+                    }
                   }
                 },
                 {
@@ -531,7 +526,7 @@
                     "label": "Card holder",
                     "helperText": null,
                     "placeholderText": "Please select ",
-                    "required": null,
+                    "formControlName": "cardHolder",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -542,8 +537,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "cardHolder"
+                    }
                   }
                 },
                 {
@@ -554,7 +548,7 @@
                     "label": "Card holder's name",
                     "helperText": null,
                     "placeholderText": "Please complete ",
-                    "required": null,
+                    "formControlName": "cardHolderName",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Card holder name is required",
@@ -565,8 +559,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "cardHolderName"
+                    }
                   }
                 },
                 {
@@ -577,7 +570,7 @@
                     "label": "Card number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "creditCardNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Card number is required",
@@ -588,8 +581,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "creditCardNumber"
+                    }
                   }
                 },
                 {
@@ -600,7 +592,7 @@
                     "label": "Expiry date",
                     "helperText": null,
                     "placeholderText": "Month/Year",
-                    "required": null,
+                    "formControlName": "cardExpiryDate",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Card expiry date is required",
@@ -611,8 +603,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "cardExpiryDate"
+                    }
                   }
                 },
                 {
@@ -623,7 +614,7 @@
                     "label": "Business registration number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "businessRegistrationNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Business registration number is required",
@@ -634,8 +625,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "businessRegistrationNumber"
+                    }
                   }
                 },
                 {
@@ -646,7 +636,7 @@
                     "label": "Business representative name and surname",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "businessRepresentativeName",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Business representative name and surname is required",
@@ -657,8 +647,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "businessRepresentativeName"
+                    }
                   }
                 },
                 {
@@ -669,7 +658,7 @@
                     "label": "Card holder's cellphone number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "cardHolderCellNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Cellphone number is required",
@@ -680,8 +669,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "cardHolderCellNumber"
+                    }
                   }
                 },
                 {
@@ -1183,7 +1171,7 @@
                     "label": "Name",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "name",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Name is required",
@@ -1194,8 +1182,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "name"
+                    }
                   }
                 },
                 {
@@ -1206,7 +1193,7 @@
                     "label": "Surname",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "surname",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Surname is required",
@@ -1217,8 +1204,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "surname"
+                    }
                   }
                 },
                 {
@@ -1229,7 +1215,7 @@
                     "label": "Date of birth",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "dateOfBirth",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Date of birth is required",
@@ -1240,8 +1226,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "dateOfBirth"
+                    }
                   }
                 },
                 {
@@ -1252,7 +1237,7 @@
                     "label": "Gender",
                     "helperText": null,
                     "placeholderText": "Please select",
-                    "required": null,
+                    "formControlName": "gender",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Gender is required",
@@ -1263,8 +1248,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "gender"
+                    }
                   }
                 },
                 {
@@ -1275,7 +1259,7 @@
                     "label": "Relationship with policy holder",
                     "helperText": null,
                     "placeholderText": "Please select",
-                    "required": null,
+                    "formControlName": "relationshipWithPH",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Relationship with policy holder is required",
@@ -1286,8 +1270,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "relationshipWithPH"
+                    }
                   }
                 },
                 {
@@ -1400,7 +1383,7 @@
                     "label": "Account holder",
                     "helperText": null,
                     "placeholderText": null,
-                    "required": null,
+                    "formControlName": "accountHolder",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -1411,8 +1394,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "accountHolder"
+                    }
                   }
                 },
                 {
@@ -1423,7 +1405,7 @@
                     "label": "Account holder's name",
                     "helperText": null,
                     "placeholderText": "Please complete ",
-                    "required": null,
+                    "formControlName": "accountHolderName",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Account holder name is required",
@@ -1434,8 +1416,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "accountHolderName"
+                    }
                   }
                 },
                 {
@@ -1446,7 +1427,7 @@
                     "label": "Account holder's ID number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "ID number is required",
@@ -1457,8 +1438,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "idNumber"
+                    }
                   }
                 },
                 {
@@ -1469,7 +1449,7 @@
                     "label": "Account holder's passport number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Passport number is required",
@@ -1480,8 +1460,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "idNumber"
+                    }
                   }
                 },
                 {
@@ -1492,7 +1471,7 @@
                     "label": "Account number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "accountNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Account number is required",
@@ -1503,8 +1482,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "accountNumber"
+                    }
                   }
                 },
                 {
@@ -1515,7 +1493,7 @@
                     "label": "Business registration number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "businessRegistrationNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Business registration number is required",
@@ -1526,8 +1504,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "businessRegistrationNumber"
+                    }
                   }
                 },
                 {
@@ -1538,7 +1515,7 @@
                     "label": "Business representative name and surname",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "businessRepresentativeName",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Business representative name and surname is required",
@@ -1549,8 +1526,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "businessRepresentativeName"
+                    }
                   }
                 },
                 {
@@ -1561,7 +1537,7 @@
                     "label": "Account holder's cellphone number",
                     "helperText": "",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "accountHolderCellNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Cellphone number is required",
@@ -1572,8 +1548,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "accountHolderCellNumber"
+                    }
                   }
                 },
                 {
@@ -1704,7 +1679,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    It has come to our attention that the account information provided may be\n    inaccurate or contain an error.\n</p>\n<p>\n    Once you have completed your policy activation, we will make an effort to get in touch with you to review this. Alternatively, you can contact us on 0861 60 01 20 after completing your activation to ensure that your account information is correct.\n</p>\n<p>\n    Please note that failure to correct the error may result in the cancellation\n    of your cover.\n</p>",
+                          "html": "<p>\n    We couldn’t verify your banking details. Would you like us to give you a quick call to help you finish setting up your policy?\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1713,12 +1688,42 @@
                       },
                       {
                         "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
-                        "id": "btnProceed",
+                        "id": "btnCallMeBack",
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Proceed",
-                          "route": null,
+                          "label": "Call me back",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "callback-complete",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnDropOff",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "No thanks, not right now",
+                          "route": {
+                            "baseRoute": "",
+                            "pageRoute": "unacceptable-risk-all-risk-items",
+                            "sectionRoute": "callbackPages",
+                            "goToStart": false
+                          },
                           "url": null,
                           "img": null,
                           "useImageAsButton": null,
@@ -2026,7 +2031,7 @@
                     "label": "Cover start date",
                     "helperText": null,
                     "placeholderText": "Day/Month/Year",
-                    "required": null,
+                    "formControlName": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -2037,8 +2042,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": null
+                    }
                   }
                 },
                 {
@@ -2142,7 +2146,7 @@
                     "label": "Premium payment date",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -2153,8 +2157,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": null
+                    }
                   }
                 },
                 {
@@ -2255,7 +2258,7 @@
                           "label": "Confirm that you agree with our <a>Terms and Conditions</a>",
                           "helperText": null,
                           "placeholderText": null,
-                          "required": null,
+                          "formControlName": null,
                           "validation": {
                             "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                             "requiredErrorMessage": null,
@@ -2266,8 +2269,7 @@
                             "isWhiteSpace": null,
                             "isRequiredTrue": null,
                             "validateSpecialCharacters": null
-                          },
-                          "formControlName": null
+                          }
                         }
                       }
                     ]
@@ -2334,7 +2336,7 @@
                           "label": "Confirm that you agree with our",
                           "helperText": null,
                           "placeholderText": null,
-                          "required": null,
+                          "formControlName": null,
                           "validation": {
                             "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                             "requiredErrorMessage": null,
@@ -2345,8 +2347,7 @@
                             "isWhiteSpace": null,
                             "isRequiredTrue": null,
                             "validateSpecialCharacters": null
-                          },
-                          "formControlName": null
+                          }
                         }
                       },
                       {
@@ -2588,7 +2589,7 @@
     }
   },
   "created": "2024-08-05T07:19:46Z",
-  "lastModified": "2025-09-10T12:46:12Z",
+  "lastModified": "2025-10-02T15:47:28Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkYWU2Y2I5MS00ZDdkLTQzODUtYTk5Yy00YWExNTdhMzA3OWEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2668,14 +2669,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 12,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/dae6cb91-4d7d-4385-a99c-4aa157a3079a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/dae6cb91-4d7d-4385-a99c-4aa157a3079a/9",
+      "href": "/api/content/con-fusion/quote-sections/dae6cb91-4d7d-4385-a99c-4aa157a3079a/11",
       "method": "GET"
     },
     "draft/create": {

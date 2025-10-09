@@ -504,7 +504,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\r\n\t<b>Huis</b><br />\r\n\t'n Vrystaande residensiële gebou, deur 'n familie bewoon.\r\n</p>\r\n<p>\r\n\t<b>Kothuis</b><br />\r\n\t'n Algeheel funsionele struktuur op 'n gedeelde eiendom met sy eie ingang.\r\n</p>\r\n<p>\r\n\t<b>Meenthuis</b><br />\r\n\t'n Eiendom wat gemeenskaplike areas met ander inwoners in dieselfde ontwikkeling deel.\r\n</p>\r\n<p>\r\n\t<b>Woonstel - Grondvloer</b><br />\r\n\t'n Eenheid wat in 'n blok woonstelle op die grondvlak geleë is.\r\n</p>\r\n<p>\r\n\t<b>Woonstel - Bo grondvloer</b><br />\r\n\t'n Eenheid wat in 'n blok woonstelle bo die grondvlak geleë is.\r\n</p>\r\n<p>\r\n\t<b>Troshuis</b><br />\r\n\t'n Eiendom wat in groeperings gebou is, met 'n gedeelde muur binne die huis.\r\n</p>\r\n<p>\r\n\t<b>Mobiele woning</b><br />\r\n\t'n Voorafvervaardigde of skeepshouer woning.\r\n</p>",
+                          "html": "<p>\r\n\t<b>Huis</b><br />\r\n\t'n Vrystaande residensiële gebou, deur 'n familie bewoon.\r\n</p>\r\n<p>\r\n\t<b>Kothuis</b><br />\r\n\t'n Algeheel funksionele struktuur op 'n gedeelde eiendom met sy eie ingang.\r\n</p>\r\n<p>\r\n\t<b>Meenthuis</b><br />\r\n\t'n Eiendom wat gemeenskaplike areas met ander inwoners in dieselfde ontwikkeling deel.\r\n</p>\r\n<p>\r\n\t<b>Woonstel - Grondvloer</b><br />\r\n\t'n Eenheid wat in 'n blok woonstelle op die grondvlak geleë is.\r\n</p>\r\n<p>\r\n\t<b>Woonstel - Bo grondvloer</b><br />\r\n\t'n Eenheid wat in 'n blok woonstelle bo die grondvlak geleë is.\r\n</p>\r\n<p>\r\n\t<b>Troshuis</b><br />\r\n\t'n Eiendom wat in groeperings gebou is, met 'n gedeelde muur binne die huis.\r\n</p>\r\n<p>\r\n\t<b>Mobiele woning</b><br />\r\n\t'n Voorafvervaardigde of skeepshouer woning.\r\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -559,7 +559,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    Bouregulasies of gebou beheer verwys na \n    'n struktuur wat volgens die voorgeskrewe \n    Suid-Afrikaanse boustandaarde gebou is. \n    Dit help om te verseker dat alle geboue \n    veilig is vir mense wat binne en om die\n    geboue is.\n</p>\n<p>\n    Dit is belangrik om hierdie vraag akkuraat\n    te beantwoord want dit kan jou \n    toekomstige eise beïnvloed\n</p>",
+                          "html": "<p>\n    Bouregulasies of gebou beheer verwys na \n    'n struktuur wat volgens die voorgeskrewe \n    Suid-Afrikaanse boustandaarde gebou is. \n    Dit help om te verseker dat alle geboue \n    veilig is vir mense wat binne en om die\n    geboue is.\n</p>\n<p>\n    Dit is belangrik om hierdie vraag akkuraat\n    te beantwoord want dit kan jou \n    toekomstige eise beïnvloed.\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1267,7 +1267,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het jou woning 'n diefalarmstelsel wat in werkende toestand is?</h2>",
+                    "html": "<h2>Het jou woning ŉ diefalarmstelsel wat in ŉ werkende toestand is?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1366,7 +1366,7 @@
     }
   },
   "created": "2024-08-05T07:19:43Z",
-  "lastModified": "2025-08-22T13:37:47Z",
+  "lastModified": "2025-09-25T11:46:04Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2MThkOTM1Yy01NGUwLTRkMTItODMyNy04M2Q1MWUxMjU0ZGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1446,14 +1446,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/2",
+      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/3",
       "method": "GET"
     },
     "draft/create": {

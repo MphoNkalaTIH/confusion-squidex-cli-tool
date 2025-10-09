@@ -1017,6 +1017,22 @@
                     "html": "<h2 class=\"font-georgia font-bold\">Your selected add-ons</h2>",
                     "htmlEvents": []
                   }
+                },
+                {
+                  "id": "btnCoverTypeUneditable",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Your cover type",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -1154,7 +1170,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Get covered",
+                    "label": "Done",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "premium",
@@ -1495,7 +1511,7 @@
     }
   },
   "created": "2025-05-05T13:38:16Z",
-  "lastModified": "2025-09-08T07:58:15Z",
+  "lastModified": "2025-10-07T11:11:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NGQyOTIyYS1hNzg4LTRjZTgtYWFmNC1lNjA4ODI2NTllYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1575,14 +1591,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1/4",
+      "href": "/api/content/con-fusion/quote-sections/64d2922a-a788-4ce8-aaf4-e60882659ea1/7",
       "method": "GET"
     },
     "draft/create": {

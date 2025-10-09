@@ -206,7 +206,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Change cover type",
+                    "label": "Change your cover type",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "cover-types",
@@ -950,7 +950,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"font-medium text-sub-1\">Get covered</div>",
+                    "html": "<div class=\"font-medium text-sub-1 underline\">Get covered</div>",
                     "htmlEvents": []
                   }
                 },
@@ -1016,6 +1016,22 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2 class=\"font-georgia font-bold\">Your selected add-ons</h2>",
                     "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnCoverTypeUneditable",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Your cover type",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 }
               ]
@@ -1486,7 +1502,7 @@
     }
   },
   "created": "2025-03-07T08:59:38Z",
-  "lastModified": "2025-07-25T06:24:00Z",
+  "lastModified": "2025-10-07T11:11:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIzOTc3ZDlmZC1mMzI3LTQxM2QtODM1ZC1hMzRiYWQyYmMzNzQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1566,14 +1582,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 14,
+  "version": 16,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374/13",
+      "href": "/api/content/con-fusion/quote-sections/3977d9fd-f327-413d-835d-a34bad2bc374/15",
       "method": "GET"
     },
     "draft/create": {

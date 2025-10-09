@@ -23,6 +23,7 @@
           "index": null,
           "copy": null,
           "description": "",
+          "class": null,
           "image": null,
           "brandOverrides": [
             {
@@ -52,6 +53,7 @@
           "index": null,
           "copy": "This benefit will protect your loved ones financially in the event of the \npolicyholder’s death. It will cover your short-term insurance premiums for up to \nsix months, protect your Cash Back Plus and give you peace of mind that your \npersonal possessions remain insured.",
           "description": "Death Premium Waiver Benefit",
+          "class": null,
           "image": [
             "a798ed87-b3a5-44de-a95a-8adec3571602"
           ],
@@ -94,6 +96,7 @@
           "index": null,
           "copy": "This benefit has a six-month waiting period and will cover payment of your \nshort-term insurance premiums for up to six months, protect your Cash Back Plus \nand give you peace of mind that your personal possessions remain insured.",
           "description": "Retrenchment Premium Waiver Benefit",
+          "class": null,
           "image": [
             "09a56fb5-6b27-48ab-88d7-73bf21033451"
           ],
@@ -122,7 +125,7 @@
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "dial",
               "index": null,
-              "copy": "<p>This product provides peace of mind for policyholders who get retrenched.</p>\n<p>Your policy premiums will be paid for a total of up to six months (over the lifetime of the policy). This benefit has a six-month waiting period.</p>",
+              "copy": "<p>This benefit provides peace of mind for policyholders who are retrenched.</p>\n<p>Your policy premiums will be paid for a total of up to six months (over the lifetime of the policy). This benefit has a six-month waiting period.</p>",
               "description": "Retrenchment Premium Waiver Benefit",
               "image": [
                 "19b228d3-2bad-44a3-bc7d-217073194bde"
@@ -136,6 +139,7 @@
           "index": null,
           "copy": "In the event of death, this benefit will cover you, the policyholder, for an \namount of R5 000.00. It has a six-month waiting period unless death is due to \naccidental causes - then cover is immediate. The benefit also covers death as a \nresult of HIV/AIDS and claims are settled in two working days.",
           "description": "Protection Plan Cover",
+          "class": null,
           "image": [
             "59039f33-cb6c-4001-9924-29ef2ee5d8dc"
           ],
@@ -165,7 +169,7 @@
               "brand": "dial",
               "index": null,
               "copy": "<p>If you are totally and permanently disabled, as the result of an accident, you may be at risk of losing your job and your income.</p>\n<p>To assist you and your family at this difficult time, we will continue to pay your policy premiums for a total of up to six months (over the lifetime of the policy). This benefit has a six-month waiting period.</p>",
-              "description": "Total Permanent Disability Premium Waiver",
+              "description": "Total Permanent Disability Benefit",
               "image": [
                 "5aad6896-1142-4a23-b8b7-2fb0053eb6fc"
               ],
@@ -177,7 +181,7 @@
     }
   },
   "created": "2023-07-14T09:02:45Z",
-  "lastModified": "2025-04-17T08:58:50Z",
+  "lastModified": "2025-09-25T11:46:20Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIzZGY0N2M0NC0zMDcwLTQwOWQtYTQ0NS1kODBiOTY1ZDBhZTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -208,14 +212,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6/6",
+      "href": "/api/content/con-fusion-static-data/static-data/3df47c44-3070-409d-a445-d80b965d0ae6/7",
       "method": "GET"
     },
     "draft/create": {

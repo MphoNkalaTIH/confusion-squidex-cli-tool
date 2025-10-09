@@ -10,10 +10,10 @@
       "iv": null
     },
     "sortAlphabetically": {
-      "iv": true
+      "iv": null
     },
     "sortIndexically": {
-      "iv": null
+      "iv": true
     },
     "brandOverrides": {
       "iv": []
@@ -25,6 +25,7 @@
           "index": 1,
           "copy": "Act of Nature (i.e. hail, storms, floods)",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -44,6 +45,7 @@
           "index": 2,
           "copy": "Earth Quake",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -63,6 +65,7 @@
           "index": 3,
           "copy": "Flood Damage (Act Of God)",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -82,6 +85,7 @@
           "index": 4,
           "copy": "Storm/Hail Damage",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -101,6 +105,7 @@
           "index": 5,
           "copy": "Burglary/theft",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -120,6 +125,7 @@
           "index": 6,
           "copy": "Bicycle Stolen",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -139,6 +145,7 @@
           "index": 7,
           "copy": "Credit Card - Fraudulent Use",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -158,6 +165,7 @@
           "index": 8,
           "copy": "Stolen Away From Home",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -177,6 +185,7 @@
           "index": 9,
           "copy": "Stolen Caravan Contents",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -196,6 +205,7 @@
           "index": 10,
           "copy": "Stolen Domestic Employees Property",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -215,6 +225,7 @@
           "index": 11,
           "copy": "Stolen From Address",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -234,6 +245,7 @@
           "index": 12,
           "copy": "Stolen From Garage",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -253,6 +265,7 @@
           "index": 13,
           "copy": "Stolen From/With Vehicle",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -272,6 +285,7 @@
           "index": 14,
           "copy": "Stolen Garden Furniture",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -291,6 +305,7 @@
           "index": 15,
           "copy": "Stolen Guest Property",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -310,6 +325,7 @@
           "index": 16,
           "copy": "Stolen Laundry",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -325,29 +341,11 @@
           ]
         },
         {
-          "code": "OT",
-          "index": 17,
-          "copy": "Other",
-          "description": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": [
-            {
-              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
-              "brand": "virseker",
-              "index": 17,
-              "copy": "Ander",
-              "description": null,
-              "image": null,
-              "copyOverrides": []
-            }
-          ]
-        },
-        {
           "code": "HH",
           "index": 18,
           "copy": "Damage To House",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -367,6 +365,7 @@
           "index": 19,
           "copy": "Damage To Swimming Pool / Borehole Equipment",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -386,6 +385,7 @@
           "index": 20,
           "copy": "Deterioration Of Food",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -405,6 +405,7 @@
           "index": 21,
           "copy": "Flood / Burst Pipe",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -424,6 +425,7 @@
           "index": 22,
           "copy": "Hole In One / Bowling Full House",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -443,6 +445,7 @@
           "index": 23,
           "copy": "Item Lost",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -462,6 +465,7 @@
           "index": 24,
           "copy": "Locks And Keys - Damage",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -481,6 +485,7 @@
           "index": 25,
           "copy": "Malicious Damage",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -500,6 +505,7 @@
           "index": 26,
           "copy": "Medical Expenses",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -519,6 +525,7 @@
           "index": 27,
           "copy": "Other",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -538,6 +545,7 @@
           "index": 28,
           "copy": "Prescription Glasses / Contact Lenses",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -557,6 +565,7 @@
           "index": 29,
           "copy": "Veterinary Expenses",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -576,6 +585,7 @@
           "index": 30,
           "copy": "Lightning/power surge",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -595,6 +605,7 @@
           "index": 31,
           "copy": "Fire",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -614,6 +625,7 @@
           "index": 32,
           "copy": "Accidental breakage",
           "description": null,
+          "class": null,
           "image": null,
           "copyOverrides": [],
           "brandOverrides": [
@@ -627,12 +639,32 @@
               "copyOverrides": []
             }
           ]
+        },
+        {
+          "code": "OT",
+          "index": 33,
+          "copy": "Other",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 33,
+              "copy": "Ander",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         }
       ]
     }
   },
   "created": "2024-11-14T08:28:52Z",
-  "lastModified": "2025-06-09T14:19:43Z",
+  "lastModified": "2025-10-07T11:11:54Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJkMWE2MTRlYi05YzgwLTQwNjgtYjk2OC1lMmY3ODY0MjQ0NGEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -663,14 +695,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 6,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/3",
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/5",
       "method": "GET"
     },
     "draft/create": {
