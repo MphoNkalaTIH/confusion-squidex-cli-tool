@@ -375,7 +375,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Verifikasie van bankrekening</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Bankrekening verifikasie</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -430,7 +430,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Verifikasie van bankrekening</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Bankrekening verifikasie</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1691,7 +1691,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Verifikasie van bankrekening</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Bankrekening verifikasie</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1746,7 +1746,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Verifikasie van bankrekening</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Bankrekening verifikasie</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1831,7 +1831,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Verifikasie van bankrekening</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Bankrekening verifikasie</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -2718,7 +2718,7 @@
     }
   },
   "created": "2024-08-05T07:19:43Z",
-  "lastModified": "2025-10-09T09:27:49Z",
+  "lastModified": "2025-10-09T09:46:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI3MDhjNzAwOC1mYzhiLTQzODMtYjdhNi04MGU5NzlmMmM5YTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2798,14 +2798,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 11,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/9",
+      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/10",
       "method": "GET"
     },
     "draft/create": {
