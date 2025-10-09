@@ -519,7 +519,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Het jy van die versekering vir hierdie insident geëis</p>",
+                          "html": "<p>Het jy van die versekering vir hierdie insident geëis?</p>",
                           "htmlEvents": []
                         }
                       },
@@ -605,7 +605,7 @@
     }
   },
   "created": "2025-04-30T06:41:23Z",
-  "lastModified": "2025-10-06T09:39:39Z",
+  "lastModified": "2025-10-09T08:39:36Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhOGJkZTcwNC05NTNjLTRkMTMtODgxMi0yNTZhMjdjYTUwZjUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -685,14 +685,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/3",
+      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/4",
       "method": "GET"
     },
     "draft/create": {
