@@ -1,7 +1,7 @@
 {
   "id": "a8bde704-953c-4d13-8812-256a27ca50f5",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "subject:68b14af6aa66f080f2e7012b",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -519,7 +519,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Het jy van die versekering vir hierdie insident geëis</p>",
+                          "html": "<p>Het jy van die versekering vir hierdie insident geëis?</p>",
                           "htmlEvents": []
                         }
                       },
@@ -605,7 +605,7 @@
     }
   },
   "created": "2025-05-05T13:38:16Z",
-  "lastModified": "2025-10-07T11:11:42Z",
+  "lastModified": "2025-10-09T08:49:46Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhOGJkZTcwNC05NTNjLTRkMTMtODgxMi0yNTZhMjdjYTUwZjUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -685,14 +685,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/2",
+      "href": "/api/content/con-fusion/quote-sections/a8bde704-953c-4d13-8812-256a27ca50f5/3",
       "method": "GET"
     },
     "draft/create": {
