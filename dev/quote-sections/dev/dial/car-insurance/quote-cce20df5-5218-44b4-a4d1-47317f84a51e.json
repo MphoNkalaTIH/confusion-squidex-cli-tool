@@ -1,7 +1,7 @@
 {
   "id": "cce20df5-5218-44b4-a4d1-47317f84a51e",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -1541,7 +1541,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "20b4e008-9128-4d6e-97a2-d76ab08b9e12",
-                          "title": "How many full years of uninterrupted comprehensive car insurance has  {{householdMemberName}} had over the last 7 years",
+                          "title": "How many full years of uninterrupted comprehensive car insurance has  {{householdMemberName}} had over the last 7 years?",
                           "template": "",
                           "valueFieldPath": "personal.regularDriver.uninterruptedCover.description",
                           "applyTitleCasePipeToValue": null,
@@ -2768,7 +2768,7 @@
     }
   },
   "created": "2024-07-16T12:13:42Z",
-  "lastModified": "2025-10-03T13:13:57Z",
+  "lastModified": "2025-10-14T17:48:41Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjY2UyMGRmNS01MjE4LTQ0YjQtYTRkMS00NzMxN2Y4NGE1MWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2848,14 +2848,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 37,
+  "version": 38,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/36",
+      "href": "/api/content/con-fusion/quote-sections/cce20df5-5218-44b4-a4d1-47317f84a51e/37",
       "method": "GET"
     },
     "draft/create": {
