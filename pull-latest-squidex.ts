@@ -16,11 +16,11 @@ function getOutputDir(schema: string): string {
   const environment = (process.env.ENVIRONMENT)?.toLocaleLowerCase();
 
   switch(schema) {
-    case "qoute-sections":
-      return `${environment}/output`;
+    case "quote-sections":
+      return `${environment}/quote-sections`;
 
-    case "qoute-flow":
-      return `${environment}/qoute-flow`;
+    case "quote-flow":
+      return `${environment}/quote-flow`;
 
     case "static-data":
       return `${environment}/static-data`;
@@ -39,11 +39,11 @@ function getEnvironmentUrl(app: string, schema: string): string {
   const environment = (process.env.ENVIRONMENT);
 
   switch(key) {
-    case "con-fusion qoute-sections":
-      return `${environment}_QOUTE_SECTIONS_URL`;
+    case "con-fusion quote-sections":
+      return `${environment}_QUOTE_SECTIONS_URL`;
 
-    case "con-fusion qoute-flow":
-      return `${environment}_QOUTE_FLOW_URL`;
+    case "con-fusion quote-flow":
+      return `${environment}_QUOTE_FLOW_URL`;
 
     case "con-fusion-static static-data":
       return `${environment}_STATIC_DATA_URL`;
