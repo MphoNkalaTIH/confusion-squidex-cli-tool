@@ -76,6 +76,5 @@ Here is an overview of the architecture flow:
 
 npm run pull-latest con-fusion quote-sections
 npm run pull-latest con-fusion quote-flow
-
 npm run pull-latest con-fusion-static static-data
 npm run pull-latest con-fusion-static enums
