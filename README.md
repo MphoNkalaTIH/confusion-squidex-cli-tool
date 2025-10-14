@@ -72,3 +72,10 @@ Here is an overview of the architecture flow:
   2. getting client id and client secret
     -- log in to squidex >> navigate to profile >> generate secret >> copy client id and secret
   ```
+
+
+npm run pull-latest con-fusion quote-sections
+npm run pull-latest con-fusion quote-flow
+
+npm run pull-latest con-fusion-static static-data
+npm run pull-latest con-fusion-static enums
