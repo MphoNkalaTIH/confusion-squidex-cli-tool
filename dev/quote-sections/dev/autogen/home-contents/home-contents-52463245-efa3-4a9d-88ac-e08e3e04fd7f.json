@@ -1,7 +1,7 @@
 {
   "id": "52463245-efa3-4a9d-88ac-e08e3e04fd7f",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:678f6baf2b512c27fd0ed077",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -80,7 +80,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"font-normal\">\n    Auto&General is the insurer South Africans trust to be there when it matters.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online home contents insurance quote with us today!\n</p>",
+                    "html": "<p class=\"font-normal\">\n    Auto&General, the insurer you can trust when it matters most. Never not there.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online home contents insurance quote with us today!\n</p>",
                     "htmlEvents": []
                   }
                 },
@@ -141,7 +141,7 @@
     }
   },
   "created": "2024-07-16T12:13:39Z",
-  "lastModified": "2025-05-21T09:25:05Z",
+  "lastModified": "2025-10-14T13:51:38Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI1MjQ2MzI0NS1lZmEzLTRhOWQtODhhYy1lMDhlM2UwNGZkN2YiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -221,14 +221,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/52463245-efa3-4a9d-88ac-e08e3e04fd7f",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/52463245-efa3-4a9d-88ac-e08e3e04fd7f/5",
+      "href": "/api/content/con-fusion/quote-sections/52463245-efa3-4a9d-88ac-e08e3e04fd7f/7",
       "method": "GET"
     },
     "draft/create": {

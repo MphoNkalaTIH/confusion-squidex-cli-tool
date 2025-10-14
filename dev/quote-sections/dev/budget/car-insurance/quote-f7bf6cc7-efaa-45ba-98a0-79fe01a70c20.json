@@ -1,7 +1,7 @@
 {
   "id": "f7bf6cc7-efaa-45ba-98a0-79fe01a70c20",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "budget"
@@ -429,7 +429,7 @@
                           "title": "Type",
                           "template": "vehicleDetailsTemplate",
                           "valueFieldPath": "vehicle.vehicle.type.description",
-                          "applyTitleCasePipeToValue": true,
+                          "applyTitleCasePipeToValue": null,
                           "imageFieldPath": null,
                           "ignoreSentenceCaseForValue": null,
                           "imageClass": null,
@@ -2896,7 +2896,7 @@
     }
   },
   "created": "2024-07-16T12:13:40Z",
-  "lastModified": "2025-09-26T07:07:29Z",
+  "lastModified": "2025-10-14T14:29:52Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmN2JmNmNjNy1lZmFhLTQ1YmEtOThhMC03OWZlMDFhNzBjMjAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2976,14 +2976,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 41,
+  "version": 42,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f7bf6cc7-efaa-45ba-98a0-79fe01a70c20",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f7bf6cc7-efaa-45ba-98a0-79fe01a70c20/40",
+      "href": "/api/content/con-fusion/quote-sections/f7bf6cc7-efaa-45ba-98a0-79fe01a70c20/41",
       "method": "GET"
     },
     "draft/create": {
