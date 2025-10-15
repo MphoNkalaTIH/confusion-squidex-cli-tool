@@ -1104,7 +1104,12 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "No specific location",
-                    "route": null,
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-suburb-work",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -1119,7 +1124,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In which area or suburb is the car normally parked at night?</h2>"
+                    "html": "<h2>What address is your car normally parked at night?</h2>"
                   }
                 },
                 {
@@ -1400,7 +1405,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In which area or suburb is the car parked during the day?</h2>"
+                    "html": "<h2>What address is your car normally parked during the day?</h2>"
                   }
                 },
                 {
@@ -1656,7 +1661,7 @@
     }
   },
   "created": "2025-10-07T07:02:12Z",
-  "lastModified": "2025-10-14T07:08:14Z",
+  "lastModified": "2025-10-14T20:39:57Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkNGVjNWZjYS01Nzk0LTQyMTItYjkzZC1iZTE3YzA0ZTU1NjMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1736,14 +1741,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 21,
+  "version": 23,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/20",
+      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/22",
       "method": "GET"
     },
     "draft/create": {

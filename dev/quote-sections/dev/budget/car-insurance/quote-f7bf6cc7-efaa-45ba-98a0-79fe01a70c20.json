@@ -556,7 +556,7 @@
                           "valueFieldPath": "vehicle.vehicle.coverType.description",
                           "applyTitleCasePipeToValue": null,
                           "imageFieldPath": null,
-                          "ignoreSentenceCaseForValue": null,
+                          "ignoreSentenceCaseForValue": true,
                           "imageClass": null,
                           "copyFieldPath": "vehicle.vehicle.coverType.copy"
                         }
@@ -2896,7 +2896,7 @@
     }
   },
   "created": "2024-07-16T12:13:40Z",
-  "lastModified": "2025-10-14T18:08:50Z",
+  "lastModified": "2025-10-14T18:28:06Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmN2JmNmNjNy1lZmFhLTQ1YmEtOThhMC03OWZlMDFhNzBjMjAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2976,14 +2976,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 44,
+  "version": 46,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f7bf6cc7-efaa-45ba-98a0-79fe01a70c20",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f7bf6cc7-efaa-45ba-98a0-79fe01a70c20/43",
+      "href": "/api/content/con-fusion/quote-sections/f7bf6cc7-efaa-45ba-98a0-79fe01a70c20/45",
       "method": "GET"
     },
     "draft/create": {
