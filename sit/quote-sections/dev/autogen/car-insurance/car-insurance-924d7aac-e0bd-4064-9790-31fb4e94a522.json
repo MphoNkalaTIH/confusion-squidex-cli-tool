@@ -400,7 +400,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"font-normal\">\n    Auto&General is the insurer South Africans trust to be there when it matters.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
+                    "html": "<p class=\"font-normal\">\n    Auto&General, the insurer you can trust when it matters most. Never not there.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
                     "htmlEvents": []
                   }
                 },
@@ -431,7 +431,7 @@
     }
   },
   "created": "2024-08-05T07:19:43Z",
-  "lastModified": "2025-06-06T08:19:57Z",
+  "lastModified": "2025-10-15T08:49:13Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5MjRkN2FhYy1lMGJkLTQwNjQtOTc5MC0zMWZiNGU5NGE1MjIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -511,14 +511,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522/3",
+      "href": "/api/content/con-fusion/quote-sections/924d7aac-e0bd-4064-9790-31fb4e94a522/4",
       "method": "GET"
     },
     "draft/create": {

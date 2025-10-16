@@ -1541,7 +1541,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "277f1151-52c9-4c4e-8ac9-7038603f26ed",
-                          "title": "How many full years of uninterrupted comprehensive car insurance has  {{householdMemberName}} had over the last 7 years",
+                          "title": "How many full years of uninterrupted comprehensive car insurance has  {{householdMemberName}} had over the last 7 years?",
                           "template": "",
                           "valueFieldPath": "personal.regularDriver.uninterruptedCover.description",
                           "applyTitleCasePipeToValue": null,
@@ -2818,7 +2818,7 @@
     }
   },
   "created": "2024-10-14T12:23:34Z",
-  "lastModified": "2025-09-29T14:49:42Z",
+  "lastModified": "2025-10-15T08:49:13Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI4MzM4MWI4YS0wMTYwLTRlZjktOTYyZi0yNmExZjQ5MGFlNjYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2898,14 +2898,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 9,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/83381b8a-0160-4ef9-962f-26a1f490ae66",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/83381b8a-0160-4ef9-962f-26a1f490ae66/8",
+      "href": "/api/content/con-fusion/quote-sections/83381b8a-0160-4ef9-962f-26a1f490ae66/9",
       "method": "GET"
     },
     "draft/create": {
