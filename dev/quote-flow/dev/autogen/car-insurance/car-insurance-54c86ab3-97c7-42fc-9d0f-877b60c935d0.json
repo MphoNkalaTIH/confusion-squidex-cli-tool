@@ -1427,7 +1427,8 @@
                   "name": "Build cover",
                   "quoteFlowType": "car-insurance",
                   "routes": [
-                    "build-cover"
+                    "build-cover",
+                    "cashback-details"
                   ]
                 },
                 {
@@ -1441,7 +1442,6 @@
                   "quoteFlowType": "car-insurance",
                   "routes": [
                     "finalise-details",
-                    "cashback-details",
                     "policy-cancellation"
                   ]
                 },
@@ -1470,7 +1470,8 @@
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "spouse-details",
-                    "incident-details"
+                    "incident-details",
+                    "cashback-details"
                   ]
                 },
                 {
@@ -1484,7 +1485,6 @@
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "finalise-details",
-                    "cashback-details",
                     "policy-cancellation"
                   ]
                 },
@@ -1725,7 +1725,7 @@
     }
   },
   "created": "2023-07-28T10:50:06Z",
-  "lastModified": "2025-10-02T11:53:34Z",
+  "lastModified": "2025-10-17T08:43:30Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6IjU0Yzg2YWIzLTk3YzctNDJmYy05ZDBmLTg3N2I2MGM5MzVkMCIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1763,14 +1763,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 412,
+  "version": 413,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/54c86ab3-97c7-42fc-9d0f-877b60c935d0",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/54c86ab3-97c7-42fc-9d0f-877b60c935d0/411",
+      "href": "/api/content/con-fusion/quote-flow/54c86ab3-97c7-42fc-9d0f-877b60c935d0/412",
       "method": "GET"
     },
     "draft/create": {
