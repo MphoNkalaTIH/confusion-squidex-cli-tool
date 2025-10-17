@@ -1,10 +1,10 @@
 {
-  "id": "d4ec5fca-5794-4212-b93d-be17c04e5563",
+  "id": "2e33bac3-3edc-4cd0-afa6-651218062c5d",
   "createdBy": "subject:689330dc9468c1aba43ed5c7",
   "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
-      "iv": "autogen"
+      "iv": "budget"
     },
     "baseRoute": {
       "iv": "car-insurance"
@@ -345,6 +345,38 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>What's the car used for?</h2>"
                   }
+                },
+                {
+                  "id": "btnCarUse",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "carUse",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -556,7 +588,7 @@
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -610,7 +642,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Opting for Comprehensive cover will be in your best interest, as the bank might require this for financed cars. The cover you are considering offers limited cover, and you will be responsible for any costs and damages that are not covered under this cover type.</p>"
+                          "html": "<p>Opting for Comprehensive cover will be in your best interest, as the bank might require this for financed cars.</p>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -657,6 +689,61 @@
                         "conditions": null
                       }
                     ]
+                  }
+                },
+                {
+                  "id": "btnCoverTypes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "coverTypes",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Included in this cover type: </h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "insured-value",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtScrollOption",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h6>Scroll for more options</h6>",
+                    "htmlEvents": []
                   }
                 }
               ]
@@ -717,6 +804,61 @@
                   "details": {
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
                     "flag": true
+                  }
+                },
+                {
+                  "id": "btnInsuredValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "btnInsuredValue",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "null",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtEventClaim",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>In the event of a claim:</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtScrollOption",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h6>Scroll for more options</h6>",
+                    "htmlEvents": []
                   }
                 }
               ]
@@ -1354,7 +1496,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1370,15 +1512,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>"
-                  }
-                },
-                {
-                  "id": "txtSubContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Select all that apply</h4>"
+                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
                   }
                 }
               ]
@@ -1712,7 +1846,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1728,15 +1862,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>"
-                  }
-                },
-                {
-                  "id": "txtSubContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Select all that apply</h4>"
+                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
                   }
                 }
               ]
@@ -1754,7 +1880,7 @@
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -1823,11 +1949,11 @@
       ]
     }
   },
-  "created": "2025-10-07T07:02:12Z",
-  "lastModified": "2025-10-16T13:59:26Z",
+  "created": "2025-10-16T14:34:39Z",
+  "lastModified": "2025-10-16T16:22:35Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkNGVjNWZjYS01Nzk0LTQyMTItYjkzZC1iZTE3YzA0ZTU1NjMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyZTMzYmFjMy0zZWRjLTRjZDAtYWZhNi02NTEyMTgwNjJjNWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -1904,40 +2030,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 28,
+  "version": 2,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/27",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d/1",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/draft",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/status",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/status",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/2e33bac3-3edc-4cd0-afa6-651218062c5d",
       "method": "PUT"
     }
   }

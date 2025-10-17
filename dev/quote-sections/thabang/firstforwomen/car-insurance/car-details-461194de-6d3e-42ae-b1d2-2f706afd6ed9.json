@@ -1,10 +1,10 @@
 {
-  "id": "d4ec5fca-5794-4212-b93d-be17c04e5563",
+  "id": "461194de-6d3e-42ae-b1d2-2f706afd6ed9",
   "createdBy": "subject:689330dc9468c1aba43ed5c7",
   "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
-      "iv": "autogen"
+      "iv": "firstforwomen"
     },
     "baseRoute": {
       "iv": "car-insurance"
@@ -22,7 +22,7 @@
       "iv": "thabang"
     },
     "abTestingId": {
-      "iv": ""
+      "iv": "contact-details"
     },
     "icon": {
       "iv": "icon-vehicle-details"
@@ -41,6 +41,102 @@
     },
     "pages": {
       "iv": [
+        {
+          "name": "Car Make Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": {
+            "doFilterCall": true
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "car-make-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": "CarMakePageComponent",
+              "formItems": [
+                {
+                  "id": "btnMake",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Make",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "car-details",
+                      "pageRoute": "car-year"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select the make of the car</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPlaceHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Search for car make",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtAssistiveText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Can’t find the car make? Press the button below to proceed.",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnCallMeBack",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "CALL ME BACK",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Car Year",
           "route": "car-year",
@@ -172,6 +268,32 @@
                     "text": "Search for car model",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "txtAssistiveText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Can’t find the car model? Press the button below to proceed.",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnCallMeBack",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "CALL ME BACK",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -235,6 +357,32 @@
                     "text": "Search for car type",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "txtAssistiveText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Can’t find the car type? Press the button below to proceed.",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnCallMeBack",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "CALL ME BACK",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -292,6 +440,14 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>What colour is the {{year}} {{make}} {{model}} {{type}}?</h2>\r\n<h4 class=\"text-sub-9\">Can’t find the colour? Choose the closest match.</h4>"
                   }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
                 }
               ]
             }
@@ -344,6 +500,14 @@
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>What's the car used for?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -556,12 +720,27 @@
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "4170136c-415e-499a-b0a6-549a4899daa1"
+            ],
+            "statePropertyPaths": [
+              "quoteController.abTestVariants.defaultCoverType"
+            ],
+            "values": [
+              true
+            ],
+            "route": null,
+            "routeArray": [],
+            "conditionalRouteCode": null
+          },
           "additionalData": null,
           "components": [
             {
@@ -570,6 +749,14 @@
               "moduleName": "CarDetailsModule",
               "standaloneComponent": null,
               "formItems": [
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
                 {
                   "id": "txtContent",
                   "conditionValue": null,
@@ -610,7 +797,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Opting for Comprehensive cover will be in your best interest, as the bank might require this for financed cars. The cover you are considering offers limited cover, and you will be responsible for any costs and damages that are not covered under this cover type.</p>"
+                          "html": "<p>\n    Opting for Comprehensive cover will be in your best interest, as the bank \n    might require this for financed cars. The cover you are considering offers \n    limited cover, and you will be responsible for any costs and damages that \n    are not covered under this cover type.\n</p>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -658,6 +845,16 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "txtVariantTag",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Most popular",
+                    "errorMessage": null
+                  }
                 }
               ]
             }
@@ -683,13 +880,15 @@
           "condition": {
             "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
             "code": [
-              "de9b63bd-a4dd-4670-b80c-4932fb627f60"
+              "dca50062-1cc9-4d70-b32b-cc6a6c46ff7d"
             ],
             "statePropertyPaths": [
-              "vehicle.vehicle.coverType.code"
+              "vehicle.vehicle.coverType.code",
+              "quoteController.abTestVariants.defaultInsuredValue"
             ],
             "values": [
-              "D"
+              "D",
+              true
             ],
             "route": null,
             "routeArray": [],
@@ -703,6 +902,14 @@
               "moduleName": "CarDetailsModule",
               "standaloneComponent": null,
               "formItems": [
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
                 {
                   "id": "txtContent",
                   "conditionValue": null,
@@ -718,6 +925,36 @@
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
                     "flag": true
                   }
+                },
+                {
+                  "id": "variantTagGroup",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "B",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                          "formControlName": null,
+                          "text": "Enhanced value",
+                          "errorMessage": null
+                        }
+                      },
+                      {
+                        "id": "M",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                          "formControlName": null,
+                          "text": "Most popular",
+                          "errorMessage": null
+                        }
+                      }
+                    ]
+                  }
                 }
               ]
             }
@@ -726,7 +963,12 @@
         {
           "name": "Residential Address",
           "route": "residential-address",
-          "pageBase": null,
+          "pageBase": {
+            "baseRoute": "car-insurance",
+            "pageRoute": "residential-address",
+            "sectionRoute": "car-details",
+            "goToStart": false
+          },
           "pageDisabled": null,
           "hideTrackbar": null,
           "hideBackButton": null,
@@ -1256,7 +1498,7 @@
           "doManualCalculations": null,
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
-          "minifyTrackbar": null,
+          "minifyTrackbar": true,
           "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
@@ -1304,6 +1546,14 @@
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>Where is the car normally parked at night?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -1370,15 +1620,15 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>"
+                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
                   }
                 },
                 {
-                  "id": "txtSubContent",
+                  "id": "staticData",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Select all that apply</h4>"
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -1663,6 +1913,14 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>Where is the car normally parked during the day?</h2>"
                   }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
                 }
               ]
             }
@@ -1728,15 +1986,15 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>"
+                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
                   }
                 },
                 {
-                  "id": "txtSubContent",
+                  "id": "staticData",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Select all that apply</h4>"
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -1823,11 +2081,11 @@
       ]
     }
   },
-  "created": "2025-10-07T07:02:12Z",
-  "lastModified": "2025-10-16T13:59:26Z",
+  "created": "2025-10-16T14:43:03Z",
+  "lastModified": "2025-10-16T18:13:53Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkNGVjNWZjYS01Nzk0LTQyMTItYjkzZC1iZTE3YzA0ZTU1NjMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0NjExOTRkZS02ZDNlLTQyYWUtYjFkMi0yZjcwNmFmZDZlZDkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -1904,40 +2162,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 28,
+  "version": 3,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/27",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9/2",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/draft",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/status",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/status",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9",
       "method": "PUT"
     }
   }

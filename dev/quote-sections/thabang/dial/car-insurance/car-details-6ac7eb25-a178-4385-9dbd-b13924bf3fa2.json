@@ -1,10 +1,10 @@
 {
-  "id": "d4ec5fca-5794-4212-b93d-be17c04e5563",
+  "id": "6ac7eb25-a178-4385-9dbd-b13924bf3fa2",
   "createdBy": "subject:689330dc9468c1aba43ed5c7",
   "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
-      "iv": "autogen"
+      "iv": "dial"
     },
     "baseRoute": {
       "iv": "car-insurance"
@@ -290,7 +290,15 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What colour is the {{year}} {{make}} {{model}} {{type}}?</h2>\r\n<h4 class=\"text-sub-9\">Can’t find the colour? Choose the closest match.</h4>"
+                    "html": "<h2>What colour is the {{year}} {{make}} {{model}} {{type}}?</h2>\r\n<p class=\"text-tundora font-normal text-sm leading-4 sm:leading-5 pt-2.5\">Can’t find the colour? Choose the closest match.</p>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -344,6 +352,14 @@
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>What's the car used for?</h2>"
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -556,7 +572,7 @@
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -571,11 +587,19 @@
               "standaloneComponent": null,
               "formItems": [
                 {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
                   "id": "txtContent",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Select your preferred cover type</h2>\n<h4 class=\"text-sub-9\">This can be changed later.</h4>"
+                    "html": "<h2>Select your preferred cover type</h2>\n<h4 class=\"text-tundora font-normal text-sm leading-4 sm:leading-5 pt-2.5\">This can be changed later.</h4>"
                   }
                 },
                 {
@@ -610,7 +634,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Opting for Comprehensive cover will be in your best interest, as the bank might require this for financed cars. The cover you are considering offers limited cover, and you will be responsible for any costs and damages that are not covered under this cover type.</p>"
+                          "html": "<p>\n    Opting for Comprehensive cover will be in your best interest, as the bank \n    might require this for financed cars. The cover you are considering offers \n    limited cover, and you will be responsible for any costs and damages that \n    are not covered under this cover type.\n</p>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -704,11 +728,19 @@
               "standaloneComponent": null,
               "formItems": [
                 {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
+                },
+                {
                   "id": "txtContent",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Select your preferred insured value</h2>\n<h4 class=\"text-sub-9\">This can be changed later.</h4>"
+                    "html": "<h2>Select your preferred insured value</h2>\n<h4 class=\"text-tundora font-normal text-sm leading-4 sm:leading-5 pt-2.5\">This can be changed later.</h4>"
                   }
                 },
                 {
@@ -1305,6 +1337,14 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>Where is the car normally parked at night?</h2>"
                   }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
                 }
               ]
             }
@@ -1370,15 +1410,15 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>"
+                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>\n<h4 class=\"pt-3 pb-1\">Select all that apply</h4>"
                   }
                 },
                 {
-                  "id": "txtSubContent",
+                  "id": "staticData",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Select all that apply</h4>"
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -1663,6 +1703,14 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>Where is the car normally parked during the day?</h2>"
                   }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
+                  }
                 }
               ]
             }
@@ -1728,15 +1776,15 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>"
+                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>\n<h4 class=\"pt-3 pb-1\">Select all that apply</h4>"
                   }
                 },
                 {
-                  "id": "txtSubContent",
+                  "id": "staticData",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Select all that apply</h4>"
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "refData": []
                   }
                 }
               ]
@@ -1823,11 +1871,11 @@
       ]
     }
   },
-  "created": "2025-10-07T07:02:12Z",
-  "lastModified": "2025-10-16T13:59:26Z",
+  "created": "2025-10-16T14:39:07Z",
+  "lastModified": "2025-10-16T16:22:47Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkNGVjNWZjYS01Nzk0LTQyMTItYjkzZC1iZTE3YzA0ZTU1NjMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2YWM3ZWIyNS1hMTc4LTQzODUtOWRiZC1iMTM5MjRiZjNmYTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -1904,40 +1952,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 28,
+  "version": 2,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/27",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2/1",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/draft",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/status",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563/status",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/d4ec5fca-5794-4212-b93d-be17c04e5563",
+      "href": "/api/content/con-fusion/quote-sections/6ac7eb25-a178-4385-9dbd-b13924bf3fa2",
       "method": "PUT"
     }
   }
