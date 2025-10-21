@@ -1786,7 +1786,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Waar word die kar normaalweg parkeer in die dag?</h2>"
+                    "html": "<h2>Waar word die kar gewoonlik gedurende die dag geparkeer?</h2>"
                   }
                 },
                 {
@@ -1861,7 +1861,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter tipe sekuriteit het jy waar die kar parkeer word in die dag?</h2>"
+                    "html": "<h2>Watter tipe sekuriteit het jy waar die kar gedurende die dag geparkeer word?</h2>"
                   }
                 },
                 {
@@ -1975,7 +1975,7 @@
     }
   },
   "created": "2024-07-16T12:13:45Z",
-  "lastModified": "2025-10-21T13:08:54Z",
+  "lastModified": "2025-10-21T13:22:27Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODgzOTIyMC00ODk3LTQxMjUtYmVmNy03ZDE5OWQwNDJjNDQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2055,14 +2055,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 24,
+  "version": 25,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/23",
+      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/24",
       "method": "GET"
     },
     "draft/create": {
