@@ -1271,7 +1271,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselde as woonadres",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1297,7 +1297,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselde as woonadres",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1543,7 +1543,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselde as woonadres",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1609,7 +1609,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselde as woonadres",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1975,7 +1975,7 @@
     }
   },
   "created": "2024-07-16T12:13:45Z",
-  "lastModified": "2025-10-21T13:22:27Z",
+  "lastModified": "2025-10-21T14:12:23Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODgzOTIyMC00ODk3LTQxMjUtYmVmNy03ZDE5OWQwNDJjNDQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2055,14 +2055,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 25,
+  "version": 26,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/24",
+      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/25",
       "method": "GET"
     },
     "draft/create": {
