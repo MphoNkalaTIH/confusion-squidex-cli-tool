@@ -1,7 +1,7 @@
 {
   "id": "c8839220-4897-4125-bef7-7d199d042c44",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -1214,7 +1214,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "voer nag-parkeringadres in",
+                    "label": "Voer nag-parkeringadres in",
                     "helperText": "",
                     "placeholderText": "Soek",
                     "cannotFindItemText": "Ek kan nie my adres vind nie",
@@ -1975,7 +1975,7 @@
     }
   },
   "created": "2024-07-16T12:13:45Z",
-  "lastModified": "2025-10-21T18:33:41Z",
+  "lastModified": "2025-10-21T18:52:12Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODgzOTIyMC00ODk3LTQxMjUtYmVmNy03ZDE5OWQwNDJjNDQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2055,14 +2055,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 28,
+  "version": 29,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/27",
+      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/28",
       "method": "GET"
     },
     "draft/create": {
