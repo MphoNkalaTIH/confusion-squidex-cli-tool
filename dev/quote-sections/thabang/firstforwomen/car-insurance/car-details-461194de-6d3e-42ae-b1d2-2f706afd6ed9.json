@@ -1846,6 +1846,15 @@
                     "widthClass": null,
                     "iconClass": null
                   }
+                },
+                {
+                  "id": "txtDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"risk-helper-text\">Your day-time parking address has been defaulted to the same as your residential address. One of the addresses need to be your residential address.</p>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -2082,7 +2091,7 @@
     }
   },
   "created": "2025-10-16T14:43:03Z",
-  "lastModified": "2025-10-16T18:13:53Z",
+  "lastModified": "2025-10-19T19:48:05Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0NjExOTRkZS02ZDNlLTQyYWUtYjFkMi0yZjcwNmFmZDZlZDkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2162,14 +2171,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9/2",
+      "href": "/api/content/con-fusion/quote-sections/461194de-6d3e-42ae-b1d2-2f706afd6ed9/4",
       "method": "GET"
     },
     "draft/create": {

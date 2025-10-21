@@ -1003,6 +1003,7 @@
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Voorstad",
+                    "helperText": null,
                     "placeholderText": "Voltooi asseblief",
                     "formControlName": "suburbName",
                     "validation": {
@@ -1651,6 +1652,15 @@
                     "widthClass": null,
                     "iconClass": null
                   }
+                },
+                {
+                  "id": "txtDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"risk-helper-text\">Jou dagparkeeradres is by verstek dieselfde as jou woonadres. Een van die adresse moet jou woonadres wees.</p>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -1905,7 +1915,7 @@
     }
   },
   "created": "2025-10-16T14:46:00Z",
-  "lastModified": "2025-10-16T16:24:01Z",
+  "lastModified": "2025-10-19T19:46:35Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkM2ZjY2FkZS1kZDFlLTQ0YTMtOTI5MC03ZjQ2MzQ2MjNlOTciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1985,14 +1995,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/d3fccade-dd1e-44a3-9290-7f4634623e97",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d3fccade-dd1e-44a3-9290-7f4634623e97/1",
+      "href": "/api/content/con-fusion/quote-sections/d3fccade-dd1e-44a3-9290-7f4634623e97/3",
       "method": "GET"
     },
     "draft/create": {
