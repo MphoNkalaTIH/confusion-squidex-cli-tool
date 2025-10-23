@@ -1,7 +1,7 @@
 {
   "id": "23212813-afcf-4c36-9af0-6f7400cf462b",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -1311,6 +1311,14 @@
                   }
                 },
                 {
+                  "id": "btnSameAsResidentialAddressTitle",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p>Location of night parking</p>"
+                  }
+                },
+                {
                   "id": "btnCannotFindItem",
                   "conditionValue": null,
                   "details": {
@@ -1662,6 +1670,14 @@
                     "class": null,
                     "widthClass": null,
                     "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnSameAsResidentialAddressTitle",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p>Location of day parking</p>"
                   }
                 },
                 {
@@ -2061,7 +2077,7 @@
     }
   },
   "created": "2024-07-16T12:13:41Z",
-  "lastModified": "2025-10-23T06:26:45Z",
+  "lastModified": "2025-10-23T15:25:49Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyMzIxMjgxMy1hZmNmLTRjMzYtOWFmMC02Zjc0MDBjZjQ2MmIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2141,14 +2157,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 11,
+  "version": 12,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/23212813-afcf-4c36-9af0-6f7400cf462b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/23212813-afcf-4c36-9af0-6f7400cf462b/10",
+      "href": "/api/content/con-fusion/quote-sections/23212813-afcf-4c36-9af0-6f7400cf462b/11",
       "method": "GET"
     },
     "draft/create": {
