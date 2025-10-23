@@ -446,7 +446,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Confirm",
+                    "label": "Proceed",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -478,7 +478,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What’s the full residential address?</h2>",
+                    "html": "<h2>Please enter your residential address</h2>",
                     "htmlEvents": []
                   }
                 }
@@ -1682,7 +1682,7 @@
     }
   },
   "created": "2024-07-16T12:13:36Z",
-  "lastModified": "2025-10-20T20:14:04Z",
+  "lastModified": "2025-10-21T20:22:38Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyZThiMDc4My1hOGIwLTRmZmEtOTc4Zi01Zjg2ZWQwOWUxODIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1762,14 +1762,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/2e8b0783-a8b0-4ffa-978f-5f86ed09e182",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/2e8b0783-a8b0-4ffa-978f-5f86ed09e182/3",
+      "href": "/api/content/con-fusion/quote-sections/2e8b0783-a8b0-4ffa-978f-5f86ed09e182/4",
       "method": "GET"
     },
     "draft/create": {

@@ -186,7 +186,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 },
                 {
@@ -328,7 +328,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 },
                 {
@@ -336,14 +336,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Street address",
-                    "helperText": "eg. 1 Waltham Drive",
-                    "placeholderText": "Please complete",
+                    "label": "Straatadres",
+                    "helperText": "bv. 1 Waltham Drive",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "address1",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Street address is required",
-                      "invalidErrorMessage": "Street address is invalid",
+                      "requiredErrorMessage": "Straatadres is verpligtend",
+                      "invalidErrorMessage": "Straatadres is ongeldig",
                       "maxLength": 40,
                       "minLength": null,
                       "isRequired": true,
@@ -358,14 +358,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Complex / building (optional)",
-                    "helperText": "Complex or building name, unit number or floor",
+                    "label": "Kompleks / gebou (opsioneel)",
+                    "helperText": "Naam van die kompleks of gebou, eenheidnommer of vloer",
                     "placeholderText": "Please complete",
                     "formControlName": "address2",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Name of the Complex or building is required",
-                      "invalidErrorMessage": "Name of the Complex or building is invalid",
+                      "requiredErrorMessage": "Naam van die kompleks of gebou is verpligtend",
+                      "invalidErrorMessage": "Naam van die kompleks of gebou is ongeldig",
                       "maxLength": 40,
                       "minLength": null,
                       "isRequired": null,
@@ -446,7 +446,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Confirm",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -458,7 +458,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 },
                 {
@@ -466,10 +466,10 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Suburb",
-                    "helperText": "Home area / suburb",
-                    "placeholderText": "Please complete",
-                    "cannotFindItemText": "I can't find my area or suburb",
+                    "label": "Voorstad",
+                    "helperText": "Huisarea / voorstad",
+                    "placeholderText": "Vul asseblief in",
+                    "cannotFindItemText": "Ek kan nie my area of voorstad vind nie",
                     "loadingText": null
                   }
                 },
@@ -478,7 +478,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What’s the full residential address?</h2>",
+                    "html": "<h2>Voer asseblief u woonadres in</h2>",
                     "htmlEvents": []
                   }
                 }
@@ -1682,7 +1682,7 @@
     }
   },
   "created": "2024-07-16T12:13:48Z",
-  "lastModified": "2025-10-21T06:41:05Z",
+  "lastModified": "2025-10-22T15:35:16Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2MThkOTM1Yy01NGUwLTRkMTItODMyNy04M2Q1MWUxMjU0ZGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1762,14 +1762,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 12,
+  "version": 15,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/11",
+      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/14",
       "method": "GET"
     },
     "draft/create": {

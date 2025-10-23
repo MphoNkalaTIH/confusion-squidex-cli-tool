@@ -1,7 +1,7 @@
 {
   "id": "23edbbba-3636-45c8-84ad-e6d3b7d7cdc5",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "budget"
@@ -173,7 +173,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "hotel",
@@ -248,7 +248,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Proceed",
+                          "label": "Next",
                           "route": {
                             "baseRoute": "home-contents",
                             "pageRoute": "risk-address",
@@ -320,7 +320,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -446,7 +446,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Confirm",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -478,7 +478,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What’s the full residential address?</h2>",
+                    "html": "<h2>Please enter your residential address</h2>",
                     "htmlEvents": []
                   }
                 }
@@ -1682,7 +1682,7 @@
     }
   },
   "created": "2025-04-29T06:47:24Z",
-  "lastModified": "2025-10-21T12:34:25Z",
+  "lastModified": "2025-10-21T20:01:28Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyM2VkYmJiYS0zNjM2LTQ1YzgtODRhZC1lNmQzYjdkN2NkYzUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1762,14 +1762,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/6",
+      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/7",
       "method": "GET"
     },
     "draft/create": {
