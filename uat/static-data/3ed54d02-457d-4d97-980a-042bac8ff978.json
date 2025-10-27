@@ -1,0 +1,543 @@
+{
+  "id": "3ed54d02-457d-4d97-980a-042bac8ff978",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Call Centre Addons"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "A",
+          "index": null,
+          "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+          "description": "Increase Third-Party Liability cover to R10 million",
+          "image": [
+            "88ac2e56-e232-4f27-abb2-0c620f80de70"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+              "description": null,
+              "image": [
+                "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Jy het gekies om jou aanspreeklikheidsdekking vir skade wat aan iemand anders se kar of eiendom veroorsaak is, tot ŉ maksimum van R10 miljoen te verhoog, in plaas van die aanvanklike R2.5 miljoen.</p>\n    <p>Sodra jou polis aktief is, sal hoër aanspreeklikheidsdekking deur ons kontaksentrum beskikbaar wees.</p>\n</div>",
+              "description": "Verhoog Derdeparty-aanspreeklikheidsdekking tot R10 miljoen",
+              "image": [
+                "c1996243-adff-4e43-a87a-ef546cbe3a0a"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "C",
+          "index": null,
+          "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, you can amend your cover limit through our call centre.</p>\n</div>",
+          "description": "Increase Third-Party Liability cover to R20 million",
+          "image": [
+            "88ac2e56-e232-4f27-abb2-0c620f80de70"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n<p>Once your policy is active, you can amend your cover limit through our call centre.</p>",
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n<p>Once your policy is active, you can amend your cover limit through our call centre.</p>",
+              "description": null,
+              "image": [
+                "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n<p>Once your policy is active, you can amend your cover limit through our call centre.</p>",
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Jy het gekies om jou aanspreeklikheidsdekking vir skade wat aan iemand anders se kar of eiendom veroorsaak is, tot ŉ maksimum van R20 miljoen te verhoog, in plaas van die aanvanklike R2.5 miljoen.</p>\n    <p>Sodra jou polis aktief is, kan jy jou dekkingslimiet deur ons kontaksentrum wysig.</p>\n</div>",
+              "description": "Verhoog Derdeparty-aanspreeklikheidsdekking tot R20 miljoen",
+              "image": [
+                "c1996243-adff-4e43-a87a-ef546cbe3a0a"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SND",
+          "index": null,
+          "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through your online dashboard.</p>\n</div>",
+          "description": "Sound equipment",
+          "image": [
+            "5c2c4fb5-e67f-470f-a872-095432989cbf"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Nie-fabrieksgemonteerde klanktoerusting en oudio-visuele toestelle ter waarde van <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Sodra jou polis aktief is, kan jy jou dekkingsbedrag deur ons kontaksentrum wysig.</p>\n</div>",
+              "description": "Klanktoerusting",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "ACR",
+          "index": null,
+          "copy": "<div>\n    <p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Trailsure policies.</p>\n    <p class=\"m-0\">Once your policy is active, you can amend your cover amount through your online dashboard.</p>\n</div>",
+          "description": "Accessories cover",
+          "image": [
+            "041aa445-6ff3-47d2-9691-5fa9c10e27d5"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Off-Road Vehicle Comprehensive policies.</p>\n<p>Once your policy is active, you can amend your cover amount through our call centre.</p>",
+              "description": null,
+              "image": [
+                "a0e8a6f5-cded-4cef-a381-ec251e745d02"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<div>\n    <p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Advensure policies.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "c6eef6c7-1beb-4adb-9422-f6501eae09a0"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<div>\n    <p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Advensure policies.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "dcfa212e-6594-431a-aeb5-210b7bdb2b40"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Jy het <span class=\"font-bold\">{{amount}}</span> se dekking vir nie-standaard toebehore gekies wat in jou kar aangebring is, uitsluitend die klankstelsel. Hierdie bedrag sluit die R10 000 toebehore dekking in wat ŉ standaard kenmerk van alle Veldbakkie-polisse is.</p>\n    <p class=\"m-0\">Sodra jou polis aktief is, kan jy jou dekkingsbedrag deur ons kontaksentrum wysig.</p>\n</div>",
+              "description": "Toebehore dekking",
+              "image": [
+                "764ab602-b790-4b16-9814-9b03467417ee"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "LiabilityCover10M",
+          "index": null,
+          "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+          "description": "Increase Third-Party Liability cover to R10 million",
+          "image": [
+            "88ac2e56-e232-4f27-abb2-0c620f80de70"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+              "description": null,
+              "image": [
+                "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R10 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, higher liability cover is available through your online dashboard.</p>\n</div>",
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Jy het gekies om jou aanspreeklikheidsdekking vir skade wat aan iemand anders se kar of eiendom veroorsaak is, tot ŉ maksimum van R10 miljoen te verhoog, in plaas van die aanvanklike R2.5 miljoen.</p>\n    <p>Sodra jou polis aktief is, sal hoër aanspreeklikheidsdekking deur ons kontaksentrum beskikbaar wees.</p>\n</div>",
+              "description": "Verhoog Derdeparty-aanspreeklikheidsdekking tot R10 miljoen",
+              "image": [
+                "c1996243-adff-4e43-a87a-ef546cbe3a0a"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "LiabilityCover20M",
+          "index": null,
+          "copy": "<div>\n    <p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n    <p>Once your policy is active, you can amend your cover limit through our call centre.</p>\n</div>",
+          "description": "Increase Third-Party Liability cover to R20 million",
+          "image": [
+            "88ac2e56-e232-4f27-abb2-0c620f80de70"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n<p>Once your policy is active, you can amend your cover limit through our call centre.</p>",
+              "description": null,
+              "image": [
+                "74407e66-8a35-41d0-9666-39c0c11ac160"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n<p>Once your policy is active, you can amend your cover limit through our call centre.</p>",
+              "description": null,
+              "image": [
+                "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<p>You selected to increase your liability cover to a maximum of R20 million, instead of the default of R2.5 million, for damages caused to someone else’s car or property.</p>\n<p>Once your policy is active, you can amend your cover limit through our call centre.</p>",
+              "description": null,
+              "image": [
+                "a36b3ff1-216c-4d55-afc2-2391698ed083"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Jy het gekies om jou aanspreeklikheidsdekking vir skade wat aan iemand anders se kar of eiendom veroorsaak is, tot ŉ maksimum van R20 miljoen te verhoog, in plaas van die aanvanklike R2.5 miljoen.</p>\n    <p>Sodra jou polis aktief is, kan jy jou dekkingslimiet deur ons kontaksentrum wysig.</p>\n</div>",
+              "description": "Verhoog Derdeparty-aanspreeklikheidsdekking tot R20 miljoen",
+              "image": [
+                "c1996243-adff-4e43-a87a-ef546cbe3a0a"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SoundEquipment",
+          "index": null,
+          "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through your online dashboard.</p>\n</div>",
+          "description": "Sound equipment",
+          "image": [
+            "5c2c4fb5-e67f-470f-a872-095432989cbf"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "3cc7730d-1d85-4fad-aef5-703267a44bbf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "f67bc2a0-0058-4640-ab3a-587289742632"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<div>\n    <p>Non-factory fitted sound equipment and audio-visual devices to the value of <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "123800a3-eaca-4dce-b80e-4c0a02354539"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Nie-fabrieksgemonteerde klanktoerusting en oudio-visuele toestelle ter waarde van <span class=\"font-bold\">{{amount}}</span>.</p>\n    <p>Sodra jou polis aktief is, kan jy jou dekkingsbedrag deur ons kontaksentrum wysig.</p>\n</div>",
+              "description": "Klanktoerusting",
+              "image": [
+                "fc50a261-a666-4673-8062-829ca2a96390"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "AccessoriesBuyUp",
+          "index": null,
+          "copy": "<div>\n    <p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Trailsure policies.</p>\n    <p class=\"m-0\">Once your policy is active, you can amend your cover amount through your online dashboard.</p>\n</div>",
+          "description": "Accessories cover",
+          "image": [
+            "041aa445-6ff3-47d2-9691-5fa9c10e27d5"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": "<p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Off-Road Vehicle Comprehensive policies.</p>\n<p>Once your policy is active, you can amend your cover amount through our call centre.</p>",
+              "description": null,
+              "image": [
+                "a0e8a6f5-cded-4cef-a381-ec251e745d02"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "<div>\n    <p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Advensure policies.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "c6eef6c7-1beb-4adb-9422-f6501eae09a0"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "<div>\n    <p>You have selected <span class=\"font-bold\">{{amount}}</span> cover for non-standard accessories fitted to your car, excluding its sound system. This amount includes the R10 000 accessories cover that is a standard feature of all Advensure policies.</p>\n    <p>Once your policy is active, you can amend your cover amount through our call centre.</p>\n</div>",
+              "description": null,
+              "image": [
+                "dcfa212e-6594-431a-aeb5-210b7bdb2b40"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "<div>\n    <p>Jy het <span class=\"font-bold\">{{amount}}</span> se dekking vir nie-standaard toebehore gekies wat in jou kar aangebring is, uitsluitend die klankstelsel. Hierdie bedrag sluit die R10 000 toebehore dekking in wat ŉ standaard kenmerk van alle Veldbakkie-polisse is.</p>\n    <p class=\"m-0\">Sodra jou polis aktief is, kan jy jou dekkingsbedrag deur ons kontaksentrum wysig.</p>\n</div>",
+              "description": "Toebehore dekking",
+              "image": [
+                "764ab602-b790-4b16-9814-9b03467417ee"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-10-14T12:24:27Z",
+  "lastModified": "2025-03-07T09:00:21Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIzZWQ1NGQwMi00NTdkLTRkOTctOTgwYS0wNDJiYWM4ZmY5NzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 2,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978/1",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/3ed54d02-457d-4d97-980a-042bac8ff978",
+      "method": "PUT"
+    }
+  }
+}

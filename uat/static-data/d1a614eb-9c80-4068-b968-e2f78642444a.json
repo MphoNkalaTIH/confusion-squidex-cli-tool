@@ -1,0 +1,735 @@
+{
+  "id": "d1a614eb-9c80-4068-b968-e2f78642444a",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Home Contents Incident Types"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "AN",
+          "index": 1,
+          "copy": "Act of Nature (i.e. hail, storms, floods)",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Natuurverskynsel (bv. hael, storms, vloede)",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HZ",
+          "index": 2,
+          "copy": "Earth Quake",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Aardbewing",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HC",
+          "index": 3,
+          "copy": "Flood Damage (Act Of God)",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": "Vloedskade",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HF",
+          "index": 4,
+          "copy": "Storm/Hail Damage",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "Storm/haelskade",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "BT",
+          "index": 5,
+          "copy": "Burglary/theft",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 5,
+              "copy": "Inbraak/diefstal",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "PC",
+          "index": 6,
+          "copy": "Bicycle Stolen",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 6,
+              "copy": "Fiets gesteel",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HG",
+          "index": 7,
+          "copy": "Credit Card - Fraudulent Use",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 7,
+              "copy": "Kredietkaart - bedrog",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "AA",
+          "index": 8,
+          "copy": "Stolen Away From Home",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 8,
+              "copy": "Gesteel weg van huis",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HR",
+          "index": 9,
+          "copy": "Stolen Caravan Contents",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 9,
+              "copy": "Gesteelde karavaaninhoud",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HX",
+          "index": 10,
+          "copy": "Stolen Domestic Employees Property",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 10,
+              "copy": "Gesteel: eiendom van huishoudelike werkgewers",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SH",
+          "index": 11,
+          "copy": "Stolen From Address",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 11,
+              "copy": "Gesteel van adres",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HB",
+          "index": 12,
+          "copy": "Stolen From Garage",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 12,
+              "copy": "Gesteel uit motorhuis",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "AD",
+          "index": 13,
+          "copy": "Stolen From/With Vehicle",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 13,
+              "copy": "Gesteel uit/saam met voertuig",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HM",
+          "index": 14,
+          "copy": "Stolen Garden Furniture",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 14,
+              "copy": "Gesteelde tuinmeubels",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HY",
+          "index": 15,
+          "copy": "Stolen Guest Property",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 15,
+              "copy": "Gesteel: gaste-eiendom",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HL",
+          "index": 16,
+          "copy": "Stolen Laundry",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 16,
+              "copy": "Gesteelde wasgoed",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HH",
+          "index": 18,
+          "copy": "Damage To House",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 18,
+              "copy": "Skade aan huis",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HJ",
+          "index": 19,
+          "copy": "Damage To Swimming Pool / Borehole Equipment",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 19,
+              "copy": "Skade aan swembad/boorgat toerusting",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HK",
+          "index": 20,
+          "copy": "Deterioration Of Food",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 20,
+              "copy": "Bederf van voedsel",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "IC",
+          "index": 21,
+          "copy": "Flood / Burst Pipe",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 21,
+              "copy": "Vloedskade/gebarste pyp",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HI",
+          "index": 22,
+          "copy": "Hole In One / Bowling Full House",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 22,
+              "copy": "Putjie-een/rolbal voltal",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "AC",
+          "index": 23,
+          "copy": "Item Lost",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 23,
+              "copy": "Artikel verloor",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HN",
+          "index": 24,
+          "copy": "Locks And Keys - Damage",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 24,
+              "copy": "Slotte en sleutels - skade",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HU",
+          "index": 25,
+          "copy": "Malicious Damage",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 25,
+              "copy": "Kwaadwillige skade",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HP",
+          "index": 26,
+          "copy": "Medical Expenses",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 26,
+              "copy": "Mediese uitgawes",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HO",
+          "index": 27,
+          "copy": "Other",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 27,
+              "copy": "Ander",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "CL",
+          "index": 28,
+          "copy": "Prescription Glasses / Contact Lenses",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 28,
+              "copy": "Voorskrif brille/kontaklense",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HQ",
+          "index": 29,
+          "copy": "Veterinary Expenses",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 29,
+              "copy": "Veeartseny uitgawes",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HE",
+          "index": 30,
+          "copy": "Lightning/power surge",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 30,
+              "copy": "Weerlig/kragstuwing",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "HD",
+          "index": 31,
+          "copy": "Fire",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 31,
+              "copy": "Brand",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "AB",
+          "index": 32,
+          "copy": "Accidental breakage",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 32,
+              "copy": "Toevallige brekasie",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "OT",
+          "index": 33,
+          "copy": "Other",
+          "description": null,
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 33,
+              "copy": "Ander",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2025-01-23T16:26:18Z",
+  "lastModified": "2025-10-15T15:06:36Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJkMWE2MTRlYi05YzgwLTQwNjgtYjk2OC1lMmY3ODY0MjQ0NGEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 4,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/3",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/d1a614eb-9c80-4068-b968-e2f78642444a",
+      "method": "PUT"
+    }
+  }
+}

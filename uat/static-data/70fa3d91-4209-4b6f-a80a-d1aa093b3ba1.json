@@ -1,0 +1,221 @@
+{
+  "id": "70fa3d91-4209-4b6f-a80a-d1aa093b3ba1",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Parking Methods"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "5",
+          "index": 2,
+          "copy": "Carport",
+          "description": "Carport",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Motorafdak",
+              "description": "Motorafdak",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "6",
+          "index": 1,
+          "copy": "Basement",
+          "description": "Basement",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ondergrondse parkering",
+              "description": "Ondergrondse parkering",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "4",
+          "index": 4,
+          "copy": "Garage",
+          "description": "Garage",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Motorhuis",
+              "description": "Motorhuis",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "3",
+          "index": 3,
+          "copy": "Driveway/yard",
+          "description": "Driveway/yard",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "In die erf / Oprit",
+              "description": "In die erf / Oprit",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "2",
+          "index": 5,
+          "copy": "Open parking lot",
+          "description": "Open parking lot",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "In oop parkeerterrein",
+              "description": "In oop parkeerterrein",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "1",
+          "index": 6,
+          "copy": "Pavement/street",
+          "description": "Pavement/street",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Op sypaadjie",
+              "description": "Op sypaadjie",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "10",
+          "index": 10,
+          "copy": "No specific location",
+          "description": "No specific location",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 10,
+              "copy": "Geen spesifieke gebied",
+              "description": "Geen spesifieke gebied",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:05Z",
+  "lastModified": "2025-10-15T15:06:36Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI3MGZhM2Q5MS00MjA5LTRiNmYtYTgwYS1kMWFhMDkzYjNiYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 8,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1/7",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/70fa3d91-4209-4b6f-a80a-d1aa093b3ba1",
+      "method": "PUT"
+    }
+  }
+}

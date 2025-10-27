@@ -1,0 +1,209 @@
+{
+  "id": "b1c1326b-1f21-46c0-afad-7ac3f54affac",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Home Content Building Structures"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "H",
+          "index": 1,
+          "copy": "House/Cottage",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Huis/Kothuis",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "T",
+          "index": 2,
+          "copy": "Town House",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Meenthuis",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "F",
+          "index": 3,
+          "copy": "Flat - Above Ground",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": "Woonstel - Bo Grondvloer",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "G",
+          "index": 4,
+          "copy": "Flat - Ground floor",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "Woonstel - Grondvloer",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "L",
+          "index": 5,
+          "copy": "Cluster Home",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 5,
+              "copy": "Troshuis",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "P",
+          "index": 6,
+          "copy": "Park Home",
+          "description": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 6,
+              "copy": "Mobiele woning",
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-05T07:22:02Z",
+  "lastModified": "2025-06-06T08:22:20Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiMWMxMzI2Yi0xZjIxLTQ2YzAtYWZhZC03YWMzZjU0YWZmYWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 2,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac/1",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/b1c1326b-1f21-46c0-afad-7ac3f54affac",
+      "method": "PUT"
+    }
+  }
+}

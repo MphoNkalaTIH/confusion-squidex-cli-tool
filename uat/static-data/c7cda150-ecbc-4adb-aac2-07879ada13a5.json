@@ -1,0 +1,135 @@
+{
+  "id": "c7cda150-ecbc-4adb-aac2-07879ada13a5",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Insurance Companies"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": false
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "33",
+          "index": null,
+          "copy": "Other",
+          "description": "Other",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "ander",
+              "description": "ander",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "31",
+          "index": null,
+          "copy": "Not willing to disclose",
+          "description": "Not willing to disclose",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Nie bereid om bekend te maak nie",
+              "description": "Nie bereid om bekend te maak nie",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2025-10-15T15:06:36Z",
+  "lastModified": "2025-10-15T15:06:36Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjN2NkYTE1MC1lY2JjLTRhZGItYWFjMi0wNzg3OWFkYTEzYTUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 1,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5/0",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/c7cda150-ecbc-4adb-aac2-07879ada13a5",
+      "method": "PUT"
+    }
+  }
+}

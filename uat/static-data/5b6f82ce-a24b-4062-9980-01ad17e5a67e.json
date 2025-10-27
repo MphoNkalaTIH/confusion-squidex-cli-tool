@@ -1,0 +1,606 @@
+{
+  "id": "5b6f82ce-a24b-4062-9980-01ad17e5a67e",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Colours"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": true
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "210",
+          "index": null,
+          "copy": "Black",
+          "description": "BLACK",
+          "image": [
+            "b79952cd-0dd0-4b1b-a2af-4d694f0de63c"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Swart",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "102",
+          "index": null,
+          "copy": "Champagne",
+          "description": "CHAMPAGNE",
+          "image": [
+            "32361567-c0ab-4966-a04d-6e50cd88ec36"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Sjampanje",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "260",
+          "index": null,
+          "copy": "Bronze",
+          "description": "BRONZE",
+          "image": [
+            "c2024b26-3748-4bc3-9a4d-9e6d4cc82b41"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Brons",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "250",
+          "index": null,
+          "copy": "Purple",
+          "description": "PURPLE",
+          "image": [
+            "e7440f54-ce4a-43ba-8b41-797e99db0f13"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Pers",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "240",
+          "index": null,
+          "copy": "Maroon",
+          "description": "MAROON",
+          "image": [
+            "922fe3fb-15e0-48b3-be72-7184e1d7b77c"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Maroen",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "230",
+          "index": null,
+          "copy": "Beige",
+          "description": "BEIGE",
+          "image": [
+            "d18d46e7-b694-4cb1-a461-fd06c60c3c87"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Roomkleur",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "220",
+          "index": null,
+          "copy": "Burgundy",
+          "description": "BURGUNDY",
+          "image": [
+            "13f1e34b-ceef-450c-8c5e-1b33f18e071a"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Wynrooi",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "200",
+          "index": null,
+          "copy": "Grey",
+          "description": "GREY",
+          "image": [
+            "0f490954-8cbc-4bce-be5f-c18c35abad4f"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Grys",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "190",
+          "index": null,
+          "copy": "Silver",
+          "description": "SILVER",
+          "image": [
+            "399a89a3-6d02-4454-93a0-7d13a3211d86"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Silwer",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "180",
+          "index": null,
+          "copy": "Gold",
+          "description": "GOLD",
+          "image": [
+            "54d5ce2d-c7f2-4a60-93be-117f8d48abde"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Goud",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "170",
+          "index": null,
+          "copy": "brown",
+          "description": "BROWN",
+          "image": [
+            "4fa67888-e724-47a8-9091-81a2515f22ae"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Bruin",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "160",
+          "index": null,
+          "copy": "Tan",
+          "description": "TAN",
+          "image": [
+            "a81337ca-0429-4c12-adcd-76edf150466a"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ligbruin",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "150",
+          "index": null,
+          "copy": "Red",
+          "description": "RED",
+          "image": [
+            "bacbd348-e87a-469e-97bc-88aa85b90907"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Rooi",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "140",
+          "index": null,
+          "copy": "Pink",
+          "description": "PINK",
+          "image": [
+            "61d87e10-4484-4241-a11d-81e764351d46"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Pienk",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "130",
+          "index": null,
+          "copy": "Orange",
+          "description": "ORANGE",
+          "image": [
+            "72bd53fd-16b1-4b14-87f8-0032d9bde7cd"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Oranje",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "120",
+          "index": null,
+          "copy": "Yellow",
+          "description": "YELLOW",
+          "image": [
+            "abf4ac92-39a2-4a33-a4d4-47622648439d"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Geel",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "110",
+          "index": null,
+          "copy": "Cream",
+          "description": "CREAM",
+          "image": [
+            "14e8424f-ec22-4d73-9dce-2b5fdbc56f8d"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Roomwit",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "100",
+          "index": null,
+          "copy": "White",
+          "description": "WHITE",
+          "image": [
+            "096521d0-a927-4504-bb6a-4f564defc197"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Wit",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "090",
+          "index": null,
+          "copy": "Green",
+          "description": "GREEN",
+          "image": [
+            "8ae092bb-e567-4d96-83c0-70bdd74facce"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Groen",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "080",
+          "index": null,
+          "copy": "Blue",
+          "description": "BLUE",
+          "image": [
+            "93c5954c-9ca2-4c9e-b321-68f4e31635ee"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Blou",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "030",
+          "index": null,
+          "copy": "Yellow / Orange",
+          "description": null,
+          "image": [
+            "5a35ee36-43b3-45a6-967b-c0ccaace1f5c"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Geel / Oranje",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "020",
+          "index": null,
+          "copy": "White / Cream",
+          "description": null,
+          "image": [
+            "247799da-3d2c-408c-86c8-d30c7fb6000f"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Wit / Roomwit",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "050",
+          "index": null,
+          "copy": "Tan / Brown",
+          "description": null,
+          "image": [
+            "bf4abbd4-08db-4ecd-9e0a-bc58d968a73e"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Ligbruin / Bruin",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "070",
+          "index": null,
+          "copy": "Grey / Black",
+          "description": "",
+          "image": [
+            "3ed6352d-f0c1-40a8-a892-9042143c80d8"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Grys / Swart",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "060",
+          "index": null,
+          "copy": "Gold / Silver",
+          "description": null,
+          "image": [
+            "58c8c040-2444-44cd-8264-1564ed258df5"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Goud / Silwer",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "040",
+          "index": null,
+          "copy": "Pink / Red",
+          "description": null,
+          "image": [
+            "5c095dfc-8132-4e05-8f67-42afb2a11417"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Pienk / Rooi",
+              "description": null,
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "010",
+          "index": null,
+          "copy": "Blue / Green",
+          "description": null,
+          "image": [
+            "6b42057c-299b-4f23-b084-56ea37227d11"
+          ],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Blou / Groen",
+              "description": null,
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:03Z",
+  "lastModified": "2024-04-23T09:47:25Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI1YjZmODJjZS1hMjRiLTQwNjItOTk4MC0wMWFkMTdlNWE2N2UiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 8,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e/7",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/5b6f82ce-a24b-4062-9980-01ad17e5a67e",
+      "method": "PUT"
+    }
+  }
+}

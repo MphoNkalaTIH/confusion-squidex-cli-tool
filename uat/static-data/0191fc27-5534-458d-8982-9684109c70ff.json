@@ -1,0 +1,203 @@
+{
+  "id": "0191fc27-5534-458d-8982-9684109c70ff",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Vehicle Uses"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "01",
+          "index": 1,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+          "description": "Private and/or travelling to work",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
+              "description": "Privaat en/of reis na werk",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "02",
+          "index": 1,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+          "description": "Private and/or travelling to work",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
+              "description": "Privaat en/of reis na werk",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "04",
+          "index": 1,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+          "description": "Private and/or travelling to work",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
+              "description": "Privaat en/of reis na werk",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "12",
+          "index": 1,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+          "description": "Private and/or travelling to work",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
+              "description": "Privaat en/of reis na werk",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "07",
+          "index": 2,
+          "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is used for up to 10 business/professional trips a month. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use.",
+          "description": "Private and occasional business",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word vir sosiale, huishoudelike of plesier doeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word vir tot en met 10 professionele of besigheidsreise gebruik per maand. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik.",
+              "description": "Privaat en vir besigheid per geleentheid",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "index": 3,
+          "copy": "The car is used to visit clients or to attend work related commitments away from your regular workplace. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use. The car may also be used for social, domestic or pleasure purposes including travel to and from work.",
+          "description": "Private and full business",
+          "class": null,
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik. Die kar mag ook vir sosiale, huishoudelike of plesierdoeleindes gebruik word, en dit sluit in om werk toe en terug te ry.",
+              "description": "Privaat en volle-besigheidsgebruik",
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:05Z",
+  "lastModified": "2025-10-15T15:06:36Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIwMTkxZmMyNy01NTM0LTQ1OGQtODk4Mi05Njg0MTA5YzcwZmYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 7,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff/6",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/0191fc27-5534-458d-8982-9684109c70ff",
+      "method": "PUT"
+    }
+  }
+}

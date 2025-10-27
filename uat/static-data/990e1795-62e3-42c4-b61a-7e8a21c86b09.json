@@ -1,0 +1,609 @@
+{
+  "id": "990e1795-62e3-42c4-b61a-7e8a21c86b09",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Home Contents Peril"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "Theft",
+          "index": 1,
+          "copy": "Theft, break-in and resultant damage",
+          "description": null,
+          "image": [
+            "3c85f5ca-3c83-412e-940d-d47355c71bc2",
+            "d3851971-e474-4216-9e5d-75e353cd583b"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "90c0a1ae-608c-47a1-9343-9521744c91ae",
+                "bbcff203-2afb-45df-8471-38967d0537c1"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "49bbf973-7725-4a89-85b4-ad34889da5f6",
+                "0cbb627e-b2b1-470a-beee-8408d08da6d8"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "aa0579c2-1dd7-47c0-8640-b8d7752759f7",
+                "5e22a62e-fa99-4a79-97e8-6d0cf113cc94"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Diefstal, inbraak en gevolglike skade",
+              "description": null,
+              "image": [
+                "27cde2dd-c042-48a5-8092-3b2cec2c7555",
+                "fe24d49f-4a2b-44c2-9564-7a5a168e21c7"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "MaliciousDamage",
+          "index": 2,
+          "copy": "Malicious damage",
+          "description": null,
+          "image": [
+            "294244da-eb73-4f36-9d4a-5052fe6d2a05",
+            "415d679e-351d-48f5-bab6-959d75506626"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "ac1eef9c-3a12-420f-b553-c1d139b79261",
+                "1b38b694-c279-40aa-b4d2-cb7648ec7714"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 2,
+              "copy": "Malicious damage",
+              "description": null,
+              "image": [
+                "7f35a682-b03c-4669-b1d3-7268db18e5d9",
+                "376adecd-9aad-4329-a2ff-c0846cf4f525"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 2,
+              "copy": "Malicious damage",
+              "description": null,
+              "image": [
+                "40fa3cee-328e-4d87-8665-977b0dcdb65f",
+                "6b408a0f-b869-4af7-bb2f-de53aa2d208d"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Kwaadwillige skade",
+              "description": null,
+              "image": [
+                "904c6a7a-4aab-4892-9da8-04d90b5f6998",
+                "602c1765-674b-49d6-9e53-fc654500cfb9"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "LightningAndPowerSurge",
+          "index": 3,
+          "copy": "Lightning & power surge",
+          "description": null,
+          "image": [
+            "9577bec1-a78e-4891-911c-e2eb194ff32e"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "4af52329-17d7-4787-8486-9f66089f660f"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "9f8fc2ad-da9c-43fe-815c-925286c844e3"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a44945ca-bfbd-4d9e-aacb-e8801c66e636"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": "Weerlig & kragstuwing",
+              "description": null,
+              "image": [
+                "4ea07654-d4cf-4514-b416-6a4afcfadc9d"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "FireAndExplosions",
+          "index": 4,
+          "copy": "Fire & explosions",
+          "description": null,
+          "image": [
+            "22514520-20f3-42a2-b978-4f1c101dc614"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 4,
+              "copy": null,
+              "description": null,
+              "image": [
+                "58572704-118e-4f1c-942e-cebbc554f5cf"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 4,
+              "copy": "Fire & explosions",
+              "description": null,
+              "image": [
+                "976146e1-614f-417c-b19d-e09f93a51d6e"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 4,
+              "copy": "Fire & explosions",
+              "description": null,
+              "image": [
+                "e2d17df9-077e-4ca7-b504-86d0bb11f69a"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "Brand & ontploffings",
+              "description": null,
+              "image": [
+                "44c4dfbb-00f6-481d-8a96-db1782c99753"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "ImpactWithHome",
+          "index": 5,
+          "copy": "Impact with home or outbuilding",
+          "description": null,
+          "image": [
+            "a6a141fa-89ad-40c6-b319-df9b00a8406b"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 5,
+              "copy": null,
+              "description": null,
+              "image": [
+                "61d6bd9a-45b4-40e5-a999-c721a0a7a1fa"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 5,
+              "copy": "Impact with home or outbuilding",
+              "description": null,
+              "image": [
+                "4dfee5f6-595f-48f5-b360-89c6bb19476f"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 5,
+              "copy": "Impact with home or outbuilding",
+              "description": null,
+              "image": [
+                "801851f9-7379-4e37-8ea3-33ec8ee3a4a8"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 5,
+              "copy": "Impak met woning of buitegeboue",
+              "description": null,
+              "image": [
+                "b2b76c22-98ed-4ab5-9852-2f67242320b0"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "FallingTrees",
+          "index": 6,
+          "copy": "Falling trees (not being felled)",
+          "description": null,
+          "image": [
+            "2e4dded3-a344-4e13-bc14-b4cef8210585"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 6,
+              "copy": null,
+              "description": null,
+              "image": [
+                "b24d6849-003a-4748-89b8-f3f17a50f7ae"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 6,
+              "copy": "Falling trees (not being felled)",
+              "description": null,
+              "image": [
+                "871f594b-ce9b-4abc-8c2d-626e632f53a7"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 6,
+              "copy": "Falling trees (not being felled)",
+              "description": null,
+              "image": [
+                "66199cef-33e7-4072-aa10-936657335214"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 6,
+              "copy": "Vallende bome (nie terwyl afgekap word nie)",
+              "description": null,
+              "image": [
+                "ba6df48a-11df-4c5b-858e-65cb30e42832"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SubsidenceHeaveAndLandslip",
+          "index": 7,
+          "copy": "Subsidence, heave, and landslip",
+          "description": null,
+          "image": [
+            "602f1eb1-1c44-4fde-b202-8719e363d059"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 7,
+              "copy": null,
+              "description": null,
+              "image": [
+                "02bcdabd-54b9-47e2-a13c-7fbc0b9f2842"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 7,
+              "copy": "Subsidence, heave, and landslip",
+              "description": null,
+              "image": [
+                "765c4022-abc2-4012-bafa-dc572db9232f"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 7,
+              "copy": "Subsidence, heave, and landslip",
+              "description": null,
+              "image": [
+                "3ec89386-d1af-4264-bc24-296aab451ff2"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 7,
+              "copy": "Ineensakking, deining en grondverskuiwing",
+              "description": null,
+              "image": [
+                "3554801c-69e4-4dcc-80ea-7004963242cf"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "ActsOfNature",
+          "index": 8,
+          "copy": "Acts of nature (earthquake, hail, storms, floods & snow)",
+          "description": null,
+          "image": [
+            "ddcbde31-11c6-475d-adb3-c872fc10d6d4"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 8,
+              "copy": null,
+              "description": null,
+              "image": [
+                "65248582-ddd3-4750-8d22-825dae5e9a36"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 8,
+              "copy": "Acts of nature (earthquake, hail, storms, floods & snow)",
+              "description": null,
+              "image": [
+                "f19796fb-2d2c-4ae2-b201-ee2089027904"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 8,
+              "copy": "Acts of nature (earthquake, hail, storms, floods & snow)",
+              "description": null,
+              "image": [
+                "ba0e8660-5fa1-4856-bd08-ca32cf0ee4a1"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 8,
+              "copy": "Natuur-verskynsels (aardbewing, hael, storms, vloede & sneeu)",
+              "description": null,
+              "image": [
+                "7cedb343-ac37-4920-85ef-61516c3b50c2"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "BurstGeyser",
+          "index": 9,
+          "copy": "Damage due to overflowing/burst geyser & equipment or pipes",
+          "description": null,
+          "image": [
+            "d39d813e-b77c-4951-b828-7a2901048586"
+          ],
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 9,
+              "copy": null,
+              "description": null,
+              "image": [
+                "90d13e8e-d6e1-45fb-a4af-7ec3fc1fae4f"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 9,
+              "copy": "Damage due to overflowing/burst geyser & equipment or pipes",
+              "description": null,
+              "image": [
+                "6c88a632-d6a4-401f-a522-036ab2dcf473"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "budget",
+              "index": 9,
+              "copy": "Damage due to overflowing/burst geyser & equipment or pipes",
+              "description": null,
+              "image": [
+                "dad3c875-eeb5-4fe6-903d-bcc6f512d45f"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 9,
+              "copy": "Skade as gevolg van oorloping/gebarste warmwater-toestel & toerusting of pype",
+              "description": null,
+              "image": [
+                "fc325ebc-d3ad-418c-bd7a-67f3684028e7"
+              ],
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-10-14T12:24:27Z",
+  "lastModified": "2025-06-06T08:22:19Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI5OTBlMTc5NS02MmUzLTQyYzQtYjYxYS03ZThhMjFjODZiMDkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 2,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09/1",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/990e1795-62e3-42c4-b61a-7e8a21c86b09",
+      "method": "PUT"
+    }
+  }
+}

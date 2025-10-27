@@ -1,0 +1,152 @@
+{
+  "id": "0a3004c1-56d0-4602-9a62-2d592fe45ead",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Home Content Area Access Control"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "02",
+          "index": 0,
+          "copy": "No",
+          "description": "<ul>\n    <li>Free access into the area</li>\n</ul>",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Nee",
+              "description": "<ul>\n    <li>Onbeperkte toegang tot die gebied</li>\n</ul>",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "01",
+          "index": 1,
+          "copy": "Yes",
+          "description": "<ul>\n    <li>Boomed/gated area</li>\n    <span class=\"font-bold\">and/or</span>\n    <li>Security guard</li>\n</ul>",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Ja",
+              "description": "<ul>\n    <li>Veiligheidshek/Omheinde gebied</li>\n    <span class=\"font-bold\">en/of</span>\n    <li>Veiligheidswag</li>\n</ul>",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "index": 2,
+          "copy": "Yes",
+          "description": "<ul>\n    <li>Remote/tag or biometric controlled access through a boom or gate (with or without a security guard)</li>\n</ul>",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Ja",
+              "description": "<ul>\n    <li>Afstandbeheer/kaart of biometries-beheerde toegang deur 'n versperring ('boom') of hek (met of sonder 'n veiligheidswag).</li>\n</ul>",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-05T07:22:01Z",
+  "lastModified": "2025-06-06T08:22:19Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIwYTMwMDRjMS01NmQwLTQ2MDItOWE2Mi0yZDU5MmZlNDVlYWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 5,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead/4",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/0a3004c1-56d0-4602-9a62-2d592fe45ead",
+      "method": "PUT"
+    }
+  }
+}

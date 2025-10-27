@@ -1,0 +1,159 @@
+{
+  "id": "ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "subject:6452637037432f0f4f79509c",
+  "data": {
+    "name": {
+      "iv": "Home Contents Cover Types"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "S",
+          "index": 1,
+          "copy": "Comprehensive",
+          "description": "Cover for theft, loss or damage to home contents caused by fires, natural disasters and/or overflowing water heating systems.",
+          "image": null,
+          "copyOverride": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Omvattend",
+              "description": "Dekking vir diefstal, verlies of skade aan huisinhoud wat deur brande, natuurrampe en/of oorloop van waterverhittingstoestelle veroorsaak is.",
+              "image": null,
+              "copyOverride": null,
+              "copyOverrides": []
+            }
+          ],
+          "copyOverrides": [],
+          "class": null
+        },
+        {
+          "code": "F",
+          "index": 2,
+          "copy": "Fire and Storm Only",
+          "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resulting damage, and malicious damage are excluded.",
+          "image": null,
+          "copyOverride": null,
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Slegs Brand en Storm",
+              "description": "Dekking vir verlies of skade aan huisinhoud wat deur brande, natuurrampe en/of oorloop van waterverhittingstoestelle veroorsaak is. Diefstal, inbraak, en gevolglike skade, sowel as kwaadwillige skade word uitgesluit.",
+              "image": null,
+              "copyOverride": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": null,
+              "copy": null,
+              "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resultant damage, and malicious damage are excluded.",
+              "image": null,
+              "copyOverride": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resultant damage, and malicious damage are excluded.",
+              "image": null,
+              "copyOverride": null,
+              "copyOverrides": []
+            }
+          ],
+          "copyOverrides": [],
+          "class": null
+        }
+      ]
+    }
+  },
+  "created": "2024-08-23T10:53:20Z",
+  "lastModified": "2025-10-24T06:37:54Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJhYjE1ZGJkOS1hNjYwLTRkNGEtYmZiOC1jYmMzMGViN2I4M2EiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 6,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/5",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
+      "method": "PUT"
+    }
+  }
+}

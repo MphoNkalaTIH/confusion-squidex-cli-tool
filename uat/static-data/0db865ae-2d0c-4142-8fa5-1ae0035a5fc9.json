@@ -1,0 +1,161 @@
+{
+  "id": "0db865ae-2d0c-4142-8fa5-1ae0035a5fc9",
+  "createdBy": "client:con-fusion-static-data:owner",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Parking Securities"
+    },
+    "filter": {
+      "iv": true
+    },
+    "sortAlphabetically": {
+      "iv": false
+    },
+    "sortIndexically": {
+      "iv": null
+    },
+    "brandOverrides": {},
+    "data": {
+      "iv": [
+        {
+          "code": "A",
+          "index": null,
+          "copy": null,
+          "description": "Security guarded access control",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Sekuriteitswagte",
+              "description": "Sekuriteitswagte",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "B",
+          "index": null,
+          "copy": null,
+          "description": "Electronic access control",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Elektroniese toegangsbeheer",
+              "description": "Elektroniese toegangsbeheer",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "C",
+          "index": null,
+          "copy": null,
+          "description": "Locked gate",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Hek en slot",
+              "description": "Hek en slot",
+              "image": null
+            }
+          ]
+        },
+        {
+          "code": "N",
+          "index": null,
+          "copy": null,
+          "description": "None",
+          "image": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": "Geen",
+              "description": "Geen",
+              "image": null
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2022-11-15T08:46:05Z",
+  "lastModified": "2024-02-26T12:35:18Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIwZGI4NjVhZS0yZDBjLTQxNDItOGZhNS0xYWUwMDM1YTVmYzkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 7,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9/6",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/0db865ae-2d0c-4142-8fa5-1ae0035a5fc9",
+      "method": "PUT"
+    }
+  }
+}

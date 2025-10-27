@@ -1,0 +1,209 @@
+{
+  "id": "48eebd3d-3770-412c-a324-30854b4deb9d",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "Neighbours"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "VL",
+          "index": 1,
+          "copy": "Vacant land",
+          "description": "Vacant land",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": "Leë grond",
+              "description": "Leë grond",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "GC",
+          "index": 2,
+          "copy": "Golf course",
+          "description": "Golf course",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": "Gholfbaan",
+              "description": "Gholfbaan",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "PK",
+          "index": 3,
+          "copy": "Park",
+          "description": "Park",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": "Park",
+              "description": "Park",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SR",
+          "index": 4,
+          "copy": "Stream/river",
+          "description": "Stream/river",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": "Stroom/rivier",
+              "description": "Stroom/rivier",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SH",
+          "index": 5,
+          "copy": "Small holdings/farm",
+          "description": "Small holdings/farm",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 5,
+              "copy": "Kleinhoewe/plaas",
+              "description": "Kleinhoewe/plaas",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "SQ",
+          "index": 6,
+          "copy": "Squatter camp/informal settlement",
+          "description": "Squatter camp/informal settlement",
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 6,
+              "copy": "Plakkerskamp/informele nedersetting",
+              "description": "Plakkerskamp/informele nedersetting",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-05T07:22:01Z",
+  "lastModified": "2025-06-06T08:22:18Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI0OGVlYmQzZC0zNzcwLTQxMmMtYTMyNC0zMDg1NGI0ZGViOWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 4,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d/3",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/48eebd3d-3770-412c-a324-30854b4deb9d",
+      "method": "PUT"
+    }
+  }
+}
