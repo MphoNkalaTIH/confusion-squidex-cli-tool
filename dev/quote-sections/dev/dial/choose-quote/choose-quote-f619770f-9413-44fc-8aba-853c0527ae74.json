@@ -177,7 +177,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"text-sm md:text-base\">Cover for theft, loss, and powersurge damage.</p>",
+                    "html": "<p class=\"text-sm md:text-base\">Cover for theft, loss, and power surge damage.</p>",
                     "htmlEvents": []
                   }
                 },
@@ -238,7 +238,7 @@
     }
   },
   "created": "2024-07-16T12:13:44Z",
-  "lastModified": "2025-08-19T14:09:36Z",
+  "lastModified": "2025-10-27T10:45:55Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNjE5NzcwZi05NDEzLTQ0ZmMtOGFiYS04NTNjMDUyN2FlNzQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -318,14 +318,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74/1",
+      "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74/4",
       "method": "GET"
     },
     "draft/create": {
