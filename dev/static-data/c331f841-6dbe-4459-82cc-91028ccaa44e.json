@@ -1,7 +1,7 @@
 {
   "id": "c331f841-6dbe-4459-82cc-91028ccaa44e",
   "createdBy": "subject:63d3c2fdcd781721d0853640",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:678f6baf2b512c27fd0ed077",
   "data": {
     "name": {
       "iv": "Home Contents Cover"
@@ -104,7 +104,7 @@
               "brand": "dial",
               "index": 1,
               "copy": null,
-              "description": null,
+              "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Damage or loss of washing and garden furniture</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
               "image": [
                 "123800a3-eaca-4dce-b80e-4c0a02354539"
               ],
@@ -635,6 +635,17 @@
                 "c1ea9ac8-b58e-4e04-a1d2-fd6049017220"
               ],
               "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 10,
+              "copy": "Ongespesifiseerde draagbare besittings dekking",
+              "description": "<p>\n    Jy het <span class=\"font-bold\">R{{insuredValue}}</span> se dekking gekies vir \n    ongespesifiseerde draagbare besittings wat jy uit jou woning neem, met ŉ waarde van minder as R{{itemMax}} per item. \n    Hierdie dekking sluit selfone, fietse en voorskrif brille/kontaklense uit. \n    Ingesluit in hierdie bedrag is R{{indemnityMinimum}} se ongespesifiseerde \n    draagbare besittings dekking wat ŉ standaard kenmerk van alle huisinhoud polisse is.\n</p>\n<p>\n    Sodra jou polis aktief is, kan jy jou dekkingsbedrag deur ons kontaksentrum wysig.\n</p>",
+              "image": [
+                "025710e1-1509-4eb1-a139-8506e9bfa240"
+              ],
+              "copyOverrides": []
             }
           ]
         },
@@ -686,7 +697,7 @@
     }
   },
   "created": "2024-08-26T13:17:25Z",
-  "lastModified": "2025-10-01T13:30:07Z",
+  "lastModified": "2025-10-24T13:36:35Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjMzMxZjg0MS02ZGJlLTQ0NTktODJjYy05MTAyOGNjYWE0NGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -717,14 +728,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 67,
+  "version": 72,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/66",
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/71",
       "method": "GET"
     },
     "draft/create": {
