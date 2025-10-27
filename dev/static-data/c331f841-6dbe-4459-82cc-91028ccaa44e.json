@@ -1,7 +1,7 @@
 {
   "id": "c331f841-6dbe-4459-82cc-91028ccaa44e",
   "createdBy": "subject:63d3c2fdcd781721d0853640",
-  "lastModifiedBy": "subject:678f6baf2b512c27fd0ed077",
+  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
   "data": {
     "name": {
       "iv": "Home Contents Cover"
@@ -126,7 +126,7 @@
               "brand": "virseker",
               "index": 1,
               "copy": "Uitgebreide dekking",
-              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit:</p>\r\n\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Skade of verlies van wasgoed en tuinmeubels</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand of inbraak tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
+              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit:</p>\r\n\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Skade of verlies van wasgoed en tuinmeubels</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
               "image": [
                 "f5b16981-5613-4c6e-9ede-3340de95ff9a"
               ],
@@ -697,7 +697,7 @@
     }
   },
   "created": "2024-08-26T13:17:25Z",
-  "lastModified": "2025-10-24T13:36:35Z",
+  "lastModified": "2025-10-27T09:33:06Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjMzMxZjg0MS02ZGJlLTQ0NTktODJjYy05MTAyOGNjYWE0NGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -728,14 +728,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 72,
+  "version": 73,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/71",
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/72",
       "method": "GET"
     },
     "draft/create": {
