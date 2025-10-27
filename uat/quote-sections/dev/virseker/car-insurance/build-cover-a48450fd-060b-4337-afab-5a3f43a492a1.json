@@ -1,0 +1,2702 @@
+{
+  "id": "a48450fd-060b-4337-afab-5a3f43a492a1",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "virseker"
+    },
+    "baseRoute": {
+      "iv": "car-insurance"
+    },
+    "order": {
+      "iv": 1
+    },
+    "route": {
+      "iv": "build-cover"
+    },
+    "name": {
+      "iv": "Bou dekking"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-build-cover"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": 2
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Tracking device page (T1 and T2)",
+          "route": "fit-tracking-device",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "68999e79-b4b7-4d41-8ae7-6ec598487477"
+            ],
+            "statePropertyPaths": [
+              "vehicle.vehicle",
+              "resumeQuote"
+            ],
+            "values": [
+              false,
+              "C"
+            ],
+            "route": null,
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "tracking-device",
+              "moduleName": "BuildCoverDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja, sien aanbevelings",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "select-tracking-device",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee, dankie, nie nou nie",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "engine-upgrade",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnFitOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek sal my eie opsporingstoestel installeer",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnUseOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek sal voortgaan met die toestel wat ek het",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Wil jy graag ŉ Netstar-opsporingstoestel installeer?</h2>"
+                  }
+                },
+                {
+                  "id": "certDialogTier1_Submit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingsertifikaat moet indien.</p>\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ ICASA-gesertifiseerde opsporingstoestel te weerspieël.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier1_Install",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingstoestel moet installeer en die opsporingsertifikaat moet indien.</p>\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ ICASA-gesertifiseerde opsporingstoestel te weerspieël.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier2_Submit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ voldoende opsporingstoestel te weerspieël.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier2_Install",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingstoestel moet installeer en die opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ voldoende opsporingstoestel te weerspieël.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Has Telematics Page (T3)",
+          "route": "has-telematics",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "43c0dca9-62cc-4c2d-a812-d07b7ecbe3a3"
+            ],
+            "statePropertyPaths": [
+              "vehicle.vehicle",
+              "resumeQuote"
+            ],
+            "values": [
+              false,
+              "C"
+            ],
+            "route": null,
+            "routeArray": [],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "has-telematics-page",
+              "moduleName": "BuildCoverDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Ondersteun jou opsporingstoestel Telematika?</h2>\n<h4>Telematika versamel en dra data van motorbestuur oor vir beter kennis ten opsigte van motorgebruik, verskerpte veiligheid en verbetering van ons diens deur beter opsporingsvermoëns</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee, wys my toestelle met Telematiese vermoëns",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "select-tracking-device",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNotSure",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek is nie seker nie",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnUseOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja, my toestel ondersteun Telematika",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContentRec",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Ons beveel ŉ toestel aan met Telematiese vermoëns</h2>\n<h4>Telematika versamel en dra data van motorbestuur oor vir beter kennis ten opsigte van motorgebruik, verskerpte veiligheid en verbetering van ons diens deur beter opsporingsvermoëns</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnYesRec",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja, sien aanbevelings",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "select-tracking-device",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNoRec",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee, dankie, nie nou nie",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "engine-upgrade",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnFitOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek sal my eie opsporingstoestel installeer",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "certDialog_Submit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ voldoende opsporingstoestel te weerspieël.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialog_Install",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingstoestel moet installeer en die opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ voldoende opsporingstoestel te weerspieël.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "notSureDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Nie seker oor jou toestel nie?</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>As jy nie seker is of jou bestaande toestel Telematiese vermoëns het nie, het jy twee opsies:</p>\r\n<p>1. Jy kan ŉ nuwe Netstar-toestel as deel van jou kwotasie installeer.</p>\r\n<p>2. Of – jy kan deur die toep of tuisblad die sertifikaat indien wat aan jou huidige toestel gekoppel is.</p>\r\n<p><span class=\"font-bold text-main-2\">Let asseblief:</span> opsporingsertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ voldoende opsporingstoestel te weerspieël.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Wys my alternatiewe toestelle",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "select-tracking-device",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Ek sal die sertifikaat binne 7 dae indien",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Has Early Warning Page (T4 and T5)",
+          "route": "has-early-warning",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "95854a42-1a49-49b0-bc68-335668b41b6c"
+            ],
+            "statePropertyPaths": [
+              "vehicle.vehicle",
+              "resumeQuote"
+            ],
+            "values": [
+              false,
+              "C"
+            ],
+            "route": null,
+            "routeArray": [],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "has-early-warning-page",
+              "moduleName": "BuildCoverDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Ondersteun jou opsporingstoestel Vroeë Waarskuwing?</h2>\n<h4>Waarsku die opsporingsdiensverskaffer teen enige ongemagtigde beweging terwyl die aansitter afgeskakel is, of as die outomatiese-aktiveringstoestel nie teenwoordig is wanneer die aansitter aangeskakel word nie</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee, wys my toestelle met Vroeë Waarskuwing vermoëns",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "select-tracking-device",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNotSure",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek is nie seker nie",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnUseOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja, my toestel ondersteun Vroeë Waarskuwing",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContentRec",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>'n Vroeë Waarskuwing-opsporingstoestel word vereis</h2>\n<h4>Waarsku die opsporingsdiensverskaffer teen enige ongemagtigde beweging terwyl die aansitter afgeskakel is, of as die outomatiese-aktiveringstoestel nie teenwoordig is wanneer die aansitter aangeskakel word nie</h4>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnYesRec",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Sien toestel wat aanbeveel word",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "select-tracking-device",
+                      "sectionRoute": "build-cover",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnFitOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek sal my eie opsporingstoestel installeer",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "certDialog_Submit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou diefstaldekking verwyder word en jou premie sal dienooreenkomstig aangepas word.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialog_Install",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingstoestel moet installeer en die opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou diefstaldekking verwyder word en jou premie sal dienooreenkomstig aangepas word.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "notSureDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Nie seker oor jou toestel nie?</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>As jy nie seker is of jou bestaande toestel Vroeë Diefstal Waarskuwing vermoëns het nie, het jy twee opsies:</p>\r\n<p>1. Jy kan ŉ nuwe Netstar-toestel as deel van jou kwotasie installeer.</p>\r\n<p>2. Of – Jy kan deur die toep of tuisblad die sertifikaat indien wat aan jou huidige toestel gekoppel is.</p>\r\n<p><span class=\"font-bold text-main-2\">Let asseblief:</span> As jy nie die opsporingsertifikaat binne 7 dae indien nie, sal jou diefstaldekking verwyder word en jou premie sal dienooreenkomstig aangepas word.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Wys my alternatiewe toestelle",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "select-tracking-device",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Ek sal die sertifikaat binne 7 dae indien",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Select tracking device page",
+          "route": "select-tracking-device",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "cfbaf669-6006-455f-813b-c6d4aa960774"
+            ],
+            "statePropertyPaths": [
+              "vehicle.vehicle",
+              "resumeQuote"
+            ],
+            "values": [
+              false,
+              "C"
+            ],
+            "route": null,
+            "routeArray": [
+              {
+                "route": {
+                  "baseRoute": "car-insurance",
+                  "pageRoute": "engine-upgrade",
+                  "sectionRoute": "build-cover",
+                  "goToStart": false
+                }
+              }
+            ],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "select-tracking-device",
+              "moduleName": "BuildCoverDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnAdd",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Voeg by kwotasie",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "build-cover",
+                      "pageRoute": "engine-upgrade"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "7245bfcb-d8d1-4d03-b818-889262f26908"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote.isCallCentreEdited.trackingDevice",
+                        "resumeQuote.allowSaveAndResumeBack"
+                      ],
+                      "values": [
+                        true,
+                        true
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote",
+                            "goToStart": false
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee dankie, eerder later",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "build-cover",
+                      "pageRoute": "engine-upgrade"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "7245bfcb-d8d1-4d03-b818-889262f26908"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote.isCallCentreEdited.trackingDevice",
+                        "resumeQuote.allowSaveAndResumeBack"
+                      ],
+                      "values": [
+                        true,
+                        true
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote",
+                            "goToStart": false
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnFitOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek sal my eie opsporingstoestel installeer",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "build-cover",
+                      "pageRoute": "engine-upgrade"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "7245bfcb-d8d1-4d03-b818-889262f26908"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote.isCallCentreEdited.trackingDevice",
+                        "resumeQuote.allowSaveAndResumeBack"
+                      ],
+                      "values": [
+                        true,
+                        true
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote",
+                            "goToStart": false
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnUseOwn",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ek sal voortgaan met die toestel wat ek het",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "build-cover",
+                      "pageRoute": "engine-upgrade"
+                    },
+                    "url": null,
+                    "condition": {
+                      "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+                      "code": [
+                        "7245bfcb-d8d1-4d03-b818-889262f26908"
+                      ],
+                      "statePropertyPaths": [
+                        "resumeQuote.isCallCentreEdited.trackingDevice",
+                        "resumeQuote.allowSaveAndResumeBack"
+                      ],
+                      "values": [
+                        true,
+                        true
+                      ],
+                      "route": null,
+                      "routeArray": [
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "premium",
+                            "sectionRoute": "quote",
+                            "goToStart": false
+                          }
+                        },
+                        {
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          }
+                        }
+                      ],
+                      "conditionalRouteCode": null
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtTrackingDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h5 class=\"font-thin text-xs leading-5\">\n    <strong class=\"font-bold text-main-1\">Let asseblief:</strong> Ons sal jou opsporingstoestel installeer en die maandelikse fooi, vir solank as wat jou kar by ons gedek is, betaal. Hierdie opsie is aan 'n <strong class=\"font-bold text-main-1\">3-jaar Netstarkontrak</strong> onderworpe.\n</h5>"
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Kies ‘n Netstar opsporingstoestel</h2>"
+                  }
+                },
+                {
+                  "id": "imgCoverCheck",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "92ed6386-6b60-42e0-a07c-0c31fa64a9e0"
+                    ]
+                  }
+                },
+                {
+                  "id": "imgNetstarLogo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "82f28fc1-403a-4f4c-bcc8-81501a9897f9"
+                    ]
+                  }
+                },
+                {
+                  "id": "txtDevice1Context",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Toestel 1",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtDevice2Context",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Toestel 2",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtDevice3Context",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Toestel 3",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "hrSeperator",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"line-label font-bold text-base\">OF</div>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnAllNetstarPlusFeatures",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<a id=\"allNetstarPlusOptions\" class=\"font-bold text-main-1\">Alle Netstar Plus kenmerke</a>",
+                    "htmlEvents": [
+                      {
+                        "id": "allNetstarPlusOptions",
+                        "eventName": "click",
+                        "callback": "onClickNetstarPlusOptions",
+                        "callbackParams": ""
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "allNetStarPlusOptionsDialog",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0\">Netstar Plus kenmerke</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtNetStarPlusFeatures",
+                        "type": null,
+                        "details": {
+                          "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                          "isArray": true,
+                          "formItems": [
+                            {
+                              "id": "txtFeature1",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Gesteelde motor herwinningsdienste",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature2",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Installasiesertifikaat vir versekering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature3",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Sein-versteuring opsporing (JammingResist™)",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature4",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Impakopsporing vir veiligheid",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature5",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir battery ontkoppeling",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature6",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Web en toep lewendige opsporingsfunksie",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature7",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Logboek vir SARS",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature8",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Persoonlike bestuurdergedrag gradering",
+                                "htmlEvents": []
+                              }
+                            },
+                            {
+                              "id": "txtFeature9",
+                              "conditionValue": null,
+                              "details": {
+                                "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                                "html": "Waarskuwing vir sein-versteuring in kar-parkeerarea",
+                                "htmlEvents": []
+                              }
+                            }
+                          ]
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "imgTrackingDeviceIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "cc8dc984-a1b2-4138-99bd-a068508b2435"
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier1_Submit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingsertifikaat moet indien.</p>\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ ICASA-gesertifiseerde opsporingstoestel te weerspieël.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier1_Install",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingstoestel moet installeer en die opsporingsertifikaat moet indien.</p>\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ ICASA-gesertifiseerde opsporingstoestel te weerspieël.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier2And3_Submit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ voldoende opsporingstoestel te weerspieël.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier2And3_Install",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingstoestel moet installeer en die opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou premie aangepas word om die afwesigheid van ŉ voldoende opsporingstoestel te weerspieël.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier4And5_Submit",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou diefstaldekking verwyder word en jou premie sal dienooreenkomstig aangepas word.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "certDialogTier4And5_Install",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Let asseblief</h3>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Jy sal ŉ opsporingstoestel moet installeer en die opsporingsertifikaat moet indien.</p>\r\n<p>Jy kan hierdie sertifikaat op die tuisblad of op die toep indien.</p>\r\n<p>As jy nie die sertifikaat binne 7 dae indien nie, sal jou diefstaldekking verwyder word en jou premie sal dienooreenkomstig aangepas word.</p>\r\n<p>As jou opsporingstoestel nie aan die vereiste vermoëns voldoen wanneer ons jou opsporingsertifikaat ontvang nie, sal ons jou kontak vir alternatiewe opsies.</p>"
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Reg so",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "engine-upgrade",
+                            "sectionRoute": "build-cover",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": "",
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnCancel",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Terug",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Engine upgrade page",
+          "route": "engine-upgrade",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "23e67603-dd83-4b3b-8cac-2afd89c061e9"
+            ],
+            "statePropertyPaths": [
+              "personal.policyHolder.isRegularDriver",
+              "personal.policyHolder.age",
+              "personal.regularDriver.isRegularDriver",
+              "personal.regularDriver.age",
+              "resumeQuote.isCallCentreEdited.engineUpgrade",
+              "resumeQuote.allowSaveAndResumeBack"
+            ],
+            "values": [
+              true,
+              25,
+              false
+            ],
+            "route": null,
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "engine-upgrade-page",
+              "moduleName": "BuildCoverDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Is die kar se enjin opgegradeer?</h2>"
+                  }
+                },
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Is collected page",
+          "route": "is-collected",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "19775011-6d43-4c5d-a8ca-46d70ede07bc"
+            ],
+            "statePropertyPaths": [
+              "vehicle.vehicle.year",
+              "resumeQuote.isCallCentreEdited.vehicleCollected",
+              "resumeQuote.allowSaveAndResumeBack"
+            ],
+            "values": [
+              true,
+              false
+            ],
+            "route": null,
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "is-collected-page",
+              "moduleName": "BuildCoverDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Ons vermoed die is ‘n nuwe kar.</h4>\n<h2>Het jy al die kar by die verkoper gaan haal?</h2>"
+                  }
+                },
+                {
+                  "id": "btnYes",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Ja",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Nee",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Number of claims page",
+          "route": "number-of-claims",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "0441b4ab-7f6a-4f4e-907b-451c5f220640"
+            ],
+            "statePropertyPaths": [
+              "personal.policyHolder.lastClaimYears.code",
+              "personal.regularDriver.lastClaimYears.code"
+            ],
+            "values": [
+              "0",
+              "1"
+            ],
+            "route": null,
+            "routeArray": [
+              {
+                "route": {
+                  "pageRoute": "casbhack",
+                  "sectionRoute": "cashback-details",
+                  "baseRoute": "policy"
+                }
+              }
+            ],
+            "conditionalRouteCode": [
+              "1669b814-2193-4952-8be8-68e30113fc7e"
+            ]
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "number-of-claims-page",
+              "moduleName": "BuildCoverDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContentHouseholdMember",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Jou laaste karongeluk of -diefstal eis was gedurende die afgelope 2 jaar.</h4>\n<h2>Hoeveel eise het {{name}} in die afgelope 2 jaar ingedien?</h2>"
+                  }
+                },
+                {
+                  "id": "txtContentPolicyHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4>Jou laaste karongeluk of -diefstal eis was gedurende die afgelope 2 jaar.</h4>\n<h2>Hoeveel eise het jy in die afgelope 2 jaar ingedien?</h2>"
+                  }
+                },
+                {
+                  "id": "btnValOne",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "1",
+                    "route": {
+                      "pageRoute": "cashback",
+                      "sectionRoute": "cashback-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnValTwo",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "2",
+                    "route": {
+                      "pageRoute": "cashback",
+                      "sectionRoute": "cashback-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnValThree",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "3+",
+                    "route": {
+                      "pageRoute": "refer-to-manager",
+                      "sectionRoute": "callbackPages",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "staticData",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
+                    "data": [],
+                    "refData": []
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-05T07:19:43Z",
+  "lastModified": "2025-06-06T08:19:57Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhNDg0NTBmZC0wNjBiLTQzMzctYWZhYi01YTNmNDNhNDkyYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 7,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1/6",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/a48450fd-060b-4337-afab-5a3f43a492a1",
+      "method": "PUT"
+    }
+  }
+}

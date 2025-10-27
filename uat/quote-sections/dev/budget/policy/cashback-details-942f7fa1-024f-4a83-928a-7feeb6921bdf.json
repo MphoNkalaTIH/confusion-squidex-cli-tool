@@ -1,0 +1,291 @@
+{
+  "id": "942f7fa1-024f-4a83-928a-7feeb6921bdf",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "budget"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 0
+    },
+    "route": {
+      "iv": "cashback-details"
+    },
+    "name": {
+      "iv": "Cashback"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-finalise"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": null
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Cashback page",
+          "route": "cashback",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": true,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "readonly": null,
+          "createLead": null,
+          "condition": {
+            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
+            "code": [
+              "c4874ddb-b3c9-40fe-ac00-746d17984834"
+            ],
+            "statePropertyPaths": [
+              "resumeQuote.isCallCentreEdited.cashBack"
+            ],
+            "values": null,
+            "route": null,
+            "routeArray": [
+              {
+                "route": {
+                  "baseRoute": "policy",
+                  "pageRoute": "previous-policy-cancelled",
+                  "sectionRoute": "policy-cancellation",
+                  "goToStart": false
+                }
+              }
+            ],
+            "conditionalRouteCode": null
+          },
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "cashback-page",
+              "moduleName": "CashbackModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnAddNow",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Add now",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "previous-policy-cancelled",
+                      "sectionRoute": "policy-cancellation",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnAddLater",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Add later",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "previous-policy-cancelled",
+                      "sectionRoute": "policy-cancellation",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtPremium",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"font-medium text-2xl sm:text-3xl\">Add Cash Back Bonus now for {{premium}} p/m</h2>"
+                  }
+                },
+                {
+                  "id": "txtCashBonus",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "Remain <span class=\"text-main-1 font-bold\">claim free for two years</span> and receive up to:"
+                  }
+                },
+                {
+                  "id": "txtTerms",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p><span class=\"text-main-1 font-bold\">Please note:</span> To learn more about the Cash Back Bonus, simply download the <a href=\"https://www.budgetinsurance.co.za/brochures/budget-cash-back-bonus-toolkit/\" target=\"_blank\" class=\"text-main-1 font-bold underline\">terms and conditions</a>.</p>"
+                  }
+                },
+                {
+                  "id": "cashbackIcon",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
+                    "assets": [
+                      "0db86c97-364c-4799-9076-7fd4408e8fbc"
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2025-01-23T16:25:43Z",
+  "lastModified": "2025-03-07T08:59:38Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5NDJmN2ZhMS0wMjRmLTRhODMtOTI4YS03ZmVlYjY5MjFiZGYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 2,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf/1",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf",
+      "method": "PUT"
+    }
+  }
+}

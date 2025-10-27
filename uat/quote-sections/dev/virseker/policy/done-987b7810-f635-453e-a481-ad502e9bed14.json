@@ -1,0 +1,351 @@
+{
+  "id": "987b7810-f635-453e-a481-ad502e9bed14",
+  "createdBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "client:con-fusion:pipeline",
+  "data": {
+    "brand": {
+      "iv": "virseker"
+    },
+    "baseRoute": {
+      "iv": "policy"
+    },
+    "order": {
+      "iv": 1
+    },
+    "route": {
+      "iv": "done"
+    },
+    "name": {
+      "iv": "Amper daar"
+    },
+    "environmentId": {
+      "iv": "dev"
+    },
+    "abTestingId": {
+      "iv": ""
+    },
+    "icon": {
+      "iv": "icon-circle-check"
+    },
+    "excludeFromTrackbar": {
+      "iv": null
+    },
+    "sectionDisabled": {
+      "iv": null
+    },
+    "maxTrackItems": {
+      "iv": 3
+    },
+    "currentSection": {
+      "iv": null
+    },
+    "pages": {
+      "iv": [
+        {
+          "name": "Welcome Page",
+          "route": "welcome",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": true,
+          "hideBackButton": true,
+          "excludeFromTrackbar": false,
+          "showPremiumBanner": false,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "welcome-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"text-center flex flex-col items-center\">\n    <img class=\"mb-3 md:mb-4 mt-4 md:mt-5\" src=\"{{assetsUrl}}/03d74587-7ee1-4ae8-89dc-96313f144cd2/icon-state-success.png?version=0\">\n    <h2 class=\"text-main-2 font-bold\">Welkom by die Virseker gemeenskap {{name}}.</h2>\n    <h4 class=\"text-main-2 font-regular text-xl\">Dankie dat jy ons help om ons taal te ondersteun!</h4>\n    <p class=\"text-main-2 font-medium text-l mb-0\">\n        Jou dekking begin {{coverStartDate}}\n        <br/>Jou polisnommer is {{policyNumber}}\n    </p>\n</div>\n<div class=\"flex justify-center\">\n    <hr class=\"mb-5 mt-5 w-1/2 text-virseker-grey-3 border-virseker-grey-3 mx-2\"/>\n</div>\n<p class=\"font-bold text-base mb-0 text-center\">Wat jy volgende moet doen...</p>"
+                  }
+                },
+                {
+                  "id": "txtGroup",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "txtLogin",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\r\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/107c579f-f523-49b5-9820-796d55c74b16/icon-computer.svg?version=0\" />\r\n    <span class=\"text-sm pl-4 block md:hidden\">\r\n        <a href=\"https://policy.virseker.co.za/login?returnUrl=%2Fdashboard\" class=\"font-medium\">Laai ons toep af</a> om toegang tot jou profiel-paneelbord en selfbediening fasiliteite te kry.\r\n    </span>\r\n    <span class=\"text-sm pl-4 hidden md:block font-medium\">\r\n        <span class=\"text-main-1\">Laai ons toep af</span> om toegang tot jou profiel-paneelbord en selfbediening fasiliteite te kry.\r\n    </span>\r\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtSubmit",
+                        "conditionValue": "isCollected",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"self-start w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/0ee6f2bb-79de-485d-8575-c5fdcf2d552a/icon-camera.svg?version=0\" />\n    <span class=\"text-sm pl-4\">Voltooi jou karinspeksie <span class=\"text-main-1 font-medium\">op ons toep, binne 48 uur</span> na die dekking se begindatum om te verseker dat jy gedek is.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtNetstar",
+                        "conditionValue": "netstar",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/e80b3368-eb95-4a0d-9c40-3cdab6b9e46a/icon-customer-support.svg?version=0\" />\n    <span class=\"text-sm pl-4\">Verwag ‘n oproep vanaf ‘n konsultant om jou kar se <span class=\"text-main-1 font-medium\">Netstar installasie-afspraak</span> te bevestig.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtOwnTracker",
+                        "conditionValue": "ownTracker",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/34fafbe8-17bc-4940-adaa-2681c7067d5b/certificate.svg?version=0\" />\n    <span class=\"text-sm pl-4\"><span class=\"text-main-1 font-medium\">Laai</span> jou opsporingstoestel sertifikaat op ons toep.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtUserPh",
+                        "conditionValue": "A",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/53a3492a-2ff7-4bd3-88df-d0846ef0934a/affordable-premium.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-1 font-medium\">Jy</span> kan 'n oproep van ons verwag rakende jou <span class=\"text-main-1 font-medium\">bankinligting.</span></span>\n</div>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "txtUserThirdParty",
+                        "conditionValue": "ThirdParty",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/53a3492a-2ff7-4bd3-88df-d0846ef0934a/affordable-premium.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-1 font-medium\">{{householdMember}}</span> kan 'n oproep van ons verwag oor hul <span class=\"text-main-1 font-medium\">bankinligting.</span></span>\n</div>",
+                          "htmlEvents": []
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Laai toep af",
+                    "route": null,
+                    "url": "https://onelink.to/dxex83",
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": "w-full fu-btn-primary",
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "groupMobile",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
+                    "isArray": true,
+                    "formItems": [
+                      {
+                        "id": "txtDownloadAppInfo",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p class=\"text-center col-span-3 pb-2\">Jy kan ons toep hier kry:</p>",
+                          "htmlEvents": []
+                        }
+                      },
+                      {
+                        "id": "btnAppStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "App Store",
+                          "route": null,
+                          "url": "https://apps.apple.com/us/app/virseker/id6499304150",
+                          "img": [
+                            "49c0dc96-0e5b-418f-bb28-f592569adef6"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnGoogleStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Google Store",
+                          "route": null,
+                          "url": "https://play.google.com/store/apps/details?id=za.co.virseker.app&hl=af",
+                          "img": [
+                            "ed387c7c-d1e6-4097-b276-c7b7d642862e"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      },
+                      {
+                        "id": "btnHuaweiStore",
+                        "conditionValue": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Huawei Store",
+                          "route": null,
+                          "url": "https://appgallery.huawei.com/app/C110851505",
+                          "img": [
+                            "ae64f691-28b8-4bb2-8d94-b1ae729a7f31"
+                          ],
+                          "useImageAsButton": true,
+                          "theme": null,
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2024-08-05T07:19:43Z",
+  "lastModified": "2025-10-15T15:05:51Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5ODdiNzgxMC1mNjM1LTQ1M2UtYTQ4MS1hZDUwMmU5YmVkMTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
+  "schemaName": "quote-sections",
+  "schemaDisplayName": "quote-sections",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "brand",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "allowedValues": [
+          "budget",
+          "autogen",
+          "dial",
+          "virseker",
+          "firstforwomen"
+        ],
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Dropdown",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 5,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    },
+    {
+      "fieldId": 6,
+      "name": "environmentId",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": true
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 4,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14/3",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14",
+      "method": "PUT"
+    }
+  }
+}
