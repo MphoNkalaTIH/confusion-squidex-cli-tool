@@ -1,7 +1,7 @@
 {
   "id": "c8839220-4897-4125-bef7-7d199d042c44",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -818,7 +818,7 @@
                     "helperText": "Huisnommer, straatnaam, voorstad, poskode",
                     "placeholderText": "Soek",
                     "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": null
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -1126,7 +1126,7 @@
                     "helperText": "Huisarea / voorstad",
                     "placeholderText": "Vul asseblief in",
                     "cannotFindItemText": "Ek kan nie my area of voorstad vind nie",
-                    "loadingText": null
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -1218,7 +1218,7 @@
                     "helperText": "",
                     "placeholderText": "Soek",
                     "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": null
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -1603,7 +1603,7 @@
                     "helperText": "",
                     "placeholderText": "Soek",
                     "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": null
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -2111,7 +2111,7 @@
     }
   },
   "created": "2024-07-16T12:13:45Z",
-  "lastModified": "2025-10-23T14:59:51Z",
+  "lastModified": "2025-10-24T11:26:15Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODgzOTIyMC00ODk3LTQxMjUtYmVmNy03ZDE5OWQwNDJjNDQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2191,14 +2191,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 37,
+  "version": 39,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/36",
+      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/38",
       "method": "GET"
     },
     "draft/create": {

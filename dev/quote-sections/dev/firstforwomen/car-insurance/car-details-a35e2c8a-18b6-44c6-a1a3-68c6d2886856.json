@@ -1,7 +1,7 @@
 {
   "id": "a35e2c8a-18b6-44c6-a1a3-68c6d2886856",
   "createdBy": "subject:643d0a2b50643ff97e2d4f06",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -1100,7 +1100,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1574,7 +1574,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -2017,7 +2017,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -2287,7 +2287,7 @@
     }
   },
   "created": "2025-05-28T10:43:58Z",
-  "lastModified": "2025-10-23T15:28:05Z",
+  "lastModified": "2025-10-24T09:37:37Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhMzVlMmM4YS0xOGI2LTQ0YzYtYTFhMy02OGM2ZDI4ODY4NTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2367,14 +2367,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 13,
+  "version": 14,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/a35e2c8a-18b6-44c6-a1a3-68c6d2886856",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/a35e2c8a-18b6-44c6-a1a3-68c6d2886856/12",
+      "href": "/api/content/con-fusion/quote-sections/a35e2c8a-18b6-44c6-a1a3-68c6d2886856/13",
       "method": "GET"
     },
     "draft/create": {

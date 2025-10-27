@@ -1,7 +1,7 @@
 {
   "id": "ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -999,7 +999,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1473,7 +1473,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1916,7 +1916,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -2186,7 +2186,7 @@
     }
   },
   "created": "2024-07-16T12:13:34Z",
-  "lastModified": "2025-10-23T15:29:20Z",
+  "lastModified": "2025-10-24T09:37:06Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlY2MyMGZhOS00ZWIwLTQxMzItOGZiNS0xYWYyOTYyNmY5YjciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2266,14 +2266,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 16,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/14",
+      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/15",
       "method": "GET"
     },
     "draft/create": {

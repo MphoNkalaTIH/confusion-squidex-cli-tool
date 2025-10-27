@@ -235,7 +235,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1682,7 +1682,7 @@
     }
   },
   "created": "2024-07-16T12:13:39Z",
-  "lastModified": "2025-10-20T20:29:43Z",
+  "lastModified": "2025-10-24T10:00:07Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIzZmJiY2ZjZS04ZDQzLTQ3OTYtYjExZi05Y2QzNmU3ZmEzZjQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1762,14 +1762,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 88,
+  "version": 89,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/3fbbcfce-8d43-4796-b11f-9cd36e7fa3f4",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/3fbbcfce-8d43-4796-b11f-9cd36e7fa3f4/87",
+      "href": "/api/content/con-fusion/quote-sections/3fbbcfce-8d43-4796-b11f-9cd36e7fa3f4/88",
       "method": "GET"
     },
     "draft/create": {

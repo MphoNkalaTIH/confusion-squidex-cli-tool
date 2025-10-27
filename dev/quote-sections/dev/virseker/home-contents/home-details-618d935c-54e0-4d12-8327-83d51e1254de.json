@@ -143,7 +143,7 @@
                     "helperText": "Huisnommer, straatnaam, voorstad, poskode",
                     "placeholderText": "Soek",
                     "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": null
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -360,7 +360,7 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Kompleks / gebou (opsioneel)",
                     "helperText": "Naam van die kompleks of gebou, eenheidnommer of vloer",
-                    "placeholderText": "Please complete",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "address2",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -382,7 +382,7 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Suburb",
                     "helperText": "Home area / suburb",
-                    "placeholderText": "Please complete",
+                    "placeholderText": "Vul asseblief in",
                     "formControlName": "suburbName",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -470,7 +470,7 @@
                     "helperText": "Huisarea / voorstad",
                     "placeholderText": "Vul asseblief in",
                     "cannotFindItemText": "Ek kan nie my area of voorstad vind nie",
-                    "loadingText": null
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -1682,7 +1682,7 @@
     }
   },
   "created": "2024-07-16T12:13:48Z",
-  "lastModified": "2025-10-22T15:35:16Z",
+  "lastModified": "2025-10-24T11:20:03Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2MThkOTM1Yy01NGUwLTRkMTItODMyNy04M2Q1MWUxMjU0ZGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1762,14 +1762,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 17,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/14",
+      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/16",
       "method": "GET"
     },
     "draft/create": {

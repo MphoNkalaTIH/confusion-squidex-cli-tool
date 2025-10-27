@@ -1,7 +1,7 @@
 {
   "id": "b6c267c0-223f-4ac5-ae70-f729758111fb",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -858,7 +858,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1332,7 +1332,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1767,7 +1767,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -2029,7 +2029,7 @@
     }
   },
   "created": "2024-07-16T12:13:38Z",
-  "lastModified": "2025-10-23T15:23:52Z",
+  "lastModified": "2025-10-24T09:59:43Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNmMyNjdjMC0yMjNmLTRhYzUtYWU3MC1mNzI5NzU4MTExZmIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2109,14 +2109,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 9,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b6c267c0-223f-4ac5-ae70-f729758111fb",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b6c267c0-223f-4ac5-ae70-f729758111fb/8",
+      "href": "/api/content/con-fusion/quote-sections/b6c267c0-223f-4ac5-ae70-f729758111fb/9",
       "method": "GET"
     },
     "draft/create": {
