@@ -1,0 +1,96 @@
+{
+  "id": "9d0c319d-b244-495c-9745-5725f6bf2ad9",
+  "createdBy": "client:con-fusion-static-data:pipeline",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
+  "data": {
+    "name": {
+      "iv": "PageType"
+    },
+    "options": {
+      "iv": [
+        {
+          "name": "PolicyHolder",
+          "value": null
+        },
+        {
+          "name": "HouseholdMember",
+          "value": null
+        },
+        {
+          "name": "Spouse",
+          "value": null
+        }
+      ]
+    }
+  },
+  "created": "2024-10-14T12:24:26Z",
+  "lastModified": "2024-10-14T12:24:26Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJlbnVtcyIsImkiOiI5ZDBjMzE5ZC1iMjQ0LTQ5NWMtOTc0NS01NzI1ZjZiZjJhZDkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
+  "schemaId": "aa8a23d7-8995-419c-a7ef-ef23399b0585",
+  "schemaName": "enums",
+  "schemaDisplayName": "Enums",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "label": "Enum's Name",
+        "isRequired": true,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 1,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9/0",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/enums/9d0c319d-b244-495c-9745-5725f6bf2ad9",
+      "method": "PUT"
+    }
+  }
+}
