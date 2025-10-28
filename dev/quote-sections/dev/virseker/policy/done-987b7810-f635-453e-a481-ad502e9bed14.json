@@ -86,7 +86,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<div class=\"flex flex-row py-3\">\r\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/107c579f-f523-49b5-9820-796d55c74b16/icon-computer.svg?version=0\" />\r\n    <span class=\"text-sm pl-4 block md:hidden\">\r\n        <a href=\"https://policy.virseker.co.za/login?returnUrl=%2Fdashboard\" class=\"font-medium\">Laai ons toep af</a> om toegang tot jou profiel-paneelbord en selfbediening fasiliteite te kry.\r\n    </span>\r\n    <span class=\"text-sm pl-4 hidden md:block font-medium\">\r\n        <span class=\"text-main-1\">Laai ons toep af</span> om toegang tot jou profiel-paneelbord en selfbediening fasiliteite te kry.\r\n    </span>\r\n</div>"
+                          "html": "<div class=\"flex flex-row py-3\">\r\n    <img class=\"w-9\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/107c579f-f523-49b5-9820-796d55c74b16/icon-computer.svg?version=0\" />\r\n    <span class=\"text-sm pl-4 block md:hidden\">\r\n        <a href=\"https://onelink.to/dxex83\" class=\"font-medium\">Laai ons toep af</a> om toegang tot jou profiel-paneelbord en selfbediening fasiliteite te kry.\r\n    </span>\r\n    <span class=\"text-sm pl-4 hidden md:block font-medium\">\r\n        <span class=\"text-main-1\">Laai ons toep af</span> om toegang tot jou profiel-paneelbord en selfbediening fasiliteite te kry.\r\n    </span>\r\n</div>"
                         }
                       },
                       {
@@ -231,7 +231,7 @@
     }
   },
   "created": "2024-07-16T12:13:47Z",
-  "lastModified": "2025-10-02T13:10:16Z",
+  "lastModified": "2025-10-28T07:56:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5ODdiNzgxMC1mNjM1LTQ1M2UtYTQ4MS1hZDUwMmU5YmVkMTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -311,14 +311,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 16,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14/14",
+      "href": "/api/content/con-fusion/quote-sections/987b7810-f635-453e-a481-ad502e9bed14/15",
       "method": "GET"
     },
     "draft/create": {
