@@ -1,7 +1,7 @@
 {
   "id": "4729a0bd-69a6-4bfd-98eb-8bd396fadf4b",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -81,11 +81,19 @@
                     "isArray": true,
                     "formItems": [
                       {
-                        "id": "txtLogin",
-                        "conditionValue": null,
+                        "id": "txtDownloadMobile",
+                        "conditionValue": "mobile",
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-12\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cd6b1dc4-712c-41db-99c1-d9e25e45afea/icon-download-app.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-1 font-medium\">Download our app</span> to access your dashboard for self-servicing capabilities.</span>\n</div>"
+                          "html": "<div class=\"flex flex-row items-start py-3\">\n    <img class=\"w-12\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cd6b1dc4-712c-41db-99c1-d9e25e45afea/icon-download-app.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><a href=\"https://onelink.to/b94h8m\" target=\"_blank\" class=\"text-main-1 font-medium\">Download our app</a> to access your dashboard for self-servicing capabilities.</span>\n</div>"
+                        }
+                      },
+                      {
+                        "id": "txtDownloadDesktop",
+                        "conditionValue": "desktop",
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<div class=\"flex flex-row items-start py-3\">\n    <img class=\"w-12\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cd6b1dc4-712c-41db-99c1-d9e25e45afea/icon-download-app.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-1 font-medium\">Download our app</span> to access your dashboard for self-servicing capabilities.</span>\n</div>"
                         }
                       },
                       {
@@ -230,7 +238,7 @@
     }
   },
   "created": "2024-07-16T12:13:39Z",
-  "lastModified": "2025-02-17T14:55:45Z",
+  "lastModified": "2025-10-28T07:01:37Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0NzI5YTBiZC02OWE2LTRiZmQtOThlYi04YmQzOTZmYWRmNGIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -310,14 +318,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 18,
+  "version": 19,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4729a0bd-69a6-4bfd-98eb-8bd396fadf4b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4729a0bd-69a6-4bfd-98eb-8bd396fadf4b/17",
+      "href": "/api/content/con-fusion/quote-sections/4729a0bd-69a6-4bfd-98eb-8bd396fadf4b/18",
       "method": "GET"
     },
     "draft/create": {
