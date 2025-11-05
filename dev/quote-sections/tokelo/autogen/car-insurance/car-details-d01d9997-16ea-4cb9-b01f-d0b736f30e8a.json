@@ -345,6 +345,38 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h2>What's the car used for?</h2>"
                   }
+                },
+                {
+                  "id": "btnCarUse",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "carUse",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -2013,7 +2045,7 @@
     }
   },
   "created": "2025-11-04T17:11:39Z",
-  "lastModified": "2025-11-04T17:11:39Z",
+  "lastModified": "2025-11-05T11:49:46Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkMDFkOTk5Ny0xNmVhLTRjYjktYjAxZi1kMGI3MzZmMzBlOGEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2093,14 +2125,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/d01d9997-16ea-4cb9-b01f-d0b736f30e8a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d01d9997-16ea-4cb9-b01f-d0b736f30e8a/0",
+      "href": "/api/content/con-fusion/quote-sections/d01d9997-16ea-4cb9-b01f-d0b736f30e8a/1",
       "method": "GET"
     },
     "draft/create": {
