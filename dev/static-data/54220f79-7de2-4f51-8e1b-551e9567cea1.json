@@ -1,7 +1,7 @@
 {
   "id": "54220f79-7de2-4f51-8e1b-551e9567cea1",
   "createdBy": "subject:63d3c3cdc16968f87b36989f",
-  "lastModifiedBy": "subject:643d0a2b50643ff97e2d4f06",
+  "lastModifiedBy": "subject:678f6baf2b512c27fd0ed077",
   "data": {
     "name": {
       "iv": "Messages"
@@ -23,6 +23,7 @@
           "index": null,
           "copy": "",
           "description": "Hi {{firstName}}, you're moments away from joining the fearless. To resume your 1st for Women quote, click here: {{link}} INS&FSP. Ts&Cs online.",
+          "class": null,
           "image": null,
           "brandOverrides": [
             {
@@ -30,7 +31,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "Haai daar {{firstName}}! Dankie dat jy by ons kwoteer het. As jy reg is om aan te sluit by 'n versekeringsnaam wat geken word vir goeie diens, gebruik hierdie skakel binne die volgende 30 dae om jou kwotasie te finaliseer: {{link}}. A&G Versekeraar en FDV, Bs en Vs aanlyn.",
+              "description": "Hallo {{firstName}}! Dankie dat jy by ons kwoteer. As jy wil aansluit by versekering wat geken word vir goeie diens, finaliseer jou kwotasie binne die volgende 30 dae en kliek: {{link}}. A&G Vers&FDV, Bs en Vs aanlyn.",
               "image": null
             },
             {
@@ -64,7 +65,7 @@
     }
   },
   "created": "2023-01-31T12:33:11Z",
-  "lastModified": "2024-04-19T08:48:45Z",
+  "lastModified": "2025-11-04T09:52:43Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI1NDIyMGY3OS03ZGUyLTRmNTEtOGUxYi01NTFlOTU2N2NlYTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -95,14 +96,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 22,
+  "version": 23,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1/21",
+      "href": "/api/content/con-fusion-static-data/static-data/54220f79-7de2-4f51-8e1b-551e9567cea1/22",
       "method": "GET"
     },
     "draft/create": {

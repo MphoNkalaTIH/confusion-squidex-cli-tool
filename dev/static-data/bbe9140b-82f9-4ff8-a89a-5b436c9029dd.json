@@ -32,6 +32,16 @@
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "",
+              "description": "",
+              "image": [
+                "bddcb06b-c325-4e1b-9365-d5b9fe889196"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
               "index": null,
               "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
@@ -50,6 +60,16 @@
             "59a25a00-8079-4bd6-b60a-3a20aa83411d"
           ],
           "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "",
+              "description": "",
+              "image": [
+                "d874ba88-a1f8-4fb0-84d8-f17dcfe677dd"
+              ]
+            },
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
@@ -72,6 +92,16 @@
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "",
+              "description": "",
+              "image": [
+                "27585b00-4149-4270-b372-b2bf92844da8"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
               "index": null,
               "copy": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik. Die kar mag ook vir sosiale, huishoudelike of plesierdoeleindes gebruik word, en dit sluit in om werk toe en terug te ry.",
@@ -84,7 +114,7 @@
     }
   },
   "created": "2025-07-28T18:18:51Z",
-  "lastModified": "2025-08-01T07:32:19Z",
+  "lastModified": "2025-11-05T07:10:34Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiYmU5MTQwYi04MmY5LTRmZjgtYTg5YS01YjQzNmM5MDI5ZGQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -115,14 +145,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/5",
+      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/9",
       "method": "GET"
     },
     "draft/create": {
