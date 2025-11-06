@@ -1,7 +1,7 @@
 {
   "id": "f619770f-9413-44fc-8aba-853c0527ae74",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:6901d14ebc270deb2b0533c5",
   "data": {
     "brand": {
       "iv": "dial"
@@ -238,7 +238,7 @@
     }
   },
   "created": "2024-07-16T12:13:44Z",
-  "lastModified": "2025-10-27T10:45:55Z",
+  "lastModified": "2025-11-05T17:22:02Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNjE5NzcwZi05NDEzLTQ0ZmMtOGFiYS04NTNjMDUyN2FlNzQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -318,14 +318,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74/4",
+      "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74/7",
       "method": "GET"
     },
     "draft/create": {

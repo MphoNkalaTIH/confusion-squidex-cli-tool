@@ -1,7 +1,7 @@
 {
   "id": "4b8c26c3-1d3e-4d73-b2c6-5a3183422c80",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:6901d14ebc270deb2b0533c5",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -238,7 +238,7 @@
     }
   },
   "created": "2024-07-16T12:13:36Z",
-  "lastModified": "2025-08-26T07:22:45Z",
+  "lastModified": "2025-11-05T17:22:55Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0YjhjMjZjMy0xZDNlLTRkNzMtYjJjNi01YTMxODM0MjJjODAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -318,14 +318,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 6,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4b8c26c3-1d3e-4d73-b2c6-5a3183422c80",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4b8c26c3-1d3e-4d73-b2c6-5a3183422c80/3",
+      "href": "/api/content/con-fusion/quote-sections/4b8c26c3-1d3e-4d73-b2c6-5a3183422c80/5",
       "method": "GET"
     },
     "draft/create": {
