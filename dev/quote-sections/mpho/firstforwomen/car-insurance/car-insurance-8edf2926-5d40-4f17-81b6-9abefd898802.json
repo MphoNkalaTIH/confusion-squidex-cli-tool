@@ -456,10 +456,9 @@
                   "id": "imgBackground",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "808d729b-482f-4e13-8115-2c2858ac3b6a"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"image-background\" style=\"background-image: url('{{cmsUrl}}/api/assets/con-fusion-static-data/574261df-9a67-441b-b61a-931bdee00e83/ffw-mutirisk-entry-background.jpg')\"></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -506,7 +505,7 @@
     }
   },
   "created": "2025-11-06T06:25:46Z",
-  "lastModified": "2025-11-06T06:25:46Z",
+  "lastModified": "2025-11-06T06:29:07Z",
   "status": "Draft",
   "statusColor": "#8091a5",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI4ZWRmMjkyNi01ZDQwLTRmMTctODFiNi05YWJlZmQ4OTg4MDIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -586,10 +585,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 0,
+  "version": 1,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/8edf2926-5d40-4f17-81b6-9abefd898802",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/8edf2926-5d40-4f17-81b6-9abefd898802/0",
       "method": "GET"
     },
     "status/Archived": {
