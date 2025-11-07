@@ -1,7 +1,7 @@
 {
   "id": "6742f133-fc1a-4555-a032-398218592ab4",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "dial"
@@ -122,7 +122,7 @@
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
-                      "pageRoute": "suburb"
+                      "pageRoute": "residential-address"
                     },
                     "url": null,
                     "img": null,
@@ -141,7 +141,7 @@
     }
   },
   "created": "2024-07-16T12:13:44Z",
-  "lastModified": "2025-05-23T07:05:56Z",
+  "lastModified": "2025-11-06T15:20:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NzQyZjEzMy1mYzFhLTQ1NTUtYTAzMi0zOTgyMTg1OTJhYjQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -221,14 +221,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6742f133-fc1a-4555-a032-398218592ab4",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6742f133-fc1a-4555-a032-398218592ab4/5",
+      "href": "/api/content/con-fusion/quote-sections/6742f133-fc1a-4555-a032-398218592ab4/6",
       "method": "GET"
     },
     "draft/create": {

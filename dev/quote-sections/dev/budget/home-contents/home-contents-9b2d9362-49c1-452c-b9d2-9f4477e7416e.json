@@ -1,7 +1,7 @@
 {
   "id": "9b2d9362-49c1-452c-b9d2-9f4477e7416e",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:67ee54ee834f3e41309d3c9a",
+  "lastModifiedBy": "subject:689330dc9468c1aba43ed5c7",
   "data": {
     "brand": {
       "iv": "budget"
@@ -122,7 +122,7 @@
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
-                      "pageRoute": "suburb"
+                      "pageRoute": "residential-address"
                     },
                     "url": null,
                     "img": null,
@@ -141,7 +141,7 @@
     }
   },
   "created": "2024-07-16T12:13:41Z",
-  "lastModified": "2025-05-06T09:20:14Z",
+  "lastModified": "2025-11-06T15:19:21Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5YjJkOTM2Mi00OWMxLTQ1MmMtYjlkMi05ZjQ0NzdlNzQxNmUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -221,14 +221,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/9b2d9362-49c1-452c-b9d2-9f4477e7416e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/9b2d9362-49c1-452c-b9d2-9f4477e7416e/3",
+      "href": "/api/content/con-fusion/quote-sections/9b2d9362-49c1-452c-b9d2-9f4477e7416e/4",
       "method": "GET"
     },
     "draft/create": {

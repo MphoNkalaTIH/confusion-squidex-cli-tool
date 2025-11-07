@@ -70,20 +70,18 @@
                   "id": "imgBackground",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "5756ca23-acaf-44e1-9118-e6a19f99cad7"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container hidden md:block\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/5aa54465-c2e2-4216-bef9-931544ea3b8d/autogen-quote-start-background.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
                   "id": "imgBackgroundMobile",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "89934185-f389-4fbe-9804-b1fc83b9deaf"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container block md:hidden\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/5aa54465-c2e2-4216-bef9-931544ea3b8d/autogen-quote-start-background.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -108,10 +106,9 @@
                   "id": "imgVehicleIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "b288bb20-ddab-40ef-8077-1b22ab29cc3f"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"icon-container\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/8d976f99-21ac-4fe6-a006-4db580382279/car.svg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -157,10 +154,9 @@
                   "id": "imgHomeContentIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "e04bcda2-befc-4e81-bcc6-de899d5df8df"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"icon-container\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/9a806a52-29e6-4f2c-9ff4-a158473e65f5/home-contents.svg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -238,7 +234,7 @@
     }
   },
   "created": "2025-11-06T05:52:24Z",
-  "lastModified": "2025-11-06T05:52:24Z",
+  "lastModified": "2025-11-07T06:23:12Z",
   "status": "Draft",
   "statusColor": "#8091a5",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjNjQ5MjZiOC0xNDYzLTQ4N2YtYjE1Ny0zZmRiZDFiZjdlYjQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -318,10 +314,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 0,
+  "version": 1,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c64926b8-1463-487f-b157-3fdbd1bf7eb4",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion/quote-sections/c64926b8-1463-487f-b157-3fdbd1bf7eb4/0",
       "method": "GET"
     },
     "status/Archived": {
