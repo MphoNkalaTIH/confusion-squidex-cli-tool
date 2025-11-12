@@ -1,7 +1,7 @@
 {
   "id": "bbe9140b-82f9-4ff8-a89a-5b436c9029dd",
-  "createdBy": "subject:67f379df834f3e41309e6bc3",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "createdBy": "subject:69131eb5e029e4394dd7c302",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
       "iv": "Vehicle Uses Variant"
@@ -33,9 +33,9 @@
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "autogen",
-              "index": null,
+              "index": 1,
               "copy": "",
-              "description": "",
+              "description": "Private and/or travelling to work",
               "image": [
                 "bddcb06b-c325-4e1b-9365-d5b9fe889196"
               ]
@@ -43,10 +43,30 @@
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
-              "index": null,
+              "index": 1,
               "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
               "description": "Privaat en/of reis na werk",
               "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "256d1433-d73e-4b0c-8508-79b99a267de9"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
             }
           ]
         },
@@ -65,7 +85,7 @@
               "brand": "autogen",
               "index": null,
               "copy": "",
-              "description": "",
+              "description": "Private and occasional business",
               "image": [
                 "d874ba88-a1f8-4fb0-84d8-f17dcfe677dd"
               ]
@@ -77,6 +97,26 @@
               "copy": "Die kar word vir sosiale, huishoudelike of plesier doeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word vir tot en met 10 professionele of besigheidsreise gebruik per maand. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik.",
               "description": "Privaat en vir besigheid per geleentheid",
               "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "083947b0-6602-460f-9617-b2a90e564bd7"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
             }
           ]
         },
@@ -95,7 +135,7 @@
               "brand": "autogen",
               "index": null,
               "copy": "",
-              "description": "",
+              "description": "Private and full business",
               "image": [
                 "27585b00-4149-4270-b372-b2bf92844da8"
               ]
@@ -107,6 +147,26 @@
               "copy": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik. Die kar mag ook vir sosiale, huishoudelike of plesierdoeleindes gebruik word, en dit sluit in om werk toe en terug te ry.",
               "description": "Privaat en volle-besigheidsgebruik",
               "image": null
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "154f81a0-1aaa-4105-8d81-44afc999d1ab"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
             }
           ]
         }
@@ -114,7 +174,7 @@
     }
   },
   "created": "2025-07-28T18:18:51Z",
-  "lastModified": "2025-11-05T07:10:34Z",
+  "lastModified": "2025-11-10T12:07:54Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiYmU5MTQwYi04MmY5LTRmZjgtYTg5YS01YjQzNmM5MDI5ZGQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -145,14 +205,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 15,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/9",
+      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/14",
       "method": "GET"
     },
     "draft/create": {

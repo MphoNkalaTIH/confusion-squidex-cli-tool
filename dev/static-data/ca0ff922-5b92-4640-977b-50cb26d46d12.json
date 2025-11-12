@@ -1,7 +1,7 @@
 {
   "id": "ca0ff922-5b92-4640-977b-50cb26d46d12",
-  "createdBy": "subject:67f379df834f3e41309e6bc3",
-  "lastModifiedBy": "subject:67f379df834f3e41309e6bc3",
+  "createdBy": "subject:69131eb5e029e4394dd7c302",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
       "iv": "Insured value variant"
@@ -40,6 +40,29 @@
               "description": "Markwaarde",
               "image": null,
               "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a2d4afbf-f367-4cfc-916f-3485cb622eec",
+                "faedb519-d555-443a-8382-c4a8a69b8352"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": [
+                "46e03f65-1a94-4944-a0ba-35c45c1728c1"
+              ],
+              "copyOverrides": []
             }
           ]
         },
@@ -61,6 +84,17 @@
               "copy": "Ons betaal die bedrag uit wat jy by ŉ motorhandelaar vir jou kar sou betaal. Dit lok ŉ hoër premie, maar beteken ook dat jy ŉ hoër uitbetaling sal ontvang wanneer jy ŉ eis instel.",
               "description": "Herverkoopswaarde",
               "image": null,
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "7518f1ec-33b6-44a1-942c-0f4c587e6f94"
+              ],
               "copyOverrides": []
             }
           ]
@@ -93,6 +127,17 @@
               "description": "BetterCar",
               "image": null,
               "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f5cd1051-8c6b-4727-bc34-c6a6996bf9fd"
+              ],
+              "copyOverrides": []
             }
           ]
         },
@@ -115,6 +160,17 @@
               "description": "Inruilwaarde",
               "image": null,
               "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a505b119-cd8d-49fe-a0b2-1c4d7c4f5b88"
+              ],
+              "copyOverrides": []
             }
           ]
         }
@@ -122,7 +178,7 @@
     }
   },
   "created": "2025-08-04T07:06:32Z",
-  "lastModified": "2025-08-06T11:15:26Z",
+  "lastModified": "2025-11-12T06:38:22Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjYTBmZjkyMi01YjkyLTQ2NDAtOTc3Yi01MGNiMjZkNDZkMTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -153,14 +209,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/4",
+      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/9",
       "method": "GET"
     },
     "draft/create": {
