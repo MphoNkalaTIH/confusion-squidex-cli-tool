@@ -107,7 +107,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"option-icon\"><div class=\"icon-container\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/ef24110c-211a-4642-bfba-68e1b84081c2/car.svg')\"></div></div>",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/ef24110c-211a-4642-bfba-68e1b84081c2/car.svg\" class=\"icon-container\" /></div>",
                     "htmlEvents": []
                   }
                 },
@@ -155,7 +155,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<div class=\"option-icon\"><div class=\"icon-container\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/b12596c3-24c6-4622-9a7b-77490dc7a6e4/home-contents.svg')\"></div></div>",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/b12596c3-24c6-4622-9a7b-77490dc7a6e4/home-contents.svg\" class=\"icon-container\" /></div>",
                     "htmlEvents": []
                   }
                 },
@@ -234,7 +234,7 @@
     }
   },
   "created": "2025-11-06T05:51:28Z",
-  "lastModified": "2025-11-12T06:45:45Z",
+  "lastModified": "2025-11-12T07:16:43Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2YjRmZmIyZS00YWI5LTRkZDMtODIzZi1kNDVkY2I3NDgxMDciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -314,14 +314,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/6b4ffb2e-4ab9-4dd3-823f-d45dcb748107",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/6b4ffb2e-4ab9-4dd3-823f-d45dcb748107/2",
+      "href": "/api/content/con-fusion/quote-sections/6b4ffb2e-4ab9-4dd3-823f-d45dcb748107/3",
       "method": "GET"
     },
     "draft/create": {
