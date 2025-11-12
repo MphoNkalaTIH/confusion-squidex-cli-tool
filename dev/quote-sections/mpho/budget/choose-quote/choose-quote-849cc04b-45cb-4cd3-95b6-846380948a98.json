@@ -1,7 +1,7 @@
 {
   "id": "849cc04b-45cb-4cd3-95b6-846380948a98",
-  "createdBy": "subject:6901d14ebc270deb2b0533c5",
-  "lastModifiedBy": "subject:6901d14ebc270deb2b0533c5",
+  "createdBy": "subject:691308cce029e4394dd7b3b3",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "budget"
@@ -234,9 +234,9 @@
     }
   },
   "created": "2025-11-06T05:50:53Z",
-  "lastModified": "2025-11-07T06:23:27Z",
-  "status": "Draft",
-  "statusColor": "#8091a5",
+  "lastModified": "2025-11-07T07:07:16Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI4NDljYzA0Yi00NWNiLTRjZDMtOTViNi04NDYzODA5NDhhOTgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
@@ -314,25 +314,29 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/849cc04b-45cb-4cd3-95b6-846380948a98",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/849cc04b-45cb-4cd3-95b6-846380948a98/0",
+      "href": "/api/content/con-fusion/quote-sections/849cc04b-45cb-4cd3-95b6-846380948a98/1",
       "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion/quote-sections/849cc04b-45cb-4cd3-95b6-846380948a98/draft",
+      "method": "POST"
     },
     "status/Archived": {
       "href": "/api/content/con-fusion/quote-sections/849cc04b-45cb-4cd3-95b6-846380948a98/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
-    "status/Published": {
+    "status/Draft": {
       "href": "/api/content/con-fusion/quote-sections/849cc04b-45cb-4cd3-95b6-846380948a98/status",
       "method": "PUT",
-      "metadata": "#4bb958"
+      "metadata": "#8091a5"
     },
     "delete": {
       "href": "/api/content/con-fusion/quote-sections/849cc04b-45cb-4cd3-95b6-846380948a98",
