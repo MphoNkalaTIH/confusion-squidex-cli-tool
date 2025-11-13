@@ -1,7 +1,7 @@
 {
   "id": "f4d6d6f8-597b-4e6e-a73c-625937b9e326",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:691308f7e029e4394dd7b3b4",
+  "lastModifiedBy": "subject:691307f5e029e4394dd7b3b0",
   "data": {
     "brand": {
       "iv": "dial"
@@ -52,7 +52,7 @@
           "showPremiumBanner": true,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -2413,7 +2413,7 @@
     }
   },
   "created": "2024-07-16T12:13:43Z",
-  "lastModified": "2025-10-20T21:03:36Z",
+  "lastModified": "2025-11-12T12:30:37Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNGQ2ZDZmOC01OTdiLTRlNmUtYTczYy02MjU5MzdiOWUzMjYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2493,14 +2493,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 64,
+  "version": 65,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/63",
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/64",
       "method": "GET"
     },
     "draft/create": {

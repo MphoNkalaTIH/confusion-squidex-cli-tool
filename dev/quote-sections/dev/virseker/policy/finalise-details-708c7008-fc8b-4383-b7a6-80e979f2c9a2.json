@@ -1,7 +1,7 @@
 {
   "id": "708c7008-fc8b-4383-b7a6-80e979f2c9a2",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:691308f7e029e4394dd7b3b4",
+  "lastModifiedBy": "subject:691307f5e029e4394dd7b3b0",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -52,7 +52,7 @@
           "showPremiumBanner": true,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -2520,7 +2520,7 @@
     }
   },
   "created": "2024-07-16T12:13:47Z",
-  "lastModified": "2025-10-20T21:11:54Z",
+  "lastModified": "2025-11-12T12:31:24Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI3MDhjNzAwOC1mYzhiLTQzODMtYjdhNi04MGU5NzlmMmM5YTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2600,14 +2600,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 80,
+  "version": 81,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/79",
+      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/80",
       "method": "GET"
     },
     "draft/create": {

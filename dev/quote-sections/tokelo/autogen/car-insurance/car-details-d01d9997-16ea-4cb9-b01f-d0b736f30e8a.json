@@ -690,6 +690,22 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -749,6 +765,22 @@
                   "details": {
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
                     "flag": true
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 }
               ]
@@ -2045,7 +2077,7 @@
     }
   },
   "created": "2025-11-04T17:11:39Z",
-  "lastModified": "2025-11-05T11:49:46Z",
+  "lastModified": "2025-11-12T12:04:13Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkMDFkOTk5Ny0xNmVhLTRjYjktYjAxZi1kMGI3MzZmMzBlOGEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2125,14 +2157,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/d01d9997-16ea-4cb9-b01f-d0b736f30e8a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d01d9997-16ea-4cb9-b01f-d0b736f30e8a/1",
+      "href": "/api/content/con-fusion/quote-sections/d01d9997-16ea-4cb9-b01f-d0b736f30e8a/3",
       "method": "GET"
     },
     "draft/create": {
