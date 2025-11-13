@@ -1,7 +1,7 @@
 {
   "id": "d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
   "createdBy": "subject:69130a2fe029e4394dd7b3b8",
-  "lastModifiedBy": "subject:691307f5e029e4394dd7b3b0",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -456,10 +456,9 @@
                   "id": "imgBackground",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "808d729b-482f-4e13-8115-2c2858ac3b6a"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"image-background\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/574261df-9a67-441b-b61a-931bdee00e83/ffw-mutirisk-entry-background.jpg')\"></div><div class=\"hero-gradient-overlay absolute inset-0\"></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -506,7 +505,7 @@
     }
   },
   "created": "2025-05-28T10:44:29Z",
-  "lastModified": "2025-07-28T10:01:58Z",
+  "lastModified": "2025-11-13T07:34:52Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkODVhNTVmOC1mN2ZmLTQ1YjgtYjhkNy1lZTA1NDlkZmE3MWIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -586,14 +585,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 19,
+  "version": 20,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/18",
+      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/19",
       "method": "GET"
     },
     "draft/create": {

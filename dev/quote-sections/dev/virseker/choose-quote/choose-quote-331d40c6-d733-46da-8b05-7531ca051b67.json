@@ -70,20 +70,18 @@
                   "id": "imgBackground",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "f8a121e0-29e4-471d-a2ee-a4cb67f0857f"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container hidden md:block\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/913827de-2a87-4f5e-9a02-b7e09ac90a4c/virseker-background-scaled-down.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
                   "id": "imgBackgroundMobile",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "f8a121e0-29e4-471d-a2ee-a4cb67f0857f"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container block md:hidden\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/913827de-2a87-4f5e-9a02-b7e09ac90a4c/virseker-background-scaled-down.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -108,10 +106,9 @@
                   "id": "imgVehicleIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "d4b509a0-a5a3-4f08-b562-e42e9e738633"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/50fc6705-67e9-4ae5-8872-f26cfaaff1c5/car.svg\" class=\"icon-container\" /></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -157,10 +154,9 @@
                   "id": "imgHomeContentIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "5479b9af-e4dc-47a9-8e04-ba73f7f8e987"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/6cd18a22-888d-4bf2-9d3a-407dc7106d8d/home-contents.svg\" class=\"icon-container\" /></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -238,7 +234,7 @@
     }
   },
   "created": "2024-07-16T12:13:48Z",
-  "lastModified": "2025-11-05T17:23:30Z",
+  "lastModified": "2025-11-13T07:35:32Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIzMzFkNDBjNi1kNzMzLTQ2ZGEtOGIwNS03NTMxY2EwNTFiNjciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -318,14 +314,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/331d40c6-d733-46da-8b05-7531ca051b67",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/331d40c6-d733-46da-8b05-7531ca051b67/3",
+      "href": "/api/content/con-fusion/quote-sections/331d40c6-d733-46da-8b05-7531ca051b67/4",
       "method": "GET"
     },
     "draft/create": {

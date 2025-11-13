@@ -70,20 +70,18 @@
                   "id": "imgBackground",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "f86ab5ce-0470-47fa-b160-ddfc3b8258ce"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container hidden md:block\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/427931c3-0f6d-4ec2-8d69-14cf658a1260/dial-quote-background.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
                   "id": "imgBackgroundMobile",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "f86ab5ce-0470-47fa-b160-ddfc3b8258ce"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container block md:hidden\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/427931c3-0f6d-4ec2-8d69-14cf658a1260/dial-quote-background.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -108,10 +106,9 @@
                   "id": "imgVehicleIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "1b325e85-b391-4659-98e2-e8a74b3add80"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/8b5123a4-57d4-493c-a805-fb4722d858a4/car-cover.svg\" class=\"icon-container\" /></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -157,10 +154,9 @@
                   "id": "imgHomeContentIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "9bdb0244-7b59-4d85-83d5-b86f2333dd13"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/d47d61d1-4b03-4070-939b-5c269b7015d7/home-insurance.svg\" class=\"icon-container\" /></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -238,7 +234,7 @@
     }
   },
   "created": "2024-07-16T12:13:44Z",
-  "lastModified": "2025-11-05T17:22:02Z",
+  "lastModified": "2025-11-13T07:32:19Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNjE5NzcwZi05NDEzLTQ0ZmMtOGFiYS04NTNjMDUyN2FlNzQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -318,14 +314,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 8,
+  "version": 9,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74/7",
+      "href": "/api/content/con-fusion/quote-sections/f619770f-9413-44fc-8aba-853c0527ae74/8",
       "method": "GET"
     },
     "draft/create": {

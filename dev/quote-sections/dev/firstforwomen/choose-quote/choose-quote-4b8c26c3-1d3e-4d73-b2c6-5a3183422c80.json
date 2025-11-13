@@ -70,20 +70,18 @@
                   "id": "imgBackground",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "808d729b-482f-4e13-8115-2c2858ac3b6a"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container hidden md:block\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/574261df-9a67-441b-b61a-931bdee00e83/ffw-mutirisk-entry-background.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
                   "id": "imgBackgroundMobile",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "808d729b-482f-4e13-8115-2c2858ac3b6a"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"background-container block md:hidden\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/574261df-9a67-441b-b61a-931bdee00e83/ffw-mutirisk-entry-background.jpg')\"><div class=\"background-gradient\"></div></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -108,10 +106,9 @@
                   "id": "imgVehicleIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "06671d92-8f47-4f23-ac4f-d0148f451a11"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/ef24110c-211a-4642-bfba-68e1b84081c2/car.svg\" class=\"icon-container\" /></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -157,10 +154,9 @@
                   "id": "imgHomeContentIcon",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "2c20264e-104f-40ba-8714-2cf45d79cf05",
-                    "assets": [
-                      "84394e37-3353-4431-b226-3f694acb4fd3"
-                    ]
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"option-icon\"><img alt=\"\" src=\"cmsUrl/api/assets/con-fusion-static-data/b12596c3-24c6-4622-9a7b-77490dc7a6e4/home-contents.svg\" class=\"icon-container\" /></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -238,7 +234,7 @@
     }
   },
   "created": "2024-07-16T12:13:36Z",
-  "lastModified": "2025-11-05T17:22:55Z",
+  "lastModified": "2025-11-13T07:35:14Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0YjhjMjZjMy0xZDNlLTRkNzMtYjJjNi01YTMxODM0MjJjODAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -318,14 +314,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4b8c26c3-1d3e-4d73-b2c6-5a3183422c80",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4b8c26c3-1d3e-4d73-b2c6-5a3183422c80/5",
+      "href": "/api/content/con-fusion/quote-sections/4b8c26c3-1d3e-4d73-b2c6-5a3183422c80/6",
       "method": "GET"
     },
     "draft/create": {
