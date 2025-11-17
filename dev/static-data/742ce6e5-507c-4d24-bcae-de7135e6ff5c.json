@@ -28,7 +28,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "02",
@@ -38,7 +48,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Om werk toe en terug te ry is ingesluit",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "02",
@@ -48,7 +68,17 @@
           "class": "Exclude",
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word nie vir professionele of besigheidsdoeleindes gebruik nie (byvoorbeeld om kliënte te besoek, vir aflewerings of om tariefbetalende passasiers te vervoer)",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "07",
@@ -58,7 +88,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "07",
@@ -68,7 +108,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Om werk toe en terug te ry is ingesluit",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "07",
@@ -78,7 +128,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word vir tot en met 10 professionele of besigheidsreise gebruik per maand",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "07",
@@ -88,7 +148,17 @@
           "class": "",
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "07",
@@ -98,7 +168,17 @@
           "class": "Exclude",
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word nie vir professionele of besigheidsdoeleindes gebruik nie (byvoorbeeld om kliënte te besoek, vir aflewerings of om tariefbetalende passasiers te vervoer)",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "03",
@@ -108,7 +188,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. ",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "03",
@@ -118,7 +208,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik.",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "03",
@@ -128,7 +228,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "03",
@@ -138,7 +248,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Om werk toe en terug te ry is ingesluit",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "03",
@@ -148,13 +268,23 @@
           "class": "Exclude",
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word nie vir professionele of besigheidsdoeleindes gebruik nie (byvoorbeeld om kliënte te besoek, vir aflewerings of om tariefbetalende passasiers te vervoer)",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         }
       ]
     }
   },
   "created": "2025-07-28T18:46:50Z",
-  "lastModified": "2025-07-31T12:10:58Z",
+  "lastModified": "2025-11-17T04:00:54Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI3NDJjZTZlNS01MDdjLTRkMjQtYmNhZS1kZTcxMzVlNmZmNWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -185,14 +315,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/1",
+      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/2",
       "method": "GET"
     },
     "draft/create": {

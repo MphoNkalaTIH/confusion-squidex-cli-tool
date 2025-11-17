@@ -46,7 +46,9 @@
               "index": 1,
               "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
               "description": "Privaat en/of reis na werk",
-              "image": null
+              "image": [
+                "da207b3b-b6af-4160-90d0-1d1097cd3df7"
+              ]
             },
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -65,7 +67,9 @@
               "index": 1,
               "copy": null,
               "description": null,
-              "image": null,
+              "image": [
+                "256d1433-d73e-4b0c-8508-79b99a267de9"
+              ],
               "copyOverrides": []
             }
           ]
@@ -96,7 +100,9 @@
               "index": null,
               "copy": "Die kar word vir sosiale, huishoudelike of plesier doeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word vir tot en met 10 professionele of besigheidsreise gebruik per maand. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik.",
               "description": "Privaat en vir besigheid per geleentheid",
-              "image": null
+              "image": [
+                "ce6fbd06-2a96-4a61-bc97-76ebeca54315"
+              ]
             },
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -115,7 +121,9 @@
               "index": 2,
               "copy": null,
               "description": null,
-              "image": null,
+              "image": [
+                "083947b0-6602-460f-9617-b2a90e564bd7"
+              ],
               "copyOverrides": []
             }
           ]
@@ -146,7 +154,9 @@
               "index": null,
               "copy": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik. Die kar mag ook vir sosiale, huishoudelike of plesierdoeleindes gebruik word, en dit sluit in om werk toe en terug te ry.",
               "description": "Privaat en volle-besigheidsgebruik",
-              "image": null
+              "image": [
+                "e31d6f84-1945-4de2-9fd3-d019feca7b31"
+              ]
             },
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -165,7 +175,9 @@
               "index": 3,
               "copy": null,
               "description": null,
-              "image": null,
+              "image": [
+                "154f81a0-1aaa-4105-8d81-44afc999d1ab"
+              ],
               "copyOverrides": []
             }
           ]
@@ -174,7 +186,7 @@
     }
   },
   "created": "2025-07-28T18:18:51Z",
-  "lastModified": "2025-11-10T12:07:54Z",
+  "lastModified": "2025-11-16T17:03:16Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiYmU5MTQwYi04MmY5LTRmZjgtYTg5YS01YjQzNmM5MDI5ZGQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -205,14 +217,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 17,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/14",
+      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/16",
       "method": "GET"
     },
     "draft/create": {

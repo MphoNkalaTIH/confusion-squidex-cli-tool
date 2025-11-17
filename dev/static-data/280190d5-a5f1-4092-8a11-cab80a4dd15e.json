@@ -28,7 +28,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Sal jou kar vir die gemiddelde bedrag gedek wees waarvoor dit tans verkoop kan word",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "R",
@@ -38,7 +48,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Ons betaal die bedrag uit wat jy sou betaal by ‘n karhandelaar vir jou kar",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "R",
@@ -48,7 +68,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Dit lok ŉ hoër premie, maar beteken ook dat jy ŉ hoër uitbetaling sal ontvang wanneer jy ŉ eis instel",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "R",
@@ -58,7 +88,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "B",
@@ -68,7 +108,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "B",
@@ -78,7 +128,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar. Dit sal jou die laagste moontlike premie bied, maar ook die laagste uitbetaling wanneer jy ŉ eis instel",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "B",
@@ -88,7 +148,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "T",
@@ -98,7 +168,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Ons sal jou kar uitbetaal of dit met dieselfde model wat een jaar nuwer is, vervang as jou kar afgeskryf word",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "T",
@@ -108,7 +188,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "As daar geen nuwer model beskikbaar is nie, sal ons 15% meer as jou kar se herverkoopswaarde uitbetaal",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "T",
@@ -118,13 +208,23 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         }
       ]
     }
   },
   "created": "2025-08-04T07:10:50Z",
-  "lastModified": "2025-08-04T07:22:37Z",
+  "lastModified": "2025-11-17T04:21:52Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIyODAxOTBkNS1hNWYxLTQwOTItOGExMS1jYWI4MGE0ZGQxNWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -155,14 +255,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/4",
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/6",
       "method": "GET"
     },
     "draft/create": {

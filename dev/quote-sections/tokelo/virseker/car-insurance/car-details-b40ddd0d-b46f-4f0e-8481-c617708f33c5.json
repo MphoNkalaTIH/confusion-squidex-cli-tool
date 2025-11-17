@@ -381,6 +381,22 @@
                     "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
                     "refData": []
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -702,6 +718,22 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -769,6 +801,22 @@
                   "details": {
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
                     "flag": true
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 }
               ]
@@ -2095,7 +2143,7 @@
     }
   },
   "created": "2025-11-10T07:24:44Z",
-  "lastModified": "2025-11-10T07:24:44Z",
+  "lastModified": "2025-11-16T17:21:25Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNDBkZGQwZC1iNDZmLTRmMGUtODQ4MS1jNjE3NzA4ZjMzYzUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2175,14 +2223,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b40ddd0d-b46f-4f0e-8481-c617708f33c5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b40ddd0d-b46f-4f0e-8481-c617708f33c5/0",
+      "href": "/api/content/con-fusion/quote-sections/b40ddd0d-b46f-4f0e-8481-c617708f33c5/1",
       "method": "GET"
     },
     "draft/create": {
