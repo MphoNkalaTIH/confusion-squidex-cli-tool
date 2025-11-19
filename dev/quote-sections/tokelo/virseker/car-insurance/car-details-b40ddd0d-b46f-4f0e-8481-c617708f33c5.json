@@ -390,7 +390,9 @@
                     "label": "Volgende",
                     "route": null,
                     "url": null,
-                    "img": null,
+                    "img": [
+                      "731d06bb-63be-4d96-a10f-dff656711895"
+                    ],
                     "useImageAsButton": null,
                     "theme": "primary",
                     "class": null,
@@ -2143,7 +2145,7 @@
     }
   },
   "created": "2025-11-10T07:24:44Z",
-  "lastModified": "2025-11-16T17:21:25Z",
+  "lastModified": "2025-11-19T09:51:16Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNDBkZGQwZC1iNDZmLTRmMGUtODQ4MS1jNjE3NzA4ZjMzYzUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2223,14 +2225,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b40ddd0d-b46f-4f0e-8481-c617708f33c5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b40ddd0d-b46f-4f0e-8481-c617708f33c5/1",
+      "href": "/api/content/con-fusion/quote-sections/b40ddd0d-b46f-4f0e-8481-c617708f33c5/3",
       "method": "GET"
     },
     "draft/create": {

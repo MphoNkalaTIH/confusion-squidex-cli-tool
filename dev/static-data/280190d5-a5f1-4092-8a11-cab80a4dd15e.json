@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Insured value bullet variant"
+      "iv": "Insured value bullet"
     },
     "filter": {
       "iv": null
@@ -224,7 +224,7 @@
     }
   },
   "created": "2025-08-04T07:10:50Z",
-  "lastModified": "2025-11-17T04:21:52Z",
+  "lastModified": "2025-11-18T18:22:06Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIyODAxOTBkNS1hNWYxLTQwOTItOGExMS1jYWI4MGE0ZGQxNWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -255,14 +255,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/6",
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/7",
       "method": "GET"
     },
     "draft/create": {

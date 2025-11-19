@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Cover Type Variant"
+      "iv": "Cover Type Alternative"
     },
     "filter": {
       "iv": null
@@ -160,7 +160,7 @@
               "copy": "Cover for damages to your car as a direct result of fire, explosions, lightning or theft, including damages your car may cause to someone else’s car or property, for which you are legally liable.",
               "description": "Third Party, Fire and Theft",
               "image": [
-                "146bdedd-32d9-489e-9f3d-c1e39ebd04b3"
+                "722582fa-b0d6-457c-8372-f043d5e24b49"
               ]
             },
             {
@@ -427,7 +427,7 @@
     }
   },
   "created": "2025-07-21T16:21:27Z",
-  "lastModified": "2025-11-16T18:25:50Z",
+  "lastModified": "2025-11-19T11:52:49Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI2ODgyZDc0Yy1mNjUwLTRhNDItYTg4NC05ZmVlMTIxM2U0ZTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -458,14 +458,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 29,
+  "version": 33,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1/28",
+      "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1/32",
       "method": "GET"
     },
     "draft/create": {

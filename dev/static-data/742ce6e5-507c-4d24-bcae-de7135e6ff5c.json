@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Vehicle Uses Bullet Variant"
+      "iv": "Vehicle Uses Bullet"
     },
     "filter": {
       "iv": null
@@ -184,26 +184,6 @@
           "code": "03",
           "index": null,
           "copy": null,
-          "description": "The car is used for social, domestic, or pleasure purposes",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": [
-            {
-              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
-              "brand": "virseker",
-              "index": null,
-              "copy": null,
-              "description": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. ",
-              "image": null,
-              "copyOverrides": []
-            }
-          ]
-        },
-        {
-          "code": "03",
-          "index": null,
-          "copy": null,
           "description": "The car is used to visit clients or attend work-related commitments away from your regular workplace",
           "class": null,
           "image": null,
@@ -235,6 +215,26 @@
               "index": null,
               "copy": null,
               "description": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "03",
+          "index": null,
+          "copy": null,
+          "description": "The car is used for social, domestic, or pleasure purposes",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. ",
               "image": null,
               "copyOverrides": []
             }
@@ -284,7 +284,7 @@
     }
   },
   "created": "2025-07-28T18:46:50Z",
-  "lastModified": "2025-11-17T04:00:54Z",
+  "lastModified": "2025-11-19T08:50:24Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI3NDJjZTZlNS01MDdjLTRkMjQtYmNhZS1kZTcxMzVlNmZmNWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -315,14 +315,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/2",
+      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/6",
       "method": "GET"
     },
     "draft/create": {

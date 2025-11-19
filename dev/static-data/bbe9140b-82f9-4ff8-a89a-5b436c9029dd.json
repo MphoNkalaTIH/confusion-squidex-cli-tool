@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Vehicle Uses Variant"
+      "iv": "Vehicle Uses Alternative"
     },
     "filter": {
       "iv": null
@@ -186,7 +186,7 @@
     }
   },
   "created": "2025-07-28T18:18:51Z",
-  "lastModified": "2025-11-16T17:03:16Z",
+  "lastModified": "2025-11-18T18:27:09Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiYmU5MTQwYi04MmY5LTRmZjgtYTg5YS01YjQzNmM5MDI5ZGQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -217,14 +217,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 17,
+  "version": 18,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/16",
+      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/17",
       "method": "GET"
     },
     "draft/create": {

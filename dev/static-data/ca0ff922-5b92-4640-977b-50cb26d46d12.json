@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Insured value variant"
+      "iv": "Insured value alternative"
     },
     "filter": {
       "iv": null
@@ -122,7 +122,7 @@
               "copy": null,
               "description": null,
               "image": [
-                "789f42df-2b7d-403a-8af1-686c148474a2"
+                "63f2e985-b6ab-4e59-b2e5-432d6d41459c"
               ],
               "copyOverrides": []
             },
@@ -236,7 +236,7 @@
               "copy": null,
               "description": null,
               "image": [
-                "355e676a-106c-44b9-a5c1-251591349fea"
+                "f76ad1b6-92db-4db5-be76-0e00805ca8eb"
               ],
               "copyOverrides": []
             },
@@ -257,7 +257,7 @@
     }
   },
   "created": "2025-08-04T07:06:32Z",
-  "lastModified": "2025-11-16T18:30:49Z",
+  "lastModified": "2025-11-19T09:08:11Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjYTBmZjkyMi01YjkyLTQ2NDAtOTc3Yi01MGNiMjZkNDZkMTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -288,14 +288,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 19,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/14",
+      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/18",
       "method": "GET"
     },
     "draft/create": {

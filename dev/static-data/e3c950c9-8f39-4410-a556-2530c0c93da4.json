@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Cover Type Bullets Variant"
+      "iv": "Cover Type Bullets"
     },
     "filter": {
       "iv": null
@@ -24,7 +24,7 @@
           "code": "A",
           "index": null,
           "copy": null,
-          "description": "Theft & hijacking",
+          "description": "Theft",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -164,7 +164,7 @@
           "code": "B",
           "index": null,
           "copy": null,
-          "description": "Theft & hijacking",
+          "description": "Theft",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -464,7 +464,7 @@
     }
   },
   "created": "2025-07-23T13:49:50Z",
-  "lastModified": "2025-11-17T03:50:14Z",
+  "lastModified": "2025-11-19T08:46:12Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJlM2M5NTBjOS04ZjM5LTQ0MTAtYTU1Ni0yNTMwYzBjOTNkYTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -495,14 +495,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 27,
+  "version": 30,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/26",
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/29",
       "method": "GET"
     },
     "draft/create": {
