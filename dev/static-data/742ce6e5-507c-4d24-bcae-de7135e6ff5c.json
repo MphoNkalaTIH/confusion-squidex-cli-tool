@@ -1,7 +1,7 @@
 {
   "id": "742ce6e5-507c-4d24-bcae-de7135e6ff5c",
   "createdBy": "subject:69131eb5e029e4394dd7c302",
-  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "name": {
       "iv": "Vehicle Uses Bullet"
@@ -24,7 +24,7 @@
           "code": "02",
           "index": null,
           "copy": null,
-          "description": "The car is used for social, domestic, or pleasure purposes",
+          "description": "The car may also be used for social, domestic, or pleasure purposes",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -93,7 +93,7 @@
           "code": "07",
           "index": null,
           "copy": null,
-          "description": "The car is used for social, domestic, or pleasure purposes",
+          "description": "The car may also be used for social, domestic, or pleasure purposes",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -233,7 +233,7 @@
           "code": "03",
           "index": null,
           "copy": null,
-          "description": "The car is used for social, domestic, or pleasure purposes",
+          "description": "The car may also be used for social, domestic, or pleasure purposes",
           "class": null,
           "image": null,
           "copyOverrides": [],
@@ -293,7 +293,7 @@
     }
   },
   "created": "2025-07-28T18:46:50Z",
-  "lastModified": "2025-12-04T15:04:44Z",
+  "lastModified": "2025-12-11T09:46:02Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI3NDJjZTZlNS01MDdjLTRkMjQtYmNhZS1kZTcxMzVlNmZmNWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -324,14 +324,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 12,
+  "version": 13,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/11",
+      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/12",
       "method": "GET"
     },
     "draft/create": {
