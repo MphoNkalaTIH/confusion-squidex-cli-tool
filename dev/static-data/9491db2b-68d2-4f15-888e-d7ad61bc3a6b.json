@@ -1,7 +1,7 @@
 {
   "id": "9491db2b-68d2-4f15-888e-d7ad61bc3a6b",
   "createdBy": "client:con-fusion-static-data:owner",
-  "lastModifiedBy": "subject:69131eb5e029e4394dd7c304",
+  "lastModifiedBy": "subject:691308f7e029e4394dd7b3b4",
   "data": {
     "name": {
       "iv": "Car Makes"
@@ -701,42 +701,6 @@
           "brandOverrides": []
         },
         {
-          "code": "AM",
-          "index": null,
-          "copy": "Aston Martin",
-          "description": "ASTON MARTIN",
-          "class": null,
-          "image": [
-            "a1276f15-f29d-408a-b836-1bed4bce9b4c"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "AS",
-          "index": null,
-          "copy": "Asia",
-          "description": "ASIA",
-          "class": null,
-          "image": [
-            "fb9faccf-9d8d-4ab3-92af-2add0061af5e"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "MR",
-          "index": null,
-          "copy": "Maserati",
-          "description": "MASERATI",
-          "class": null,
-          "image": [
-            "8b8915f5-bdcb-4601-8c2e-0c5a0698a918"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
           "code": "29",
           "index": null,
           "copy": "MG",
@@ -744,18 +708,6 @@
           "class": null,
           "image": [
             "a7a9426f-1f05-4859-9a6f-a9f8c75c961a"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "DA",
-          "index": null,
-          "copy": "Dacia",
-          "description": "DACIA",
-          "class": null,
-          "image": [
-            "45754914-ddd0-4613-bc01-4f36a2d0838b"
           ],
           "copyOverrides": [],
           "brandOverrides": []
@@ -776,7 +728,7 @@
           "code": "JO",
           "index": null,
           "copy": "Jaecoo",
-          "description": "JO",
+          "description": "JAECOO",
           "class": null,
           "image": [
             "f9a43959-e9ca-46e1-a257-b4e916b8356f"
@@ -809,78 +761,6 @@
           "brandOverrides": []
         },
         {
-          "code": "RE",
-          "index": null,
-          "copy": "Rolls Royce",
-          "description": "ROLLS ROYCE",
-          "class": null,
-          "image": [
-            "218c70e0-9523-4ccd-832c-0cb7d6cda2f6"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "59",
-          "index": null,
-          "copy": "Lada",
-          "description": "LADA",
-          "class": null,
-          "image": [
-            "6c01520c-3178-4b7f-b383-41673908f11b"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "23",
-          "index": null,
-          "copy": "Rover",
-          "description": "ROVER",
-          "class": null,
-          "image": [
-            "6ecb4180-214c-420c-8d69-41c0939f360d"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "14",
-          "index": null,
-          "copy": "Lancia",
-          "description": "LANCIA",
-          "class": null,
-          "image": [
-            "afa3ab30-9b26-4805-8da8-10d5f6758b1a"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "SB",
-          "index": null,
-          "copy": "Saab",
-          "description": "SAAB",
-          "class": null,
-          "image": [
-            "eab2c3fc-1c45-444e-a777-048ef606ed87"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "LO",
-          "index": null,
-          "copy": "Lotus",
-          "description": "LOTUS",
-          "class": null,
-          "image": [
-            "f655ccda-ff51-498e-b59a-f1594ba357ef"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
           "code": "SE",
           "index": null,
           "copy": "Seat",
@@ -891,36 +771,12 @@
           ],
           "copyOverrides": [],
           "brandOverrides": []
-        },
-        {
-          "code": "MP",
-          "index": null,
-          "copy": "Marcopolo",
-          "description": "MARCOPOLO",
-          "class": null,
-          "image": [
-            "badc1d1e-8199-4ae1-98db-24e08f4697f0"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "25",
-          "index": null,
-          "copy": "Triumph",
-          "description": "TRIUMPH",
-          "class": null,
-          "image": [
-            "d196145f-c0b6-4a1b-8839-12536dfff7fd"
-          ],
-          "copyOverrides": [],
-          "brandOverrides": []
         }
       ]
     }
   },
   "created": "2022-11-15T08:45:36Z",
-  "lastModified": "2025-11-05T11:58:38Z",
+  "lastModified": "2025-12-01T08:02:24Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI5NDkxZGIyYi02OGQyLTRmMTUtODg4ZS1kN2FkNjFiYzNhNmIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -951,14 +807,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 64,
+  "version": 66,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b/63",
+      "href": "/api/content/con-fusion-static-data/static-data/9491db2b-68d2-4f15-888e-d7ad61bc3a6b/65",
       "method": "GET"
     },
     "draft/create": {

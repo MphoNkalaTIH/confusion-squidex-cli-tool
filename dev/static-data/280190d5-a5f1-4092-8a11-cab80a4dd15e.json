@@ -114,7 +114,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar",
+              "description": "Ons sal jou kar uitbetaal of dit met dieselfde model wat een jaar nuwer is, vervang as jou kar afgeskryf word.",
               "image": null,
               "copyOverrides": []
             }
@@ -134,7 +134,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar. Dit sal jou die laagste moontlike premie bied, maar ook die laagste uitbetaling wanneer jy ŉ eis instel",
+              "description": "As daar geen nuwer model beskikbaar is nie, sal ons 15% meer as jou kar se herverkoopswaarde uitbetaal.",
               "image": null,
               "copyOverrides": []
             }
@@ -174,7 +174,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "Ons sal jou kar uitbetaal of dit met dieselfde model wat een jaar nuwer is, vervang as jou kar afgeskryf word",
+              "description": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar",
               "image": null,
               "copyOverrides": []
             }
@@ -194,7 +194,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "As daar geen nuwer model beskikbaar is nie, sal ons 15% meer as jou kar se herverkoopswaarde uitbetaal",
+              "description": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar. Dit sal jou die laagste moontlike premie bied, maar ook die laagste uitbetaling wanneer jy ŉ eis instel.",
               "image": null,
               "copyOverrides": []
             }
@@ -224,7 +224,7 @@
     }
   },
   "created": "2025-08-04T07:10:50Z",
-  "lastModified": "2025-11-18T18:22:06Z",
+  "lastModified": "2025-12-04T14:11:25Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIyODAxOTBkNS1hNWYxLTQwOTItOGExMS1jYWI4MGE0ZGQxNWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -255,14 +255,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 8,
+  "version": 9,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/7",
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/8",
       "method": "GET"
     },
     "draft/create": {

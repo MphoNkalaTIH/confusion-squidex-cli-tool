@@ -77,6 +77,15 @@
               "description": "Die kar word nie vir professionele of besigheidsdoeleindes gebruik nie (byvoorbeeld om kliënte te besoek, vir aflewerings of om tariefbetalende passasiers te vervoer)",
               "image": null,
               "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": "The car may not be used for deliveries or carrying fare-paying passengers (for example Uber, Takealot)",
+              "description": "The car may not be used for deliveries or carrying fare-paying passengers (for example Uber, Takealot)",
+              "image": null,
+              "copyOverrides": []
             }
           ]
         },
@@ -284,7 +293,7 @@
     }
   },
   "created": "2025-07-28T18:46:50Z",
-  "lastModified": "2025-11-19T08:50:24Z",
+  "lastModified": "2025-12-04T15:04:44Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI3NDJjZTZlNS01MDdjLTRkMjQtYmNhZS1kZTcxMzVlNmZmNWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -315,14 +324,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 12,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/6",
+      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/11",
       "method": "GET"
     },
     "draft/create": {

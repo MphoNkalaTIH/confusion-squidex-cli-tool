@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Insured value alternative"
+      "iv": "Insured values"
     },
     "filter": {
       "iv": null
@@ -40,7 +40,8 @@
               "description": "Markwaarde",
               "image": [
                 "020b3dc8-84e8-41c8-8c18-b71e51b447a3",
-                "fc094891-35fb-4ee5-ad0e-85ca7cec4234"
+                "fc094891-35fb-4ee5-ad0e-85ca7cec4234",
+                "a96a4207-6084-490f-aea5-5033cc95377b"
               ],
               "copyOverrides": []
             },
@@ -52,7 +53,8 @@
               "description": null,
               "image": [
                 "a2d4afbf-f367-4cfc-916f-3485cb622eec",
-                "faedb519-d555-443a-8382-c4a8a69b8352"
+                "faedb519-d555-443a-8382-c4a8a69b8352",
+                "3c032690-e12a-4205-b029-0f75317c4e44"
               ],
               "copyOverrides": []
             },
@@ -64,7 +66,8 @@
               "description": null,
               "image": [
                 "46e03f65-1a94-4944-a0ba-35c45c1728c1",
-                "3892f4d9-9e5a-49c0-b02e-3503595fe962"
+                "3892f4d9-9e5a-49c0-b02e-3503595fe962",
+                "0dfba070-03db-4a1d-abe8-73d3e2b2bf34"
               ],
               "copyOverrides": []
             },
@@ -157,7 +160,7 @@
               "copy": "Ons sal jou kar uitbetaal of dit met dieselfde model wat een jaar nuwer is, vervang as jou kar afgeskryf word. As daar geen nuwer model beskikbaar is nie, sal ons 15% meer as jou kar se herverkoopswaarde uitbetaal.",
               "description": "BeterKar",
               "image": [
-                "f003d478-2b5d-43f9-9de7-a03c7a6ab640"
+                "40e786b8-8233-443c-9334-075aaa5fab38"
               ],
               "copyOverrides": []
             },
@@ -214,7 +217,7 @@
               "copy": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar. Dit sal jou die laagste moontlike premie bied, maar ook die laagste uitbetaling wanneer jy ŉ eis instel.",
               "description": "Inruilwaarde",
               "image": [
-                "40e786b8-8233-443c-9334-075aaa5fab38"
+                "f003d478-2b5d-43f9-9de7-a03c7a6ab640"
               ],
               "copyOverrides": []
             },
@@ -247,7 +250,7 @@
               "copy": null,
               "description": null,
               "image": [
-                "d4febdb5-2d79-4369-bcd0-ce2a7286ddb0"
+                "1596e7d1-e850-432a-af61-5bb7bb417201"
               ],
               "copyOverrides": []
             }
@@ -257,7 +260,7 @@
     }
   },
   "created": "2025-08-04T07:06:32Z",
-  "lastModified": "2025-11-19T09:08:11Z",
+  "lastModified": "2025-12-04T16:23:02Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjYTBmZjkyMi01YjkyLTQ2NDAtOTc3Yi01MGNiMjZkNDZkMTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -288,14 +291,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 19,
+  "version": 24,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/18",
+      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/23",
       "method": "GET"
     },
     "draft/create": {

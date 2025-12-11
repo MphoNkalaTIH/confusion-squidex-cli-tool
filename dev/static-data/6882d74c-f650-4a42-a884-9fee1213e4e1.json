@@ -4,7 +4,7 @@
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
-      "iv": "Cover Type Alternative"
+      "iv": "Cover Types"
     },
     "filter": {
       "iv": null
@@ -40,8 +40,10 @@
               "description": "Comprehensive Cover",
               "image": [
                 "ab86da04-4eff-4c0f-b95e-bd7bcc4e225d",
-                "3892f4d9-9e5a-49c0-b02e-3503595fe962"
-              ]
+                "3892f4d9-9e5a-49c0-b02e-3503595fe962",
+                "0dfba070-03db-4a1d-abe8-73d3e2b2bf34"
+              ],
+              "copyOverrides": []
             },
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -51,7 +53,8 @@
               "description": "Comprehensive Cover",
               "image": [
                 "2fb66377-49d8-45a6-acec-0e8a986c75b4",
-                "ea901f6a-52e7-46f9-a296-bca9f6393621"
+                "ea901f6a-52e7-46f9-a296-bca9f6393621",
+                "3c032690-e12a-4205-b029-0f75317c4e44"
               ]
             },
             {
@@ -62,7 +65,8 @@
               "description": "Omvattend",
               "image": [
                 "d3bd6018-a471-45c1-b8e1-1488a25caf5f",
-                "fc094891-35fb-4ee5-ad0e-85ca7cec4234"
+                "fc094891-35fb-4ee5-ad0e-85ca7cec4234",
+                "a96a4207-6084-490f-aea5-5033cc95377b"
               ]
             },
             {
@@ -427,7 +431,7 @@
     }
   },
   "created": "2025-07-21T16:21:27Z",
-  "lastModified": "2025-11-19T11:52:49Z",
+  "lastModified": "2025-12-04T16:14:36Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI2ODgyZDc0Yy1mNjUwLTRhNDItYTg4NC05ZmVlMTIxM2U0ZTEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -458,14 +462,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 33,
+  "version": 36,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1/32",
+      "href": "/api/content/con-fusion-static-data/static-data/6882d74c-f650-4a42-a884-9fee1213e4e1/35",
       "method": "GET"
     },
     "draft/create": {
