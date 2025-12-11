@@ -1,10 +1,10 @@
 {
-  "id": "c8839220-4897-4125-bef7-7d199d042c44",
-  "createdBy": "client:con-fusion:owner",
+  "id": "05fb263f-aa91-4800-819d-3c9aa73bfb36",
+  "createdBy": "subject:691308f7e029e4394dd7b3b4",
   "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "brand": {
-      "iv": "virseker"
+      "iv": "budget"
     },
     "baseRoute": {
       "iv": "car-insurance"
@@ -16,10 +16,10 @@
       "iv": "car-details"
     },
     "name": {
-      "iv": "Kar inligting"
+      "iv": "Car details"
     },
     "environmentId": {
-      "iv": "dev"
+      "iv": "thabang"
     },
     "abTestingId": {
       "iv": ""
@@ -37,7 +37,7 @@
       "iv": 3
     },
     "currentSection": {
-      "iv": null
+      "iv": 1
     },
     "pages": {
       "iv": [
@@ -89,7 +89,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Kies die kar se jaarmodel</h2>"
+                    "html": "<h2>Select the year model of the car</h2>"
                   }
                 },
                 {
@@ -97,7 +97,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Kies die {{make}} se jaarmodel</h2>"
+                    "html": "<h2>Select the year model of the {{make}}</h2>"
                   }
                 },
                 {
@@ -160,7 +160,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter {{year}} {{make}} model is dit?</h2>"
+                    "html": "<h2>What's the model of the {{year}} {{make}}?</h2>"
                   }
                 },
                 {
@@ -169,17 +169,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Soek vir kar model",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "txtNotListed",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Die kar se model is nie gelys nie",
+                    "text": "Search for car model",
                     "errorMessage": null
                   }
                 }
@@ -233,7 +223,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter tipe {{year}} {{make}} {{model}} is dit?</h2>"
+                    "html": "<h2>What type of {{year}} {{make}} {{model}}?</h2>"
                   }
                 },
                 {
@@ -242,17 +232,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Soek tipe kar",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "txtNotListed",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Die tipe kar is nie gelys nie",
+                    "text": "Search for car type",
                     "errorMessage": null
                   }
                 }
@@ -310,15 +290,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter kleur is die {{year}} {{make}} {{model}} {{type}}?</h2>\r\n<h4>Kry nie die kleur nie? Kies die kleur wat die naaste lyk aan die kar.</h4>"
-                  }
-                },
-                {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
+                    "html": "<h2>What colour is the {{year}} {{make}} {{model}} {{type}}?</h2>\r\n<h4 class=\"text-sub-9\">Can’t find the colour? Choose the closest match.</h4>"
                   }
                 }
               ]
@@ -371,15 +343,23 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Waarvoor word die kar gebruik?</h2>"
+                    "html": "<h2>What's the car used for?</h2>"
                   }
                 },
                 {
-                  "id": "staticData",
+                  "id": "btnCarUse",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "carUse",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 },
                 {
@@ -387,17 +367,15 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
-                    "img": [
-                      "731d06bb-63be-4d96-a10f-dff656711895"
-                    ],
+                    "img": null,
                     "useImageAsButton": null,
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 }
               ]
@@ -434,7 +412,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -450,7 +428,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee",
+                    "label": "No",
                     "route": {
                       "pageRoute": "insured-value",
                       "sectionRoute": "car-details",
@@ -470,7 +448,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Is die kar in Suid-Afrika geregistreer?</h2>"
+                    "html": "<h2>Is the car registered in South Africa?</h2>"
                   }
                 },
                 {
@@ -485,7 +463,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Let wel</h3>"
+                          "html": "<h3 class=\"m-0 font-bold\">Please note</h3>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -497,7 +475,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Ons kan die kar net onder die ‘<span class=\"font-bold\">Slegs derdeparty</span>’ opsie dek, want die kar is nie geregistreer in Suid-Afrika nie.</p>"
+                          "html": "<p>We cover your car for Third-Party Only if it’s not registered in South Africa.</p>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -509,7 +487,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Reg so",
+                          "label": "Got it",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -560,7 +538,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Is die kar gefinansier?</h2>"
+                    "html": "<h2>Is the car financed?</h2>"
                   }
                 },
                 {
@@ -568,7 +546,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -584,7 +562,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee, die kar is afbetaal",
+                    "label": "No, the car is fully paid off",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -610,7 +588,7 @@
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -625,19 +603,11 @@
               "standaloneComponent": null,
               "formItems": [
                 {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
-                  }
-                },
-                {
                   "id": "txtContent",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Kies jou dekking</h2>\n<h4>Hierdie kan later verander word.</h4>"
+                    "html": "<h2>Select your preferred cover type</h2>\n<h4 class=\"text-sub-9\">This can be changed later.</h4>"
                   }
                 },
                 {
@@ -645,7 +615,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
-                    "flag": true
+                    "flag": false
                   }
                 },
                 {
@@ -660,7 +630,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Let wel</h3>"
+                          "html": "<h3 class=\"m-0 font-bold\">Please note</h3>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -672,7 +642,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Omvattende versekering sal in jou beste belang wees omdat jou bank daarop mag aandring vir jou gefinansierde kar. Die dekking wat jy oorweeg bied beperkte dekking en jy sal verantwoordelik wees vir enige kostes of skade wat nie deur die dekkingstipe gedek word nie.</p>"
+                          "html": "<p>Opting for Comprehensive cover will be in your best interest, as the bank might require this for financed cars.</p>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -684,7 +654,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Gaan voort",
+                          "label": "Continue",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -704,7 +674,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Verander tipe dekking",
+                          "label": "Change Cover Type",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -722,11 +692,11 @@
                   }
                 },
                 {
-                  "id": "btnNext",
+                  "id": "btnCoverTypes",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "coverTypes",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -734,7 +704,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -742,7 +712,37 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Ingesluit in hierdie tipe dekking: </h2>",
+                    "html": "<h2>Included in this cover type: </h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "insured-value",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtScrollOption",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h6>Scroll for more options</h6>",
                     "htmlEvents": []
                   }
                 }
@@ -791,19 +791,11 @@
               "standaloneComponent": null,
               "formItems": [
                 {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
-                  }
-                },
-                {
                   "id": "txtContent",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Kies die gepaste versekerde waarde</h2>\n<h4>Hierdie kan later verander word.</h4>"
+                    "html": "<h2>Select your preferred insured value</h2>\n<h4 class=\"text-sub-9\">This can be changed later.</h4>"
                   }
                 },
                 {
@@ -815,11 +807,11 @@
                   }
                 },
                 {
-                  "id": "btnNext",
+                  "id": "btnInsuredValue",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "btnInsuredValue",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -827,7 +819,28 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "null",
+                      "pageRoute": "null",
+                      "sectionRoute": "null",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 },
                 {
@@ -835,7 +848,16 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In die geval van ŉ eis: </h2>",
+                    "html": "<h2>In the event of a claim:</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtScrollOption",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h6>Scroll for more options</h6>",
                     "htmlEvents": []
                   }
                 }
@@ -873,7 +895,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Voer asseblief u woonadres in</h2>",
+                    "html": "<h2>Please enter your residential address</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -882,11 +904,11 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Voer volledige adres in",
-                    "helperText": "Huisnommer, straatnaam, voorstad, poskode",
-                    "placeholderText": "Soek",
-                    "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": "Soek..."
+                    "label": "Enter full address",
+                    "helperText": "House number, street name, suburb, postal code",
+                    "placeholderText": "Search",
+                    "cannotFindItemText": "I can't find my address",
+                    "loadingText": null
                   }
                 },
                 {
@@ -894,14 +916,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Voer volledige adres in",
-                    "helperText": "Huisnommer, straatnaam, voorstad, poskode",
-                    "placeholderText": "Soek",
+                    "label": "Enter full address",
+                    "helperText": "House number, street name, suburb, postal code",
+                    "placeholderText": "Search",
                     "formControlName": "addressFull",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Volledige woonadres is vereis",
-                      "invalidErrorMessage": "Woonadres is ongeldig",
+                      "requiredErrorMessage": "Full residential address is required",
+                      "invalidErrorMessage": "Residential address is invalid",
                       "maxLength": null,
                       "minLength": null,
                       "isRequired": true,
@@ -916,7 +938,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "car-parked-suburb-home",
@@ -929,7 +951,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -965,7 +987,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Fout met Adres</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Address Error</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -978,7 +1000,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Ons het ŉ fout met jou adres ondervind. Gaan asseblief na die volgende bladsy om dit self in te tik.</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -991,7 +1013,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Volgende",
+                          "label": "Next",
                           "route": {
                             "baseRoute": "car-insurance",
                             "pageRoute": "risk-address",
@@ -1047,7 +1069,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Voer asseblief u woonadres in</h2>"
+                    "html": "<h4 class=\"mb-5\">You told us that the home where your car is normally parked, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
                   }
                 },
                 {
@@ -1055,7 +1077,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Voer asseblief u woonadres in</h2>"
+                    "html": "<h4 class=\"mb-5\">You told us that the home where your home contents is kept, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
                   }
                 },
                 {
@@ -1063,7 +1085,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "condition": {
@@ -1078,7 +1100,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -1086,14 +1108,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Straatadres",
-                    "helperText": "bv. 1 Waltham Drive",
-                    "placeholderText": "Vul asseblief in",
+                    "label": "Street address",
+                    "helperText": "eg. 1 Waltham Drive",
+                    "placeholderText": "Please complete",
                     "formControlName": "address1",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Straatadres is vereis",
-                      "invalidErrorMessage": "Straatadres is ongeldig",
+                      "requiredErrorMessage": "Street address is required",
+                      "invalidErrorMessage": "Street address is invalid",
                       "maxLength": 40,
                       "minLength": null,
                       "isRequired": true,
@@ -1108,14 +1130,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Kompleks / gebou (opsioneel)",
-                    "helperText": "Naam van die kompleks of gebou, eenheidnommer of vloer",
-                    "placeholderText": "Vul asseblief in",
+                    "label": "Complex / building (optional)",
+                    "helperText": "Complex or building name, unit number or floor",
+                    "placeholderText": "Please complete",
                     "formControlName": "address2",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Naam van die kompleks of gebou is vereis",
-                      "invalidErrorMessage": "Naam van die kompleks of gebou is ongeldig",
+                      "requiredErrorMessage": "Name of the Complex or building is required",
+                      "invalidErrorMessage": "Name of the Complex or building is invalid",
                       "maxLength": 40,
                       "minLength": null,
                       "isRequired": null,
@@ -1130,9 +1152,9 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Voorstad",
-                    "helperText": null,
-                    "placeholderText": "Vul asseblief in",
+                    "label": "Suburb",
+                    "helperText": "Home area / suburb",
+                    "placeholderText": "Please complete",
                     "formControlName": "suburbName",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -1148,13 +1170,35 @@
                   }
                 },
                 {
+                  "id": "txtCityOrTown",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "City / Town",
+                    "helperText": "",
+                    "placeholderText": "Please complete",
+                    "formControlName": "city",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "City or town name is required",
+                      "invalidErrorMessage": "City or town name is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
                   "id": "txtPostalCode",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Poskode",
+                    "label": "Postal code",
                     "helperText": "",
-                    "placeholderText": "Vul asseblief in",
+                    "placeholderText": "Please complete",
                     "formControlName": "postCode",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -1174,7 +1218,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1182,7 +1226,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -1190,11 +1234,11 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Voorstad",
-                    "helperText": "Huisarea / voorstad",
-                    "placeholderText": "Vul asseblief in",
-                    "cannotFindItemText": "Ek kan nie my area of voorstad vind nie",
-                    "loadingText": "Soek..."
+                    "label": "Suburb",
+                    "helperText": "Home area / suburb",
+                    "placeholderText": "Please complete",
+                    "cannotFindItemText": "I can't find my area or suburb",
+                    "loadingText": null
                   }
                 },
                 {
@@ -1202,7 +1246,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Voer asseblief u woonadres in</h2>",
+                    "html": "<h2>Please enter your residential address</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1211,7 +1255,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "car-parked-method-home",
@@ -1232,7 +1276,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "car-parked-method-work",
@@ -1282,11 +1326,11 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Voer nag-parkeringadres in",
+                    "label": "Enter night-time parking address",
                     "helperText": "",
-                    "placeholderText": "Soek",
-                    "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": "Soek..."
+                    "placeholderText": "Search",
+                    "cannotFindItemText": "I can't find my address",
+                    "loadingText": null
                   }
                 },
                 {
@@ -1294,7 +1338,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1302,7 +1346,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -1310,7 +1354,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Geen spesifieke gebied nie",
+                    "label": "No specific location",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "car-parked-suburb-work",
@@ -1331,7 +1375,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter adres word jou motor gewoonlik snags geparkeer?</h2>"
+                    "html": "<h2>What address is your car normally parked at night?</h2>"
                   }
                 },
                 {
@@ -1339,7 +1383,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselfde as woonadres",
+                    "label": "Same as day-time area/suburb",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1356,7 +1400,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Geen spesifieke gebied nie",
+                    "text": "No specific location",
                     "errorMessage": null
                   }
                 },
@@ -1365,7 +1409,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselfde as woonadres",
+                    "label": "Same as residential address",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1381,7 +1425,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Kan nie item vind nie",
+                    "label": "Cannot Find Item",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "risk-address",
@@ -1409,7 +1453,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Fout met Adres</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Address Error</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1422,7 +1466,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Ons het ŉ fout met jou adres ondervind. Gaan asseblief na die volgende bladsy om dit self in te tik.</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1435,7 +1479,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Volgende",
+                          "label": "Next",
                           "route": {
                             "baseRoute": "car-insurance",
                             "pageRoute": "risk-address",
@@ -1521,15 +1565,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Waar word die kar gewoonlik oornag geparkeer?</h2>"
-                  }
-                },
-                {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
+                    "html": "<h2>Where is the car normally parked at night?</h2>"
                   }
                 }
               ]
@@ -1580,7 +1616,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1588,7 +1624,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -1596,33 +1632,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter tipe sekuriteit het jy waar die kar oornag geparkeer word?</h2>"
-                  }
-                },
-                {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
-                  }
-                },
-                {
-                  "id": "txtSubContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Kies alle toepaslike opsies</h4>"
-                  }
-                },
-                {
-                  "id": "btnNextIcon",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "icon-arrow-right",
-                    "errorMessage": null
+                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
                   }
                 }
               ]
@@ -1659,11 +1669,11 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Voer dag-parkeringsadres in",
+                    "label": "Enter your day-time parking address",
                     "helperText": "",
-                    "placeholderText": "Soek",
-                    "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": "Soek..."
+                    "placeholderText": "Search",
+                    "cannotFindItemText": "I can't find my address",
+                    "loadingText": null
                   }
                 },
                 {
@@ -1671,7 +1681,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselfde as woonadres",
+                    "label": "Same as night-time area/suburb",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1687,7 +1697,7 @@
                   "conditionValue": "",
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Geen spesifieke gebied nie",
+                    "label": "No specific location",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1703,7 +1713,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1711,7 +1721,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -1719,7 +1729,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In watter area of voorstad word die kar gedurende die dag geparkeer?</h2>"
+                    "html": "<h2>What address is your car normally parked during the day?</h2>"
                   }
                 },
                 {
@@ -1728,7 +1738,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "Geen spesifieke gebied nie",
+                    "text": "No specific location",
                     "errorMessage": null
                   }
                 },
@@ -1737,7 +1747,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselfde as woonadres",
+                    "label": "Same as residential address",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1760,7 +1770,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Die afstand tussen die dag- en nagadres is meer as 120 km. Wil jy jou dag- en nagparkeeradres nagaan?\r\n</p>",
+                          "html": "<p>The distance between the day and night time address is more than 120km. Do you want to review your day and night parking address?\r\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1773,7 +1783,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Ja",
+                          "label": "Yes",
                           "route": {
                             "baseRoute": "car-insurance",
                             "pageRoute": "car-parked-suburb-home",
@@ -1798,7 +1808,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Nee",
+                          "label": "No",
                           "route": {
                             "baseRoute": "car-insurance",
                             "pageRoute": "car-parked-method-work",
@@ -1825,7 +1835,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Kan nie item vind nie",
+                    "label": "Cannot Find Item",
                     "route": {
                       "baseRoute": "car-insurance",
                       "pageRoute": "risk-address",
@@ -1846,7 +1856,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"risk-helper-text\">Jou dagparkeeradres is by verstek dieselfde as jou woonadres. Een van die adresse moet jou woonadres wees.</p>",
+                    "html": "<p class=\"risk-helper-text\">Your day-time parking address has been defaulted to the same as your residential address. One of the addresses need to be your residential address.</p>",
                     "htmlEvents": []
                   }
                 },
@@ -1862,7 +1872,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Fout met Adres</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Address Error</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1875,7 +1885,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Ons het ŉ fout met jou adres ondervind. Gaan asseblief na die volgende bladsy om dit self in te tik.</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -1888,7 +1898,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Volgende",
+                          "label": "Next",
                           "route": {
                             "baseRoute": "car-insurance",
                             "pageRoute": "risk-address",
@@ -1974,15 +1984,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Waar word die kar gewoonlik gedurende die dag geparkeer?</h2>"
-                  }
-                },
-                {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
+                    "html": "<h2>Where is the car normally parked during the day?</h2>"
                   }
                 }
               ]
@@ -2033,7 +2035,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -2041,7 +2043,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -2049,33 +2051,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter tipe sekuriteit het jy waar die kar gedurende die dag geparkeer word?</h2>"
-                  }
-                },
-                {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "refData": []
-                  }
-                },
-                {
-                  "id": "txtSubContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>Kies alle toepaslike opsies</h4>"
-                  }
-                },
-                {
-                  "id": "btnNextIcon",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "icon-arrow-right",
-                    "errorMessage": null
+                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
                   }
                 }
               ]
@@ -2093,7 +2069,7 @@
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -2112,7 +2088,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": {
                       "baseRoute": "policy",
                       "sectionRoute": "personal-details",
@@ -2132,7 +2108,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee",
+                    "label": "No",
                     "route": {
                       "baseRoute": "policy",
                       "sectionRoute": "personal-details",
@@ -2152,7 +2128,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het jy ŉ opsporings- en terugverkrygingstoestel in die kar geïnstalleer?</h2>"
+                    "html": "<h2>Do you have a vehicle tracking and recovery device installed in the car?</h2>"
                   }
                 }
               ]
@@ -2162,11 +2138,11 @@
       ]
     }
   },
-  "created": "2024-07-16T12:13:45Z",
-  "lastModified": "2025-12-05T08:58:31Z",
+  "created": "2025-12-05T09:37:49Z",
+  "lastModified": "2025-12-05T14:42:07Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODgzOTIyMC00ODk3LTQxMjUtYmVmNy03ZDE5OWQwNDJjNDQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIwNWZiMjYzZi1hYTkxLTQ4MDAtODE5ZC0zYzlhYTczYmZiMzYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -2243,40 +2219,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 43,
+  "version": 7,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/42",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36/6",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/draft",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/status",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/status",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/05fb263f-aa91-4800-819d-3c9aa73bfb36",
       "method": "PUT"
     }
   }

@@ -1,7 +1,7 @@
 {
   "id": "a35e2c8a-18b6-44c6-a1a3-68c6d2886856",
   "createdBy": "subject:69130a2fe029e4394dd7b3b8",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -509,6 +509,22 @@
                     "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
                     "refData": []
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -855,6 +871,31 @@
                     "text": "Most popular",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Included in this cover type: </h2>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -954,6 +995,31 @@
                         }
                       }
                     ]
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtEventClaim",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>In the event of a claim:</h2>",
+                    "htmlEvents": []
                   }
                 }
               ]
@@ -2271,7 +2337,7 @@
     }
   },
   "created": "2025-05-28T10:43:58Z",
-  "lastModified": "2025-10-27T11:12:48Z",
+  "lastModified": "2025-12-03T12:13:46Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhMzVlMmM4YS0xOGI2LTQ0YzYtYTFhMy02OGM2ZDI4ODY4NTYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2351,14 +2417,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 18,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/a35e2c8a-18b6-44c6-a1a3-68c6d2886856",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/a35e2c8a-18b6-44c6-a1a3-68c6d2886856/14",
+      "href": "/api/content/con-fusion/quote-sections/a35e2c8a-18b6-44c6-a1a3-68c6d2886856/17",
       "method": "GET"
     },
     "draft/create": {

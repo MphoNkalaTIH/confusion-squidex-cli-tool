@@ -1,7 +1,7 @@
 {
-  "id": "c8839220-4897-4125-bef7-7d199d042c44",
-  "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
+  "id": "2600729b-b5a8-4b1f-9a8f-8831167106ec",
+  "createdBy": "subject:69131eb5e029e4394dd7c304",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c304",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -19,7 +19,7 @@
       "iv": "Kar inligting"
     },
     "environmentId": {
-      "iv": "dev"
+      "iv": "karabo"
     },
     "abTestingId": {
       "iv": ""
@@ -2162,11 +2162,11 @@
       ]
     }
   },
-  "created": "2024-07-16T12:13:45Z",
-  "lastModified": "2025-12-05T08:58:31Z",
+  "created": "2025-12-11T08:41:13Z",
+  "lastModified": "2025-12-11T08:41:13Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODgzOTIyMC00ODk3LTQxMjUtYmVmNy03ZDE5OWQwNDJjNDQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyNjAwNzI5Yi1iNWE4LTRiMWYtOWE4Zi04ODMxMTY3MTA2ZWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -2243,40 +2243,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 43,
+  "version": 1,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/42",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec/0",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/draft",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/status",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/status",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec",
       "method": "PUT"
     }
   }

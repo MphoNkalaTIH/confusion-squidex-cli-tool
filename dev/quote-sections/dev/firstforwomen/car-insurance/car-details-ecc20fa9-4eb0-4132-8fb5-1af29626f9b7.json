@@ -1,7 +1,7 @@
 {
   "id": "ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -413,6 +413,22 @@
                     "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
                     "refData": []
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -759,6 +775,22 @@
                     "text": "Most popular",
                     "errorMessage": null
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -858,6 +890,22 @@
                         }
                       }
                     ]
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Proceed",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 }
               ]
@@ -2170,7 +2218,7 @@
     }
   },
   "created": "2024-07-16T12:13:34Z",
-  "lastModified": "2025-10-27T11:13:28Z",
+  "lastModified": "2025-11-21T07:28:34Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlY2MyMGZhOS00ZWIwLTQxMzItOGZiNS0xYWYyOTYyNmY5YjciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2250,14 +2298,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 17,
+  "version": 18,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/16",
+      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/17",
       "method": "GET"
     },
     "draft/create": {
