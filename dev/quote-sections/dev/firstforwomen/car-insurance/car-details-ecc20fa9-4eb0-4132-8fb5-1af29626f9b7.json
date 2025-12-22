@@ -791,6 +791,15 @@
                     "widthClass": null,
                     "iconClass": null
                   }
+                },
+                {
+                  "id": "txtIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Included in this cover type:</h2>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -906,6 +915,15 @@
                     "class": null,
                     "widthClass": null,
                     "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtEventClaim",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>In the event of a claim:</h2>",
+                    "htmlEvents": []
                   }
                 }
               ]
@@ -2218,7 +2236,7 @@
     }
   },
   "created": "2024-07-16T12:13:34Z",
-  "lastModified": "2025-11-21T07:28:34Z",
+  "lastModified": "2025-12-17T09:00:06Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlY2MyMGZhOS00ZWIwLTQxMzItOGZiNS0xYWYyOTYyNmY5YjciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2298,14 +2316,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 18,
+  "version": 19,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/17",
+      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/18",
       "method": "GET"
     },
     "draft/create": {

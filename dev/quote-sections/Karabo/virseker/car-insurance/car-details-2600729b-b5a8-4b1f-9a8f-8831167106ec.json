@@ -729,7 +729,9 @@
                     "label": "Volgende",
                     "route": null,
                     "url": null,
-                    "img": null,
+                    "img": [
+                      "731d06bb-63be-4d96-a10f-dff656711895"
+                    ],
                     "useImageAsButton": null,
                     "theme": "primary",
                     "class": null,
@@ -822,7 +824,9 @@
                     "label": "Volgende",
                     "route": null,
                     "url": null,
-                    "img": null,
+                    "img": [
+                      "731d06bb-63be-4d96-a10f-dff656711895"
+                    ],
                     "useImageAsButton": null,
                     "theme": "primary",
                     "class": null,
@@ -2163,7 +2167,7 @@
     }
   },
   "created": "2025-12-11T08:41:13Z",
-  "lastModified": "2025-12-11T08:41:13Z",
+  "lastModified": "2025-12-11T11:08:15Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyNjAwNzI5Yi1iNWE4LTRiMWYtOWE4Zi04ODMxMTY3MTA2ZWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2243,14 +2247,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec/0",
+      "href": "/api/content/con-fusion/quote-sections/2600729b-b5a8-4b1f-9a8f-8831167106ec/2",
       "method": "GET"
     },
     "draft/create": {
