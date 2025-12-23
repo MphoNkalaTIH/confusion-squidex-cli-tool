@@ -1,7 +1,7 @@
 {
   "id": "62344f83-92f8-4224-86cf-70929e19889d",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:63d3c2fdcd781721d0853640",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "budget"
@@ -326,11 +326,11 @@
           ]
         },
         {
-          "name": "Car Make Page",
+          "name": "Contact Details Page",
           "route": "",
           "pageBase": null,
           "pageDisabled": null,
-          "hideTrackbar": false,
+          "hideTrackbar": true,
           "hideBackButton": true,
           "excludeFromTrackbar": null,
           "showPremiumBanner": null,
@@ -339,36 +339,111 @@
           "isDropOffAnchorPoint": true,
           "flowEntryPoint": true,
           "minifyTrackbar": null,
+          "applyTransparentHeader": true,
           "readonly": null,
           "createLead": true,
-          "additionalData": {
-            "doFilterCall": true
-          },
+          "additionalData": null,
           "components": [
             {
               "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
-              "selector": "car-make-page",
-              "moduleName": "CarDetailsModule",
-              "standaloneComponent": "CarMakePageComponent",
+              "selector": null,
+              "moduleName": null,
+              "standaloneComponent": "ContactDetailsPageComponent",
               "formItems": [
                 {
-                  "id": "btnMake",
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Name",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "name",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Name is required",
+                      "invalidErrorMessage": "Name is invalid",
+                      "maxLength": 15,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Surname",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "surname",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Surname is required",
+                      "invalidErrorMessage": "Surname is invalid",
+                      "maxLength": 20,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtContactNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Contact Number",
+                    "helperText": null,
+                    "placeholderText": "Please complete",
+                    "formControlName": "number",
+                    "validation": {
+                      "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
+                      "requiredErrorMessage": "Contact number is required",
+                      "invalidErrorMessage": "Contact number is invalid",
+                      "maxLength": 10,
+                      "minLength": 10,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnProceed",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Make",
+                    "label": "Start My Quote",
                     "route": {
                       "baseRoute": "car-insurance",
+                      "pageRoute": "car-make",
                       "sectionRoute": "car-details",
-                      "pageRoute": "car-year"
+                      "goToStart": false
                     },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
-                    "theme": null,
+                    "theme": "primary",
                     "class": null,
                     "widthClass": null,
                     "iconClass": null
+                  }
+                },
+                {
+                  "id": "imgBackground",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"image-background\" style=\"background-image: url('cmsUrl/api/assets/con-fusion-static-data/ff22b42b-d974-4e88-8015-5639c10c70bf/budget-quote-start-background.jpg')\"></div><div class=\"hero-gradient-overlay absolute inset-0\"></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -376,7 +451,17 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal\">Get your car insurance quote in minutes.</h1>"
+                    "html": "<h2 class=\"text-sub-1\">Before we get to your quote, we’ll need some details.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtSEOContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal text-sub-1\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal text-sub-1\">Get your car insurance quote in minutes.</h1>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -384,35 +469,16 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"font-normal\">\n    With Budget you get more than just a policy, you also get access to awesome benefits like Cash Back Bonus.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
+                    "html": "<p class=\"font-normal text-sub-1\">\n   With Budget you get more than just a policy, you also get access to awesome benefits like Cash Back Bonus.\n</p>\n\n<p class=\"font-normal text-sub-1\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
                     "htmlEvents": []
                   }
                 },
                 {
-                  "id": "txtQuestion",
+                  "id": "txtDisclaimer",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Select the make of the car</h2>",
-                    "htmlEvents": []
-                  }
-                },
-                {
-                  "id": "txtPlaceHolder",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Search for car make",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "txtPromotionDisclaimer",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p>The June Madness R10 p/m Tyre & Rim cover is only available through our <a href=\"/callback\">call centre</a>. Promotion ends 30 June 2024.</p>",
+                    "html": "<p class=\"text-xs font-normal text-sub-1 pt-4 mb-0\">By providing your contact information, you agree to be contacted and receive communications from Budget.</p>",
                     "htmlEvents": []
                   }
                 }
@@ -424,7 +490,7 @@
     }
   },
   "created": "2024-07-16T12:13:40Z",
-  "lastModified": "2024-09-12T19:02:34Z",
+  "lastModified": "2025-12-23T16:37:34Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2MjM0NGY4My05MmY4LTQyMjQtODZjZi03MDkyOWUxOTg4OWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -504,14 +570,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d/2",
+      "href": "/api/content/con-fusion/quote-sections/62344f83-92f8-4224-86cf-70929e19889d/3",
       "method": "GET"
     },
     "draft/create": {
