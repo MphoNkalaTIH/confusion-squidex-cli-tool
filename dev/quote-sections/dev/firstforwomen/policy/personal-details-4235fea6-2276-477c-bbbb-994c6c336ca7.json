@@ -1,7 +1,7 @@
 {
   "id": "4235fea6-2276-477c-bbbb-994c6c336ca7",
   "createdBy": "subject:69130a2fe029e4394dd7b3b8",
-  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": "contact-details"
+      "iv": ""
     },
     "icon": {
       "iv": "icon-user-details"
@@ -2010,7 +2010,7 @@
     }
   },
   "created": "2025-05-28T10:41:56Z",
-  "lastModified": "2025-09-05T07:21:47Z",
+  "lastModified": "2025-12-23T14:23:21Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0MjM1ZmVhNi0yMjc2LTQ3N2MtYmJiYi05OTRjNmMzMzZjYTciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2090,14 +2090,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 12,
+  "version": 13,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/11",
+      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/12",
       "method": "GET"
     },
     "draft/create": {
