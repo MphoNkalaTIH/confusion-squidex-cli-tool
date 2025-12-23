@@ -1,7 +1,7 @@
 {
   "id": "83381b8a-0160-4ef9-962f-26a1f490ae66",
   "createdBy": "subject:69131eb5e029e4394dd7c300",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -394,7 +394,7 @@
                           "valueFieldPath": "vehicle.vehicle.use.description",
                           "applyTitleCasePipeToValue": null,
                           "imageFieldPath": null,
-                          "ignoreSentenceCaseForValue": null,
+                          "ignoreSentenceCaseForValue": true,
                           "imageClass": null,
                           "copyFieldPath": "vehicle.vehicle.use.copy"
                         }
@@ -2818,7 +2818,7 @@
     }
   },
   "created": "2024-09-10T08:36:18Z",
-  "lastModified": "2025-10-15T13:19:34Z",
+  "lastModified": "2025-12-23T10:10:56Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI4MzM4MWI4YS0wMTYwLTRlZjktOTYyZi0yNmExZjQ5MGFlNjYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2898,14 +2898,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 95,
+  "version": 99,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/83381b8a-0160-4ef9-962f-26a1f490ae66",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/83381b8a-0160-4ef9-962f-26a1f490ae66/94",
+      "href": "/api/content/con-fusion/quote-sections/83381b8a-0160-4ef9-962f-26a1f490ae66/98",
       "method": "GET"
     },
     "draft/create": {

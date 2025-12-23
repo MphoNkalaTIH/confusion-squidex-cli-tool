@@ -1,10 +1,10 @@
 {
-  "id": "d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
-  "createdBy": "subject:69130a2fe029e4394dd7b3b8",
-  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
+  "id": "a2a0676a-abc5-4b98-a083-def2c748c359",
+  "createdBy": "subject:69131eb5e029e4394dd7c302",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "brand": {
-      "iv": "firstforwomen"
+      "iv": "virseker"
     },
     "baseRoute": {
       "iv": "car-insurance"
@@ -19,7 +19,7 @@
       "iv": "Getting Started"
     },
     "environmentId": {
-      "iv": "dev"
+      "iv": "tokelo"
     },
     "abTestingId": {
       "iv": ""
@@ -504,11 +504,11 @@
       ]
     }
   },
-  "created": "2025-05-28T10:44:29Z",
-  "lastModified": "2025-12-22T08:37:13Z",
+  "created": "2025-12-23T06:26:17Z",
+  "lastModified": "2025-12-23T06:26:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkODVhNTVmOC1mN2ZmLTQ1YjgtYjhkNy1lZTA1NDlkZmE3MWIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhMmEwNjc2YS1hYmM1LTRiOTgtYTA4My1kZWYyYzc0OGMzNTkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -585,40 +585,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 21,
+  "version": 1,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/20",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359/0",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/draft",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/status",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/status",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359",
       "method": "PUT"
     }
   }
