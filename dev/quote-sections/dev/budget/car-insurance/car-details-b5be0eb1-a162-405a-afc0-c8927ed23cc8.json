@@ -42,6 +42,101 @@
     "pages": {
       "iv": [
         {
+          "name": "Car Make Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": true,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": true,
+          "minifyTrackbar": null,
+          "readonly": null,
+          "createLead": true,
+          "additionalData": {
+            "doFilterCall": true
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "car-make-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": "CarMakePageComponent",
+              "formItems": [
+                {
+                  "id": "btnMake",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Make",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "car-details",
+                      "pageRoute": "car-year"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal\">Get your car insurance quote in minutes.</h1>"
+                  }
+                },
+                {
+                  "id": "txtCollapseText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"font-normal\">\n    With Budget you get more than just a policy, you also get access to awesome benefits like Cash Back Bonus.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select the make of the car</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPlaceHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Search for car make",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtPromotionDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p>The June Madness R10 p/m Tyre & Rim cover is only available through our <a href=\"/callback\">call centre</a>. Promotion ends 30 June 2024.</p>",
+                    "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "Car Year",
           "route": "car-year",
           "pageBase": null,
