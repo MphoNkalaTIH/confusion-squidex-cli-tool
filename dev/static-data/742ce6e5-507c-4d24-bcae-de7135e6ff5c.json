@@ -1,7 +1,7 @@
 {
   "id": "742ce6e5-507c-4d24-bcae-de7135e6ff5c",
   "createdBy": "subject:69131eb5e029e4394dd7c302",
-  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "name": {
       "iv": "Vehicle Uses Bullet"
@@ -13,7 +13,7 @@
       "iv": null
     },
     "sortIndexically": {
-      "iv": null
+      "iv": true
     },
     "brandOverrides": {
       "iv": []
@@ -203,7 +203,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik.",
+              "description": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind.",
               "image": null,
               "copyOverrides": []
             }
@@ -223,7 +223,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik",
+              "description": "Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik.\r\n",
               "image": null,
               "copyOverrides": []
             }
@@ -241,9 +241,9 @@
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
-              "index": null,
+              "index": 0,
               "copy": null,
-              "description": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. ",
+              "description": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik",
               "image": null,
               "copyOverrides": []
             }
@@ -293,7 +293,7 @@
     }
   },
   "created": "2025-07-28T18:46:50Z",
-  "lastModified": "2025-12-11T09:46:02Z",
+  "lastModified": "2025-12-17T09:53:08Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI3NDJjZTZlNS01MDdjLTRkMjQtYmNhZS1kZTcxMzVlNmZmNWMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -324,14 +324,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 13,
+  "version": 16,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/12",
+      "href": "/api/content/con-fusion-static-data/static-data/742ce6e5-507c-4d24-bcae-de7135e6ff5c/15",
       "method": "GET"
     },
     "draft/create": {
