@@ -1,7 +1,7 @@
 {
   "id": "23212813-afcf-4c36-9af0-6f7400cf462b",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "dial"
@@ -41,6 +41,93 @@
     },
     "pages": {
       "iv": [
+        {
+          "name": "Car Make Page",
+          "route": "",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": false,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": {
+            "doFilterCall": true
+          },
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "car-make-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": "CarMakePageComponent",
+              "formItems": [
+                {
+                  "id": "btnMake",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Make",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "sectionRoute": "car-details",
+                      "pageRoute": "car-year"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 font-normal text-zodiac-blue text-base leading-5 sm:leading-6\">Hi!</p>\n<h1 class=\"text-base mb-6\">Get your car insurance quote in minutes.</h1>"
+                  }
+                },
+                {
+                  "id": "txtCollapseText",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"text-sm leading-4 sm:text-sm sm:leading-5 font-normal text-zodiac-blue\">\n    With Dialdirect, you get more than just a policy. You get help, specific to your needs, and access to awesome benefits, like Tow Truck Direct giving you direct access to the roadside assistance you need, when you need it, direct to your location.\n</p>\n\n<p class=\"text-sm leading-4 sm:text-sm sm:leading-5 mb-6 font-normal text-zodiac-blue\">\n    Get your obligation-free online car insurance quote with us today.\n</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtQuestion",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Select the make of the car</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtPlaceHolder",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Search for car make",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
         {
           "name": "Car Year",
           "route": "car-year",
@@ -2127,7 +2214,7 @@
     }
   },
   "created": "2024-07-16T12:13:41Z",
-  "lastModified": "2025-12-03T18:52:42Z",
+  "lastModified": "2025-12-29T15:07:50Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyMzIxMjgxMy1hZmNmLTRjMzYtOWFmMC02Zjc0MDBjZjQ2MmIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2207,14 +2294,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 22,
+  "version": 23,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/23212813-afcf-4c36-9af0-6f7400cf462b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/23212813-afcf-4c36-9af0-6f7400cf462b/21",
+      "href": "/api/content/con-fusion/quote-sections/23212813-afcf-4c36-9af0-6f7400cf462b/22",
       "method": "GET"
     },
     "draft/create": {
