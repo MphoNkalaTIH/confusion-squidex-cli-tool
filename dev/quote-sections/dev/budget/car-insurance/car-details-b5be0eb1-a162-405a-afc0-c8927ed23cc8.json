@@ -1,7 +1,7 @@
 {
   "id": "b5be0eb1-a162-405a-afc0-c8927ed23cc8",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "budget"
@@ -85,23 +85,6 @@
                     "class": null,
                     "widthClass": null,
                     "iconClass": null
-                  }
-                },
-                {
-                  "id": "txtContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal\">Get your car insurance quote in minutes.</h1>"
-                  }
-                },
-                {
-                  "id": "txtCollapseText",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"font-normal\">\n    With Budget you get more than just a policy, you also get access to awesome benefits like Cash Back Bonus.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote with us today!\n</p>",
-                    "htmlEvents": []
                   }
                 },
                 {
@@ -2234,7 +2217,7 @@
     }
   },
   "created": "2024-07-16T12:13:40Z",
-  "lastModified": "2025-10-27T11:11:59Z",
+  "lastModified": "2025-12-23T18:56:37Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNWJlMGViMS1hMTYyLTQwNWEtYWZjMC1jODkyN2VkMjNjYzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2314,14 +2297,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 16,
+  "version": 18,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8/15",
+      "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8/17",
       "method": "GET"
     },
     "draft/create": {
