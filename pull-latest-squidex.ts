@@ -1,21 +1,21 @@
-import axios from 'axios';
-import 'dotenv/config';
-import fs from 'fs/promises';
-import path from 'path';
+import axios from "axios";
+import "dotenv/config";
+import fs from "fs/promises";
+import path from "path";
 
 interface DataFields {
   brand?: { iv: string };
   route?: { iv: string };
-  name?: {iv: string},
+  name?: { iv: string };
   baseRoute?: { iv: string };
   environmentId?: { iv: string };
   [key: string]: any;
 }
 
 function getOutputDir(schema: string): string {
-  const environment = (process.env.ENVIRONMENT)?.toLocaleLowerCase();
+  const environment = process.env.ENVIRONMENT?.toLocaleLowerCase();
 
-  switch(schema) {
+  switch (schema) {
     case "quote-sections":
       return `${environment}/quote-sections`;
 
@@ -30,15 +30,15 @@ function getOutputDir(schema: string): string {
 
     default:
       console.error(`[#] Unknown schema: ${schema} [#]`);
-      return '';
+      return "";
   }
 }
 
 function getEnvironmentUrl(app: string, schema: string): string {
   const key = `${app} ${schema}`;
-  const environment = (process.env.ENVIRONMENT);
+  const environment = process.env.ENVIRONMENT;
 
-  switch(key) {
+  switch (key) {
     case "con-fusion quote-sections":
       return `${environment}_QUOTE_SECTIONS_URL`;
 
@@ -51,59 +51,97 @@ function getEnvironmentUrl(app: string, schema: string): string {
     case "con-fusion-static enums":
       return `${environment}_ENUMS_URL`;
     default:
-      return '';
+      return "";
   }
 }
 
-async function getComponentsData(token: string, app: string, schema: string): Promise<any[] | null> {
+async function getComponentsData(
+  token: string,
+  app: string,
+  schema: string
+): Promise<any[] | null> {
   const ENVIRONMENT_URL = getEnvironmentUrl(app, schema);
 
-  return await axios.get<any>(
-    process.env[ENVIRONMENT_URL] ?? '',
-    {
-      headers: 
-      { 
+  return await axios
+    .get<any>(process.env[ENVIRONMENT_URL] ?? "", {
+      headers: {
         Authorization: `Bearer ${token}`,
-      }
-    }
-  ).then((resp) =>{
-    console.log("[#] Done doing fetch components from squidex [#]");
-    return resp.data.items;
-  }).catch((err)=> {
-    console.log({error_fetching: err})
-    return null
-  })
+      },
+    })
+    .then((resp) => {
+      console.log("[#] Done doing fetch components from squidex [#]");
+      return resp.data.items;
+    })
+    .catch((err) => {
+      console.log({ error_fetching: err });
+      return null;
+    });
 }
 
-function getNameAsRoute(name: string){
+function getNameAsRoute(name: string) {
   return name.replace(" ", "-").toLocaleLowerCase();
 }
 
-function buildFilePath(app: string, data: DataFields, id: string, outDir: string): string {
-
-  if(app === "con-fusion-static") {
+function buildFilePath(
+  app: string,
+  data: DataFields,
+  id: string,
+  outDir: string
+): string {
+  if (app === "con-fusion-static") {
     return path.join(outDir, `${id}.json`);
-  }
-
-  else if(app === "con-fusion") {
-    let env = data.environmentId?.iv ?? '';
-    let brand = data.brand?.iv ?? '';
-    let route = data.route?.iv ?? '';
-    let baseRoute = data.baseRoute?.iv != "" ? data.baseRoute!.iv :  getNameAsRoute(data.name!.iv);
+  } else if (app === "con-fusion") {
+    let env = data.environmentId?.iv ?? "";
+    let brand = data.brand?.iv ?? "";
+    let route = data.route?.iv ?? "";
+    let baseRoute =
+      data.baseRoute?.iv != ""
+        ? data.baseRoute!.iv
+        : getNameAsRoute(data.name!.iv);
 
     const folderPath = path.join(outDir, env, brand, baseRoute);
 
-    let fileName = '';
-    if(route == "") fileName = `${baseRoute}-${id}.json`;
+    let fileName = "";
+    if (route == "") fileName = `${baseRoute}-${id}.json`;
     else fileName = `${route}-${id}.json`;
-    
+
     return path.join(folderPath, fileName);
+  } else return "";
+}
+
+async function getAllExistingFiles(outDir: string): Promise<string[]> {
+  const existingFiles: string[] = [];
+
+  try {
+    await fs.access(outDir);
+    const scanDirectory = async (dir: string): Promise<void> => {
+      const entries = await fs.readdir(dir, { withFileTypes: true });
+
+      for (const entry of entries) {
+        const fullPath = path.join(dir, entry.name);
+
+        if (entry.isDirectory()) {
+          await scanDirectory(fullPath);
+        } else if (entry.isFile() && entry.name.endsWith(".json")) {
+          existingFiles.push(fullPath);
+        }
+      }
+    };
+
+    await scanDirectory(outDir);
+  } catch {
+    // Directory doesn't exist yet, no existing files to track
   }
 
-  else return '';
+  return existingFiles;
 }
 
 async function writeDataFiles(app: string, items: any[], outDir: string) {
+  // Get all existing files before we start writing
+  const existingFiles = await getAllExistingFiles(outDir);
+  const writtenFiles: string[] = [];
+
+  // Write/update all current files
   for (const item of items) {
     const filePath = buildFilePath(app, item.data, item.id, outDir);
     await fs.mkdir(path.dirname(filePath), { recursive: true });
@@ -115,43 +153,78 @@ async function writeDataFiles(app: string, items: any[], outDir: string) {
       console.log(`Creating new file: ${filePath}`);
     }
 
-    await fs.writeFile(filePath, JSON.stringify(item, null, 2), 'utf-8');
+    await fs.writeFile(filePath, JSON.stringify(item, null, 2), "utf-8");
+    writtenFiles.push(path.resolve(filePath));
+  }
+
+  // Delete files that exist locally but are no longer in the remote data
+  const filesToDelete = existingFiles.filter((existingFile) => {
+    const resolvedExisting = path.resolve(existingFile);
+    return !writtenFiles.some(
+      (writtenFile) => writtenFile === resolvedExisting
+    );
+  });
+
+  for (const fileToDelete of filesToDelete) {
+    try {
+      await fs.unlink(fileToDelete);
+      console.log(`Deleted orphaned file: ${fileToDelete}`);
+    } catch (err) {
+      console.error(`Failed to delete file: ${fileToDelete}`, err);
+    }
+  }
+
+  if (filesToDelete.length > 0) {
+    console.log(`Cleaned up ${filesToDelete.length} orphaned file(s)`);
   }
 }
 
 (async () => {
   try {
-    const environment = (process.env.ENVIRONMENT);
+    const environment = process.env.ENVIRONMENT;
     const ACCESS_TOKEN = process.env[`${environment}_TOKEN`];
 
-    if(!ACCESS_TOKEN){
-      console.error('[#] No access token found. Please set the TOKEN environment variable [#]');
-      return
-    };
+    if (!ACCESS_TOKEN) {
+      console.error(
+        "[#] No access token found. Please set the TOKEN environment variable [#]"
+      );
+      return;
+    }
 
     const PULL_FROM_APP = process.argv[2];
     const PULL_FROM_SCHEMA = process.argv[3];
 
-    console.log({pull_from_app: PULL_FROM_APP, pull_from_schema: PULL_FROM_SCHEMA});
+    console.log({
+      pull_from_app: PULL_FROM_APP,
+      pull_from_schema: PULL_FROM_SCHEMA,
+    });
 
-    if(!PULL_FROM_APP || !PULL_FROM_SCHEMA) {
-      console.error('[#] Usage: node pull-latest-squidex.js <pull-from-app> <pull-from-schema> [#]');
+    if (!PULL_FROM_APP || !PULL_FROM_SCHEMA) {
+      console.error(
+        "[#] Usage: node pull-latest-squidex.js <pull-from-app> <pull-from-schema> [#]"
+      );
       return;
     }
 
-    console.log(`Pulling latest data from Squidex app: ${PULL_FROM_APP}, schema: ${PULL_FROM_SCHEMA}`);
+    console.log(
+      `Pulling latest data from Squidex app: ${PULL_FROM_APP}, schema: ${PULL_FROM_SCHEMA}`
+    );
 
-    const items = await getComponentsData(ACCESS_TOKEN, PULL_FROM_APP, PULL_FROM_SCHEMA);
-    if(!items) {
-      console.error('[#] No items found or error fetching data [#]');
+    const items = await getComponentsData(
+      ACCESS_TOKEN,
+      PULL_FROM_APP,
+      PULL_FROM_SCHEMA
+    );
+    if (!items) {
+      console.error("[#] No items found or error fetching data [#]");
       return;
     }
-    
+
     const outputDir = getOutputDir(PULL_FROM_SCHEMA);
-    if(items) await writeDataFiles(PULL_FROM_APP, items, `./${outputDir}`);
+    if (items) await writeDataFiles(PULL_FROM_APP, items, `./${outputDir}`);
 
     console.log(`Data files written to ./${outputDir}`);
   } catch (err) {
-    console.error('Error fetching Squidex data:', err);
+    console.error("Error fetching Squidex data:", err);
   }
 })();
