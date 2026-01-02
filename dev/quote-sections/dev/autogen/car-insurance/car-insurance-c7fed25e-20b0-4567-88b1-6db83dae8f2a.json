@@ -497,6 +497,15 @@
                     "html": "<p class=\"font-normal text-ag-white\">\n    Auto&General, the insurer you can trust when it matters most. Never not there.\n</p>\n\n<p class=\"font-normal text-ag-white\">\n    Get your obligation-free online car insurance quote today!\n</p>",
                     "htmlEvents": []
                   }
+                },
+                {
+                  "id": "txtDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"text-xs font-normal text-sub-1 pt-4 mb-0\">By providing your contact information, you agree to be contacted and receive communications from Auto & General.</p>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -506,7 +515,7 @@
     }
   },
   "created": "2025-05-21T09:13:43Z",
-  "lastModified": "2026-01-02T09:24:11Z",
+  "lastModified": "2026-01-02T14:13:50Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjN2ZlZDI1ZS0yMGIwLTQ1NjctODhiMS02ZGI4M2RhZThmMmEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -586,14 +595,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 37,
+  "version": 38,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a/36",
+      "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a/37",
       "method": "GET"
     },
     "draft/create": {
