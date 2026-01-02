@@ -1,7 +1,7 @@
 {
   "id": "c7fed25e-20b0-4567-88b1-6db83dae8f2a",
   "createdBy": "subject:69130a2fe029e4394dd7b3b8",
-  "lastModifiedBy": "subject:69131eb5e029e4394dd7c304",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": "contact-details"
+      "iv": ""
     },
     "icon": {
       "iv": null
@@ -346,7 +346,7 @@
           "pageBase": null,
           "pageDisabled": null,
           "hideTrackbar": true,
-          "hideBackButton": null,
+          "hideBackButton": true,
           "excludeFromTrackbar": null,
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
@@ -372,7 +372,7 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Name",
                     "helperText": null,
-                    "placeholderText": "Please complete2",
+                    "placeholderText": "Please complete",
                     "formControlName": "name",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -506,7 +506,7 @@
     }
   },
   "created": "2025-05-21T09:13:43Z",
-  "lastModified": "2025-12-05T10:50:25Z",
+  "lastModified": "2026-01-02T09:24:11Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjN2ZlZDI1ZS0yMGIwLTQ1NjctODhiMS02ZGI4M2RhZThmMmEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -586,14 +586,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 35,
+  "version": 37,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a/34",
+      "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a/36",
       "method": "GET"
     },
     "draft/create": {
