@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -85,7 +86,7 @@
                         "conditionValue": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<div class=\"flex flex-row py-3\">\n    <img class=\"w-12\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cd6b1dc4-712c-41db-99c1-d9e25e45afea/icon-download-app.svg\" />\n    <span class=\"text-sm pl-4 self-center\"><span class=\"text-main-1 font-medium\">Download our app</span> to access your dashboard for self-servicing capabilities.</span>\n</div>"
+                          "html": "<div class=\"flex flex-row py-3\">\r\n    <img class=\"w-12\" alt=\"loginIcon\" src=\"{{cmsUrl}}/api/assets/con-fusion/cd6b1dc4-712c-41db-99c1-d9e25e45afea/icon-download-app.svg\" />\r\n    <span class=\"text-sm pl-4 block md:hidden\">\r\n        <a href=\"https://onelink.to/b94h8m  \" class=\"font-medium\">Download our app</a>  to access your dashboard for self-servicing capabilities.\r\n    </span>\r\n    <span class=\"text-sm pl-4 hidden md:block font-medium\">\r\n        <span class=\"text-main-1\">Download our app</span>  to access your dashboard for self-servicing capabilities.\r\n    </span>\r\n</div>"
                         }
                       },
                       {
@@ -230,7 +231,7 @@
     }
   },
   "created": "2024-08-05T07:19:42Z",
-  "lastModified": "2025-03-07T08:59:38Z",
+  "lastModified": "2025-12-01T09:42:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0NzI5YTBiZC02OWE2LTRiZmQtOThlYi04YmQzOTZmYWRmNGIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -310,14 +311,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4729a0bd-69a6-4bfd-98eb-8bd396fadf4b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4729a0bd-69a6-4bfd-98eb-8bd396fadf4b/2",
+      "href": "/api/content/con-fusion/quote-sections/4729a0bd-69a6-4bfd-98eb-8bd396fadf4b/4",
       "method": "GET"
     },
     "draft/create": {

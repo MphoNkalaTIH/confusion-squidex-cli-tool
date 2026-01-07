@@ -1,7 +1,7 @@
 {
   "id": "b5be0eb1-a162-405a-afc0-c8927ed23cc8",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "subject:68b14af6aa66f080f2e7012b",
+  "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
       "iv": "budget"
@@ -866,7 +866,438 @@
           ]
         },
         {
-          "name": "Car Parked Suburb home",
+          "name": "Residential Address",
+          "route": "residential-address",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "residential-address-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Please enter your residential address</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtFullAddress",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
+                    "label": "Enter full address",
+                    "helperText": "House number, street name, suburb, postal code",
+                    "placeholderText": "Search",
+                    "cannotFindItemText": "I can't find my address",
+                    "loadingText": null
+                  }
+                },
+                {
+                  "id": "txtFullAddressInput",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Enter full address",
+                    "helperText": "House number, street name, suburb, postal code",
+                    "placeholderText": "Search",
+                    "formControlName": "addressFull",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Full residential address is required",
+                      "invalidErrorMessage": "Residential address is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-suburb-home",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": false,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnCannotFindItem",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "cannotFindItem",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "risk-address",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "dialogReview",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Address Error</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Next",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "risk-address",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Risk address page",
+          "route": "risk-address",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "risk-address-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4 class=\"mb-5\">You told us that the home where your car is normally parked, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
+                  }
+                },
+                {
+                  "id": "txtContentHomeContents",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h4 class=\"mb-5\">You told us that the home where your home contents is kept, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "113898ca-bc78-4b85-8bd9-8e25b2da1bcc",
+                      "code": null,
+                      "statePropertyPaths": null,
+                      "values": null,
+                      "routeArray": []
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtStreet",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Street address",
+                    "helperText": "eg. 1 Waltham Drive",
+                    "placeholderText": "Please complete",
+                    "formControlName": "address1",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Street address is required",
+                      "invalidErrorMessage": "Street address is invalid",
+                      "maxLength": 40,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtComplexOrBuilding",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Complex / building (optional)",
+                    "helperText": "Complex or building name, unit number or floor",
+                    "placeholderText": "Please complete",
+                    "formControlName": "address2",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Name of the Complex or building is required",
+                      "invalidErrorMessage": "Name of the Complex or building is invalid",
+                      "maxLength": 40,
+                      "minLength": null,
+                      "isRequired": null,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSuburb",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Suburb",
+                    "helperText": "Home area / suburb",
+                    "placeholderText": "Please complete",
+                    "formControlName": "suburbName",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtCityOrTown",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "City / Town",
+                    "helperText": "",
+                    "placeholderText": "Please complete",
+                    "formControlName": "city",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "City or town name is required",
+                      "invalidErrorMessage": "City or town name is invalid",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtPostalCode",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Postal code",
+                    "helperText": "",
+                    "placeholderText": "Please complete",
+                    "formControlName": "postCode",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtSuburbAutoComplete",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
+                    "label": "Suburb",
+                    "helperText": "Home area / suburb",
+                    "placeholderText": "Please complete",
+                    "cannotFindItemText": "I can't find my area or suburb",
+                    "loadingText": null
+                  }
+                },
+                {
+                  "id": "txtContentNoValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Please enter your residential address</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNextCarParkedHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-method-home",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNextCarParkedWork",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Next",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-method-work",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Car Parked Address home",
           "route": "car-parked-suburb-home",
           "pageBase": null,
           "pageDisabled": null,
@@ -891,14 +1322,14 @@
               "standaloneComponent": null,
               "formItems": [
                 {
-                  "id": "txtSuburb",
+                  "id": "txtAddress",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Night-time parking area / suburb",
-                    "helperText": "eg. Dainfern, Midrand, 2191",
+                    "label": "Enter night-time parking address",
+                    "helperText": "",
                     "placeholderText": "Search",
-                    "cannotFindItemText": "I can't find my area or suburb",
+                    "cannotFindItemText": "I can't find my address",
                     "loadingText": null
                   }
                 },
@@ -924,7 +1355,12 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "No specific location",
-                    "route": null,
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-suburb-work",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -939,7 +1375,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In which area or suburb is the car normally parked at night?</h2>"
+                    "html": "<h2>What address is your car normally parked at night?</h2>"
                   }
                 },
                 {
@@ -963,9 +1399,106 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": "",
+                    "formControlName": null,
                     "text": "No specific location",
                     "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnSameAsResidentialAddress",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Same as residential address",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnCannotFindItem",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Cannot Find Item",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "risk-address",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "dialogReview",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Address Error</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Next",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "risk-address",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
                   }
                 }
               ]
@@ -1107,7 +1640,7 @@
           ]
         },
         {
-          "name": "Car Parked Suburb Work",
+          "name": "Car Address Suburb Work",
           "route": "car-parked-suburb-work",
           "pageBase": null,
           "pageDisabled": null,
@@ -1132,14 +1665,14 @@
               "standaloneComponent": null,
               "formItems": [
                 {
-                  "id": "txtSuburb",
+                  "id": "txtAddress",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Daytime parking area / suburb",
-                    "helperText": "eg. Dainfern, Midrand, 2191",
+                    "label": "Enter your day-time parking address",
+                    "helperText": "",
                     "placeholderText": "Search",
-                    "cannotFindItemText": "I can't find my area or suburb",
+                    "cannotFindItemText": "I can't find my address",
                     "loadingText": null
                   }
                 },
@@ -1196,7 +1729,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In which area or suburb is the car parked during the day?</h2>"
+                    "html": "<h2>What address is your car normally parked during the day?</h2>"
                   }
                 },
                 {
@@ -1204,9 +1737,187 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": "",
+                    "formControlName": null,
                     "text": "No specific location",
                     "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnSameAsResidentialAddress",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Same as residential address",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "dialogDistance",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>The distance between the day and night time address is more than 120km. Do you want to review your day and night parking address?\r\n</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnReview",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Yes",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "car-parked-suburb-home",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnSkipReview",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "No",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "car-parked-method-work",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "secondary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
+                  "id": "btnCannotFindItem",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Cannot Find Item",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "risk-address",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"risk-helper-text\">Your day-time parking address has been defaulted to the same as your residential address. One of the addresses need to be your residential address.</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "dialogReview",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Address Error</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Next",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "risk-address",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
                   }
                 }
               ]
@@ -1428,7 +2139,7 @@
     }
   },
   "created": "2024-08-05T07:19:44Z",
-  "lastModified": "2025-08-29T07:26:23Z",
+  "lastModified": "2025-12-01T09:42:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNWJlMGViMS1hMTYyLTQwNWEtYWZjMC1jODkyN2VkMjNjYzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1508,14 +2219,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 13,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8/5",
+      "href": "/api/content/con-fusion/quote-sections/b5be0eb1-a162-405a-afc0-c8927ed23cc8/12",
       "method": "GET"
     },
     "draft/create": {

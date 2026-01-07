@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": {
@@ -127,6 +128,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -199,6 +201,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -271,6 +274,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -335,6 +339,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -376,6 +381,24 @@
                     "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
                     "refData": []
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": [
+                      "731d06bb-63be-4d96-a10f-dff656711895"
+                    ],
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
                 }
               ]
             }
@@ -395,6 +418,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -520,6 +544,7 @@
           "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -588,6 +613,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -694,6 +720,31 @@
                       }
                     ]
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "txtIncludedCover",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Ingesluit in hierdie tipe dekking: </h2>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -713,6 +764,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -761,13 +813,447 @@
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
                     "flag": true
                   }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "txtEventClaim",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>In die geval van ŉ eis: </h2>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
           ]
         },
         {
-          "name": "Car Parked Suburb home",
+          "name": "Residential Address",
+          "route": "residential-address",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": null,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "residential-address-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Voer asseblief u woonadres in</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtFullAddress",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
+                    "label": "Voer volledige adres in",
+                    "helperText": "Huisnommer, straatnaam, voorstad, poskode",
+                    "placeholderText": "Soek",
+                    "cannotFindItemText": "Ek kan nie my adres vind nie",
+                    "loadingText": "Soek..."
+                  }
+                },
+                {
+                  "id": "txtFullAddressInput",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Voer volledige adres in",
+                    "helperText": "Huisnommer, straatnaam, voorstad, poskode",
+                    "placeholderText": "Soek",
+                    "formControlName": "addressFull",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Volledige woonadres is vereis",
+                      "invalidErrorMessage": "Woonadres is ongeldig",
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-suburb-home",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": false,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "btnCannotFindItem",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "cannotFindItem",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "risk-address",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "dialogReview",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Fout met Adres</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Ons het ŉ fout met jou adres ondervind. Gaan asseblief na die volgende bladsy om dit self in te tik.</p>\r\n",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Volgende",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "risk-address",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Risk address page",
+          "route": "risk-address",
+          "pageBase": null,
+          "pageDisabled": null,
+          "hideTrackbar": null,
+          "hideBackButton": null,
+          "excludeFromTrackbar": null,
+          "showPremiumBanner": null,
+          "slidePremiumBanner": null,
+          "doManualCalculations": null,
+          "isDropOffAnchorPoint": true,
+          "flowEntryPoint": null,
+          "minifyTrackbar": null,
+          "applyTransparentHeader": null,
+          "readonly": null,
+          "createLead": null,
+          "additionalData": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "risk-address-page",
+              "moduleName": "FinaliseDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Voer asseblief u woonadres in</h2>"
+                  }
+                },
+                {
+                  "id": "txtContentHomeContents",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Voer asseblief u woonadres in</h2>"
+                  }
+                },
+                {
+                  "id": "btnNext",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "condition": {
+                      "schemaId": "113898ca-bc78-4b85-8bd9-8e25b2da1bcc",
+                      "code": null,
+                      "statePropertyPaths": null,
+                      "values": null,
+                      "routeArray": []
+                    },
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "txtStreet",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Straatadres",
+                    "helperText": "bv. 1 Waltham Drive",
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "address1",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Straatadres is vereis",
+                      "invalidErrorMessage": "Straatadres is ongeldig",
+                      "maxLength": 40,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtComplexOrBuilding",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Kompleks / gebou (opsioneel)",
+                    "helperText": "Naam van die kompleks of gebou, eenheidnommer of vloer",
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "address2",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Naam van die kompleks of gebou is vereis",
+                      "invalidErrorMessage": "Naam van die kompleks of gebou is ongeldig",
+                      "maxLength": 40,
+                      "minLength": null,
+                      "isRequired": null,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    }
+                  }
+                },
+                {
+                  "id": "txtSuburb",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Voorstad",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "suburbName",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "txtPostalCode",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Poskode",
+                    "helperText": "",
+                    "placeholderText": "Vul asseblief in",
+                    "formControlName": "postCode",
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": null,
+                      "invalidErrorMessage": null,
+                      "maxLength": null,
+                      "minLength": null,
+                      "isRequired": true,
+                      "isWhiteSpace": null,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    }
+                  }
+                },
+                {
+                  "id": "btnConfirm",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": null,
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "txtSuburbAutoComplete",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
+                    "label": "Voorstad",
+                    "helperText": "Huisarea / voorstad",
+                    "placeholderText": "Vul asseblief in",
+                    "cannotFindItemText": "Ek kan nie my area of voorstad vind nie",
+                    "loadingText": "Soek..."
+                  }
+                },
+                {
+                  "id": "txtContentNoValue",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2>Voer asseblief u woonadres in</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "btnNextCarParkedHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-method-home",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "btnNextCarParkedWork",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Volgende",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-method-work",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Car Parked Address home",
           "route": "car-parked-suburb-home",
           "pageBase": null,
           "pageDisabled": null,
@@ -780,6 +1266,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": true,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -791,15 +1278,15 @@
               "standaloneComponent": null,
               "formItems": [
                 {
-                  "id": "txtSuburb",
+                  "id": "txtAddress",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Ligging van nagparkering",
-                    "helperText": "bv. Dainfern, Midrand, 2191",
+                    "label": "Voer nag-parkeringadres in",
+                    "helperText": "",
                     "placeholderText": "Soek",
-                    "cannotFindItemText": "Ek kry nie my area/voorstad nie",
-                    "loadingText": null
+                    "cannotFindItemText": "Ek kan nie my adres vind nie",
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -823,8 +1310,13 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Geen spesifieke gebied",
-                    "route": null,
+                    "label": "Geen spesifieke gebied nie",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "car-parked-suburb-work",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -839,7 +1331,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In watter area of voorstad word die kar gewoonlik gedurende die nag geparkeer?</h2>"
+                    "html": "<h2>Watter adres word jou motor gewoonlik snags geparkeer?</h2>"
                   }
                 },
                 {
@@ -847,7 +1339,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselfde as die aand area/voorstad",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -859,11 +1351,21 @@
                   }
                 },
                 {
-                  "id": "btnLoading",
+                  "id": "txtParkedMethod",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Geen spesifieke gebied nie",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnSameAsResidentialAddress",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Hou vas, ons soek gou...",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -875,23 +1377,84 @@
                   }
                 },
                 {
-                  "id": "btnNextIcon",
+                  "id": "btnCannotFindItem",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "icon-arrow-right",
-                    "errorMessage": null
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Kan nie item vind nie",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "risk-address",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
                   }
                 },
                 {
-                  "id": "txtParkedMethod",
+                  "id": "dialogReview",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Geen spesifieke gebied",
-                    "errorMessage": null
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Fout met Adres</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Ons het ŉ fout met jou adres ondervind. Gaan asseblief na die volgende bladsy om dit self in te tik.</p>\r\n",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Volgende",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "risk-address",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
                   }
                 }
               ]
@@ -912,6 +1475,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -986,6 +1550,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -1065,7 +1630,7 @@
           ]
         },
         {
-          "name": "Car Parked Suburb Work",
+          "name": "Car Address Suburb Work",
           "route": "car-parked-suburb-work",
           "pageBase": null,
           "pageDisabled": null,
@@ -1078,6 +1643,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": true,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -1089,15 +1655,15 @@
               "standaloneComponent": null,
               "formItems": [
                 {
-                  "id": "txtSuburb",
+                  "id": "txtAddress",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Ligging van dagparkering",
-                    "helperText": "bv. Dainfern, Midrand, 2191",
+                    "label": "Voer dag-parkeringsadres in",
+                    "helperText": "",
                     "placeholderText": "Soek",
-                    "cannotFindItemText": "Ek kry nie my area/voorstad nie",
-                    "loadingText": null
+                    "cannotFindItemText": "Ek kan nie my adres vind nie",
+                    "loadingText": "Soek..."
                   }
                 },
                 {
@@ -1105,7 +1671,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Dieselfde as die area/voorstad gedurende die nag",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1157,11 +1723,21 @@
                   }
                 },
                 {
-                  "id": "btnLoading",
+                  "id": "txtParkedMethod",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Geen spesifieke gebied nie",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnSameAsResidentialAddress",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Hou vas, ons soek gou...",
+                    "label": "Dieselfde as woonadres",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1173,23 +1749,165 @@
                   }
                 },
                 {
-                  "id": "btnNextIcon",
+                  "id": "dialogDistance",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "icon-arrow-right",
-                    "errorMessage": null
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Die afstand tussen die dag- en nagadres is meer as 120 km. Wil jy jou dag- en nagparkeeradres nagaan?\r\n</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnReview",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Ja",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "car-parked-suburb-home",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnSkipReview",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Nee",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "car-parked-method-work",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "secondary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
                   }
                 },
                 {
-                  "id": "txtParkedMethod",
+                  "id": "btnCannotFindItem",
                   "conditionValue": null,
                   "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Geen spesifieke gebied",
-                    "errorMessage": null
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Kan nie item vind nie",
+                    "route": {
+                      "baseRoute": "car-insurance",
+                      "pageRoute": "risk-address",
+                      "sectionRoute": "car-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"risk-helper-text\">Jou dagparkeeradres is by verstek dieselfde as jou woonadres. Een van die adresse moet jou woonadres wees.</p>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "dialogReview",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0 font-bold\">Fout met Adres</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>Ons het ŉ fout met jou adres ondervind. Gaan asseblief na die volgende bladsy om dit self in te tik.</p>\r\n",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnConfirm",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Volgende",
+                          "route": {
+                            "baseRoute": "car-insurance",
+                            "pageRoute": "risk-address",
+                            "sectionRoute": "car-details",
+                            "goToStart": false
+                          },
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
                   }
                 }
               ]
@@ -1210,6 +1928,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -1255,7 +1974,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Waar word die kar normaalweg parkeer in die dag?</h2>"
+                    "html": "<h2>Waar word die kar gewoonlik gedurende die dag geparkeer?</h2>"
                   }
                 },
                 {
@@ -1284,6 +2003,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -1329,7 +2049,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter tipe sekuriteit het jy waar die kar parkeer word in die dag?</h2>"
+                    "html": "<h2>Watter tipe sekuriteit het jy waar die kar gedurende die dag geparkeer word?</h2>"
                   }
                 },
                 {
@@ -1376,6 +2096,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -1442,7 +2163,7 @@
     }
   },
   "created": "2024-08-05T07:19:45Z",
-  "lastModified": "2025-04-01T15:22:44Z",
+  "lastModified": "2025-12-09T07:45:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjODgzOTIyMC00ODk3LTQxMjUtYmVmNy03ZDE5OWQwNDJjNDQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1522,14 +2243,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 12,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/5",
+      "href": "/api/content/con-fusion/quote-sections/c8839220-4897-4125-bef7-7d199d042c44/11",
       "method": "GET"
     },
     "draft/create": {

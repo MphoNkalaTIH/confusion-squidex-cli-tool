@@ -1,7 +1,7 @@
 {
   "id": "708c7008-fc8b-4383-b7a6-80e979f2c9a2",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "subject:68b14af6aa66f080f2e7012b",
+  "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -42,204 +42,6 @@
     "pages": {
       "iv": [
         {
-          "name": "Risk address page",
-          "route": "risk-address",
-          "pageBase": null,
-          "pageDisabled": null,
-          "hideTrackbar": null,
-          "hideBackButton": null,
-          "excludeFromTrackbar": null,
-          "showPremiumBanner": true,
-          "slidePremiumBanner": null,
-          "doManualCalculations": null,
-          "isDropOffAnchorPoint": true,
-          "flowEntryPoint": null,
-          "minifyTrackbar": null,
-          "applyTransparentHeader": null,
-          "readonly": null,
-          "createLead": null,
-          "additionalData": null,
-          "components": [
-            {
-              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
-              "selector": "risk-address-page",
-              "moduleName": "FinaliseDetailsModule",
-              "standaloneComponent": null,
-              "formItems": [
-                {
-                  "id": "txtContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"mb-5\">Volgens jou inligting, word die kar by ‘n huis parkeer in die {{suburb}} area/woongebied.</h4>\n<h2>Wat is die volle residensiële adres?</h2>"
-                  }
-                },
-                {
-                  "id": "txtContentHomeContents",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"mb-5 font-normal text-sm md:text-base\">Jy het vir ons vertel dat die huis waar jou huisinhoud gehou word, in die {{suburb}}-gebied/-voorstad is.</h4>\n<h2>Wat is die volle residensiële adres?</h2>",
-                    "htmlEvents": []
-                  }
-                },
-                {
-                  "id": "btnNext",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
-                    "route": null,
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": null,
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": "icon-arrow-right"
-                  }
-                },
-                {
-                  "id": "txtStreet",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Straatadres",
-                    "helperText": "bv. 1 Waltham Drive",
-                    "placeholderText": "Vul asseblief in",
-                    "formControlName": "address1",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": "Straatadres is verpligtend",
-                      "invalidErrorMessage": "Straatadres is ongeldig",
-                      "maxLength": 40,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": true
-                    }
-                  }
-                },
-                {
-                  "id": "txtComplexOrBuilding",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Kompleks / gebou (opsioneel)",
-                    "helperText": "Naam van die kompleks of gebou, eenheidnommer of vloer",
-                    "placeholderText": "Vul asseblief in",
-                    "formControlName": "address2",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": "Naam van die kompleks of gebou is verpligtend",
-                      "invalidErrorMessage": "Naam van die kompleks of gebou is ongeldig",
-                      "maxLength": 40,
-                      "minLength": null,
-                      "isRequired": null,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": true
-                    }
-                  }
-                },
-                {
-                  "id": "txtSuburb",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Voorstad",
-                    "helperText": "Huis area / voorstad",
-                    "placeholderText": "Vul asseblief in",
-                    "formControlName": "suburbName",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": null,
-                      "invalidErrorMessage": null,
-                      "maxLength": null,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": null
-                    }
-                  }
-                },
-                {
-                  "id": "txtCityOrTown",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Dorp / Stad",
-                    "helperText": "",
-                    "placeholderText": "Vul asseblief in",
-                    "formControlName": "city",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": "Dorp of stad naam is verpligtend",
-                      "invalidErrorMessage": "Dorp of stad naam is ongeldig",
-                      "maxLength": null,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": true
-                    }
-                  }
-                },
-                {
-                  "id": "txtPostalCode",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Poskode",
-                    "helperText": "",
-                    "placeholderText": "Please complete",
-                    "formControlName": "postCode",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": null,
-                      "invalidErrorMessage": null,
-                      "maxLength": null,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": null,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": null
-                    }
-                  }
-                },
-                {
-                  "id": "btnNextIcon",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "icon-arrow-right",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "btnConfirm",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Bevestig",
-                    "route": null,
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Payment Method",
           "route": "payment-method",
           "pageBase": null,
@@ -250,7 +52,7 @@
           "showPremiumBanner": true,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -2718,7 +2520,7 @@
     }
   },
   "created": "2024-08-05T07:19:43Z",
-  "lastModified": "2025-10-09T09:46:42Z",
+  "lastModified": "2025-12-01T09:42:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI3MDhjNzAwOC1mYzhiLTQzODMtYjdhNi04MGU5NzlmMmM5YTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2798,14 +2600,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 11,
+  "version": 14,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/10",
+      "href": "/api/content/con-fusion/quote-sections/708c7008-fc8b-4383-b7a6-80e979f2c9a2/13",
       "method": "GET"
     },
     "draft/create": {

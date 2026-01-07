@@ -1,7 +1,7 @@
 {
   "id": "52463245-efa3-4a9d-88ac-e08e3e04fd7f",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "subject:68b14b88aa66f080f2e70276",
   "data": {
     "brand": {
       "iv": "autogen"
@@ -122,7 +122,7 @@
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
-                      "pageRoute": "suburb"
+                      "pageRoute": "residential-address"
                     },
                     "url": null,
                     "img": null,
@@ -141,7 +141,7 @@
     }
   },
   "created": "2024-08-05T07:19:43Z",
-  "lastModified": "2025-10-15T08:49:13Z",
+  "lastModified": "2025-11-06T15:24:28Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI1MjQ2MzI0NS1lZmEzLTRhOWQtODhhYy1lMDhlM2UwNGZkN2YiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -221,14 +221,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/52463245-efa3-4a9d-88ac-e08e3e04fd7f",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/52463245-efa3-4a9d-88ac-e08e3e04fd7f/3",
+      "href": "/api/content/con-fusion/quote-sections/52463245-efa3-4a9d-88ac-e08e3e04fd7f/4",
       "method": "GET"
     },
     "draft/create": {
