@@ -449,7 +449,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
                   }
                 },
                 {
@@ -493,7 +493,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"text-xs font-normal text-sub-1 pt-4 mb-0\">By providing your contact information, you agree to be contacted and receive communications from First For Women.</p>",
+                    "html": "<p class=\"text-xs font-normal text-sub-1 pt-4 mb-0\">Deur jou kontakinligting te gee, stem jy in om gekontak te word en kommunikasie van Virseker te ontvang.</p>",
                     "htmlEvents": []
                   }
                 }
@@ -505,7 +505,7 @@
     }
   },
   "created": "2025-12-23T06:26:17Z",
-  "lastModified": "2026-01-05T05:39:56Z",
+  "lastModified": "2026-01-07T12:21:29Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJhMmEwNjc2YS1hYmM1LTRiOTgtYTA4My1kZWYyYzc0OGMzNTkiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -585,14 +585,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 6,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359/3",
+      "href": "/api/content/con-fusion/quote-sections/a2a0676a-abc5-4b98-a083-def2c748c359/5",
       "method": "GET"
     },
     "draft/create": {
