@@ -34,7 +34,7 @@
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "autogen",
               "index": 1,
-              "copy": "",
+              "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
               "description": "Private and/or travelling to work",
               "image": [
                 "bddcb06b-c325-4e1b-9365-d5b9fe889196"
@@ -88,7 +88,7 @@
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "autogen",
               "index": null,
-              "copy": "",
+              "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is used for up to 10 business/professional trips a month. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use.",
               "description": "Private and occasional business",
               "image": [
                 "d874ba88-a1f8-4fb0-84d8-f17dcfe677dd"
@@ -142,7 +142,7 @@
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "autogen",
               "index": null,
-              "copy": "",
+              "copy": "The car is used to visit clients or to attend work related commitments away from your regular workplace. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use. The car may also be used for social, domestic or pleasure purposes including travel to and from work.",
               "description": "Private and full business",
               "image": [
                 "27585b00-4149-4270-b372-b2bf92844da8"
@@ -186,7 +186,7 @@
     }
   },
   "created": "2025-07-28T18:18:51Z",
-  "lastModified": "2025-11-26T07:02:54Z",
+  "lastModified": "2026-01-06T06:01:39Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiYmU5MTQwYi04MmY5LTRmZjgtYTg5YS01YjQzNmM5MDI5ZGQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -217,14 +217,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 19,
+  "version": 21,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/18",
+      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/20",
       "method": "GET"
     },
     "draft/create": {
