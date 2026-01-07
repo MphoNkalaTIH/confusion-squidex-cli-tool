@@ -1,7 +1,7 @@
 {
   "id": "fafe91c5-c1c1-4985-8828-3e2c2d73e371",
   "createdBy": "client:con-fusion:api",
-  "lastModifiedBy": "subject:69130a2fe029e4394dd7b3b8",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -854,10 +854,10 @@
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "IdSelect",
                     "route": {
-                      "pageRoute": "names",
+                      "baseRoute": "policy",
+                      "pageRoute": "email-address",
                       "sectionRoute": "personal-details",
-                      "goToStart": false,
-                      "baseRoute": "policy"
+                      "goToStart": false
                     },
                     "url": null,
                     "img": null,
@@ -940,7 +940,12 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Volgende",
-                    "route": null,
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "email-address",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false
+                    },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -2109,7 +2114,7 @@
     }
   },
   "created": "2024-08-06T12:22:18Z",
-  "lastModified": "2025-10-09T07:13:54Z",
+  "lastModified": "2026-01-07T12:55:15Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmYWZlOTFjNS1jMWMxLTQ5ODUtODgyOC0zZTJjMmQ3M2UzNzEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2189,14 +2194,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 40,
+  "version": 41,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/fafe91c5-c1c1-4985-8828-3e2c2d73e371",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/fafe91c5-c1c1-4985-8828-3e2c2d73e371/39",
+      "href": "/api/content/con-fusion/quote-sections/fafe91c5-c1c1-4985-8828-3e2c2d73e371/40",
       "method": "GET"
     },
     "draft/create": {
