@@ -66,6 +66,15 @@
               "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resultant damage, and malicious damage are excluded.",
               "image": null,
               "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": null,
+              "copy": null,
+              "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resultant damage, and malicious damage are excluded.",
+              "image": null,
+              "copyOverrides": []
             }
           ]
         }
@@ -73,7 +82,7 @@
     }
   },
   "created": "2024-08-20T11:16:16Z",
-  "lastModified": "2025-09-25T11:46:20Z",
+  "lastModified": "2025-10-24T13:07:39Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJhYjE1ZGJkOS1hNjYwLTRkNGEtYmZiOC1jYmMzMGViN2I4M2EiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -104,14 +113,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 5,
+  "version": 6,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/4",
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/5",
       "method": "GET"
     },
     "draft/create": {

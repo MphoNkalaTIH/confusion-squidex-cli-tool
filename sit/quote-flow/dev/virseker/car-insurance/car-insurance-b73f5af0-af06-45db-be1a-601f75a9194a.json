@@ -313,7 +313,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Gebaseer op die inligting wat jy verskaf het, kan ons ongelukkig nie {{contentText}} bied nie.</h2>"
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Gebaseer op die inligting wat jy gegee het, kan ons ongelukkig nie {{contentText}} nie.</h2>"
                   }
                 },
                 {
@@ -369,7 +369,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "verseker my huisinhoud",
+                    "text": "jou huisinhoud verseker",
                     "errorMessage": null
                   }
                 }
@@ -1420,7 +1420,8 @@
                 },
                 {
                   "baseRoutes": [
-                    "car-insurance"
+                    "car-insurance",
+                    "policy"
                   ],
                   "group": "Done",
                   "icon": "icon-build-cover",
@@ -1428,7 +1429,8 @@
                   "name": "Bou dekking",
                   "quoteFlowType": "car-insurance",
                   "routes": [
-                    "build-cover"
+                    "build-cover",
+                    "cashback-details"
                   ]
                 },
                 {
@@ -1442,7 +1444,6 @@
                   "quoteFlowType": "car-insurance",
                   "routes": [
                     "finalise-details",
-                    "cashback-details",
                     "policy-cancellation"
                   ]
                 },
@@ -1471,7 +1472,8 @@
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "spouse-details",
-                    "incident-details"
+                    "incident-details",
+                    "cashback-details"
                   ]
                 },
                 {
@@ -1485,7 +1487,6 @@
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "finalise-details",
-                    "cashback-details",
                     "policy-cancellation"
                   ]
                 },
@@ -1725,7 +1726,7 @@
     }
   },
   "created": "2023-11-23T13:30:52Z",
-  "lastModified": "2025-10-02T15:47:27Z",
+  "lastModified": "2025-12-01T09:42:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImI3M2Y1YWYwLWFmMDYtNDVkYi1iZTFhLTYwMWY3NWE5MTk0YSIsInUiOiJodHRwczovL3NxdWlkZXgtc2l0Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1763,14 +1764,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 22,
+  "version": 24,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/21",
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/23",
       "method": "GET"
     },
     "draft/create": {
