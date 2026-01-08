@@ -1,7 +1,7 @@
 {
   "id": "1b4d7490-2df0-4174-90da-1968cf2ccf50",
   "createdBy": "client:con-fusion:owner",
-  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -462,8 +462,8 @@
                     "formControlName": "name",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "",
-                      "invalidErrorMessage": "",
+                      "requiredErrorMessage": "Hierdie veld is verpligtend",
+                      "invalidErrorMessage": "Ongeldige invoer",
                       "maxLength": 15,
                       "minLength": 2,
                       "isRequired": true,
@@ -484,8 +484,8 @@
                     "formControlName": "surname",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "",
-                      "invalidErrorMessage": "",
+                      "requiredErrorMessage": "Hierdie veld is verpligtend",
+                      "invalidErrorMessage": "Ongeldige invoer",
                       "maxLength": 20,
                       "minLength": 2,
                       "isRequired": true,
@@ -506,8 +506,8 @@
                     "formControlName": "number",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "",
-                      "invalidErrorMessage": "",
+                      "requiredErrorMessage": "Hierdie veld is verpligtend",
+                      "invalidErrorMessage": "Ongeldige invoer",
                       "maxLength": 10,
                       "minLength": 10,
                       "isRequired": true,
@@ -591,7 +591,7 @@
     }
   },
   "created": "2024-07-16T12:13:44Z",
-  "lastModified": "2026-01-07T12:54:49Z",
+  "lastModified": "2026-01-07T13:25:22Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxYjRkNzQ5MC0yZGYwLTQxNzQtOTBkYS0xOTY4Y2YyY2NmNTAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -671,14 +671,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50/5",
+      "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50/7",
       "method": "GET"
     },
     "draft/create": {
