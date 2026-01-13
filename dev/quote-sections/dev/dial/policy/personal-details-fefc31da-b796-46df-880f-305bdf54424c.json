@@ -789,12 +789,7 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "IdSelect",
-                    "route": {
-                      "baseRoute": "policy",
-                      "pageRoute": "email-address",
-                      "sectionRoute": "personal-details",
-                      "goToStart": false
-                    },
+                    "route": null,
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -876,12 +871,7 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Next",
-                    "route": {
-                      "baseRoute": "policy",
-                      "pageRoute": "email-address",
-                      "sectionRoute": "personal-details",
-                      "goToStart": false
-                    },
+                    "route": null,
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -2010,7 +2000,7 @@
     }
   },
   "created": "2024-08-06T12:22:12Z",
-  "lastModified": "2025-12-29T15:09:55Z",
+  "lastModified": "2026-01-13T10:54:41Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmZWZjMzFkYS1iNzk2LTQ2ZGYtODgwZi0zMDViZGY1NDQyNGMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2090,14 +2080,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 22,
+  "version": 23,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c/21",
+      "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c/22",
       "method": "GET"
     },
     "draft/create": {
