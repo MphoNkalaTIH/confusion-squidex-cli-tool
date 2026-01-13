@@ -81,7 +81,7 @@
                     "label": "ID number",
                     "helperText": "All reasonable safeguards have been taken to secure and protect your personal information.",
                     "placeholderText": "Please complete",
-                    "formControlName": "idNumber",
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "ID number is required",
@@ -92,7 +92,8 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    }
+                    },
+                    "formControlName": "idNumber"
                   }
                 },
                 {
@@ -193,7 +194,7 @@
                     "label": "Passport number",
                     "helperText": "Your information is secure.",
                     "placeholderText": "Please complete",
-                    "formControlName": "idNumber",
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Passport number is required",
@@ -204,7 +205,8 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    }
+                    },
+                    "formControlName": "idNumber"
                   }
                 },
                 {
@@ -856,7 +858,7 @@
                     "label": "Date of birth",
                     "helperText": null,
                     "placeholderText": "Day/Month/Year",
-                    "formControlName": null,
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -867,7 +869,8 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    }
+                    },
+                    "formControlName": null
                   }
                 },
                 {
@@ -930,7 +933,7 @@
                     "label": "Name",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "formControlName": "name",
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Name is required",
@@ -941,7 +944,8 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    }
+                    },
+                    "formControlName": "name"
                   }
                 },
                 {
@@ -952,7 +956,7 @@
                     "label": "Surname",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "formControlName": "surname",
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Surname is required",
@@ -963,7 +967,8 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    }
+                    },
+                    "formControlName": "surname"
                   }
                 },
                 {
@@ -1054,7 +1059,7 @@
                     "label": "Cellphone number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "formControlName": "phone",
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Phone number is required",
@@ -1065,7 +1070,8 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    }
+                    },
+                    "formControlName": "phone"
                   }
                 },
                 {
@@ -1188,7 +1194,7 @@
                     "label": "Email Address",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "formControlName": "emailAddress",
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Email address is required",
@@ -1199,7 +1205,8 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    }
+                    },
+                    "formControlName": "emailAddress"
                   }
                 },
                 {
@@ -1421,8 +1428,10 @@
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Update",
                     "route": {
+                      "baseRoute": "policy",
                       "pageRoute": "confirm-details",
-                      "sectionRoute": "personal-details"
+                      "sectionRoute": "personal-details",
+                      "goToStart": false
                     },
                     "url": null,
                     "condition": {
@@ -1440,14 +1449,18 @@
                       "routeArray": [
                         {
                           "route": {
+                            "baseRoute": "policy",
                             "pageRoute": "unemployed-status",
-                            "sectionRoute": "personal-details"
+                            "sectionRoute": "personal-details",
+                            "goToStart": false
                           }
                         },
                         {
                           "route": {
+                            "baseRoute": "policy",
                             "pageRoute": "confirm-details",
-                            "sectionRoute": "personal-details"
+                            "sectionRoute": "personal-details",
+                            "goToStart": false
                           }
                         }
                       ],
@@ -1468,8 +1481,10 @@
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Next",
                     "route": {
+                      "baseRoute": "policy",
                       "pageRoute": "workdays-from-home",
-                      "sectionRoute": "personal-details"
+                      "sectionRoute": "personal-details",
+                      "goToStart": false
                     },
                     "url": null,
                     "condition": {
@@ -1487,14 +1502,18 @@
                       "routeArray": [
                         {
                           "route": {
+                            "baseRoute": "policy",
                             "pageRoute": "unemployed-status",
-                            "sectionRoute": "personal-details"
+                            "sectionRoute": "personal-details",
+                            "goToStart": false
                           }
                         },
                         {
                           "route": {
+                            "baseRoute": "policy",
                             "pageRoute": "workdays-from-home",
-                            "sectionRoute": "personal-details"
+                            "sectionRoute": "personal-details",
+                            "goToStart": false
                           }
                         }
                       ],
@@ -1949,7 +1968,7 @@
                     "label": "Replacement value",
                     "helperText": null,
                     "placeholderText": "0",
-                    "formControlName": "insuredValue",
+                    "required": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Replacement value is required",
@@ -1960,7 +1979,8 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    }
+                    },
+                    "formControlName": "insuredValue"
                   }
                 },
                 {
@@ -2009,7 +2029,7 @@
     }
   },
   "created": "2024-08-23T10:52:14Z",
-  "lastModified": "2025-09-11T11:45:23Z",
+  "lastModified": "2026-01-08T13:06:25Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NWY1YmE5Ni04MjRkLTQ3MzgtOWIwMS05OWRhZmIzNDNjODYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -2089,14 +2109,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/6",
+      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/7",
       "method": "GET"
     },
     "draft/create": {

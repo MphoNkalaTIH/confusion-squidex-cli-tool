@@ -122,7 +122,7 @@
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
-                      "pageRoute": "suburb"
+                      "pageRoute": "residential-address"
                     },
                     "url": null,
                     "img": null,
@@ -141,7 +141,7 @@
     }
   },
   "created": "2024-08-05T07:19:42Z",
-  "lastModified": "2025-06-06T08:19:56Z",
+  "lastModified": "2025-11-20T08:44:54Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyZjQwOGZmMy03YjM3LTQ0MGEtYTlmNC1iNjdhYTQ3YjkyNjYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -221,14 +221,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/2f408ff3-7b37-440a-a9f4-b67aa47b9266",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/2f408ff3-7b37-440a-a9f4-b67aa47b9266/2",
+      "href": "/api/content/con-fusion/quote-sections/2f408ff3-7b37-440a-a9f4-b67aa47b9266/3",
       "method": "GET"
     },
     "draft/create": {

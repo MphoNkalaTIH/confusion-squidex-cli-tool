@@ -42,194 +42,6 @@
     "pages": {
       "iv": [
         {
-          "name": "Risk address page",
-          "route": "risk-address",
-          "pageBase": null,
-          "pageDisabled": null,
-          "hideTrackbar": null,
-          "hideBackButton": null,
-          "excludeFromTrackbar": null,
-          "showPremiumBanner": true,
-          "slidePremiumBanner": null,
-          "doManualCalculations": null,
-          "isDropOffAnchorPoint": true,
-          "flowEntryPoint": null,
-          "minifyTrackbar": null,
-          "applyTransparentHeader": null,
-          "readonly": null,
-          "createLead": null,
-          "additionalData": null,
-          "components": [
-            {
-              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
-              "selector": "risk-address-page",
-              "moduleName": "FinaliseDetailsModule",
-              "standaloneComponent": null,
-              "formItems": [
-                {
-                  "id": "txtContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4>You told us that the home where your car is normally parked, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
-                  }
-                },
-                {
-                  "id": "txtContentHomeContents",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"mb-5 font-normal text-sm md:text-base\">You told us that the home where your home contents is kept, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>",
-                    "htmlEvents": []
-                  }
-                },
-                {
-                  "id": "btnNext",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
-                    "route": null,
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": null,
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
-                },
-                {
-                  "id": "txtStreet",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Street address",
-                    "helperText": "eg. 1 Waltham Drive",
-                    "placeholderText": "Please complete",
-                    "formControlName": "address1",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": "Street address is required",
-                      "invalidErrorMessage": "Street address is invalid",
-                      "maxLength": 40,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": true
-                    }
-                  }
-                },
-                {
-                  "id": "txtComplexOrBuilding",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Complex / building (optional)",
-                    "helperText": "Complex or building name, unit number or floor",
-                    "placeholderText": "Please complete",
-                    "formControlName": "address2",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": "Name of the Complex or building is required",
-                      "invalidErrorMessage": "Name of the Complex or building is invalid",
-                      "maxLength": 40,
-                      "minLength": null,
-                      "isRequired": null,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": true
-                    }
-                  }
-                },
-                {
-                  "id": "txtSuburb",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Suburb",
-                    "helperText": "Home area / suburb",
-                    "placeholderText": "Please complete",
-                    "formControlName": "suburbName",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": null,
-                      "invalidErrorMessage": null,
-                      "maxLength": null,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": null
-                    }
-                  }
-                },
-                {
-                  "id": "txtCityOrTown",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "City / Town",
-                    "helperText": "",
-                    "placeholderText": "Please complete",
-                    "formControlName": "city",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": "City or town name is required",
-                      "invalidErrorMessage": "City or town name is invalid",
-                      "maxLength": null,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": true,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": true
-                    }
-                  }
-                },
-                {
-                  "id": "txtPostalCode",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Postal code",
-                    "helperText": "",
-                    "placeholderText": "Please complete",
-                    "formControlName": "postCode",
-                    "validation": {
-                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
-                      "requiredErrorMessage": null,
-                      "invalidErrorMessage": null,
-                      "maxLength": null,
-                      "minLength": null,
-                      "isRequired": true,
-                      "isWhiteSpace": null,
-                      "isRequiredTrue": null,
-                      "validateSpecialCharacters": null
-                    }
-                  }
-                },
-                {
-                  "id": "btnConfirm",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Confirm",
-                    "route": null,
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "Payment Method",
           "route": "payment-method",
           "pageBase": null,
@@ -240,7 +52,7 @@
           "showPremiumBanner": true,
           "slidePremiumBanner": null,
           "doManualCalculations": null,
-          "isDropOffAnchorPoint": null,
+          "isDropOffAnchorPoint": true,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
@@ -2601,7 +2413,7 @@
     }
   },
   "created": "2024-08-05T07:19:48Z",
-  "lastModified": "2025-10-15T15:05:52Z",
+  "lastModified": "2026-01-08T13:06:25Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmNGQ2ZDZmOC01OTdiLTRlNmUtYTczYy02MjU5MzdiOWUzMjYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -2681,14 +2493,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 8,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/7",
+      "href": "/api/content/con-fusion/quote-sections/f4d6d6f8-597b-4e6e-a73c-625937b9e326/9",
       "method": "GET"
     },
     "draft/create": {

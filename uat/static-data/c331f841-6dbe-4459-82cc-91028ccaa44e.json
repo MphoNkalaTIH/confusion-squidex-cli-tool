@@ -1,7 +1,7 @@
 {
   "id": "c331f841-6dbe-4459-82cc-91028ccaa44e",
   "createdBy": "client:con-fusion-static-data:pipeline",
-  "lastModifiedBy": "subject:633adf149d5e4c4ea8ecedaa",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
   "data": {
     "name": {
       "iv": "Home Contents Cover"
@@ -25,10 +25,11 @@
           "index": 1,
           "copy": "Extended cover",
           "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include \r\n    the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Theft</b>\r\n<ul class=\"mx-4\">\r\n    <li>Your guests' belongings</li>\r\n    <li>Your domestic employee's belongings</li>\r\n    <li>Stolen washing and garden furniture</li>\r\n    <li>Money stolen from your home</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Accidental mirror and glass breakage</li>\r\n    <li>Loss and damage of locks and keys</li>\r\n    <li>Accidental breakage of television</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire or break-in at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
+          "class": null,
           "image": [
             "f67bc2a0-0058-4640-ab3a-587289742632"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -39,7 +40,6 @@
               "image": [
                 "3cc7730d-1d85-4fad-aef5-703267a44bbf"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -51,7 +51,6 @@
               "image": [
                 "123800a3-eaca-4dce-b80e-4c0a02354539"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -63,7 +62,6 @@
               "image": [
                 "46db1bcc-8cc2-4795-94df-cb166cbc464f"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -75,22 +73,20 @@
               "image": [
                 "f5b16981-5613-4c6e-9ede-3340de95ff9a"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "ExtendedCoverFireAndStorm",
           "index": 1,
           "copy": "Extended cover",
           "description": "<p>\r\n    We will also extend the insurance under your home contents cover to include the following:\r\n</p>\r\n\r\n<br/>\r\n\r\n<b>Natural disaster & fire</b>\r\n<ul class=\"mx-4\">\r\n    <li>Rent to live elsewhere</li>\r\n    <li>Fire brigade charges</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Damage to property</b>\r\n<ul class=\"mx-4\">\r\n    <li>Food that deteriorates</li>\r\n    <li>Loss of personal documents, coins and stamps</li>\r\n    <li>Belongings in a removal truck</li>\r\n    <li>Damage or loss of washing and garden furniture</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Liability</b>\r\n<ul class=\"mx-4\">\r\n    <li>Tenants liability</li>\r\n    <li>Liability as a householder</li>\r\n    <li>Liability to domestic employees</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Other</b>\r\n<ul class=\"mx-4\">\r\n    <li>A hole-in-one / bowling full-house</li>\r\n    <li>You or your spouse's death due to fire or break-in at home</li>\r\n    <li>Medical expenses</li>\r\n    <li>Veterinary expenses</li>\r\n</ul>",
+          "class": null,
           "image": [
             "f67bc2a0-0058-4640-ab3a-587289742632"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -101,7 +97,6 @@
               "image": [
                 "3cc7730d-1d85-4fad-aef5-703267a44bbf"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -113,7 +108,6 @@
               "image": [
                 "123800a3-eaca-4dce-b80e-4c0a02354539"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -125,7 +119,6 @@
               "image": [
                 "46db1bcc-8cc2-4795-94df-cb166cbc464f"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -133,26 +126,24 @@
               "brand": "virseker",
               "index": 1,
               "copy": "Uitgebreide dekking",
-              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit:</p>\r\n\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Skade of verlies van wasgoed en tuinmeubels</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand of inbraak tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
+              "description": "<br/>\r\n\r\n<p>Ons sal ook die versekering onder jou huisinhouddekking uitbrei om die volgende in te sluit:</p>\r\n\r\n\r\n<b>Natuurrampe & brande</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huur om elders te woon</li>\r\n    <li>Brandweerkoste</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Skade aan eiendom</b>\r\n<ul class=\"mx-4\">\r\n    <li>Kos wat sleg word</li>\r\n    <li>Verlies van persoonlike dokumente, muntstukke en seëls</li>\r\n    <li>Besittings in 'n treklorrie</li>\r\n    <li>Skade of verlies van wasgoed en tuinmeubels</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Aanspreeklikheid</b>\r\n<ul class=\"mx-4\">\r\n    <li>Huurdersaanspreeklikheid</li>\r\n    <li>Aanspreeklikheid as 'n huisbewoner</li>\r\n    <li>Aanspreeklikheid teenoor huishoudelike werkers</li>\r\n</ul>\r\n\r\n<br/>\r\n\r\n<b>Ander</b>\r\n<ul class=\"mx-4\">\r\n    <li>'n Gholfkolhou / rolbal voltal</li>\r\n    <li>Jou of jou eggenoot se dood as gevolg van brand tuis</li>\r\n    <li>Mediese uitgawes</li>\r\n    <li>Veearts uitgawes</li>\r\n</ul>",
               "image": [
                 "f5b16981-5613-4c6e-9ede-3340de95ff9a"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "SecureFire",
           "index": 2,
           "copy": "Fire assist services",
           "description": "<p>\n    Fidelity ADT SecureFire fire brigade will be dispatched to your home when \n    alerted of a fire incident. Responders will arrive in efficient time to \n    attempt to contain the blaze and minimize potential losses. With our \n    partnership, you can rest assured that your home is in safe hands, and any \n    fire-related damages will be swiftly mitigated.\n</p>",
+          "class": null,
           "image": [
             "3fa3e505-cc56-4b2b-8c32-9ee175dd1dd9"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -163,22 +154,20 @@
               "image": [
                 "423a0877-084f-4760-a059-5d519600eccb"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "EmergencyAssistServices",
           "index": 3,
           "copy": "Emergency assist services",
           "description": "<p>\n    Home emergencies shouldn’t cost a fortune. We’ll pay for the call-out fee plus \n    one hour’s labour if you have an emergency that requires an electrician, \n    locksmith, glazier, or plumber.\n</p>\n\n<p>\n   We also offer legal, medical, trauma and entertainment assist services. \n</p>\n",
+          "class": null,
           "image": [
             "f9e6e697-1080-41b0-ac34-45f1df36ca6d"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -189,7 +178,6 @@
               "image": [
                 "41ba7ef0-b2d5-4dfa-832e-5480440314ee"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -201,7 +189,6 @@
               "image": [
                 "486cae64-eede-416e-9dc1-5cae0cb17e2a"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -213,7 +200,6 @@
               "image": [
                 "839da73b-1218-4319-a032-f90fd6824bf0"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -225,22 +211,20 @@
               "image": [
                 "953d27d8-5dc8-48b5-b955-4ce8c6481f65"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "SecurityGuardProtection",
           "index": 4,
           "copy": "Security guard protection",
           "description": "<p>\n    Security will be dispatched to guard your building following an incident of \n    loss or damage in the event that security measures cannot be corrected \n    immediately.\n</p>",
+          "class": null,
           "image": [
             "5c262743-b7dc-4b80-8c02-7e6ed6ccd58e"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -251,7 +235,6 @@
               "image": [
                 "0a840c71-cd57-4b63-b7e6-cb544dc61bfc"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -263,7 +246,6 @@
               "image": [
                 "098c06c7-04c0-4b35-8579-edb4c223448e"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -275,7 +257,6 @@
               "image": [
                 "2125fc86-b3e2-400f-93e7-15233b04c43a"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -287,22 +268,20 @@
               "image": [
                 "1d79900c-3105-4432-8c99-f11039b4f282"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "UnspecifiedPortablePossessions",
           "index": 5,
           "copy": "R{{indemnityMinimum}} unspecified portable possessions cover",
           "description": "<p>\n    R{{indemnityMinimum}} cover for unspecified items you take out of your home worth less\n    than R{{itemMax}} per item. This excludes cellphones, bicycles and prescription\n    glasses/contact lenses.\n</p>",
+          "class": null,
           "image": [
             "ffe5868f-ff6d-4858-ac1b-2d4e01ce1ae3"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -313,7 +292,6 @@
               "image": [
                 "c1ea9ac8-b58e-4e04-a1d2-fd6049017220"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -325,7 +303,6 @@
               "image": [
                 "f92c8405-ecd1-4ab8-8d25-282eaf038e05"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -337,7 +314,6 @@
               "image": [
                 "fd679ede-a909-491a-905f-76283ecb7e12"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -349,22 +325,20 @@
               "image": [
                 "7743c263-b699-454b-8857-6949d1101e8e"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "LiabilityCover2M",
           "index": 5,
           "copy": "R2 million householder liability cover",
           "description": "<p>\n\tThis covers accidental death, loss, or injury to any person except you, your \n\temployees or family members living with you, for incidents at the insured \n\taddress for which you are legally liable.\n</p>",
+          "class": null,
           "image": [
             "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -375,7 +349,6 @@
               "image": [
                 "74407e66-8a35-41d0-9666-39c0c11ac160"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -387,7 +360,6 @@
               "image": [
                 "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -399,7 +371,6 @@
               "image": [
                 "4b9d4bde-04f4-478f-a19f-80419ea49036"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -411,22 +382,20 @@
               "image": [
                 "a36b3ff1-216c-4d55-afc2-2391698ed083"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "Sasria",
           "index": 6,
           "copy": "SASRIA",
           "description": "<p>\n    Cover against risks such as civil commotion, public disorder, strikes, riots \n    and terrorism in South Africa.\n</p>",
+          "class": null,
           "image": [
             "ce7d484f-3ce8-4fd2-ab2d-acb32af8168c"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -437,7 +406,6 @@
               "image": [
                 "314a4c9d-012c-4f3d-a8e7-c84cbe82e1c8"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -449,7 +417,6 @@
               "image": [
                 "e550a4a5-dade-4fcb-b3ea-6e9a04bff14e"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -461,7 +428,6 @@
               "image": [
                 "aaf84b0e-a0d9-46c3-bbee-3350060da74d"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -473,22 +439,20 @@
               "image": [
                 "fdadf098-19db-4a82-8ddd-29910a99bd9e"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "LiabilityCover5M",
           "index": 7,
           "copy": "Increase householder liability cover to R5 million",
           "description": "<p>\n\tSelect this option to increase your householder liability cover amount from \n\tR2 million to R5 million. This covers accidental death, loss, or injury to any \n\tperson except you, your employees or family members living with you, for incidents \n\tat the insured address for which you are legally liable.\n</p>\n<p>\n    Once your policy is active, higher liability cover is available through our \n    call centre.\n</p>",
+          "class": null,
           "image": [
             "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -499,7 +463,6 @@
               "image": [
                 "74407e66-8a35-41d0-9666-39c0c11ac160"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -511,7 +474,6 @@
               "image": [
                 "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -523,7 +485,6 @@
               "image": [
                 "c404716e-6bd2-4928-82b0-6d1110c44882"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -535,22 +496,20 @@
               "image": [
                 "a36b3ff1-216c-4d55-afc2-2391698ed083"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "LiabilityCover10M",
           "index": 8,
           "copy": "Increase householder liability cover to R10 million",
           "description": "<p>\n    You selected to increase your householder liability cover amount to a maximum \n    of R10 million, instead of the default of R2 million. This covers accidental \n    death, loss, or injury to any person except you, your employees or family \n    members living with you, for incidents at the insured address for which you \n    are legally liable.\n</p>\n<p>\n    Once your policy is active, higher liability cover is available through our \n    call centre.\n</p>",
+          "class": null,
           "image": [
             "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -561,7 +520,6 @@
               "image": [
                 "74407e66-8a35-41d0-9666-39c0c11ac160"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -573,7 +531,6 @@
               "image": [
                 "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -585,22 +542,20 @@
               "image": [
                 "a36b3ff1-216c-4d55-afc2-2391698ed083"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "LiabilityCover20M",
           "index": 9,
           "copy": "Increase householder liability cover to R20 million",
           "description": "<p>\n    You selected to increase your householder liability cover amount to a maximum \n    of R20 million, instead of the default of R2 million. This covers accidental \n    death, loss, or injury to any person except you, your employees or family \n    members living with you, for incidents at the insured address for which you \n    are legally liable.\n</p>\n<p>\n    Once your policy is active, you can amend your cover limit through our call centre.\n</p>",
+          "class": null,
           "image": [
             "93b20a4c-c5c8-451f-bfae-ff95501dcdad"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -611,7 +566,6 @@
               "image": [
                 "74407e66-8a35-41d0-9666-39c0c11ac160"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -623,7 +577,6 @@
               "image": [
                 "0dd09be5-9be9-4c2a-a532-f4a1e2c0bd51"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -635,22 +588,20 @@
               "image": [
                 "a36b3ff1-216c-4d55-afc2-2391698ed083"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "UnspecifiedPortablePossessionsBuyUp",
           "index": 10,
           "copy": "Unspecified portable possessions cover",
           "description": "<p>\n    You have selected <span class=\"font-bold\">R{{insuredValue}}</span> cover for unspecified portable \n    possessions you take out of your home, worth less than R{{itemMax}} per item. \n    This cover excludes cellphones, bicycles, and prescription glasses/contact \n    lenses. Included in this amount is the R{{indemnityMinimum}} unspecified portable \n    possessions cover that is a standard feature of all home contents policies.\n</p>\n<p>\n    Once your policy is active, you can amend your cover amount through our call \n    centre.\n</p>",
+          "class": null,
           "image": [
             "ffe5868f-ff6d-4858-ac1b-2d4e01ce1ae3"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -661,7 +612,6 @@
               "image": [
                 "f92c8405-ecd1-4ab8-8d25-282eaf038e05"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -673,7 +623,6 @@
               "image": [
                 "7743c263-b699-454b-8857-6949d1101e8e"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -685,7 +634,6 @@
               "image": [
                 "c1ea9ac8-b58e-4e04-a1d2-fd6049017220"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -695,24 +643,22 @@
               "copy": "Ongespesifiseerde draagbare besittings dekking",
               "description": "<p>\n    Jy het <span class=\"font-bold\">R{{insuredValue}}</span> se dekking gekies vir \n    ongespesifiseerde draagbare besittings wat jy uit jou woning neem, met ŉ waarde van minder as R{{itemMax}} per item. \n    Hierdie dekking sluit selfone, fietse en voorskrif brille/kontaklense uit. \n    Ingesluit in hierdie bedrag is R{{indemnityMinimum}} se ongespesifiseerde \n    draagbare besittings dekking wat ŉ standaard kenmerk van alle huisinhoud polisse is.\n</p>\n<p>\n    Sodra jou polis aktief is, kan jy jou dekkingsbedrag deur ons kontaksentrum wysig.\n</p>",
               "image": [
-                "1263fc59-9aa3-4411-8b8b-a666cbdad4a5"
+                "025710e1-1509-4eb1-a139-8506e9bfa240"
               ],
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "HandbagCover",
           "index": 11,
           "copy": "R25 000 handbag cover",
           "description": "<p>\n    R25 000 cover for loss, damage, and theft of your handbag and for all the goodies you keep in there, because our Home Contents Insurance is specifically designed for women.\n</p>",
+          "class": null,
           "image": [
             "455a32af-f96d-4d2e-82ff-55dc60ba6f3d"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -721,22 +667,20 @@
               "copy": null,
               "description": null,
               "image": null,
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "GuardianAngelOnCall",
           "index": 12,
           "copy": "Guardian Angel on Call: Panic button",
           "description": "<p>\r\n\tA Guardian Angel on Call benefit, available through the 1st for Women app. \r\n\tThe panic button alerts external help during emergencies or whenever you \r\n\tfeel unsafe. You can share the benefit with up to five family and household \r\n\tmembers.\r\n</p>\r\n\r\n<p>\r\n\tOther benefits include:\r\n</p>\r\n\r\n<p>\r\n\t<b>Stand by Me</b><br>\r\n\tA service that enables the call centre to provide tips and send \r\n\tassistance when you feel unsafe to wait with you until help arrives.\r\n</p>\r\n\r\n<p>\r\n\t<b>Lift</b><br>\r\n\tOne lift per event will be arranged to take you from the place you're \r\n\tbeing assisted to a place of safety in the event of an accident or vehicle \r\n\tbreakdown.\r\n</p>\r\n\r\n<p>\r\n\t<b>Medical Assist</b><br>\r\n\tA trained and qualified emergency medical agent will answer your call in \r\n\tthe event of an emergency and assist you.\r\n</p>\r\n\r\n<p>\r\n\t<b>Trip Monitoring</b><br>\r\n\tA service that allows your trip to be monitored by our call centre so \r\n\tyou can reach your destination safely.\r\n</p>",
+          "class": null,
           "image": [
             "291c09b7-852c-41bc-98de-930f479cefc3"
           ],
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -745,18 +689,15 @@
               "copy": null,
               "description": null,
               "image": null,
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         }
       ]
     }
   },
   "created": "2024-10-14T12:24:27Z",
-  "lastModified": "2025-10-24T13:41:59Z",
+  "lastModified": "2025-11-20T08:45:35Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjMzMxZjg0MS02ZGJlLTQ0NTktODJjYy05MTAyOGNjYWE0NGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -787,14 +728,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 20,
+  "version": 22,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/19",
+      "href": "/api/content/con-fusion-static-data/static-data/c331f841-6dbe-4459-82cc-91028ccaa44e/21",
       "method": "GET"
     },
     "draft/create": {

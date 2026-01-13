@@ -4,7 +4,7 @@
   "lastModifiedBy": "client:con-fusion-static-data:pipeline",
   "data": {
     "name": {
-      "iv": "Insured value variant"
+      "iv": "Insured values"
     },
     "filter": {
       "iv": null
@@ -38,7 +38,49 @@
               "index": null,
               "copy": "As jy sou eis, sal jou kar gedek wees vir die algemene waarde waarvoor jou kar tans verkoop sou word.",
               "description": "Markwaarde",
-              "image": null,
+              "image": [
+                "020b3dc8-84e8-41c8-8c18-b71e51b447a3",
+                "fc094891-35fb-4ee5-ad0e-85ca7cec4234",
+                "a96a4207-6084-490f-aea5-5033cc95377b"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a2d4afbf-f367-4cfc-916f-3485cb622eec",
+                "faedb519-d555-443a-8382-c4a8a69b8352",
+                "3c032690-e12a-4205-b029-0f75317c4e44"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": [
+                "46e03f65-1a94-4944-a0ba-35c45c1728c1",
+                "3892f4d9-9e5a-49c0-b02e-3503595fe962",
+                "0dfba070-03db-4a1d-abe8-73d3e2b2bf34"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 0,
+              "copy": null,
+              "description": null,
+              "image": [
+                "c003ce17-0bb3-48ea-952a-60e39fbd7414",
+                "4dfe468d-bb1d-4484-9b58-5720353202ab"
+              ],
               "copyOverrides": []
             }
           ]
@@ -60,7 +102,42 @@
               "index": null,
               "copy": "Ons betaal die bedrag uit wat jy by ŉ motorhandelaar vir jou kar sou betaal. Dit lok ŉ hoër premie, maar beteken ook dat jy ŉ hoër uitbetaling sal ontvang wanneer jy ŉ eis instel.",
               "description": "Herverkoopswaarde",
-              "image": null,
+              "image": [
+                "57dc7811-dc1d-4690-9a15-847143cab5c0"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "7518f1ec-33b6-44a1-942c-0f4c587e6f94"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "63f2e985-b6ab-4e59-b2e5-432d6d41459c"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "bc4bab76-4e6f-4b7d-953f-bbd3366bc889"
+              ],
               "copyOverrides": []
             }
           ]
@@ -82,7 +159,9 @@
               "index": null,
               "copy": "Ons sal jou kar uitbetaal of dit met dieselfde model wat een jaar nuwer is, vervang as jou kar afgeskryf word. As daar geen nuwer model beskikbaar is nie, sal ons 15% meer as jou kar se herverkoopswaarde uitbetaal.",
               "description": "BeterKar",
-              "image": null,
+              "image": [
+                "40e786b8-8233-443c-9334-075aaa5fab38"
+              ],
               "copyOverrides": []
             },
             {
@@ -91,7 +170,31 @@
               "index": null,
               "copy": "We will pay out for, or replace, your car with the same model that is one year newer than your insured car, in the event of a write off (this excludes theft related claims). If there’s no newer model of the car, we will pay out 15% more than your car’s retail value.",
               "description": "BetterCar",
-              "image": null,
+              "image": [
+                "39476cd0-84a5-42aa-9b72-f2507dab8770"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f5cd1051-8c6b-4727-bc34-c6a6996bf9fd"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a6d08bf8-c778-49b4-9f9b-ec04175b64f9"
+              ],
               "copyOverrides": []
             }
           ]
@@ -113,7 +216,42 @@
               "index": null,
               "copy": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar. Dit sal jou die laagste moontlike premie bied, maar ook die laagste uitbetaling wanneer jy ŉ eis instel.",
               "description": "Inruilwaarde",
-              "image": null,
+              "image": [
+                "f003d478-2b5d-43f9-9de7-a03c7a6ab640"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "a505b119-cd8d-49fe-a0b2-1c4d7c4f5b88"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "f76ad1b6-92db-4db5-be76-0e00805ca8eb"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "1596e7d1-e850-432a-af61-5bb7bb417201"
+              ],
               "copyOverrides": []
             }
           ]
@@ -122,7 +260,7 @@
     }
   },
   "created": "2025-09-11T11:46:09Z",
-  "lastModified": "2025-09-11T11:46:09Z",
+  "lastModified": "2026-01-08T13:07:27Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJjYTBmZjkyMi01YjkyLTQ2NDAtOTc3Yi01MGNiMjZkNDZkMTIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -153,14 +291,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/0",
+      "href": "/api/content/con-fusion-static-data/static-data/ca0ff922-5b92-4640-977b-50cb26d46d12/1",
       "method": "GET"
     },
     "draft/create": {

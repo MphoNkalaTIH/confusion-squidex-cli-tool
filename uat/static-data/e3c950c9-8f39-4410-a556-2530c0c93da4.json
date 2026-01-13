@@ -4,7 +4,7 @@
   "lastModifiedBy": "client:con-fusion-static-data:pipeline",
   "data": {
     "name": {
-      "iv": "Cover Type Bullets Variant"
+      "iv": "Cover Type Bullets"
     },
     "filter": {
       "iv": null
@@ -24,11 +24,21 @@
           "code": "A",
           "index": null,
           "copy": null,
-          "description": "Theft & hijacking",
+          "description": "Theft",
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Diefstal en kaping",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "A",
@@ -38,7 +48,37 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Kwaadwillige skade",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "A",
+          "index": null,
+          "copy": null,
+          "description": "Hail damage - optional",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Haelskade – opsioneel",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "A",
@@ -48,7 +88,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Brande, vloede, storms, aardbewings en sneeu",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "A",
@@ -58,7 +108,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Skade aan jou kar as gevolg van ŉ ongeluk – dit maak nie saak wie se skuld dit is nie",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "A",
@@ -68,37 +128,57 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Skade wat jou kar aan iemand anders se kar of eiendom veroorsaak waarvoor jy wetlik aanspreeklik is",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "D",
-          "index": null,
+          "index": 0,
           "copy": null,
-          "description": "All Comprehensive cover benefits",
+          "description": "All Comprehensive cover with some added benefits for your 4x4 or SUV cars",
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "D",
-          "index": null,
-          "copy": null,
-          "description": "Off - road accessories fitted to the vehicle & spare wheel",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": "Omvattende dekking met die toegevoegde voordele vir jou 4x4 of sportnutsvoertuig (SUV)",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "B",
           "index": null,
           "copy": null,
-          "description": "Theft & hijacking",
+          "description": "Theft",
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Diefstal en kaping",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "B",
@@ -108,7 +188,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Brand, ontploffings en weerlig",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "B",
@@ -118,7 +208,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Skade wat jou kar aan iemand anders se kar of eiendom veroorsaak waarvoor jy wetlik aanspreeklik is",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "C",
@@ -128,7 +228,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": null,
+              "copy": null,
+              "description": "Skade wat jou kar aan iemand anders se kar of eiendom veroorsaak waarvoor jy wetlik aanspreeklik is",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "J",
@@ -138,7 +248,17 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": "Diefstal ",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "J",
@@ -148,83 +268,203 @@
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "K",
-          "index": 1,
-          "copy": null,
-          "description": "Hail damage",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "K",
-          "index": 2,
-          "copy": null,
-          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": "Skade wat jou kar aan iemand anders se kar of eiendom veroorsaak waarvoor jy wetlik aanspreeklik is",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "L",
           "index": 0,
           "copy": null,
-          "description": "Write-off",
+          "description": "Theft",
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "L",
-          "index": 2,
-          "copy": null,
-          "description": "Limited accident damage",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": "Diefstal",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "L",
           "index": 1,
           "copy": null,
+          "description": "Write-off",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": null,
+              "description": "Afgeskryf",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "L",
+          "index": 2,
+          "copy": null,
           "description": "Hail damage",
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": null,
+              "description": "Haelskade",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         },
         {
           "code": "L",
+          "index": 3,
+          "copy": null,
+          "description": "Limited accident cover",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": null,
+              "description": "Beperkte ongelukskade",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "L",
+          "index": 4,
+          "copy": null,
+          "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 4,
+              "copy": null,
+              "description": "Skade wat jou kar aan iemand anders se kar of eiendom veroorsaak waarvoor jy wetlik aanspreeklik is",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "K",
+          "index": 0,
+          "copy": null,
+          "description": "Theft",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 0,
+              "copy": null,
+              "description": "Diefstal",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "K",
+          "index": 1,
+          "copy": null,
+          "description": "Write-off",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 1,
+              "copy": null,
+              "description": "Afgeskryf",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "K",
+          "index": 2,
+          "copy": null,
+          "description": "Hail damage",
+          "class": null,
+          "image": null,
+          "copyOverrides": [],
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 2,
+              "copy": null,
+              "description": "Haelskade",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
+        },
+        {
+          "code": "K",
           "index": 3,
           "copy": null,
           "description": "Damages caused by your car to another’s car or property for which you’re legally liable",
           "class": null,
           "image": null,
           "copyOverrides": [],
-          "brandOverrides": []
-        },
-        {
-          "code": "K",
-          "index": 0,
-          "copy": null,
-          "description": "Write-off",
-          "class": null,
-          "image": null,
-          "copyOverrides": [],
-          "brandOverrides": []
+          "brandOverrides": [
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "virseker",
+              "index": 3,
+              "copy": null,
+              "description": "Skade wat jou kar aan iemand anders se kar of eiendom veroorsaak waarvoor jy wetlik aanspreeklik is",
+              "image": null,
+              "copyOverrides": []
+            }
+          ]
         }
       ]
     }
   },
   "created": "2025-07-25T06:24:37Z",
-  "lastModified": "2025-09-11T11:46:09Z",
+  "lastModified": "2026-01-08T13:07:27Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJlM2M5NTBjOS04ZjM5LTQ0MTAtYTU1Ni0yNTMwYzBjOTNkYTQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -255,14 +495,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/1",
+      "href": "/api/content/con-fusion-static-data/static-data/e3c950c9-8f39-4410-a556-2530c0c93da4/2",
       "method": "GET"
     },
     "draft/create": {

@@ -1401,7 +1401,8 @@
                 },
                 {
                   "baseRoutes": [
-                    "car-insurance"
+                    "car-insurance",
+                    "policy"
                   ],
                   "group": "Done",
                   "icon": "icon-build-cover",
@@ -1409,7 +1410,8 @@
                   "name": "Build cover",
                   "quoteFlowType": "car-insurance",
                   "routes": [
-                    "build-cover"
+                    "build-cover",
+                    "cashback-details"
                   ]
                 },
                 {
@@ -1423,7 +1425,6 @@
                   "quoteFlowType": "car-insurance",
                   "routes": [
                     "finalise-details",
-                    "cashback-details",
                     "policy-cancellation"
                   ]
                 },
@@ -1452,7 +1453,8 @@
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "spouse-details",
-                    "incident-details"
+                    "incident-details",
+                    "cashback-details"
                   ]
                 },
                 {
@@ -1466,7 +1468,6 @@
                   "quoteFlowType": "home-contents",
                   "routes": [
                     "finalise-details",
-                    "cashback-details",
                     "policy-cancellation"
                   ]
                 },
@@ -1707,7 +1708,7 @@
     }
   },
   "created": "2024-04-23T09:59:58Z",
-  "lastModified": "2025-10-15T15:05:51Z",
+  "lastModified": "2025-11-20T08:44:53Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImZlNTg4ODRkLTRkYWItNDRiNS1iMmU3LWZlYWNkMzlkOWQyYyIsInUiOiJodHRwczovL3NxdWlkZXgtdWF0LnRpaHNhLmNvLnphLyJ9",
@@ -1745,14 +1746,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 12,
+  "version": 13,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/11",
+      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/12",
       "method": "GET"
     },
     "draft/create": {

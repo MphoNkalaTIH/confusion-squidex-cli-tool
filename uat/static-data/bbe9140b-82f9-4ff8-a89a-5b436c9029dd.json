@@ -4,7 +4,7 @@
   "lastModifiedBy": "client:con-fusion-static-data:pipeline",
   "data": {
     "name": {
-      "iv": "Vehicle Uses Variant"
+      "iv": "Vehicle Uses"
     },
     "filter": {
       "iv": null
@@ -32,11 +32,45 @@
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": 1,
+              "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is not used for business and professional purposes.",
+              "description": "Private and/or travelling to work",
+              "image": [
+                "bddcb06b-c325-4e1b-9365-d5b9fe889196"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
-              "index": null,
+              "index": 1,
               "copy": "Die kar word vir sosiale, huishoudelike of plesierdoeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word nie vir besigheid of professionele doeleindes gebruik nie.",
               "description": "Privaat en/of reis na werk",
-              "image": null
+              "image": [
+                "da207b3b-b6af-4160-90d0-1d1097cd3df7"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "256d1433-d73e-4b0c-8508-79b99a267de9"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 1,
+              "copy": null,
+              "description": null,
+              "image": [
+                "256d1433-d73e-4b0c-8508-79b99a267de9"
+              ],
+              "copyOverrides": []
             }
           ]
         },
@@ -52,11 +86,45 @@
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "The car is used for social, domestic or pleasure purposes including travel to and from work. The car is used for up to 10 business/professional trips a month. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use.",
+              "description": "Private and occasional business",
+              "image": [
+                "d874ba88-a1f8-4fb0-84d8-f17dcfe677dd"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
               "index": null,
               "copy": "Die kar word vir sosiale, huishoudelike of plesier doeleindes gebruik, en dit sluit in om werk toe en terug te ry. Die kar word vir tot en met 10 professionele of besigheidsreise gebruik per maand. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik.",
               "description": "Privaat en vir besigheid per geleentheid",
-              "image": null
+              "image": [
+                "ce6fbd06-2a96-4a61-bc97-76ebeca54315"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "083947b0-6602-460f-9617-b2a90e564bd7"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 2,
+              "copy": null,
+              "description": null,
+              "image": [
+                "083947b0-6602-460f-9617-b2a90e564bd7"
+              ],
+              "copyOverrides": []
             }
           ]
         },
@@ -72,11 +140,45 @@
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "autogen",
+              "index": null,
+              "copy": "The car is used to visit clients or to attend work related commitments away from your regular workplace. The car may not be used to do deliveries or to carry fare paying passengers. Only the regular driver and spouse will be covered for business use. The car may also be used for social, domestic or pleasure purposes including travel to and from work.",
+              "description": "Private and full business",
+              "image": [
+                "27585b00-4149-4270-b372-b2bf92844da8"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
               "brand": "virseker",
               "index": null,
               "copy": "Die kar word gebruik om kliënte te besoek of om werkaangeleenthede by te woon wat weg van die gewone werksplek plaasvind. Die kar mag nie vir aflewerings of vervoer van betalende passasiers gebruik word nie. Slegs die hoofbestuurder en lewensmaat sal gedek word vir besigheidsgebruik. Die kar mag ook vir sosiale, huishoudelike of plesierdoeleindes gebruik word, en dit sluit in om werk toe en terug te ry.",
               "description": "Privaat en volle-besigheidsgebruik",
-              "image": null
+              "image": [
+                "e31d6f84-1945-4de2-9fd3-d019feca7b31"
+              ]
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "firstforwomen",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "154f81a0-1aaa-4105-8d81-44afc999d1ab"
+              ],
+              "copyOverrides": []
+            },
+            {
+              "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
+              "brand": "dial",
+              "index": 3,
+              "copy": null,
+              "description": null,
+              "image": [
+                "154f81a0-1aaa-4105-8d81-44afc999d1ab"
+              ],
+              "copyOverrides": []
             }
           ]
         }
@@ -84,7 +186,7 @@
     }
   },
   "created": "2025-09-11T11:46:09Z",
-  "lastModified": "2025-09-11T11:46:09Z",
+  "lastModified": "2026-01-08T13:07:27Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJiYmU5MTQwYi04MmY5LTRmZjgtYTg5YS01YjQzNmM5MDI5ZGQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -115,14 +217,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/0",
+      "href": "/api/content/con-fusion-static-data/static-data/bbe9140b-82f9-4ff8-a89a-5b436c9029dd/1",
       "method": "GET"
     },
     "draft/create": {

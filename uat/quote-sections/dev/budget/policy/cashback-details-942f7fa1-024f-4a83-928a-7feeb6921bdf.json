@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "condition": {
@@ -171,7 +172,7 @@
     }
   },
   "created": "2025-01-23T16:25:43Z",
-  "lastModified": "2025-03-07T08:59:38Z",
+  "lastModified": "2025-11-20T08:44:54Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5NDJmN2ZhMS0wMjRmLTRhODMtOTI4YS03ZmVlYjY5MjFiZGYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -251,14 +252,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf/1",
+      "href": "/api/content/con-fusion/quote-sections/942f7fa1-024f-4a83-928a-7feeb6921bdf/2",
       "method": "GET"
     },
     "draft/create": {

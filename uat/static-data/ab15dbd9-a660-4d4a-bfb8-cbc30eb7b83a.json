@@ -1,7 +1,7 @@
 {
   "id": "ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
   "createdBy": "client:con-fusion-static-data:pipeline",
-  "lastModifiedBy": "subject:6452637037432f0f4f79509c",
+  "lastModifiedBy": "client:con-fusion-static-data:pipeline",
   "data": {
     "name": {
       "iv": "Home Contents Cover Types"
@@ -25,8 +25,9 @@
           "index": 1,
           "copy": "Comprehensive",
           "description": "Cover for theft, loss or damage to home contents caused by fires, natural disasters and/or overflowing water heating systems.",
+          "class": null,
           "image": null,
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -35,20 +36,18 @@
               "copy": "Omvattend",
               "description": "Dekking vir diefstal, verlies of skade aan huisinhoud wat deur brande, natuurrampe en/of oorloop van waterverhittingstoestelle veroorsaak is.",
               "image": null,
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         },
         {
           "code": "F",
           "index": 2,
           "copy": "Fire and Storm Only",
           "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resulting damage, and malicious damage are excluded.",
+          "class": null,
           "image": null,
-          "copyOverride": null,
+          "copyOverrides": [],
           "brandOverrides": [
             {
               "schemaId": "6877451a-989a-4e47-816e-37f59bc36310",
@@ -57,7 +56,6 @@
               "copy": "Slegs Brand en Storm",
               "description": "Dekking vir verlies of skade aan huisinhoud wat deur brande, natuurrampe en/of oorloop van waterverhittingstoestelle veroorsaak is. Diefstal, inbraak, en gevolglike skade, sowel as kwaadwillige skade word uitgesluit.",
               "image": null,
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -67,7 +65,6 @@
               "copy": null,
               "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resultant damage, and malicious damage are excluded.",
               "image": null,
-              "copyOverride": null,
               "copyOverrides": []
             },
             {
@@ -77,18 +74,15 @@
               "copy": null,
               "description": "Cover for loss or damage to home contents caused by fires, natural disasters and overflowing water heating systems. Theft, break-in and resultant damage, and malicious damage are excluded.",
               "image": null,
-              "copyOverride": null,
               "copyOverrides": []
             }
-          ],
-          "copyOverrides": [],
-          "class": null
+          ]
         }
       ]
     }
   },
   "created": "2024-08-23T10:53:20Z",
-  "lastModified": "2025-10-24T06:37:54Z",
+  "lastModified": "2025-11-20T08:45:35Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJhYjE1ZGJkOS1hNjYwLTRkNGEtYmZiOC1jYmMzMGViN2I4M2EiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXVhdC50aWhzYS5jby56YS8ifQ==",
@@ -119,14 +113,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 6,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/5",
+      "href": "/api/content/con-fusion-static-data/static-data/ab15dbd9-a660-4d4a-bfb8-cbc30eb7b83a/6",
       "method": "GET"
     },
     "draft/create": {
