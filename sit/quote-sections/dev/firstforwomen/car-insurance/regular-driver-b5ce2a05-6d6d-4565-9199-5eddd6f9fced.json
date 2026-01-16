@@ -1,7 +1,7 @@
 {
   "id": "b5ce2a05-6d6d-4565-9199-5eddd6f9fced",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "subject:63f357be6e2202b33e09c94d",
+  "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
       "iv": "firstforwomen"
@@ -452,7 +452,7 @@
                     "label": "Issue date",
                     "helperText": null,
                     "placeholderText": "Day/Month/Year",
-                    "required": null,
+                    "formControlName": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -463,8 +463,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": null
+                    }
                   }
                 },
                 {
@@ -900,7 +899,7 @@
                     "label": "ID number",
                     "helperText": "All reasonable safeguards have been taken to secure and protect your personal information.",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "ID number is required",
@@ -911,8 +910,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "idNumber"
+                    }
                   }
                 },
                 {
@@ -939,7 +937,7 @@
                     "label": "Passport number",
                     "helperText": "All reasonable safeguards have been taken to secure and protect your personal information.",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Passport number is required",
@@ -950,8 +948,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "idNumber"
+                    }
                   }
                 },
                 {
@@ -1180,7 +1177,7 @@
                     "label": "Date of birth",
                     "helperText": null,
                     "placeholderText": "Day/Month/Year",
-                    "required": null,
+                    "formControlName": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -1191,8 +1188,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": null
+                    }
                   }
                 },
                 {
@@ -1271,7 +1267,7 @@
                     "label": "Name",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "name",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Name is required",
@@ -1282,8 +1278,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "name"
+                    }
                   }
                 },
                 {
@@ -1294,7 +1289,7 @@
                     "label": "Surname",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "surname",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Surname is required",
@@ -1305,8 +1300,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "surname"
+                    }
                   }
                 },
                 {
@@ -1484,18 +1478,14 @@
                       "routeArray": [
                         {
                           "route": {
-                            "baseRoute": "car-insurance",
-                            "pageRoute": "household-member-unemployed-status",
-                            "sectionRoute": "regular-driver",
-                            "goToStart": false
+                            "pageRoute": "unemployed-status",
+                            "sectionRoute": "regular-driver"
                           }
                         },
                         {
                           "route": {
-                            "baseRoute": "car-insurance",
                             "pageRoute": "household-member-workdays-from-home",
-                            "sectionRoute": "regular-driver",
-                            "goToStart": false
+                            "sectionRoute": "regular-driver"
                           }
                         }
                       ],
@@ -2181,7 +2171,7 @@
                     "label": "Issue date",
                     "helperText": null,
                     "placeholderText": "Day/Month/Year",
-                    "required": null,
+                    "formControlName": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -2192,8 +2182,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": null
+                    }
                   }
                 },
                 {
@@ -2536,7 +2525,7 @@
     }
   },
   "created": "2024-10-14T12:23:35Z",
-  "lastModified": "2026-01-06T08:24:03Z",
+  "lastModified": "2026-01-14T10:44:18Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNWNlMmEwNS02ZDZkLTQ1NjUtOTE5OS01ZWRkZDZmOWZjZWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2616,14 +2605,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b5ce2a05-6d6d-4565-9199-5eddd6f9fced",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b5ce2a05-6d6d-4565-9199-5eddd6f9fced/6",
+      "href": "/api/content/con-fusion/quote-sections/b5ce2a05-6d6d-4565-9199-5eddd6f9fced/7",
       "method": "GET"
     },
     "draft/create": {

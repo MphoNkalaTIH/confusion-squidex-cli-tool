@@ -1,10 +1,10 @@
 {
-  "id": "65f5ba96-824d-4738-9b01-99dafb343c86",
+  "id": "3e3ac38d-15c6-49b0-a481-0c8f6cafabe5",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "subject:63f357be6e2202b33e09c94d",
+  "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
-      "iv": "firstforwomen"
+      "iv": "budget"
     },
     "baseRoute": {
       "iv": "policy"
@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": ""
+      "iv": "contact-details"
     },
     "icon": {
       "iv": "icon-user-details"
@@ -81,7 +81,7 @@
                     "label": "ID number",
                     "helperText": "All reasonable safeguards have been taken to secure and protect your personal information.",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "ID number is required",
@@ -92,8 +92,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "idNumber"
+                    }
                   }
                 },
                 {
@@ -102,7 +101,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": "canProcessInfo",
-                    "text": "By pressing proceed, you consent to 1st for Women processing your personal information for insurance and risk management purposes.",
+                    "text": "By pressing proceed, you consent to Budget processing your personal information for insurance and risk management purposes.",
                     "errorMessage": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
@@ -141,7 +140,7 @@
                         "type": "text",
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n   In order to provide you with the services we are required to process your \n   personal information and will do so lawfully in accordance with our business \n   requirements and legal obligations. \n</p>\n<p>  \n   You acknowledge that the personal information may be verified and / or \n   processed for insurance, financial services and risk management purposes by \n   1st for Women and it’s associates against any other reasonable and legitimate \n   sources or databases to ensure the accuracy and completeness of any personal \n   information.\n</p>\n<p>\n    Pre-populated information displayed is retrieved from legitimate sources as \n    well as our internal database.\n</p>"
+                          "html": "<p>\n    In order to provide you with the services we are required to process your \n    personal information and will do so lawfully in accordance with our business \n    requirements and legal obligations.\n</p>\n<p>   \n    You acknowledge that the personal \n    information may be verified and / or processed for insurance, financial \n    services and risk management purposes by Budget and it’s associates against \n    any other reasonable and legitimate sources or databases to ensure the \n    accuracy and completeness of any personal information.\n</p>\n<p>\n    Pre-populated information displayed is retrieved from legitimate sources as \n    well as our internal database.\n</p>"
                         },
                         "conditionValue": null,
                         "additionalData": null,
@@ -194,7 +193,7 @@
                     "label": "Passport number",
                     "helperText": "Your information is secure.",
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "idNumber",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Passport number is required",
@@ -205,8 +204,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "idNumber"
+                    }
                   }
                 },
                 {
@@ -214,7 +212,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "pageRoute": "confirm-details",
                       "sectionRoute": "personal-details",
@@ -328,11 +326,27 @@
               "standaloneComponent": null,
               "formItems": [
                 {
+                  "id": "btnLogin",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Log in to your dashboard",
+                    "route": null,
+                    "url": "https://www.budgetinsurance.co.za/login",
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": "primary",
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
                   "id": "txtContent",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2 class=\"my-3 text-sub-8 font-normal text-base\">According to our system, you already have a policy with 1st for Women.</h2>\n<h2 class=\"my-3 text-sub-8 font-normal text-base\">To add a new item to your existing policy, call us on <span class=\"font-extrabold\">0861 33 93 39</span>.</h2>",
+                    "html": "<h2 class=\"my-3 font-normal text-base\">According to our system, you already have a policy with Budget.</h2>\n<h2 class=\"my-3 font-normal text-base\">You can add a new item to your existing policy on your dashboard.</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -341,7 +355,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col mt-12 text-sub-8 text-[40px] font-extrabold\"><span>Hi,</span><span>{{name}}!</span></h1>",
+                    "html": "<h1 class=\"flex flex-col mt-12\"><span class=\"text-main-1\">Hi</span><span>{{name}}!</span></h1>",
                     "htmlEvents": []
                   }
                 },
@@ -350,7 +364,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h1 class=\"flex flex-col mt-12 text-sub-8 text-[40px] font-extrabold\">Hi!</h1>",
+                    "html": "<h1 class=\"flex flex-col mt-12 text-main-1\">Hi!</h1>",
                     "htmlEvents": []
                   }
                 }
@@ -447,6 +461,37 @@
                     "route": {
                       "pageRoute": "names",
                       "sectionRoute": "personal-details",
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtGender",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Gender",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditGender",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Edit",
+                    "route": {
+                      "pageRoute": "gender",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false,
                       "baseRoute": "policy"
                     },
                     "url": null,
@@ -574,7 +619,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": null,
-                    "text": "I consent to receive information, including direct marketing from 1st for Women and its associated entities regarding Insurance and related financial products via electronic means.",
+                    "text": "I consent to receive information, including direct marketing from Budget and its associated entities regarding Insurance and related financial products via electronic means.",
                     "errorMessage": null
                   }
                 },
@@ -616,37 +661,6 @@
                     "formControlName": null,
                     "text": "Marketing consent",
                     "errorMessage": null
-                  }
-                },
-                {
-                  "id": "txtGender",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Gender",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "btnEditGender",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Gender",
-                    "route": {
-                      "pageRoute": "gender",
-                      "sectionRoute": "personal-details",
-                      "goToStart": false,
-                      "baseRoute": "policy"
-                    },
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": null,
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
                   }
                 },
                 {
@@ -791,12 +805,7 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "IdSelect",
-                    "route": {
-                      "pageRoute": "names",
-                      "sectionRoute": "personal-details",
-                      "goToStart": false,
-                      "baseRoute": "policy"
-                    },
+                    "route": null,
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -858,7 +867,7 @@
                     "label": "Date of birth",
                     "helperText": null,
                     "placeholderText": "Day/Month/Year",
-                    "required": null,
+                    "formControlName": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": null,
@@ -869,8 +878,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": null
+                    }
                   }
                 },
                 {
@@ -878,7 +886,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -933,7 +941,7 @@
                     "label": "Name",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "name",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Name is required",
@@ -944,8 +952,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "name"
+                    }
                   }
                 },
                 {
@@ -956,7 +963,7 @@
                     "label": "Surname",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "surname",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Surname is required",
@@ -967,8 +974,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "surname"
+                    }
                   }
                 },
                 {
@@ -1004,7 +1010,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1059,7 +1065,7 @@
                     "label": "Cellphone number",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "phone",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Phone number is required",
@@ -1070,8 +1076,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "phone"
+                    }
                   }
                 },
                 {
@@ -1079,7 +1084,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h3 class=\"sub-heading\">Hi {{name}}! Nice to meet you!</h3>\n<h2 class=\"mt-3\">What’s your cellphone number?</h2>"
+                    "html": "<h2>Hi {{name}}! Nice to meet you! What’s your cellphone number?</h2>"
                   }
                 },
                 {
@@ -1087,7 +1092,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1167,7 +1172,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -1183,7 +1188,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What's your email address?</h2>"
+                    "html": "<h2>What's your email address?</2>"
                   }
                 },
                 {
@@ -1194,7 +1199,7 @@
                     "label": "Email Address",
                     "helperText": null,
                     "placeholderText": "Please complete",
-                    "required": null,
+                    "formControlName": "emailAddress",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Email address is required",
@@ -1205,8 +1210,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "emailAddress"
+                    }
                   }
                 },
                 {
@@ -1215,7 +1219,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": "marketingConsent",
-                    "text": "I consent to receive information, including direct marketing from 1st for Women and its associated entities regarding Insurance and related financial products via electronic means.",
+                    "text": "I consent to receive information, including direct marketing from Budget and its associated entities regarding Insurance and related financial products via electronic means.",
                     "errorMessage": null,
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
@@ -1428,10 +1432,8 @@
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Update",
                     "route": {
-                      "baseRoute": "policy",
                       "pageRoute": "confirm-details",
-                      "sectionRoute": "personal-details",
-                      "goToStart": false
+                      "sectionRoute": "personal-details"
                     },
                     "url": null,
                     "condition": {
@@ -1449,18 +1451,14 @@
                       "routeArray": [
                         {
                           "route": {
-                            "baseRoute": "policy",
                             "pageRoute": "unemployed-status",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "sectionRoute": "personal-details"
                           }
                         },
                         {
                           "route": {
-                            "baseRoute": "policy",
                             "pageRoute": "confirm-details",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "sectionRoute": "personal-details"
                           }
                         }
                       ],
@@ -1481,10 +1479,8 @@
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Next",
                     "route": {
-                      "baseRoute": "policy",
                       "pageRoute": "workdays-from-home",
-                      "sectionRoute": "personal-details",
-                      "goToStart": false
+                      "sectionRoute": "personal-details"
                     },
                     "url": null,
                     "condition": {
@@ -1502,18 +1498,14 @@
                       "routeArray": [
                         {
                           "route": {
-                            "baseRoute": "policy",
                             "pageRoute": "unemployed-status",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "sectionRoute": "personal-details"
                           }
                         },
                         {
                           "route": {
-                            "baseRoute": "policy",
                             "pageRoute": "workdays-from-home",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "sectionRoute": "personal-details"
                           }
                         }
                       ],
@@ -1558,10 +1550,9 @@
                       "routeArray": [
                         {
                           "route": {
-                            "baseRoute": "policy",
-                            "pageRoute": "replacement-value",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
                           }
                         },
                         {
@@ -1579,15 +1570,6 @@
                     "class": null,
                     "widthClass": null,
                     "iconClass": null
-                  }
-                },
-                {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "data": [],
-                    "refData": []
                   }
                 },
                 {
@@ -1703,10 +1685,9 @@
                       "routeArray": [
                         {
                           "route": {
-                            "baseRoute": "policy",
-                            "pageRoute": "replacement-value",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
                           }
                         },
                         {
@@ -1724,15 +1705,6 @@
                     "class": null,
                     "widthClass": null,
                     "iconClass": null
-                  }
-                },
-                {
-                  "id": "staticData",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "48c4ac6f-4a29-410f-b5b1-1f3450cf3ba5",
-                    "data": [],
-                    "refData": []
                   }
                 },
                 {
@@ -1830,10 +1802,9 @@
                       "routeArray": [
                         {
                           "route": {
-                            "baseRoute": "policy",
-                            "pageRoute": "replacement-value",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
                           }
                         },
                         {
@@ -1873,10 +1844,9 @@
                       "routeArray": [
                         {
                           "route": {
-                            "baseRoute": "policy",
-                            "pageRoute": "replacement-value",
-                            "sectionRoute": "personal-details",
-                            "goToStart": false
+                            "pageRoute": "access-control",
+                            "sectionRoute": "home-details",
+                            "baseRoute": "home-contents"
                           }
                         },
                         {
@@ -1947,7 +1917,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"font-roman\">The replacement value is what it will cost you to replace all your belongings with new items. If the exact new item cannot be found we will replace it with a similar new item.<br><br>If you claim, we will calculate the replacement value for which you should have insured your home contents. If you insured them for less than that, we will only pay a part of your claim.</h4>",
+                    "html": "<h4 class=\"font-normal\">\n    The replacement value is what it will cost you to replace all your belongings \n    with new items. If the exact new item cannot be found we will replace it with \n    a similar new item.<br><br>If you claim, we will calculate the replacement \n    value for which you should have insured your home contents. If you insured \n    them for less than that, we will only pay a part of your claim.\n</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -1968,7 +1938,7 @@
                     "label": "Replacement value",
                     "helperText": null,
                     "placeholderText": "0",
-                    "required": null,
+                    "formControlName": "insuredValue",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Replacement value is required",
@@ -1979,8 +1949,7 @@
                       "isWhiteSpace": null,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "insuredValue"
+                    }
                   }
                 },
                 {
@@ -2006,7 +1975,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Proceed",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "quote",
@@ -2028,11 +1997,11 @@
       ]
     }
   },
-  "created": "2024-08-23T10:52:14Z",
-  "lastModified": "2026-01-06T08:08:40Z",
+  "created": "2026-01-14T10:44:17Z",
+  "lastModified": "2026-01-14T10:44:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2NWY1YmE5Ni04MjRkLTQ3MzgtOWIwMS05OWRhZmIzNDNjODYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIzZTNhYzM4ZC0xNWM2LTQ5YjAtYTQ4MS0wYzhmNmNhZmFiZTUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -2109,40 +2078,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 1,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/9",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5/0",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/draft",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/status",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86/status",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/65f5ba96-824d-4738-9b01-99dafb343c86",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5",
       "method": "PUT"
     }
   }

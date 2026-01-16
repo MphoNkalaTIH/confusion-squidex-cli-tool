@@ -1,10 +1,10 @@
 {
-  "id": "150a8b5f-9372-416d-968f-9d49d37b9cc8",
+  "id": "c64f4e7e-3952-46dc-a4cc-172c6bea1715",
   "createdBy": "client:con-fusion:pipeline",
   "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
-      "iv": "firstforwomen"
+      "iv": "dial"
     },
     "baseRoute": {
       "iv": "car-insurance"
@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": ""
+      "iv": "contact-details"
     },
     "icon": {
       "iv": null
@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": true,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -353,6 +354,7 @@
           "isDropOffAnchorPoint": true,
           "flowEntryPoint": true,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": true,
           "additionalData": {
@@ -390,7 +392,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal\">Hi!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal\">Get your car insurance quote in minutes.</h1>"
+                    "html": "<p class=\"mb-0 font-normal text-zodiac-blue text-base leading-5 sm:leading-6\">Hi!</p>\n<h1 class=\"text-base mb-6\">Get your car insurance quote in minutes.</h1>"
                   }
                 },
                 {
@@ -398,7 +400,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"font-normal\">\n    1st for Women is dedicated to keeping you and your loved ones safe with access to our in-app Panic Button - a benefit of Guardian Angel on Call.\n</p>\n\n<p class=\"font-normal\">\n    Get your obligation-free online car insurance quote today!\n</p>",
+                    "html": "<p class=\"text-sm leading-4 sm:text-sm sm:leading-5 font-normal text-zodiac-blue\">\n    With Dialdirect, you get more than just a policy. You get help, specific to your needs, and access to awesome benefits, like Tow Truck Direct giving you direct access to the roadside assistance you need, when you need it, direct to your location.\n</p>\n\n<p class=\"text-sm leading-4 sm:text-sm sm:leading-5 mb-6 font-normal text-zodiac-blue\">\n    Get your obligation-free online car insurance quote with us today.\n</p>",
                     "htmlEvents": []
                   }
                 },
@@ -420,32 +422,6 @@
                     "text": "Search for car make",
                     "errorMessage": null
                   }
-                },
-                {
-                  "id": "txtAssistiveText",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Can’t find the car make? Press the button below to proceed.",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "btnCallMeBack",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "CALL ME BACK",
-                    "route": null,
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
                 }
               ]
             }
@@ -454,11 +430,11 @@
       ]
     }
   },
-  "created": "2024-08-05T07:19:42Z",
-  "lastModified": "2024-10-14T12:23:35Z",
+  "created": "2026-01-14T10:44:17Z",
+  "lastModified": "2026-01-14T10:44:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxNTBhOGI1Zi05MzcyLTQxNmQtOTY4Zi05ZDQ5ZDM3YjljYzgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjNjRmNGU3ZS0zOTUyLTQ2ZGMtYTRjYy0xNzJjNmJlYTE3MTUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -535,40 +511,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 1,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8/1",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715/0",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8/draft",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8/status",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8/status",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/150a8b5f-9372-416d-968f-9d49d37b9cc8",
+      "href": "/api/content/con-fusion/quote-sections/c64f4e7e-3952-46dc-a4cc-172c6bea1715",
       "method": "PUT"
     }
   }

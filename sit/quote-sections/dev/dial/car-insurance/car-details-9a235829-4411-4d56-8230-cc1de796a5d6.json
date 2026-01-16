@@ -1,10 +1,10 @@
 {
-  "id": "ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
+  "id": "9a235829-4411-4d56-8230-cc1de796a5d6",
   "createdBy": "client:con-fusion:pipeline",
   "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
-      "iv": "firstforwomen"
+      "iv": "dial"
     },
     "baseRoute": {
       "iv": "car-insurance"
@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": ""
+      "iv": "contact-details"
     },
     "icon": {
       "iv": "icon-vehicle-details"
@@ -172,32 +172,6 @@
                     "text": "Search for car model",
                     "errorMessage": null
                   }
-                },
-                {
-                  "id": "txtAssistiveText",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Can’t find the car model? Press the button below to proceed.",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "btnCallMeBack",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "CALL ME BACK",
-                    "route": null,
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
                 }
               ]
             }
@@ -261,32 +235,6 @@
                     "text": "Search for car type",
                     "errorMessage": null
                   }
-                },
-                {
-                  "id": "txtAssistiveText",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Can’t find the car type? Press the button below to proceed.",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "btnCallMeBack",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "CALL ME BACK",
-                    "route": null,
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
                 }
               ]
             }
@@ -342,7 +290,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What colour is the {{year}} {{make}} {{model}} {{type}}?</h2>\r\n<h4 class=\"text-sub-9\">Can’t find the colour? Choose the closest match.</h4>"
+                    "html": "<h2>What colour is the {{year}} {{make}} {{model}} {{type}}?</h2>\r\n<p class=\"text-tundora font-normal text-sm leading-4 sm:leading-5 pt-2.5\">Can’t find the colour? Choose the closest match.</p>"
                   }
                 },
                 {
@@ -646,21 +594,6 @@
           "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
-          "condition": {
-            "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
-            "code": [
-              "4170136c-415e-499a-b0a6-549a4899daa1"
-            ],
-            "statePropertyPaths": [
-              "quoteController.abTestVariants.defaultCoverType"
-            ],
-            "values": [
-              true
-            ],
-            "route": null,
-            "routeArray": [],
-            "conditionalRouteCode": null
-          },
           "additionalData": null,
           "components": [
             {
@@ -682,7 +615,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Select your preferred cover type</h2>\n<h4 class=\"text-sub-9\">This can be changed later.</h4>"
+                    "html": "<h2>Select your preferred cover type</h2>\n<h4 class=\"text-tundora font-normal text-sm leading-4 sm:leading-5 pt-2.5\">This can be changed later.</h4>"
                   }
                 },
                 {
@@ -767,16 +700,6 @@
                   }
                 },
                 {
-                  "id": "txtVariantTag",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Most popular",
-                    "errorMessage": null
-                  }
-                },
-                {
                   "id": "btnNext",
                   "conditionValue": null,
                   "details": {
@@ -797,7 +720,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Included in this cover type:</h2>",
+                    "html": "<h2 class=\"text-sub-8\">Included in this cover type: </h2>",
                     "htmlEvents": []
                   }
                 }
@@ -825,15 +748,13 @@
           "condition": {
             "schemaId": "3616b1e2-59bf-4496-a02f-d0df3df9b936",
             "code": [
-              "dca50062-1cc9-4d70-b32b-cc6a6c46ff7d"
+              "de9b63bd-a4dd-4670-b80c-4932fb627f60"
             ],
             "statePropertyPaths": [
-              "vehicle.vehicle.coverType.code",
-              "quoteController.abTestVariants.defaultInsuredValue"
+              "vehicle.vehicle.coverType.code"
             ],
             "values": [
-              "D",
-              true
+              "D"
             ],
             "route": null,
             "routeArray": [],
@@ -860,7 +781,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Select your preferred insured value</h2>\n<h4 class=\"text-sub-9\">This can be changed later.</h4>"
+                    "html": "<h2>Select your preferred insured value</h2>\n<h4 class=\"text-tundora font-normal text-sm leading-4 sm:leading-5 pt-2.5\">This can be changed later.</h4>"
                   }
                 },
                 {
@@ -869,36 +790,6 @@
                   "details": {
                     "schemaId": "9fc63d18-4fe4-4108-9c8a-d26e8b61633b",
                     "flag": true
-                  }
-                },
-                {
-                  "id": "variantTagGroup",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "62b8efc3-0223-4167-b24a-06e2060ad5ca",
-                    "isArray": true,
-                    "formItems": [
-                      {
-                        "id": "B",
-                        "conditionValue": null,
-                        "details": {
-                          "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                          "formControlName": null,
-                          "text": "Enhanced value",
-                          "errorMessage": null
-                        }
-                      },
-                      {
-                        "id": "M",
-                        "conditionValue": null,
-                        "details": {
-                          "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                          "formControlName": null,
-                          "text": "Most popular",
-                          "errorMessage": null
-                        }
-                      }
-                    ]
                   }
                 },
                 {
@@ -1583,7 +1474,7 @@
           "doManualCalculations": null,
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": null,
-          "minifyTrackbar": true,
+          "minifyTrackbar": null,
           "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
@@ -1705,7 +1596,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
+                    "html": "<h2>What type of security do you have where the car is parked at night?</h2>\n<h4 class=\"pt-3 pb-1\">Select all that apply</h4>"
                   }
                 },
                 {
@@ -2140,7 +2031,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>\n<h4 class=\"text-sub-9\">Select all that apply</h4>"
+                    "html": "<h2>What type of security do you have where the car is parked during the day?</h2>\n<h4 class=\"pt-3 pb-1\">Select all that apply</h4>"
                   }
                 },
                 {
@@ -2235,11 +2126,11 @@
       ]
     }
   },
-  "created": "2024-08-05T07:19:47Z",
-  "lastModified": "2025-12-19T16:45:47Z",
+  "created": "2026-01-14T10:44:17Z",
+  "lastModified": "2026-01-14T10:44:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJlY2MyMGZhOS00ZWIwLTQxMzItOGZiNS0xYWYyOTYyNmY5YjciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI5YTIzNTgyOS00NDExLTRkNTYtODIzMC1jYzFkZTc5NmE1ZDYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "7255af11-aaac-4c62-9793-a94f4076b565",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -2316,40 +2207,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 13,
+  "version": 1,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/12",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6/0",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/draft",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/status",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7/status",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/ecc20fa9-4eb0-4132-8fb5-1af29626f9b7",
+      "href": "/api/content/con-fusion/quote-sections/9a235829-4411-4d56-8230-cc1de796a5d6",
       "method": "PUT"
     }
   }

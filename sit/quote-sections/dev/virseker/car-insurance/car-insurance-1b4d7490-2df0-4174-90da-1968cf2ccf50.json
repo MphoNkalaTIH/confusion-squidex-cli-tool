@@ -1,7 +1,7 @@
 {
   "id": "1b4d7490-2df0-4174-90da-1968cf2ccf50",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "client:con-fusion:pipeline",
+  "lastModifiedBy": "subject:6901d2c6387c4328e4754abd",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -55,6 +55,7 @@
           "isDropOffAnchorPoint": null,
           "flowEntryPoint": true,
           "minifyTrackbar": null,
+          "applyTransparentHeader": null,
           "readonly": null,
           "createLead": null,
           "additionalData": null,
@@ -426,11 +427,11 @@
           ]
         },
         {
-          "name": "Car Make Page",
+          "name": "Contact Details Page",
           "route": "",
           "pageBase": null,
           "pageDisabled": null,
-          "hideTrackbar": false,
+          "hideTrackbar": true,
           "hideBackButton": true,
           "excludeFromTrackbar": null,
           "showPremiumBanner": null,
@@ -439,36 +440,114 @@
           "isDropOffAnchorPoint": true,
           "flowEntryPoint": true,
           "minifyTrackbar": null,
+          "applyTransparentHeader": true,
           "readonly": null,
           "createLead": true,
-          "additionalData": {
-            "doFilterCall": false
-          },
+          "additionalData": null,
           "components": [
             {
               "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
-              "selector": "car-make-page",
-              "moduleName": "CarDetailsModule",
-              "standaloneComponent": "CarMakePageComponent",
+              "selector": null,
+              "moduleName": null,
+              "standaloneComponent": "ContactDetailsPageComponent",
               "formItems": [
                 {
-                  "id": "btnMake",
+                  "id": "txtName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Naam",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "required": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Hierdie veld is verpligtend",
+                      "invalidErrorMessage": "Ongeldige invoer",
+                      "maxLength": 15,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    },
+                    "formControlName": "name"
+                  }
+                },
+                {
+                  "id": "txtSurname",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Van",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "required": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Hierdie veld is verpligtend",
+                      "invalidErrorMessage": "Ongeldige invoer",
+                      "maxLength": 20,
+                      "minLength": 2,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": true
+                    },
+                    "formControlName": "surname"
+                  }
+                },
+                {
+                  "id": "txtContactNumber",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
+                    "label": "Selfoonnommer",
+                    "helperText": null,
+                    "placeholderText": "Vul asseblief in",
+                    "required": null,
+                    "validation": {
+                      "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
+                      "requiredErrorMessage": "Hierdie veld is verpligtend",
+                      "invalidErrorMessage": "Ongeldige invoer",
+                      "maxLength": 10,
+                      "minLength": 10,
+                      "isRequired": true,
+                      "isWhiteSpace": true,
+                      "isRequiredTrue": null,
+                      "validateSpecialCharacters": null
+                    },
+                    "formControlName": "number"
+                  }
+                },
+                {
+                  "id": "btnProceed",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Make",
+                    "label": "Volgende",
                     "route": {
                       "baseRoute": "car-insurance",
+                      "pageRoute": "car-make",
                       "sectionRoute": "car-details",
-                      "pageRoute": "car-year"
+                      "goToStart": false
                     },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
-                    "theme": null,
+                    "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": null
+                    "iconClass": "icon-arrow-right"
+                  }
+                },
+                {
+                  "id": "imgBackground",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<div class=\"image-background\" style=\"background-image: url('cmsUrl/api/assets/con-fusion/f8a121e0-29e4-471d-a2ee-a4cb67f0857f/virseker-background-scaled-down.jpg')\"></div><div class=\"hero-gradient-overlay absolute inset-0\"></div>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -476,7 +555,17 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"mb-0 text-base sm:text-lg font-medium\">Hallo!</p>\n<h1 class=\"mb-6 text-base sm:text-lg leading-5 sm:leading-6 font-medium\">Kry binne ŉ paar minute dekking vir jou kar.</h1>"
+                    "html": "<h2 class=\"text-sub-1\">Voordat ons jou kwotasie doen, benodig ons inligting.</h2>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtSEOContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"mb-0 text-base sm:text-lg font-normal text-sub-1\">Hallo!</p>\n<h1 class=\"mb-5 text-base sm:text-lg leading-5 sm:leading-6 font-normal text-sub-1\">Kry jou kwotasie vir huisinhoud binne minute.</h1>",
+                    "htmlEvents": []
                   }
                 },
                 {
@@ -484,37 +573,17 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"font-normal\">\n    Met Virseker kry jy meer as net 'n polis. Ons bied jou dekking gemik op jou spesifieke behoeftes, trots in Afrikaans.\n</p>\n\n<p class=\"font-normal\">\n    Kry vandag nog jou verpligting-vrye karversekering kwotasie aanlyn!\n</p>",
+                    "html": "<p class=\"font-normal text-sub-1\">\n    Met Virseker kry jy meer as net 'n polis. Ons bied jou dekking gemik op jou spesifieke behoeftes, trots in Afrikaans.\n</p>\n\n<p class=\"font-normal text-sub-1\">\n    Kry vandag nog jou verpligting-vrye huisinhoudversekering kwotasie aanlyn!\n</p>",
                     "htmlEvents": []
                   }
                 },
                 {
-                  "id": "txtQuestion",
+                  "id": "txtDisclaimer",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Kies die maak van jou kar</h2>",
+                    "html": "<p class=\"text-xs font-normal text-sub-1 pt-4 mb-0\">Deur jou kontakinligting te gee, stem jy in om gekontak te word en kommunikasie van Virseker te ontvang.</p>",
                     "htmlEvents": []
-                  }
-                },
-                {
-                  "id": "txtPlaceHolder",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Soek vir kar maak",
-                    "errorMessage": null
-                  }
-                },
-                {
-                  "id": "txtNotListed",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
-                    "formControlName": null,
-                    "text": "Die maak van die kar is nie gelys nie",
-                    "errorMessage": null
                   }
                 }
               ]
@@ -525,7 +594,7 @@
     }
   },
   "created": "2024-08-05T07:19:42Z",
-  "lastModified": "2025-04-01T15:22:42Z",
+  "lastModified": "2026-01-15T07:14:34Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxYjRkNzQ5MC0yZGYwLTQxNzQtOTBkYS0xOTY4Y2YyY2NmNTAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -605,14 +674,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 3,
+  "version": 7,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50/2",
+      "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50/6",
       "method": "GET"
     },
     "draft/create": {

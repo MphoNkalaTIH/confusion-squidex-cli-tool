@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": "contact-details"
+      "iv": ""
     },
     "icon": {
       "iv": null
@@ -346,7 +346,7 @@
           "pageBase": null,
           "pageDisabled": null,
           "hideTrackbar": true,
-          "hideBackButton": null,
+          "hideBackButton": true,
           "excludeFromTrackbar": null,
           "showPremiumBanner": null,
           "slidePremiumBanner": null,
@@ -372,7 +372,7 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Name",
                     "helperText": null,
-                    "placeholderText": "Please complete2",
+                    "placeholderText": "Please complete",
                     "formControlName": "name",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
@@ -497,6 +497,15 @@
                     "html": "<p class=\"font-normal text-ag-white\">\n    Auto&General, the insurer you can trust when it matters most. Never not there.\n</p>\n\n<p class=\"font-normal text-ag-white\">\n    Get your obligation-free online car insurance quote today!\n</p>",
                     "htmlEvents": []
                   }
+                },
+                {
+                  "id": "txtDisclaimer",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<p class=\"text-xs font-normal text-sub-1 pt-4 mb-0\">By providing your contact information, you agree to be contacted and receive communications from Auto & General.</p>",
+                    "htmlEvents": []
+                  }
                 }
               ]
             }
@@ -506,7 +515,7 @@
     }
   },
   "created": "2025-12-09T07:45:10Z",
-  "lastModified": "2025-12-09T07:45:10Z",
+  "lastModified": "2026-01-14T10:44:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJjN2ZlZDI1ZS0yMGIwLTQ1NjctODhiMS02ZGI4M2RhZThmMmEiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -586,14 +595,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a/0",
+      "href": "/api/content/con-fusion/quote-sections/c7fed25e-20b0-4567-88b1-6db83dae8f2a/1",
       "method": "GET"
     },
     "draft/create": {

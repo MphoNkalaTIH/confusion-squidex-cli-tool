@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": "contact-details"
+      "iv": ""
     },
     "icon": {
       "iv": null
@@ -505,7 +505,7 @@
     }
   },
   "created": "2025-07-25T06:23:59Z",
-  "lastModified": "2025-12-01T09:42:18Z",
+  "lastModified": "2026-01-14T10:44:17Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkODVhNTVmOC1mN2ZmLTQ1YjgtYjhkNy1lZTA1NDlkZmE3MWIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -585,14 +585,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 4,
+  "version": 5,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/3",
+      "href": "/api/content/con-fusion/quote-sections/d85a55f8-f7ff-45b8-b8d7-ee0549dfa71b/4",
       "method": "GET"
     },
     "draft/create": {
