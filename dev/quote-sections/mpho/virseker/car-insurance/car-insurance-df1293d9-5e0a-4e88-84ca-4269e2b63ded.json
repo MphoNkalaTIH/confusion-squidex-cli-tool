@@ -1,7 +1,7 @@
 {
   "id": "df1293d9-5e0a-4e88-84ca-4269e2b63ded",
   "createdBy": "subject:691308cce029e4394dd7b3b3",
-  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
+  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -591,7 +591,7 @@
     }
   },
   "created": "2026-01-15T08:20:26Z",
-  "lastModified": "2026-01-15T08:20:26Z",
+  "lastModified": "2026-01-19T08:29:05Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJkZjEyOTNkOS01ZTBhLTRlODgtODRjYS00MjY5ZTJiNjNkZWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -671,14 +671,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/df1293d9-5e0a-4e88-84ca-4269e2b63ded",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/df1293d9-5e0a-4e88-84ca-4269e2b63ded/0",
+      "href": "/api/content/con-fusion/quote-sections/df1293d9-5e0a-4e88-84ca-4269e2b63ded/2",
       "method": "GET"
     },
     "draft/create": {
