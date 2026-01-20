@@ -1,10 +1,10 @@
 {
-  "id": "618d935c-54e0-4d12-8327-83d51e1254de",
-  "createdBy": "client:con-fusion:owner",
+  "id": "27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42",
+  "createdBy": "subject:691308cce029e4394dd7b3b3",
   "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
-      "iv": "virseker"
+      "iv": "budget"
     },
     "baseRoute": {
       "iv": "home-contents"
@@ -22,7 +22,7 @@
       "iv": "dev"
     },
     "abTestingId": {
-      "iv": ""
+      "iv": "contact-details"
     },
     "icon": {
       "iv": ""
@@ -41,102 +41,6 @@
     },
     "pages": {
       "iv": [
-        {
-          "name": "Home Content Areas",
-          "route": "areas",
-          "pageBase": null,
-          "pageDisabled": null,
-          "hideTrackbar": false,
-          "hideBackButton": true,
-          "excludeFromTrackbar": null,
-          "showPremiumBanner": null,
-          "slidePremiumBanner": null,
-          "doManualCalculations": null,
-          "isDropOffAnchorPoint": true,
-          "flowEntryPoint": true,
-          "minifyTrackbar": null,
-          "applyTransparentHeader": null,
-          "readonly": null,
-          "createLead": true,
-          "additionalData": null,
-          "components": [
-            {
-              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
-              "selector": null,
-              "moduleName": null,
-              "standaloneComponent": "HomeContentsAreasPageComponent",
-              "formItems": [
-                {
-                  "id": "txtContent",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"mb-2 text-base font-medium leading-none tracking-normal\">Hallo!</p>\n<h1 class=\"mb-5 text-base font-medium leading-none tracking-normal\">Kry jou kwotasie vir huisinhoud binne minute.</h1>",
-                    "htmlEvents": []
-                  }
-                },
-                {
-                  "id": "txtCollapseText",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p class=\"font-normal\">\n    Met Virseker kry jy meer as net 'n polis. Ons bied jou dekking gemik op jou spesifieke behoeftes, trots in Afrikaans.\n</p>\n\n<p class=\"font-normal\">\n    Kry vandag nog jou verpligting-vrye huisinhoudversekering kwotasie aanlyn!\n</p>",
-                    "htmlEvents": []
-                  }
-                },
-                {
-                  "id": "txtQuestion",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>In watter soort area hou jy jou huisinhoud?</h2>",
-                    "htmlEvents": []
-                  }
-                },
-                {
-                  "id": "btnArea",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Kies Area",
-                    "route": {
-                      "baseRoute": "home-contents",
-                      "sectionRoute": "home-details",
-                      "pageRoute": "access-control"
-                    },
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
-                },
-                {
-                  "id": "btnSecurityComplex",
-                  "conditionValue": null,
-                  "details": {
-                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Kies Area",
-                    "route": {
-                      "baseRoute": "home-contents",
-                      "sectionRoute": "home-details",
-                      "pageRoute": "residential-address"
-                    },
-                    "url": null,
-                    "img": null,
-                    "useImageAsButton": null,
-                    "theme": "primary",
-                    "class": null,
-                    "widthClass": null,
-                    "iconClass": null
-                  }
-                }
-              ]
-            }
-          ]
-        },
         {
           "name": "Home Content Area Access Control",
           "route": "access-control",
@@ -167,7 +71,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het die {{areaType}} toegangsbeheer?</h2>",
+                    "html": "<h2>Does the {{areaType}} have access control?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -176,7 +80,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Kies Area",
+                    "label": "Select Area",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "residential-address",
@@ -226,7 +130,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Voer asseblief u woonadres in</h2>",
+                    "html": "<h2>Please enter your residential address</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -235,11 +139,11 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Voer volledige adres in",
-                    "helperText": "Huisnommer, straatnaam, voorstad, poskode",
-                    "placeholderText": "Soek",
-                    "cannotFindItemText": "Ek kan nie my adres vind nie",
-                    "loadingText": "Soek..."
+                    "label": "Enter full address",
+                    "helperText": "House number, street name, suburb, postal code",
+                    "placeholderText": "Search",
+                    "cannotFindItemText": "I can't find my address",
+                    "loadingText": null
                   }
                 },
                 {
@@ -247,14 +151,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Voer volledige adres in",
-                    "helperText": "Huisnommer, straatnaam, voorstad, poskode",
-                    "placeholderText": "Soek",
+                    "label": "Enter full address",
+                    "helperText": "House number, street name, suburb, postal code",
+                    "placeholderText": "Search",
                     "formControlName": "addressFull",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Volledige woonadres is vereis",
-                      "invalidErrorMessage": "Woonadres is ongeldig",
+                      "requiredErrorMessage": "Full residential address is required",
+                      "invalidErrorMessage": "Residential address is invalid",
                       "maxLength": null,
                       "minLength": null,
                       "isRequired": true,
@@ -269,7 +173,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "hotel",
@@ -282,7 +186,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -318,7 +222,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Fout met Adres</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Address Error</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -331,7 +235,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>Ons het ŉ fout met jou adres ondervind. Gaan asseblief na die volgende bladsy om dit self in te tik.</p>\r\n",
+                          "html": "<p>We encountered an error regarding your address. Please proceed to the next page to capture it manually.</p>\r\n",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -344,7 +248,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Volgende",
+                          "label": "Next",
                           "route": {
                             "baseRoute": "home-contents",
                             "pageRoute": "risk-address",
@@ -400,7 +304,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"mb-5\"><h2>Voer asseblief u woonadres in</h2>"
+                    "html": "<h4 class=\"mb-5\">You told us that the home where your car is normally parked, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
                   }
                 },
                 {
@@ -408,7 +312,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h4 class=\"mb-5\"><h2>Voer asseblief u woonadres in</h2>"
+                    "html": "<h4 class=\"mb-5\">You told us that the home where your home contents is kept, is in the {{suburb}} area/suburb.</h4>\n<h2>What’s the full residential address?</h2>"
                   }
                 },
                 {
@@ -416,7 +320,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": null,
                     "url": null,
                     "img": null,
@@ -424,7 +328,7 @@
                     "theme": null,
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -432,14 +336,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Straatadres",
-                    "helperText": "bv. 1 Waltham Drive",
-                    "placeholderText": "Vul asseblief in",
+                    "label": "Street address",
+                    "helperText": "eg. 1 Waltham Drive",
+                    "placeholderText": "Please complete",
                     "formControlName": "address1",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Straatadres is verpligtend",
-                      "invalidErrorMessage": "Straatadres is ongeldig",
+                      "requiredErrorMessage": "Street address is required",
+                      "invalidErrorMessage": "Street address is invalid",
                       "maxLength": 40,
                       "minLength": null,
                       "isRequired": true,
@@ -454,14 +358,14 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Kompleks / gebou (opsioneel)",
-                    "helperText": "Naam van die kompleks of gebou, eenheidnommer of vloer",
-                    "placeholderText": "Vul asseblief in",
+                    "label": "Complex / building (optional)",
+                    "helperText": "Complex or building name, unit number or floor",
+                    "placeholderText": "Please complete",
                     "formControlName": "address2",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Naam van die kompleks of gebou is verpligtend",
-                      "invalidErrorMessage": "Naam van die kompleks of gebou is ongeldig",
+                      "requiredErrorMessage": "Name of the Complex or building is required",
+                      "invalidErrorMessage": "Name of the Complex or building is invalid",
                       "maxLength": 40,
                       "minLength": null,
                       "isRequired": null,
@@ -478,7 +382,7 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Suburb",
                     "helperText": "Home area / suburb",
-                    "placeholderText": "Vul asseblief in",
+                    "placeholderText": "Please complete",
                     "formControlName": "suburbName",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -542,7 +446,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -554,7 +458,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -562,11 +466,11 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "03eb013d-aa61-42ea-a6b8-29809fbba2e1",
-                    "label": "Voorstad",
-                    "helperText": "Huisarea / voorstad",
-                    "placeholderText": "Vul asseblief in",
-                    "cannotFindItemText": "Ek kan nie my area of voorstad vind nie",
-                    "loadingText": "Soek..."
+                    "label": "Suburb",
+                    "helperText": "Home area / suburb",
+                    "placeholderText": "Please complete",
+                    "cannotFindItemText": "I can't find my area or suburb",
+                    "loadingText": null
                   }
                 },
                 {
@@ -574,7 +478,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Voer asseblief u woonadres in</h2>",
+                    "html": "<h2>Please enter your residential address</h2>",
                     "htmlEvents": []
                   }
                 }
@@ -612,7 +516,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Is jou woonplek 'n hotel, kommune, losieshuis, barak of plakkershut?</h2>",
+                    "html": "<h2>Is your residence a hotel, commune, boarding house, barracks or shack?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -621,7 +525,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee",
+                    "label": "No",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -641,7 +545,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -661,7 +565,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "Wat is hierdie?",
+                    "html": "What is this?",
                     "htmlEvents": []
                   }
                 },
@@ -677,7 +581,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Tipe wonings</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Residence types</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -690,7 +594,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    <b>Losieshuis of kommune of residensiële hotel</b>\n    <br/>\n    'n Groep van 3 of meer onverwante mense \n    wat saamwoon, verantwoordelikhede en\n    besittings deel.\n</p>\n<p>\n    <b>Barakke</b>\n    <br/>\n    'n Groep van onverwante mense wat in\n    dieselfde gebou woon en wat\n    gemeenskaplike areas soos 'n \n    sitkamerarea of badkamer het.\n</p>\n<p> \n    <b>Plakkershut</b>\n    <br/>\n    Skuiling of woonplek wat van stukke hout,\n    metaal of ander materiaal gemaak is.\n</p>",
+                          "html": "<p>\n    <b>Boarding house or commune or residential hotel</b>\n    <br/>\n    A group of 3 or more unrelated people who live together, share \n    responsibilities and possessions.\n</p>\n<p>\n    <b>Barracks</b>\n    <br/>\n    A group of unrelated people who live in the same building and have communal \n    spaces like a lounge area or bathroom.\n</p>\n<p> \n    <b>Shack</b>\n    <br/>\n    Shelter or dwelling made from pieces of wood, metal or other materials.\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -703,7 +607,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Reg so",
+                          "label": "Got it",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -732,7 +636,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Is jy seker?</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Are you sure?</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -745,7 +649,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    Klink hierdie soos jou woning?\n</p>\n<p>\n    <b>Losieshuis of kommune of residensiële hotel</b>\n    <br/>\n    'n Groep van 3 of meer onverwante mense\n    wat saamwoon, verantwoordelikhede en\n    besittings deel.\n</p>\n<p>\n    <b>Barakke</b>\n    <br/>\n    'n Groep van onverwante mense wat in\n    dieselfde gebou woon en wat\n    gemeenskaplike areas soos 'n\n    sitkamerarea of badkamer het.\n</p>\n<p> \n    <b>Plakkershut</b>\n    <br/>\n    Skuiling of woonplek wat van stukke hout,\n    metaal of ander materiaal gemaak is.\n</p>",
+                          "html": "<p>\n    Does this sound like your residence?\n</p>\n<p>\n    <b>Boarding house or commune or residential hotel</b>\n    <br/>\n    A group of 3 or more unrelated people who live together, share \n    responsibilities and possessions.\n</p>\n<p>\n    <b>Barracks</b>\n    <br/>\n    A group of unrelated people who live in the same building and have communal \n    spaces like a lounge area or bathroom.\n</p>\n<p> \n    <b>Shack</b>\n    <br/>\n    Shelter or dwelling made from pieces of wood, metal or other materials.\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -758,7 +662,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Ja, dis op my van toepassing",
+                          "label": "Yes, this applies to me",
                           "route": {
                             "baseRoute": "",
                             "sectionRoute": "callback-pages",
@@ -782,7 +686,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Nie op my van toepassing nie",
+                          "label": "No, this does not apply to me",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -833,7 +737,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter tipe woning is dit?</h2>",
+                    "html": "<h2>What type of residence is it?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -842,7 +746,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "Nie seker nie? <a id=\"lnkReviewTypes\">Gaan tipe wonings na</a>",
+                    "html": "<div class=\"mb-4\">Not sure? <a id=\"lnkReviewTypes\">Review residence types</a></div>",
                     "htmlEvents": [
                       {
                         "id": "lnkReviewTypes",
@@ -858,7 +762,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "My woning is volgens die voorgeskrewe bouregulasies gebou en in stand gehou.",
+                    "html": "My residence is constructed and maintained according to prescribed building regulations.",
                     "htmlEvents": []
                   }
                 },
@@ -867,7 +771,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "Leer meer",
+                    "html": "Learn more",
                     "htmlEvents": []
                   }
                 },
@@ -876,7 +780,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -888,7 +792,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 },
                 {
@@ -903,7 +807,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Tipe wonings</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Residence types</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -916,7 +820,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\r\n\t<b>Huis</b><br />\r\n\t'n Vrystaande residensiële gebou, deur 'n familie bewoon.\r\n</p>\r\n<p>\r\n\t<b>Kothuis</b><br />\r\n\t'n Algeheel funksionele struktuur op 'n gedeelde eiendom met sy eie ingang.\r\n</p>\r\n<p>\r\n\t<b>Meenthuis</b><br />\r\n\t'n Eiendom wat gemeenskaplike areas met ander inwoners in dieselfde ontwikkeling deel.\r\n</p>\r\n<p>\r\n\t<b>Woonstel - Grondvloer</b><br />\r\n\t'n Eenheid wat in 'n blok woonstelle op die grondvlak geleë is.\r\n</p>\r\n<p>\r\n\t<b>Woonstel - Bo grondvloer</b><br />\r\n\t'n Eenheid wat in 'n blok woonstelle bo die grondvlak geleë is.\r\n</p>\r\n<p>\r\n\t<b>Troshuis</b><br />\r\n\t'n Eiendom wat in groeperings gebou is, met 'n gedeelde muur binne die huis.\r\n</p>\r\n<p>\r\n\t<b>Mobiele woning</b><br />\r\n\t'n Voorafvervaardigde of skeepshouer woning.\r\n</p>",
+                          "html": "<p>\r\n\t<b>House</b><br />\r\n\tA free-standing residential building occupied by a family.\r\n</p>\r\n<p>\r\n\t<b>Cottage</b><br />\r\n\tA fully functional structure on a shared property with it’s own entrance.\r\n</p>\r\n<p>\r\n\t<b>Town house</b><br />\r\n\tA property that shares common areas with other residents in the same development.\r\n</p>\r\n<p>\r\n\t<b>Flat - Ground floor</b><br />\r\n\tA unit located in a block of flats on the ground level.\r\n</p>\r\n<p>\r\n\t<b>Flat - Above ground floor</b><br />\r\n\tA unit located in a block of flats above ground level.\r\n</p>\r\n<p>\r\n\t<b>Cluster house</b><br />\r\n\tA property that is built in groupings, with a shared wall within the home.\r\n</p>\r\n<p>\r\n\t<b>Park home</b><br />\r\n\tA prefabricated or container home.\r\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -929,7 +833,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Reg so",
+                          "label": "Got it",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -958,7 +862,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<h3 class=\"m-0 font-bold\">Voorgeskrewe bouregulasies</h3>",
+                          "html": "<h3 class=\"m-0 font-bold\">Prescribed building regulations</h3>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -971,7 +875,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                          "html": "<p>\n    Bouregulasies of gebou beheer verwys na \n    'n struktuur wat volgens die voorgeskrewe \n    Suid-Afrikaanse boustandaarde gebou is. \n    Dit help om te verseker dat alle geboue \n    veilig is vir mense wat binne en om die\n    geboue is.\n</p>\n<p>\n    Dit is belangrik om hierdie vraag akkuraat\n    te beantwoord want dit kan jou \n    toekomstige eise beïnvloed.\n</p>",
+                          "html": "<p>\n    Building regulations or building control refers to a structure that is built \n    according to the prescribed South African building standards. This helps to \n    ensure that all buildings are safe for people who are in and around it.\n</p>\n<p>\n    It is important to answer this question accurately as it could impact your \n    future claims.\n</p>",
                           "htmlEvents": []
                         },
                         "conditionValue": null,
@@ -984,7 +888,7 @@
                         "type": null,
                         "details": {
                           "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                          "label": "Reg so",
+                          "label": "Got it",
                           "route": null,
                           "url": null,
                           "img": null,
@@ -1035,7 +939,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het jou huis of enige struktuur op die perseel enige grasdak(ke)?</h2>",
+                    "html": "<h2>Does your home or any structure on the property have a thatched roof?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1044,7 +948,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Proceed",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1120,7 +1024,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het jy bure langs elke direkte grens van die eiendom?</h2>",
+                    "html": "<h2>Do you have neighbours alongside each direct border of the property?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1129,7 +1033,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p>\n    Bure is mense in enige bewoonde gebou(e) langs weerskante en aan die agterkant van jou eiendom, uitsluitend die bure oorkant die pad van jou eiendom.\n</p>",
+                    "html": "<p>\n    A neighbour is any occupied building along either side/s and back of your property, excluding those living across the road or opposite your property.\n</p>",
                     "htmlEvents": []
                   }
                 },
@@ -1138,7 +1042,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "move-in-date",
@@ -1159,7 +1063,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee",
+                    "label": "No",
                     "route": {
                       "baseRoute": "home-contents",
                       "pageRoute": "property-border",
@@ -1209,7 +1113,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Wat grens aan jou eiendom?</h2>",
+                    "html": "<h2>What is your property bordered by?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1218,7 +1122,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p>Kies tot 4</p>",
+                    "html": "<p>Select up to 4:</p>",
                     "htmlEvents": []
                   }
                 },
@@ -1227,7 +1131,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1239,7 +1143,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 }
               ]
@@ -1276,7 +1180,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Wanneer het jy by jou woning ingetrek?</h2>",
+                    "html": "<h2>When did you move into your home?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1285,13 +1189,13 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Datum van intrek",
-                    "helperText": "Maand/Jaar",
-                    "placeholderText": "Maand/Jaar",
+                    "label": "Move in date",
+                    "helperText": "Month/Year",
+                    "placeholderText": "Month/Year",
                     "formControlName": "inpMoveInDate",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
-                      "requiredErrorMessage": "Asseblief vul jou intrek datum in",
+                      "requiredErrorMessage": "Please fill in a move in date",
                       "invalidErrorMessage": null,
                       "maxLength": null,
                       "minLength": null,
@@ -1307,7 +1211,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1319,7 +1223,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 }
               ]
@@ -1356,7 +1260,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het jy enige inbrake/diefstalle of verliese by die versekerde adres gedurende die afgelope 7 jaar gehad?</h2>",
+                    "html": "<h2>Have you had any burglaries/thefts or losses at the insured address in the last 7 years?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1365,7 +1269,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1385,7 +1289,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee",
+                    "label": "No",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1434,7 +1338,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Wanneer het die mees onlangse insident gebeur?</h2>",
+                    "html": "<h2>When did the most recent incident occur?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1443,9 +1347,9 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
-                    "label": "Datum van insident",
-                    "helperText": "Maand/Jaar",
-                    "placeholderText": "Maand/Jaar",
+                    "label": "Incident date",
+                    "helperText": "Day/Month/Year",
+                    "placeholderText": "Day/Month/Year",
                     "formControlName": "inpIncidentDate",
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -1465,7 +1369,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1477,7 +1381,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 }
               ]
@@ -1514,7 +1418,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het jy vir hierdie insident geëis?</h2>",
+                    "html": "<h2>Did you claim for this incident?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1523,7 +1427,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1543,7 +1447,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee",
+                    "label": "No",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1592,7 +1496,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Sal jou woning vir meer as 60 dae per jaar onbewoon wees?</h2>",
+                    "html": "<h2>Will your home be unoccupied for more than 60 days in a year?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1601,7 +1505,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p>\n     Dit is die totale aantal dae wat die gewone \n     inwoner(s) nie tuis sal wees nie. Dit kan 'n \n     enkele lang tydperk van tot 60 dae wees, of \n     veelvuldige korter periodes wat, wanneer \n     gekombineerd, 60 dae per jaar opmaak.\n</p>",
+                    "html": "<p>\n    This is the total number of days the usual resident(s) will not be at home. This can either be a single long period of up to 60 days or multiple shorter periods that, when combined, add up to 60 days in a year.\n</p>",
                     "htmlEvents": []
                   }
                 },
@@ -1610,7 +1514,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Ja",
+                    "label": "Yes",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1630,7 +1534,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Nee",
+                    "label": "No",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1679,7 +1583,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Het jou woning ŉ diefalarmstelsel wat in ŉ werkende toestand is?</h2>",
+                    "html": "<h2>Does your home have a burglar alarm that is in working order?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1688,7 +1592,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Proceed",
                     "route": {
                       "baseRoute": "home-contents",
                       "sectionRoute": "home-details",
@@ -1737,7 +1641,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>Watter ekstra veiligheidsmaatreëls het jy?</h2>",
+                    "html": "<h2>What extra security measures do you have?</h2>",
                     "htmlEvents": []
                   }
                 },
@@ -1746,7 +1650,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<p>\n    Kies alle toepaslike opsies\n</p>",
+                    "html": "<p>\n    Select all that apply\n</p>",
                     "htmlEvents": []
                   }
                 },
@@ -1755,7 +1659,7 @@
                   "conditionValue": null,
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
-                    "label": "Volgende",
+                    "label": "Next",
                     "route": {
                       "baseRoute": "policy",
                       "sectionRoute": "personal-details",
@@ -1767,7 +1671,7 @@
                     "theme": "primary",
                     "class": null,
                     "widthClass": null,
-                    "iconClass": "icon-arrow-right"
+                    "iconClass": null
                   }
                 }
               ]
@@ -1777,11 +1681,11 @@
       ]
     }
   },
-  "created": "2024-07-16T12:13:48Z",
-  "lastModified": "2026-01-20T14:51:39Z",
+  "created": "2026-01-20T14:58:31Z",
+  "lastModified": "2026-01-20T14:58:31Z",
   "status": "Published",
   "statusColor": "#4bb958",
-  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI2MThkOTM1Yy01NGUwLTRkMTItODMyNy04M2Q1MWUxMjU0ZGUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyN2Q0M2IzNi0yY2Y4LTQ4ZTAtODhiMy1iYzllYjViYTFmNDIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
   "schemaId": "bb901411-d9ef-408e-9b34-3da44ac6c5f4",
   "schemaName": "quote-sections",
   "schemaDisplayName": "quote-sections",
@@ -1858,40 +1762,40 @@
     }
   ],
   "isDeleted": false,
-  "version": 18,
+  "version": 1,
   "_links": {
     "self": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/17",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42/0",
       "method": "GET"
     },
     "draft/create": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/draft",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42/draft",
       "method": "POST"
     },
     "status/Archived": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/status",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42/status",
       "method": "PUT",
       "metadata": "#eb3142"
     },
     "status/Draft": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de/status",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42/status",
       "method": "PUT",
       "metadata": "#8091a5"
     },
     "delete": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42",
       "method": "DELETE"
     },
     "patch": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42",
       "method": "PATCH"
     },
     "update": {
-      "href": "/api/content/con-fusion/quote-sections/618d935c-54e0-4d12-8327-83d51e1254de",
+      "href": "/api/content/con-fusion/quote-sections/27d43b36-2cf8-48e0-88b3-bc9eb5ba1f42",
       "method": "PUT"
     }
   }
