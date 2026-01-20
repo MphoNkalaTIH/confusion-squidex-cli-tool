@@ -1,7 +1,7 @@
 {
   "id": "8b017c12-7d4f-483f-b1c6-7c33ab60656f",
   "createdBy": "subject:6964aeb19263f2650f1c3bd2",
-  "lastModifiedBy": "subject:691308f7e029e4394dd7b3b4",
+  "lastModifiedBy": "subject:6964aeb19263f2650f1c3bd2",
   "data": {
     "brand": {
       "iv": "budget"
@@ -16,7 +16,7 @@
       "iv": ""
     },
     "name": {
-      "iv": "Choose Quote - Rudzani"
+      "iv": "Choose Quote"
     },
     "environmentId": {
       "iv": "rudzani"
@@ -234,7 +234,7 @@
     }
   },
   "created": "2026-01-19T14:46:55Z",
-  "lastModified": "2026-01-20T09:33:59Z",
+  "lastModified": "2026-01-20T09:14:12Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI4YjAxN2MxMi03ZDRmLTQ4M2YtYjFjNi03YzMzYWI2MDY1NmYiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -314,14 +314,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 14,
+  "version": 13,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/8b017c12-7d4f-483f-b1c6-7c33ab60656f",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/8b017c12-7d4f-483f-b1c6-7c33ab60656f/13",
+      "href": "/api/content/con-fusion/quote-sections/8b017c12-7d4f-483f-b1c6-7c33ab60656f/12",
       "method": "GET"
     },
     "draft/create": {
