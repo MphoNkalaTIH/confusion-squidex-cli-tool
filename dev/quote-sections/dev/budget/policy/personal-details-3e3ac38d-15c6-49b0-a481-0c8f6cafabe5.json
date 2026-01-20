@@ -892,7 +892,12 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Next",
-                    "route": null,
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "names",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false
+                    },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -2003,7 +2008,7 @@
     }
   },
   "created": "2025-12-24T09:24:15Z",
-  "lastModified": "2025-12-24T09:24:15Z",
+  "lastModified": "2026-01-20T13:58:15Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIzZTNhYzM4ZC0xNWM2LTQ5YjAtYTQ4MS0wYzhmNmNhZmFiZTUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2083,14 +2088,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5/0",
+      "href": "/api/content/con-fusion/quote-sections/3e3ac38d-15c6-49b0-a481-0c8f6cafabe5/1",
       "method": "GET"
     },
     "draft/create": {
