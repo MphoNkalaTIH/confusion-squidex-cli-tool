@@ -1,7 +1,7 @@
 {
   "id": "23edbbba-3636-45c8-84ad-e6d3b7d7cdc5",
   "createdBy": "subject:69130a2fe029e4394dd7b3b8",
-  "lastModifiedBy": "subject:691308f7e029e4394dd7b3b4",
+  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
   "data": {
     "brand": {
       "iv": "budget"
@@ -1778,7 +1778,7 @@
     }
   },
   "created": "2025-04-29T06:47:24Z",
-  "lastModified": "2025-10-24T09:58:41Z",
+  "lastModified": "2026-01-20T15:18:06Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyM2VkYmJiYS0zNjM2LTQ1YzgtODRhZC1lNmQzYjdkN2NkYzUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1858,14 +1858,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 9,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/8",
+      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/9",
       "method": "GET"
     },
     "draft/create": {
