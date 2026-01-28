@@ -46,7 +46,7 @@
           "route": "areas",
           "pageBase": null,
           "pageDisabled": null,
-          "hideTrackbar": true,
+          "hideTrackbar": false,
           "hideBackButton": true,
           "excludeFromTrackbar": null,
           "showPremiumBanner": null,
@@ -57,7 +57,7 @@
           "minifyTrackbar": null,
           "applyTransparentHeader": true,
           "readonly": null,
-          "createLead": true,
+          "createLead": null,
           "additionalData": null,
           "components": [
             {
@@ -1778,7 +1778,7 @@
     }
   },
   "created": "2025-04-29T06:47:24Z",
-  "lastModified": "2026-01-20T15:18:06Z",
+  "lastModified": "2026-01-21T08:03:21Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyM2VkYmJiYS0zNjM2LTQ1YzgtODRhZC1lNmQzYjdkN2NkYzUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1858,14 +1858,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 10,
+  "version": 12,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/9",
+      "href": "/api/content/con-fusion/quote-sections/23edbbba-3636-45c8-84ad-e6d3b7d7cdc5/11",
       "method": "GET"
     },
     "draft/create": {

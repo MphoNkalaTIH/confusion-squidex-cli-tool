@@ -57,7 +57,7 @@
           "minifyTrackbar": null,
           "applyTransparentHeader": null,
           "readonly": null,
-          "createLead": true,
+          "createLead": null,
           "additionalData": null,
           "components": [
             {
@@ -1778,7 +1778,7 @@
     }
   },
   "created": "2024-07-16T12:13:36Z",
-  "lastModified": "2026-01-20T14:42:12Z",
+  "lastModified": "2026-01-21T08:03:56Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyZThiMDc4My1hOGIwLTRmZmEtOTc4Zi01Zjg2ZWQwOWUxODIiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -1858,14 +1858,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 8,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/2e8b0783-a8b0-4ffa-978f-5f86ed09e182",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/2e8b0783-a8b0-4ffa-978f-5f86ed09e182/6",
+      "href": "/api/content/con-fusion/quote-sections/2e8b0783-a8b0-4ffa-978f-5f86ed09e182/7",
       "method": "GET"
     },
     "draft/create": {
