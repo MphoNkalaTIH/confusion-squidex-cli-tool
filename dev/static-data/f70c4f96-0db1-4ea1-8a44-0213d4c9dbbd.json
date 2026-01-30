@@ -1,0 +1,125 @@
+{
+  "id": "f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd",
+  "createdBy": "subject:6964aeb19263f2650f1c3bd2",
+  "lastModifiedBy": "subject:6964aeb19263f2650f1c3bd2",
+  "data": {
+    "name": {
+      "iv": "Vehicle Factory Options Category"
+    },
+    "filter": {
+      "iv": null
+    },
+    "sortAlphabetically": {
+      "iv": null
+    },
+    "sortIndexically": {
+      "iv": true
+    },
+    "brandOverrides": {
+      "iv": []
+    },
+    "data": {
+      "iv": [
+        {
+          "code": "01",
+          "index": 1,
+          "copy": "Performance and drivetrain.",
+          "description": "Performance and drivetrain",
+          "class": null,
+          "image": [
+            "5fc3acb2-e820-4f47-8c4d-c97ae7dd680f"
+          ]
+        },
+        {
+          "code": "02",
+          "index": 2,
+          "copy": "Exterior and interior modifications.",
+          "description": "Exterior and Interior",
+          "class": null,
+          "image": [
+            "b5e72104-e34e-4f03-8666-e7aa82dc031b"
+          ]
+        },
+        {
+          "code": "03",
+          "index": 3,
+          "copy": "Technology features.",
+          "description": "Technology",
+          "class": null,
+          "image": [
+            "3091d4b8-938f-4574-89f0-be04f637d105"
+          ]
+        }
+      ]
+    }
+  },
+  "created": "2026-01-29T23:06:47Z",
+  "lastModified": "2026-01-29T23:06:47Z",
+  "status": "Published",
+  "statusColor": "#4bb958",
+  "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJmNzBjNGY5Ni0wZGIxLTRlYTEtOGE0NC0wMjEzZDRjOWRiYmQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
+  "schemaId": "45bfcadd-fb49-4008-8c6b-b52ce3a29971",
+  "schemaName": "static-data",
+  "schemaDisplayName": "Static Data",
+  "referenceFields": [
+    {
+      "fieldId": 1,
+      "name": "name",
+      "isHidden": false,
+      "isLocked": false,
+      "isDisabled": false,
+      "partitioning": "invariant",
+      "properties": {
+        "fieldType": "String",
+        "isUnique": false,
+        "isEmbeddable": false,
+        "inlineEditable": false,
+        "createEnum": false,
+        "contentType": "Unspecified",
+        "editor": "Input",
+        "isRequired": false,
+        "isRequiredOnPublish": false,
+        "isHalfWidth": false
+      },
+      "_links": {}
+    }
+  ],
+  "isDeleted": false,
+  "version": 1,
+  "_links": {
+    "self": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd",
+      "method": "GET"
+    },
+    "previous": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/0",
+      "method": "GET"
+    },
+    "draft/create": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/draft",
+      "method": "POST"
+    },
+    "status/Archived": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/status",
+      "method": "PUT",
+      "metadata": "#eb3142"
+    },
+    "status/Draft": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/status",
+      "method": "PUT",
+      "metadata": "#8091a5"
+    },
+    "delete": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd",
+      "method": "DELETE"
+    },
+    "patch": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd",
+      "method": "PATCH"
+    },
+    "update": {
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd",
+      "method": "PUT"
+    }
+  }
+}

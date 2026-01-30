@@ -456,8 +456,8 @@
                     "label": "Proceed",
                     "route": {
                       "baseRoute": "car-insurance",
-                      "pageRoute": "car-make",
-                      "sectionRoute": "car-details",
+                      "pageRoute": "contact-details",
+                      "sectionRoute": "",
                       "goToStart": false
                     },
                     "url": null,
@@ -695,7 +695,7 @@
     }
   },
   "created": "2026-01-23T07:25:52Z",
-  "lastModified": "2026-01-28T11:20:31Z",
+  "lastModified": "2026-01-28T11:36:04Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyNzg5ODU1Mi1mYWUzLTQ2YmUtYThmYS0xZGFiZTc3MDY0ODgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -775,14 +775,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/27898552-fae3-46be-a8fa-1dabe7706488",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/27898552-fae3-46be-a8fa-1dabe7706488/6",
+      "href": "/api/content/con-fusion/quote-sections/27898552-fae3-46be-a8fa-1dabe7706488/9",
       "method": "GET"
     },
     "draft/create": {
