@@ -1,7 +1,7 @@
 {
   "id": "1b4d7490-2df0-4174-90da-1968cf2ccf50",
   "createdBy": "client:con-fusion:pipeline",
-  "lastModifiedBy": "subject:6901d2c6387c4328e4754abd",
+  "lastModifiedBy": "client:con-fusion:pipeline",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -458,8 +458,8 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Naam",
                     "helperText": null,
-                    "placeholderText": "Vul asseblief in",
-                    "required": null,
+                    "placeholderText": "",
+                    "formControlName": "name",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Hierdie veld is verpligtend",
@@ -470,8 +470,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "name"
+                    }
                   }
                 },
                 {
@@ -481,8 +480,8 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Van",
                     "helperText": null,
-                    "placeholderText": "Vul asseblief in",
-                    "required": null,
+                    "placeholderText": "",
+                    "formControlName": "surname",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Hierdie veld is verpligtend",
@@ -493,8 +492,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": true
-                    },
-                    "formControlName": "surname"
+                    }
                   }
                 },
                 {
@@ -504,8 +502,8 @@
                     "schemaId": "d87f44f0-5eb3-41c4-b7c5-efef8da1135a",
                     "label": "Selfoonnommer",
                     "helperText": null,
-                    "placeholderText": "Vul asseblief in",
-                    "required": null,
+                    "placeholderText": "",
+                    "formControlName": "number",
                     "validation": {
                       "schemaId": "88cb73c5-e7cc-484d-bff1-6e22e92436e4",
                       "requiredErrorMessage": "Hierdie veld is verpligtend",
@@ -516,8 +514,7 @@
                       "isWhiteSpace": true,
                       "isRequiredTrue": null,
                       "validateSpecialCharacters": null
-                    },
-                    "formControlName": "number"
+                    }
                   }
                 },
                 {
@@ -594,7 +591,7 @@
     }
   },
   "created": "2024-08-05T07:19:42Z",
-  "lastModified": "2026-01-15T07:14:34Z",
+  "lastModified": "2026-01-21T11:10:45Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIxYjRkNzQ5MC0yZGYwLTQxNzQtOTBkYS0xOTY4Y2YyY2NmNTAiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -674,14 +671,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 7,
+  "version": 12,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50/6",
+      "href": "/api/content/con-fusion/quote-sections/1b4d7490-2df0-4174-90da-1968cf2ccf50/11",
       "method": "GET"
     },
     "draft/create": {

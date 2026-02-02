@@ -2525,7 +2525,7 @@
     }
   },
   "created": "2024-10-14T12:23:35Z",
-  "lastModified": "2026-01-14T10:44:18Z",
+  "lastModified": "2026-01-21T11:10:45Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJiNWNlMmEwNS02ZDZkLTQ1NjUtOTE5OS01ZWRkZDZmOWZjZWQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2605,14 +2605,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 8,
+  "version": 11,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/b5ce2a05-6d6d-4565-9199-5eddd6f9fced",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/b5ce2a05-6d6d-4565-9199-5eddd6f9fced/7",
+      "href": "/api/content/con-fusion/quote-sections/b5ce2a05-6d6d-4565-9199-5eddd6f9fced/10",
       "method": "GET"
     },
     "draft/create": {

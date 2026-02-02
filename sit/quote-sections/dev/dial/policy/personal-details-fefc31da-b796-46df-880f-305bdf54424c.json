@@ -789,7 +789,12 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "IdSelect",
-                    "route": null,
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "email-address",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false
+                    },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -871,7 +876,12 @@
                   "details": {
                     "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
                     "label": "Next",
-                    "route": null,
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "email-address",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false
+                    },
                     "url": null,
                     "img": null,
                     "useImageAsButton": null,
@@ -2000,7 +2010,7 @@
     }
   },
   "created": "2024-08-23T10:52:15Z",
-  "lastModified": "2026-01-14T10:44:17Z",
+  "lastModified": "2026-01-21T11:10:45Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiJmZWZjMzFkYS1iNzk2LTQ2ZGYtODgwZi0zMDViZGY1NDQyNGMiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LXNpdC5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2080,14 +2090,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 9,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c/8",
+      "href": "/api/content/con-fusion/quote-sections/fefc31da-b796-46df-880f-305bdf54424c/9",
       "method": "GET"
     },
     "draft/create": {
