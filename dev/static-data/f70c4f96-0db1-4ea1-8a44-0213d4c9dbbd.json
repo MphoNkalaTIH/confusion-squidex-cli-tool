@@ -25,7 +25,7 @@
           "index": 1,
           "copy": "Performance and drivetrain.",
           "description": "Performance and drivetrain",
-          "class": null,
+          "class": "performance",
           "image": [
             "5fc3acb2-e820-4f47-8c4d-c97ae7dd680f"
           ]
@@ -35,7 +35,7 @@
           "index": 2,
           "copy": "Exterior and interior modifications.",
           "description": "Exterior and Interior",
-          "class": null,
+          "class": "exterior",
           "image": [
             "b5e72104-e34e-4f03-8666-e7aa82dc031b"
           ]
@@ -45,7 +45,7 @@
           "index": 3,
           "copy": "Technology features.",
           "description": "Technology",
-          "class": null,
+          "class": "technology",
           "image": [
             "3091d4b8-938f-4574-89f0-be04f637d105"
           ]
@@ -54,7 +54,7 @@
     }
   },
   "created": "2026-01-29T23:06:47Z",
-  "lastModified": "2026-01-29T23:06:47Z",
+  "lastModified": "2026-02-02T22:17:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJmNzBjNGY5Ni0wZGIxLTRlYTEtOGE0NC0wMjEzZDRjOWRiYmQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -85,14 +85,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 2,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/0",
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/1",
       "method": "GET"
     },
     "draft/create": {

@@ -21,110 +21,110 @@
     "data": {
       "iv": [
         {
-          "code": "01",
-          "index": null,
+          "code": "ENGINE_UPGRADE",
+          "index": 1,
           "copy": null,
           "description": "Engine upgrade",
-          "class": null,
+          "class": "performance",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "01",
-          "index": null,
+          "code": "EXHAUST",
+          "index": 2,
           "copy": null,
           "description": "Performance exhaust",
-          "class": null,
+          "class": "performance",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "01",
-          "index": null,
+          "code": "DRIVETRAIN",
+          "index": 3,
           "copy": null,
           "description": "Drivetrain upgrade",
-          "class": "",
+          "class": "performance",
           "image": null,
           "copyOverrides": []
         },
         {
-          "code": "02",
-          "index": null,
+          "code": "WHEELS",
+          "index": 4,
           "copy": null,
           "description": "Alloy wheels",
-          "class": null,
+          "class": "exterior",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "02",
-          "index": null,
+          "code": "BODY_KITS",
+          "index": 5,
           "copy": "",
           "description": "Body kits",
-          "class": null,
+          "class": "exterior",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "02",
-          "index": null,
+          "code": "PAINT",
+          "index": 6,
           "copy": null,
           "description": "Premium paint",
-          "class": null,
+          "class": "exterior",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "02",
-          "index": null,
+          "code": "SUNROOF",
+          "index": 7,
           "copy": null,
           "description": "Panoramic sunroof",
-          "class": "",
+          "class": "exterior",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "02",
-          "index": null,
+          "code": "SEATS",
+          "index": 8,
           "copy": null,
           "description": "Leather seats",
-          "class": "",
+          "class": "exterior",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "03",
-          "index": null,
+          "code": "SECURITY_SYSTEM",
+          "index": 9,
           "copy": null,
           "description": "Advanced security system",
-          "class": null,
+          "class": "technology",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "03",
-          "index": null,
+          "code": "INFOTAINMENT_SYS",
+          "index": 10,
           "copy": null,
           "description": "Upgraded infotainment system",
-          "class": null,
+          "class": "technology",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
         },
         {
-          "code": "03",
-          "index": null,
+          "code": "GPS",
+          "index": 11,
           "copy": null,
           "description": "GPS navigation system",
-          "class": null,
+          "class": "technology",
           "image": null,
           "copyOverrides": [],
           "brandOverrides": []
@@ -133,7 +133,7 @@
     }
   },
   "created": "2026-01-29T23:24:10Z",
-  "lastModified": "2026-01-29T23:24:10Z",
+  "lastModified": "2026-02-02T22:21:02Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiI5NDJjZDM4OS0xMjBjLTQwN2ItOTZkMC02MzFjYTkyNTRkNWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -164,14 +164,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 1,
+  "version": 3,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/942cd389-120c-407b-96d0-631ca9254d5e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/942cd389-120c-407b-96d0-631ca9254d5e/0",
+      "href": "/api/content/con-fusion-static-data/static-data/942cd389-120c-407b-96d0-631ca9254d5e/2",
       "method": "GET"
     },
     "draft/create": {
