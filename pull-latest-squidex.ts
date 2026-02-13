@@ -58,7 +58,7 @@ function getEnvironmentUrl(app: string, schema: string): string {
 async function getComponentsData(
   token: string,
   app: string,
-  schema: string
+  schema: string,
 ): Promise<any[] | null> {
   const ENVIRONMENT_URL = getEnvironmentUrl(app, schema);
 
@@ -78,7 +78,8 @@ async function getComponentsData(
     });
 }
 
-function getNameAsRoute(name: string) {
+function getNameAsRoute(name: string | null | undefined) {
+  if (!name) return "unknown";
   return name.replace(" ", "-").toLocaleLowerCase();
 }
 
@@ -86,7 +87,7 @@ function buildFilePath(
   app: string,
   data: DataFields,
   id: string,
-  outDir: string
+  outDir: string,
 ): string {
   if (app === "con-fusion-static") {
     return path.join(outDir, `${id}.json`);
@@ -95,9 +96,9 @@ function buildFilePath(
     let brand = data.brand?.iv ?? "";
     let route = data.route?.iv ?? "";
     let baseRoute =
-      data.baseRoute?.iv != ""
-        ? data.baseRoute!.iv
-        : getNameAsRoute(data.name!.iv);
+      data.baseRoute?.iv && data.baseRoute.iv !== ""
+        ? data.baseRoute.iv
+        : getNameAsRoute(data.name?.iv);
 
     const folderPath = path.join(outDir, env, brand, baseRoute);
 
@@ -161,7 +162,7 @@ async function writeDataFiles(app: string, items: any[], outDir: string) {
   const filesToDelete = existingFiles.filter((existingFile) => {
     const resolvedExisting = path.resolve(existingFile);
     return !writtenFiles.some(
-      (writtenFile) => writtenFile === resolvedExisting
+      (writtenFile) => writtenFile === resolvedExisting,
     );
   });
 
@@ -186,7 +187,7 @@ async function writeDataFiles(app: string, items: any[], outDir: string) {
 
     if (!ACCESS_TOKEN) {
       console.error(
-        "[#] No access token found. Please set the TOKEN environment variable [#]"
+        "[#] No access token found. Please set the TOKEN environment variable [#]",
       );
       return;
     }
@@ -201,19 +202,19 @@ async function writeDataFiles(app: string, items: any[], outDir: string) {
 
     if (!PULL_FROM_APP || !PULL_FROM_SCHEMA) {
       console.error(
-        "[#] Usage: node pull-latest-squidex.js <pull-from-app> <pull-from-schema> [#]"
+        "[#] Usage: node pull-latest-squidex.js <pull-from-app> <pull-from-schema> [#]",
       );
       return;
     }
 
     console.log(
-      `Pulling latest data from Squidex app: ${PULL_FROM_APP}, schema: ${PULL_FROM_SCHEMA}`
+      `Pulling latest data from Squidex app: ${PULL_FROM_APP}, schema: ${PULL_FROM_SCHEMA}`,
     );
 
     const items = await getComponentsData(
       ACCESS_TOKEN,
       PULL_FROM_APP,
-      PULL_FROM_SCHEMA
+      PULL_FROM_SCHEMA,
     );
     if (!items) {
       console.error("[#] No items found or error fetching data [#]");

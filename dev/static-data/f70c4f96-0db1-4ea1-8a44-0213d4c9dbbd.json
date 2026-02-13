@@ -22,7 +22,7 @@
       "iv": [
         {
           "code": "01",
-          "index": 1,
+          "index": 0,
           "copy": "Performance and drivetrain.",
           "description": "Performance and drivetrain",
           "class": "performance",
@@ -32,7 +32,7 @@
         },
         {
           "code": "02",
-          "index": 2,
+          "index": 1,
           "copy": "Exterior and interior modifications.",
           "description": "Exterior and Interior",
           "class": "exterior",
@@ -42,7 +42,7 @@
         },
         {
           "code": "03",
-          "index": 3,
+          "index": 2,
           "copy": "Technology features.",
           "description": "Technology",
           "class": "technology",
@@ -54,7 +54,7 @@
     }
   },
   "created": "2026-01-29T23:06:47Z",
-  "lastModified": "2026-02-02T22:17:10Z",
+  "lastModified": "2026-02-03T17:04:05Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiJmNzBjNGY5Ni0wZGIxLTRlYTEtOGE0NC0wMjEzZDRjOWRiYmQiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -85,14 +85,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 2,
+  "version": 4,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/1",
+      "href": "/api/content/con-fusion-static-data/static-data/f70c4f96-0db1-4ea1-8a44-0213d4c9dbbd/3",
       "method": "GET"
     },
     "draft/create": {

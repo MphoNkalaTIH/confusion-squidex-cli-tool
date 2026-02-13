@@ -1,7 +1,7 @@
 {
   "id": "280190d5-a5f1-4092-8a11-cab80a4dd15e",
   "createdBy": "subject:69131eb5e029e4394dd7c302",
-  "lastModifiedBy": "subject:69131eb5e029e4394dd7c302",
+  "lastModifiedBy": "subject:6970c230c55ad9523a79c25d",
   "data": {
     "name": {
       "iv": "Insured value bullet"
@@ -194,7 +194,7 @@
               "brand": "virseker",
               "index": null,
               "copy": null,
-              "description": "Ons betaal die beraamde bedrag na inspeksie uit, soos aangedui deur ŉ motorhandelaar. Dit sal jou die laagste moontlike premie bied, maar ook die laagste uitbetaling wanneer jy ŉ eis instel.",
+              "description": "Dit sal jou die laagste moontlike premie bied, maar ook die laagste uitbetaling wanneer jy ŉ eis instel",
               "image": null,
               "copyOverrides": []
             }
@@ -224,7 +224,7 @@
     }
   },
   "created": "2025-08-04T07:10:50Z",
-  "lastModified": "2025-12-04T14:11:25Z",
+  "lastModified": "2026-02-13T06:57:37Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbi1zdGF0aWMtZGF0YSIsInMiOiJzdGF0aWMtZGF0YSIsImkiOiIyODAxOTBkNS1hNWYxLTQwOTItOGExMS1jYWI4MGE0ZGQxNWUiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -255,14 +255,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 9,
+  "version": 10,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/8",
+      "href": "/api/content/con-fusion-static-data/static-data/280190d5-a5f1-4092-8a11-cab80a4dd15e/9",
       "method": "GET"
     },
     "draft/create": {
