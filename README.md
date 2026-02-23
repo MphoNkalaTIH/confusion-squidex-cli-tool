@@ -1,80 +1,145 @@
-# Confusion-Squidex
-This is a repo for squidex version control.
+# Confusion-Squidex CLI Tool
 
-## Project Setup
-### Prerequisites
+A robust command-line interface tool designed for managing Squidex content version control for the **Con-Fusion** project. This tool facilitates synchronization between local development environments and various deployment stages (DEV, SIT, UAT), allowing seamless content migration and versioning.
 
-Make sure you have the following tools installed:
+## 🚀 Features
 
-- **Node @latest:** For running the app.
-- **Visual Studio:** To run and test the application.
+- **Pull Content:** Fetch the latest content models (`quote-flow`, `quote-sections`, `static-data`, `enums`) from Squidex environments.
+- **Push Content:** Update Squidex with local modifications, ensuring content consistency.
+- **Merge Utilities:** Intelligent JSON merging capabilities to handle content updates and avoid conflicts during integration.
+- **Multi-Environment Support:** Seamlessly switch between DEV, SIT, and UAT environments via configuration.
 
-### Running the Application
+## 📋 Prerequisites
 
-Follow these steps to set up and run the system:
+Ensure you have the following installed on your machine:
 
-1. **Clone the Repository and Secrets:**
-   Clone the repo
+- **Node.js** (Latest LTS version recommended)
+- **TypeScript** (Global installation optional, as `npx` is used)
+- **Visual Studio Code** (Recommended editor)
+
+## 🛠️ Installation
+
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/MphoNkalaTIH/Confusion-Squidex.git
    cd Confusion-Squidex
    ```
 
-   Add secrets file ```.env``` in your root folder with fields:
+2. **Install dependencies:**
    ```bash
-      ENVIRONMENT="DEV" #examples: DEV, SIT, UAT
-      CLIENT_ID="example_client_id"
-      CLIENT_SECRET="example_client_secret"
-      DEV_QOUTE_SECTIONS_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion/quote-sections"
-      SIT_QOUTE_SECTIONS_URL="m_i_a"
-      UAT_QOUTE_SECTIONS_URL="m_i_a"
+   npm install
    ```
 
-3. **Build and Run the project**
+## ⚙️ Configuration
 
-   The project uses node for execution.
-   
-   ```bash
-   Containers will be create on application launch and or create/ recreated on application start so no need to run any docker commands
-   ```
+Create a `.env` file in the root directory. You can copy the structure below and fill in your specific Squidex credentials and endpoints.
 
-   Commands:
-   - **pull latest models from squidex:** ```>>> npx ts-node pull-squidex-data.ts```
-   - **push updated models to squidex:** ```>>> npx ts-node push-squidex-data.ts output/thabang/budget/car-insurance/car-details-68a9b8df-f9c5-4af6-9207-363bb2a90a19.json 68a9b8df-f9c5-4af6-9207-363bb2a90a19```
+```env
+# General Configuration
+ENVIRONMENT="DEV" # Options: DEV, SIT, UAT
 
+# Authentication
+CLIENT_ID="<your_client_id>"
+CLIENT_SECRET="<your_client_secret>"
+# Token is required for pushing content.
+# Note: The push script might use specific tokens found in session storage or generated client secrets.
+DEV_TOKEN="<your_access_token>"
 
-6. **Monitor the System:**
+# Base URLs (Required for Push)
+DEV_BASE_URL="https://squidex-dev.isservices.co.za"
+SIT_BASE_URL="<sit_base_url>"
+UAT_BASE_URL="<uat_base_url>"
 
-## Architecture Diagram
+# API Endpoints (Required for Pull)
+# Format: {ENV}_QUOTE_SECTIONS_URL, {ENV}_QUOTE_FLOW_URL, etc.
 
-Here is an overview of the architecture flow:
+# DEV Endpoints
+DEV_QUOTE_SECTIONS_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion/quote-sections"
+DEV_QUOTE_FLOW_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion/quote-flow"
+DEV_STATIC_DATA_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion-static/static-data"
+DEV_ENUMS_URL="https://squidex-dev.isservices.co.za/api/content/con-fusion-static/enums"
+
+# SIT Endpoints (Example)
+# SIT_QUOTE_SECTIONS_URL="..."
+```
+
+> **Tip:** To get your Access Token for pushing, log in to Squidex, go to your Profile -> Session Storage. For Client ID/Secret, check the App Settings in Squidex.
+
+## 💻 Usage
+
+### 1. Pulling Content
+
+Fetch the latest data from Squidex to your local machine. The data is saved in folders corresponding to the configured `ENVIRONMENT` (e.g., `dev/`, `sit/`).
+
+**Syntax:** `npm run pull-latest <app-name> <schema-name>`
+
+| Command                                             | Description            |
+| :-------------------------------------------------- | :--------------------- |
+| `npm run pull-latest con-fusion quote-sections`     | Fetches Quote Sections |
+| `npm run pull-latest con-fusion quote-flow`         | Fetches Quote Flows    |
+| `npm run pull-latest con-fusion-static static-data` | Fetches Static Data    |
+| `npm run pull-latest con-fusion-static enums`       | Fetches Enums          |
+
+### 2. Pushing Content
+
+Push specific local JSON files back to Squidex to update the content.
+
+**Syntax:** `npm run push-squidex-content <file-path>`
+
+```bash
+npm run push-squidex-content output/thabang/budget/car-insurance/car-details-68a9b8df.json
+```
+
+_Note: Ensure the file path is correct and relative to the project root. The file needs to contain the `_links` property for the update URL._
+
+### 3. Merging Files
+
+Merge changes from a source file into a target file. This uses a diff/patch mechanism to update the target file with changes from the source.
+
+**Syntax:** `npm run merge-files <source-file> <target-file>`
+
+```bash
+npm run merge-files new-version.json old-version.json
+```
+
+_Effect: Updates `old-version.json` to match `new-version.json`._
+
+## 📂 Project Structure
 
 ```
-[State 1 Squidex Models] ---> [Confusion-Squidex] ---> [State 2 Squidex Models]
-
-[Confusion-Squidex] can:
-  1. pull latest models from (dev, sit, or uat squidex)
-  2. manage version control
-  3. push updated models to cloud squidex (coming soon)
-
+Confusion-Squidex/
+├── dev/                 # Output folder for DEV environment data
+│   ├── quote-flow/
+│   ├── quote-sections/
+│   └── ...
+├── sit/                 # Output folder for SIT environment data
+├── uat/                 # Output folder for UAT environment data
+├── pull-latest-squidex.ts   # Script to fetch data
+├── push-squidex-content.ts  # Script to update data
+├── merge-squidex-files.ts   # Script to merge JSON files
+├── commands.md          # Reference for commands
+├── .env                 # Environment variables (GitIgnored)
+└── package.json         # Project dependencies and scripts
 ```
 
+## ⚠️ Troubleshooting
 
+- **App Not Running?**
+  - Run `npm install` to ensure all dependencies are present.
+  - Verify your `.env` file exists and has valid credentials.
 
-## Troubleshooting
+- **Authentication Errors?**
+  - Check if your `CLIENT_ID` and `CLIENT_SECRET` are correct.
+  - For push operations, ensure your `TOKEN` is valid and not expired.
 
-- **App Not running:** Ensure that you run npm install before runnng any app commands. And also ensure that you have a .env file with updated credentials.
-- **Don't have credentials:**
-  ```  
-  1. not having an access token
-     -- log in to squidex and check application tab -> under user profile in session storage you should see access token
-  2. getting client id and client secret
-    -- log in to squidex >> navigate to profile >> generate secret >> copy client id and secret
-  ```
+- **"Unknown Schema" Error?**
+  - Ensure you are using the exact schema names: `quote-sections`, `quote-flow`, `static-data`, or `enums`.
 
+## 🤝 Contributing
 
-npm run pull-latest con-fusion quote-sections
-npm run pull-latest con-fusion quote-flow
-npm run pull-latest con-fusion-static static-data
-npm run pull-latest con-fusion-static enums
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
