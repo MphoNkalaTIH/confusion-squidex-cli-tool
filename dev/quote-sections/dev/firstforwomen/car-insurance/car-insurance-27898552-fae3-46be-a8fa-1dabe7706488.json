@@ -393,7 +393,7 @@
                   "details": {
                     "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
                     "formControlName": "canProcessInfo",
-                    "text": "By pressing proceed, you consent to 1st for Women processing your personal information for insurance and risk management purposes.",
+                    "text": "By pressing proceed, you consent to First for Women processing your personal information for insurance and risk management purposes.",
                     "errorMessage": null,
                     "validation": {
                       "schemaId": "60e038bc-28bd-41b6-83f2-c0767af9f64a",
@@ -409,11 +409,66 @@
                   }
                 },
                 {
+                  "id": "dlgReadMore",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "c4afcd96-f0b2-4058-a6c1-093362a33a88",
+                    "formItems": [
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtTitle",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<h3 class=\"m-0\">Use of personal information</h3>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "txtContent",
+                        "type": null,
+                        "details": {
+                          "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                          "html": "<p>\n   In order to provide you with the services we are required to process your \n   personal information and will do so lawfully in accordance with our business \n   requirements and legal obligations. \n</p>\n<p>  \n   You acknowledge that the personal information may be verified and / or \n   processed for insurance, financial services and risk management purposes by \n   1st for Women and it’s associates against any other reasonable and legitimate \n   sources or databases to ensure the accuracy and completeness of any personal \n   information.\n</p>\n<p>\n    Pre-populated information displayed is retrieved from legitimate sources as \n    well as our internal database.\n</p>",
+                          "htmlEvents": []
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      },
+                      {
+                        "schemaId": "04416764-8f53-4063-8e42-12737a25f2d5",
+                        "id": "btnGotIt",
+                        "type": null,
+                        "details": {
+                          "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                          "label": "Got It",
+                          "route": null,
+                          "url": null,
+                          "img": null,
+                          "useImageAsButton": null,
+                          "theme": "primary",
+                          "class": null,
+                          "widthClass": null,
+                          "iconClass": null
+                        },
+                        "conditionValue": null,
+                        "additionalData": null,
+                        "conditions": null
+                      }
+                    ]
+                  }
+                },
+                {
                   "id": "txtIdContent",
                   "conditionValue": null,
                   "details": {
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
-                    "html": "<h2>What’s your South African ID number?</h2>\n<h4 class=\"text-sub-9 leading-4\">Your ID number enables us to give you a personalised, accurate quote.</h4>",
+                    "html": "<h2>What’s your South African ID number?</h2>\n<h4 class=\"text-sub-9 leading-4 pb-3\">Your ID number enables us to give you a personalised, accurate quote.</h4>",
                     "htmlEvents": []
                   }
                 },
@@ -701,7 +756,7 @@
     }
   },
   "created": "2026-01-23T07:25:52Z",
-  "lastModified": "2026-02-12T07:46:17Z",
+  "lastModified": "2026-02-18T13:11:03Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiIyNzg5ODU1Mi1mYWUzLTQ2YmUtYThmYS0xZGFiZTc3MDY0ODgiLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -781,14 +836,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 11,
+  "version": 18,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/27898552-fae3-46be-a8fa-1dabe7706488",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/27898552-fae3-46be-a8fa-1dabe7706488/10",
+      "href": "/api/content/con-fusion/quote-sections/27898552-fae3-46be-a8fa-1dabe7706488/17",
       "method": "GET"
     },
     "draft/create": {

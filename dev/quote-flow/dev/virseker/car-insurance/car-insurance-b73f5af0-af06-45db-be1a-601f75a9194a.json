@@ -1,7 +1,7 @@
 {
   "id": "b73f5af0-af06-45db-be1a-601f75a9194a",
   "createdBy": "subject:63d3c3cdc16968f87b36989f",
-  "lastModifiedBy": "subject:691308cce029e4394dd7b3b3",
+  "lastModifiedBy": "subject:6970c230c55ad9523a79c25d",
   "data": {
     "brand": {
       "iv": "virseker"
@@ -25,6 +25,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": false,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -160,6 +163,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": false,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -210,6 +216,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -278,6 +287,9 @@
           "defaultUnacceptableRisk": true,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -385,6 +397,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": true,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -455,6 +470,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": true,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -525,6 +543,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -572,6 +593,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -622,6 +646,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -690,6 +717,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": null,
           "hideTrackbar": null,
           "showPremiumBanner": null,
@@ -712,6 +742,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -769,6 +802,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -831,6 +867,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -893,6 +932,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -955,6 +997,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -1012,6 +1057,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -1074,6 +1122,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -1131,6 +1182,336 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
                     "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Under Age Risk Page - Generic",
+          "route": "under-age-risk",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": true,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Ons kan ongelukkig nie dekking bied nie as gevolg van die minimum ouderdom van 18 wat vereis word om  ŉ polishouer te wees.</h2>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie<br/>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtReplaceContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "dekking aan jou",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceSaveAndResumeContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "vir jou karversekering",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "jou huisinhoud verseker",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Cancelled Policy (same brand)",
+          "route": "cancelled-policy",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": true,
+          "defaultUnderSixMonths": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Ons kan ongelukkig nie enige dekking aan jou verskaf nie omdat ons rekords wys dat ŉ vorige polis wat aan jou naam gekoppel is deur die versekeraar gekanselleer was.\nAs jy enige addisionele inligting oor die afwysing van die dekking benodig, kan jy ons Risiko Aanvaarding span by 011 489 4655 bel.</h2>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie<br/>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtReplaceContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "dekking aan jou",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceSaveAndResumeContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "vir jou karversekering",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "jou huisinhoud verseker",
+                    "errorMessage": null
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Under Six Months Policy",
+          "route": "under-six-months",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": true,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Gaan na die tuisblad",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h2 class=\"mt-0 mb-8 text-virseker-dark-blue text-base font-medium leading-5\">Ons het agtergekom dat jy in die afgelope 6 maande ŉ polis by Virseker gehad het.</h2>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie<br/>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\">Dankie!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col my-8 text-5xl text-virseker-dark-blue leading-tight\"><span>Hallo</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtReplaceContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "dekking aan jou",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceSaveAndResumeContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "vir jou karversekering",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "jou huisinhoud verseker",
+                    "errorMessage": null
                   }
                 }
               ]
@@ -1726,7 +2107,7 @@
     }
   },
   "created": "2023-08-29T08:20:55Z",
-  "lastModified": "2025-11-17T10:14:53Z",
+  "lastModified": "2026-02-20T13:11:32Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImI3M2Y1YWYwLWFmMDYtNDVkYi1iZTFhLTYwMWY3NWE5MTk0YSIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1764,14 +2145,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 768,
+  "version": 770,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/767",
+      "href": "/api/content/con-fusion/quote-flow/b73f5af0-af06-45db-be1a-601f75a9194a/769",
       "method": "GET"
     },
     "draft/create": {

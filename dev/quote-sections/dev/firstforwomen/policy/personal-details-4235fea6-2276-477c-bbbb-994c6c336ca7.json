@@ -648,6 +648,37 @@
                   }
                 },
                 {
+                  "id": "txtDateOfBirth",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "Date of birth",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "btnEditDateOfBirth",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Date of birth",
+                    "route": {
+                      "pageRoute": "birthday",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false,
+                      "baseRoute": "policy"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
                   "id": "disclosureDocumentDialog",
                   "conditionValue": null,
                   "details": {
@@ -2010,7 +2041,7 @@
     }
   },
   "created": "2025-05-28T10:41:56Z",
-  "lastModified": "2025-12-23T14:23:21Z",
+  "lastModified": "2026-02-24T09:05:10Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0MjM1ZmVhNi0yMjc2LTQ3N2MtYmJiYi05OTRjNmMzMzZjYTciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2090,14 +2121,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 13,
+  "version": 15,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/12",
+      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/14",
       "method": "GET"
     },
     "draft/create": {

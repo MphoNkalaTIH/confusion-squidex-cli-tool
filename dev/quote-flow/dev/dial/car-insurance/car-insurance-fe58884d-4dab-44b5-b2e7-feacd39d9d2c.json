@@ -1,7 +1,7 @@
 {
   "id": "fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
   "createdBy": "subject:63d3c3cdc16968f87b36989e",
-  "lastModifiedBy": "subject:6893342d9468c1aba43eda7d",
+  "lastModifiedBy": "subject:6970c230c55ad9523a79c25d",
   "data": {
     "brand": {
       "iv": "dial"
@@ -25,6 +25,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": false,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -141,6 +144,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": false,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -191,6 +197,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -259,6 +268,9 @@
           "defaultUnacceptableRisk": true,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -366,6 +378,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": true,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -436,6 +451,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": true,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -506,6 +524,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -553,6 +574,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -603,6 +627,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -671,6 +698,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": null,
           "hideTrackbar": null,
           "showPremiumBanner": null,
@@ -693,6 +723,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -750,6 +783,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -812,6 +848,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -874,6 +913,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -936,6 +978,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -993,6 +1038,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -1055,6 +1103,9 @@
           "defaultUnacceptableRisk": null,
           "defaultHasMultiRiskItems": null,
           "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": null,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
           "hideBackButton": true,
           "hideTrackbar": true,
           "showPremiumBanner": false,
@@ -1112,6 +1163,116 @@
                     "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
                     "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\"><span>Hi</span>{{name}}!</h1>",
                     "htmlEvents": []
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "schemaId": "7c424ad9-1e9b-4085-8682-0829a26468bc",
+          "name": "Under Age Risk Page - Generic",
+          "route": "under-age-risk",
+          "defaultReferToManager": null,
+          "defaultUnacceptableRisk": null,
+          "defaultHasMultiRiskItems": null,
+          "defaultPolicyExist": null,
+          "defaultUnderAgeRisk": true,
+          "defaultPolicyCancelled": null,
+          "defaultUnderSixMonths": null,
+          "hideBackButton": true,
+          "hideTrackbar": true,
+          "showPremiumBanner": false,
+          "conditions": null,
+          "components": [
+            {
+              "schemaId": "1da13552-ee1e-4d54-ac3b-3367afce079c",
+              "selector": "callback-page",
+              "moduleName": "CarDetailsModule",
+              "standaloneComponent": null,
+              "formItems": [
+                {
+                  "id": "btnHome",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Take me to the homepage",
+                    "route": {
+                      "pageRoute": "car-make",
+                      "sectionRoute": "car-details"
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
+                },
+                {
+                  "id": "txtContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<hr class=\"border-sub-4 w-full my-6\">\n<p class=\"mt-0 mb-6 text-sub-5 text-base font-normal leading-5\">We unfortunately cannot offer you cover due to the minimum age of 18 required to be a policyholder.</p>"
+                  }
+                },
+                {
+                  "id": "txtHeadingWithName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\"><span>Thank you</span><span>{{name}}!</span></h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithoutName",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\">Thank you!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtHeadingWithOutThankYou",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "073d28cc-a2f7-46ad-baca-86d36983f4de",
+                    "html": "<h1 class=\"flex flex-col mt-6 mb-0 text-[33px] text-zodiac-blue font-rounded leading-tight\"><span>Hi</span>{{name}}!</h1>",
+                    "htmlEvents": []
+                  }
+                },
+                {
+                  "id": "txtReplaceContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "insure your car",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceSaveAndResumeContent",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "offer you cover",
+                    "errorMessage": null
+                  }
+                },
+                {
+                  "id": "txtReplaceContentHH",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "d9fd9c41-a1de-40d7-a3e6-20de54afab90",
+                    "formControlName": null,
+                    "text": "insure your home contents",
+                    "errorMessage": null
                   }
                 }
               ]
@@ -1708,7 +1869,7 @@
     }
   },
   "created": "2024-01-31T15:43:25Z",
-  "lastModified": "2025-10-17T11:43:20Z",
+  "lastModified": "2026-02-20T07:16:01Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1mbG93IiwiaSI6ImZlNTg4ODRkLTRkYWItNDRiNS1iMmU3LWZlYWNkMzlkOWQyYyIsInUiOiJodHRwczovL3NxdWlkZXgtZGV2Lmlzc2VydmljZXMuY28uemEvIn0=",
@@ -1746,14 +1907,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 194,
+  "version": 195,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/193",
+      "href": "/api/content/con-fusion/quote-flow/fe58884d-4dab-44b5-b2e7-feacd39d9d2c/194",
       "method": "GET"
     },
     "draft/create": {
