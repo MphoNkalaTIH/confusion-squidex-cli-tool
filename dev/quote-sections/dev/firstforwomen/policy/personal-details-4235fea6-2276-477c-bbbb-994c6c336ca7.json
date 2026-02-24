@@ -921,6 +921,27 @@
                     "widthClass": null,
                     "iconClass": null
                   }
+                },
+                {
+                  "id": "btnUpdate",
+                  "conditionValue": null,
+                  "details": {
+                    "schemaId": "6511ab38-0ec1-400f-b534-01df9de76e22",
+                    "label": "Update",
+                    "route": {
+                      "baseRoute": "policy",
+                      "pageRoute": "confirm-details",
+                      "sectionRoute": "personal-details",
+                      "goToStart": false
+                    },
+                    "url": null,
+                    "img": null,
+                    "useImageAsButton": null,
+                    "theme": null,
+                    "class": null,
+                    "widthClass": null,
+                    "iconClass": null
+                  }
                 }
               ]
             }
@@ -2041,7 +2062,7 @@
     }
   },
   "created": "2025-05-28T10:41:56Z",
-  "lastModified": "2026-02-24T09:05:10Z",
+  "lastModified": "2026-02-24T09:48:42Z",
   "status": "Published",
   "statusColor": "#4bb958",
   "editToken": "eyJhIjoiY29uLWZ1c2lvbiIsInMiOiJxdW90ZS1zZWN0aW9ucyIsImkiOiI0MjM1ZmVhNi0yMjc2LTQ3N2MtYmJiYi05OTRjNmMzMzZjYTciLCJ1IjoiaHR0cHM6Ly9zcXVpZGV4LWRldi5pc3NlcnZpY2VzLmNvLnphLyJ9",
@@ -2121,14 +2142,14 @@
     }
   ],
   "isDeleted": false,
-  "version": 15,
+  "version": 17,
   "_links": {
     "self": {
       "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7",
       "method": "GET"
     },
     "previous": {
-      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/14",
+      "href": "/api/content/con-fusion/quote-sections/4235fea6-2276-477c-bbbb-994c6c336ca7/16",
       "method": "GET"
     },
     "draft/create": {
